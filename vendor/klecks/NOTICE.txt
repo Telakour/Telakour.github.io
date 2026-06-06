@@ -1,0 +1,11 @@
+Klecks vendor bundle
+
+Source: https://github.com/bitbof/klecks
+Revision: 3b809e415f8685b5973831b7c76c40a45ffbec43
+Build input: official GitHub source archive, built with `npm run lang:build` and `npm run build:embed`.
+Runtime: local files in this directory only. The Creator iframe host must not fetch Klecks code from the network.
+
+License: MIT. See LICENSE.klecks.txt in this directory.
+
+Branding note:
+The upstream README says the Klecks logo and bitbof logo are excluded from the public-domain icon note, and the Kleki name/brand are separately licensed. Trickcal Creator uses its own host controls and does not present this panel as Kleki.

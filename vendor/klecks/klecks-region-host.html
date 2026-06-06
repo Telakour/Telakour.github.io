@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Region Paint Host</title>
+    <style>
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+        background: #202520;
+        color: #eef6ee;
+        font-family: system-ui, "Microsoft YaHei", sans-serif;
+      }
+
+      .region-host-status {
+        position: fixed;
+        inset: 0;
+        display: grid;
+        place-items: center;
+        padding: 24px;
+        text-align: center;
+        z-index: 5;
+        background:
+          linear-gradient(45deg, rgba(255, 255, 255, 0.055) 25%, transparent 25%),
+          linear-gradient(-45deg, rgba(255, 255, 255, 0.055) 25%, transparent 25%),
+          linear-gradient(45deg, transparent 75%, rgba(255, 255, 255, 0.055) 75%),
+          linear-gradient(-45deg, transparent 75%, rgba(255, 255, 255, 0.055) 75%),
+          #202520;
+        background-position: 0 0, 0 12px, 12px -12px, -12px 0;
+        background-size: 24px 24px;
+      }
+
+      .region-host-status[hidden] {
+        display: none;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="status" class="region-host-status">等待当前部件贴图...</div>
+    <script>
+      (function () {
+        const locale = new URLSearchParams(window.location.search).get("locale") || "zh-CN";
+        const localeMap = {
+          "zh-CN": "zh-CN",
+          "ko-KR": "ko",
+          "ja-JP": "ja",
+        };
+        const klecksLocale = localeMap[locale] || "zh-CN";
+        try {
+          window.localStorage.setItem("klecks-language", klecksLocale);
+        } catch (error) {
+          void error;
+        }
+        document.documentElement.lang = locale;
+      })();
+    </script>
+    <script src="./embed.js"></script>
+    <script>
+      const HOST_READY = "trickcal-klecks-host-ready";
+      const OPEN_REGION = "trickcal-klecks-open-region";
+      const APPLY_REGION = "trickcal-klecks-apply-region";
+      const CANCEL_REGION = "trickcal-klecks-cancel-region";
+      const REGION_APPLIED = "trickcal-klecks-region-applied";
+      const REGION_CANCELLED = "trickcal-klecks-region-cancelled";
+      const REGION_ERROR = "trickcal-klecks-region-error";
+
+      const statusEl = document.getElementById("status");
+      let currentRequestId = "";
+      let currentRegionName = "";
+      let klecks = null;
+      let applying = false;
+      let pendingOpen = null;
+
+      function post(type, payload) {
+        window.parent.postMessage({ type, ...payload }, window.location.origin);
+      }
+
+      function setStatus(text, hidden) {
+        statusEl.textContent = text;
+        statusEl.hidden = Boolean(hidden);
+      }
+
+      function blobToDataUrl(blob) {
+        return new Promise((resolve, reject) => {
+          const reader = new FileReader();
+          reader.onload = () => resolve(String(reader.result || ""));
+          reader.onerror = () => reject(reader.error || new Error("PNG read failed"));
+          reader.readAsDataURL(blob);
+        });
+      }
+
+      function loadBitmapCanvas(dataUrl, width, height) {
+        return new Promise((resolve, reject) => {
+          const canvas = document.createElement("canvas");
+          canvas.width = Math.max(1, Math.round(width));
+          canvas.height = Math.max(1, Math.round(height));
+          const context = canvas.getContext("2d");
+          if (!context) {
+            reject(new Error("Canvas context unavailable"));
+            return;
+          }
+          context.clearRect(0, 0, canvas.width, canvas.height);
+          if (!dataUrl) {
+            resolve(canvas);
+            return;
+          }
+          const image = new Image();
+          image.onload = () => {
+            context.clearRect(0, 0, canvas.width, canvas.height);
+            context.drawImage(image, 0, 0, canvas.width, canvas.height);
+            resolve(canvas);
+          };
+          image.onerror = () => reject(new Error("Region bitmap failed to load"));
+          image.src = dataUrl;
+        });
+      }
+
+      function makeLogoDataUrl() {
+        const svg = [
+          "<svg xmlns='http://www.w3.org/2000/svg' width='150' height='54' viewBox='0 0 150 54'>",
+          "<rect width='150' height='54' rx='10' fill='%23212b22'/>",
+          "<text x='75' y='33' text-anchor='middle' font-family='system-ui,sans-serif' font-size='16' font-weight='700' fill='%23f4faf2'>Region Editor</text>",
+          "</svg>",
+        ].join("");
+        return "data:image/svg+xml;charset=utf-8," + svg;
+      }
+
+      const controls = {
+        applyButton: { disabled: false },
+        cancelButton: { disabled: false },
+      };
+
+      async function openRegion(payload) {
+        if (klecks) {
+          post(REGION_ERROR, {
+            requestId: payload.requestId || currentRequestId,
+            message: "绘画面板已经打开。请关闭后重新进入。",
+          });
+          return;
+        }
+        currentRequestId = payload.requestId || "";
+        currentRegionName = payload.regionName || "";
+        setStatus("正在打开当前部件...", false);
+        try {
+          const width = Math.max(1, Math.round(Number(payload.width) || 1));
+          const height = Math.max(1, Math.round(Number(payload.height) || 1));
+          const canvas = await loadBitmapCanvas(payload.bitmapDataUrl || "", width, height);
+          const project = {
+            width,
+            height,
+            layers: [
+              {
+                name: currentRegionName || "Region",
+                isVisible: true,
+                opacity: 1,
+                mixModeStr: "source-over",
+                image: canvas,
+              },
+            ],
+          };
+          klecks = new window.Klecks({
+            project,
+            disableAutoFit: true,
+            enableImageDropperImport: true,
+            logoImg: makeLogoDataUrl(),
+            aboutEl: document.createElement("div"),
+          });
+          setStatus("", true);
+        } catch (error) {
+          post(REGION_ERROR, {
+            requestId: currentRequestId,
+            message: error instanceof Error ? error.message : "打开绘画面板失败。",
+          });
+          setStatus("打开失败", false);
+        }
+      }
+
+      async function applyRegion() {
+        if (!klecks || !klecks.getPNG || applying) return;
+        applying = true;
+        controls.applyButton.disabled = true;
+        controls.cancelButton.disabled = true;
+        setStatus("正在应用当前部件...", false);
+        try {
+          const blob = await klecks.getPNG();
+          const dataUrl = await blobToDataUrl(blob);
+          post(REGION_APPLIED, {
+            requestId: currentRequestId,
+            regionName: currentRegionName,
+            dataUrl,
+          });
+        } catch (error) {
+          post(REGION_ERROR, {
+            requestId: currentRequestId,
+            message: error instanceof Error ? error.message : "应用失败。",
+          });
+          controls.applyButton.disabled = false;
+          controls.cancelButton.disabled = false;
+          applying = false;
+          setStatus("", true);
+        }
+      }
+
+      function cancelRegion() {
+        post(REGION_CANCELLED, {
+          requestId: currentRequestId,
+          regionName: currentRegionName,
+        });
+      }
+
+      window.addEventListener("message", (event) => {
+        if (event.origin !== window.location.origin) return;
+        const data = event.data || {};
+        if (data.type === OPEN_REGION) {
+          pendingOpen = data;
+          void openRegion(data);
+        }
+        if (data.type === APPLY_REGION) {
+          void applyRegion();
+        }
+        if (data.type === CANCEL_REGION) {
+          cancelRegion();
+        }
+      });
+
+      post(HOST_READY, {});
+    </script>
+  </body>
+</html>
