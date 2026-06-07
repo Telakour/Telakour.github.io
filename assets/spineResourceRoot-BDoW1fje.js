@@ -1,0 +1,1 @@
+const r={VITE_SPINE_ROOT:"https://assets.927927927.xyz/spine"},t="spine";function n(o){return o.trim().replace(/\/+$/u,"")||t}function s(o){const e=typeof o.VITE_SPINE_ROOT=="string"?o.VITE_SPINE_ROOT.trim():"";return e?n(e):null}function _(o,e=t){return s(o)??n(e)}const i=_(r);export{t as D,i as S,n,s as r};
