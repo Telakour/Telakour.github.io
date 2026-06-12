@@ -2,7 +2,7 @@
   "version": 1,
   "resourceRoot": "spine",
   "sourceDirectoryName": "spine",
-  "generatedAt": "2026-06-09T22:23:25.998Z",
+  "generatedAt": "2026-06-12T23:36:04.585Z",
   "entries": [
     {
       "resourceCode": "AliceAside",
@@ -15483,6 +15483,32 @@
       "isComplete": true
     },
     {
+      "resourceCode": "AyaSkin5",
+      "resourceGroup": "Aya",
+      "resourceCategory": "战斗模型",
+      "folderName": "战斗模型/ayaskin5",
+      "baseFileName": "AyaSkin5",
+      "label": "AyaSkin5",
+      "skeletonFileName": "AyaSkin5.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "AyaSkin5.atlas.txt",
+      "textureFileNames": [
+        "AyaSkin5.png"
+      ],
+      "dataFileNames": [
+        "AyaSkin5_Atlas.asset",
+        "AyaSkin5_Atlas.asset.meta",
+        "AyaSkin5_Material.mat",
+        "AyaSkin5_Material.mat.meta",
+        "AyaSkin5_SkeletonData.asset",
+        "AyaSkin5_SkeletonData.asset.meta",
+        "AyaSkin5.atlas.txt.meta",
+        "AyaSkin5.png.meta",
+        "AyaSkin5.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "Ayla",
       "resourceGroup": "Ayla",
       "resourceCategory": "战斗模型",
@@ -25531,6 +25557,32 @@
         "AyaSkin4.atlas.txt.meta",
         "AyaSkin4.png.meta",
         "AyaSkin4.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "AyaSkin5",
+      "resourceGroup": "Aya",
+      "resourceCategory": "正常使徒",
+      "folderName": "正常使徒/ayaskin5",
+      "baseFileName": "AyaSkin5",
+      "label": "AyaSkin5",
+      "skeletonFileName": "AyaSkin5.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "AyaSkin5.atlas.txt",
+      "textureFileNames": [
+        "AyaSkin5.png"
+      ],
+      "dataFileNames": [
+        "AyaSkin5_Atlas.asset",
+        "AyaSkin5_Atlas.asset.meta",
+        "AyaSkin5_Material.mat",
+        "AyaSkin5_Material.mat.meta",
+        "AyaSkin5_Standing.asset",
+        "AyaSkin5_Standing.asset.meta",
+        "AyaSkin5.atlas.txt.meta",
+        "AyaSkin5.png.meta",
+        "AyaSkin5.skel.bytes.meta"
       ],
       "isComplete": true
     },
