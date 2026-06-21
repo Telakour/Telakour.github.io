@@ -2,7 +2,7 @@
   "version": 1,
   "resourceRoot": "spine",
   "sourceDirectoryName": "spine",
-  "generatedAt": "2026-06-12T23:36:04.585Z",
+  "generatedAt": "2026-06-21T10:21:30.607Z",
   "entries": [
     {
       "resourceCode": "AliceAside",
@@ -2237,6 +2237,32 @@
         "ShoupanAside.atlas.txt.meta",
         "ShoupanAside.png.meta",
         "ShoupanAside.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "SilviaAside",
+      "resourceGroup": "SilviaAside",
+      "resourceCategory": "aside（坨格）",
+      "folderName": "aside（坨格）/silviaaside",
+      "baseFileName": "SilviaAside",
+      "label": "SilviaAside",
+      "skeletonFileName": "SilviaAside.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "SilviaAside.atlas.txt",
+      "textureFileNames": [
+        "SilviaAside.png"
+      ],
+      "dataFileNames": [
+        "SilviaAside_Atlas.asset",
+        "SilviaAside_Atlas.asset.meta",
+        "SilviaAside_Material.mat",
+        "SilviaAside_Material.mat.meta",
+        "SilviaAside_SkeletonData.asset",
+        "SilviaAside_SkeletonData.asset.meta",
+        "SilviaAside.atlas.txt.meta",
+        "SilviaAside.png.meta",
+        "SilviaAside.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -9071,6 +9097,32 @@
       "isComplete": true
     },
     {
+      "resourceCode": "FigureL91",
+      "resourceGroup": "FigureL91",
+      "resourceCategory": "其余/家具",
+      "folderName": "其余/家具/figurel91_spine",
+      "baseFileName": "FigureL91",
+      "label": "FigureL91",
+      "skeletonFileName": "FigureL91.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "FigureL91.atlas.txt",
+      "textureFileNames": [
+        "FigureL91.png"
+      ],
+      "dataFileNames": [
+        "FigureL91_Atlas.asset",
+        "FigureL91_Atlas.asset.meta",
+        "FigureL91_Material.mat",
+        "FigureL91_Material.mat.meta",
+        "FigureL91_SkeletonData.asset",
+        "FigureL91_SkeletonData.asset.meta",
+        "FigureL91.atlas.txt.meta",
+        "FigureL91.png.meta",
+        "FigureL91.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "FigureS201",
       "resourceGroup": "FigureS201",
       "resourceCategory": "其余/家具",
@@ -11781,6 +11833,32 @@
       "isComplete": true
     },
     {
+      "resourceCode": "MomoCat",
+      "resourceGroup": "MomoCat",
+      "resourceCategory": "宠物",
+      "folderName": "宠物/momocat",
+      "baseFileName": "MomoCat",
+      "label": "MomoCat",
+      "skeletonFileName": "MomoCat.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "MomoCat.atlas.txt",
+      "textureFileNames": [
+        "MomoCat.png"
+      ],
+      "dataFileNames": [
+        "MomoCat_Atlas.asset",
+        "MomoCat_Atlas.asset.meta",
+        "MomoCat_Material.mat",
+        "MomoCat_Material.mat.meta",
+        "MomoCat_SkeletonData.asset",
+        "MomoCat_SkeletonData.asset.meta",
+        "MomoCat.atlas.txt.meta",
+        "MomoCat.png.meta",
+        "MomoCat.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "MufflerFox",
       "resourceGroup": "MufflerFox",
       "resourceCategory": "宠物",
@@ -12041,6 +12119,32 @@
       "isComplete": true
     },
     {
+      "resourceCode": "Pet_MiniJoanne",
+      "resourceGroup": "Pet_MiniJoanne",
+      "resourceCategory": "宠物",
+      "folderName": "宠物/pet_minijoanne",
+      "baseFileName": "Pet_MiniJoanne",
+      "label": "Pet_MiniJoanne",
+      "skeletonFileName": "Pet_MiniJoanne.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "Pet_MiniJoanne.atlas.txt",
+      "textureFileNames": [
+        "Pet_MiniJoanne.png"
+      ],
+      "dataFileNames": [
+        "Pet_MiniJoanne_Atlas.asset",
+        "Pet_MiniJoanne_Atlas.asset.meta",
+        "Pet_MiniJoanne_Material.mat",
+        "Pet_MiniJoanne_Material.mat.meta",
+        "Pet_MiniJoanne_SkeletonData.asset",
+        "Pet_MiniJoanne_SkeletonData.asset.meta",
+        "Pet_MiniJoanne.atlas.txt.meta",
+        "Pet_MiniJoanne.png.meta",
+        "Pet_MiniJoanne.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "Pet_MiniKommy",
       "resourceGroup": "Pet_MiniKommy",
       "resourceCategory": "宠物",
@@ -12093,6 +12197,32 @@
       "isComplete": true
     },
     {
+      "resourceCode": "Pet_MiniShoupan",
+      "resourceGroup": "Pet_MiniShoupan",
+      "resourceCategory": "宠物",
+      "folderName": "宠物/pet_minishoupan",
+      "baseFileName": "Pet_MiniShoupan",
+      "label": "Pet_MiniShoupan",
+      "skeletonFileName": "Pet_MiniShoupan.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "Pet_MiniShoupan.atlas.txt",
+      "textureFileNames": [
+        "Pet_MiniShoupan.png"
+      ],
+      "dataFileNames": [
+        "Pet_MiniShoupan_Atlas.asset",
+        "Pet_MiniShoupan_Atlas.asset.meta",
+        "Pet_MiniShoupan_Material.mat",
+        "Pet_MiniShoupan_Material.mat.meta",
+        "Pet_MiniShoupan_SkeletonData.asset",
+        "Pet_MiniShoupan_SkeletonData.asset.meta",
+        "Pet_MiniShoupan.atlas.txt.meta",
+        "Pet_MiniShoupan.png.meta",
+        "Pet_MiniShoupan.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "Pet_MiniSpeaki",
       "resourceGroup": "Pet_MiniSpeaki",
       "resourceCategory": "宠物",
@@ -12115,6 +12245,32 @@
         "Pet_MiniSpeaki.atlas.txt.meta",
         "Pet_MiniSpeaki.png.meta",
         "Pet_MiniSpeaki.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "Pet_SilviaEgg",
+      "resourceGroup": "Pet_SilviaEgg",
+      "resourceCategory": "宠物",
+      "folderName": "宠物/pet_silviaegg",
+      "baseFileName": "Pet_SilviaEgg",
+      "label": "Pet_SilviaEgg",
+      "skeletonFileName": "Pet_SilviaEgg.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "Pet_SilviaEgg.atlas.txt",
+      "textureFileNames": [
+        "Pet_SilviaEgg.png"
+      ],
+      "dataFileNames": [
+        "Pet_SilviaEgg_Atlas.asset",
+        "Pet_SilviaEgg_Atlas.asset.meta",
+        "Pet_SilviaEgg_Material.mat",
+        "Pet_SilviaEgg_Material.mat.meta",
+        "Pet_SilviaEgg_SkeletonData.asset",
+        "Pet_SilviaEgg_SkeletonData.asset.meta",
+        "Pet_SilviaEgg.atlas.txt.meta",
+        "Pet_SilviaEgg.png.meta",
+        "Pet_SilviaEgg.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -18559,6 +18715,32 @@
       "isComplete": true
     },
     {
+      "resourceCode": "HildeSkin3",
+      "resourceGroup": "Hilde",
+      "resourceCategory": "战斗模型",
+      "folderName": "战斗模型/hildeskin3",
+      "baseFileName": "HildeSkin3",
+      "label": "HildeSkin3",
+      "skeletonFileName": "HildeSkin3.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "HildeSkin3.atlas.txt",
+      "textureFileNames": [
+        "HildeSkin3.png"
+      ],
+      "dataFileNames": [
+        "HildeSkin3_Atlas.asset",
+        "HildeSkin3_Atlas.asset.meta",
+        "HildeSkin3_Material.mat",
+        "HildeSkin3_Material.mat.meta",
+        "HildeSkin3_SkeletonData.asset",
+        "HildeSkin3_SkeletonData.asset.meta",
+        "HildeSkin3.atlas.txt.meta",
+        "HildeSkin3.png.meta",
+        "HildeSkin3.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "Ifrit",
       "resourceGroup": "Ifrit",
       "resourceCategory": "战斗模型",
@@ -20605,6 +20787,32 @@
         "NaiaSkin3.atlas.txt.meta",
         "NaiaSkin3.png.meta",
         "NaiaSkin3.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "NaiaSkin5",
+      "resourceGroup": "Naia",
+      "resourceCategory": "战斗模型",
+      "folderName": "战斗模型/naiaskin5",
+      "baseFileName": "NaiaSkin5",
+      "label": "NaiaSkin5",
+      "skeletonFileName": "NaiaSkin5.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "NaiaSkin5.atlas.txt",
+      "textureFileNames": [
+        "NaiaSkin5.png"
+      ],
+      "dataFileNames": [
+        "NaiaSkin5_Atlas.asset",
+        "NaiaSkin5_Atlas.asset.meta",
+        "NaiaSkin5_Material.mat",
+        "NaiaSkin5_Material.mat.meta",
+        "NaiaSkin5_SkeletonData.asset",
+        "NaiaSkin5_SkeletonData.asset.meta",
+        "NaiaSkin5.atlas.txt.meta",
+        "NaiaSkin5.png.meta",
+        "NaiaSkin5.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -23269,6 +23477,84 @@
         "SilphirSkin2.atlas.txt.meta",
         "SilphirSkin2.png.meta",
         "SilphirSkin2.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "Silvia",
+      "resourceGroup": "Silvia",
+      "resourceCategory": "战斗模型",
+      "folderName": "战斗模型/silvia",
+      "baseFileName": "Silvia",
+      "label": "Silvia",
+      "skeletonFileName": "Silvia.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "Silvia.atlas.txt",
+      "textureFileNames": [
+        "Silvia.png"
+      ],
+      "dataFileNames": [
+        "Silvia_Atlas.asset",
+        "Silvia_Atlas.asset.meta",
+        "Silvia_Material.mat",
+        "Silvia_Material.mat.meta",
+        "Silvia_SkeletonData.asset",
+        "Silvia_SkeletonData.asset.meta",
+        "Silvia.atlas.txt.meta",
+        "Silvia.png.meta",
+        "Silvia.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "SilviaSkin1",
+      "resourceGroup": "Silvia",
+      "resourceCategory": "战斗模型",
+      "folderName": "战斗模型/silviaskin1",
+      "baseFileName": "SilviaSkin1",
+      "label": "SilviaSkin1",
+      "skeletonFileName": "SilviaSkin1.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "SilviaSkin1.atlas.txt",
+      "textureFileNames": [
+        "SilviaSkin1.png"
+      ],
+      "dataFileNames": [
+        "SilviaSkin1_Atlas.asset",
+        "SilviaSkin1_Atlas.asset.meta",
+        "SilviaSkin1_Material.mat",
+        "SilviaSkin1_Material.mat.meta",
+        "SilviaSkin1_SkeletonData.asset",
+        "SilviaSkin1_SkeletonData.asset.meta",
+        "SilviaSkin1.atlas.txt.meta",
+        "SilviaSkin1.png.meta",
+        "SilviaSkin1.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "SilviaSkin2",
+      "resourceGroup": "Silvia",
+      "resourceCategory": "战斗模型",
+      "folderName": "战斗模型/silviaskin2",
+      "baseFileName": "SilviaSkin2",
+      "label": "SilviaSkin2",
+      "skeletonFileName": "SilviaSkin2.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "SilviaSkin2.atlas.txt",
+      "textureFileNames": [
+        "SilviaSkin2.png"
+      ],
+      "dataFileNames": [
+        "SilviaSkin2_Atlas.asset",
+        "SilviaSkin2_Atlas.asset.meta",
+        "SilviaSkin2_Material.mat",
+        "SilviaSkin2_Material.mat.meta",
+        "SilviaSkin2_SkeletonData.asset",
+        "SilviaSkin2_SkeletonData.asset.meta",
+        "SilviaSkin2.atlas.txt.meta",
+        "SilviaSkin2.png.meta",
+        "SilviaSkin2.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -28593,6 +28879,32 @@
       "isComplete": true
     },
     {
+      "resourceCode": "HildeSkin3",
+      "resourceGroup": "Hilde",
+      "resourceCategory": "正常使徒",
+      "folderName": "正常使徒/hildeskin3",
+      "baseFileName": "HildeSkin3",
+      "label": "HildeSkin3",
+      "skeletonFileName": "HildeSkin3.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "HildeSkin3.atlas.txt",
+      "textureFileNames": [
+        "HildeSkin3.png"
+      ],
+      "dataFileNames": [
+        "HildeSkin3_Atlas.asset",
+        "HildeSkin3_Atlas.asset.meta",
+        "HildeSkin3_Material.mat",
+        "HildeSkin3_Material.mat.meta",
+        "HildeSkin3_Standing.asset",
+        "HildeSkin3_Standing.asset.meta",
+        "HildeSkin3.atlas.txt.meta",
+        "HildeSkin3.png.meta",
+        "HildeSkin3.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "Ifrit",
       "resourceGroup": "Ifrit",
       "resourceCategory": "正常使徒",
@@ -30743,6 +31055,32 @@
         "NaiaSkin3.atlas.txt.meta",
         "NaiaSkin3.png.meta",
         "NaiaSkin3.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "NaiaSkin5",
+      "resourceGroup": "Naia",
+      "resourceCategory": "正常使徒",
+      "folderName": "正常使徒/naiaskin5",
+      "baseFileName": "NaiaSkin5",
+      "label": "NaiaSkin5",
+      "skeletonFileName": "NaiaSkin5.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "NaiaSkin5.atlas.txt",
+      "textureFileNames": [
+        "NaiaSkin5.png"
+      ],
+      "dataFileNames": [
+        "NaiaSkin5_Atlas.asset",
+        "NaiaSkin5_Atlas.asset.meta",
+        "NaiaSkin5_Material.mat",
+        "NaiaSkin5_Material.mat.meta",
+        "NaiaSkin5_Standing.asset",
+        "NaiaSkin5_Standing.asset.meta",
+        "NaiaSkin5.atlas.txt.meta",
+        "NaiaSkin5.png.meta",
+        "NaiaSkin5.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -33423,6 +33761,110 @@
         "SilphirSkin2.atlas.txt.meta",
         "SilphirSkin2.png.meta",
         "SilphirSkin2.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "Silvia",
+      "resourceGroup": "Silvia",
+      "resourceCategory": "正常使徒",
+      "folderName": "正常使徒/silvia",
+      "baseFileName": "Silvia",
+      "label": "Silvia",
+      "skeletonFileName": "Silvia.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "Silvia.atlas.txt",
+      "textureFileNames": [
+        "Silvia.png"
+      ],
+      "dataFileNames": [
+        "Silvia_Atlas.asset",
+        "Silvia_Atlas.asset.meta",
+        "Silvia_Material.mat",
+        "Silvia_Material.mat.meta",
+        "Silvia_Standing.asset",
+        "Silvia_Standing.asset.meta",
+        "Silvia.atlas.txt.meta",
+        "Silvia.png.meta",
+        "Silvia.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "SilviaSkin1",
+      "resourceGroup": "Silvia",
+      "resourceCategory": "正常使徒",
+      "folderName": "正常使徒/silviaskin1",
+      "baseFileName": "SilviaSkin1",
+      "label": "SilviaSkin1",
+      "skeletonFileName": "SilviaSkin1.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "SilviaSkin1.atlas.txt",
+      "textureFileNames": [
+        "SilviaSkin1.png"
+      ],
+      "dataFileNames": [
+        "SilviaSkin1_Atlas.asset",
+        "SilviaSkin1_Atlas.asset.meta",
+        "SilviaSkin1_Material.mat",
+        "SilviaSkin1_Material.mat.meta",
+        "SilviaSkin1_Standing.asset",
+        "SilviaSkin1_Standing.asset.meta",
+        "SilviaSkin1.atlas.txt.meta",
+        "SilviaSkin1.png.meta",
+        "SilviaSkin1.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "SilviaSkin2",
+      "resourceGroup": "Silvia",
+      "resourceCategory": "正常使徒",
+      "folderName": "正常使徒/silviaskin2",
+      "baseFileName": "SilviaSkin2",
+      "label": "SilviaSkin2",
+      "skeletonFileName": "SilviaSkin2.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "SilviaSkin2.atlas.txt",
+      "textureFileNames": [
+        "SilviaSkin2.png"
+      ],
+      "dataFileNames": [
+        "SilviaSkin2_Atlas.asset",
+        "SilviaSkin2_Atlas.asset.meta",
+        "SilviaSkin2_Material.mat",
+        "SilviaSkin2_Material.mat.meta",
+        "SilviaSkin2_Standing.asset",
+        "SilviaSkin2_Standing.asset.meta",
+        "SilviaSkin2.atlas.txt.meta",
+        "SilviaSkin2.png.meta",
+        "SilviaSkin2.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "SilviaSkin3",
+      "resourceGroup": "Silvia",
+      "resourceCategory": "正常使徒",
+      "folderName": "正常使徒/silviaskin3",
+      "baseFileName": "SilviaSkin3",
+      "label": "SilviaSkin3",
+      "skeletonFileName": "SilviaSkin3.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "SilviaSkin3.atlas.txt",
+      "textureFileNames": [
+        "SilviaSkin3.png"
+      ],
+      "dataFileNames": [
+        "SilviaSkin3_Atlas.asset",
+        "SilviaSkin3_Atlas.asset.meta",
+        "SilviaSkin3_Material.mat",
+        "SilviaSkin3_Material.mat.meta",
+        "SilviaSkin3_Standing.asset",
+        "SilviaSkin3_Standing.asset.meta",
+        "SilviaSkin3.atlas.txt.meta",
+        "SilviaSkin3.png.meta",
+        "SilviaSkin3.skel.bytes.meta"
       ],
       "isComplete": true
     },
