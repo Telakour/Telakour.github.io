@@ -2,7 +2,7 @@
   "version": 1,
   "resourceRoot": "spine",
   "sourceDirectoryName": "spine",
-  "generatedAt": "2026-06-25T03:13:23.629Z",
+  "generatedAt": "2026-06-26T17:05:39.713Z",
   "entries": [
     {
       "resourceCode": "AliceAside",
@@ -3125,6 +3125,32 @@
         "YoungchunSkin3.atlas.txt.meta",
         "YoungchunSkin3.png.meta",
         "YoungchunSkin3.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "YoungchunSkin4",
+      "resourceGroup": "Youngchun",
+      "resourceCategory": "NPC",
+      "folderName": "NPC/youngchunskin4",
+      "baseFileName": "YoungchunSkin4",
+      "label": "YoungchunSkin4",
+      "skeletonFileName": "YoungchunSkin4.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "YoungchunSkin4.atlas.txt",
+      "textureFileNames": [
+        "YoungchunSkin4.png"
+      ],
+      "dataFileNames": [
+        "YoungchunSkin4_Atlas.asset",
+        "YoungchunSkin4_Atlas.asset.meta",
+        "YoungchunSkin4_Material.mat",
+        "YoungchunSkin4_Material.mat.meta",
+        "YoungchunSkin4_Standing.asset",
+        "YoungchunSkin4_Standing.asset.meta",
+        "YoungchunSkin4.atlas.txt.meta",
+        "YoungchunSkin4.png.meta",
+        "YoungchunSkin4.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -9431,6 +9457,32 @@
         "FigureXL52.atlas.txt.meta",
         "FigureXL52.png.meta",
         "FigureXL52.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "FigureXL54",
+      "resourceGroup": "FigureXL54",
+      "resourceCategory": "其余/家具",
+      "folderName": "其余/家具/figurexl54_spine",
+      "baseFileName": "FigureXL54",
+      "label": "FigureXL54",
+      "skeletonFileName": "FigureXL54.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "FigureXL54.atlas.txt",
+      "textureFileNames": [
+        "FigureXL54.png"
+      ],
+      "dataFileNames": [
+        "FigureXL54_Atlas.asset",
+        "FigureXL54_Atlas.asset.meta",
+        "FigureXL54_Material.mat",
+        "FigureXL54_Material.mat.meta",
+        "FigureXL54_SkeletonData.asset",
+        "FigureXL54_SkeletonData.asset.meta",
+        "FigureXL54.atlas.txt.meta",
+        "FigureXL54.png.meta",
+        "FigureXL54.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -19131,6 +19183,32 @@
       "isComplete": true
     },
     {
+      "resourceCode": "KathySkin2",
+      "resourceGroup": "Kathy",
+      "resourceCategory": "战斗模型",
+      "folderName": "战斗模型/kathyskin2",
+      "baseFileName": "KathySkin2",
+      "label": "KathySkin2",
+      "skeletonFileName": "KathySkin2.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "KathySkin2.atlas.txt",
+      "textureFileNames": [
+        "KathySkin2.png"
+      ],
+      "dataFileNames": [
+        "KathySkin2_Atlas.asset",
+        "KathySkin2_Atlas.asset.meta",
+        "KathySkin2_Material.mat",
+        "KathySkin2_Material.mat.meta",
+        "KathySkin2_SkeletonData.asset",
+        "KathySkin2_SkeletonData.asset.meta",
+        "KathySkin2.atlas.txt.meta",
+        "KathySkin2.png.meta",
+        "KathySkin2.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "Kidian",
       "resourceGroup": "Kidian",
       "resourceCategory": "战斗模型",
@@ -21285,6 +21363,32 @@
       "isComplete": true
     },
     {
+      "resourceCode": "OrrSkin2",
+      "resourceGroup": "Orr",
+      "resourceCategory": "战斗模型",
+      "folderName": "战斗模型/orrskin2",
+      "baseFileName": "OrrSkin2",
+      "label": "OrrSkin2",
+      "skeletonFileName": "OrrSkin2.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "OrrSkin2.atlas.txt",
+      "textureFileNames": [
+        "OrrSkin2.png"
+      ],
+      "dataFileNames": [
+        "OrrSkin2_Atlas.asset",
+        "OrrSkin2_Atlas.asset.meta",
+        "OrrSkin2_Material.mat",
+        "OrrSkin2_Material.mat.meta",
+        "OrrSkin2_SkeletonData.asset",
+        "OrrSkin2_SkeletonData.asset.meta",
+        "OrrSkin2.atlas.txt.meta",
+        "OrrSkin2.png.meta",
+        "OrrSkin2.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "Patula",
       "resourceGroup": "Patula",
       "resourceCategory": "战斗模型",
@@ -23027,6 +23131,32 @@
       "isComplete": true
     },
     {
+      "resourceCode": "ShadySkin3",
+      "resourceGroup": "Shady",
+      "resourceCategory": "战斗模型",
+      "folderName": "战斗模型/shadyskin3",
+      "baseFileName": "ShadySkin3",
+      "label": "ShadySkin3",
+      "skeletonFileName": "ShadySkin3.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "ShadySkin3.atlas.txt",
+      "textureFileNames": [
+        "ShadySkin3.png"
+      ],
+      "dataFileNames": [
+        "ShadySkin3_Atlas.asset",
+        "ShadySkin3_Atlas.asset.meta",
+        "ShadySkin3_Material.mat",
+        "ShadySkin3_Material.mat.meta",
+        "ShadySkin3_SkeletonData.asset",
+        "ShadySkin3_SkeletonData.asset.meta",
+        "ShadySkin3.atlas.txt.meta",
+        "ShadySkin3.png.meta",
+        "ShadySkin3.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "ShadyTwisted",
       "resourceGroup": "Shady",
       "resourceCategory": "战斗模型",
@@ -24027,6 +24157,32 @@
       "isComplete": true
     },
     {
+      "resourceCode": "SyllaSkin3",
+      "resourceGroup": "Sylla",
+      "resourceCategory": "战斗模型",
+      "folderName": "战斗模型/syllaskin3",
+      "baseFileName": "SyllaSkin3",
+      "label": "SyllaSkin3",
+      "skeletonFileName": "SyllaSkin3.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "SyllaSkin3.atlas.txt",
+      "textureFileNames": [
+        "SyllaSkin3.png"
+      ],
+      "dataFileNames": [
+        "SyllaSkin3_Atlas.asset",
+        "SyllaSkin3_Atlas.asset.meta",
+        "SyllaSkin3_Material.mat",
+        "SyllaSkin3_Material.mat.meta",
+        "SyllaSkin3_SkeletonData.asset",
+        "SyllaSkin3_SkeletonData.asset.meta",
+        "SyllaSkin3.atlas.txt.meta",
+        "SyllaSkin3.png.meta",
+        "SyllaSkin3.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "Taida",
       "resourceGroup": "Taida",
       "resourceCategory": "战斗模型",
@@ -24205,6 +24361,32 @@
         "TigSkin2.atlas.txt.meta",
         "TigSkin2.png.meta",
         "TigSkin2.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "TigSkin3",
+      "resourceGroup": "Tig",
+      "resourceCategory": "战斗模型",
+      "folderName": "战斗模型/tigskin3",
+      "baseFileName": "TigSkin3",
+      "label": "TigSkin3",
+      "skeletonFileName": "TigSkin3.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "TigSkin3.atlas.txt",
+      "textureFileNames": [
+        "TigSkin3.png"
+      ],
+      "dataFileNames": [
+        "TigSkin3_Atlas.asset",
+        "TigSkin3_Atlas.asset.meta",
+        "TigSkin3_Material.mat",
+        "TigSkin3_Material.mat.meta",
+        "TigSkin3_SkeletonData.asset",
+        "TigSkin3_SkeletonData.asset.meta",
+        "TigSkin3.atlas.txt.meta",
+        "TigSkin3.png.meta",
+        "TigSkin3.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -29325,6 +29507,32 @@
       "isComplete": true
     },
     {
+      "resourceCode": "KathySkin2",
+      "resourceGroup": "Kathy",
+      "resourceCategory": "正常使徒",
+      "folderName": "正常使徒/kathyskin2",
+      "baseFileName": "KathySkin2",
+      "label": "KathySkin2",
+      "skeletonFileName": "KathySkin2.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "KathySkin2.atlas.txt",
+      "textureFileNames": [
+        "KathySkin2.png"
+      ],
+      "dataFileNames": [
+        "KathySkin2_Atlas.asset",
+        "KathySkin2_Atlas.asset.meta",
+        "KathySkin2_Material.mat",
+        "KathySkin2_Material.mat.meta",
+        "KathySkin2_Standing.asset",
+        "KathySkin2_Standing.asset.meta",
+        "KathySkin2.atlas.txt.meta",
+        "KathySkin2.png.meta",
+        "KathySkin2.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "Kidian",
       "resourceGroup": "Kidian",
       "resourceCategory": "正常使徒",
@@ -31553,6 +31761,32 @@
       "isComplete": true
     },
     {
+      "resourceCode": "OrrSkin2",
+      "resourceGroup": "Orr",
+      "resourceCategory": "正常使徒",
+      "folderName": "正常使徒/orrskin2",
+      "baseFileName": "OrrSkin2",
+      "label": "OrrSkin2",
+      "skeletonFileName": "OrrSkin2.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "OrrSkin2.atlas.txt",
+      "textureFileNames": [
+        "OrrSkin2.png"
+      ],
+      "dataFileNames": [
+        "OrrSkin2_Atlas.asset",
+        "OrrSkin2_Atlas.asset.meta",
+        "OrrSkin2_Material.mat",
+        "OrrSkin2_Material.mat.meta",
+        "OrrSkin2_Standing.asset",
+        "OrrSkin2_Standing.asset.meta",
+        "OrrSkin2.atlas.txt.meta",
+        "OrrSkin2.png.meta",
+        "OrrSkin2.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "Patula",
       "resourceGroup": "Patula",
       "resourceCategory": "正常使徒",
@@ -33323,6 +33557,32 @@
       "isComplete": true
     },
     {
+      "resourceCode": "ShadySkin3",
+      "resourceGroup": "Shady",
+      "resourceCategory": "正常使徒",
+      "folderName": "正常使徒/shadyskin3",
+      "baseFileName": "ShadySkin3",
+      "label": "ShadySkin3",
+      "skeletonFileName": "ShadySkin3.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "ShadySkin3.atlas.txt",
+      "textureFileNames": [
+        "ShadySkin3.png"
+      ],
+      "dataFileNames": [
+        "ShadySkin3_Atlas.asset",
+        "ShadySkin3_Atlas.asset.meta",
+        "ShadySkin3_Material.mat",
+        "ShadySkin3_Material.mat.meta",
+        "ShadySkin3_Standing.asset",
+        "ShadySkin3_Standing.asset.meta",
+        "ShadySkin3.atlas.txt.meta",
+        "ShadySkin3.png.meta",
+        "ShadySkin3.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "ShadyTwisted",
       "resourceGroup": "Shady",
       "resourceCategory": "正常使徒",
@@ -34339,6 +34599,32 @@
       "isComplete": true
     },
     {
+      "resourceCode": "SyllaSkin3",
+      "resourceGroup": "Sylla",
+      "resourceCategory": "正常使徒",
+      "folderName": "正常使徒/syllaskin3",
+      "baseFileName": "SyllaSkin3",
+      "label": "SyllaSkin3",
+      "skeletonFileName": "SyllaSkin3.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "SyllaSkin3.atlas.txt",
+      "textureFileNames": [
+        "SyllaSkin3.png"
+      ],
+      "dataFileNames": [
+        "SyllaSkin3_Atlas.asset",
+        "SyllaSkin3_Atlas.asset.meta",
+        "SyllaSkin3_Material.mat",
+        "SyllaSkin3_Material.mat.meta",
+        "SyllaSkin3_Standing.asset",
+        "SyllaSkin3_Standing.asset.meta",
+        "SyllaSkin3.atlas.txt.meta",
+        "SyllaSkin3.png.meta",
+        "SyllaSkin3.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "Taida",
       "resourceGroup": "Taida",
       "resourceCategory": "正常使徒",
@@ -34517,6 +34803,32 @@
         "TigSkin2.atlas.txt.meta",
         "TigSkin2.png.meta",
         "TigSkin2.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "TigSkin3",
+      "resourceGroup": "Tig",
+      "resourceCategory": "正常使徒",
+      "folderName": "正常使徒/tigskin3",
+      "baseFileName": "TigSkin3",
+      "label": "TigSkin3",
+      "skeletonFileName": "TigSkin3.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "TigSkin3.atlas.txt",
+      "textureFileNames": [
+        "TigSkin3.png"
+      ],
+      "dataFileNames": [
+        "TigSkin3_Atlas.asset",
+        "TigSkin3_Atlas.asset.meta",
+        "TigSkin3_Material.mat",
+        "TigSkin3_Material.mat.meta",
+        "TigSkin3_Standing.asset",
+        "TigSkin3_Standing.asset.meta",
+        "TigSkin3.atlas.txt.meta",
+        "TigSkin3.png.meta",
+        "TigSkin3.skel.bytes.meta"
       ],
       "isComplete": true
     },
