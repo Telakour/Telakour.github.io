@@ -27,7 +27,7 @@
     if (!cache.has(url)) {
       cache.set(
         url,
-        fetch(url, { cache: "no-store" }).then(function (response) {
+        fetch(url, { cache: "force-cache" }).then(function (response) {
           if (!response.ok) throw new Error("Loading screen data unavailable: " + url);
           return response.json();
         }),

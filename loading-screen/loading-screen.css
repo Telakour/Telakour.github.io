@@ -8,6 +8,7 @@
   overflow: hidden;
   padding: 18px;
   background-color: #879d72;
+  background-image: url("/loading-screen/backgrounds/Fairy_Guestroom2_night.webp?v=4");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -32,7 +33,7 @@
   overflow: hidden;
   border: 3px solid #dce8aa;
   border-radius: clamp(14px, 2.2vw, 24px);
-  background: #fbf0c9 url("/loading-screen/loading-card-pattern.webp") center / cover no-repeat;
+  background: #fbf0c9 url("/loading-screen/loading-card-pattern.webp?v=4") center / cover no-repeat;
   text-align: center;
   isolation: isolate;
 }

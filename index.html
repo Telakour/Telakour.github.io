@@ -46,9 +46,12 @@
       media="(max-width: 760px)"
       fetchpriority="high"
     />
-    <link rel="stylesheet" href="./loading-screen/loading-screen.css" />
-    <script defer src="./loading-screen/spine-webgl.min.js"></script>
-    <script defer src="./loading-screen/loading-spine.js"></script>
+    <link rel="stylesheet" href="./loading-screen/loading-screen.css?v=4" />
+    <link rel="preload" as="image" href="./loading-screen/backgrounds/Fairy_Guestroom2_night.webp?v=4" fetchpriority="high" />
+    <link rel="preload" as="image" href="./loading-screen/loading-card-pattern.webp?v=4" fetchpriority="high" />
+    <link rel="preload" as="image" href="./loading-screen/loading-token.webp?v=4" fetchpriority="high" />
+    <script defer src="./loading-screen/spine-webgl.min.js?v=4"></script>
+    <script defer src="./loading-screen/loading-spine.js?v=4"></script>
     <style>
       html,
       body,
@@ -63,16 +66,16 @@
       }
     </style>
     <title>教主的旅途</title>
-    <script type="module" crossorigin src="./assets/index-DAYT12-S.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-C_Iqk2VM.css">
+    <script type="module" crossorigin src="./assets/index-rFwiDbSj.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-BIuIojLt.css">
   </head>
   <body>
     <div id="root">
-      <div class="codex-loading-screen" id="codex-bootstrap-loading" aria-busy="true" style="background-position:center;background-repeat:no-repeat;background-size:cover">
+      <div class="codex-loading-screen" id="codex-bootstrap-loading" aria-busy="true" style="background-image:url('loading-screen/backgrounds/Fairy_Guestroom2_night.webp?v=4');background-position:center;background-repeat:no-repeat;background-size:cover">
         <div class="codex-loading-card">
           <canvas class="codex-loading-spine" data-codex-loading-spine data-spine-root="https://assets.927927927.xyz/spine" aria-hidden="true"></canvas>
           <div class="codex-loading-content">
-            <img class="codex-loading-leaf" src="./loading-screen/loading-token.webp" alt="" />
+            <img class="codex-loading-leaf" src="./loading-screen/loading-token.webp?v=4" alt="" />
             <div class="codex-loading-title">可丽饼正在打扫教团</div>
             <div class="codex-loading-subtitle">资源加载中，请稍候</div>
             <div class="codex-loading-bar is-indeterminate" role="progressbar">
@@ -94,25 +97,48 @@
 
         window.__codexLoadingBackgroundKey = sessionKey;
         window.__codexLoadingBackgroundUrl = undefined;
-        window.__codexLoadingBackgroundPromise = fetch("/loading-screen/assets.json", { cache: "no-store" })
+        var defaultBackground = new URL("/loading-screen/backgrounds/Fairy_Guestroom2_night.webp?v=4", window.location.href).href;
+        function loadBackground(source) {
+          return new Promise(function (resolve) {
+            var image = new Image();
+            var settled = false;
+            function finish(value) {
+              if (settled) return;
+              settled = true;
+              resolve(value);
+            }
+            image.onload = function () {
+              if (typeof image.decode === "function") {
+                image.decode().catch(function () {}).then(function () { finish(source); });
+              } else {
+                finish(source);
+              }
+            };
+            image.onerror = function () { finish(null); };
+            image.src = source;
+            if (image.complete) image.onload();
+          });
+        }
+        window.__codexLoadingBackgroundPromise = fetch("/loading-screen/assets.json?v=4", { cache: "force-cache" })
           .then(function (response) { return response.ok ? response.json() : null; })
           .then(function (manifest) {
             var backgrounds = manifest && manifest.backgrounds;
-            if (!Array.isArray(backgrounds) || !backgrounds.length) return null;
+            if (!Array.isArray(backgrounds) || !backgrounds.length) return loadBackground(defaultBackground);
             window.__codexLoadingBackgroundManifest = backgrounds;
             var relativePath = backgrounds[Math.floor(Math.random() * backgrounds.length)];
             var source = new URL(String(relativePath).replace(/^\/+/, ""), new URL("/loading-screen/", window.location.href)).href;
-            if (window.__codexLoadingBackgroundKey !== sessionKey) return source;
-            window.__codexLoadingBackgroundUrl = source;
-            var image = new Image();
-            image.onload = function () {
+            return loadBackground(source).then(function (loadedSource) {
+              loadedSource = loadedSource || defaultBackground;
               if (window.__codexLoadingBackgroundKey !== sessionKey) return;
-              loadingScreen.style.backgroundImage = 'url("' + source.replace(/"/g, "%22") + '")';
-            };
-            image.src = source;
-            return source;
+              window.__codexLoadingBackgroundUrl = loadedSource;
+              loadingScreen.style.backgroundImage = 'url("' + loadedSource.replace(/"/g, "%22") + '")';
+              return loadedSource;
+            });
           })
-          .catch(function () { return null; });
+          .catch(function () {
+            window.__codexLoadingBackgroundUrl = defaultBackground;
+            return defaultBackground;
+          });
       })();
     </script>
   </body>
