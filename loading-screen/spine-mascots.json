@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "frameRate": 30,
+  "maxDevicePixelRatio": 1.5,
+  "characters": [
+    {
+      "id": "butter",
+      "side": "left",
+      "mirrorX": true,
+      "variants": [
+        {
+          "folder": "正常使徒/butter",
+          "baseName": "Butter"
+        },
+        {
+          "folder": "正常使徒/butterskin1",
+          "baseName": "ButterSkin1"
+        },
+        {
+          "folder": "正常使徒/butterskin2",
+          "baseName": "ButterSkin2"
+        },
+        {
+          "folder": "正常使徒/butterskin3",
+          "baseName": "ButterSkin3"
+        }
+      ],
+      "animations": "*",
+      "excludedInternalSkins": [
+        "default"
+      ]
+    },
+    {
+      "id": "crepe",
+      "side": "right",
+      "mirrorX": false,
+      "variants": [
+        {
+          "folder": "NPC/crepe",
+          "baseName": "Crepe"
+        },
+        {
+          "folder": "NPC/crepeskin1",
+          "baseName": "CrepeSkin1"
+        },
+        {
+          "folder": "NPC/crepeskin2",
+          "baseName": "CrepeSkin2"
+        },
+        {
+          "folder": "NPC/crepeskin3",
+          "baseName": "CrepeSkin3"
+        }
+      ],
+      "animations": "*",
+      "excludedInternalSkins": [
+        "default"
+      ]
+    }
+  ]
+}

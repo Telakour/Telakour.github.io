@@ -1,0 +1,187 @@
+.codex-loading-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: grid;
+  place-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 18px;
+  background-color: #879d72;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #4c5038;
+  font-family: "Microsoft YaHei", "PingFang SC", system-ui, sans-serif;
+}
+
+:root[data-locale="ko-KR"] .codex-loading-screen {
+  font-family: "Malgun Gothic", "Apple SD Gothic Neo", system-ui, sans-serif;
+}
+
+:root[data-locale="ja-JP"] .codex-loading-screen {
+  font-family: "Yu Gothic", "Hiragino Sans", system-ui, sans-serif;
+}
+
+.codex-loading-card {
+  position: relative;
+  box-sizing: border-box;
+  width: min(760px, 60vw, calc((100dvh - 36px) * 1.9));
+  aspect-ratio: 1.9 / 1;
+  max-height: calc(100dvh - 36px);
+  overflow: hidden;
+  border: 3px solid #dce8aa;
+  border-radius: clamp(14px, 2.2vw, 24px);
+  background: #fbf0c9 url("/loading-screen/loading-card-pattern.webp") center / cover no-repeat;
+  text-align: center;
+  isolation: isolate;
+}
+
+.codex-loading-spine {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 160ms ease;
+}
+
+.codex-loading-spine.is-ready {
+  opacity: 1;
+}
+
+.codex-loading-spine.is-unavailable {
+  display: none;
+}
+
+.codex-loading-content {
+  position: absolute;
+  inset: 7% 25.5% 6%;
+  z-index: 2;
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.codex-loading-leaf {
+  display: block;
+  width: clamp(44px, 7.5vw, 68px);
+  height: clamp(44px, 7.5vw, 68px);
+  margin: 0 auto clamp(2px, 0.8dvh, 8px);
+  object-fit: contain;
+  pointer-events: none;
+  user-select: none;
+  animation: codex-loading-token-spin 8s linear infinite;
+}
+
+.codex-loading-title {
+  max-width: 100%;
+  color: #4b5036;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 0;
+}
+
+.codex-loading-subtitle {
+  max-width: 100%;
+  margin-top: clamp(3px, 0.8dvh, 8px);
+  color: #777252;
+  font-size: 13px;
+  line-height: 1.3;
+}
+
+.codex-loading-bar {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 300px;
+  height: clamp(15px, 2.4dvh, 19px);
+  margin-top: clamp(9px, 2dvh, 18px);
+  overflow: hidden;
+  border: clamp(2px, 0.35vw, 3px) solid #d5a44f;
+  border-radius: 999px;
+  background: #332d2a;
+}
+
+.codex-loading-bar-fill {
+  position: absolute;
+  inset: -2px;
+  width: auto;
+  height: auto;
+  border-radius: 0;
+  background: linear-gradient(90deg, #88d46f, #f5c76a);
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 140ms linear;
+}
+
+.codex-loading-bar.is-indeterminate .codex-loading-bar-fill {
+  background-size: 220% 100%;
+  transform: scaleX(1);
+  animation: codex-loading-progress 1.2s linear infinite;
+}
+
+.codex-loading-percent {
+  margin-top: clamp(3px, 0.8dvh, 7px);
+  color: #696447;
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+@keyframes codex-loading-token-spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes codex-loading-progress {
+  from { background-position: 100% 0; }
+  to { background-position: -120% 0; }
+}
+
+@media (max-height: 440px) and (orientation: landscape) {
+  .codex-loading-screen { padding: 10px; }
+  .codex-loading-card {
+    width: min(720px, 60vw, calc((100dvh - 20px) * 2.02));
+    aspect-ratio: 2.02 / 1;
+    max-height: calc(100dvh - 20px);
+  }
+  .codex-loading-content { inset-block: 4%; }
+  .codex-loading-leaf { width: 52px; height: 52px; }
+  .codex-loading-bar { margin-top: 7px; }
+  .codex-loading-title { font-size: 15px; }
+  .codex-loading-subtitle,
+  .codex-loading-percent { font-size: 11px; }
+}
+
+@media (orientation: portrait) {
+  .codex-loading-screen { padding: 12px; }
+  .codex-loading-card {
+    width: min(calc(100vw - 24px), calc((100dvh - 24px) * 1.22));
+    aspect-ratio: 1.22 / 1;
+    max-height: calc(100dvh - 24px);
+  }
+  .codex-loading-content { inset: 5% 12% 42%; }
+  .codex-loading-subtitle { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .codex-loading-leaf,
+  .codex-loading-bar.is-indeterminate .codex-loading-bar-fill { animation: none; }
+  .codex-loading-spine { transition: none; }
+  .codex-loading-bar-fill { transition: none; }
+}
+#codex-bootstrap-loading {
+  z-index: 1100;
+  opacity: 1;
+  transition: opacity 160ms ease;
+}
+
+#codex-bootstrap-loading.is-handoff {
+  opacity: 0;
+  pointer-events: none;
+}
