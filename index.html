@@ -6,11 +6,114 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
+    <script>
+      (function () {
+        var supported = ["zh-CN", "ko-KR", "ja-JP"];
+        var locale = "zh-CN";
+        try {
+          var stored = window.localStorage.getItem("trickcal.locale");
+          if (supported.indexOf(stored) >= 0) locale = stored;
+        } catch (error) {}
+        document.documentElement.lang = locale;
+        document.documentElement.dataset.locale = locale;
+        window.__codexInitialLocale = locale;
+        var fonts = {
+          "zh-CN": "/fonts/JingNanBoBoHei-Bold-2.ttf",
+          "ko-KR": "/fonts/NEXONLv1GothicBold.ttf",
+          "ja-JP": "/fonts/RocknRollOne-Regular.ttf"
+        };
+        var preload = document.createElement("link");
+        preload.rel = "preload";
+        preload.as = "font";
+        preload.type = "font/ttf";
+        preload.crossOrigin = "anonymous";
+        preload.href = fonts[locale];
+        preload.fetchPriority = "high";
+        document.head.appendChild(preload);
+      })();
+    </script>
+    <link
+      rel="preload"
+      as="image"
+      href="./home/bg-desktop.jpg"
+      media="(min-width: 761px)"
+      fetchpriority="high"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="./home/bg-mobile.jpg"
+      media="(max-width: 760px)"
+      fetchpriority="high"
+    />
+    <link rel="stylesheet" href="./loading-screen/loading-screen.css" />
+    <script defer src="./loading-screen/spine-webgl.min.js"></script>
+    <script defer src="./loading-screen/loading-spine.js"></script>
+    <style>
+      html,
+      body,
+      #root {
+        min-width: 320px;
+        min-height: 100%;
+        margin: 0;
+      }
+
+      body {
+        background: #879d72;
+      }
+    </style>
     <title>教主的旅途</title>
-    <script type="module" crossorigin src="./assets/index-BL_nAXOC.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-Ct3-CA8Z.css">
+    <script type="module" crossorigin src="./assets/index-BotCXEgm.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-C_Iqk2VM.css">
   </head>
-  <body class="bg-stone-950">
-    <div id="root"></div>
+  <body>
+    <div id="root">
+      <div class="codex-loading-screen" id="codex-bootstrap-loading" aria-busy="true" style="background-position:center;background-repeat:no-repeat;background-size:cover">
+        <div class="codex-loading-card">
+          <canvas class="codex-loading-spine" data-codex-loading-spine data-spine-root="https://assets.927927927.xyz/spine" aria-hidden="true"></canvas>
+          <div class="codex-loading-content">
+            <img class="codex-loading-leaf" src="./loading-screen/loading-token.webp" alt="" />
+            <div class="codex-loading-title">可丽饼正在打扫教团</div>
+            <div class="codex-loading-subtitle">资源加载中，请稍候</div>
+            <div class="codex-loading-bar is-indeterminate" role="progressbar">
+              <div class="codex-loading-bar-fill"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      (function () {
+        var loadingScreen = document.getElementById("codex-bootstrap-loading");
+        if (!loadingScreen) return;
+        var sessionKey = window.location.pathname + window.location.search + window.location.hash;
+        if (
+          window.__codexLoadingBackgroundKey === sessionKey &&
+          window.__codexLoadingBackgroundPromise
+        ) return;
+
+        window.__codexLoadingBackgroundKey = sessionKey;
+        window.__codexLoadingBackgroundUrl = undefined;
+        window.__codexLoadingBackgroundPromise = fetch("/loading-screen/assets.json", { cache: "no-store" })
+          .then(function (response) { return response.ok ? response.json() : null; })
+          .then(function (manifest) {
+            var backgrounds = manifest && manifest.backgrounds;
+            if (!Array.isArray(backgrounds) || !backgrounds.length) return null;
+            window.__codexLoadingBackgroundManifest = backgrounds;
+            var relativePath = backgrounds[Math.floor(Math.random() * backgrounds.length)];
+            var source = new URL(String(relativePath).replace(/^\/+/, ""), new URL("/loading-screen/", window.location.href)).href;
+            if (window.__codexLoadingBackgroundKey !== sessionKey) return source;
+            window.__codexLoadingBackgroundUrl = source;
+            var image = new Image();
+            image.onload = function () {
+              if (window.__codexLoadingBackgroundKey !== sessionKey) return;
+              loadingScreen.style.backgroundImage = 'url("' + source.replace(/"/g, "%22") + '")';
+            };
+            image.src = source;
+            return source;
+          })
+          .catch(function () { return null; });
+      })();
+    </script>
   </body>
 </html>
