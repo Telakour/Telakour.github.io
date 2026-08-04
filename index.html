@@ -66,8 +66,8 @@
       }
     </style>
     <title>教主的旅途</title>
-    <script type="module" crossorigin src="./assets/index-rFwiDbSj.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-BIuIojLt.css">
+    <script type="module" crossorigin src="./assets/index-eSOy-DiA.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-vA9FGO9d.css">
   </head>
   <body>
     <div id="root">
@@ -89,7 +89,9 @@
       (function () {
         var loadingScreen = document.getElementById("codex-bootstrap-loading");
         if (!loadingScreen) return;
-        var sessionKey = window.location.pathname + window.location.search + window.location.hash;
+        // HashRouter changes the hash for every in-app route. The loading
+        // background must remain stable until the document itself is reloaded.
+        var sessionKey = window.location.pathname + window.location.search;
         if (
           window.__codexLoadingBackgroundKey === sessionKey &&
           window.__codexLoadingBackgroundPromise
