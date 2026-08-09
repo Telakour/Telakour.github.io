@@ -2,7 +2,7 @@
   "version": 1,
   "resourceRoot": "spine",
   "sourceDirectoryName": "spine",
-  "generatedAt": "2026-08-04T03:54:17.155Z",
+  "generatedAt": "2026-08-09T02:36:17.848Z",
   "entries": [
     {
       "resourceCode": "AliceAside",
@@ -25723,6 +25723,32 @@
       "isComplete": true
     },
     {
+      "resourceCode": "VelaSkin3",
+      "resourceGroup": "Vela",
+      "resourceCategory": "战斗模型",
+      "folderName": "战斗模型/velaskin3",
+      "baseFileName": "VelaSkin3",
+      "label": "VelaSkin3",
+      "skeletonFileName": "VelaSkin3.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "VelaSkin3.atlas.txt",
+      "textureFileNames": [
+        "VelaSkin3.png"
+      ],
+      "dataFileNames": [
+        "VelaSkin3_Atlas.asset",
+        "VelaSkin3_Atlas.asset.meta",
+        "VelaSkin3_Material.mat",
+        "VelaSkin3_Material.mat.meta",
+        "VelaSkin3_SkeletonData.asset",
+        "VelaSkin3_SkeletonData.asset.meta",
+        "VelaSkin3.atlas.txt.meta",
+        "VelaSkin3.png.meta",
+        "VelaSkin3.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "Velvet",
       "resourceGroup": "Velvet",
       "resourceCategory": "战斗模型",
@@ -36565,6 +36591,34 @@
         "VelaSkin2.atlas.txt.meta",
         "VelaSkin2.png.meta",
         "VelaSkin2.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "VelaSkin3",
+      "resourceGroup": "Vela",
+      "resourceCategory": "正常使徒",
+      "folderName": "正常使徒/velaskin3",
+      "baseFileName": "VelaSkin3",
+      "label": "VelaSkin3",
+      "skeletonFileName": "VelaSkin3.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "VelaSkin3.atlas.txt",
+      "textureFileNames": [
+        "VelaSkin3.png"
+      ],
+      "dataFileNames": [
+        "VelaSkin3_Atlas.asset",
+        "VelaSkin3_Atlas.asset.meta",
+        "VelaSkin3_Material.mat",
+        "VelaSkin3_Material.mat.meta",
+        "VelaSkin3_SkeletonData.asset",
+        "VelaSkin3_SkeletonData.asset.meta",
+        "VelaSkin3_Standing.asset",
+        "VelaSkin3_Standing.asset.meta",
+        "VelaSkin3.atlas.txt.meta",
+        "VelaSkin3.png.meta",
+        "VelaSkin3.skel.bytes.meta"
       ],
       "isComplete": true
     },
