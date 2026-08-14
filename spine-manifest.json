@@ -2,7 +2,7 @@
   "version": 1,
   "resourceRoot": "spine",
   "sourceDirectoryName": "spine",
-  "generatedAt": "2026-08-09T03:17:00.984Z",
+  "generatedAt": "2026-08-14T00:32:21.856Z",
   "entries": [
     {
       "resourceCode": "AliceAside",
@@ -2423,6 +2423,26 @@
       "isComplete": true
     },
     {
+      "resourceCode": "SparrotAside",
+      "resourceGroup": "SparrotAside",
+      "resourceCategory": "aside（坨格）",
+      "folderName": "aside（坨格）/sparrotaside",
+      "baseFileName": "SparrotAside",
+      "label": "SparrotAside",
+      "skeletonFileName": "SparrotAside.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "SparrotAside.atlas.txt",
+      "textureFileNames": [
+        "SparrotAside.png"
+      ],
+      "dataFileNames": [
+        "SparrotAside.atlas.txt.meta",
+        "SparrotAside.png.meta",
+        "SparrotAside.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "SpeakiMaidAside",
       "resourceGroup": "SpeakiMaidAside",
       "resourceCategory": "aside（坨格）",
@@ -2735,6 +2755,26 @@
       "isComplete": true
     },
     {
+      "resourceCode": "Callamori",
+      "resourceGroup": "Callamori",
+      "resourceCategory": "NPC",
+      "folderName": "NPC/callamori",
+      "baseFileName": "Callamori",
+      "label": "Callamori",
+      "skeletonFileName": "Callamori.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "Callamori.atlas.txt",
+      "textureFileNames": [
+        "Callamori.png"
+      ],
+      "dataFileNames": [
+        "Callamori.atlas.txt.meta",
+        "Callamori.png.meta",
+        "Callamori.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "Crepe",
       "resourceGroup": "Crepe",
       "resourceCategory": "NPC",
@@ -2861,6 +2901,46 @@
         "DianaYester_Npc_Skin1.atlas.txt.meta",
         "DianaYester_Npc_Skin1.png.meta",
         "DianaYester_Npc_Skin1.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "DroneU",
+      "resourceGroup": "DroneU",
+      "resourceCategory": "NPC",
+      "folderName": "NPC/droneu",
+      "baseFileName": "DroneU",
+      "label": "DroneU",
+      "skeletonFileName": "DroneU.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "DroneU.atlas.txt",
+      "textureFileNames": [
+        "DroneU.png"
+      ],
+      "dataFileNames": [
+        "DroneU.atlas.txt.meta",
+        "DroneU.png.meta",
+        "DroneU.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "Flatfish",
+      "resourceGroup": "Flatfish",
+      "resourceCategory": "NPC",
+      "folderName": "NPC/flatfish",
+      "baseFileName": "Flatfish",
+      "label": "Flatfish",
+      "skeletonFileName": "Flatfish.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "Flatfish.atlas.txt",
+      "textureFileNames": [
+        "Flatfish.png"
+      ],
+      "dataFileNames": [
+        "Flatfish.atlas.txt.meta",
+        "Flatfish.png.meta",
+        "Flatfish.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -9595,6 +9675,26 @@
       "isComplete": true
     },
     {
+      "resourceCode": "FigureL95",
+      "resourceGroup": "FigureL95",
+      "resourceCategory": "其余/家具",
+      "folderName": "其余/家具/figurel95_spine",
+      "baseFileName": "FigureL95",
+      "label": "FigureL95",
+      "skeletonFileName": "FigureL95.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "FigureL95.atlas.txt",
+      "textureFileNames": [
+        "FigureL95.png"
+      ],
+      "dataFileNames": [
+        "FigureL95.atlas.txt.meta",
+        "FigureL95.png.meta",
+        "FigureL95.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "FigureS201",
       "resourceGroup": "FigureS201",
       "resourceCategory": "其余/家具",
@@ -10505,6 +10605,58 @@
       "isComplete": true
     },
     {
+      "resourceCode": "Highlight_Sparrot",
+      "resourceGroup": "Highlight_Sparrot",
+      "resourceCategory": "其余/活动高光",
+      "folderName": "其余/活动高光/highlight_sparrot",
+      "baseFileName": "Highlight_Sparrot",
+      "label": "Highlight_Sparrot",
+      "skeletonFileName": "Highlight_Sparrot.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "Highlight_Sparrot.atlas.txt",
+      "textureFileNames": [
+        "Highlight_Sparrot.png"
+      ],
+      "dataFileNames": [
+        "Highlight_Sparrot_Atlas.asset",
+        "Highlight_Sparrot_Atlas.asset.meta",
+        "Highlight_Sparrot_Material.mat",
+        "Highlight_Sparrot_Material.mat.meta",
+        "Highlight_Sparrot_SkeletonData.asset",
+        "Highlight_Sparrot_SkeletonData.asset.meta",
+        "Highlight_Sparrot.atlas.txt.meta",
+        "Highlight_Sparrot.png.meta",
+        "Highlight_Sparrot.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "MyHomeLobby_Altar_Sparrot",
+      "resourceGroup": "MyHomeLobby_Altar_Sparrot",
+      "resourceCategory": "其余/祭坛",
+      "folderName": "其余/祭坛/myhomelobby_altar_sparrot",
+      "baseFileName": "MyHomeLobby_Altar_Sparrot",
+      "label": "MyHomeLobby_Altar_Sparrot",
+      "skeletonFileName": "MyHomeLobby_Altar_Sparrot.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "MyHomeLobby_Altar_Sparrot.atlas.txt",
+      "textureFileNames": [
+        "MyHomeLobby_Altar_Sparrot.png"
+      ],
+      "dataFileNames": [
+        "MyHomeLobby_Altar_Sparrot_Atlas.asset",
+        "MyHomeLobby_Altar_Sparrot_Atlas.asset.meta",
+        "MyHomeLobby_Altar_Sparrot_Material.mat",
+        "MyHomeLobby_Altar_Sparrot_Material.mat.meta",
+        "MyHomeLobby_Altar_Sparrot_SkeletonData.asset",
+        "MyHomeLobby_Altar_Sparrot_SkeletonData.asset.meta",
+        "MyHomeLobby_Altar_Sparrot.atlas.txt.meta",
+        "MyHomeLobby_Altar_Sparrot.png.meta",
+        "MyHomeLobby_Altar_Sparrot.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "Minimi",
       "resourceGroup": "Minimi",
       "resourceCategory": "其余",
@@ -11365,6 +11517,26 @@
         "AppleRabbit.atlas.txt.meta",
         "AppleRabbit.png.meta",
         "AppleRabbit.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "BallDragon",
+      "resourceGroup": "BallDragon",
+      "resourceCategory": "宠物",
+      "folderName": "宠物/balldragon",
+      "baseFileName": "BallDragon",
+      "label": "BallDragon",
+      "skeletonFileName": "BallDragon.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "BallDragon.atlas.txt",
+      "textureFileNames": [
+        "BallDragon.png"
+      ],
+      "dataFileNames": [
+        "BallDragon.atlas.txt.meta",
+        "BallDragon.png.meta",
+        "BallDragon.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -24839,6 +25011,62 @@
       "isComplete": true
     },
     {
+      "resourceCode": "Sparrot",
+      "resourceGroup": "Sparrot",
+      "resourceCategory": "战斗模型",
+      "folderName": "战斗模型/sparrot",
+      "baseFileName": "Sparrot",
+      "label": "Sparrot",
+      "skeletonFileName": "Sparrot.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "Sparrot.atlas.txt",
+      "textureFileNames": [
+        "Sparrot.png"
+      ],
+      "dataFileNames": [
+        "Sparrot_Atlas.asset",
+        "Sparrot_Atlas.asset.meta",
+        "Sparrot_Material.mat",
+        "Sparrot_Material.mat.meta",
+        "Sparrot_SkeletonData.asset",
+        "Sparrot_SkeletonData.asset.meta",
+        "Sparrot_SpineEvents.bytes",
+        "Sparrot_SpineEvents.bytes.meta",
+        "Sparrot.atlas.txt.meta",
+        "Sparrot.png.meta",
+        "Sparrot.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "SparrotSkin1",
+      "resourceGroup": "Sparrot",
+      "resourceCategory": "战斗模型",
+      "folderName": "战斗模型/sparrotskin1",
+      "baseFileName": "SparrotSkin1",
+      "label": "SparrotSkin1",
+      "skeletonFileName": "SparrotSkin1.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "SparrotSkin1.atlas.txt",
+      "textureFileNames": [
+        "SparrotSkin1.png"
+      ],
+      "dataFileNames": [
+        "SparrotSkin1_Atlas.asset",
+        "SparrotSkin1_Atlas.asset.meta",
+        "SparrotSkin1_Material.mat",
+        "SparrotSkin1_Material.mat.meta",
+        "SparrotSkin1_SkeletonData.asset",
+        "SparrotSkin1_SkeletonData.asset.meta",
+        "SparrotSkin1_SpineEvents.bytes",
+        "SparrotSkin1_SpineEvents.bytes.meta",
+        "SparrotSkin1.atlas.txt.meta",
+        "SparrotSkin1.png.meta",
+        "SparrotSkin1.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "Speaki",
       "resourceGroup": "Speaki",
       "resourceCategory": "战斗模型",
@@ -35653,6 +35881,62 @@
         "SnorkySkin2.atlas.txt.meta",
         "SnorkySkin2.png.meta",
         "SnorkySkin2.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "Sparrot",
+      "resourceGroup": "Sparrot",
+      "resourceCategory": "正常使徒",
+      "folderName": "正常使徒/sparrot",
+      "baseFileName": "Sparrot",
+      "label": "Sparrot",
+      "skeletonFileName": "Sparrot.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "Sparrot.atlas.txt",
+      "textureFileNames": [
+        "Sparrot.png"
+      ],
+      "dataFileNames": [
+        "Sparrot_Atlas.asset",
+        "Sparrot_Atlas.asset.meta",
+        "Sparrot_Material.mat",
+        "Sparrot_Material.mat.meta",
+        "Sparrot_SkeletonData.asset",
+        "Sparrot_SkeletonData.asset.meta",
+        "Sparrot_Standing.asset",
+        "Sparrot_Standing.asset.meta",
+        "Sparrot.atlas.txt.meta",
+        "Sparrot.png.meta",
+        "Sparrot.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "SparrotSkin1",
+      "resourceGroup": "Sparrot",
+      "resourceCategory": "正常使徒",
+      "folderName": "正常使徒/sparrotskin1",
+      "baseFileName": "SparrotSkin1",
+      "label": "SparrotSkin1",
+      "skeletonFileName": "SparrotSkin1.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "SparrotSkin1.atlas.txt",
+      "textureFileNames": [
+        "SparrotSkin1.png"
+      ],
+      "dataFileNames": [
+        "SparrotSkin1_Atlas.asset",
+        "SparrotSkin1_Atlas.asset.meta",
+        "SparrotSkin1_Material.mat",
+        "SparrotSkin1_Material.mat.meta",
+        "SparrotSkin1_SkeletonData.asset",
+        "SparrotSkin1_SkeletonData.asset.meta",
+        "SparrotSkin1_Standing.asset",
+        "SparrotSkin1_Standing.asset.meta",
+        "SparrotSkin1.atlas.txt.meta",
+        "SparrotSkin1.png.meta",
+        "SparrotSkin1.skel.bytes.meta"
       ],
       "isComplete": true
     },
