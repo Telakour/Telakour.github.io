@@ -1,4 +1,4 @@
-import{f as x}from"./index-Be5M9p3v.js";import{r as le,o as ue}from"./SpineResourceCatalog-7kV1yMN_.js";import{S as G,r as fe}from"./BundledSpineResources-DTuAEiPN.js";/**
+import{f as x}from"./index-MN_jkLwl.js";import{r as le,o as ue}from"./SpineResourceCatalog-Czs8cF-G.js";import{S as G,r as fe}from"./BundledSpineResources-BqLez9b-.js";/**
  * @license lucide-react v1.16.0 - ISC
  *
  * This source code is licensed under the ISC license.

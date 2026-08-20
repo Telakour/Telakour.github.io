@@ -2,7 +2,7 @@
   "version": 1,
   "resourceRoot": "spine",
   "sourceDirectoryName": "spine",
-  "generatedAt": "2026-08-14T01:49:35.445Z",
+  "generatedAt": "2026-08-20T13:17:32.406Z",
   "entries": [
     {
       "resourceCode": "AliceAside",
@@ -10605,6 +10605,144 @@
       "isComplete": true
     },
     {
+      "resourceCode": "CG_BreadCrumbGarden_01",
+      "resourceGroup": "CG_BreadCrumbGarden_01",
+      "resourceCategory": "其余/活动CG",
+      "folderName": "其余/活动CG/cg_breadcrumbgarden_01",
+      "baseFileName": "CG_BreadCrumbGarden_01",
+      "label": "CG_BreadCrumbGarden_01",
+      "skeletonFileName": "CG_BreadCrumbGarden_01.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "CG_BreadCrumbGarden_01.atlas.txt",
+      "textureFileNames": [
+        "CG_BreadCrumbGarden_01.png"
+      ],
+      "dataFileNames": [
+        "CG_BreadCrumbGarden_01_Atlas.asset",
+        "CG_BreadCrumbGarden_01_Atlas.asset.meta",
+        "CG_BreadCrumbGarden_01_Material.mat",
+        "CG_BreadCrumbGarden_01_Material.mat.meta",
+        "CG_BreadCrumbGarden_01_SkeletonData.asset",
+        "CG_BreadCrumbGarden_01_SkeletonData.asset.meta",
+        "CG_BreadCrumbGarden_01.atlas.txt.meta",
+        "CG_BreadCrumbGarden_01.png.meta",
+        "CG_BreadCrumbGarden_01.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "CG_BreadCrumbTour",
+      "resourceGroup": "CG_BreadCrumbTour",
+      "resourceCategory": "其余/活动CG",
+      "folderName": "其余/活动CG/cg_breadcrumbtour",
+      "baseFileName": "CG_BreadCrumbTour",
+      "label": "CG_BreadCrumbTour",
+      "skeletonFileName": "CG_BreadCrumbTour.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "CG_BreadCrumbTour.atlas.txt",
+      "textureFileNames": [
+        "CG_BreadCrumbTour.png"
+      ],
+      "dataFileNames": [
+        "CG_BreadCrumbTour_Atlas.asset",
+        "CG_BreadCrumbTour_Atlas.asset.meta",
+        "CG_BreadCrumbTour_Material.mat",
+        "CG_BreadCrumbTour_Material.mat.meta",
+        "CG_BreadCrumbTour_SkeletonData.asset",
+        "CG_BreadCrumbTour_SkeletonData.asset.meta",
+        "CG_BreadCrumbTour.atlas.txt.meta",
+        "CG_BreadCrumbTour.png.meta",
+        "CG_BreadCrumbTour.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "BreadCrumb",
+      "resourceGroup": "BreadCrumb",
+      "resourceCategory": "其余/活动大厅",
+      "folderName": "其余/活动大厅/breadcrumb",
+      "baseFileName": "BreadCrumb",
+      "label": "BreadCrumb",
+      "skeletonFileName": "BreadCrumb.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "BreadCrumb.atlas.txt",
+      "textureFileNames": [
+        "BreadCrumb_2.png",
+        "BreadCrumb_3.png",
+        "BreadCrumb.png"
+      ],
+      "dataFileNames": [
+        "BreadCrumb_2.png.meta",
+        "BreadCrumb_3.png.meta",
+        "BreadCrumb_Atlas.asset",
+        "BreadCrumb_Atlas.asset.meta",
+        "BreadCrumb_BreadCrumb_2.mat",
+        "BreadCrumb_BreadCrumb_2.mat.meta",
+        "BreadCrumb_BreadCrumb_3.mat",
+        "BreadCrumb_BreadCrumb_3.mat.meta",
+        "BreadCrumb_BreadCrumb.mat",
+        "BreadCrumb_BreadCrumb.mat.meta",
+        "BreadCrumb_SkeletonData.asset",
+        "BreadCrumb_SkeletonData.asset.meta",
+        "BreadCrumb.atlas.txt.meta",
+        "BreadCrumb.png.meta",
+        "BreadCrumb.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "BreadCrumb_Depart",
+      "resourceGroup": "BreadCrumb_Depart",
+      "resourceCategory": "其余/活动大厅",
+      "folderName": "其余/活动大厅/breadcrumb_depart",
+      "baseFileName": "BreadCrumb_Depart",
+      "label": "BreadCrumb_Depart",
+      "skeletonFileName": "BreadCrumb_Depart.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "BreadCrumb_Depart.atlas.txt",
+      "textureFileNames": [
+        "BreadCrumb_Depart.png"
+      ],
+      "dataFileNames": [
+        "BreadCrumb_Depart_Atlas.asset",
+        "BreadCrumb_Depart_Atlas.asset.meta",
+        "BreadCrumb_Depart_Material.mat",
+        "BreadCrumb_Depart_Material.mat.meta",
+        "BreadCrumb_Depart_SkeletonData.asset",
+        "BreadCrumb_Depart_SkeletonData.asset.meta",
+        "BreadCrumb_Depart.atlas.txt.meta",
+        "BreadCrumb_Depart.png.meta",
+        "BreadCrumb_Depart.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "Lobby_OfficeBreak",
+      "resourceGroup": "Lobby_OfficeBreak",
+      "resourceCategory": "其余/活动大厅",
+      "folderName": "其余/活动大厅/lobby_officebreak",
+      "baseFileName": "Lobby_OfficeBreak",
+      "label": "Lobby_OfficeBreak",
+      "skeletonFileName": "Lobby_OfficeBreak.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "Lobby_OfficeBreak.atlas.txt",
+      "textureFileNames": [
+        "Lobby_OfficeBreak.png"
+      ],
+      "dataFileNames": [
+        "Lobby_OfficeBreak_Atlas.asset",
+        "Lobby_OfficeBreak_Atlas.asset.meta",
+        "Lobby_OfficeBreak_Material.mat",
+        "Lobby_OfficeBreak_Material.mat.meta",
+        "Lobby_OfficeBreak_SkeletonData.asset",
+        "Lobby_OfficeBreak_SkeletonData.asset.meta",
+        "Lobby_OfficeBreak.atlas.txt.meta",
+        "Lobby_OfficeBreak.png.meta",
+        "Lobby_OfficeBreak.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "Highlight_Sparrot",
       "resourceGroup": "Highlight_Sparrot",
       "resourceCategory": "其余/活动高光",
@@ -13803,6 +13941,32 @@
       "isComplete": true
     },
     {
+      "resourceCode": "Atka",
+      "resourceGroup": "Atka",
+      "resourceCategory": "怪物",
+      "folderName": "怪物/atka",
+      "baseFileName": "Atka",
+      "label": "Atka",
+      "skeletonFileName": "Atka.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "Atka.atlas.txt",
+      "textureFileNames": [
+        "Atka.png"
+      ],
+      "dataFileNames": [
+        "Atka_Atlas.asset",
+        "Atka_Atlas.asset.meta",
+        "Atka_Material.mat",
+        "Atka_Material.mat.meta",
+        "Atka_SkeletonData.asset",
+        "Atka_SkeletonData.asset.meta",
+        "Atka.atlas.txt.meta",
+        "Atka.png.meta",
+        "Atka.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "BlanketGhost",
       "resourceGroup": "BlanketGhost",
       "resourceCategory": "怪物",
@@ -13851,6 +14015,32 @@
         "Buseuleogi.atlas.txt.meta",
         "Buseuleogi.png.meta",
         "Buseuleogi.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "Cranker",
+      "resourceGroup": "Cranker",
+      "resourceCategory": "怪物",
+      "folderName": "怪物/cranker",
+      "baseFileName": "Cranker",
+      "label": "Cranker",
+      "skeletonFileName": "Cranker.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "Cranker.atlas.txt",
+      "textureFileNames": [
+        "Cranker.png"
+      ],
+      "dataFileNames": [
+        "Cranker_Atlas.asset",
+        "Cranker_Atlas.asset.meta",
+        "Cranker_Material.mat",
+        "Cranker_Material.mat.meta",
+        "Cranker_SkeletonData.asset",
+        "Cranker_SkeletonData.asset.meta",
+        "Cranker.atlas.txt.meta",
+        "Cranker.png.meta",
+        "Cranker.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -14767,6 +14957,32 @@
       "isComplete": true
     },
     {
+      "resourceCode": "Halibut",
+      "resourceGroup": "Halibut",
+      "resourceCategory": "怪物",
+      "folderName": "怪物/halibut",
+      "baseFileName": "Halibut",
+      "label": "Halibut",
+      "skeletonFileName": "Halibut.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "Halibut.atlas.txt",
+      "textureFileNames": [
+        "Halibut.png"
+      ],
+      "dataFileNames": [
+        "Halibut_Atlas.asset",
+        "Halibut_Atlas.asset.meta",
+        "Halibut_Material.mat",
+        "Halibut_Material.mat.meta",
+        "Halibut_SkeletonData.asset",
+        "Halibut_SkeletonData.asset.meta",
+        "Halibut.atlas.txt.meta",
+        "Halibut.png.meta",
+        "Halibut.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "Hatchling",
       "resourceGroup": "Hatchling",
       "resourceCategory": "怪物",
@@ -14815,6 +15031,32 @@
         "HatSnail.atlas.txt.meta",
         "HatSnail.png.meta",
         "HatSnail.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "Herring",
+      "resourceGroup": "Herring",
+      "resourceCategory": "怪物",
+      "folderName": "怪物/herring",
+      "baseFileName": "Herring",
+      "label": "Herring",
+      "skeletonFileName": "Herring.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "Herring.atlas.txt",
+      "textureFileNames": [
+        "Herring.png"
+      ],
+      "dataFileNames": [
+        "Herring_Atlas.asset",
+        "Herring_Atlas.asset.meta",
+        "Herring_Material.mat",
+        "Herring_Material.mat.meta",
+        "Herring_SkeletonData.asset",
+        "Herring_SkeletonData.asset.meta",
+        "Herring.atlas.txt.meta",
+        "Herring.png.meta",
+        "Herring.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -15347,6 +15589,32 @@
       "isComplete": true
     },
     {
+      "resourceCode": "Octo",
+      "resourceGroup": "Octo",
+      "resourceCategory": "怪物",
+      "folderName": "怪物/octo",
+      "baseFileName": "Octo",
+      "label": "Octo",
+      "skeletonFileName": "Octo.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "Octo.atlas.txt",
+      "textureFileNames": [
+        "Octo.png"
+      ],
+      "dataFileNames": [
+        "Octo_Atlas.asset",
+        "Octo_Atlas.asset.meta",
+        "Octo_Material.mat",
+        "Octo_Material.mat.meta",
+        "Octo_SkeletonData.asset",
+        "Octo_SkeletonData.asset.meta",
+        "Octo.atlas.txt.meta",
+        "Octo.png.meta",
+        "Octo.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "OldTree",
       "resourceGroup": "OldTree",
       "resourceCategory": "怪物",
@@ -15395,6 +15663,34 @@
         "Orange.atlas.txt.meta",
         "Orange.png.meta",
         "Orange.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "Orica",
+      "resourceGroup": "Orica",
+      "resourceCategory": "怪物",
+      "folderName": "怪物/orica",
+      "baseFileName": "Orica",
+      "label": "Orica",
+      "skeletonFileName": "Orica.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "Orica.atlas.txt",
+      "textureFileNames": [
+        "Orica.png"
+      ],
+      "dataFileNames": [
+        "Orica_Atlas.asset",
+        "Orica_Atlas.asset.meta",
+        "Orica_Material.mat",
+        "Orica_Material.mat.meta",
+        "Orica_SkeletonData.asset",
+        "Orica_SkeletonData.asset.meta",
+        "Orica_SpineEvents.bytes",
+        "Orica_SpineEvents.bytes.meta",
+        "Orica.atlas.txt.meta",
+        "Orica.png.meta",
+        "Orica.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -15655,6 +15951,32 @@
         "ShadyfollowerLongRange.atlas.txt.meta",
         "ShadyfollowerLongRange.png.meta",
         "ShadyfollowerLongRange.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "Soyer",
+      "resourceGroup": "Soyer",
+      "resourceCategory": "怪物",
+      "folderName": "怪物/soyer",
+      "baseFileName": "Soyer",
+      "label": "Soyer",
+      "skeletonFileName": "Soyer.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "Soyer.atlas.txt",
+      "textureFileNames": [
+        "Soyer.png"
+      ],
+      "dataFileNames": [
+        "Soyer_Atlas.asset",
+        "Soyer_Atlas.asset.meta",
+        "Soyer_Material.mat",
+        "Soyer_Material.mat.meta",
+        "Soyer_SkeletonData.asset",
+        "Soyer_SkeletonData.asset.meta",
+        "Soyer.atlas.txt.meta",
+        "Soyer.png.meta",
+        "Soyer.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -16279,6 +16601,32 @@
         "AsanaSkin1.atlas.txt.meta",
         "AsanaSkin1.png.meta",
         "AsanaSkin1.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "AsanaSkin2",
+      "resourceGroup": "Asana",
+      "resourceCategory": "战斗模型",
+      "folderName": "战斗模型/asanaskin2",
+      "baseFileName": "AsanaSkin2",
+      "label": "AsanaSkin2",
+      "skeletonFileName": "AsanaSkin2.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "AsanaSkin2.atlas.txt",
+      "textureFileNames": [
+        "AsanaSkin2.png"
+      ],
+      "dataFileNames": [
+        "AsanaSkin2_Atlas.asset",
+        "AsanaSkin2_Atlas.asset.meta",
+        "AsanaSkin2_Material.mat",
+        "AsanaSkin2_Material.mat.meta",
+        "AsanaSkin2_SkeletonData.asset",
+        "AsanaSkin2_SkeletonData.asset.meta",
+        "AsanaSkin2.atlas.txt.meta",
+        "AsanaSkin2.png.meta",
+        "AsanaSkin2.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -17709,6 +18057,32 @@
         "DayaPureshineSkin1.atlas.txt.meta",
         "DayaPureshineSkin1.png.meta",
         "DayaPureshineSkin1.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "DayaPureshineSkin3",
+      "resourceGroup": "DayaPureshine",
+      "resourceCategory": "战斗模型",
+      "folderName": "战斗模型/dayapureshineskin3",
+      "baseFileName": "DayaPureshineSkin3",
+      "label": "DayaPureshineSkin3",
+      "skeletonFileName": "DayaPureshineSkin3.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "DayaPureshineSkin3.atlas.txt",
+      "textureFileNames": [
+        "DayaPureshineSkin3.png"
+      ],
+      "dataFileNames": [
+        "DayaPureshineSkin3_Atlas.asset",
+        "DayaPureshineSkin3_Atlas.asset.meta",
+        "DayaPureshineSkin3_Material.mat",
+        "DayaPureshineSkin3_Material.mat.meta",
+        "DayaPureshineSkin3_SkeletonData.asset",
+        "DayaPureshineSkin3_SkeletonData.asset.meta",
+        "DayaPureshineSkin3.atlas.txt.meta",
+        "DayaPureshineSkin3.png.meta",
+        "DayaPureshineSkin3.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -19827,6 +20201,32 @@
       "isComplete": true
     },
     {
+      "resourceCode": "InkleSkin2",
+      "resourceGroup": "Inkle",
+      "resourceCategory": "战斗模型",
+      "folderName": "战斗模型/inkleskin2",
+      "baseFileName": "InkleSkin2",
+      "label": "InkleSkin2",
+      "skeletonFileName": "InkleSkin2.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "InkleSkin2.atlas.txt",
+      "textureFileNames": [
+        "InkleSkin2.png"
+      ],
+      "dataFileNames": [
+        "InkleSkin2_Atlas.asset",
+        "InkleSkin2_Atlas.asset.meta",
+        "InkleSkin2_Material.mat",
+        "InkleSkin2_Material.mat.meta",
+        "InkleSkin2_SkeletonData.asset",
+        "InkleSkin2_SkeletonData.asset.meta",
+        "InkleSkin2.atlas.txt.meta",
+        "InkleSkin2.png.meta",
+        "InkleSkin2.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "Jade",
       "resourceGroup": "Jade",
       "resourceCategory": "战斗模型",
@@ -20655,6 +21055,32 @@
         "LaikaSkin2.atlas.txt.meta",
         "LaikaSkin2.png.meta",
         "LaikaSkin2.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "LaikaSkin3",
+      "resourceGroup": "Laika",
+      "resourceCategory": "战斗模型",
+      "folderName": "战斗模型/laikaskin3",
+      "baseFileName": "LaikaSkin3",
+      "label": "LaikaSkin3",
+      "skeletonFileName": "LaikaSkin3.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "LaikaSkin3.atlas.txt",
+      "textureFileNames": [
+        "LaikaSkin3.png"
+      ],
+      "dataFileNames": [
+        "LaikaSkin3_Atlas.asset",
+        "LaikaSkin3_Atlas.asset.meta",
+        "LaikaSkin3_Material.mat",
+        "LaikaSkin3_Material.mat.meta",
+        "LaikaSkin3_SkeletonData.asset",
+        "LaikaSkin3_SkeletonData.asset.meta",
+        "LaikaSkin3.atlas.txt.meta",
+        "LaikaSkin3.png.meta",
+        "LaikaSkin3.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -24309,6 +24735,34 @@
       "isComplete": true
     },
     {
+      "resourceCode": "ShadyTwistedSkin2",
+      "resourceGroup": "Shady",
+      "resourceCategory": "战斗模型",
+      "folderName": "战斗模型/shadytwistedskin2",
+      "baseFileName": "ShadyTwistedSkin2",
+      "label": "ShadyTwistedSkin2",
+      "skeletonFileName": "ShadyTwistedSkin2.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "ShadyTwistedSkin2.atlas.txt",
+      "textureFileNames": [
+        "ShadyTwistedSkin2.png"
+      ],
+      "dataFileNames": [
+        "ShadyTwistedSkin2_Atlas.asset",
+        "ShadyTwistedSkin2_Atlas.asset.meta",
+        "ShadyTwistedSkin2_Material-Screen.mat",
+        "ShadyTwistedSkin2_Material-Screen.mat.meta",
+        "ShadyTwistedSkin2_Material.mat",
+        "ShadyTwistedSkin2_Material.mat.meta",
+        "ShadyTwistedSkin2_SkeletonData.asset",
+        "ShadyTwistedSkin2_SkeletonData.asset.meta",
+        "ShadyTwistedSkin2.atlas.txt.meta",
+        "ShadyTwistedSkin2.png.meta",
+        "ShadyTwistedSkin2.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "Shasha",
       "resourceGroup": "Shasha",
       "resourceCategory": "战斗模型",
@@ -27095,6 +27549,34 @@
       "isComplete": true
     },
     {
+      "resourceCode": "AsanaSkin2",
+      "resourceGroup": "Asana",
+      "resourceCategory": "正常使徒",
+      "folderName": "正常使徒/asanaskin2",
+      "baseFileName": "AsanaSkin2",
+      "label": "AsanaSkin2",
+      "skeletonFileName": "AsanaSkin2.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "AsanaSkin2.atlas.txt",
+      "textureFileNames": [
+        "AsanaSkin2.png"
+      ],
+      "dataFileNames": [
+        "AsanaSkin2_Atlas.asset",
+        "AsanaSkin2_Atlas.asset.meta",
+        "AsanaSkin2_Material.mat",
+        "AsanaSkin2_Material.mat.meta",
+        "AsanaSkin2_SkeletonData.asset",
+        "AsanaSkin2_SkeletonData.asset.meta",
+        "AsanaSkin2_Standing.asset",
+        "AsanaSkin2_Standing.asset.meta",
+        "AsanaSkin2.atlas.txt.meta",
+        "AsanaSkin2.png.meta",
+        "AsanaSkin2.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "Ashur",
       "resourceGroup": "Ashur",
       "resourceCategory": "正常使徒",
@@ -28579,6 +29061,34 @@
         "DayaPureShineSkin2.atlas.txt.meta",
         "DayaPureShineSkin2.png.meta",
         "DayaPureShineSkin2.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "DayaPureShineSkin3",
+      "resourceGroup": "Daya",
+      "resourceCategory": "正常使徒",
+      "folderName": "正常使徒/dayapureshineskin3",
+      "baseFileName": "DayaPureShineSkin3",
+      "label": "DayaPureShineSkin3",
+      "skeletonFileName": "DayaPureShineSkin3.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "DayaPureShineSkin3.atlas.txt",
+      "textureFileNames": [
+        "DayaPureShineSkin3.png"
+      ],
+      "dataFileNames": [
+        "DayaPureShineSkin3_Atlas.asset",
+        "DayaPureShineSkin3_Atlas.asset.meta",
+        "DayaPureShineSkin3_Material.mat",
+        "DayaPureShineSkin3_Material.mat.meta",
+        "DayaPureShineSkin3_SkeletonData.asset",
+        "DayaPureShineSkin3_SkeletonData.asset.meta",
+        "DayaPureShineSkin3_Standing.asset",
+        "DayaPureShineSkin3_Standing.asset.meta",
+        "DayaPureShineSkin3.atlas.txt.meta",
+        "DayaPureShineSkin3.png.meta",
+        "DayaPureShineSkin3.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -30605,6 +31115,34 @@
       "isComplete": true
     },
     {
+      "resourceCode": "InkleSkin2",
+      "resourceGroup": "Inkle",
+      "resourceCategory": "正常使徒",
+      "folderName": "正常使徒/inkleskin2",
+      "baseFileName": "InkleSkin2",
+      "label": "InkleSkin2",
+      "skeletonFileName": "InkleSkin2.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "InkleSkin2.atlas.txt",
+      "textureFileNames": [
+        "InkleSkin2.png"
+      ],
+      "dataFileNames": [
+        "InkleSkin2_Atlas.asset",
+        "InkleSkin2_Atlas.asset.meta",
+        "InkleSkin2_Material.mat",
+        "InkleSkin2_Material.mat.meta",
+        "InkleSkin2_SkeletonData.asset",
+        "InkleSkin2_SkeletonData.asset.meta",
+        "InkleSkin2_Standing.asset",
+        "InkleSkin2_Standing.asset.meta",
+        "InkleSkin2.atlas.txt.meta",
+        "InkleSkin2.png.meta",
+        "InkleSkin2.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "Jade",
       "resourceGroup": "Jade",
       "resourceCategory": "正常使徒",
@@ -31437,6 +31975,34 @@
         "LaikaSkin2.atlas.txt.meta",
         "LaikaSkin2.png.meta",
         "LaikaSkin2.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "LaikaSkin3",
+      "resourceGroup": "Laika",
+      "resourceCategory": "正常使徒",
+      "folderName": "正常使徒/laikaskin3",
+      "baseFileName": "LaikaSkin3",
+      "label": "LaikaSkin3",
+      "skeletonFileName": "LaikaSkin3.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "LaikaSkin3.atlas.txt",
+      "textureFileNames": [
+        "LaikaSkin3.png"
+      ],
+      "dataFileNames": [
+        "LaikaSkin3_Atlas.asset",
+        "LaikaSkin3_Atlas.asset.meta",
+        "LaikaSkin3_Material.mat",
+        "LaikaSkin3_Material.mat.meta",
+        "LaikaSkin3_SkeletonData.asset",
+        "LaikaSkin3_SkeletonData.asset.meta",
+        "LaikaSkin3_Standing.asset",
+        "LaikaSkin3_Standing.asset.meta",
+        "LaikaSkin3.atlas.txt.meta",
+        "LaikaSkin3.png.meta",
+        "LaikaSkin3.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -35151,6 +35717,34 @@
         "ShadyTwistedSkin1.atlas.txt.meta",
         "ShadyTwistedSkin1.png.meta",
         "ShadyTwistedSkin1.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "ShadyTwistedSkin2",
+      "resourceGroup": "Shady",
+      "resourceCategory": "正常使徒",
+      "folderName": "正常使徒/shadytwistedskin2",
+      "baseFileName": "ShadyTwistedSkin2",
+      "label": "ShadyTwistedSkin2",
+      "skeletonFileName": "ShadyTwistedSkin2.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "ShadyTwistedSkin2.atlas.txt",
+      "textureFileNames": [
+        "ShadyTwistedSkin2.png"
+      ],
+      "dataFileNames": [
+        "ShadyTwistedSkin2_Atlas.asset",
+        "ShadyTwistedSkin2_Atlas.asset.meta",
+        "ShadyTwistedSkin2_Material.mat",
+        "ShadyTwistedSkin2_Material.mat.meta",
+        "ShadyTwistedSkin2_SkeletonData.asset",
+        "ShadyTwistedSkin2_SkeletonData.asset.meta",
+        "ShadyTwistedSkin2_Standing.asset",
+        "ShadyTwistedSkin2_Standing.asset.meta",
+        "ShadyTwistedSkin2.atlas.txt.meta",
+        "ShadyTwistedSkin2.png.meta",
+        "ShadyTwistedSkin2.skel.bytes.meta"
       ],
       "isComplete": true
     },
