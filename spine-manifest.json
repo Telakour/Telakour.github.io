@@ -2,7 +2,7 @@
   "version": 1,
   "resourceRoot": "spine",
   "sourceDirectoryName": "spine",
-  "generatedAt": "2026-08-20T13:17:32.406Z",
+  "generatedAt": "2026-08-27T12:52:42.681Z",
   "entries": [
     {
       "resourceCode": "AliceAside",
@@ -235,6 +235,26 @@
         "AshurMagiAside.atlas.txt.meta",
         "AshurMagiAside.png.meta",
         "AshurMagiAside.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "AuroraAside",
+      "resourceGroup": "AuroraAside",
+      "resourceCategory": "aside（坨格）",
+      "folderName": "aside（坨格）/auroraaside",
+      "baseFileName": "AuroraAside",
+      "label": "AuroraAside",
+      "skeletonFileName": "AuroraAside.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "AuroraAside.atlas.txt",
+      "textureFileNames": [
+        "AuroraAside.png"
+      ],
+      "dataFileNames": [
+        "AuroraAside.atlas.txt.meta",
+        "AuroraAside.png.meta",
+        "AuroraAside.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -3007,7 +3027,6 @@
       "skeletonFormat": "binary",
       "atlasFileName": "MISSING.atlas.txt",
       "textureFileNames": [
-        "MISSING_Mask.png",
         "MISSING.png"
       ],
       "dataFileNames": [
@@ -3063,7 +3082,6 @@
       "skeletonFormat": "binary",
       "atlasFileName": "Niffel.atlas.txt",
       "textureFileNames": [
-        "Niffel_Mask.png",
         "Niffel.png"
       ],
       "dataFileNames": [
@@ -3651,6 +3669,7 @@
         "FigureL16_SkeletonData.asset",
         "FigureL16_SkeletonData.asset.meta",
         "FigureL16.atlas.txt.meta",
+        "FigureL16.json",
         "FigureL16.json.meta",
         "FigureL16.png.meta"
       ],
@@ -6445,6 +6464,26 @@
       "isComplete": true
     },
     {
+      "resourceCode": "ExR41_EnergyBall",
+      "resourceGroup": "ExR41_EnergyBall",
+      "resourceCategory": "其余/召唤物",
+      "folderName": "其余/召唤物/exr41_energyball",
+      "baseFileName": "ExR41_EnergyBall",
+      "label": "ExR41_EnergyBall",
+      "skeletonFileName": "ExR41_EnergyBall.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "ExR41_EnergyBall.atlas.txt",
+      "textureFileNames": [
+        "ExR41_EnergyBall.png"
+      ],
+      "dataFileNames": [
+        "ExR41_EnergyBall.atlas.txt.meta",
+        "ExR41_EnergyBall.png.meta",
+        "ExR41_EnergyBall.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "Fricle_Attack",
       "resourceGroup": "Fricle_Attack",
       "resourceCategory": "其余/召唤物",
@@ -6969,6 +7008,26 @@
       "isComplete": true
     },
     {
+      "resourceCode": "PixelR41BackDrone",
+      "resourceGroup": "PixelR41BackDrone",
+      "resourceCategory": "其余/召唤物",
+      "folderName": "其余/召唤物/pixelr41backdrone",
+      "baseFileName": "PixelR41BackDrone",
+      "label": "PixelR41BackDrone",
+      "skeletonFileName": "PixelR41BackDrone.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "PixelR41BackDrone.atlas.txt",
+      "textureFileNames": [
+        "PixelR41BackDrone.png"
+      ],
+      "dataFileNames": [
+        "PixelR41BackDrone.atlas.txt.meta",
+        "PixelR41BackDrone.png.meta",
+        "PixelR41BackDrone.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "PixelTentacle",
       "resourceGroup": "PixelTentacle",
       "resourceCategory": "其余/召唤物",
@@ -7095,6 +7154,26 @@
         "Polan_CanonSkin2.atlas.txt.meta",
         "Polan_CanonSkin2.png.meta",
         "Polan_CanonSkin2.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "Polan_CanonSkin3",
+      "resourceGroup": "Polan_Canon",
+      "resourceCategory": "其余/召唤物",
+      "folderName": "其余/召唤物/polan_canonskin3",
+      "baseFileName": "Polan_CanonSkin3",
+      "label": "Polan_CanonSkin3",
+      "skeletonFileName": "Polan_CanonSkin3.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "Polan_CanonSkin3.atlas.txt",
+      "textureFileNames": [
+        "Polan_CanonSkin3.png"
+      ],
+      "dataFileNames": [
+        "Polan_CanonSkin3.atlas.txt.meta",
+        "Polan_CanonSkin3.png.meta",
+        "Polan_CanonSkin3.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -7667,6 +7746,7 @@
         "FigureL16_SkeletonData.asset",
         "FigureL16_SkeletonData.asset.meta",
         "FigureL16.atlas.txt.meta",
+        "FigureL16.json",
         "FigureL16.json.meta",
         "FigureL16.png.meta"
       ],
@@ -9695,6 +9775,26 @@
       "isComplete": true
     },
     {
+      "resourceCode": "FigureL96",
+      "resourceGroup": "FigureL96",
+      "resourceCategory": "其余/家具",
+      "folderName": "其余/家具/figurel96_spine",
+      "baseFileName": "FigureL96",
+      "label": "FigureL96",
+      "skeletonFileName": "FigureL96.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "FigureL96.atlas.txt",
+      "textureFileNames": [
+        "FigureL96.png"
+      ],
+      "dataFileNames": [
+        "FigureL96.atlas.txt.meta",
+        "FigureL96.png.meta",
+        "FigureL96.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "FigureS201",
       "resourceGroup": "FigureS201",
       "resourceCategory": "其余/家具",
@@ -10081,6 +10181,26 @@
         "FigureXL57.atlas.txt.meta",
         "FigureXL57.png.meta",
         "FigureXL57.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "FigureXL58",
+      "resourceGroup": "FigureXL58",
+      "resourceCategory": "其余/家具",
+      "folderName": "其余/家具/figurexl58_spine",
+      "baseFileName": "FigureXL58",
+      "label": "FigureXL58",
+      "skeletonFileName": "FigureXL58.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "FigureXL58.atlas.txt",
+      "textureFileNames": [
+        "FigureXL58.png"
+      ],
+      "dataFileNames": [
+        "FigureXL58.atlas.txt.meta",
+        "FigureXL58.png.meta",
+        "FigureXL58.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -10743,6 +10863,76 @@
       "isComplete": true
     },
     {
+      "resourceCode": "Highlight_Aurora_Background",
+      "resourceGroup": "Highlight_Aurora_Background",
+      "resourceCategory": "其余/活动高光",
+      "folderName": "其余/活动高光/highlight_aurora",
+      "baseFileName": "Highlight_Aurora_Background",
+      "label": "Highlight_Aurora_Background",
+      "skeletonFileName": "Highlight_Aurora_Background.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "Highlight_Aurora_Background.atlas.txt",
+      "textureFileNames": [
+        "Highlight_Aurora_Background.png"
+      ],
+      "dataFileNames": [
+        "Highlight_Aurora_Atlas.asset",
+        "Highlight_Aurora_Atlas.asset.meta",
+        "Highlight_Aurora_Background_Atlas.asset",
+        "Highlight_Aurora_Background_Atlas.asset.meta",
+        "Highlight_Aurora_Background_Material.mat",
+        "Highlight_Aurora_Background_Material.mat.meta",
+        "Highlight_Aurora_Background_SkeletonData.asset",
+        "Highlight_Aurora_Background_SkeletonData.asset.meta",
+        "Highlight_Aurora_Background.atlas.txt.meta",
+        "Highlight_Aurora_Background.png.meta",
+        "Highlight_Aurora_Background.skel.bytes.meta",
+        "Highlight_Aurora_Material.mat",
+        "Highlight_Aurora_Material.mat.meta",
+        "Highlight_Aurora_SkeletonData.asset",
+        "Highlight_Aurora_SkeletonData.asset.meta",
+        "Highlight_Aurora.atlas.txt.meta",
+        "Highlight_Aurora.png.meta",
+        "Highlight_Aurora.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "Highlight_Aurora",
+      "resourceGroup": "Highlight_Aurora",
+      "resourceCategory": "其余/活动高光",
+      "folderName": "其余/活动高光/highlight_aurora",
+      "baseFileName": "Highlight_Aurora",
+      "label": "Highlight_Aurora",
+      "skeletonFileName": "Highlight_Aurora.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "Highlight_Aurora.atlas.txt",
+      "textureFileNames": [
+        "Highlight_Aurora.png"
+      ],
+      "dataFileNames": [
+        "Highlight_Aurora_Atlas.asset",
+        "Highlight_Aurora_Atlas.asset.meta",
+        "Highlight_Aurora_Background_Atlas.asset",
+        "Highlight_Aurora_Background_Atlas.asset.meta",
+        "Highlight_Aurora_Background_Material.mat",
+        "Highlight_Aurora_Background_Material.mat.meta",
+        "Highlight_Aurora_Background_SkeletonData.asset",
+        "Highlight_Aurora_Background_SkeletonData.asset.meta",
+        "Highlight_Aurora_Background.atlas.txt.meta",
+        "Highlight_Aurora_Background.png.meta",
+        "Highlight_Aurora_Background.skel.bytes.meta",
+        "Highlight_Aurora_Material.mat",
+        "Highlight_Aurora_Material.mat.meta",
+        "Highlight_Aurora_SkeletonData.asset",
+        "Highlight_Aurora_SkeletonData.asset.meta",
+        "Highlight_Aurora.atlas.txt.meta",
+        "Highlight_Aurora.png.meta",
+        "Highlight_Aurora.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "Highlight_Sparrot",
       "resourceGroup": "Highlight_Sparrot",
       "resourceCategory": "其余/活动高光",
@@ -10765,6 +10955,32 @@
         "Highlight_Sparrot.atlas.txt.meta",
         "Highlight_Sparrot.png.meta",
         "Highlight_Sparrot.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "MyHomeLobby_Altar_Aurora",
+      "resourceGroup": "MyHomeLobby_Altar_Aurora",
+      "resourceCategory": "其余/祭坛",
+      "folderName": "其余/祭坛/myhomelobby_altar_aurora",
+      "baseFileName": "MyHomeLobby_Altar_Aurora",
+      "label": "MyHomeLobby_Altar_Aurora",
+      "skeletonFileName": "MyHomeLobby_Altar_Aurora.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "MyHomeLobby_Altar_Aurora.atlas.txt",
+      "textureFileNames": [
+        "MyHomeLobby_Altar_Aurora.png"
+      ],
+      "dataFileNames": [
+        "MyHomeLobby_Altar_Aurora_Atlas.asset",
+        "MyHomeLobby_Altar_Aurora_Atlas.asset.meta",
+        "MyHomeLobby_Altar_Aurora_Material.mat",
+        "MyHomeLobby_Altar_Aurora_Material.mat.meta",
+        "MyHomeLobby_Altar_Aurora_SkeletonData.asset",
+        "MyHomeLobby_Altar_Aurora_SkeletonData.asset.meta",
+        "MyHomeLobby_Altar_Aurora.atlas.txt.meta",
+        "MyHomeLobby_Altar_Aurora.png.meta",
+        "MyHomeLobby_Altar_Aurora.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -10807,7 +11023,47 @@
       "textureFileNames": [
         "Minimi_2.png",
         "Minimi_3.png",
-        "Minimi.png",
+        "Minimi.png"
+      ],
+      "dataFileNames": [
+        "Minimi_2.png.meta",
+        "Minimi_3.png.meta",
+        "Minimi_Atlas.asset",
+        "Minimi_Atlas.asset.meta",
+        "Minimi_Minimi_2.mat",
+        "Minimi_Minimi_2.mat.meta",
+        "Minimi_Minimi_3.mat",
+        "Minimi_Minimi_3.mat.meta",
+        "Minimi_Minimi.mat",
+        "Minimi_Minimi.mat.meta",
+        "Minimi_SkeletonData.asset",
+        "Minimi_SkeletonData.asset.meta",
+        "Minimi.atlas.txt.meta",
+        "Minimi.png.meta",
+        "Minimi.skel.bytes.meta",
+        "Neti_Minimi_Atlas.asset",
+        "Neti_Minimi_Atlas.asset.meta",
+        "Neti_Minimi_Material.mat",
+        "Neti_Minimi_Material.mat.meta",
+        "Neti_Minimi_SkeletonData.asset",
+        "Neti_Minimi_SkeletonData.asset.meta",
+        "Neti_Minimi.atlas.txt.meta",
+        "Neti_Minimi.png.meta",
+        "Neti_Minimi.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "Neti_Minimi",
+      "resourceGroup": "Neti_Minimi",
+      "resourceCategory": "其余",
+      "folderName": "其余/迷你使徒",
+      "baseFileName": "Neti_Minimi",
+      "label": "Neti_Minimi",
+      "skeletonFileName": "Neti_Minimi.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "Neti_Minimi.atlas.txt",
+      "textureFileNames": [
         "Neti_Minimi.png"
       ],
       "dataFileNames": [
@@ -10850,7 +11106,44 @@
       "atlasFileName": "Minimi.atlas.txt",
       "textureFileNames": [
         "Minimi_2.png",
-        "Minimi.png",
+        "Minimi.png"
+      ],
+      "dataFileNames": [
+        "Minimi_2.png.meta",
+        "Minimi_Atlas.asset",
+        "Minimi_Atlas.asset.meta",
+        "Minimi_Minimi_2.mat",
+        "Minimi_Minimi_2.mat.meta",
+        "Minimi_Minimi.mat",
+        "Minimi_Minimi.mat.meta",
+        "Minimi_SkeletonData.asset",
+        "Minimi_SkeletonData.asset.meta",
+        "Minimi.atlas.txt.meta",
+        "Minimi.png.meta",
+        "Minimi.skel.bytes.meta",
+        "Neti_Minimi_Atlas.asset",
+        "Neti_Minimi_Atlas.asset.meta",
+        "Neti_Minimi_Material.mat",
+        "Neti_Minimi_Material.mat.meta",
+        "Neti_Minimi_SkeletonData.asset",
+        "Neti_Minimi_SkeletonData.asset.meta",
+        "Neti_Minimi.atlas.txt.meta",
+        "Neti_Minimi.png.meta",
+        "Neti_Minimi.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "Neti_Minimi",
+      "resourceGroup": "Neti_Minimi",
+      "resourceCategory": "其余/迷你使徒",
+      "folderName": "其余/迷你使徒/国际服",
+      "baseFileName": "Neti_Minimi",
+      "label": "Neti_Minimi",
+      "skeletonFileName": "Neti_Minimi.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "Neti_Minimi.atlas.txt",
+      "textureFileNames": [
         "Neti_Minimi.png"
       ],
       "dataFileNames": [
@@ -11655,6 +11948,26 @@
         "AppleRabbit.atlas.txt.meta",
         "AppleRabbit.png.meta",
         "AppleRabbit.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "ASquidBSquid",
+      "resourceGroup": "ASquidBSquid",
+      "resourceCategory": "宠物",
+      "folderName": "宠物/asquidbsquid",
+      "baseFileName": "ASquidBSquid",
+      "label": "ASquidBSquid",
+      "skeletonFileName": "ASquidBSquid.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "ASquidBSquid.atlas.txt",
+      "textureFileNames": [
+        "ASquidBSquid.png"
+      ],
+      "dataFileNames": [
+        "ASquidBSquid.atlas.txt.meta",
+        "ASquidBSquid.png.meta",
+        "ASquidBSquid.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -14591,6 +14904,26 @@
       "isComplete": true
     },
     {
+      "resourceCode": "ExCrayonKnightNone",
+      "resourceGroup": "ExCrayonKnightNone",
+      "resourceCategory": "怪物",
+      "folderName": "怪物/excrayonknightnone",
+      "baseFileName": "ExCrayonKnightNone",
+      "label": "ExCrayonKnightNone",
+      "skeletonFileName": "ExCrayonKnightNone.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "ExCrayonKnightNone.atlas.txt",
+      "textureFileNames": [
+        "ExCrayonKnightNone.png"
+      ],
+      "dataFileNames": [
+        "ExCrayonKnightNone.atlas.txt.meta",
+        "ExCrayonKnightNone.png.meta",
+        "ExCrayonKnightNone.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "ExE0_Uros",
       "resourceGroup": "ExE0_Uros",
       "resourceCategory": "怪物",
@@ -14693,6 +15026,26 @@
         "ExMEOW_DroneS.atlas.txt.meta",
         "ExMEOW_DroneS.png.meta",
         "ExMEOW_DroneS.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "ExR41_Renewa",
+      "resourceGroup": "ExR41_Renewa",
+      "resourceCategory": "怪物",
+      "folderName": "怪物/exr41_renewa",
+      "baseFileName": "ExR41_Renewa",
+      "label": "ExR41_Renewa",
+      "skeletonFileName": "ExR41_Renewa.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "ExR41_Renewa.atlas.txt",
+      "textureFileNames": [
+        "ExR41_Renewa.png"
+      ],
+      "dataFileNames": [
+        "ExR41_Renewa.atlas.txt.meta",
+        "ExR41_Renewa.png.meta",
+        "ExR41_Renewa.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -15455,6 +15808,86 @@
         "Nependers.atlas.txt.meta",
         "Nependers.png.meta",
         "Nependers.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "NT00Cool",
+      "resourceGroup": "NT00",
+      "resourceCategory": "怪物",
+      "folderName": "怪物/nt00cool",
+      "baseFileName": "NT00Cool",
+      "label": "NT00Cool",
+      "skeletonFileName": "NT00Cool.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "NT00Cool.atlas.txt",
+      "textureFileNames": [
+        "NT00Cool.png"
+      ],
+      "dataFileNames": [
+        "NT00Cool.atlas.txt.meta",
+        "NT00Cool.png.meta",
+        "NT00Cool.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "NT00Gloomy",
+      "resourceGroup": "NT00Gloomy",
+      "resourceCategory": "怪物",
+      "folderName": "怪物/nt00gloomy",
+      "baseFileName": "NT00Gloomy",
+      "label": "NT00Gloomy",
+      "skeletonFileName": "NT00Gloomy.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "NT00Gloomy.atlas.txt",
+      "textureFileNames": [
+        "NT00Gloomy.png"
+      ],
+      "dataFileNames": [
+        "NT00Gloomy.atlas.txt.meta",
+        "NT00Gloomy.png.meta",
+        "NT00Gloomy.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "NT00Jolly",
+      "resourceGroup": "NT00Jolly",
+      "resourceCategory": "怪物",
+      "folderName": "怪物/nt00jolly",
+      "baseFileName": "NT00Jolly",
+      "label": "NT00Jolly",
+      "skeletonFileName": "NT00Jolly.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "NT00Jolly.atlas.txt",
+      "textureFileNames": [
+        "NT00Jolly.png"
+      ],
+      "dataFileNames": [
+        "NT00Jolly.atlas.txt.meta",
+        "NT00Jolly.png.meta",
+        "NT00Jolly.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "NT00Mad",
+      "resourceGroup": "NT00Mad",
+      "resourceCategory": "怪物",
+      "folderName": "怪物/nt00mad",
+      "baseFileName": "NT00Mad",
+      "label": "NT00Mad",
+      "skeletonFileName": "NT00Mad.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "NT00Mad.atlas.txt",
+      "textureFileNames": [
+        "NT00Mad.png"
+      ],
+      "dataFileNames": [
+        "NT00Mad.atlas.txt.meta",
+        "NT00Mad.png.meta",
+        "NT00Mad.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -16757,6 +17190,62 @@
         "AshurSkin2.atlas.txt.meta",
         "AshurSkin2.png.meta",
         "AshurSkin2.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "Aurora",
+      "resourceGroup": "Aurora",
+      "resourceCategory": "战斗模型",
+      "folderName": "战斗模型/aurora",
+      "baseFileName": "Aurora",
+      "label": "Aurora",
+      "skeletonFileName": "Aurora.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "Aurora.atlas.txt",
+      "textureFileNames": [
+        "Aurora.png"
+      ],
+      "dataFileNames": [
+        "Aurora_Atlas.asset",
+        "Aurora_Atlas.asset.meta",
+        "Aurora_Material.mat",
+        "Aurora_Material.mat.meta",
+        "Aurora_SkeletonData.asset",
+        "Aurora_SkeletonData.asset.meta",
+        "Aurora_SpineEvents.bytes",
+        "Aurora_SpineEvents.bytes.meta",
+        "Aurora.atlas.txt.meta",
+        "Aurora.png.meta",
+        "Aurora.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "AuroraSkin1",
+      "resourceGroup": "Aurora",
+      "resourceCategory": "战斗模型",
+      "folderName": "战斗模型/auroraskin1",
+      "baseFileName": "AuroraSkin1",
+      "label": "AuroraSkin1",
+      "skeletonFileName": "AuroraSkin1.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "AuroraSkin1.atlas.txt",
+      "textureFileNames": [
+        "AuroraSkin1.png"
+      ],
+      "dataFileNames": [
+        "AuroraSkin1_Atlas.asset",
+        "AuroraSkin1_Atlas.asset.meta",
+        "AuroraSkin1_Material.mat",
+        "AuroraSkin1_Material.mat.meta",
+        "AuroraSkin1_SkeletonData.asset",
+        "AuroraSkin1_SkeletonData.asset.meta",
+        "AuroraSkin1_SpineEvents.bytes",
+        "AuroraSkin1_SpineEvents.bytes.meta",
+        "AuroraSkin1.atlas.txt.meta",
+        "AuroraSkin1.png.meta",
+        "AuroraSkin1.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -27711,6 +28200,62 @@
       "isComplete": true
     },
     {
+      "resourceCode": "Aurora",
+      "resourceGroup": "Aurora",
+      "resourceCategory": "正常使徒",
+      "folderName": "正常使徒/aurora",
+      "baseFileName": "Aurora",
+      "label": "Aurora",
+      "skeletonFileName": "Aurora.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "Aurora.atlas.txt",
+      "textureFileNames": [
+        "Aurora.png"
+      ],
+      "dataFileNames": [
+        "Aurora_Atlas.asset",
+        "Aurora_Atlas.asset.meta",
+        "Aurora_Material.mat",
+        "Aurora_Material.mat.meta",
+        "Aurora_SkeletonData.asset",
+        "Aurora_SkeletonData.asset.meta",
+        "Aurora_Standing.asset",
+        "Aurora_Standing.asset.meta",
+        "Aurora.atlas.txt.meta",
+        "Aurora.png.meta",
+        "Aurora.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "AuroraSkin1",
+      "resourceGroup": "Aurora",
+      "resourceCategory": "正常使徒",
+      "folderName": "正常使徒/auroraskin1",
+      "baseFileName": "AuroraSkin1",
+      "label": "AuroraSkin1",
+      "skeletonFileName": "AuroraSkin1.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "AuroraSkin1.atlas.txt",
+      "textureFileNames": [
+        "AuroraSkin1.png"
+      ],
+      "dataFileNames": [
+        "AuroraSkin1_Atlas.asset",
+        "AuroraSkin1_Atlas.asset.meta",
+        "AuroraSkin1_Material.mat",
+        "AuroraSkin1_Material.mat.meta",
+        "AuroraSkin1_SkeletonData.asset",
+        "AuroraSkin1_SkeletonData.asset.meta",
+        "AuroraSkin1_Standing.asset",
+        "AuroraSkin1_Standing.asset.meta",
+        "AuroraSkin1.atlas.txt.meta",
+        "AuroraSkin1.png.meta",
+        "AuroraSkin1.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "Aya",
       "resourceGroup": "Aya",
       "resourceCategory": "正常使徒",
@@ -29495,10 +30040,7 @@
       "skeletonFormat": "binary",
       "atlasFileName": "Ed.atlas.txt",
       "textureFileNames": [
-        "Ed_Mask_1.png",
-        "Ed_Mask_2.png",
-        "Ed.png",
-        "FX_Ed_Space.png"
+        "Ed.png"
       ],
       "dataFileNames": [
         "Ed_Atlas.asset",
