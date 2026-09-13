@@ -2,7 +2,7 @@
   "version": 1,
   "resourceRoot": "spine",
   "sourceDirectoryName": "spine",
-  "generatedAt": "2026-08-27T18:27:04.886Z",
+  "generatedAt": "2026-09-13T19:24:41.978Z",
   "entries": [
     {
       "resourceCode": "AliceAside",
@@ -2075,6 +2075,32 @@
         "RollettAside.atlas.txt.meta",
         "RollettAside.png.meta",
         "RollettAside.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "RonnieAside",
+      "resourceGroup": "RonnieAside",
+      "resourceCategory": "aside（坨格）",
+      "folderName": "aside（坨格）/ronnieaside",
+      "baseFileName": "RonnieAside",
+      "label": "RonnieAside",
+      "skeletonFileName": "RonnieAside.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "RonnieAside.atlas.txt",
+      "textureFileNames": [
+        "RonnieAside.png"
+      ],
+      "dataFileNames": [
+        "RonnieAside_Atlas.asset",
+        "RonnieAside_Atlas.asset.meta",
+        "RonnieAside_Material.mat",
+        "RonnieAside_Material.mat.meta",
+        "RonnieAside_SkeletonData.asset",
+        "RonnieAside_SkeletonData.asset.meta",
+        "RonnieAside.atlas.txt.meta",
+        "RonnieAside.png.meta",
+        "RonnieAside.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -6098,6 +6124,84 @@
       "isComplete": true
     },
     {
+      "resourceCode": "StoryBaba",
+      "resourceGroup": "StoryBaba",
+      "resourceCategory": "其余/剧情模型",
+      "folderName": "其余/剧情模型/storybaba",
+      "baseFileName": "StoryBaba",
+      "label": "StoryBaba",
+      "skeletonFileName": "StoryBaba.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "StoryBaba.atlas.txt",
+      "textureFileNames": [
+        "StoryBaba.png"
+      ],
+      "dataFileNames": [
+        "StoryBaba_Atlas.asset",
+        "StoryBaba_Atlas.asset.meta",
+        "StoryBaba_Material.mat",
+        "StoryBaba_Material.mat.meta",
+        "StoryBaba_Standing.asset",
+        "StoryBaba_Standing.asset.meta",
+        "StoryBaba.atlas.txt.meta",
+        "StoryBaba.png.meta",
+        "StoryBaba.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "StoryBbangJoo",
+      "resourceGroup": "StoryBbangJoo",
+      "resourceCategory": "其余/剧情模型",
+      "folderName": "其余/剧情模型/storybbangjoo",
+      "baseFileName": "StoryBbangJoo",
+      "label": "StoryBbangJoo",
+      "skeletonFileName": "StoryBbangJoo.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "StoryBbangJoo.atlas.txt",
+      "textureFileNames": [
+        "StoryBbangJoo.png"
+      ],
+      "dataFileNames": [
+        "StoryBbangJoo_Atlas.asset",
+        "StoryBbangJoo_Atlas.asset.meta",
+        "StoryBbangJoo_Material.mat",
+        "StoryBbangJoo_Material.mat.meta",
+        "StoryBbangJoo_Standing.asset",
+        "StoryBbangJoo_Standing.asset.meta",
+        "StoryBbangJoo.atlas.txt.meta",
+        "StoryBbangJoo.png.meta",
+        "StoryBbangJoo.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "StoryObject",
+      "resourceGroup": "StoryObject",
+      "resourceCategory": "其余/剧情模型",
+      "folderName": "其余/剧情模型/storyobject",
+      "baseFileName": "StoryObject",
+      "label": "StoryObject",
+      "skeletonFileName": "StoryObject.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "StoryObject.atlas.txt",
+      "textureFileNames": [
+        "StoryObject.png"
+      ],
+      "dataFileNames": [
+        "StoryObject_Atlas.asset",
+        "StoryObject_Atlas.asset.meta",
+        "StoryObject_Material.mat",
+        "StoryObject_Material.mat.meta",
+        "StoryObject_Standing.asset",
+        "StoryObject_Standing.asset.meta",
+        "StoryObject.atlas.txt.meta",
+        "StoryObject.png.meta",
+        "StoryObject.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "Augment_SheepBomb",
       "resourceGroup": "Augment_SheepBomb",
       "resourceCategory": "其余/召唤物",
@@ -9795,6 +9899,32 @@
       "isComplete": true
     },
     {
+      "resourceCode": "FigureL97",
+      "resourceGroup": "FigureL97",
+      "resourceCategory": "其余/家具",
+      "folderName": "其余/家具/figurel97_spine",
+      "baseFileName": "FigureL97",
+      "label": "FigureL97",
+      "skeletonFileName": "FigureL97.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "FigureL97.atlas.txt",
+      "textureFileNames": [
+        "FigureL97.png"
+      ],
+      "dataFileNames": [
+        "FigureL97_Atlas.asset",
+        "FigureL97_Atlas.asset.meta",
+        "FigureL97_Material.mat",
+        "FigureL97_Material.mat.meta",
+        "FigureL97_SkeletonData.asset",
+        "FigureL97_SkeletonData.asset.meta",
+        "FigureL97.atlas.txt.meta",
+        "FigureL97.png.meta",
+        "FigureL97.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "FigureS201",
       "resourceGroup": "FigureS201",
       "resourceCategory": "其余/家具",
@@ -11106,10 +11236,12 @@
       "atlasFileName": "Minimi.atlas.txt",
       "textureFileNames": [
         "Minimi_2.png",
+        "Minimi_3.png",
         "Minimi.png"
       ],
       "dataFileNames": [
         "Minimi_2.png.meta",
+        "Minimi_3.png.meta",
         "Minimi_Atlas.asset",
         "Minimi_Atlas.asset.meta",
         "Minimi_Minimi_2.mat",
@@ -11148,6 +11280,7 @@
       ],
       "dataFileNames": [
         "Minimi_2.png.meta",
+        "Minimi_3.png.meta",
         "Minimi_Atlas.asset",
         "Minimi_Atlas.asset.meta",
         "Minimi_Minimi_2.mat",
@@ -12768,6 +12901,32 @@
         "MakashaCompanionHouse.atlas.txt.meta",
         "MakashaCompanionHouse.png.meta",
         "MakashaCompanionHouse.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "Maragnima",
+      "resourceGroup": "Maragnima",
+      "resourceCategory": "宠物",
+      "folderName": "宠物/maragnima",
+      "baseFileName": "Maragnima",
+      "label": "Maragnima",
+      "skeletonFileName": "Maragnima.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "Maragnima.atlas.txt",
+      "textureFileNames": [
+        "Maragnima.png"
+      ],
+      "dataFileNames": [
+        "Maragnima_Atlas.asset",
+        "Maragnima_Atlas.asset.meta",
+        "Maragnima_Material.mat",
+        "Maragnima_Material.mat.meta",
+        "Maragnima_SkeletonData.asset",
+        "Maragnima_SkeletonData.asset.meta",
+        "Maragnima.atlas.txt.meta",
+        "Maragnima.png.meta",
+        "Maragnima.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -18881,6 +19040,8 @@
         "DianaYester_Material.mat.meta",
         "DianaYester_SkeletonData.asset",
         "DianaYester_SkeletonData.asset.meta",
+        "DianaYester_SpineEvents.bytes",
+        "DianaYester_SpineEvents.bytes.meta",
         "DianaYester.atlas.txt.meta",
         "DianaYester.png.meta",
         "DianaYester.skel.bytes.meta"
@@ -18959,6 +19120,8 @@
         "DianaYesterSkin1_Material.mat.meta",
         "DianaYesterSkin1_SkeletonData.asset",
         "DianaYesterSkin1_SkeletonData.asset.meta",
+        "DianaYesterSkin1_SpineEvents.bytes",
+        "DianaYesterSkin1_SpineEvents.bytes.meta",
         "DianaYesterSkin1.atlas.txt.meta",
         "DianaYesterSkin1.png.meta",
         "DianaYesterSkin1.skel.bytes.meta"
@@ -18985,9 +19148,39 @@
         "DianaYesterSkin2_Material.mat.meta",
         "DianaYesterSkin2_SkeletonData.asset",
         "DianaYesterSkin2_SkeletonData.asset.meta",
+        "DianaYesterSkin2_SpineEvents.bytes",
+        "DianaYesterSkin2_SpineEvents.bytes.meta",
         "DianaYesterSkin2.atlas.txt.meta",
         "DianaYesterSkin2.png.meta",
         "DianaYesterSkin2.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "DianaYesterSkin3",
+      "resourceGroup": "Diana",
+      "resourceCategory": "战斗模型",
+      "folderName": "战斗模型/dianayesterskin3",
+      "baseFileName": "DianaYesterSkin3",
+      "label": "DianaYesterSkin3",
+      "skeletonFileName": "DianaYesterSkin3.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "DianaYesterSkin3.atlas.txt",
+      "textureFileNames": [
+        "DianaYesterSkin3.png"
+      ],
+      "dataFileNames": [
+        "DianaYesterSkin3_Atlas.asset",
+        "DianaYesterSkin3_Atlas.asset.meta",
+        "DianaYesterSkin3_Material.mat",
+        "DianaYesterSkin3_Material.mat.meta",
+        "DianaYesterSkin3_SkeletonData.asset",
+        "DianaYesterSkin3_SkeletonData.asset.meta",
+        "DianaYesterSkin3_SpineEvents.bytes",
+        "DianaYesterSkin3_SpineEvents.bytes.meta",
+        "DianaYesterSkin3.atlas.txt.meta",
+        "DianaYesterSkin3.png.meta",
+        "DianaYesterSkin3.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -21106,32 +21299,6 @@
       "isComplete": true
     },
     {
-      "resourceCode": "KidianSkin3",
-      "resourceGroup": "Kidian",
-      "resourceCategory": "战斗模型",
-      "folderName": "战斗模型/kidianskin3",
-      "baseFileName": "KidianSkin3",
-      "label": "KidianSkin3",
-      "skeletonFileName": "KidianSkin3.skel.bytes",
-      "skeletonFormat": "binary",
-      "atlasFileName": "KidianSkin3.atlas.txt",
-      "textureFileNames": [
-        "KidianSkin3.png"
-      ],
-      "dataFileNames": [
-        "KidianSkin3_Atlas.asset",
-        "KidianSkin3_Atlas.asset.meta",
-        "KidianSkin3_Material.mat",
-        "KidianSkin3_Material.mat.meta",
-        "KidianSkin3_SkeletonData.asset",
-        "KidianSkin3_SkeletonData.asset.meta",
-        "KidianSkin3.atlas.txt.meta",
-        "KidianSkin3.png.meta",
-        "KidianSkin3.skel.bytes.meta"
-      ],
-      "isComplete": true
-    },
-    {
       "resourceCode": "KidianSkin4",
       "resourceGroup": "Kidian",
       "resourceCategory": "战斗模型",
@@ -23019,6 +23186,8 @@
         "Neti_Material.mat.meta",
         "Neti_SkeletonData.asset",
         "Neti_SkeletonData.asset.meta",
+        "Neti_SpineEvents.bytes",
+        "Neti_SpineEvents.bytes.meta",
         "Neti.atlas.txt.meta",
         "Neti.png.meta",
         "Neti.skel.bytes.meta"
@@ -24662,6 +24831,62 @@
         "RollettSkin3.atlas.txt.meta",
         "RollettSkin3.png.meta",
         "RollettSkin3.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "Ronnie",
+      "resourceGroup": "Ronnie",
+      "resourceCategory": "战斗模型",
+      "folderName": "战斗模型/ronnie",
+      "baseFileName": "Ronnie",
+      "label": "Ronnie",
+      "skeletonFileName": "Ronnie.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "Ronnie.atlas.txt",
+      "textureFileNames": [
+        "Ronnie.png"
+      ],
+      "dataFileNames": [
+        "Ronnie_Atlas.asset",
+        "Ronnie_Atlas.asset.meta",
+        "Ronnie_Material.mat",
+        "Ronnie_Material.mat.meta",
+        "Ronnie_SkeletonData.asset",
+        "Ronnie_SkeletonData.asset.meta",
+        "Ronnie_SpineEvents.bytes",
+        "Ronnie_SpineEvents.bytes.meta",
+        "Ronnie.atlas.txt.meta",
+        "Ronnie.png.meta",
+        "Ronnie.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "RonnieSkin1",
+      "resourceGroup": "Ronnie",
+      "resourceCategory": "战斗模型",
+      "folderName": "战斗模型/ronnieskin1",
+      "baseFileName": "RonnieSkin1",
+      "label": "RonnieSkin1",
+      "skeletonFileName": "RonnieSkin1.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "RonnieSkin1.atlas.txt",
+      "textureFileNames": [
+        "RonnieSkin1.png"
+      ],
+      "dataFileNames": [
+        "RonnieSkin1_Atlas.asset",
+        "RonnieSkin1_Atlas.asset.meta",
+        "RonnieSkin1_Material.mat",
+        "RonnieSkin1_Material.mat.meta",
+        "RonnieSkin1_SkeletonData.asset",
+        "RonnieSkin1_SkeletonData.asset.meta",
+        "RonnieSkin1_SpineEvents.bytes",
+        "RonnieSkin1_SpineEvents.bytes.meta",
+        "RonnieSkin1.atlas.txt.meta",
+        "RonnieSkin1.png.meta",
+        "RonnieSkin1.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -30026,6 +30251,34 @@
         "DianaYesterSkin2.atlas.txt.meta",
         "DianaYesterSkin2.png.meta",
         "DianaYesterSkin2.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "DianaYesterSkin3",
+      "resourceGroup": "Diana",
+      "resourceCategory": "正常使徒",
+      "folderName": "正常使徒/dianayesterskin3",
+      "baseFileName": "DianaYesterSkin3",
+      "label": "DianaYesterSkin3",
+      "skeletonFileName": "DianaYesterSkin3.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "DianaYesterSkin3.atlas.txt",
+      "textureFileNames": [
+        "DianaYesterSkin3.png"
+      ],
+      "dataFileNames": [
+        "DianaYesterSkin3_Atlas.asset",
+        "DianaYesterSkin3_Atlas.asset.meta",
+        "DianaYesterSkin3_Material.mat",
+        "DianaYesterSkin3_Material.mat.meta",
+        "DianaYesterSkin3_SkeletonData.asset",
+        "DianaYesterSkin3_SkeletonData.asset.meta",
+        "DianaYesterSkin3_Standing.asset",
+        "DianaYesterSkin3_Standing.asset.meta",
+        "DianaYesterSkin3.atlas.txt.meta",
+        "DianaYesterSkin3.png.meta",
+        "DianaYesterSkin3.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -35765,6 +36018,62 @@
         "RollettSkin3.atlas.txt.meta",
         "RollettSkin3.png.meta",
         "RollettSkin3.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "Ronnie",
+      "resourceGroup": "Ronnie",
+      "resourceCategory": "正常使徒",
+      "folderName": "正常使徒/ronnie",
+      "baseFileName": "Ronnie",
+      "label": "Ronnie",
+      "skeletonFileName": "Ronnie.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "Ronnie.atlas.txt",
+      "textureFileNames": [
+        "Ronnie.png"
+      ],
+      "dataFileNames": [
+        "Ronnie_Atlas.asset",
+        "Ronnie_Atlas.asset.meta",
+        "Ronnie_Material.mat",
+        "Ronnie_Material.mat.meta",
+        "Ronnie_SkeletonData.asset",
+        "Ronnie_SkeletonData.asset.meta",
+        "Ronnie_Standing.asset",
+        "Ronnie_Standing.asset.meta",
+        "Ronnie.atlas.txt.meta",
+        "Ronnie.png.meta",
+        "Ronnie.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "RonnieSkin1",
+      "resourceGroup": "Ronnie",
+      "resourceCategory": "正常使徒",
+      "folderName": "正常使徒/ronnieskin1",
+      "baseFileName": "RonnieSkin1",
+      "label": "RonnieSkin1",
+      "skeletonFileName": "RonnieSkin1.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "RonnieSkin1.atlas.txt",
+      "textureFileNames": [
+        "RonnieSkin1.png"
+      ],
+      "dataFileNames": [
+        "RonnieSkin1_Atlas.asset",
+        "RonnieSkin1_Atlas.asset.meta",
+        "RonnieSkin1_Material.mat",
+        "RonnieSkin1_Material.mat.meta",
+        "RonnieSkin1_SkeletonData.asset",
+        "RonnieSkin1_SkeletonData.asset.meta",
+        "RonnieSkin1_Standing.asset",
+        "RonnieSkin1_Standing.asset.meta",
+        "RonnieSkin1.atlas.txt.meta",
+        "RonnieSkin1.png.meta",
+        "RonnieSkin1.skel.bytes.meta"
       ],
       "isComplete": true
     },

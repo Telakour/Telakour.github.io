@@ -8,7 +8,7 @@
     />
     <script>
       (function () {
-        var supported = ["zh-CN", "ko-KR", "ja-JP"];
+        var supported = ["zh-CN", "ko-KR", "ja-JP", "en-US"];
         var locale = "zh-CN";
         try {
           var stored = window.localStorage.getItem("trickcal.locale");
@@ -20,7 +20,8 @@
         var fonts = {
           "zh-CN": "/fonts/JingNanBoBoHei-Bold-2.ttf",
           "ko-KR": "/fonts/NEXONLv1GothicBold.ttf",
-          "ja-JP": "/fonts/RocknRollOne-Regular.ttf"
+          "ja-JP": "/fonts/RocknRollOne-Regular.ttf",
+          "en-US": "/fonts/JingNanBoBoHei-Bold-2.ttf"
         };
         var preload = document.createElement("link");
         preload.rel = "preload";
@@ -46,12 +47,12 @@
       media="(max-width: 760px)"
       fetchpriority="high"
     />
-    <link rel="stylesheet" href="./loading-screen/loading-screen.css?v=4" />
-    <link rel="preload" as="image" href="./loading-screen/backgrounds/Fairy_Guestroom2_night.webp?v=4" fetchpriority="high" />
-    <link rel="preload" as="image" href="./loading-screen/loading-card-pattern.webp?v=4" fetchpriority="high" />
-    <link rel="preload" as="image" href="./loading-screen/loading-token.webp?v=4" fetchpriority="high" />
-    <script defer src="./loading-screen/spine-webgl.min.js?v=4"></script>
-    <script defer src="./loading-screen/loading-spine.js?v=4"></script>
+    <link rel="stylesheet" href="./loading-screen/loading-screen.css?v=5" />
+    <link rel="preload" as="image" href="./loading-screen/backgrounds/Fairy_Guestroom2_night.webp?v=5" fetchpriority="high" />
+    <link rel="preload" as="image" href="./loading-screen/loading-card-pattern.webp?v=5" fetchpriority="high" />
+    <link rel="preload" as="image" href="./loading-screen/loading-token.webp?v=5" fetchpriority="high" />
+    <script defer src="./loading-screen/spine-webgl.min.js?v=5"></script>
+    <script defer src="./loading-screen/loading-spine.js?v=5"></script>
     <style>
       html,
       body,
@@ -66,16 +67,16 @@
       }
     </style>
     <title>教主的旅途</title>
-    <script type="module" crossorigin src="./assets/index-BDEXIrV5.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-DmYnplrG.css">
+    <script type="module" crossorigin src="./assets/index-57epzdJ2.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-B9nxhiDm.css">
   </head>
   <body>
     <div id="root">
-      <div class="codex-loading-screen" id="codex-bootstrap-loading" aria-busy="true" style="background-image:url('loading-screen/backgrounds/Fairy_Guestroom2_night.webp?v=4');background-position:center;background-repeat:no-repeat;background-size:cover">
+      <div class="codex-loading-screen" id="codex-bootstrap-loading" aria-busy="true" style="background-image:url('loading-screen/backgrounds/Fairy_Guestroom2_night.webp?v=5');background-position:center;background-repeat:no-repeat;background-size:cover">
         <div class="codex-loading-card">
           <canvas class="codex-loading-spine" data-codex-loading-spine data-spine-root="https://assets.927927927.xyz/spine" aria-hidden="true"></canvas>
           <div class="codex-loading-content">
-            <img class="codex-loading-leaf" src="./loading-screen/loading-token.webp?v=4" alt="" />
+            <img class="codex-loading-leaf" src="./loading-screen/loading-token.webp?v=5" alt="" />
             <div class="codex-loading-title">可丽饼正在打扫教团</div>
             <div class="codex-loading-subtitle">资源加载中，请稍候</div>
             <div class="codex-loading-bar is-indeterminate" role="progressbar">
@@ -89,6 +90,17 @@
       (function () {
         var loadingScreen = document.getElementById("codex-bootstrap-loading");
         if (!loadingScreen) return;
+        var bootstrapCopy = {
+          "zh-CN": ["可丽饼正在打扫教团", "资源加载中，请稍候"],
+          "ko-KR": ["크레페가 교단을 청소하고 있어요", "리소스를 불러오는 중입니다"],
+          "ja-JP": ["クレープが教団を掃除しています", "リソースを読み込んでいます"],
+          "en-US": ["Crepe is tidying up the Order", "Loading resources, please wait"]
+        };
+        var initialCopy = bootstrapCopy[window.__codexInitialLocale] || bootstrapCopy["zh-CN"];
+        var initialTitle = loadingScreen.querySelector(".codex-loading-title");
+        var initialSubtitle = loadingScreen.querySelector(".codex-loading-subtitle");
+        if (initialTitle) initialTitle.textContent = initialCopy[0];
+        if (initialSubtitle) initialSubtitle.textContent = initialCopy[1];
         // HashRouter changes the hash for every in-app route. The loading
         // background must remain stable until the document itself is reloaded.
         var sessionKey = window.location.pathname + window.location.search;
@@ -99,7 +111,7 @@
 
         window.__codexLoadingBackgroundKey = sessionKey;
         window.__codexLoadingBackgroundUrl = undefined;
-        var defaultBackground = new URL("/loading-screen/backgrounds/Fairy_Guestroom2_night.webp?v=4", window.location.href).href;
+        var defaultBackground = new URL("/loading-screen/backgrounds/Fairy_Guestroom2_night.webp?v=5", window.location.href).href;
         function loadBackground(source) {
           return new Promise(function (resolve) {
             var image = new Image();
@@ -121,7 +133,7 @@
             if (image.complete) image.onload();
           });
         }
-        window.__codexLoadingBackgroundPromise = fetch("/loading-screen/assets.json?v=4", { cache: "force-cache" })
+        window.__codexLoadingBackgroundPromise = fetch("/loading-screen/assets.json?v=5", { cache: "force-cache" })
           .then(function (response) { return response.ok ? response.json() : null; })
           .then(function (manifest) {
             var backgrounds = manifest && manifest.backgrounds;

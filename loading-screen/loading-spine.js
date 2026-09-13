@@ -109,6 +109,7 @@
     var locale = String(value || "").toLowerCase();
     if (locale.startsWith("ko")) return "ko-KR";
     if (locale.startsWith("ja")) return "ja-JP";
+    if (locale.startsWith("en")) return "en-US";
     return "zh-CN";
   }
 
@@ -122,7 +123,7 @@
   function applyLoadingCopy(canvas, assetRoot, random) {
     var root = canvas.closest(".codex-loading-screen, #codex-loading-screen");
     if (!root) return;
-    var url = new URL("loading-copy.json", assetRoot).href;
+    var url = new URL("loading-copy.json?v=5", assetRoot).href;
     void loadJsonOnce(copyPromises, url)
       .then(function (data) {
         if (!canvas.isConnected) return;
