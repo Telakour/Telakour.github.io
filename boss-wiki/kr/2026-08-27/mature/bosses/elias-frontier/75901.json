@@ -1850,10 +1850,10 @@
       },
       {
         "atSeconds": null,
-        "condition": "本关共6条血；失去第1条血、剩余5条且当前血条满血时触发（约总HP 83.3%）",
+        "condition": "本关共6条血；前5条血打空、进入最后一条血时触发。",
         "repeatIntervalSeconds": null,
         "phase": "满足对应条件时",
-        "event": "剩余5条血的场景强化",
+        "event": "最后一条血：场景强化",
         "category": "phase-form",
         "targetType": "mechanism",
         "targetId": "exr41-five-bar-field",
@@ -1890,8 +1890,8 @@
       },
       {
         "id": "five-bars",
-        "name": "剩余5条血后",
-        "activationCondition": "本关共6条血；失去第1条血、剩余5条且当前血条满血时触发（约总HP 83.3%）",
+        "name": "最后一条血",
+        "activationCondition": "本关共6条血；前5条血打空、进入最后一条血时触发。",
         "attackIds": [
           "exr41-normal",
           "exr41-enhanced",
@@ -3436,21 +3436,21 @@
       {
         "id": "exr41-five-bar-field",
         "category": "phase-form",
-        "title": "剩余5条血的场景强化",
+        "title": "最后一条血：场景强化",
         "triggers": [
           {
             "type": "血量阶段",
-            "summary": "本关共6条血；失去第1条血、剩余5条且当前血条满血时触发（约总HP 83.3%）",
+            "summary": "本关共6条血；前5条血打空、进入最后一条血时触发。",
             "firstTriggerTimeSeconds": null,
             "repeatIntervalSeconds": null,
             "hpThresholdRaw": 100,
-            "hpLine": 5,
-            "approxTotalHpPercent": 83.333333
+            "hpLine": 1,
+            "approxTotalHpPercent": null
           }
         ],
-        "guideTriggerSummary": "本关共6条血；失去第1条血、剩余5条且当前血条满血时触发（约总HP 83.3%）",
-        "summary": "第一条血打空后触发阶段演出，随后持续发动灼烧攻击。",
-        "playerResponse": "第一条血打空后准备持续治疗和防护，应对后续反复出现的灼烧攻击。",
+        "guideTriggerSummary": "本关共6条血；前5条血打空、进入最后一条血时触发。",
+        "summary": "进入最后一条血时触发阶段演出，随后持续发动灼烧攻击。",
+        "playerResponse": "进入最后一条血前准备好持续治疗和防护，应对随后反复出现的灼烧攻击。",
         "caution": "这是血条阶段机制，不代表Boss切换成另一套普通/SP动作。",
         "actionSequence": [
           {
@@ -5255,7 +5255,7 @@
       }
     ],
     "playerAdvice": [
-      "第一条血打空后进入阶段演出，之后反复施加灼烧，提前准备持续治疗和防护。",
+      "进入最后一条血时播放阶段演出，之后反复施加灼烧，提前准备持续治疗和防护。",
       "球出现后立刻集火，击破后利用Boss倒地的10秒集中输出。来不及击破时，提前准备减伤和免控。",
       "优先击破后置无人机；累计3层缠绕时间后，趁Boss无法行动且易伤时，用刚重置冷却的高年级技能集中输出。",
       "时间停止无人机首次在60秒后可用，此后会重复；保护被锁定的使徒，每个人的实际受击次数不固定。"
