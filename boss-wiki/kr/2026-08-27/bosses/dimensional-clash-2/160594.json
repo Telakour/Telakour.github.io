@@ -1,0 +1,610 @@
+{
+  "schemaVersion": 3,
+  "server": "kr",
+  "dataVersion": "2026-08-27",
+  "routeKey": "kr:dimensional-clash-2:160594",
+  "mode": "次元大冲突2.0",
+  "modeKey": "dimensional-clash-2",
+  "monsterUid": "160594",
+  "bossName": "호바깅 - 활발",
+  "personality": "활발",
+  "attackType": "物理/魔法",
+  "spineKey": "Pumpkin",
+  "spineSkinName": "Skin_Jolly",
+  "iconUrl": "/boss-wiki/kr/2026-08-27/icons/dimensional-clash-2/160594.png",
+  "difficultyCodes": [
+    0
+  ],
+  "stages": [
+    {
+      "rowKey": "dimensional-clash-2:42:42080010:160594:0",
+      "monsterUid": "160594",
+      "bossName": "호바깅 - 활발",
+      "personality": "활발",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 1,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "활발한 차원: 제 1구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 1,
+      "等级": "Lv.50",
+      "数值口径": "最终阶段属性",
+      "HP": 295252.25,
+      "物理攻击": 892,
+      "魔法攻击": 892,
+      "物理防御": 1257,
+      "魔法防御": 1257,
+      "暴击": 735,
+      "暴击伤害": 735,
+      "暴击抵抗": 735,
+      "暴伤抵抗": 735,
+      "SP上限": 200,
+      "SP恢复": 16,
+      "攻击速度": 133,
+      "属性加成与特殊说明": "HP -75% · 最终物理伤害 +50% · 最终魔法伤害 +50%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42080010"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42080040:160594:0",
+      "monsterUid": "160594",
+      "bossName": "호바깅 - 활발",
+      "personality": "활발",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 4,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "활발한 차원: 제 4구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 4,
+      "等级": "Lv.144",
+      "数值口径": "最终阶段属性",
+      "HP": 1501798.116,
+      "物理攻击": 3077.64,
+      "魔法攻击": 3077.64,
+      "物理防御": 3513,
+      "魔法防御": 3513,
+      "暴击": 2051,
+      "暴击伤害": 2051,
+      "暴击抵抗": 2051,
+      "暴伤抵抗": 2051,
+      "SP上限": 200,
+      "SP恢复": 16,
+      "攻击速度": 133,
+      "属性加成与特殊说明": "HP -54.48% · 物攻 +23.6% · 魔攻 +23.6% · 最终物理伤害 +56.51% · 最终魔法伤害 +56.51%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42080040"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42080070:160594:0",
+      "monsterUid": "160594",
+      "bossName": "호바깅 - 활발",
+      "personality": "활발",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 7,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "활발한 차원: 제 7구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 7,
+      "等级": "Lv.331",
+      "数值口径": "最终阶段属性",
+      "HP": 11845846.4321,
+      "物理攻击": 14144.155,
+      "魔法攻击": 14144.155,
+      "物理防御": 8001,
+      "魔法防御": 8001,
+      "暴击": 4669,
+      "暴击伤害": 4669,
+      "暴击抵抗": 4669,
+      "暴伤抵抗": 4669,
+      "SP上限": 200,
+      "SP恢复": 16,
+      "攻击速度": 133,
+      "属性加成与特殊说明": "HP +57.67% · 物攻 +149.5% · 魔攻 +149.5% · 最终物理伤害 +63.02% · 最终魔法伤害 +63.02%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42080070"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42080100:160594:0",
+      "monsterUid": "160594",
+      "bossName": "호바깅 - 활발",
+      "personality": "활발",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "활발한 차원: 제 10구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 10,
+      "等级": "Lv.706",
+      "数值口径": "最终阶段属性",
+      "HP": 75158470.2666,
+      "物理攻击": 66434.704,
+      "魔法攻击": 66434.704,
+      "物理防御": 17001,
+      "魔法防御": 17001,
+      "暴击": 9919,
+      "暴击伤害": 9919,
+      "暴击抵抗": 9919,
+      "暴伤抵抗": 9919,
+      "SP上限": 200,
+      "SP恢复": 16,
+      "攻击速度": 133,
+      "属性加成与特殊说明": "HP +370.82% · 物攻 +451.6% · 魔攻 +451.6% · 最终物理伤害 +69.53% · 最终魔法伤害 +69.53%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42080100"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42080130:160594:0",
+      "monsterUid": "160594",
+      "bossName": "호바깅 - 활발",
+      "personality": "활발",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 13,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "활발한 차원: 제 13구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 13,
+      "等级": "Lv.1456",
+      "数值口径": "最终阶段属性",
+      "HP": 550028492.6558,
+      "物理攻击": 386488.872,
+      "魔法攻击": 386488.872,
+      "物理防御": 35001,
+      "魔法防御": 35001,
+      "暴击": 20419,
+      "暴击伤害": 20419,
+      "暴击抵抗": 20419,
+      "暴伤抵抗": 20419,
+      "SP上限": 200,
+      "SP恢复": 16,
+      "攻击速度": 133,
+      "属性加成与特殊说明": "HP +1573.66% · 物攻 +1458.8% · 魔攻 +1458.8% · 最终物理伤害 +76.04% · 最终魔法伤害 +76.04%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42080130"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42080160:160594:0",
+      "monsterUid": "160594",
+      "bossName": "호바깅 - 활발",
+      "personality": "활발",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 16,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "활발한 차원: 제 16구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 16,
+      "等级": "Lv.2956",
+      "数值口径": "最终阶段属性",
+      "HP": 3478056623.2799,
+      "物理攻击": 1999689.44,
+      "魔法攻击": 1999689.44,
+      "物理防御": 71001,
+      "魔法防御": 71001,
+      "暴击": 41419,
+      "暴击伤害": 41419,
+      "暴击抵抗": 41419,
+      "暴伤抵抗": 41419,
+      "SP上限": 200,
+      "SP恢复": 16,
+      "攻击速度": 133,
+      "属性加成与特殊说明": "HP +5117.23% · 物攻 +3876% · 魔攻 +3876% · 最终物理伤害 +82.55% · 最终魔法伤害 +82.55%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42080160"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42080190:160594:0",
+      "monsterUid": "160594",
+      "bossName": "호바깅 - 활발",
+      "personality": "활발",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 19,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "활발한 차원: 제 19구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 19,
+      "等级": "Lv.5006",
+      "数值口径": "最终阶段属性",
+      "HP": 13431523501.643,
+      "物理攻击": 6198057.48,
+      "魔法攻击": 6198057.48,
+      "物理防御": 120201,
+      "魔法防御": 120201,
+      "暴击": 70119,
+      "暴击伤害": 70119,
+      "暴击抵抗": 70119,
+      "暴伤抵抗": 70119,
+      "SP上限": 200,
+      "SP恢复": 16,
+      "攻击速度": 133,
+      "属性加成与特殊说明": "HP +11801.1% · 物攻 +7179.5% · 魔攻 +7179.5% · 最终物理伤害 +89.06% · 最终魔法伤害 +89.06%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42080190"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42080220:160594:0",
+      "monsterUid": "160594",
+      "bossName": "호바깅 - 활발",
+      "personality": "활발",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 22,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "활발한 차원: 제 22구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 22,
+      "等级": "Lv.8156",
+      "数值口径": "最终阶段属性",
+      "HP": 48836053760.546,
+      "物理攻击": 17136475.864,
+      "魔法攻击": 17136475.864,
+      "物理防御": 195801,
+      "魔法防御": 195801,
+      "暴击": 114219,
+      "暴击伤害": 114219,
+      "暴击抵抗": 114219,
+      "暴伤抵抗": 114219,
+      "SP上限": 200,
+      "SP恢复": 16,
+      "攻击速度": 133,
+      "属性加成与特殊说明": "HP +26464.2% · 物攻 +12255.6% · 魔攻 +12255.6% · 最终物理伤害 +95.57% · 最终魔法伤害 +95.57%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42080220"
+      }
+    }
+  ],
+  "skills": [],
+  "guideSkills": [
+    {
+      "id": "16059401",
+      "sourceOrder": 0,
+      "displayName": "일반공격",
+      "presentationLabel": null,
+      "nameKind": "官方技能名",
+      "skillType": "普通攻击",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          10
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 100,
+        "max": 100,
+        "displayMin": 100,
+        "displayMax": 100,
+        "hitCount": 1,
+        "formula": "Attack1_1_Jolly 100%"
+      },
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "造成伤害",
+          "spineAnimation": "Attack1_1_Jolly",
+          "relation": "执行关系待确认",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.666667
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Attack1"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Pumpkin_Proj_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Pumpkin_Hit_1"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        },
+        {
+          "order": null,
+          "action": "执行特殊机制",
+          "spineAnimation": null,
+          "relation": "未匹配Spine事件的直接或回调效果",
+          "spineEventCount": 0,
+          "effectTriggerCount": 0,
+          "eventTimes": [],
+          "spineEffects": [],
+          "evidenceStatus": "官方效果行存在；Spine事件或具体调用时点尚未匹配"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "普通攻击动作",
+          "spineAnimation": "Attack1_1_Jolly",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.666667
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 100,
+          "confirmedSegmentTotalMax": 100,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Attack1"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_Pumpkin_Proj_1"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Pumpkin_Hit_1"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "执行特殊机制",
+          "note": "处理器语义待确认",
+          "action": "执行特殊机制"
+        }
+      ],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "16059402",
+      "sourceOrder": 1,
+      "displayName": "攻击速度提高并恢复生命或资源（Skill1_1_Jolly）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          10
+        ]
+      },
+      "range": null,
+      "verdict": "no-damage",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "攻击速度提高；恢复生命或资源",
+          "spineAnimation": "Skill1_1_Jolly",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            1.666667
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill1"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Erpin_Skill_Explosion_1"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "额外骨骼",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "额外特效",
+              "resource": "FX_Speaki_Ultimate_1_Pumpkin"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [],
+      "effectGroups": {
+        "buffs": [
+          {
+            "nameKo": null,
+            "fallbackLabel": "攻击速度提高",
+            "descriptionKo": null,
+            "relation": null,
+            "relationDepth": null,
+            "category": "buff",
+            "uid": null,
+            "nameKey": null,
+            "iconUrl": null,
+            "catalogMatch": "not-found",
+            "probabilityPercent": null,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": true,
+            "classificationEvidence": null
+          }
+        ],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [
+          {
+            "healMin": 500,
+            "healMax": 500,
+            "durationMin": 0,
+            "durationMax": 0,
+            "interval": 0
+          }
+        ],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [
+        {
+          "healMin": 500,
+          "healMax": 500,
+          "durationMin": 0,
+          "durationMax": 0,
+          "interval": 0
+        }
+      ],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "提高攻击速度",
+          "note": "提高攻击速度；数值按官方参数保留。",
+          "action": "提高攻击速度"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "官方字段和客户端结算共同确认该技能没有直接正伤害。",
+      "evidenceStatus": "官方字段与客户端结算共同确认无直接正伤害",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    }
+  ],
+  "internalComponents": [],
+  "spineResources": [
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack1_1_Jolly",
+      "直接连接的技能效果": "16059401",
+      "触发时间": "0.666667s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_1_Jolly",
+      "直接连接的技能效果": "16059402",
+      "触发时间": "1.666667s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    }
+  ],
+  "guideReference": null,
+  "runtimeReferences": {}
+}

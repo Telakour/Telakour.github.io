@@ -1,0 +1,5356 @@
+{
+  "schemaVersion": 8,
+  "server": "kr",
+  "dataDate": "2026-08-27",
+  "routeKey": "kr:elias-frontier:75901",
+  "mode": "艾利亚斯边境",
+  "modeCode": 15,
+  "modeKey": "elias-frontier",
+  "identity": {
+    "uid": "75901",
+    "name": "공허한 집행자 리뉴아",
+    "displayName": null,
+    "displayNameKind": null,
+    "role": "boss",
+    "context": "Boss索引对象",
+    "spine": "ExR41_Renewa",
+    "personalityCode": -1,
+    "personality": "无",
+    "attackTypeCode": 1,
+    "attackType": "物理",
+    "iconKey": "Icon_ExR41_RenewaNone",
+    "spineSkinName": null,
+    "spineDefaultAnimation": null,
+    "spineActionSuffix": null,
+    "officialTable": "MonsterInfo",
+    "lifecycle": null,
+    "runtimeReferences": {},
+    "iconUrl": "/boss-wiki/kr/2026-08-27/mature/icons/elias-frontier/75901.png",
+    "iconSourceType": "MonsterInfo.Icon官方PNG"
+  },
+  "runtimeMonsterUids": [
+    "75901"
+  ],
+  "bossName": "공허한 집행자 리뉴아",
+  "familyKey": "r41",
+  "familyOrder": 999999,
+  "variantOrder": 2,
+  "firstFormalAppearance": {
+    "worldInfoUid": 1511,
+    "stageOrder": 13,
+    "stageUid": "15110134"
+  },
+  "stageRecords": [
+    {
+      "stageUid": "15110134",
+      "name": "[마그맛1] 침식되는 시공간",
+      "world": "SoloEnd_Boss",
+      "worldInfoUid": 1511,
+      "stageOrder": 13,
+      "difficulty": 4,
+      "battleTimeSeconds": 240,
+      "stageStructure": "six-hp-bars",
+      "hpBarCount": 6,
+      "hpBars": [
+        {
+          "hpBar": 1,
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": null,
+          "growthTimes": 7050,
+          "attributes": {
+            "hp": 7718080943,
+            "sp": 200,
+            "recoverySp": 20,
+            "healing": 0,
+            "physicalAttack": 567798,
+            "magicAttack": 0,
+            "physicalDefense": 282137,
+            "magicDefense": 204548,
+            "criticalRate": 98749,
+            "criticalMultiplier": 98749,
+            "criticalResist": 98749,
+            "criticalMultiplierResist": 98749,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 133
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 1000000,
+              "percent": 10000
+            },
+            "AttackPhysicPercent": {
+              "raw": 25000,
+              "percent": 250
+            },
+            "AttackMagicPercent": {
+              "raw": 25000,
+              "percent": 250
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 82500,
+              "percent": 825
+            },
+            "EndDamageMagicPercent": {
+              "raw": 82500,
+              "percent": 825
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": -9000,
+              "percent": -90
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": -9000,
+              "percent": -90
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        },
+        {
+          "hpBar": 2,
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": null,
+          "growthTimes": 7800,
+          "attributes": {
+            "hp": 8538756443,
+            "sp": 200,
+            "recoverySp": 20,
+            "healing": 0,
+            "physicalAttack": 628173,
+            "magicAttack": 0,
+            "physicalDefense": 312137,
+            "magicDefense": 226298,
+            "criticalRate": 109249,
+            "criticalMultiplier": 109249,
+            "criticalResist": 109249,
+            "criticalMultiplierResist": 109249,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 133
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 1000000,
+              "percent": 10000
+            },
+            "AttackPhysicPercent": {
+              "raw": 25000,
+              "percent": 250
+            },
+            "AttackMagicPercent": {
+              "raw": 25000,
+              "percent": 250
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 82500,
+              "percent": 825
+            },
+            "EndDamageMagicPercent": {
+              "raw": 82500,
+              "percent": 825
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": -9000,
+              "percent": -90
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": -9000,
+              "percent": -90
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        },
+        {
+          "hpBar": 3,
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": null,
+          "growthTimes": 8550,
+          "attributes": {
+            "hp": 9359431943,
+            "sp": 200,
+            "recoverySp": 20,
+            "healing": 0,
+            "physicalAttack": 688548,
+            "magicAttack": 0,
+            "physicalDefense": 342137,
+            "magicDefense": 248048,
+            "criticalRate": 119749,
+            "criticalMultiplier": 119749,
+            "criticalResist": 119749,
+            "criticalMultiplierResist": 119749,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 133
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 1000000,
+              "percent": 10000
+            },
+            "AttackPhysicPercent": {
+              "raw": 25000,
+              "percent": 250
+            },
+            "AttackMagicPercent": {
+              "raw": 25000,
+              "percent": 250
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 82500,
+              "percent": 825
+            },
+            "EndDamageMagicPercent": {
+              "raw": 82500,
+              "percent": 825
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": -9000,
+              "percent": -90
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": -9000,
+              "percent": -90
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        },
+        {
+          "hpBar": 4,
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": null,
+          "growthTimes": 9300,
+          "attributes": {
+            "hp": 10180107443,
+            "sp": 200,
+            "recoverySp": 20,
+            "healing": 0,
+            "physicalAttack": 748923,
+            "magicAttack": 0,
+            "physicalDefense": 372137,
+            "magicDefense": 269798,
+            "criticalRate": 130249,
+            "criticalMultiplier": 130249,
+            "criticalResist": 130249,
+            "criticalMultiplierResist": 130249,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 133
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 1000000,
+              "percent": 10000
+            },
+            "AttackPhysicPercent": {
+              "raw": 25000,
+              "percent": 250
+            },
+            "AttackMagicPercent": {
+              "raw": 25000,
+              "percent": 250
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 82500,
+              "percent": 825
+            },
+            "EndDamageMagicPercent": {
+              "raw": 82500,
+              "percent": 825
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": -9000,
+              "percent": -90
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": -9000,
+              "percent": -90
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        },
+        {
+          "hpBar": 5,
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": null,
+          "growthTimes": 10050,
+          "attributes": {
+            "hp": 11000782943,
+            "sp": 200,
+            "recoverySp": 20,
+            "healing": 0,
+            "physicalAttack": 809298,
+            "magicAttack": 0,
+            "physicalDefense": 402137,
+            "magicDefense": 291548,
+            "criticalRate": 140749,
+            "criticalMultiplier": 140749,
+            "criticalResist": 140749,
+            "criticalMultiplierResist": 140749,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 133
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 1000000,
+              "percent": 10000
+            },
+            "AttackPhysicPercent": {
+              "raw": 25000,
+              "percent": 250
+            },
+            "AttackMagicPercent": {
+              "raw": 25000,
+              "percent": 250
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 82500,
+              "percent": 825
+            },
+            "EndDamageMagicPercent": {
+              "raw": 82500,
+              "percent": 825
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": -9000,
+              "percent": -90
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": -9000,
+              "percent": -90
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        },
+        {
+          "hpBar": 6,
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": null,
+          "growthTimes": 10800,
+          "attributes": {
+            "hp": 11821458443,
+            "sp": 200,
+            "recoverySp": 20,
+            "healing": 0,
+            "physicalAttack": 869673,
+            "magicAttack": 0,
+            "physicalDefense": 432137,
+            "magicDefense": 313298,
+            "criticalRate": 151249,
+            "criticalMultiplier": 151249,
+            "criticalResist": 151249,
+            "criticalMultiplierResist": 151249,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 133
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 1000000,
+              "percent": 10000
+            },
+            "AttackPhysicPercent": {
+              "raw": 25000,
+              "percent": 250
+            },
+            "AttackMagicPercent": {
+              "raw": 25000,
+              "percent": 250
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 82500,
+              "percent": 825
+            },
+            "EndDamageMagicPercent": {
+              "raw": 82500,
+              "percent": 825
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": -9000,
+              "percent": -90
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": -9000,
+              "percent": -90
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "15110144",
+      "name": "[마그맛2] 부식중인 시공간",
+      "world": "SoloEnd_Boss",
+      "worldInfoUid": 1511,
+      "stageOrder": 14,
+      "difficulty": 4,
+      "battleTimeSeconds": 240,
+      "stageStructure": "six-hp-bars",
+      "hpBarCount": 6,
+      "hpBars": [
+        {
+          "hpBar": 1,
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": null,
+          "growthTimes": 9300,
+          "attributes": {
+            "hp": 13203901733,
+            "sp": 200,
+            "recoverySp": 20,
+            "healing": 0,
+            "physicalAttack": 802417.5,
+            "magicAttack": 0,
+            "physicalDefense": 372137,
+            "magicDefense": 269798,
+            "criticalRate": 130249,
+            "criticalMultiplier": 130249,
+            "criticalResist": 130249,
+            "criticalMultiplierResist": 130249,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 133
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 1300000,
+              "percent": 13000
+            },
+            "AttackPhysicPercent": {
+              "raw": 27500,
+              "percent": 275
+            },
+            "AttackMagicPercent": {
+              "raw": 27500,
+              "percent": 275
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 105000,
+              "percent": 1050
+            },
+            "EndDamageMagicPercent": {
+              "raw": 105000,
+              "percent": 1050
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": -9250,
+              "percent": -92.5
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": -9250,
+              "percent": -92.5
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        },
+        {
+          "hpBar": 2,
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": null,
+          "growthTimes": 10250,
+          "attributes": {
+            "hp": 14552193033,
+            "sp": 200,
+            "recoverySp": 20,
+            "healing": 0,
+            "physicalAttack": 884355,
+            "magicAttack": 0,
+            "physicalDefense": 410137,
+            "magicDefense": 297348,
+            "criticalRate": 143549,
+            "criticalMultiplier": 143549,
+            "criticalResist": 143549,
+            "criticalMultiplierResist": 143549,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 133
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 1300000,
+              "percent": 13000
+            },
+            "AttackPhysicPercent": {
+              "raw": 27500,
+              "percent": 275
+            },
+            "AttackMagicPercent": {
+              "raw": 27500,
+              "percent": 275
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 105000,
+              "percent": 1050
+            },
+            "EndDamageMagicPercent": {
+              "raw": 105000,
+              "percent": 1050
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": -9250,
+              "percent": -92.5
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": -9250,
+              "percent": -92.5
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        },
+        {
+          "hpBar": 3,
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": null,
+          "growthTimes": 11200,
+          "attributes": {
+            "hp": 15900484333,
+            "sp": 200,
+            "recoverySp": 20,
+            "healing": 0,
+            "physicalAttack": 966292.5,
+            "magicAttack": 0,
+            "physicalDefense": 448137,
+            "magicDefense": 324898,
+            "criticalRate": 156849,
+            "criticalMultiplier": 156849,
+            "criticalResist": 156849,
+            "criticalMultiplierResist": 156849,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 133
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 1300000,
+              "percent": 13000
+            },
+            "AttackPhysicPercent": {
+              "raw": 27500,
+              "percent": 275
+            },
+            "AttackMagicPercent": {
+              "raw": 27500,
+              "percent": 275
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 105000,
+              "percent": 1050
+            },
+            "EndDamageMagicPercent": {
+              "raw": 105000,
+              "percent": 1050
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": -9250,
+              "percent": -92.5
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": -9250,
+              "percent": -92.5
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        },
+        {
+          "hpBar": 4,
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": null,
+          "growthTimes": 12150,
+          "attributes": {
+            "hp": 17248775633,
+            "sp": 200,
+            "recoverySp": 20,
+            "healing": 0,
+            "physicalAttack": 1048230,
+            "magicAttack": 0,
+            "physicalDefense": 486137,
+            "magicDefense": 352448,
+            "criticalRate": 170149,
+            "criticalMultiplier": 170149,
+            "criticalResist": 170149,
+            "criticalMultiplierResist": 170149,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 133
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 1300000,
+              "percent": 13000
+            },
+            "AttackPhysicPercent": {
+              "raw": 27500,
+              "percent": 275
+            },
+            "AttackMagicPercent": {
+              "raw": 27500,
+              "percent": 275
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 105000,
+              "percent": 1050
+            },
+            "EndDamageMagicPercent": {
+              "raw": 105000,
+              "percent": 1050
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": -9250,
+              "percent": -92.5
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": -9250,
+              "percent": -92.5
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        },
+        {
+          "hpBar": 5,
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": null,
+          "growthTimes": 13100,
+          "attributes": {
+            "hp": 18597066933,
+            "sp": 200,
+            "recoverySp": 20,
+            "healing": 0,
+            "physicalAttack": 1130167.5,
+            "magicAttack": 0,
+            "physicalDefense": 524137,
+            "magicDefense": 379998,
+            "criticalRate": 183449,
+            "criticalMultiplier": 183449,
+            "criticalResist": 183449,
+            "criticalMultiplierResist": 183449,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 133
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 1300000,
+              "percent": 13000
+            },
+            "AttackPhysicPercent": {
+              "raw": 27500,
+              "percent": 275
+            },
+            "AttackMagicPercent": {
+              "raw": 27500,
+              "percent": 275
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 105000,
+              "percent": 1050
+            },
+            "EndDamageMagicPercent": {
+              "raw": 105000,
+              "percent": 1050
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": -9250,
+              "percent": -92.5
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": -9250,
+              "percent": -92.5
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        },
+        {
+          "hpBar": 6,
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": null,
+          "growthTimes": 14050,
+          "attributes": {
+            "hp": 19945358233,
+            "sp": 200,
+            "recoverySp": 20,
+            "healing": 0,
+            "physicalAttack": 1212105,
+            "magicAttack": 0,
+            "physicalDefense": 562137,
+            "magicDefense": 407548,
+            "criticalRate": 196749,
+            "criticalMultiplier": 196749,
+            "criticalResist": 196749,
+            "criticalMultiplierResist": 196749,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 133
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 1300000,
+              "percent": 13000
+            },
+            "AttackPhysicPercent": {
+              "raw": 27500,
+              "percent": 275
+            },
+            "AttackMagicPercent": {
+              "raw": 27500,
+              "percent": 275
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 105000,
+              "percent": 1050
+            },
+            "EndDamageMagicPercent": {
+              "raw": 105000,
+              "percent": 1050
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": -9250,
+              "percent": -92.5
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": -9250,
+              "percent": -92.5
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    }
+  ],
+  "stageRosters": [
+    {
+      "stageUid": "15110134",
+      "stage": "[마그맛1] 침식되는 시공간",
+      "battleTimeSeconds": 240,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "75901",
+              "name": "공허한 집행자 리뉴아",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "ExR41_Renewa",
+              "personalityCode": -1,
+              "personality": "无",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ExR41_RenewaNone",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "15110144",
+      "stage": "[마그맛2] 부식중인 시공간",
+      "battleTimeSeconds": 240,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "75901",
+              "name": "공허한 집행자 리뉴아",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "ExR41_Renewa",
+              "personalityCode": -1,
+              "personality": "无",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ExR41_RenewaNone",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "encounterGuide": {
+    "status": "部分机制待确认",
+    "battleTimeLimitSeconds": [
+      240
+    ],
+    "battleTimeline": [
+      {
+        "atSeconds": 0,
+        "condition": "开战时，Boss造成的物理、魔法伤害提高75%。无人机另在开战10秒后开始准备出场。",
+        "repeatIntervalSeconds": null,
+        "phase": "满足对应条件时",
+        "event": "同步：常驻增伤",
+        "category": "summon",
+        "targetType": "mechanism",
+        "targetId": "exr41-back-drone",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      },
+      {
+        "atSeconds": 16,
+        "condition": "开战16秒后首次可用，之后会再次使用；实际出招会因当前动作而延后。",
+        "repeatIntervalSeconds": null,
+        "phase": "全阶段",
+        "event": "高年级技能干扰",
+        "category": "time-trigger",
+        "targetType": "attack",
+        "targetId": "exr41-time-16",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      },
+      {
+        "atSeconds": 25,
+        "condition": "开战25秒后首次可用，之后会再次使用；过载会加快后续准备，实际出招会因当前动作而延后。",
+        "repeatIntervalSeconds": null,
+        "phase": "全阶段",
+        "event": "连续炮击",
+        "category": "time-trigger",
+        "targetType": "attack",
+        "targetId": "exr41-time-25",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      },
+      {
+        "atSeconds": 28,
+        "condition": "开战28秒后首次可用，之后会再次使用；实际出招会因当前动作而延后。",
+        "repeatIntervalSeconds": null,
+        "phase": "全阶段",
+        "event": "反物质护盾炮",
+        "category": "time-trigger",
+        "targetType": "attack",
+        "targetId": "exr41-time-28",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      },
+      {
+        "atSeconds": null,
+        "condition": "开战10秒后开始补充无人机，之后重复准备；每次最多补1架，最多同时3架。击破不会立刻补机。",
+        "repeatIntervalSeconds": null,
+        "phase": "满足对应条件时",
+        "event": "后置无人机：过载与击破奖励",
+        "category": "summon",
+        "targetType": "mechanism",
+        "targetId": "exr41-back-drone",
+        "timeOrigin": "battle-start",
+        "earliestAvailabilitySeconds": 10
+      },
+      {
+        "atSeconds": 45,
+        "condition": "开战45秒后首次可用，之后会再次使用；过载会加快后续准备，实际出招会因当前动作而延后。球出现后10秒内击破，可让Boss倒地10秒。",
+        "repeatIntervalSeconds": null,
+        "phase": "满足对应条件时",
+        "event": "能量球：限时击破",
+        "category": "summon",
+        "targetType": "mechanism",
+        "targetId": "exr41-energy-challenge",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      },
+      {
+        "atSeconds": 50,
+        "condition": "开战50秒后首次可用，之后会再次使用；过载会加快后续准备，实际出招会因当前动作而延后。减伤持续25秒。",
+        "repeatIntervalSeconds": null,
+        "phase": "满足对应条件时",
+        "event": "防护：减伤30%",
+        "category": "time-trigger",
+        "targetType": "mechanism",
+        "targetId": "exr41-protection",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      },
+      {
+        "atSeconds": 60,
+        "condition": "开战60秒后首次可用，之后会再次使用；过载会加快后续准备，实际出招会因当前动作而延后。每次召唤10台无人机。",
+        "repeatIntervalSeconds": null,
+        "phase": "满足对应条件时",
+        "event": "时间停止无人机",
+        "category": "summon",
+        "targetType": "mechanism",
+        "targetId": "exr41-time-stop",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      },
+      {
+        "atSeconds": null,
+        "condition": "累计5层后使用；进入过载后替换为高输出版本",
+        "repeatIntervalSeconds": null,
+        "phase": "全阶段",
+        "event": "强化攻击",
+        "category": "enhanced",
+        "targetType": "attack",
+        "targetId": "exr41-enhanced",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      },
+      {
+        "atSeconds": null,
+        "condition": "本关共6条血；失去第1条血、剩余5条且当前血条满血时触发（约总HP 83.3%）",
+        "repeatIntervalSeconds": null,
+        "phase": "满足对应条件时",
+        "event": "剩余5条血的场景强化",
+        "category": "phase-form",
+        "targetType": "mechanism",
+        "targetId": "exr41-five-bar-field",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      },
+      {
+        "atSeconds": null,
+        "condition": "SP蓄满至200后释放",
+        "repeatIntervalSeconds": null,
+        "phase": "全阶段",
+        "event": "SP技能",
+        "category": "sp",
+        "targetType": "attack",
+        "targetId": "exr41-sp",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      }
+    ],
+    "phases": [
+      {
+        "id": "opening",
+        "name": "初始阶段",
+        "activationCondition": "开战默认阶段",
+        "attackIds": [
+          "exr41-normal",
+          "exr41-enhanced",
+          "exr41-sp",
+          "exr41-time-16",
+          "exr41-time-25",
+          "exr41-time-28"
+        ],
+        "evidenceStatus": "已核对"
+      },
+      {
+        "id": "five-bars",
+        "name": "剩余5条血后",
+        "activationCondition": "本关共6条血；失去第1条血、剩余5条且当前血条满血时触发（约总HP 83.3%）",
+        "attackIds": [
+          "exr41-normal",
+          "exr41-enhanced",
+          "exr41-sp",
+          "exr41-time-16",
+          "exr41-time-25",
+          "exr41-time-28"
+        ],
+        "evidenceStatus": "已核对"
+      }
+    ],
+    "attacks": [
+      {
+        "id": "exr41-normal",
+        "category": "normal",
+        "title": "普通攻击",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "无",
+          "summary": "按Boss普通攻击循环使用",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "普通攻击",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "已证明完整施放",
+            "actionSequence": [
+              {
+                "action": "三连射击",
+                "spineAnimation": "Attack1_1",
+                "eventTimes": [
+                  1.033333,
+                  1.366667,
+                  1.966667
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 50,
+                "multiplierMax": 50,
+                "hitCount": 3,
+                "subtotalMin": 150,
+                "subtotalMax": 150,
+                "eventTimes": [
+                  1.033333,
+                  1.366667,
+                  1.966667
+                ]
+              }
+            ],
+            "hitCount": 3,
+            "confirmedTotalMultiplier": {
+              "min": 150,
+              "max": 150
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "7590101"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "exr41-normal",
+            "label": "普通攻击",
+            "eventMarkers": [
+              {
+                "timeSeconds": 1.033333,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 1.366667,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 1.966667,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Attack1_1"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "50% × 3＝150%",
+          "perHit": [
+            {
+              "min": 50,
+              "max": 50,
+              "count": 3
+            }
+          ],
+          "hitCount": 3,
+          "confirmedTotalMultiplier": {
+            "min": 150,
+            "max": 150
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "confirmedTotalMultiplier": {
+          "min": 150,
+          "max": 150
+        },
+        "hitCount": 3,
+        "effects": [],
+        "playerResult": "连续命中3次，每次50%物理伤害，总计150%。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 0
+      },
+      {
+        "id": "exr41-enhanced",
+        "category": "enhanced",
+        "title": "强化攻击",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "强化条件",
+          "summary": "累计5层后使用；进入过载后替换为高输出版本",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": 5,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "普通状态",
+            "phase": "全阶段",
+            "stateVariant": "normal",
+            "relation": "该状态的完整动作",
+            "actionSequence": [
+              {
+                "action": "强化射击",
+                "spineAnimation": "Attack2_1",
+                "eventTimes": [
+                  1.833333
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 200,
+                "multiplierMax": 200,
+                "hitCount": 1,
+                "subtotalMin": 200,
+                "subtotalMax": 200,
+                "eventTimes": [
+                  1.833333
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 200,
+              "max": 200
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "7590102"
+          },
+          {
+            "label": "过载状态",
+            "phase": "全阶段",
+            "stateVariant": "overcharged",
+            "relation": "该状态的完整动作",
+            "actionSequence": [
+              {
+                "action": "过载强化射击",
+                "spineAnimation": "Attack3_1",
+                "eventTimes": [
+                  3.133333
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 350,
+                "multiplierMax": 350,
+                "hitCount": 1,
+                "subtotalMin": 350,
+                "subtotalMax": 350,
+                "eventTimes": [
+                  3.133333
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 350,
+              "max": 350
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "7590103"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "exr41-enhanced-normal",
+            "label": "普通状态",
+            "eventMarkers": [
+              {
+                "timeSeconds": 1.833333,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Attack2_1"
+              ]
+            }
+          },
+          {
+            "id": "exr41-enhanced-over",
+            "label": "过载状态",
+            "eventMarkers": [
+              {
+                "timeSeconds": 3.133333,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Attack3_1"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "普通状态：200% × 1＝200%；过载状态：350% × 1＝350%",
+          "perHit": [],
+          "hitCount": null,
+          "confirmedTotalMultiplier": null,
+          "scope": "state-replacement",
+          "branchRule": "根据过载状态只使用其中一个版本，伤害不相加。"
+        },
+        "confirmedTotalMultiplier": null,
+        "hitCount": null,
+        "effects": [],
+        "playerResult": "累计5层后发动，先尝试移除攻击范围内可被移除的护盾，再造成伤害。普通状态200%并施加1层破坏；过载状态350%并施加2层破坏。",
+        "evidenceStatus": "部分待确认",
+        "runtimeReferences": {},
+        "sortOrder": 10,
+        "phaseComparisons": [
+          {
+            "id": "exr41-enhanced-0",
+            "label": "普通状态",
+            "trigger": {
+              "type": "强化条件",
+              "summary": "累计5层后使用；进入过载后替换为高输出版本",
+              "firstTriggerTimeSeconds": null,
+              "repeatIntervalSeconds": null,
+              "cooldownSeconds": null,
+              "hpThresholdRaw": null,
+              "hpThresholdPercent": null,
+              "hpLine": null,
+              "approxTotalHpPercent": null,
+              "stackThreshold": 5,
+              "spMaxValues": [],
+              "spRecoveryValues": [],
+              "evidenceStatus": "已核对",
+              "runtimeReferences": {}
+            },
+            "damageSummary": {
+              "display": "200%",
+              "perHit": [
+                {
+                  "kind": "direct",
+                  "multiplierMin": 200,
+                  "multiplierMax": 200,
+                  "hitCount": 1,
+                  "subtotalMin": 200,
+                  "subtotalMax": 200,
+                  "eventTimes": [
+                    1.833333
+                  ]
+                }
+              ],
+              "hitCount": 1,
+              "confirmedTotalMultiplier": {
+                "min": 200,
+                "max": 200
+              },
+              "scope": "complete-cast",
+              "branchRule": null
+            },
+            "effects": [
+              {
+                "type": "移除护盾",
+                "name": "移除护盾",
+                "description": "攻击前先尝试移除范围内使徒可被移除的护盾。",
+                "target": "攻击范围内的使徒",
+                "probabilityPercent": null,
+                "durationSeconds": null,
+                "value": null,
+                "valueUnit": null,
+                "stacking": null,
+                "parameterPending": false,
+                "evidenceStatus": "已核对",
+                "effectKind": "instant",
+                "sourceRole": "boss",
+                "sourceLabel": "Boss",
+                "targetRole": "team",
+                "skillId": "exr41-enhanced",
+                "skillType": "attack"
+              },
+              {
+                "type": "破坏",
+                "name": "破坏",
+                "description": "每层使受到的物理、魔法伤害提高5%；本场战斗内不会自然到期。",
+                "target": "被该招命中的使徒",
+                "probabilityPercent": 100,
+                "durationSeconds": 9999,
+                "value": 5,
+                "valueUnit": "percent-per-stack",
+                "stacking": "每个附带破坏的攻击段命中时施加1层",
+                "parameterPending": false,
+                "evidenceStatus": "已核对",
+                "stacksAppliedScope": "per-matching-effect",
+                "runtimeReferences": {},
+                "effectKind": "status",
+                "statusUid": "318",
+                "statusNameKey": "StateName_Break",
+                "statusKey": "kr:318",
+                "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_67.png",
+                "iconState": "bound",
+                "nature": "debuff",
+                "sourceRole": "boss",
+                "sourceLabel": "Boss",
+                "targetRole": "team",
+                "skillId": "exr41-enhanced",
+                "skillType": "attack",
+                "stacksApplied": 1,
+                "formLabel": "普通状态",
+                "applicationLabel": "每个附带破坏的攻击段命中时施加1层。"
+              }
+            ],
+            "previewOptions": [
+              {
+                "id": "exr41-enhanced-normal",
+                "label": "普通状态",
+                "eventMarkers": [
+                  {
+                    "timeSeconds": 1.833333,
+                    "type": "damage",
+                    "label": "伤害"
+                  }
+                ],
+                "runtimeReferences": {
+                  "spineAnimations": [
+                    "Attack2_1"
+                  ]
+                }
+              }
+            ],
+            "evidenceStatus": "部分待确认"
+          },
+          {
+            "id": "exr41-enhanced-1",
+            "label": "过载状态",
+            "trigger": {
+              "type": "强化条件",
+              "summary": "累计5层后使用；进入过载后替换为高输出版本",
+              "firstTriggerTimeSeconds": null,
+              "repeatIntervalSeconds": null,
+              "cooldownSeconds": null,
+              "hpThresholdRaw": null,
+              "hpThresholdPercent": null,
+              "hpLine": null,
+              "approxTotalHpPercent": null,
+              "stackThreshold": 5,
+              "spMaxValues": [],
+              "spRecoveryValues": [],
+              "evidenceStatus": "已核对",
+              "runtimeReferences": {}
+            },
+            "damageSummary": {
+              "display": "350%",
+              "perHit": [
+                {
+                  "kind": "direct",
+                  "multiplierMin": 350,
+                  "multiplierMax": 350,
+                  "hitCount": 1,
+                  "subtotalMin": 350,
+                  "subtotalMax": 350,
+                  "eventTimes": [
+                    3.133333
+                  ]
+                }
+              ],
+              "hitCount": 1,
+              "confirmedTotalMultiplier": {
+                "min": 350,
+                "max": 350
+              },
+              "scope": "complete-cast",
+              "branchRule": null
+            },
+            "effects": [
+              {
+                "type": "移除护盾",
+                "name": "移除护盾",
+                "description": "攻击前先尝试移除范围内使徒可被移除的护盾。",
+                "target": "攻击范围内的使徒",
+                "probabilityPercent": null,
+                "durationSeconds": null,
+                "value": null,
+                "valueUnit": null,
+                "stacking": null,
+                "parameterPending": false,
+                "evidenceStatus": "已核对",
+                "effectKind": "instant",
+                "sourceRole": "boss",
+                "sourceLabel": "Boss",
+                "targetRole": "team",
+                "skillId": "exr41-enhanced",
+                "skillType": "attack"
+              },
+              {
+                "type": "破坏",
+                "name": "破坏",
+                "description": "每层使受到的物理、魔法伤害提高5%；本场战斗内不会自然到期。",
+                "target": "被该招命中的使徒",
+                "probabilityPercent": 100,
+                "durationSeconds": 9999,
+                "value": 5,
+                "valueUnit": "percent-per-stack",
+                "stacking": "每个附带破坏的攻击段命中时施加2层",
+                "parameterPending": false,
+                "evidenceStatus": "已核对",
+                "stacksAppliedScope": "per-matching-effect",
+                "runtimeReferences": {},
+                "effectKind": "status",
+                "statusUid": "318",
+                "statusNameKey": "StateName_Break",
+                "statusKey": "kr:318",
+                "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_67.png",
+                "iconState": "bound",
+                "nature": "debuff",
+                "sourceRole": "boss",
+                "sourceLabel": "Boss",
+                "targetRole": "team",
+                "skillId": "exr41-enhanced",
+                "skillType": "attack",
+                "stacksApplied": 2,
+                "formLabel": "过载状态",
+                "applicationLabel": "每个附带破坏的攻击段命中时施加2层。"
+              }
+            ],
+            "previewOptions": [
+              {
+                "id": "exr41-enhanced-over",
+                "label": "过载状态",
+                "eventMarkers": [
+                  {
+                    "timeSeconds": 3.133333,
+                    "type": "damage",
+                    "label": "伤害"
+                  }
+                ],
+                "runtimeReferences": {
+                  "spineAnimations": [
+                    "Attack3_1"
+                  ]
+                }
+              }
+            ],
+            "evidenceStatus": "部分待确认"
+          }
+        ],
+        "detailNotes": [
+          {
+            "label": "应对",
+            "summary": "不要只靠可被移除的护盾承受这招；提前准备减伤。"
+          }
+        ]
+      },
+      {
+        "id": "exr41-sp",
+        "category": "sp",
+        "title": "SP技能",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "SP",
+          "summary": "SP蓄满至200后释放",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [
+            200
+          ],
+          "spRecoveryValues": [
+            20
+          ],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "普通状态",
+            "phase": "全阶段",
+            "stateVariant": "normal",
+            "relation": "该状态的完整动作",
+            "actionSequence": [
+              {
+                "action": "双段炮击",
+                "spineAnimation": "Skill1_1",
+                "eventTimes": [
+                  1.3,
+                  1.533333
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 200,
+                "multiplierMax": 200,
+                "hitCount": 1,
+                "subtotalMin": 200,
+                "subtotalMax": 200,
+                "eventTimes": [
+                  1.3
+                ]
+              },
+              {
+                "kind": "direct",
+                "multiplierMin": 400,
+                "multiplierMax": 400,
+                "hitCount": 1,
+                "subtotalMin": 400,
+                "subtotalMax": 400,
+                "eventTimes": [
+                  1.533333
+                ]
+              }
+            ],
+            "hitCount": 2,
+            "confirmedTotalMultiplier": {
+              "min": 600,
+              "max": 600
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "7590104"
+          },
+          {
+            "label": "过载状态",
+            "phase": "全阶段",
+            "stateVariant": "overcharged",
+            "relation": "该状态的完整动作",
+            "actionSequence": [
+              {
+                "action": "过载三段炮击",
+                "spineAnimation": "Skill2_1",
+                "eventTimes": [
+                  1.3,
+                  2.533334,
+                  2.533334
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 300,
+                "multiplierMax": 300,
+                "hitCount": 1,
+                "subtotalMin": 300,
+                "subtotalMax": 300,
+                "eventTimes": [
+                  1.3
+                ]
+              },
+              {
+                "kind": "direct",
+                "multiplierMin": 600,
+                "multiplierMax": 600,
+                "hitCount": 1,
+                "subtotalMin": 600,
+                "subtotalMax": 600,
+                "eventTimes": [
+                  2.533334
+                ]
+              },
+              {
+                "kind": "direct",
+                "multiplierMin": 400,
+                "multiplierMax": 400,
+                "hitCount": 1,
+                "subtotalMin": 400,
+                "subtotalMax": 400,
+                "eventTimes": [
+                  2.533334
+                ]
+              }
+            ],
+            "hitCount": 3,
+            "confirmedTotalMultiplier": {
+              "min": 1300,
+              "max": 1300
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "7590105"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "exr41-sp-normal",
+            "label": "普通状态",
+            "eventMarkers": [
+              {
+                "timeSeconds": 1.3,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 1.533333,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill1_1"
+              ]
+            }
+          },
+          {
+            "id": "exr41-sp-over",
+            "label": "过载状态",
+            "eventMarkers": [
+              {
+                "timeSeconds": 1.3,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 2.533334,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 2.533334,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill2_1"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "普通状态：200%＋400%＝600%；过载状态：300%＋600%＋400%＝1300%",
+          "perHit": [],
+          "hitCount": null,
+          "confirmedTotalMultiplier": null,
+          "scope": "state-replacement",
+          "branchRule": "根据过载状态只使用其中一个版本，伤害不相加。"
+        },
+        "confirmedTotalMultiplier": null,
+        "hitCount": null,
+        "effects": [],
+        "playerResult": "SP蓄满200后释放。普通状态总计600%；过载时替换为1300%，两种结果不叠加。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 20,
+        "phaseComparisons": [
+          {
+            "id": "exr41-sp-0",
+            "label": "普通状态",
+            "trigger": {
+              "type": "SP",
+              "summary": "SP蓄满至200后释放",
+              "firstTriggerTimeSeconds": null,
+              "repeatIntervalSeconds": null,
+              "cooldownSeconds": null,
+              "hpThresholdRaw": null,
+              "hpThresholdPercent": null,
+              "hpLine": null,
+              "approxTotalHpPercent": null,
+              "stackThreshold": null,
+              "spMaxValues": [
+                200
+              ],
+              "spRecoveryValues": [
+                20
+              ],
+              "evidenceStatus": "已核对",
+              "runtimeReferences": {}
+            },
+            "damageSummary": {
+              "display": "200%＋400%",
+              "perHit": [
+                {
+                  "kind": "direct",
+                  "multiplierMin": 200,
+                  "multiplierMax": 200,
+                  "hitCount": 1,
+                  "subtotalMin": 200,
+                  "subtotalMax": 200,
+                  "eventTimes": [
+                    1.3
+                  ]
+                },
+                {
+                  "kind": "direct",
+                  "multiplierMin": 400,
+                  "multiplierMax": 400,
+                  "hitCount": 1,
+                  "subtotalMin": 400,
+                  "subtotalMax": 400,
+                  "eventTimes": [
+                    1.533333
+                  ]
+                }
+              ],
+              "hitCount": 2,
+              "confirmedTotalMultiplier": {
+                "min": 600,
+                "max": 600
+              },
+              "scope": "complete-cast",
+              "branchRule": null
+            },
+            "effects": [
+              {
+                "type": "破坏",
+                "name": "破坏",
+                "description": "每层使受到的物理、魔法伤害提高5%；本场战斗内不会自然到期。",
+                "target": "被该招命中的使徒",
+                "probabilityPercent": 100,
+                "durationSeconds": 9999,
+                "value": 5,
+                "valueUnit": "percent-per-stack",
+                "stacking": "每个附带破坏的攻击段命中时施加1层",
+                "parameterPending": false,
+                "evidenceStatus": "已核对",
+                "stacksAppliedScope": "per-matching-effect",
+                "runtimeReferences": {},
+                "effectKind": "status",
+                "statusUid": "318",
+                "statusNameKey": "StateName_Break",
+                "statusKey": "kr:318",
+                "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_67.png",
+                "iconState": "bound",
+                "nature": "debuff",
+                "sourceRole": "boss",
+                "sourceLabel": "Boss",
+                "targetRole": "team",
+                "skillId": "exr41-sp",
+                "skillType": "attack",
+                "applicationLabel": "每个附带破坏的攻击段命中时施加1层。",
+                "stacksApplied": 1,
+                "formLabel": "普通状态"
+              }
+            ],
+            "previewOptions": [
+              {
+                "id": "exr41-sp-normal",
+                "label": "普通状态",
+                "eventMarkers": [
+                  {
+                    "timeSeconds": 1.3,
+                    "type": "damage",
+                    "label": "伤害"
+                  },
+                  {
+                    "timeSeconds": 1.533333,
+                    "type": "damage",
+                    "label": "伤害"
+                  }
+                ],
+                "runtimeReferences": {
+                  "spineAnimations": [
+                    "Skill1_1"
+                  ]
+                }
+              }
+            ],
+            "evidenceStatus": "已核对"
+          },
+          {
+            "id": "exr41-sp-1",
+            "label": "过载状态",
+            "trigger": {
+              "type": "SP",
+              "summary": "SP蓄满至200后释放",
+              "firstTriggerTimeSeconds": null,
+              "repeatIntervalSeconds": null,
+              "cooldownSeconds": null,
+              "hpThresholdRaw": null,
+              "hpThresholdPercent": null,
+              "hpLine": null,
+              "approxTotalHpPercent": null,
+              "stackThreshold": null,
+              "spMaxValues": [
+                200
+              ],
+              "spRecoveryValues": [
+                20
+              ],
+              "evidenceStatus": "已核对",
+              "runtimeReferences": {}
+            },
+            "damageSummary": {
+              "display": "300%＋600%＋400%",
+              "perHit": [
+                {
+                  "kind": "direct",
+                  "multiplierMin": 300,
+                  "multiplierMax": 300,
+                  "hitCount": 1,
+                  "subtotalMin": 300,
+                  "subtotalMax": 300,
+                  "eventTimes": [
+                    1.3
+                  ]
+                },
+                {
+                  "kind": "direct",
+                  "multiplierMin": 600,
+                  "multiplierMax": 600,
+                  "hitCount": 1,
+                  "subtotalMin": 600,
+                  "subtotalMax": 600,
+                  "eventTimes": [
+                    2.533334
+                  ]
+                },
+                {
+                  "kind": "direct",
+                  "multiplierMin": 400,
+                  "multiplierMax": 400,
+                  "hitCount": 1,
+                  "subtotalMin": 400,
+                  "subtotalMax": 400,
+                  "eventTimes": [
+                    2.533334
+                  ]
+                }
+              ],
+              "hitCount": 3,
+              "confirmedTotalMultiplier": {
+                "min": 1300,
+                "max": 1300
+              },
+              "scope": "complete-cast",
+              "branchRule": null
+            },
+            "effects": [
+              {
+                "type": "破坏",
+                "name": "破坏",
+                "description": "每层使受到的物理、魔法伤害提高5%；本场战斗内不会自然到期。",
+                "target": "被该招命中的使徒",
+                "probabilityPercent": 100,
+                "durationSeconds": 9999,
+                "value": 5,
+                "valueUnit": "percent-per-stack",
+                "stacking": "每个附带破坏的攻击段命中时施加1层",
+                "parameterPending": false,
+                "evidenceStatus": "已核对",
+                "stacksAppliedScope": "per-matching-effect",
+                "runtimeReferences": {},
+                "effectKind": "status",
+                "statusUid": "318",
+                "statusNameKey": "StateName_Break",
+                "statusKey": "kr:318",
+                "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_67.png",
+                "iconState": "bound",
+                "nature": "debuff",
+                "sourceRole": "boss",
+                "sourceLabel": "Boss",
+                "targetRole": "team",
+                "skillId": "exr41-sp",
+                "skillType": "attack",
+                "applicationLabel": "每个附带破坏的攻击段命中时施加1层。",
+                "stacksApplied": 1,
+                "formLabel": "过载状态"
+              }
+            ],
+            "previewOptions": [
+              {
+                "id": "exr41-sp-over",
+                "label": "过载状态",
+                "eventMarkers": [
+                  {
+                    "timeSeconds": 1.3,
+                    "type": "damage",
+                    "label": "伤害"
+                  },
+                  {
+                    "timeSeconds": 2.533334,
+                    "type": "damage",
+                    "label": "伤害"
+                  },
+                  {
+                    "timeSeconds": 2.533334,
+                    "type": "damage",
+                    "label": "伤害"
+                  }
+                ],
+                "runtimeReferences": {
+                  "spineAnimations": [
+                    "Skill2_1"
+                  ]
+                }
+              }
+            ],
+            "evidenceStatus": "已核对"
+          }
+        ]
+      },
+      {
+        "id": "exr41-time-16",
+        "category": "time-trigger",
+        "title": "高年级技能干扰",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "计时",
+          "summary": "开战16秒后首次可用，之后会再次使用；实际出招会因当前动作而延后。",
+          "firstTriggerTimeSeconds": 16,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {},
+          "timerCycleSeconds": 16,
+          "repeatMode": "preparation-loop",
+          "timeOrigin": "battle-start"
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "已证明完整施放",
+            "actionSequence": [
+              {
+                "action": "冷却干扰打击",
+                "spineAnimation": "Skill8_1",
+                "eventTimes": [
+                  2.666667
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 1750,
+                "multiplierMax": 1750,
+                "hitCount": 1,
+                "subtotalMin": 1750,
+                "subtotalMax": 1750,
+                "eventTimes": [
+                  2.666667
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 1750,
+              "max": 1750
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "7590125"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "exr41-time-16",
+            "label": "高年级技能干扰",
+            "eventMarkers": [
+              {
+                "timeSeconds": 2.666667,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 2.666667,
+                "type": "effect",
+                "label": "高年级技能冷却+10秒"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill8_1"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "1750% × 1＝1750%",
+          "perHit": [
+            {
+              "min": 1750,
+              "max": 1750,
+              "count": 1
+            }
+          ],
+          "hitCount": 1,
+          "confirmedTotalMultiplier": {
+            "min": 1750,
+            "max": 1750
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "confirmedTotalMultiplier": {
+          "min": 1750,
+          "max": 1750
+        },
+        "hitCount": 1,
+        "effects": [
+          {
+            "type": "冷却增加",
+            "name": "高年级技能延迟",
+            "description": "所有使徒的高年级技能冷却增加10秒。",
+            "target": "我方全队",
+            "probabilityPercent": 100,
+            "durationSeconds": null,
+            "value": 10,
+            "valueUnit": "seconds",
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "instant",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "team",
+            "skillId": "exr41-time-16",
+            "skillType": "attack"
+          }
+        ],
+        "playerResult": "轮到本招时造成1750%×1，并让所有使徒的高年级技能冷却增加10秒。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 40
+      },
+      {
+        "id": "exr41-time-25",
+        "category": "time-trigger",
+        "title": "连续炮击",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "计时",
+          "summary": "开战25秒后首次可用，之后会再次使用；过载会加快后续准备，实际出招会因当前动作而延后。",
+          "firstTriggerTimeSeconds": 25,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {},
+          "timerCycleSeconds": 25,
+          "repeatMode": "preparation-loop",
+          "timeOrigin": "battle-start"
+        },
+        "variants": [
+          {
+            "label": "Boss自身炮击",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "Boss自身炮击",
+            "actionSequence": [
+              {
+                "action": "首段炮击",
+                "spineAnimation": "Skill3_1",
+                "eventTimes": [
+                  1.266667
+                ]
+              },
+              {
+                "action": "连续炮击",
+                "spineAnimation": "Skill3_1",
+                "eventTimes": [
+                  2.933333,
+                  3.166667,
+                  3.4,
+                  3.633333,
+                  3.866667
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 300,
+                "multiplierMax": 300,
+                "hitCount": 1,
+                "subtotalMin": 300,
+                "subtotalMax": 300,
+                "eventTimes": [
+                  1.266667
+                ]
+              },
+              {
+                "kind": "direct",
+                "multiplierMin": 400,
+                "multiplierMax": 400,
+                "hitCount": 5,
+                "subtotalMin": 2000,
+                "subtotalMax": 2000,
+                "eventTimes": [
+                  2.933333,
+                  3.166667,
+                  3.4,
+                  3.633333,
+                  3.866667
+                ]
+              }
+            ],
+            "hitCount": 6,
+            "confirmedTotalMultiplier": {
+              "min": 2300,
+              "max": 2300
+            },
+            "verdict": "segment-only",
+            "evidenceStatus": "部分待确认",
+            "sourceSkillUid": "7590106"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "exr41-time-25",
+            "label": "连续炮击",
+            "eventMarkers": [
+              {
+                "timeSeconds": 1.266667,
+                "type": "damage",
+                "label": "首段伤害"
+              },
+              {
+                "timeSeconds": 2.933333,
+                "type": "damage",
+                "label": "连续伤害"
+              },
+              {
+                "timeSeconds": 3.166667,
+                "type": "damage",
+                "label": "连续伤害"
+              },
+              {
+                "timeSeconds": 3.4,
+                "type": "damage",
+                "label": "连续伤害"
+              },
+              {
+                "timeSeconds": 3.633333,
+                "type": "damage",
+                "label": "连续伤害"
+              },
+              {
+                "timeSeconds": 3.866667,
+                "type": "damage",
+                "label": "连续伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill3_1"
+              ]
+            }
+          }
+        ],
+        "actionTimeline": [
+          {
+            "atSeconds": 1.266667,
+            "summary": "首段命中1次：300%。"
+          },
+          {
+            "atSeconds": 2.933333,
+            "latestAtSeconds": 3.866667,
+            "summary": "随后命中5次：400%×5。"
+          },
+          {
+            "atSeconds": 2.933333,
+            "summary": "连续炮击时，仍在场的后置无人机会一同使用强化射击：每架造成100%伤害，命中有30%概率附加5秒灼烧。"
+          }
+        ],
+        "damageSummary": {
+          "display": "Boss自身：300%＋400%×5，合计2300%；另有后置无人机强化射击。",
+          "perHit": [
+            {
+              "min": 300,
+              "max": 300,
+              "count": 1
+            },
+            {
+              "min": 400,
+              "max": 400,
+              "count": 5
+            }
+          ],
+          "hitCount": 6,
+          "confirmedTotalMultiplier": {
+            "min": 2300,
+            "max": 2300
+          },
+          "scope": "confirmed-segment",
+          "branchRule": null
+        },
+        "confirmedTotalMultiplier": {
+          "min": 2300,
+          "max": 2300
+        },
+        "hitCount": 6,
+        "effects": [
+          {
+            "type": "灼烧",
+            "name": "灼烧",
+            "description": "每次连续炮击有30%概率附加灼烧5秒；灼烧期间每秒受到一次30%倍率的持续伤害。",
+            "target": "被该招命中的使徒",
+            "probabilityPercent": 30,
+            "durationSeconds": 5,
+            "value": 30,
+            "valueUnit": "percent-of-caster-damage-base",
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "status",
+            "statusNameKey": "StateName_Burn",
+            "statusKey": "kr:54",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_2.png",
+            "iconState": "bound",
+            "nature": "debuff",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "team",
+            "skillId": "exr41-time-25",
+            "skillType": "attack",
+            "tickDamage": {
+              "baseMultiplierPercent": 30,
+              "intervalSeconds": 1,
+              "totalTicks": null,
+              "confirmedTotalMultiplier": null,
+              "basis": "施加者对目标的伤害结算基准"
+            },
+            "statusUid": "54"
+          }
+        ],
+        "playerResult": "Boss先造成300%伤害，再连续炮击5次、每次400%，自身合计2300%。连续炮击时，仍在场的后置无人机会一同使用强化射击：每架造成100%伤害，命中有30%概率附加5秒灼烧。无人机伤害按各自属性计算，不计入Boss倍率。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 30
+      },
+      {
+        "id": "exr41-time-28",
+        "category": "time-trigger",
+        "title": "反物质护盾炮",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "计时",
+          "summary": "开战28秒后首次可用，之后会再次使用；实际出招会因当前动作而延后。",
+          "firstTriggerTimeSeconds": 28,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {},
+          "timerCycleSeconds": 28,
+          "repeatMode": "preparation-loop",
+          "timeOrigin": "battle-start"
+        },
+        "variants": [
+          {
+            "label": "未被中断的炮击",
+            "phase": "全阶段",
+            "stateVariant": "uninterrupted",
+            "relation": "条件成立时的完整动作",
+            "actionSequence": [
+              {
+                "action": "生成反物质护盾",
+                "spineAnimation": "Skill9_1",
+                "eventTimes": [
+                  0.333333
+                ]
+              },
+              {
+                "action": "进入无敌",
+                "spineAnimation": "Skill9_1",
+                "eventTimes": [
+                  12.033334
+                ]
+              },
+              {
+                "action": "反物质炮击",
+                "spineAnimation": "Skill9_1",
+                "eventTimes": [
+                  14.666667
+                ]
+              },
+              {
+                "action": "解除无敌",
+                "spineAnimation": "Skill9_1",
+                "eventTimes": [
+                  15.666668
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 5500,
+                "multiplierMax": 5500,
+                "hitCount": 1,
+                "subtotalMin": 5500,
+                "subtotalMax": 5500,
+                "eventTimes": [
+                  14.666667
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 5500,
+              "max": 5500
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "部分待确认",
+            "sourceSkillUid": "7590126"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "exr41-time-28",
+            "label": "护盾炮完整动作",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0.333333,
+                "type": "buff",
+                "label": "反物质护盾"
+              },
+              {
+                "timeSeconds": 12.033334,
+                "type": "buff",
+                "label": "进入无敌"
+              },
+              {
+                "timeSeconds": 14.666667,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 15.666668,
+                "type": "buff",
+                "label": "解除无敌"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill9_1"
+              ]
+            }
+          },
+          {
+            "id": "exr41-shield-end",
+            "label": "护盾结束短动作",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0.333333,
+                "type": "effect",
+                "label": "护盾被打破时"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill9_2"
+              ]
+            }
+          }
+        ],
+        "actionTimeline": [
+          {
+            "atSeconds": 0.333333,
+            "summary": "获得相当于Boss最大HP 16%的反物质护盾，持续11.7秒。"
+          },
+          {
+            "atSeconds": 12.033334,
+            "summary": "进入无敌。"
+          },
+          {
+            "atSeconds": 14.666667,
+            "summary": "未被中断时造成5500%×1。"
+          },
+          {
+            "atSeconds": 15.666668,
+            "summary": "解除无敌。"
+          }
+        ],
+        "damageSummary": {
+          "display": "未被中断时：5500% × 1＝5500%",
+          "perHit": [],
+          "hitCount": null,
+          "confirmedTotalMultiplier": null,
+          "scope": "conditional-result",
+          "branchRule": "成功提前收招：原蓄力动画不再触发后续炮击；未打断：5500%一次。不能撤销已经触发的伤害。"
+        },
+        "confirmedTotalMultiplier": null,
+        "hitCount": null,
+        "effects": [
+          {
+            "type": "护盾",
+            "name": "反物质护盾",
+            "description": "护盾值为Boss最大HP的16%，持续11.7秒；不能被效果直接移除。",
+            "target": "Boss自身",
+            "probabilityPercent": 100,
+            "durationSeconds": 11.7,
+            "value": 16,
+            "valueUnit": "boss-max-hp-percent",
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "status",
+            "statusNameKey": "StateName_Shield_ExR41",
+            "statusKey": "kr-text:StateName_Shield_ExR41",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_205.png",
+            "iconState": "bound",
+            "nature": "special",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "boss",
+            "skillId": "exr41-time-28",
+            "skillType": "attack"
+          },
+          {
+            "type": "无敌",
+            "name": "无敌",
+            "description": "完整动作约12.033秒进入、15.667秒解除。",
+            "target": "Boss自身",
+            "probabilityPercent": 100,
+            "durationSeconds": 3.633334,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "status",
+            "statusKey": "kr:174",
+            "iconUrl": null,
+            "iconState": "no-independent-icon",
+            "nature": "buff",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "boss",
+            "skillId": "exr41-time-28",
+            "skillType": "attack",
+            "statusUid": "174",
+            "statusNameKey": null
+          },
+          {
+            "type": "移除护盾",
+            "name": "移除护盾",
+            "description": "攻击前先尝试移除范围内使徒可被移除的护盾。",
+            "target": "攻击范围内的使徒",
+            "probabilityPercent": null,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "stacking": null,
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "instant",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "team",
+            "skillId": "exr41-time-28",
+            "skillType": "attack"
+          }
+        ],
+        "playerResult": "开始蓄力后，获得相当于Boss最大生命值16%的护盾，持续11.7秒。护盾存在时将其击破，Boss会尝试提前结束蓄力；必须在炮击发动前成功打断。护盾自然消失不算打断。未能打断时，动作约14.67秒发动一次5500%炮击，攻击前会先尝试移除范围内使徒可被移除的护盾。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 50,
+        "playerResponse": "尽早集中火力打破护盾，争取在炮击触发前完成收招；不要把护盾自然消失当作成功打断。",
+        "detailNotes": [
+          {
+            "label": "应对",
+            "summary": "不要只靠可被移除的护盾承受这招；提前准备减伤。反物质护盾炮应优先在蓄力期间击破Boss护盾，阻止后续炮击。"
+          }
+        ]
+      }
+    ],
+    "mechanisms": [
+      {
+        "id": "exr41-five-bar-field",
+        "category": "phase-form",
+        "title": "剩余5条血的场景强化",
+        "triggers": [
+          {
+            "type": "血量阶段",
+            "summary": "本关共6条血；失去第1条血、剩余5条且当前血条满血时触发（约总HP 83.3%）",
+            "firstTriggerTimeSeconds": null,
+            "repeatIntervalSeconds": null,
+            "hpThresholdRaw": 100,
+            "hpLine": 5,
+            "approxTotalHpPercent": 83.333333
+          }
+        ],
+        "guideTriggerSummary": "本关共6条血；失去第1条血、剩余5条且当前血条满血时触发（约总HP 83.3%）",
+        "summary": "第一条血打空后触发阶段演出，随后持续发动灼烧攻击。",
+        "playerResponse": "第一条血打空后准备持续治疗和防护，应对后续反复出现的灼烧攻击。",
+        "caution": "这是血条阶段机制，不代表Boss切换成另一套普通/SP动作。",
+        "actionSequence": [
+          {
+            "order": 1,
+            "action": "进入阶段演出并获得保护",
+            "spineAnimation": "Skill7_1",
+            "summary": "触发后立即开始"
+          },
+          {
+            "order": 2,
+            "action": "启动重复灼烧",
+            "spineAnimation": "Skill7_1",
+            "summary": "动作约4.07秒时开启场地攻击；开启后先等待约2秒，再每2秒攻击一次。"
+          },
+          {
+            "order": 3,
+            "action": "结束阶段演出",
+            "spineAnimation": "Skill7_2",
+            "summary": "此结束动作播放至约4.17秒时解除无敌；不是从变阶段开始计时。"
+          }
+        ],
+        "damageVariants": [
+          {
+            "label": "重复灼烧单轮",
+            "formula": "250% × 1／每2秒",
+            "perHit": [
+              {
+                "kind": "repeated-effect",
+                "multiplierMin": 250,
+                "multiplierMax": 250,
+                "hitCount": 1,
+                "subtotalMin": 250,
+                "subtotalMax": 250,
+                "eventTimes": []
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 250,
+              "max": 250
+            },
+            "verdict": "loop-single-round",
+            "evidenceStatus": "已核对"
+          }
+        ],
+        "effects": [
+          {
+            "type": "灼烧",
+            "name": "持续灼烧",
+            "description": "每2秒的场地攻击命中后附加灼烧5秒；灼烧期间每秒受到一次30%倍率的持续伤害。",
+            "target": "被该招命中的使徒",
+            "probabilityPercent": 100,
+            "durationSeconds": 5,
+            "value": 30,
+            "valueUnit": "percent-of-caster-damage-base",
+            "stacking": null,
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "status",
+            "statusNameKey": "StateName_Burn",
+            "statusKey": "kr:54",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_2.png",
+            "iconState": "bound",
+            "nature": "debuff",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "team",
+            "skillId": "exr41-five-bar-field",
+            "skillType": "mechanism",
+            "tickDamage": {
+              "baseMultiplierPercent": 30,
+              "intervalSeconds": 1,
+              "totalTicks": null,
+              "confirmedTotalMultiplier": null,
+              "basis": "施加者对目标的伤害结算基准"
+            },
+            "statusUid": "54"
+          },
+          {
+            "type": "无敌",
+            "name": "阶段保护",
+            "description": "进入阶段演出时开始无敌；结束演出动作播放至约4.17秒时解除。",
+            "target": "Boss自身",
+            "probabilityPercent": 100,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "status",
+            "statusKey": "kr:174",
+            "iconUrl": null,
+            "iconState": "no-independent-icon",
+            "nature": "buff",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "boss",
+            "skillId": "exr41-five-bar-field",
+            "skillType": "mechanism",
+            "statusUid": "174",
+            "statusNameKey": null
+          }
+        ],
+        "units": [],
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "detailNotes": [
+          {
+            "label": "演出保护",
+            "summary": "变阶段时进入无敌，到结束演出动作的末尾才解除。4.17秒是结束动作内的时点，不是整段无敌时长。"
+          },
+          {
+            "label": "持续攻击",
+            "summary": "场地攻击开启约2秒后开始造成伤害，之后每2秒攻击一次：直接伤害250%，命中后附加5秒灼烧，灼烧每秒造成30%伤害。不要按固定次数计算整段伤害。"
+          }
+        ]
+      },
+      {
+        "id": "exr41-energy-challenge",
+        "category": "summon",
+        "title": "能量球：限时击破",
+        "triggers": [
+          {
+            "type": "计时",
+            "summary": "开战45秒后首次可用，之后会再次使用；过载会加快后续准备，实际出招会因当前动作而延后。",
+            "firstTriggerTimeSeconds": 45,
+            "repeatIntervalSeconds": null,
+            "cooldownSeconds": null,
+            "hpThresholdRaw": null,
+            "hpThresholdPercent": null,
+            "hpLine": null,
+            "approxTotalHpPercent": null,
+            "stackThreshold": null,
+            "spMaxValues": [],
+            "spRecoveryValues": [],
+            "evidenceStatus": "已核对",
+            "runtimeReferences": {},
+            "timerCycleSeconds": 45,
+            "repeatMode": "preparation-loop"
+          }
+        ],
+        "guideTriggerSummary": "开战45秒后首次可用，之后会再次使用；过载会加快后续准备，实际出招会因当前动作而延后。",
+        "summary": "召唤1个有独立生命条的能量球。出现后10秒内击破，可让Boss倒地；超时则会反击全队，随后能量球退场。",
+        "playerResponse": "球出现后优先集火，在10秒内击破；成功后利用Boss倒地的10秒集中输出。若未能击破，提前准备全队治疗和防护。",
+        "caution": "10秒从球实际出现时开始，不是从开战45秒开始。球的持续攻击与Boss超时反击分开计算；灼烧的后续伤害不包含在这里标出的反击倍率中。",
+        "actionSequence": [
+          {
+            "order": 1,
+            "action": "召唤能量球",
+            "spineAnimation": "Skill5_1",
+            "summary": "召唤动作进行到4.5秒时生成1个球，同时开始10秒倒计时。",
+            "actorRole": "boss"
+          },
+          {
+            "order": 2,
+            "action": "蓄力等待",
+            "spineAnimation": "Skill5_2_Loop",
+            "summary": "球可被攻击；限时内击破和超时反击只会发生其中一种。",
+            "actorRole": "boss"
+          },
+          {
+            "order": 3,
+            "action": "击破成功：Boss倒地",
+            "spineAnimation": "Skill5_5",
+            "summary": "限时击破后，Boss无法行动10秒；不是额外的增伤Buff。",
+            "actorRole": "boss"
+          },
+          {
+            "order": 4,
+            "action": "超时未击破：全队反击",
+            "spineAnimation": "Skill5_3",
+            "summary": "超时后进入反击准备，接续反击动作。",
+            "actorRole": "boss"
+          },
+          {
+            "order": 5,
+            "action": "超时反击落下",
+            "spineAnimation": "Skill5_4",
+            "summary": "反击动作第2秒造成3750%伤害，附加灼烧5秒和眩晕10秒，球退场。",
+            "actorRole": "boss"
+          }
+        ],
+        "outcomes": [
+          {
+            "id": "success",
+            "label": "限时击破",
+            "damageSummary": {
+              "display": "不触发超时反击",
+              "perHit": [],
+              "hitCount": 0,
+              "confirmedTotalMultiplier": {
+                "min": 0,
+                "max": 0
+              },
+              "scope": "no-direct-damage",
+              "branchRule": null
+            },
+            "effects": [
+              {
+                "type": "虚弱",
+                "name": "倒地",
+                "description": "Boss无法行动10秒。",
+                "target": "Boss自身",
+                "probabilityPercent": 100,
+                "durationSeconds": 10,
+                "value": null,
+                "valueUnit": null,
+                "parameterPending": false,
+                "evidenceStatus": "已核对",
+                "effectKind": "status",
+                "statusKey": "kr:508",
+                "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_0.png",
+                "iconState": "bound",
+                "nature": "debuff",
+                "sourceRole": "boss",
+                "sourceLabel": "Boss",
+                "targetRole": "boss",
+                "skillId": "exr41-energy-challenge",
+                "skillType": "mechanism",
+                "formLabel": "10秒内击破：Boss倒地10秒",
+                "statusUid": "508",
+                "statusNameKey": "StateName_Stun"
+              }
+            ],
+            "condition": "能量球出现后10秒内击破：Boss倒地10秒，不发动超时反击。",
+            "previewOptions": [
+              {
+                "id": "exr41-energy-challenge-success",
+                "label": "击破后倒地",
+                "eventMarkers": [
+                  {
+                    "timeSeconds": 0,
+                    "type": "control",
+                    "label": "Boss倒地10秒"
+                  }
+                ],
+                "runtimeReferences": {
+                  "spineAnimations": [
+                    "Skill5_5"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "id": "failure",
+            "label": "超时未击破",
+            "damageSummary": {
+              "display": "3750%（超时反击，灼烧另计）",
+              "perHit": [
+                {
+                  "min": 3750,
+                  "max": 3750,
+                  "count": 1
+                }
+              ],
+              "hitCount": 1,
+              "confirmedTotalMultiplier": {
+                "min": 3750,
+                "max": 3750
+              },
+              "scope": "confirmed-segment",
+              "branchRule": null
+            },
+            "effects": [
+              {
+                "type": "眩晕",
+                "name": "眩晕",
+                "description": "全队眩晕10秒。",
+                "target": "我方全队",
+                "probabilityPercent": 100,
+                "durationSeconds": 10,
+                "value": null,
+                "valueUnit": null,
+                "parameterPending": false,
+                "evidenceStatus": "已核对",
+                "effectKind": "status",
+                "statusNameKey": "StateName_Stun",
+                "statusKey": "kr:60",
+                "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_0.png",
+                "iconState": "bound",
+                "nature": "debuff",
+                "sourceRole": "boss",
+                "sourceLabel": "Boss",
+                "targetRole": "team",
+                "skillId": "exr41-energy-challenge",
+                "skillType": "mechanism",
+                "formLabel": "超时未击破：3750%反击＋眩晕10秒",
+                "statusUid": "60"
+              },
+              {
+                "type": "灼烧",
+                "name": "灼烧",
+                "description": "超时反击附加灼烧5秒；灼烧期间每秒受到一次30%倍率的持续伤害。",
+                "target": "我方全队",
+                "probabilityPercent": 100,
+                "durationSeconds": 5,
+                "value": null,
+                "valueUnit": null,
+                "parameterPending": false,
+                "evidenceStatus": "已核对",
+                "effectKind": "status",
+                "statusNameKey": "StateName_Burn",
+                "statusKey": "kr:54",
+                "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_2.png",
+                "iconState": "bound",
+                "nature": "debuff",
+                "sourceRole": "boss",
+                "sourceLabel": "Boss",
+                "targetRole": "team",
+                "skillId": "exr41-energy-challenge",
+                "skillType": "mechanism",
+                "formLabel": "超时未击破：3750%反击＋眩晕10秒",
+                "tickDamage": {
+                  "baseMultiplierPercent": 30,
+                  "intervalSeconds": 1,
+                  "totalTicks": null,
+                  "confirmedTotalMultiplier": null,
+                  "basis": "施加者对目标的伤害结算基准"
+                },
+                "statusUid": "54"
+              },
+              {
+                "type": "召唤物退场",
+                "name": "能量球退场",
+                "description": "超时反击后，能量球退场。",
+                "target": "能量球",
+                "probabilityPercent": 100,
+                "durationSeconds": null,
+                "value": null,
+                "valueUnit": null,
+                "parameterPending": false,
+                "evidenceStatus": "已核对",
+                "effectKind": "mechanism-result",
+                "sourceRole": "boss",
+                "sourceLabel": "Boss",
+                "targetRole": "summon",
+                "skillId": "exr41-energy-challenge",
+                "skillType": "mechanism",
+                "formLabel": "超时未击破：3750%反击＋眩晕10秒"
+              }
+            ],
+            "condition": "能量球出现后10秒仍未击破：Boss蓄力后反击全队。",
+            "previewOptions": [
+              {
+                "id": "exr41-energy-challenge-failure",
+                "label": "超时反击",
+                "eventMarkers": [
+                  {
+                    "timeSeconds": 2.6666666865348816,
+                    "type": "damage",
+                    "label": "反击伤害与附加状态"
+                  }
+                ],
+                "sequenceDurationsSeconds": [
+                  0.6666666865348816,
+                  4.1666669845581055
+                ],
+                "runtimeReferences": {
+                  "spineAnimations": [
+                    "Skill5_3",
+                    "Skill5_4"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "damageVariants": [
+          {
+            "label": "超时反击",
+            "perHit": [
+              {
+                "kind": "called-effect",
+                "multiplierMin": 3750,
+                "multiplierMax": 3750,
+                "hitCount": 1,
+                "subtotalMin": 3750,
+                "subtotalMax": 3750,
+                "eventTimes": [
+                  2
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 3750,
+              "max": 3750
+            },
+            "verdict": "segment-only",
+            "evidenceStatus": "已核对"
+          }
+        ],
+        "effects": [
+          {
+            "type": "虚弱",
+            "name": "倒地",
+            "description": "Boss无法行动10秒。",
+            "target": "Boss自身",
+            "probabilityPercent": 100,
+            "durationSeconds": 10,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "status",
+            "statusKey": "kr:508",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_0.png",
+            "iconState": "bound",
+            "nature": "debuff",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "boss",
+            "skillId": "exr41-energy-challenge",
+            "skillType": "mechanism",
+            "statusUid": "508",
+            "statusNameKey": "StateName_Stun"
+          },
+          {
+            "type": "眩晕",
+            "name": "眩晕",
+            "description": "全队眩晕10秒。",
+            "target": "我方全队",
+            "probabilityPercent": 100,
+            "durationSeconds": 10,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "status",
+            "statusNameKey": "StateName_Stun",
+            "statusKey": "kr:60",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_0.png",
+            "iconState": "bound",
+            "nature": "debuff",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "team",
+            "skillId": "exr41-energy-challenge",
+            "skillType": "mechanism",
+            "statusUid": "60"
+          },
+          {
+            "type": "灼烧",
+            "name": "灼烧",
+            "description": "超时反击附加灼烧5秒；灼烧期间每秒受到一次30%倍率的持续伤害。",
+            "target": "我方全队",
+            "probabilityPercent": 100,
+            "durationSeconds": 5,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "status",
+            "statusNameKey": "StateName_Burn",
+            "statusKey": "kr:54",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_2.png",
+            "iconState": "bound",
+            "nature": "debuff",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "team",
+            "skillId": "exr41-energy-challenge",
+            "skillType": "mechanism",
+            "tickDamage": {
+              "baseMultiplierPercent": 30,
+              "intervalSeconds": 1,
+              "totalTicks": null,
+              "confirmedTotalMultiplier": null,
+              "basis": "施加者对目标的伤害结算基准"
+            },
+            "statusUid": "54"
+          },
+          {
+            "type": "召唤物退场",
+            "name": "能量球退场",
+            "description": "超时反击后，能量球退场。",
+            "target": "能量球",
+            "probabilityPercent": 100,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "mechanism-result",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "summon",
+            "skillId": "exr41-energy-challenge",
+            "skillType": "mechanism"
+          }
+        ],
+        "units": [
+          {
+            "uid": "24801",
+            "name": "强化能量球",
+            "displayName": "强化能量球",
+            "displayNameKind": "说明名",
+            "role": "boss-summon",
+            "context": "强化R41召唤能量球",
+            "spine": "ExR41_EnergyBall",
+            "personalityCode": null,
+            "personality": null,
+            "attackTypeCode": null,
+            "attackType": null,
+            "iconKey": null,
+            "spineSkinName": null,
+            "spineDefaultAnimation": null,
+            "spineActionSuffix": null,
+            "officialTable": "MinionInfo",
+            "lifecycle": {
+              "masterDeath": true,
+              "displayHp": true,
+              "battleEndDeath": true,
+              "immuneStatusEffect": false,
+              "skillOwner": "Self",
+              "summary": "有独立生命条；10秒内击破可使Boss倒地10秒，超时则引发Boss反击并退场。",
+              "fixedLifetimeSeconds": null,
+              "deathAction": "Die",
+              "evidenceStatus": "已核对"
+            },
+            "runtimeReferences": {},
+            "count": 1,
+            "phase": "全阶段",
+            "encounterRole": "Boss召唤物",
+            "trigger": {
+              "type": "计时",
+              "summary": "开战45秒后首次可用，之后会再次使用；过载会加快后续准备，实际出招会因当前动作而延后。球出现后有10秒击破时间。",
+              "firstTriggerTimeSeconds": 45,
+              "repeatIntervalSeconds": null,
+              "cooldownSeconds": null,
+              "timerCycleSeconds": 45,
+              "repeatMode": "preparation-loop"
+            },
+            "skills": [
+              {
+                "name": "周期灼烧",
+                "displayNameKind": "说明名",
+                "trigger": "登场动作启动后等待3秒，之后每3秒攻击一次；普攻动作不另造成伤害。",
+                "actionSequence": [
+                  {
+                    "action": "启动灼烧",
+                    "spineAnimation": "Skill1_1",
+                    "eventTimes": [
+                      0.333333
+                    ]
+                  }
+                ],
+                "damageSummary": {
+                  "display": "每次触发造成50%直接伤害，并附加灼烧；每3秒重复，不合计整场总倍率",
+                  "perHit": [
+                    {
+                      "min": 50,
+                      "max": 50,
+                      "count": 1
+                    }
+                  ],
+                  "hitCount": null,
+                  "confirmedTotalMultiplier": null,
+                  "scope": "dynamic-repeat"
+                },
+                "effects": [
+                  {
+                    "type": "灼烧",
+                    "name": "灼烧",
+                    "description": "100%触发，持续5秒；每3秒重新触发一次；灼烧期间每秒受到一次30%倍率的持续伤害。",
+                    "target": "被该招命中的使徒",
+                    "probabilityPercent": 100,
+                    "durationSeconds": 5,
+                    "value": 30,
+                    "valueUnit": "percent-of-caster-damage-base",
+                    "parameterPending": false,
+                    "evidenceStatus": "已核对",
+                    "effectKind": "status",
+                    "statusNameKey": "StateName_Burn",
+                    "statusKey": "kr:54",
+                    "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_2.png",
+                    "iconState": "bound",
+                    "nature": "debuff",
+                    "sourceRole": "summon",
+                    "sourceLabel": "强化能量球",
+                    "targetRole": "team",
+                    "skillId": "/mechanisms/1/units/0/skills/0",
+                    "skillType": "unit-skill",
+                    "tickDamage": {
+                      "baseMultiplierPercent": 30,
+                      "intervalSeconds": 1,
+                      "totalTicks": null,
+                      "confirmedTotalMultiplier": null,
+                      "basis": "施加者对目标的伤害结算基准"
+                    },
+                    "statusUid": "54"
+                  }
+                ],
+                "repeat": {
+                  "initialDelaySeconds": 3,
+                  "intervalSeconds": 3,
+                  "maxExecutions": 9999,
+                  "summary": "首次等待3秒，之后每3秒造成50%直接伤害并施加灼烧；没有额外的50%普攻伤害。"
+                },
+                "previewOptions": [
+                  {
+                    "id": "exr41-energy",
+                    "label": "强化能量球灼烧",
+                    "eventMarkers": [
+                      {
+                        "timeSeconds": 0.333333,
+                        "type": "effect",
+                        "label": "启动灼烧"
+                      }
+                    ],
+                    "runtimeReferences": {
+                      "spineAnimations": [
+                        "Skill1_1"
+                      ]
+                    }
+                  }
+                ],
+                "evidenceStatus": "已核对",
+                "runtimeReferences": {}
+              }
+            ],
+            "countSemantics": "每次召唤1个，需在出现后10秒内击破。"
+          }
+        ],
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "previewOptions": [
+          {
+            "id": "exr41-energy-challenge-summon",
+            "label": "召唤能量球",
+            "eventMarkers": [
+              {
+                "timeSeconds": 4.5,
+                "type": "effect",
+                "label": "球出现，开始10秒倒计时"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill5_1"
+              ]
+            }
+          },
+          {
+            "id": "exr41-energy-challenge-success",
+            "label": "击破后倒地",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0,
+                "type": "control",
+                "label": "Boss倒地10秒"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill5_5"
+              ]
+            }
+          },
+          {
+            "id": "exr41-energy-challenge-failure",
+            "label": "超时反击",
+            "eventMarkers": [
+              {
+                "timeSeconds": 2.6666666865348816,
+                "type": "damage",
+                "label": "反击伤害与附加状态"
+              }
+            ],
+            "sequenceDurationsSeconds": [
+              0.6666666865348816,
+              4.1666669845581055
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill5_3",
+                "Skill5_4"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "exr41-back-drone",
+        "category": "summon",
+        "title": "后置无人机：过载与击破奖励",
+        "triggers": [
+          {
+            "type": "开战生效",
+            "summary": "开战时获得同步：Boss造成的物理、魔法伤害提高75%。后置无人机另在开战10秒后开始准备出场。",
+            "firstTriggerTimeSeconds": 0,
+            "repeatIntervalSeconds": null
+          },
+          {
+            "type": "计时",
+            "summary": "开战10秒后开始补充无人机，之后重复准备；每次最多补1架，最多同时3架。击破不会立刻补机。",
+            "firstTriggerTimeSeconds": null,
+            "repeatIntervalSeconds": null,
+            "cooldownSeconds": null,
+            "hpThresholdRaw": null,
+            "hpThresholdPercent": null,
+            "hpLine": null,
+            "approxTotalHpPercent": null,
+            "stackThreshold": null,
+            "spMaxValues": [],
+            "spRecoveryValues": [],
+            "evidenceStatus": "已核对",
+            "runtimeReferences": {}
+          }
+        ],
+        "guideTriggerSummary": "开战10秒后开始补充无人机，之后重复准备；每次最多补1架，最多同时3架。击破不会立刻补机。",
+        "summary": "后置无人机提供过载；击破无人机既能削血，也能积累缠绕时间，创造输出机会。",
+        "playerResponse": "优先击破无人机：每架都能削减Boss生命，第三架还会带来大幅易伤窗口；届时使用刚重置冷却的高年级技能集中输出。",
+        "caution": "10秒是准备间隔，不保证每隔10秒出现一架；其他动作或状态阻挡时会延后，异常取消后的恢复时间仍未确认。",
+        "actionSequence": [
+          {
+            "order": 1,
+            "action": "同步常驻",
+            "summary": "正式开战后累计10秒，召唤进入待释放；轮到这招时最多补充1架。等待释放期间不继续累计，之后重新计时；击破无人机可能重置计时，不会立即补机。"
+          },
+          {
+            "order": 2,
+            "action": "首次生成后置无人机",
+            "summary": "每次生成1架；准确出现时刻未确认。"
+          },
+          {
+            "order": 3,
+            "action": "无人机被击破",
+            "spineAnimation": "Die",
+            "summary": "Boss最大HP-13%，缠绕时间+1层；还剩至少2架有效同类无人机时，重置下一次召唤的计时",
+            "actorRole": "summon",
+            "actorUnitUid": "24701"
+          },
+          {
+            "order": 4,
+            "action": "缠绕时间达到3层",
+            "summary": "清层、重置我方高年级技能冷却、Boss无法行动并大幅易伤约8.7秒"
+          }
+        ],
+        "damageVariants": [
+          {
+            "label": "每架后置无人机被击破",
+            "formula": "Boss当前最大HP × 13%",
+            "hitCount": 1,
+            "confirmedTotalMultiplier": null,
+            "verdict": "dynamic-formula",
+            "evidenceStatus": "已核对"
+          }
+        ],
+        "effects": [
+          {
+            "type": "造成伤害提高",
+            "name": "同步",
+            "description": "开战时生效：Boss造成的物理、魔法伤害提高75%。",
+            "target": "Boss自身",
+            "probabilityPercent": 100,
+            "durationSeconds": 99999,
+            "value": 75,
+            "valueUnit": "percent",
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "status",
+            "statusNameKey": "StateName_Synchronization",
+            "statusKey": "kr:544",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_200.png",
+            "iconState": "bound",
+            "nature": "buff",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "boss",
+            "skillId": "exr41-back-drone",
+            "skillType": "mechanism",
+            "statusUid": "544",
+            "durationLabel": "本场战斗内不会自然到期"
+          },
+          {
+            "type": "特殊状态",
+            "name": "缠绕时间",
+            "description": "击破后置无人机时积累；累计3层后清空，使Boss倒地并进入8.7秒易伤，同时重置我方全队高年级技能冷却。",
+            "target": "Boss自身",
+            "probabilityPercent": 100,
+            "durationSeconds": 99999,
+            "value": null,
+            "valueUnit": null,
+            "stacking": "每击破1架积累1层，满3层触发",
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "status",
+            "statusNameKey": "StateName_TwistedTime",
+            "statusKey": "kr:545",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_201.png",
+            "iconState": "bound",
+            "nature": "special",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "boss",
+            "skillId": "exr41-back-drone",
+            "skillType": "mechanism",
+            "statusUid": "545",
+            "durationLabel": "累计3层时清空"
+          },
+          {
+            "type": "受到伤害提高",
+            "name": "受到伤害提高",
+            "description": "缠绕时间累计3层后，Boss受到的物理、魔法伤害提高750%，持续约8.7秒。",
+            "target": "Boss自身",
+            "probabilityPercent": 100,
+            "durationSeconds": 8.7,
+            "value": 750,
+            "valueUnit": "percent",
+            "stacking": null,
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "status",
+            "statusNameKey": "StateName_DamageReceiveUpPercent",
+            "statusKey": "kr:91",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_63.png",
+            "iconState": "bound",
+            "nature": "debuff",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "boss",
+            "skillId": "exr41-back-drone",
+            "skillType": "mechanism",
+            "statusUid": "91"
+          },
+          {
+            "type": "冷却重置",
+            "name": "高年级技能冷却重置",
+            "description": "达到3层时重置所有使徒的高年级技能冷却。",
+            "target": "我方全队",
+            "probabilityPercent": 100,
+            "durationSeconds": null,
+            "value": -99,
+            "valueUnit": "cooldown-reset",
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "instant",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "team",
+            "skillId": "exr41-back-drone",
+            "skillType": "mechanism"
+          },
+          {
+            "type": "过载",
+            "name": "过载",
+            "target": "Boss自身",
+            "probabilityPercent": 100,
+            "description": "每层让指定技能的后续计时减少10%的等待量；只影响连续炮击、45秒能量球、50秒防护和时间停止无人机。不是每层提前10秒，也不影响普通攻击、SP或后置无人机的召唤计时。",
+            "value": 10,
+            "valueUnit": "timer-reduction-percent-per-stack",
+            "durationSeconds": 300,
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "runtimeReferences": {},
+            "effectKind": "status",
+            "statusUid": "320",
+            "statusNameKey": "StateName_SkillChangeMode",
+            "statusKey": "kr:320",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_66.png",
+            "iconState": "bound",
+            "nature": "buff",
+            "sourceRole": "summon",
+            "sourceLabel": "后置无人机",
+            "targetRole": "boss",
+            "skillId": "exr41-back-drone",
+            "skillType": "mechanism"
+          }
+        ],
+        "units": [
+          {
+            "uid": "24701",
+            "name": "后置无人机",
+            "displayName": "后置无人机",
+            "displayNameKind": "说明名",
+            "role": "boss-summon",
+            "context": "强化R41后置无人机",
+            "spine": "R41_BackDrone",
+            "personalityCode": null,
+            "personality": null,
+            "attackTypeCode": null,
+            "attackType": null,
+            "iconKey": null,
+            "spineSkinName": null,
+            "spineDefaultAnimation": null,
+            "spineActionSuffix": null,
+            "officialTable": "MinionInfo",
+            "lifecycle": {
+              "masterDeath": true,
+              "displayHp": true,
+              "battleEndDeath": true,
+              "immuneStatusEffect": false,
+              "skillOwner": "Self",
+              "summary": "被击破时Boss损失最大HP的13%并获得1层缠绕时间；随后播放Die退场。 若还剩至少2架有效同类无人机，Boss下一次后置无人机召唤的计时重新开始；不足2架时不触发这项重置。",
+              "fixedLifetimeSeconds": null,
+              "deathAction": "Die",
+              "evidenceStatus": "已核对",
+              "refillSummary": "最多3架，每次补充1架；补机请求被取出后，下一轮恢复累计10秒，不另等召唤动画。3架存活时不增加；击破不会立刻补机，实际出现还受当前动作和状态限制。"
+            },
+            "runtimeReferences": {},
+            "count": 1,
+            "phase": "全阶段",
+            "encounterRole": "Boss召唤物",
+            "trigger": {
+              "type": "计时",
+              "summary": "正式开战累计10秒后等待补机；轮到这招时直接发起补充，最多1架，不另等召唤动画。等待补机时暂停计时；这次请求被取出后，下一轮才能继续累计10秒。击破无人机可能重置计时，不会立刻补机。",
+              "firstTriggerTimeSeconds": null,
+              "repeatIntervalSeconds": null,
+              "cooldownSeconds": null
+            },
+            "skills": [
+              {
+                "name": "普通射击",
+                "displayNameKind": "说明名",
+                "trigger": "按召唤物普通攻击循环使用",
+                "actionSequence": [
+                  {
+                    "action": "普通射击",
+                    "spineAnimation": "Attack1_1",
+                    "eventTimes": [
+                      1.8
+                    ]
+                  }
+                ],
+                "damageSummary": {
+                  "display": "50% × 1＝50%",
+                  "perHit": [
+                    {
+                      "min": 50,
+                      "max": 50,
+                      "count": 1
+                    }
+                  ],
+                  "hitCount": 1,
+                  "confirmedTotalMultiplier": {
+                    "min": 50,
+                    "max": 50
+                  },
+                  "scope": "complete-cast",
+                  "branchRule": null
+                },
+                "effects": [],
+                "previewOptions": [
+                  {
+                    "id": "exr41-back-normal",
+                    "label": "后置无人机普通射击",
+                    "eventMarkers": [
+                      {
+                        "timeSeconds": 1.8,
+                        "type": "damage",
+                        "label": "伤害"
+                      }
+                    ],
+                    "runtimeReferences": {
+                      "spineAnimations": [
+                        "Attack1_1"
+                      ]
+                    }
+                  }
+                ],
+                "evidenceStatus": "已核对",
+                "runtimeReferences": {}
+              },
+              {
+                "name": "强化射击",
+                "displayNameKind": "说明名",
+                "trigger": "Boss连续炮击时下令，在场且能够行动的后置无人机使用强化射击。",
+                "actionSequence": [
+                  {
+                    "action": "强化射击",
+                    "spineAnimation": "Attack2_1",
+                    "eventTimes": [
+                      1.733333
+                    ]
+                  }
+                ],
+                "damageSummary": {
+                  "display": "100% × 1＝100%",
+                  "perHit": [
+                    {
+                      "min": 100,
+                      "max": 100,
+                      "count": 1
+                    }
+                  ],
+                  "hitCount": 1,
+                  "confirmedTotalMultiplier": {
+                    "min": 100,
+                    "max": 100
+                  },
+                  "scope": "complete-cast",
+                  "branchRule": null
+                },
+                "effects": [
+                  {
+                    "type": "灼烧",
+                    "name": "灼烧",
+                    "description": "30%概率附加灼烧5秒；灼烧期间每秒受到一次30%倍率的持续伤害。",
+                    "target": "被该招命中的使徒",
+                    "probabilityPercent": 30,
+                    "durationSeconds": 5,
+                    "value": null,
+                    "valueUnit": null,
+                    "parameterPending": false,
+                    "evidenceStatus": "已核对",
+                    "effectKind": "status",
+                    "statusNameKey": "StateName_Burn",
+                    "statusKey": "kr:54",
+                    "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_2.png",
+                    "iconState": "bound",
+                    "nature": "debuff",
+                    "sourceRole": "summon",
+                    "sourceLabel": "后置无人机",
+                    "targetRole": "team",
+                    "skillId": "/mechanisms/2/units/0/skills/1",
+                    "skillType": "unit-skill",
+                    "tickDamage": {
+                      "baseMultiplierPercent": 30,
+                      "intervalSeconds": 1,
+                      "totalTicks": null,
+                      "confirmedTotalMultiplier": null,
+                      "basis": "施加者对目标的伤害结算基准"
+                    },
+                    "statusUid": "54"
+                  }
+                ],
+                "previewOptions": [
+                  {
+                    "id": "exr41-back-strong",
+                    "label": "后置无人机强化射击",
+                    "eventMarkers": [
+                      {
+                        "timeSeconds": 1.733333,
+                        "type": "damage",
+                        "label": "伤害"
+                      }
+                    ],
+                    "runtimeReferences": {
+                      "spineAnimations": [
+                        "Attack2_1"
+                      ]
+                    }
+                  }
+                ],
+                "evidenceStatus": "已核对",
+                "runtimeReferences": {}
+              }
+            ],
+            "maximumConcurrentCount": 3,
+            "countSemantics": "每次最多补充1架；最多同时3架"
+          }
+        ],
+        "evidenceStatus": "部分待确认",
+        "runtimeReferences": {},
+        "previewOptions": [],
+        "detailNotes": [
+          {
+            "label": "召唤数量",
+            "summary": "最多同时存在3架，每次最多补充1架；击破后不会立即补机。"
+          },
+          {
+            "label": "过载强化",
+            "summary": "达到3层时，强化攻击和SP切换为强化版本；过载还会加快连续炮击、能量球、防护、时间停止无人机的后续准备。"
+          },
+          {
+            "label": "击破1架",
+            "summary": "Boss损失最大生命值的13%，并获得1层缠绕时间。"
+          },
+          {
+            "label": "累计3层",
+            "summary": "清空缠绕时间层数，Boss无法行动且受到伤害提高750%，持续约8.7秒；同时重置全队高年级技能冷却。"
+          },
+          {
+            "label": "协同攻击",
+            "summary": "连续炮击时，仍在场的后置无人机会一同使用强化射击：每架造成100%伤害，命中有30%概率附加5秒灼烧。"
+          }
+        ]
+      },
+      {
+        "id": "exr41-protection",
+        "category": "time-trigger",
+        "title": "防护",
+        "triggers": [
+          {
+            "type": "计时",
+            "summary": "开战50秒后首次可用，之后会再次使用；过载会加快后续准备，实际出招会因当前动作而延后。",
+            "firstTriggerTimeSeconds": 50,
+            "repeatIntervalSeconds": null,
+            "timerCycleSeconds": 50,
+            "repeatMode": "preparation-loop"
+          }
+        ],
+        "guideTriggerSummary": "开战50秒后首次可用，之后会再次使用；过载会加快后续准备，实际出招会因当前动作而延后。",
+        "summary": "Boss获得30%减伤，持续25秒。",
+        "playerResponse": "尽量把爆发留到减伤结束后。",
+        "caution": null,
+        "actionSequence": [
+          {
+            "order": 1,
+            "action": "展开防护",
+            "spineAnimation": "Skill4_1",
+            "summary": "受到伤害降低30%，持续25秒。"
+          }
+        ],
+        "damageVariants": [],
+        "effects": [
+          {
+            "type": "受到伤害降低",
+            "name": "减伤",
+            "description": "Boss受到的伤害降低30%，持续25秒。",
+            "target": "Boss自身",
+            "probabilityPercent": 100,
+            "durationSeconds": 25,
+            "value": 30,
+            "valueUnit": "percent",
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "status",
+            "statusUid": "22",
+            "statusNameKey": "StateName_DamageReceiveDownPercent",
+            "statusKey": "kr:22",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_26.png",
+            "iconState": "bound",
+            "nature": "buff",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "boss",
+            "skillId": "exr41-protection",
+            "skillType": "mechanism"
+          }
+        ],
+        "units": [],
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {}
+      },
+      {
+        "id": "exr41-time-stop",
+        "category": "summon",
+        "title": "时间停止无人机",
+        "triggers": [
+          {
+            "type": "计时",
+            "summary": "开战60秒后首次可用，之后会再次使用；过载会加快后续准备，实际出招会因当前动作而延后。",
+            "firstTriggerTimeSeconds": 60,
+            "repeatIntervalSeconds": null,
+            "cooldownSeconds": null,
+            "hpThresholdRaw": null,
+            "hpThresholdPercent": null,
+            "hpLine": null,
+            "approxTotalHpPercent": null,
+            "stackThreshold": null,
+            "spMaxValues": [],
+            "spRecoveryValues": [],
+            "evidenceStatus": "已核对",
+            "runtimeReferences": {},
+            "timerCycleSeconds": 60,
+            "repeatMode": "preparation-loop"
+          }
+        ],
+        "guideTriggerSummary": "开战60秒后首次可用，之后会再次使用；过载会加快后续准备，实际出招会因当前动作而延后。",
+        "summary": "依次召唤10台无人机。每台攻击一次，命中造成50%物理伤害，并使目标停止行动3秒，随后自毁。",
+        "playerResponse": "保护被无人机锁定的使徒；可预留免控、护盾或减伤。",
+        "caution": "每台无人机各攻击一次；个人实际受击次数按命中情况计算，不能把10台的伤害合并为每人固定承受的伤害。",
+        "actionSequence": [
+          {
+            "order": 1,
+            "action": "生成10台无人机",
+            "spineAnimation": "Skill6_1",
+            "summary": "首次在开战60秒后可用，此后还会召唤；实际出现时间可能延后。",
+            "actorRole": "boss"
+          },
+          {
+            "order": 2,
+            "action": "各自攻击",
+            "summary": "单台50%×1并时间停止3秒",
+            "actorRole": "summon",
+            "actorUnitUid": "80026"
+          },
+          {
+            "order": 3,
+            "action": "各自自毁",
+            "summary": "伤害结算后退场",
+            "actorRole": "summon",
+            "actorUnitUid": "80026"
+          }
+        ],
+        "damageVariants": [],
+        "effects": [
+          {
+            "type": "时间停止",
+            "name": "时间停止",
+            "description": "被无人机命中的使徒停止行动3秒。",
+            "target": "被该招命中的使徒",
+            "probabilityPercent": 100,
+            "durationSeconds": 3,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "status",
+            "statusNameKey": "StateName_StopTime",
+            "statusKey": "kr:309",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_68.png",
+            "iconState": "bound",
+            "nature": "debuff",
+            "sourceRole": "summon",
+            "sourceLabel": "时间停止无人机",
+            "targetRole": "team",
+            "skillId": "exr41-time-stop",
+            "skillType": "mechanism",
+            "statusUid": "309"
+          }
+        ],
+        "units": [
+          {
+            "uid": "80026",
+            "name": "时间停止无人机",
+            "displayName": "时间停止无人机",
+            "displayNameKind": "官方名称",
+            "role": "boss-summon",
+            "context": "强化R41时间停止无人机",
+            "spine": "R41_TimeStopDrone",
+            "personalityCode": -1,
+            "personality": "无",
+            "attackTypeCode": 1,
+            "attackType": "物理",
+            "iconKey": "Icon_R41_TimeStopDroneNone",
+            "spineSkinName": null,
+            "spineDefaultAnimation": null,
+            "spineActionSuffix": null,
+            "officialTable": "MonsterInfo",
+            "lifecycle": {
+              "summary": "完成一次时间停止攻击后自毁。",
+              "fixedLifetimeSeconds": null,
+              "deathAction": "自毁",
+              "evidenceStatus": "已核对"
+            },
+            "runtimeReferences": {},
+            "count": 10,
+            "phase": "全阶段",
+            "encounterRole": "Boss召唤物",
+            "trigger": {
+              "type": "计时",
+              "summary": "开战60秒后首次可用，之后会再次使用；过载会加快后续准备，实际出招会因当前动作而延后。每次召唤10台，攻击后自毁。",
+              "firstTriggerTimeSeconds": 60,
+              "repeatIntervalSeconds": null,
+              "cooldownSeconds": null,
+              "timerCycleSeconds": 60,
+              "repeatMode": "preparation-loop"
+            },
+            "skills": [
+              {
+                "name": "时间停止与自毁",
+                "displayNameKind": "说明名",
+                "trigger": "生成后执行一次",
+                "actionSequence": [
+                  {
+                    "action": "时间停止攻击",
+                    "spineAnimation": "Attack1_1",
+                    "eventTimes": [
+                      1.066667
+                    ]
+                  },
+                  {
+                    "action": "自毁",
+                    "spineAnimation": "Attack1_1",
+                    "eventTimes": [
+                      1.066667
+                    ]
+                  }
+                ],
+                "damageSummary": {
+                  "display": "50% × 1＝50%",
+                  "perHit": [
+                    {
+                      "min": 50,
+                      "max": 50,
+                      "count": 1
+                    }
+                  ],
+                  "hitCount": 1,
+                  "confirmedTotalMultiplier": {
+                    "min": 50,
+                    "max": 50
+                  },
+                  "scope": "complete-cast",
+                  "branchRule": null
+                },
+                "effects": [
+                  {
+                    "type": "时间停止",
+                    "name": "时间停止",
+                    "description": "被无人机命中的使徒停止行动3秒。",
+                    "target": "被该招命中的使徒",
+                    "probabilityPercent": 100,
+                    "durationSeconds": 3,
+                    "value": null,
+                    "valueUnit": null,
+                    "parameterPending": false,
+                    "evidenceStatus": "已核对",
+                    "effectKind": "status",
+                    "statusNameKey": "StateName_StopTime",
+                    "statusKey": "kr:309",
+                    "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_68.png",
+                    "iconState": "bound",
+                    "nature": "debuff",
+                    "sourceRole": "summon",
+                    "sourceLabel": "时间停止无人机",
+                    "targetRole": "team",
+                    "skillId": "/mechanisms/4/units/0/skills/0",
+                    "skillType": "unit-skill",
+                    "statusUid": "309"
+                  }
+                ],
+                "previewOptions": [
+                  {
+                    "id": "exr41-time-stop",
+                    "label": "时间停止无人机",
+                    "eventMarkers": [
+                      {
+                        "timeSeconds": 1.066667,
+                        "type": "damage",
+                        "label": "50%伤害"
+                      },
+                      {
+                        "timeSeconds": 1.066667,
+                        "type": "control",
+                        "label": "时间停止3秒"
+                      }
+                    ],
+                    "runtimeReferences": {
+                      "spineAnimations": [
+                        "Attack1_1"
+                      ]
+                    }
+                  }
+                ],
+                "evidenceStatus": "已核对",
+                "runtimeReferences": {}
+              }
+            ]
+          }
+        ],
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "previewOptions": [
+          {
+            "id": "exr41-time-stop-boss-0",
+            "label": "召唤时间停止无人机",
+            "eventMarkers": [],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill6_1"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "units": [
+      {
+        "uid": "24801",
+        "name": "强化能量球",
+        "displayName": "强化能量球",
+        "displayNameKind": "说明名",
+        "role": "boss-summon",
+        "context": "强化R41召唤能量球",
+        "spine": "ExR41_EnergyBall",
+        "personalityCode": null,
+        "personality": null,
+        "attackTypeCode": null,
+        "attackType": null,
+        "iconKey": null,
+        "spineSkinName": null,
+        "spineDefaultAnimation": null,
+        "spineActionSuffix": null,
+        "officialTable": "MinionInfo",
+        "lifecycle": {
+          "masterDeath": true,
+          "displayHp": true,
+          "battleEndDeath": true,
+          "immuneStatusEffect": false,
+          "skillOwner": "Self",
+          "summary": "有独立生命条；10秒内击破可使Boss倒地10秒，超时则引发Boss反击并退场。",
+          "fixedLifetimeSeconds": null,
+          "deathAction": "Die",
+          "evidenceStatus": "已核对"
+        },
+        "runtimeReferences": {},
+        "count": 1,
+        "phase": "全阶段",
+        "encounterRole": "Boss召唤物",
+        "trigger": {
+          "type": "计时",
+          "summary": "开战45秒后首次可用，之后会再次使用；过载会加快后续准备，实际出招会因当前动作而延后。球出现后有10秒击破时间。",
+          "firstTriggerTimeSeconds": 45,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "timerCycleSeconds": 45,
+          "repeatMode": "preparation-loop"
+        },
+        "skills": [
+          {
+            "name": "周期灼烧",
+            "displayNameKind": "说明名",
+            "trigger": "登场动作启动后等待3秒，之后每3秒攻击一次；普攻动作不另造成伤害。",
+            "actionSequence": [
+              {
+                "action": "启动灼烧",
+                "spineAnimation": "Skill1_1",
+                "eventTimes": [
+                  0.333333
+                ]
+              }
+            ],
+            "damageSummary": {
+              "display": "每次触发造成50%直接伤害，并附加灼烧；每3秒重复，不合计整场总倍率",
+              "perHit": [
+                {
+                  "min": 50,
+                  "max": 50,
+                  "count": 1
+                }
+              ],
+              "hitCount": null,
+              "confirmedTotalMultiplier": null,
+              "scope": "dynamic-repeat"
+            },
+            "effects": [
+              {
+                "type": "灼烧",
+                "name": "灼烧",
+                "description": "100%触发，持续5秒；每3秒重新触发一次；灼烧期间每秒受到一次30%倍率的持续伤害。",
+                "target": "被该招命中的使徒",
+                "probabilityPercent": 100,
+                "durationSeconds": 5,
+                "value": 30,
+                "valueUnit": "percent-of-caster-damage-base",
+                "parameterPending": false,
+                "evidenceStatus": "已核对",
+                "effectKind": "status",
+                "statusNameKey": "StateName_Burn",
+                "statusKey": "kr:54",
+                "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_2.png",
+                "iconState": "bound",
+                "nature": "debuff",
+                "sourceRole": "summon",
+                "sourceLabel": "强化能量球",
+                "targetRole": "team",
+                "skillId": "/units/0/skills/0",
+                "skillType": "unit-skill",
+                "tickDamage": {
+                  "baseMultiplierPercent": 30,
+                  "intervalSeconds": 1,
+                  "totalTicks": null,
+                  "confirmedTotalMultiplier": null,
+                  "basis": "施加者对目标的伤害结算基准"
+                },
+                "statusUid": "54"
+              }
+            ],
+            "repeat": {
+              "initialDelaySeconds": 3,
+              "intervalSeconds": 3,
+              "maxExecutions": 9999,
+              "summary": "首次等待3秒，之后每3秒造成50%直接伤害并施加灼烧；没有额外的50%普攻伤害。"
+            },
+            "previewOptions": [
+              {
+                "id": "exr41-energy",
+                "label": "强化能量球灼烧",
+                "eventMarkers": [
+                  {
+                    "timeSeconds": 0.333333,
+                    "type": "effect",
+                    "label": "启动灼烧"
+                  }
+                ],
+                "runtimeReferences": {
+                  "spineAnimations": [
+                    "Skill1_1"
+                  ]
+                }
+              }
+            ],
+            "evidenceStatus": "已核对",
+            "runtimeReferences": {}
+          }
+        ],
+        "countSemantics": "每次召唤1个，需在出现后10秒内击破。"
+      },
+      {
+        "uid": "24701",
+        "name": "后置无人机",
+        "displayName": "后置无人机",
+        "displayNameKind": "说明名",
+        "role": "boss-summon",
+        "context": "强化R41后置无人机",
+        "spine": "R41_BackDrone",
+        "personalityCode": null,
+        "personality": null,
+        "attackTypeCode": null,
+        "attackType": null,
+        "iconKey": null,
+        "spineSkinName": null,
+        "spineDefaultAnimation": null,
+        "spineActionSuffix": null,
+        "officialTable": "MinionInfo",
+        "lifecycle": {
+          "masterDeath": true,
+          "displayHp": true,
+          "battleEndDeath": true,
+          "immuneStatusEffect": false,
+          "skillOwner": "Self",
+          "summary": "被击破时Boss损失最大HP的13%并获得1层缠绕时间；随后播放Die退场。 若还剩至少2架有效同类无人机，Boss下一次后置无人机召唤的计时重新开始；不足2架时不触发这项重置。",
+          "fixedLifetimeSeconds": null,
+          "deathAction": "Die",
+          "evidenceStatus": "已核对",
+          "refillSummary": "最多3架，每次补充1架；补机请求被取出后，下一轮恢复累计10秒，不另等召唤动画。3架存活时不增加；击破不会立刻补机，实际出现还受当前动作和状态限制。"
+        },
+        "runtimeReferences": {},
+        "count": 1,
+        "phase": "全阶段",
+        "encounterRole": "Boss召唤物",
+        "trigger": {
+          "type": "计时",
+          "summary": "正式开战累计10秒后等待补机；轮到这招时直接发起补充，最多1架，不另等召唤动画。等待补机时暂停计时；这次请求被取出后，下一轮才能继续累计10秒。击破无人机可能重置计时，不会立刻补机。",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null
+        },
+        "skills": [
+          {
+            "name": "普通射击",
+            "displayNameKind": "说明名",
+            "trigger": "按召唤物普通攻击循环使用",
+            "actionSequence": [
+              {
+                "action": "普通射击",
+                "spineAnimation": "Attack1_1",
+                "eventTimes": [
+                  1.8
+                ]
+              }
+            ],
+            "damageSummary": {
+              "display": "50% × 1＝50%",
+              "perHit": [
+                {
+                  "min": 50,
+                  "max": 50,
+                  "count": 1
+                }
+              ],
+              "hitCount": 1,
+              "confirmedTotalMultiplier": {
+                "min": 50,
+                "max": 50
+              },
+              "scope": "complete-cast",
+              "branchRule": null
+            },
+            "effects": [],
+            "previewOptions": [
+              {
+                "id": "exr41-back-normal",
+                "label": "后置无人机普通射击",
+                "eventMarkers": [
+                  {
+                    "timeSeconds": 1.8,
+                    "type": "damage",
+                    "label": "伤害"
+                  }
+                ],
+                "runtimeReferences": {
+                  "spineAnimations": [
+                    "Attack1_1"
+                  ]
+                }
+              }
+            ],
+            "evidenceStatus": "已核对",
+            "runtimeReferences": {}
+          },
+          {
+            "name": "强化射击",
+            "displayNameKind": "说明名",
+            "trigger": "Boss连续炮击时下令，在场且能够行动的后置无人机使用强化射击。",
+            "actionSequence": [
+              {
+                "action": "强化射击",
+                "spineAnimation": "Attack2_1",
+                "eventTimes": [
+                  1.733333
+                ]
+              }
+            ],
+            "damageSummary": {
+              "display": "100% × 1＝100%",
+              "perHit": [
+                {
+                  "min": 100,
+                  "max": 100,
+                  "count": 1
+                }
+              ],
+              "hitCount": 1,
+              "confirmedTotalMultiplier": {
+                "min": 100,
+                "max": 100
+              },
+              "scope": "complete-cast",
+              "branchRule": null
+            },
+            "effects": [
+              {
+                "type": "灼烧",
+                "name": "灼烧",
+                "description": "30%概率附加灼烧5秒；灼烧期间每秒受到一次30%倍率的持续伤害。",
+                "target": "被该招命中的使徒",
+                "probabilityPercent": 30,
+                "durationSeconds": 5,
+                "value": null,
+                "valueUnit": null,
+                "parameterPending": false,
+                "evidenceStatus": "已核对",
+                "effectKind": "status",
+                "statusNameKey": "StateName_Burn",
+                "statusKey": "kr:54",
+                "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_2.png",
+                "iconState": "bound",
+                "nature": "debuff",
+                "sourceRole": "summon",
+                "sourceLabel": "后置无人机",
+                "targetRole": "team",
+                "skillId": "/units/1/skills/1",
+                "skillType": "unit-skill",
+                "tickDamage": {
+                  "baseMultiplierPercent": 30,
+                  "intervalSeconds": 1,
+                  "totalTicks": null,
+                  "confirmedTotalMultiplier": null,
+                  "basis": "施加者对目标的伤害结算基准"
+                },
+                "statusUid": "54"
+              }
+            ],
+            "previewOptions": [
+              {
+                "id": "exr41-back-strong",
+                "label": "后置无人机强化射击",
+                "eventMarkers": [
+                  {
+                    "timeSeconds": 1.733333,
+                    "type": "damage",
+                    "label": "伤害"
+                  }
+                ],
+                "runtimeReferences": {
+                  "spineAnimations": [
+                    "Attack2_1"
+                  ]
+                }
+              }
+            ],
+            "evidenceStatus": "已核对",
+            "runtimeReferences": {}
+          }
+        ],
+        "maximumConcurrentCount": 3,
+        "countSemantics": "每次最多补充1架；最多同时3架"
+      },
+      {
+        "uid": "80026",
+        "name": "时间停止无人机",
+        "displayName": "时间停止无人机",
+        "displayNameKind": "官方名称",
+        "role": "boss-summon",
+        "context": "强化R41时间停止无人机",
+        "spine": "R41_TimeStopDrone",
+        "personalityCode": -1,
+        "personality": "无",
+        "attackTypeCode": 1,
+        "attackType": "物理",
+        "iconKey": "Icon_R41_TimeStopDroneNone",
+        "spineSkinName": null,
+        "spineDefaultAnimation": null,
+        "spineActionSuffix": null,
+        "officialTable": "MonsterInfo",
+        "lifecycle": {
+          "summary": "完成一次时间停止攻击后自毁。",
+          "fixedLifetimeSeconds": null,
+          "deathAction": "自毁",
+          "evidenceStatus": "已核对"
+        },
+        "runtimeReferences": {},
+        "count": 10,
+        "phase": "全阶段",
+        "encounterRole": "Boss召唤物",
+        "trigger": {
+          "type": "计时",
+          "summary": "开战60秒后首次可用，之后会再次使用；过载会加快后续准备，实际出招会因当前动作而延后。每次召唤10台，攻击后自毁。",
+          "firstTriggerTimeSeconds": 60,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "timerCycleSeconds": 60,
+          "repeatMode": "preparation-loop"
+        },
+        "skills": [
+          {
+            "name": "时间停止与自毁",
+            "displayNameKind": "说明名",
+            "trigger": "生成后执行一次",
+            "actionSequence": [
+              {
+                "action": "时间停止攻击",
+                "spineAnimation": "Attack1_1",
+                "eventTimes": [
+                  1.066667
+                ]
+              },
+              {
+                "action": "自毁",
+                "spineAnimation": "Attack1_1",
+                "eventTimes": [
+                  1.066667
+                ]
+              }
+            ],
+            "damageSummary": {
+              "display": "50% × 1＝50%",
+              "perHit": [
+                {
+                  "min": 50,
+                  "max": 50,
+                  "count": 1
+                }
+              ],
+              "hitCount": 1,
+              "confirmedTotalMultiplier": {
+                "min": 50,
+                "max": 50
+              },
+              "scope": "complete-cast",
+              "branchRule": null
+            },
+            "effects": [
+              {
+                "type": "时间停止",
+                "name": "时间停止",
+                "description": "被无人机命中的使徒停止行动3秒。",
+                "target": "被该招命中的使徒",
+                "probabilityPercent": 100,
+                "durationSeconds": 3,
+                "value": null,
+                "valueUnit": null,
+                "parameterPending": false,
+                "evidenceStatus": "已核对",
+                "effectKind": "status",
+                "statusNameKey": "StateName_StopTime",
+                "statusKey": "kr:309",
+                "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_68.png",
+                "iconState": "bound",
+                "nature": "debuff",
+                "sourceRole": "summon",
+                "sourceLabel": "时间停止无人机",
+                "targetRole": "team",
+                "skillId": "/units/2/skills/0",
+                "skillType": "unit-skill",
+                "statusUid": "309"
+              }
+            ],
+            "previewOptions": [
+              {
+                "id": "exr41-time-stop",
+                "label": "时间停止无人机",
+                "eventMarkers": [
+                  {
+                    "timeSeconds": 1.066667,
+                    "type": "damage",
+                    "label": "50%伤害"
+                  },
+                  {
+                    "timeSeconds": 1.066667,
+                    "type": "control",
+                    "label": "时间停止3秒"
+                  }
+                ],
+                "runtimeReferences": {
+                  "spineAnimations": [
+                    "Attack1_1"
+                  ]
+                }
+              }
+            ],
+            "evidenceStatus": "已核对",
+            "runtimeReferences": {}
+          }
+        ]
+      }
+    ],
+    "playerAdvice": [
+      "第一条血打空后进入阶段演出，之后反复施加灼烧，提前准备持续治疗和防护。",
+      "球出现后立刻集火，击破后利用Boss倒地的10秒集中输出。来不及击破时，提前准备减伤和免控。",
+      "优先击破后置无人机；累计3层缠绕时间后，趁Boss无法行动且易伤时，用刚重置冷却的高年级技能集中输出。",
+      "时间停止无人机首次在60秒后可用，此后会重复；保护被锁定的使徒，每个人的实际受击次数不固定。"
+    ],
+    "unresolved": [
+      "后置无人机补机受到状态阻挡或动作被打断时，实际登场时间尚不明确。"
+    ],
+    "presentationRules": {
+      "rawEntryCount": 28,
+      "playerAttackGroupCount": 6,
+      "playerMechanismCount": 4,
+      "rawSkillEntriesRendered": false,
+      "internalUidsVisibleToPlayer": false
+    },
+    "runtimeReferences": {},
+    "skillOrder": [
+      {
+        "type": "attack",
+        "id": "exr41-normal",
+        "category": "normal"
+      },
+      {
+        "type": "attack",
+        "id": "exr41-enhanced",
+        "category": "enhanced"
+      },
+      {
+        "type": "attack",
+        "id": "exr41-sp",
+        "category": "sp"
+      },
+      {
+        "type": "mechanism",
+        "id": "exr41-five-bar-field",
+        "category": "hp-trigger"
+      },
+      {
+        "type": "mechanism",
+        "id": "exr41-back-drone",
+        "category": "time-trigger"
+      },
+      {
+        "type": "attack",
+        "id": "exr41-time-16",
+        "category": "time-trigger"
+      },
+      {
+        "type": "attack",
+        "id": "exr41-time-25",
+        "category": "time-trigger"
+      },
+      {
+        "type": "attack",
+        "id": "exr41-time-28",
+        "category": "time-trigger"
+      },
+      {
+        "type": "mechanism",
+        "id": "exr41-energy-challenge",
+        "category": "time-trigger"
+      },
+      {
+        "type": "mechanism",
+        "id": "exr41-protection",
+        "category": "time-trigger"
+      },
+      {
+        "type": "mechanism",
+        "id": "exr41-time-stop",
+        "category": "time-trigger"
+      }
+    ]
+  },
+  "runtimeReferences": {},
+  "encounterOrder": 3,
+  "directoryAppearances": [
+    {
+      "configurationId": "1511",
+      "configurationLabel": "Boss大关 1511",
+      "configurationOrder": 1511,
+      "worldInfoUid": 1511,
+      "stageUid": "15110134",
+      "stageOrder": 13,
+      "stageName": "[마그맛1] 침식되는 시공간",
+      "hpBarCount": 6
+    },
+    {
+      "configurationId": "1511",
+      "configurationLabel": "Boss大关 1511",
+      "configurationOrder": 1511,
+      "worldInfoUid": 1511,
+      "stageUid": "15110144",
+      "stageOrder": 14,
+      "stageName": "[마그맛2] 부식중인 시공간",
+      "hpBarCount": 6
+    }
+  ]
+}

@@ -1,0 +1,1082 @@
+{
+  "schemaVersion": 3,
+  "server": "kr",
+  "dataVersion": "2026-08-27",
+  "routeKey": "kr:elias-frontier:65173",
+  "mode": "艾利亚斯边境",
+  "modeKey": "elias-frontier",
+  "monsterUid": "65173",
+  "bossName": "클론 루포",
+  "personality": "无",
+  "attackType": "官方未注明",
+  "spineKey": "Rufo",
+  "spineSkinName": null,
+  "iconUrl": null,
+  "difficultyCodes": [
+    4
+  ],
+  "stages": [
+    {
+      "rowKey": "elias-frontier:15:15050014:65173:0",
+      "monsterUid": "65173",
+      "bossName": "클론 루포",
+      "personality": "无",
+      "attackType": "官方未注明",
+      "difficultyCode": 4,
+      "worldName": "활발의 특이점",
+      "stageOrder": 1,
+      "variantIndex": 0,
+      "variantCount": 3,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "무결한 활발｜变体 1/3",
+      "官方关卡名": "활발의 특이점",
+      "波次/档位": 1,
+      "等级": "Lv.180",
+      "数值口径": "最终阶段属性",
+      "HP": 27727,
+      "物理攻击": 3466,
+      "魔法攻击": 0,
+      "物理防御": 4377,
+      "魔法防御": 4377,
+      "暴击": 2555,
+      "暴击伤害": 2555,
+      "暴击抵抗": 2555,
+      "暴伤抵抗": 2555,
+      "SP上限": 400,
+      "SP恢复": 23,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "无非零属性加成",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15050014"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15050014:65173:1",
+      "monsterUid": "65173",
+      "bossName": "클론 루포",
+      "personality": "无",
+      "attackType": "官方未注明",
+      "difficultyCode": 4,
+      "worldName": "활발의 특이점",
+      "stageOrder": 1,
+      "variantIndex": 1,
+      "variantCount": 3,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "무결한 활발｜变体 2/3",
+      "官方关卡名": "활발의 특이점",
+      "波次/档位": 1,
+      "等级": "Lv.216",
+      "数值口径": "最终阶段属性",
+      "HP": 33199,
+      "物理攻击": 4150,
+      "魔法攻击": 0,
+      "物理防御": 5241,
+      "魔法防御": 5241,
+      "暴击": 3059,
+      "暴击伤害": 3059,
+      "暴击抵抗": 3059,
+      "暴伤抵抗": 3059,
+      "SP上限": 400,
+      "SP恢复": 23,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "无非零属性加成",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15050014"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15050014:65173:2",
+      "monsterUid": "65173",
+      "bossName": "클론 루포",
+      "personality": "无",
+      "attackType": "官方未注明",
+      "difficultyCode": 4,
+      "worldName": "활발의 특이점",
+      "stageOrder": 1,
+      "variantIndex": 2,
+      "variantCount": 3,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "무결한 활발｜变体 3/3",
+      "官方关卡名": "활발의 특이점",
+      "波次/档位": 1,
+      "等级": "Lv.251",
+      "数值口径": "最终阶段属性",
+      "HP": 38519,
+      "物理攻击": 4815,
+      "魔法攻击": 0,
+      "物理防御": 6081,
+      "魔法防御": 6081,
+      "暴击": 3549,
+      "暴击伤害": 3549,
+      "暴击抵抗": 3549,
+      "暴伤抵抗": 3549,
+      "SP上限": 400,
+      "SP恢复": 23,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "无非零属性加成",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15050014"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15050064:65173:0",
+      "monsterUid": "65173",
+      "bossName": "클론 루포",
+      "personality": "无",
+      "attackType": "官方未注明",
+      "difficultyCode": 4,
+      "worldName": "활발의 특이점",
+      "stageOrder": 6,
+      "variantIndex": 0,
+      "variantCount": 3,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "공감적 활발｜变体 1/3",
+      "官方关卡名": "활발의 특이점",
+      "波次/档位": 6,
+      "等级": "Lv.4465",
+      "数值口径": "最终阶段属性",
+      "HP": 3395235,
+      "物理攻击": 148541.75,
+      "魔法攻击": 0,
+      "物理防御": 107217,
+      "魔法防御": 107217,
+      "暴击": 62545,
+      "暴击伤害": 62545,
+      "暴击抵抗": 62545,
+      "暴伤抵抗": 62545,
+      "SP上限": 400,
+      "SP恢复": 23,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "HP +400% · 物攻 +75% · 魔攻 +75%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15050064"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15050064:65173:1",
+      "monsterUid": "65173",
+      "bossName": "클론 루포",
+      "personality": "无",
+      "attackType": "官方未注明",
+      "difficultyCode": 4,
+      "worldName": "활발의 특이점",
+      "stageOrder": 6,
+      "variantIndex": 1,
+      "variantCount": 3,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "공감적 활발｜变体 2/3",
+      "官方关卡名": "활발의 특이점",
+      "波次/档位": 6,
+      "等级": "Lv.4920",
+      "数值口径": "最终阶段属性",
+      "HP": 3741035,
+      "物理攻击": 163670.5,
+      "魔法攻击": 0,
+      "物理防御": 118137,
+      "魔法防御": 118137,
+      "暴击": 68915,
+      "暴击伤害": 68915,
+      "暴击抵抗": 68915,
+      "暴伤抵抗": 68915,
+      "SP上限": 400,
+      "SP恢复": 23,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "HP +400% · 物攻 +75% · 魔攻 +75%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15050064"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15050064:65173:2",
+      "monsterUid": "65173",
+      "bossName": "클론 루포",
+      "personality": "无",
+      "attackType": "官方未注明",
+      "difficultyCode": 4,
+      "worldName": "활발의 특이점",
+      "stageOrder": 6,
+      "variantIndex": 2,
+      "variantCount": 3,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "공감적 활발｜变体 3/3",
+      "官方关卡名": "활발의 특이점",
+      "波次/档位": 6,
+      "等级": "Lv.5375",
+      "数值口径": "最终阶段属性",
+      "HP": 4086835,
+      "物理攻击": 178799.25,
+      "魔法攻击": 0,
+      "物理防御": 129057,
+      "魔法防御": 129057,
+      "暴击": 75285,
+      "暴击伤害": 75285,
+      "暴击抵抗": 75285,
+      "暴伤抵抗": 75285,
+      "SP上限": 400,
+      "SP恢复": 23,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "HP +400% · 物攻 +75% · 魔攻 +75%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15050064"
+      }
+    }
+  ],
+  "skills": [],
+  "guideSkills": [
+    {
+      "id": "6517301",
+      "sourceOrder": 0,
+      "displayName": "기본기",
+      "presentationLabel": null,
+      "nameKind": "官方技能名",
+      "skillType": "普通攻击",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          6.5
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 85,
+        "max": 85,
+        "displayMin": 85,
+        "displayMax": 85,
+        "hitCount": 2,
+        "formula": "Attack1_1 85%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Attack1_1",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 2,
+          "effectTriggerCount": 2,
+          "eventTimes": [
+            0.333333,
+            0.733333
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "Attack1_1",
+          "spineAnimation": "Attack1_1",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 42.5,
+              "multiplierMax": 42.5,
+              "hitCount": 1,
+              "subtotalMin": 42.5,
+              "subtotalMax": 42.5,
+              "eventTimes": [
+                0.333333
+              ]
+            },
+            {
+              "kind": "direct",
+              "multiplierMin": 42.5,
+              "multiplierMax": 42.5,
+              "hitCount": 1,
+              "subtotalMin": 42.5,
+              "subtotalMax": 42.5,
+              "eventTimes": [
+                0.733333
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 85,
+          "confirmedSegmentTotalMax": 85,
+          "confirmedDamageHitCount": 2,
+          "restrictions": [],
+          "spineEffects": []
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "6517302",
+      "sourceOrder": 1,
+      "displayName": "루포류 신속베기",
+      "presentationLabel": null,
+      "nameKind": "官方技能名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 42,
+        "skillRange": [
+          0,
+          42
+        ]
+      },
+      "range": null,
+      "verdict": "segment-only",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "流血；造成伤害",
+          "spineAnimation": "Skill1_2",
+          "relation": "执行关系待确认",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        },
+        {
+          "order": null,
+          "action": "流血；造成伤害",
+          "spineAnimation": "Skill1_3",
+          "relation": "执行关系待确认",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        },
+        {
+          "order": null,
+          "action": "流血；造成伤害",
+          "spineAnimation": "Skill1_4",
+          "relation": "执行关系待确认",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        },
+        {
+          "order": null,
+          "action": "流血；造成伤害",
+          "spineAnimation": "Skill1_5",
+          "relation": "执行关系待确认",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        },
+        {
+          "order": null,
+          "action": "流血；造成伤害",
+          "spineAnimation": "Skill1_6",
+          "relation": "执行关系待确认",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        },
+        {
+          "order": null,
+          "action": "流血；获得免疫或无敌；造成伤害",
+          "spineAnimation": "Skill1_7",
+          "relation": "执行关系待确认",
+          "spineEventCount": 2,
+          "effectTriggerCount": 2,
+          "eventTimes": [
+            0.033333,
+            0.633333
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        },
+        {
+          "order": null,
+          "action": "触发死亡或击杀机制；免疫或无敌",
+          "spineAnimation": "Skill1_1",
+          "relation": "执行关系待确认",
+          "spineEventCount": 2,
+          "effectTriggerCount": 2,
+          "eventTimes": [
+            0,
+            0.9
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        },
+        {
+          "order": null,
+          "action": "免疫或无敌；获得免疫或无敌",
+          "spineAnimation": "Ultimate1_1",
+          "relation": "执行关系待确认",
+          "spineEventCount": 2,
+          "effectTriggerCount": 2,
+          "eventTimes": [
+            0.833333,
+            1.066667
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 2,
+          "action": "Skill1_2",
+          "spineAnimation": "Skill1_2",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 123,
+              "multiplierMax": 123,
+              "hitCount": 1,
+              "subtotalMin": 123,
+              "subtotalMax": 123,
+              "eventTimes": [
+                0
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 123,
+          "confirmedSegmentTotalMax": 123,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": []
+        },
+        {
+          "order": 3,
+          "action": "Skill1_3",
+          "spineAnimation": "Skill1_3",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 123,
+              "multiplierMax": 123,
+              "hitCount": 1,
+              "subtotalMin": 123,
+              "subtotalMax": 123,
+              "eventTimes": [
+                0
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 123,
+          "confirmedSegmentTotalMax": 123,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": []
+        },
+        {
+          "order": 4,
+          "action": "Skill1_4",
+          "spineAnimation": "Skill1_4",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 123,
+              "multiplierMax": 123,
+              "hitCount": 1,
+              "subtotalMin": 123,
+              "subtotalMax": 123,
+              "eventTimes": [
+                0
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 123,
+          "confirmedSegmentTotalMax": 123,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": []
+        },
+        {
+          "order": 5,
+          "action": "Skill1_5",
+          "spineAnimation": "Skill1_5",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 123,
+              "multiplierMax": 123,
+              "hitCount": 1,
+              "subtotalMin": 123,
+              "subtotalMax": 123,
+              "eventTimes": [
+                0
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 123,
+          "confirmedSegmentTotalMax": 123,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": []
+        },
+        {
+          "order": 6,
+          "action": "Skill1_6",
+          "spineAnimation": "Skill1_6",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 123,
+              "multiplierMax": 123,
+              "hitCount": 1,
+              "subtotalMin": 123,
+              "subtotalMax": 123,
+              "eventTimes": [
+                0
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 123,
+          "confirmedSegmentTotalMax": 123,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": []
+        },
+        {
+          "order": 7,
+          "action": "Skill1_7",
+          "spineAnimation": "Skill1_7",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 123,
+              "multiplierMax": 123,
+              "hitCount": 1,
+              "subtotalMin": 123,
+              "subtotalMax": 123,
+              "eventTimes": [
+                0.033333
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 123,
+          "confirmedSegmentTotalMax": 123,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": []
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [
+          {
+            "nameKo": null,
+            "fallbackLabel": "流血",
+            "descriptionKo": null,
+            "relation": null,
+            "relationDepth": null,
+            "category": "debuff",
+            "uid": null,
+            "nameKey": null,
+            "iconUrl": null,
+            "catalogMatch": "not-found",
+            "probabilityPercent": null,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": true,
+            "classificationEvidence": null
+          },
+          {
+            "nameKo": null,
+            "fallbackLabel": "流血",
+            "descriptionKo": null,
+            "relation": null,
+            "relationDepth": null,
+            "category": "debuff",
+            "uid": null,
+            "nameKey": null,
+            "iconUrl": null,
+            "catalogMatch": "not-found",
+            "probabilityPercent": null,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": true,
+            "classificationEvidence": null
+          },
+          {
+            "nameKo": null,
+            "fallbackLabel": "流血",
+            "descriptionKo": null,
+            "relation": null,
+            "relationDepth": null,
+            "category": "debuff",
+            "uid": null,
+            "nameKey": null,
+            "iconUrl": null,
+            "catalogMatch": "not-found",
+            "probabilityPercent": null,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": true,
+            "classificationEvidence": null
+          },
+          {
+            "nameKo": null,
+            "fallbackLabel": "流血",
+            "descriptionKo": null,
+            "relation": null,
+            "relationDepth": null,
+            "category": "debuff",
+            "uid": null,
+            "nameKey": null,
+            "iconUrl": null,
+            "catalogMatch": "not-found",
+            "probabilityPercent": null,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": true,
+            "classificationEvidence": null
+          },
+          {
+            "nameKo": null,
+            "fallbackLabel": "流血",
+            "descriptionKo": null,
+            "relation": null,
+            "relationDepth": null,
+            "category": "debuff",
+            "uid": null,
+            "nameKey": null,
+            "iconUrl": null,
+            "catalogMatch": "not-found",
+            "probabilityPercent": null,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": true,
+            "classificationEvidence": null
+          },
+          {
+            "nameKo": null,
+            "fallbackLabel": "流血",
+            "descriptionKo": null,
+            "relation": null,
+            "relationDepth": null,
+            "category": "debuff",
+            "uid": null,
+            "nameKey": null,
+            "iconUrl": null,
+            "catalogMatch": "not-found",
+            "probabilityPercent": null,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": true,
+            "classificationEvidence": null
+          }
+        ],
+        "controls": [],
+        "recovery": [],
+        "immunity": [
+          {
+            "label": "免疫或无敌",
+            "evidenceStatus": "由官方动作类型确认；未证明的参数语义仅保存在技术证据中"
+          }
+        ],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "执行特殊机制",
+          "note": "处理器语义待确认",
+          "action": "执行特殊机制"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "动作内倍率和次数可确认；完整动作集合或运行入口尚未唯一闭合。",
+      "evidenceStatus": "官方单段倍率与动作内次数已确认；完整动作关系未闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "6517303",
+      "sourceOrder": 2,
+      "displayName": "오의 여우회전!",
+      "presentationLabel": null,
+      "nameKind": "官方技能名",
+      "skillType": "冷却技能",
+      "trigger": {
+        "type": "计时",
+        "summary": "计时阈值 34 秒；CoolTime与FirstCoolTime另列",
+        "rawValue": "34",
+        "coolTime": 34,
+        "firstCoolTime": 0,
+        "targetRange": 42,
+        "skillRange": [
+          0,
+          42
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 1056,
+        "max": 1056,
+        "displayMin": 1056,
+        "displayMax": 1056,
+        "hitCount": 8,
+        "formula": "Ultimate1_1 1056%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害；伤害承受降低",
+          "spineAnimation": "Ultimate1_1",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 8,
+          "effectTriggerCount": 9,
+          "eventTimes": [
+            1.433333,
+            1.6,
+            1.766667,
+            1.933333,
+            2.1,
+            2.3,
+            2.466667,
+            2.666667
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "Ultimate1_1",
+          "spineAnimation": "Ultimate1_1",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 132,
+              "multiplierMax": 132,
+              "hitCount": 8,
+              "subtotalMin": 1056,
+              "subtotalMax": 1056,
+              "eventTimes": [
+                1.433333,
+                1.6,
+                1.766667,
+                1.933333,
+                2.1,
+                2.3,
+                2.466667,
+                2.666667
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 1056,
+          "confirmedSegmentTotalMax": 1056,
+          "confirmedDamageHitCount": 8,
+          "restrictions": [],
+          "spineEffects": []
+        }
+      ],
+      "effectGroups": {
+        "buffs": [
+          {
+            "nameKo": null,
+            "fallbackLabel": "伤害承受降低",
+            "descriptionKo": null,
+            "relation": null,
+            "relationDepth": null,
+            "category": "buff",
+            "uid": null,
+            "nameKey": null,
+            "iconUrl": null,
+            "catalogMatch": "not-found",
+            "probabilityPercent": null,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": true,
+            "classificationEvidence": null
+          }
+        ],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "执行特殊机制",
+          "note": "处理器语义待确认",
+          "action": "执行特殊机制"
+        }
+      ],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "6517304",
+      "sourceOrder": 3,
+      "displayName": "기본기",
+      "presentationLabel": null,
+      "nameKind": "官方技能名",
+      "skillType": "强化攻击",
+      "trigger": {
+        "type": "概率",
+        "summary": "概率原值 50",
+        "rawValue": "50",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          6.5
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 185,
+        "max": 185,
+        "displayMin": 185,
+        "displayMax": 185,
+        "hitCount": 1,
+        "formula": "Attack2_1 185%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害；执行特殊机制",
+          "spineAnimation": "Attack2_1",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 2,
+          "effectTriggerCount": 2,
+          "eventTimes": [
+            0.2,
+            0.666667
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "Attack2_1",
+          "spineAnimation": "Attack2_1",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 185,
+              "multiplierMax": 185,
+              "hitCount": 1,
+              "subtotalMin": 185,
+              "subtotalMax": 185,
+              "eventTimes": [
+                0.666667
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 185,
+          "confirmedSegmentTotalMax": 185,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": []
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "执行特殊机制",
+          "note": "处理器语义待确认",
+          "action": "执行特殊机制"
+        }
+      ],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    }
+  ],
+  "internalComponents": [],
+  "spineResources": [
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack1_1",
+      "直接连接的技能效果": "6517301",
+      "触发时间": "0.333333s / 0.733333s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_2",
+      "直接连接的技能效果": "6517302",
+      "触发时间": "0s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_3",
+      "直接连接的技能效果": "6517302",
+      "触发时间": "0s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_4",
+      "直接连接的技能效果": "6517302",
+      "触发时间": "0s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_5",
+      "直接连接的技能效果": "6517302",
+      "触发时间": "0s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_6",
+      "直接连接的技能效果": "6517302",
+      "触发时间": "0s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_7",
+      "直接连接的技能效果": "6517302",
+      "触发时间": "0.033333s / 0.633333s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_1",
+      "直接连接的技能效果": "6517302",
+      "触发时间": "0s / 0.9s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Ultimate1_1",
+      "直接连接的技能效果": "6517302, 6517303",
+      "触发时间": "0.833333s / 1.066667s / 1.433333s / 1.6s / 1.766667s / 1.933333s / 2.1s / 2.3s / 2.466667s / 2.666667s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack2_1",
+      "直接连接的技能效果": "6517304",
+      "触发时间": "0.2s / 0.666667s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    }
+  ],
+  "guideReference": null,
+  "runtimeReferences": {}
+}

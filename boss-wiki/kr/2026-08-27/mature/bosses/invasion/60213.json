@@ -1,0 +1,1901 @@
+{
+  "schemaVersion": 8,
+  "server": "kr",
+  "dataDate": "2026-08-27",
+  "routeKey": "kr:invasion:60213",
+  "mode": "侵略",
+  "modeCode": 1,
+  "modeKey": "invasion",
+  "identity": {
+    "uid": "60213",
+    "name": "루파루 - 순수",
+    "displayName": null,
+    "displayNameKind": null,
+    "role": "boss",
+    "context": "Boss索引对象",
+    "spine": "Lupalu",
+    "personalityCode": 0,
+    "personality": "순수",
+    "attackTypeCode": 2,
+    "attackType": "魔法",
+    "iconKey": "Icon_LupaluNaive",
+    "spineSkinName": null,
+    "spineDefaultAnimation": null,
+    "spineActionSuffix": null,
+    "officialTable": "MonsterInfo",
+    "lifecycle": null,
+    "runtimeReferences": {},
+    "iconUrl": "/boss-wiki/kr/2026-08-27/mature/icons/invasion/60213.png",
+    "iconSourceType": "MonsterInfo.Icon官方PNG"
+  },
+  "runtimeMonsterUids": [
+    "60213"
+  ],
+  "bossName": "루파루 - 순수",
+  "familyKey": "lupalu",
+  "familyOrder": 106010,
+  "variantOrder": 2,
+  "firstFormalAppearance": {
+    "worldInfoUid": 106,
+    "stageOrder": 10,
+    "stageUid": "1060101"
+  },
+  "stageRecords": [
+    {
+      "stageUid": "1060101",
+      "name": "수인 공동체의 저력!",
+      "world": "안개숲의 위협",
+      "worldInfoUid": 106,
+      "stageOrder": 10,
+      "difficulty": 1,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 151,
+          "growthTimes": 150,
+          "attributes": {
+            "hp": 46637,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 2149,
+            "physicalDefense": 2915,
+            "magicDefense": 2915,
+            "criticalRate": 2149,
+            "criticalMultiplier": 2149,
+            "criticalResist": 2149,
+            "criticalMultiplierResist": 0,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 133
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": -10000,
+              "percent": -100
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1060102",
+      "name": "수인 공동체의 저력!",
+      "world": "안개숲의 위협",
+      "worldInfoUid": 106,
+      "stageOrder": 10,
+      "difficulty": 2,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 367,
+          "growthTimes": 366,
+          "attributes": {
+            "hp": 112301,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 5173,
+            "physicalDefense": 7019,
+            "magicDefense": 7019,
+            "criticalRate": 5173,
+            "criticalMultiplier": 5173,
+            "criticalResist": 5173,
+            "criticalMultiplierResist": 0,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 133
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": -10000,
+              "percent": -100
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1060103",
+      "name": "수인 공동체의 저력!",
+      "world": "안개숲의 위협",
+      "worldInfoUid": 106,
+      "stageOrder": 10,
+      "difficulty": 3,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 783,
+          "growthTimes": 782,
+          "attributes": {
+            "hp": 238765,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 10997,
+            "physicalDefense": 14923,
+            "magicDefense": 14923,
+            "criticalRate": 10997,
+            "criticalMultiplier": 10997,
+            "criticalResist": 10997,
+            "criticalMultiplierResist": 0,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 133
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": -10000,
+              "percent": -100
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    }
+  ],
+  "stageRosters": [
+    {
+      "stageUid": "1060101",
+      "stage": "수인 공동체의 저력!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60211",
+              "name": "루파루 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60461",
+              "name": "저혈당 요정 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60211",
+              "name": "루파루 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60461",
+              "name": "저혈당 요정 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60161",
+              "name": "머곰 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60211",
+              "name": "루파루 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60461",
+              "name": "저혈당 요정 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61111",
+              "name": "목도룡 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60161",
+              "name": "머곰 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60211",
+              "name": "루파루 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60461",
+              "name": "저혈당 요정 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61111",
+              "name": "목도룡 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60161",
+              "name": "머곰 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60213",
+              "name": "루파루 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60461",
+              "name": "저혈당 요정 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61111",
+              "name": "목도룡 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1060102",
+      "stage": "수인 공동체의 저력!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60211",
+              "name": "루파루 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60461",
+              "name": "저혈당 요정 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60211",
+              "name": "루파루 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60461",
+              "name": "저혈당 요정 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60161",
+              "name": "머곰 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60211",
+              "name": "루파루 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60461",
+              "name": "저혈당 요정 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61111",
+              "name": "목도룡 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60161",
+              "name": "머곰 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60211",
+              "name": "루파루 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60461",
+              "name": "저혈당 요정 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61111",
+              "name": "목도룡 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60161",
+              "name": "머곰 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60213",
+              "name": "루파루 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60461",
+              "name": "저혈당 요정 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61111",
+              "name": "목도룡 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1060103",
+      "stage": "수인 공동체의 저력!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60211",
+              "name": "루파루 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60461",
+              "name": "저혈당 요정 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60211",
+              "name": "루파루 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60461",
+              "name": "저혈당 요정 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60161",
+              "name": "머곰 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60211",
+              "name": "루파루 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60461",
+              "name": "저혈당 요정 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61111",
+              "name": "목도룡 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60161",
+              "name": "머곰 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60211",
+              "name": "루파루 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60461",
+              "name": "저혈당 요정 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61111",
+              "name": "목도룡 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60161",
+              "name": "머곰 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60213",
+              "name": "루파루 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60461",
+              "name": "저혈당 요정 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61111",
+              "name": "목도룡 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "encounterGuide": {
+    "status": "已核对",
+    "battleTimeLimitSeconds": [
+      70
+    ],
+    "battleTimeline": [
+      {
+        "atSeconds": null,
+        "condition": "SP蓄满后释放",
+        "repeatIntervalSeconds": null,
+        "phase": "全阶段",
+        "event": "SP技能：强力水弹",
+        "category": "sp",
+        "targetType": "attack",
+        "targetId": "lupalu-60213-sp",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      }
+    ],
+    "phases": [],
+    "attacks": [
+      {
+        "id": "lupalu-60213-normal",
+        "category": "normal",
+        "title": "普通攻击",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "无",
+          "summary": "按普通攻击循环使用",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "单次远程魔法攻击",
+            "actionSequence": [
+              {
+                "action": "向前方目标发射水弹",
+                "spineAnimation": "Attack1_1_Naive",
+                "eventTimes": [
+                  1.533333
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 100,
+                "multiplierMax": 100,
+                "hitCount": 1,
+                "subtotalMin": 100,
+                "subtotalMax": 100,
+                "eventTimes": [
+                  1.533333
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 100,
+              "max": 100
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "6021301"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "lupalu-60213-normal",
+            "label": "普通攻击",
+            "eventMarkers": [
+              {
+                "timeSeconds": 1.533333,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Attack1_1_Naive"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "100% × 1＝100%",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                1.533333
+              ]
+            }
+          ],
+          "hitCount": 1,
+          "confirmedTotalMultiplier": {
+            "min": 100,
+            "max": 100
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [],
+        "confirmedTotalMultiplier": {
+          "min": 100,
+          "max": 100
+        },
+        "hitCount": 1,
+        "playerResult": "向前方目标发射水弹，命中1次，造成100%魔法伤害。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 10
+      },
+      {
+        "id": "lupalu-60213-sp",
+        "category": "sp",
+        "title": "SP技能：强力水弹",
+        "displayNameKind": "说明名",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "SP",
+          "summary": "SP蓄满后释放",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [
+            200
+          ],
+          "spRecoveryValues": [
+            8
+          ],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "蓄力后单次远程魔法攻击",
+            "actionSequence": [
+              {
+                "action": "短暂蓄力后发射强力水弹",
+                "spineAnimation": "Skill1_1_Naive",
+                "eventTimes": [
+                  1.2
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 700,
+                "multiplierMax": 700,
+                "hitCount": 1,
+                "subtotalMin": 700,
+                "subtotalMax": 700,
+                "eventTimes": [
+                  1.2
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 700,
+              "max": 700
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "6021302"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "lupalu-60213-sp",
+            "label": "强力水弹",
+            "eventMarkers": [
+              {
+                "timeSeconds": 1.2,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 0.2,
+                "type": "effect",
+                "label": "蓄力特效"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill1_1_Naive"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "700% × 1＝700%",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 700,
+              "multiplierMax": 700,
+              "hitCount": 1,
+              "subtotalMin": 700,
+              "subtotalMax": 700,
+              "eventTimes": [
+                1.2
+              ]
+            }
+          ],
+          "hitCount": 1,
+          "confirmedTotalMultiplier": {
+            "min": 700,
+            "max": 700
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [],
+        "confirmedTotalMultiplier": {
+          "min": 700,
+          "max": 700
+        },
+        "hitCount": 1,
+        "playerResult": "短暂蓄力后发射强力水弹，命中1次，造成700%魔法伤害；蓄力特效不另算伤害。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 30
+      }
+    ],
+    "mechanisms": [],
+    "units": [],
+    "playerAdvice": [
+      "SP在蓄力后只结算1次700%伤害；起手特效不是额外命中。"
+    ],
+    "unresolved": [],
+    "presentationRules": {
+      "rawEntryCount": 2,
+      "playerAttackGroupCount": 2,
+      "playerMechanismCount": 0,
+      "rawSkillEntriesRendered": false,
+      "internalUidsVisibleToPlayer": false
+    },
+    "runtimeReferences": {},
+    "skillOrder": [
+      {
+        "type": "attack",
+        "id": "lupalu-60213-normal",
+        "category": "normal"
+      },
+      {
+        "type": "attack",
+        "id": "lupalu-60213-sp",
+        "category": "sp"
+      }
+    ]
+  },
+  "runtimeReferences": {},
+  "encounterOrder": 13,
+  "directoryAppearances": [
+    {
+      "configurationId": "106",
+      "configurationLabel": "侵略",
+      "configurationOrder": 106,
+      "worldInfoUid": 106,
+      "stageUid": "1060101",
+      "stageOrder": 10,
+      "stageName": "수인 공동체의 저력!",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "106",
+      "configurationLabel": "侵略",
+      "configurationOrder": 106,
+      "worldInfoUid": 106,
+      "stageUid": "1060102",
+      "stageOrder": 10,
+      "stageName": "수인 공동체의 저력!",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "106",
+      "configurationLabel": "侵略",
+      "configurationOrder": 106,
+      "worldInfoUid": 106,
+      "stageUid": "1060103",
+      "stageOrder": 10,
+      "stageName": "수인 공동체의 저력!",
+      "hpBarCount": null
+    }
+  ]
+}

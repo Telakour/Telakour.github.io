@@ -1,0 +1,4950 @@
+{
+  "schemaVersion": 8,
+  "server": "kr",
+  "dataDate": "2026-08-27",
+  "routeKey": "kr:invasion:61353",
+  "mode": "侵略",
+  "modeCode": 1,
+  "modeKey": "invasion",
+  "identity": {
+    "uid": "61353",
+    "name": "길어용 - 냉정",
+    "displayName": null,
+    "displayNameKind": null,
+    "role": "boss",
+    "context": "Boss索引对象",
+    "spine": "Imoogi",
+    "personalityCode": 1,
+    "personality": "냉정",
+    "attackTypeCode": 2,
+    "attackType": "魔法",
+    "iconKey": "Icon_ImoogiCool",
+    "spineSkinName": null,
+    "spineDefaultAnimation": null,
+    "spineActionSuffix": null,
+    "officialTable": "MonsterInfo",
+    "lifecycle": null,
+    "runtimeReferences": {},
+    "iconUrl": "/boss-wiki/kr/2026-08-27/mature/icons/invasion/61353.png",
+    "iconSourceType": "MonsterInfo.Icon官方PNG"
+  },
+  "runtimeMonsterUids": [
+    "61353"
+  ],
+  "bossName": "길어용 - 냉정",
+  "familyKey": "imoogi",
+  "familyOrder": 104010,
+  "variantOrder": 1,
+  "firstFormalAppearance": {
+    "worldInfoUid": 104,
+    "stageOrder": 10,
+    "stageUid": "1040101"
+  },
+  "stageRecords": [
+    {
+      "stageUid": "1040101",
+      "name": "정령산의 높새바람!",
+      "world": "하얀 이불 봉우리 전투",
+      "worldInfoUid": 104,
+      "stageOrder": 10,
+      "difficulty": 1,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 59,
+          "growthTimes": 58,
+          "attributes": {
+            "hp": 23336,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 1043,
+            "physicalDefense": 1473,
+            "magicDefense": 1473,
+            "criticalRate": 861,
+            "criticalMultiplier": 861,
+            "criticalResist": 861,
+            "criticalMultiplierResist": 0,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 95
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": -10000,
+              "percent": -100
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1040102",
+      "name": "정령산의 높새바람!",
+      "world": "하얀 이불 봉우리 전투",
+      "worldInfoUid": 104,
+      "stageOrder": 10,
+      "difficulty": 2,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 219,
+          "growthTimes": 218,
+          "attributes": {
+            "hp": 84136,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 3763,
+            "physicalDefense": 5313,
+            "magicDefense": 5313,
+            "criticalRate": 3101,
+            "criticalMultiplier": 3101,
+            "criticalResist": 3101,
+            "criticalMultiplierResist": 0,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 95
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": -10000,
+              "percent": -100
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1040103",
+      "name": "정령산의 높새바람!",
+      "world": "하얀 이불 봉우리 전투",
+      "worldInfoUid": 104,
+      "stageOrder": 10,
+      "difficulty": 3,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 555,
+          "growthTimes": 554,
+          "attributes": {
+            "hp": 211816,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 9475,
+            "physicalDefense": 13377,
+            "magicDefense": 13377,
+            "criticalRate": 7805,
+            "criticalMultiplier": 7805,
+            "criticalResist": 7805,
+            "criticalMultiplierResist": 0,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 95
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": -10000,
+              "percent": -100
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1280051",
+      "name": "맨 땅 위 피겨 스케이팅",
+      "world": "설산 위 대운동회",
+      "worldInfoUid": 128,
+      "stageOrder": 5,
+      "difficulty": 1,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 2040,
+          "growthTimes": 2039,
+          "attributes": {
+            "hp": 2638794.4,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 34720,
+            "physicalDefense": 49017,
+            "magicDefense": 49017,
+            "criticalRate": 28595,
+            "criticalMultiplier": 28595,
+            "criticalResist": 28595,
+            "criticalMultiplierResist": 28595,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 95
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 24000,
+              "percent": 240
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 4000,
+              "percent": 40
+            },
+            "EndDamageMagicPercent": {
+              "raw": 4000,
+              "percent": 40
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1280052",
+      "name": "맨 땅 위 피겨 스케이팅",
+      "world": "설산 위 대운동회",
+      "worldInfoUid": 128,
+      "stageOrder": 5,
+      "difficulty": 2,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 8672,
+          "growthTimes": 8671,
+          "attributes": {
+            "hp": 69221796,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 147464,
+            "physicalDefense": 208185,
+            "magicDefense": 208185,
+            "criticalRate": 121443,
+            "criticalMultiplier": 121443,
+            "criticalResist": 121443,
+            "criticalMultiplierResist": 121443,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 95
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 200000,
+              "percent": 2000
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 40000,
+              "percent": 400
+            },
+            "EndDamageMagicPercent": {
+              "raw": 40000,
+              "percent": 400
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1280053",
+      "name": "맨 땅 위 피겨 스케이팅",
+      "world": "설산 위 대운동회",
+      "worldInfoUid": 128,
+      "stageOrder": 5,
+      "difficulty": 3,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 15371,
+          "growthTimes": 15370,
+          "attributes": {
+            "hp": 148968348,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 261347,
+            "physicalDefense": 368961,
+            "magicDefense": 368961,
+            "criticalRate": 215229,
+            "criticalMultiplier": 215229,
+            "criticalResist": 215229,
+            "criticalMultiplierResist": 215229,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 95
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 245000,
+              "percent": 2450
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 73500,
+              "percent": 735
+            },
+            "EndDamageMagicPercent": {
+              "raw": 73500,
+              "percent": 735
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1280101",
+      "name": "내년에는 열지 말자!",
+      "world": "설산 위 대운동회",
+      "worldInfoUid": 128,
+      "stageOrder": 10,
+      "difficulty": 1,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 2161,
+          "growthTimes": 2160,
+          "attributes": {
+            "hp": 2959545.6,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 36777,
+            "physicalDefense": 51921,
+            "magicDefense": 51921,
+            "criticalRate": 30289,
+            "criticalMultiplier": 30289,
+            "criticalResist": 30289,
+            "criticalMultiplierResist": 30289,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 95
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 26000,
+              "percent": 260
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 5000,
+              "percent": 50
+            },
+            "EndDamageMagicPercent": {
+              "raw": 5000,
+              "percent": 50
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1280102",
+      "name": "내년에는 열지 말자!",
+      "world": "설산 위 대운동회",
+      "worldInfoUid": 128,
+      "stageOrder": 10,
+      "difficulty": 2,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 9387,
+          "growthTimes": 9386,
+          "attributes": {
+            "hp": 82063448,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 159619,
+            "physicalDefense": 225345,
+            "magicDefense": 225345,
+            "criticalRate": 131453,
+            "criticalMultiplier": 131453,
+            "criticalResist": 131453,
+            "criticalMultiplierResist": 131453,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 95
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 220000,
+              "percent": 2200
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 44000,
+              "percent": 440
+            },
+            "EndDamageMagicPercent": {
+              "raw": 44000,
+              "percent": 440
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1280103",
+      "name": "내년에는 열지 말자!",
+      "world": "설산 위 대운동회",
+      "worldInfoUid": 128,
+      "stageOrder": 10,
+      "difficulty": 3,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 16803,
+          "growthTimes": 16802,
+          "attributes": {
+            "hp": 202757278,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 285691,
+            "physicalDefense": 403329,
+            "magicDefense": 403329,
+            "criticalRate": 235277,
+            "criticalMultiplier": 235277,
+            "criticalResist": 235277,
+            "criticalMultiplierResist": 235277,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 95
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 307500,
+              "percent": 3075
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 107625,
+              "percent": 1076.25
+            },
+            "EndDamageMagicPercent": {
+              "raw": 107625,
+              "percent": 1076.25
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    }
+  ],
+  "stageRosters": [
+    {
+      "stageUid": "1040101",
+      "stage": "정령산의 높새바람!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61201",
+              "name": "동석 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60401",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61201",
+              "name": "동석 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60401",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61201",
+              "name": "동석 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60401",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61201",
+              "name": "동석 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61353",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1040102",
+      "stage": "정령산의 높새바람!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61201",
+              "name": "동석 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60401",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61201",
+              "name": "동석 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60401",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61201",
+              "name": "동석 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60401",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61201",
+              "name": "동석 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61353",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1040103",
+      "stage": "정령산의 높새바람!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61201",
+              "name": "동석 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60401",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61201",
+              "name": "동석 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60401",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61201",
+              "name": "동석 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60401",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61201",
+              "name": "동석 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61353",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1280051",
+      "stage": "맨 땅 위 피겨 스케이팅",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61353",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1280052",
+      "stage": "맨 땅 위 피겨 스케이팅",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61353",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1280053",
+      "stage": "맨 땅 위 피겨 스케이팅",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61353",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1280101",
+      "stage": "내년에는 열지 말자!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 3
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 3
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 3
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 3
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61353",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1280102",
+      "stage": "내년에는 열지 말자!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 3
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 3
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 3
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 3
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61353",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1280103",
+      "stage": "내년에는 열지 말자!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 3
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 3
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 3
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 3
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60501",
+              "name": "저혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61353",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "encounterGuide": {
+    "status": "已核对",
+    "battleTimeLimitSeconds": [
+      70
+    ],
+    "battleTimeline": [
+      {
+        "atSeconds": null,
+        "condition": "SP蓄满后释放",
+        "repeatIntervalSeconds": null,
+        "phase": "全阶段",
+        "event": "SP技能：连续水弹",
+        "category": "sp",
+        "targetType": "attack",
+        "targetId": "imoogi-61353-sp",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      }
+    ],
+    "phases": [],
+    "attacks": [
+      {
+        "id": "imoogi-61353-normal",
+        "category": "normal",
+        "title": "普通攻击",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "无",
+          "summary": "按普通攻击循环使用",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "单次远程魔法攻击",
+            "actionSequence": [
+              {
+                "action": "向前方目标发射水弹",
+                "spineAnimation": "Attack1_1_Cool",
+                "eventTimes": [
+                  0.466667
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 100,
+                "multiplierMax": 100,
+                "hitCount": 1,
+                "subtotalMin": 100,
+                "subtotalMax": 100,
+                "eventTimes": [
+                  0.466667
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 100,
+              "max": 100
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "6135301"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "imoogi-61353-normal",
+            "label": "普通攻击",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0.466667,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Attack1_1_Cool"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "100% × 1＝100%",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.466667
+              ]
+            }
+          ],
+          "hitCount": 1,
+          "confirmedTotalMultiplier": {
+            "min": 100,
+            "max": 100
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [],
+        "confirmedTotalMultiplier": {
+          "min": 100,
+          "max": 100
+        },
+        "hitCount": 1,
+        "playerResult": "向前方目标发射水弹，命中1次，造成100%魔法伤害。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 10
+      },
+      {
+        "id": "imoogi-61353-sp",
+        "category": "sp",
+        "title": "SP技能：连续水弹",
+        "displayNameKind": "说明名",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "SP",
+          "summary": "SP蓄满后释放",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [
+            200
+          ],
+          "spRecoveryValues": [
+            8
+          ],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "同一完整动作连续命中5次",
+            "actionSequence": [
+              {
+                "action": "短暂准备后连续发射5发水弹",
+                "spineAnimation": "Skill1_1_Cool",
+                "eventTimes": [
+                  1.1,
+                  1.233333,
+                  1.366667,
+                  1.5,
+                  1.633333
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 60,
+                "multiplierMax": 60,
+                "hitCount": 5,
+                "subtotalMin": 300,
+                "subtotalMax": 300,
+                "eventTimes": [
+                  1.1,
+                  1.233333,
+                  1.366667,
+                  1.5,
+                  1.633333
+                ]
+              }
+            ],
+            "hitCount": 5,
+            "confirmedTotalMultiplier": {
+              "min": 300,
+              "max": 300
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "6135302"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "imoogi-61353-sp",
+            "label": "连续水弹",
+            "eventMarkers": [
+              {
+                "timeSeconds": 1.1,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 1.233333,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 1.366667,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 1.5,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 1.633333,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 0,
+                "type": "effect",
+                "label": "准备特效"
+              },
+              {
+                "timeSeconds": 1.1,
+                "type": "effect",
+                "label": "水弹轨迹"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill1_1_Cool"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "60% × 5＝300%",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 60,
+              "multiplierMax": 60,
+              "hitCount": 5,
+              "subtotalMin": 300,
+              "subtotalMax": 300,
+              "eventTimes": [
+                1.1,
+                1.233333,
+                1.366667,
+                1.5,
+                1.633333
+              ]
+            }
+          ],
+          "hitCount": 5,
+          "confirmedTotalMultiplier": {
+            "min": 300,
+            "max": 300
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [],
+        "confirmedTotalMultiplier": {
+          "min": 300,
+          "max": 300
+        },
+        "hitCount": 5,
+        "playerResult": "连续发射5发水弹，每发造成60%魔法伤害，总倍率300%；准备亮光和水弹轨迹不另算伤害。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 30
+      }
+    ],
+    "mechanisms": [],
+    "units": [],
+    "playerAdvice": [
+      "SP固定命中5次，每段为官方倍率的20%，五段合计300%。"
+    ],
+    "unresolved": [],
+    "presentationRules": {
+      "rawEntryCount": 2,
+      "playerAttackGroupCount": 2,
+      "playerMechanismCount": 0,
+      "rawSkillEntriesRendered": false,
+      "internalUidsVisibleToPlayer": false
+    },
+    "runtimeReferences": {},
+    "skillOrder": [
+      {
+        "type": "attack",
+        "id": "imoogi-61353-normal",
+        "category": "normal"
+      },
+      {
+        "type": "attack",
+        "id": "imoogi-61353-sp",
+        "category": "sp"
+      }
+    ]
+  },
+  "runtimeReferences": {},
+  "encounterOrder": 9,
+  "directoryAppearances": [
+    {
+      "configurationId": "104",
+      "configurationLabel": "侵略",
+      "configurationOrder": 104,
+      "worldInfoUid": 104,
+      "stageUid": "1040101",
+      "stageOrder": 10,
+      "stageName": "정령산의 높새바람!",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "104",
+      "configurationLabel": "侵略",
+      "configurationOrder": 104,
+      "worldInfoUid": 104,
+      "stageUid": "1040102",
+      "stageOrder": 10,
+      "stageName": "정령산의 높새바람!",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "104",
+      "configurationLabel": "侵略",
+      "configurationOrder": 104,
+      "worldInfoUid": 104,
+      "stageUid": "1040103",
+      "stageOrder": 10,
+      "stageName": "정령산의 높새바람!",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "128",
+      "configurationLabel": "侵略",
+      "configurationOrder": 128,
+      "worldInfoUid": 128,
+      "stageUid": "1280051",
+      "stageOrder": 5,
+      "stageName": "맨 땅 위 피겨 스케이팅",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "128",
+      "configurationLabel": "侵略",
+      "configurationOrder": 128,
+      "worldInfoUid": 128,
+      "stageUid": "1280052",
+      "stageOrder": 5,
+      "stageName": "맨 땅 위 피겨 스케이팅",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "128",
+      "configurationLabel": "侵略",
+      "configurationOrder": 128,
+      "worldInfoUid": 128,
+      "stageUid": "1280053",
+      "stageOrder": 5,
+      "stageName": "맨 땅 위 피겨 스케이팅",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "128",
+      "configurationLabel": "侵略",
+      "configurationOrder": 128,
+      "worldInfoUid": 128,
+      "stageUid": "1280101",
+      "stageOrder": 10,
+      "stageName": "내년에는 열지 말자!",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "128",
+      "configurationLabel": "侵略",
+      "configurationOrder": 128,
+      "worldInfoUid": 128,
+      "stageUid": "1280102",
+      "stageOrder": 10,
+      "stageName": "내년에는 열지 말자!",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "128",
+      "configurationLabel": "侵略",
+      "configurationOrder": 128,
+      "worldInfoUid": 128,
+      "stageUid": "1280103",
+      "stageOrder": 10,
+      "stageName": "내년에는 열지 말자!",
+      "hpBarCount": null
+    }
+  ]
+}

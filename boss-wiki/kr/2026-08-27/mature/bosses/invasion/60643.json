@@ -1,0 +1,4078 @@
+{
+  "schemaVersion": 8,
+  "server": "kr",
+  "dataDate": "2026-08-27",
+  "routeKey": "kr:invasion:60643",
+  "mode": "侵略",
+  "modeCode": 1,
+  "modeKey": "invasion",
+  "identity": {
+    "uid": "60643",
+    "name": "셰이디아 열혈팬 - 활발",
+    "displayName": null,
+    "displayNameKind": null,
+    "role": "boss",
+    "context": "Boss索引对象",
+    "spine": "ShadyfollowerCloseRange",
+    "personalityCode": 3,
+    "personality": "활발",
+    "attackTypeCode": 1,
+    "attackType": "物理",
+    "iconKey": "Icon_ShadyfollowerCloseRangeJolly",
+    "spineSkinName": null,
+    "spineDefaultAnimation": null,
+    "spineActionSuffix": null,
+    "officialTable": "MonsterInfo",
+    "lifecycle": null,
+    "runtimeReferences": {},
+    "iconUrl": "/boss-wiki/kr/2026-08-27/mature/icons/invasion/60643.png",
+    "iconSourceType": "MonsterInfo.Icon官方PNG"
+  },
+  "runtimeMonsterUids": [
+    "60643"
+  ],
+  "bossName": "셰이디아 열혈팬 - 활발",
+  "familyKey": "group-60641",
+  "familyOrder": 137005,
+  "variantOrder": 4,
+  "firstFormalAppearance": {
+    "worldInfoUid": 137,
+    "stageOrder": 5,
+    "stageUid": "1370051"
+  },
+  "stageRecords": [
+    {
+      "stageUid": "1370051",
+      "name": "갑자기 뭔가 확 튀어나온다면!",
+      "world": "으스스 저택 탐험!",
+      "worldInfoUid": 137,
+      "stageOrder": 5,
+      "difficulty": 1,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 4929,
+          "growthTimes": 4928,
+          "attributes": {
+            "hp": 9444638.7,
+            "sp": 200,
+            "recoverySp": 0,
+            "healing": 0,
+            "physicalAttack": 59177,
+            "magicAttack": 0,
+            "physicalDefense": 118353,
+            "magicDefense": 118353,
+            "criticalRate": 98628,
+            "criticalMultiplier": 98628,
+            "criticalResist": 44381,
+            "criticalMultiplierResist": 44381,
+            "pushResist": 10,
+            "moveSpeed": 12,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 53000,
+              "percent": 530
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 19000,
+              "percent": 190
+            },
+            "EndDamageMagicPercent": {
+              "raw": 19000,
+              "percent": 190
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 200,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1370052",
+      "name": "갑자기 뭔가 확 튀어나온다면!",
+      "world": "으스스 저택 탐험!",
+      "worldInfoUid": 137,
+      "stageOrder": 5,
+      "difficulty": 2,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 21704,
+          "growthTimes": 21703,
+          "attributes": {
+            "hp": 303542454,
+            "sp": 200,
+            "recoverySp": 0,
+            "healing": 0,
+            "physicalAttack": 260477,
+            "magicAttack": 0,
+            "physicalDefense": 520953,
+            "magicDefense": 520953,
+            "criticalRate": 434128,
+            "criticalMultiplier": 434128,
+            "criticalResist": 195356,
+            "criticalMultiplierResist": 195356,
+            "pushResist": 10,
+            "moveSpeed": 12,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 450000,
+              "percent": 4500
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 202500,
+              "percent": 2025
+            },
+            "EndDamageMagicPercent": {
+              "raw": 202500,
+              "percent": 2025
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 200,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1370053",
+      "name": "갑자기 뭔가 확 튀어나온다면!",
+      "world": "으스스 저택 탐험!",
+      "worldInfoUid": 137,
+      "stageOrder": 5,
+      "difficulty": 3,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 36330,
+          "growthTimes": 36329,
+          "attributes": {
+            "hp": 422473277.25,
+            "sp": 200,
+            "recoverySp": 0,
+            "healing": 0,
+            "physicalAttack": 435989,
+            "magicAttack": 0,
+            "physicalDefense": 871977,
+            "magicDefense": 871977,
+            "criticalRate": 726648,
+            "criticalMultiplier": 726648,
+            "criticalResist": 326990,
+            "criticalMultiplierResist": 326990,
+            "pushResist": 10,
+            "moveSpeed": 12,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 372500,
+              "percent": 3725
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 210300,
+              "percent": 2103
+            },
+            "EndDamageMagicPercent": {
+              "raw": 210300,
+              "percent": 2103
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 200,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1370101",
+      "name": "지금이 도망칠 최적의 타이밍!",
+      "world": "으스스 저택 탐험!",
+      "worldInfoUid": 137,
+      "stageOrder": 10,
+      "difficulty": 1,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 5154,
+          "growthTimes": 5153,
+          "attributes": {
+            "hp": 10032313.6,
+            "sp": 200,
+            "recoverySp": 0,
+            "healing": 0,
+            "physicalAttack": 61877,
+            "magicAttack": 0,
+            "physicalDefense": 123753,
+            "magicDefense": 123753,
+            "criticalRate": 103128,
+            "criticalMultiplier": 103128,
+            "criticalResist": 46406,
+            "criticalMultiplierResist": 46406,
+            "pushResist": 10,
+            "moveSpeed": 12,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 54000,
+              "percent": 540
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 20000,
+              "percent": 200
+            },
+            "EndDamageMagicPercent": {
+              "raw": 20000,
+              "percent": 200
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 200,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1370102",
+      "name": "지금이 도망칠 최적의 타이밍!",
+      "world": "으스스 저택 탐험!",
+      "worldInfoUid": 137,
+      "stageOrder": 10,
+      "difficulty": 2,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 23699,
+          "growthTimes": 23698,
+          "attributes": {
+            "hp": 335043148.5,
+            "sp": 200,
+            "recoverySp": 0,
+            "healing": 0,
+            "physicalAttack": 284417,
+            "magicAttack": 0,
+            "physicalDefense": 568833,
+            "magicDefense": 568833,
+            "criticalRate": 474028,
+            "criticalMultiplier": 474028,
+            "criticalResist": 213311,
+            "criticalMultiplierResist": 213311,
+            "pushResist": 10,
+            "moveSpeed": 12,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 455000,
+              "percent": 4550
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 204750,
+              "percent": 2047.5
+            },
+            "EndDamageMagicPercent": {
+              "raw": 204750,
+              "percent": 2047.5
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 200,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1370103",
+      "name": "지금이 도망칠 최적의 타이밍!",
+      "world": "으스스 저택 탐험!",
+      "worldInfoUid": 137,
+      "stageOrder": 10,
+      "difficulty": 3,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 41190,
+          "growthTimes": 41189,
+          "attributes": {
+            "hp": 482115980.5,
+            "sp": 200,
+            "recoverySp": 0,
+            "healing": 0,
+            "physicalAttack": 494309,
+            "magicAttack": 0,
+            "physicalDefense": 988617,
+            "magicDefense": 988617,
+            "criticalRate": 823848,
+            "criticalMultiplier": 823848,
+            "criticalResist": 370730,
+            "criticalMultiplierResist": 370730,
+            "pushResist": 10,
+            "moveSpeed": 12,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 375000,
+              "percent": 3750
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 211800,
+              "percent": 2118
+            },
+            "EndDamageMagicPercent": {
+              "raw": 211800,
+              "percent": 2118
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 200,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    }
+  ],
+  "stageRosters": [
+    {
+      "stageUid": "1370051",
+      "stage": "갑자기 뭔가 확 튀어나온다면!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60491",
+              "name": "저혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60541",
+              "name": "고혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60641",
+              "name": "셰이디아 열혈팬 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60191",
+              "name": "머곰 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60491",
+              "name": "저혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60541",
+              "name": "고혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60641",
+              "name": "셰이디아 열혈팬 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60841",
+              "name": "고모구지 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60191",
+              "name": "머곰 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60541",
+              "name": "고혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60641",
+              "name": "셰이디아 열혈팬 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60841",
+              "name": "고모구지 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60191",
+              "name": "머곰 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60541",
+              "name": "고혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60641",
+              "name": "셰이디아 열혈팬 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60841",
+              "name": "고모구지 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60191",
+              "name": "머곰 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60541",
+              "name": "고혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60643",
+              "name": "셰이디아 열혈팬 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60841",
+              "name": "고모구지 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1370052",
+      "stage": "갑자기 뭔가 확 튀어나온다면!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60491",
+              "name": "저혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60541",
+              "name": "고혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60641",
+              "name": "셰이디아 열혈팬 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60191",
+              "name": "머곰 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60491",
+              "name": "저혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60541",
+              "name": "고혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60641",
+              "name": "셰이디아 열혈팬 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60841",
+              "name": "고모구지 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60191",
+              "name": "머곰 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60541",
+              "name": "고혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60641",
+              "name": "셰이디아 열혈팬 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60841",
+              "name": "고모구지 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60191",
+              "name": "머곰 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60541",
+              "name": "고혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60641",
+              "name": "셰이디아 열혈팬 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60841",
+              "name": "고모구지 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60191",
+              "name": "머곰 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60541",
+              "name": "고혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60643",
+              "name": "셰이디아 열혈팬 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60841",
+              "name": "고모구지 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1370053",
+      "stage": "갑자기 뭔가 확 튀어나온다면!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60491",
+              "name": "저혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60541",
+              "name": "고혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60641",
+              "name": "셰이디아 열혈팬 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60191",
+              "name": "머곰 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60491",
+              "name": "저혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60541",
+              "name": "고혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60641",
+              "name": "셰이디아 열혈팬 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60841",
+              "name": "고모구지 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60191",
+              "name": "머곰 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60541",
+              "name": "고혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60641",
+              "name": "셰이디아 열혈팬 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60841",
+              "name": "고모구지 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60191",
+              "name": "머곰 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60541",
+              "name": "고혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60641",
+              "name": "셰이디아 열혈팬 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60841",
+              "name": "고모구지 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60191",
+              "name": "머곰 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60541",
+              "name": "고혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60643",
+              "name": "셰이디아 열혈팬 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60841",
+              "name": "고모구지 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1370101",
+      "stage": "지금이 도망칠 최적의 타이밍!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60491",
+              "name": "저혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60541",
+              "name": "고혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60641",
+              "name": "셰이디아 열혈팬 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60191",
+              "name": "머곰 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60491",
+              "name": "저혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60541",
+              "name": "고혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60641",
+              "name": "셰이디아 열혈팬 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60841",
+              "name": "고모구지 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60191",
+              "name": "머곰 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60541",
+              "name": "고혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60641",
+              "name": "셰이디아 열혈팬 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60841",
+              "name": "고모구지 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60191",
+              "name": "머곰 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60541",
+              "name": "고혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60641",
+              "name": "셰이디아 열혈팬 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60841",
+              "name": "고모구지 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60191",
+              "name": "머곰 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60541",
+              "name": "고혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60643",
+              "name": "셰이디아 열혈팬 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60841",
+              "name": "고모구지 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1370102",
+      "stage": "지금이 도망칠 최적의 타이밍!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60491",
+              "name": "저혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60541",
+              "name": "고혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60641",
+              "name": "셰이디아 열혈팬 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60191",
+              "name": "머곰 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60491",
+              "name": "저혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60541",
+              "name": "고혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60641",
+              "name": "셰이디아 열혈팬 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60841",
+              "name": "고모구지 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60191",
+              "name": "머곰 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60541",
+              "name": "고혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60641",
+              "name": "셰이디아 열혈팬 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60841",
+              "name": "고모구지 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60191",
+              "name": "머곰 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60541",
+              "name": "고혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60641",
+              "name": "셰이디아 열혈팬 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60841",
+              "name": "고모구지 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60191",
+              "name": "머곰 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60541",
+              "name": "고혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60643",
+              "name": "셰이디아 열혈팬 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60841",
+              "name": "고모구지 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1370103",
+      "stage": "지금이 도망칠 최적의 타이밍!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60491",
+              "name": "저혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60541",
+              "name": "고혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60641",
+              "name": "셰이디아 열혈팬 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60191",
+              "name": "머곰 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60491",
+              "name": "저혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60541",
+              "name": "고혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60641",
+              "name": "셰이디아 열혈팬 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60841",
+              "name": "고모구지 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60191",
+              "name": "머곰 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60541",
+              "name": "고혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60641",
+              "name": "셰이디아 열혈팬 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60841",
+              "name": "고모구지 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60191",
+              "name": "머곰 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60541",
+              "name": "고혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60641",
+              "name": "셰이디아 열혈팬 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60841",
+              "name": "고모구지 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60191",
+              "name": "머곰 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60541",
+              "name": "고혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60643",
+              "name": "셰이디아 열혈팬 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60841",
+              "name": "고모구지 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "encounterGuide": {
+    "status": "部分机制待确认",
+    "battleTimeLimitSeconds": [
+      70
+    ],
+    "battleTimeline": [
+      {
+        "atSeconds": null,
+        "condition": "SP蓄满后，选择最远的敌人发动",
+        "repeatIntervalSeconds": null,
+        "phase": "全阶段",
+        "event": "SP技能：突袭最远敌人",
+        "category": "sp",
+        "targetType": "attack",
+        "targetId": "shadyfollowercloserange-60643-sp",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      }
+    ],
+    "phases": [],
+    "attacks": [
+      {
+        "id": "shadyfollowercloserange-60643-normal",
+        "category": "normal",
+        "title": "普通攻击",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "无",
+          "summary": "按普通攻击循环，攻击最近的敌人",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "单次必定暴击",
+            "actionSequence": [
+              {
+                "action": "近身挥击最近的敌人",
+                "spineAnimation": "Attack1_1_Jolly",
+                "eventTimes": [
+                  0.333333
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 100,
+                "multiplierMax": 100,
+                "hitCount": 1,
+                "subtotalMin": 100,
+                "subtotalMax": 100,
+                "eventTimes": [
+                  0.333333
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 100,
+              "max": 100
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "6064301"
+          }
+        ],
+        "actionTimeline": [
+          {
+            "timeSeconds": 0.333333,
+            "timing": "0.333333秒",
+            "summary": "命中最近的敌人，造成100%物理伤害且必定暴击"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "shadyfollowercloserange-60643-normal",
+            "label": "普通攻击",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0.333333,
+                "type": "damage",
+                "label": "必定暴击"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Attack1_1_Jolly"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "100% × 1＝100%（必定暴击）",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.333333
+              ]
+            }
+          ],
+          "hitCount": 1,
+          "confirmedTotalMultiplier": {
+            "min": 100,
+            "max": 100
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [
+          {
+            "type": "伤害特性",
+            "name": "必定暴击",
+            "description": "本次伤害强制判定为暴击；基础倍率不额外乘写暴击系数。",
+            "target": "距离最近的使徒",
+            "probabilityPercent": 100,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "stacking": null,
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "instant",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "team",
+            "skillId": "shadyfollowercloserange-60643-normal",
+            "skillType": "attack"
+          }
+        ],
+        "confirmedTotalMultiplier": {
+          "min": 100,
+          "max": 100
+        },
+        "hitCount": 1,
+        "playerResult": "攻击最近的敌人，命中1次，造成100%物理伤害并必定暴击。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 10
+      },
+      {
+        "id": "shadyfollowercloserange-60643-sp",
+        "category": "sp",
+        "title": "SP技能：突袭最远敌人",
+        "displayNameKind": "说明名",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "SP",
+          "summary": "SP蓄满后，选择最远的敌人发动",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [
+            200
+          ],
+          "spRecoveryValues": [
+            0
+          ],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "固定两段连续动作",
+            "actionSequence": [
+              {
+                "action": "蓄力并播放突袭演出，随后固定接续第二段",
+                "spineAnimation": "Skill1_1_Jolly",
+                "eventTimes": [
+                  0,
+                  0.6,
+                  0.866667,
+                  1.133333,
+                  1.333333,
+                  1.566667
+                ]
+              },
+              {
+                "action": "瞬移并重新定位，随后攻击最远的敌人",
+                "spineAnimation": "Skill1_2_Jolly",
+                "eventTimes": [
+                  0,
+                  0.066667,
+                  0.433333,
+                  0.933333
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 100,
+                "multiplierMax": 100,
+                "hitCount": 1,
+                "subtotalMin": 100,
+                "subtotalMax": 100,
+                "eventTimes": [
+                  2
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 100,
+              "max": 100
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "6064302"
+          }
+        ],
+        "actionTimeline": [
+          {
+            "timeSeconds": 0,
+            "timing": "起手",
+            "summary": "锁定最远的敌人并开始蓄力"
+          },
+          {
+            "timeSeconds": 1.566667,
+            "timing": "1.566667秒",
+            "summary": "接续第二段，Boss瞬移并重新定位"
+          },
+          {
+            "timeSeconds": 2,
+            "timing": "2秒",
+            "summary": "命中1次，造成100%物理伤害且必定暴击"
+          },
+          {
+            "timeSeconds": 2.5,
+            "timing": "2.5秒",
+            "summary": "动作结束"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "shadyfollowercloserange-60643-sp",
+            "label": "突袭最远敌人",
+            "eventMarkers": [
+              {
+                "timeSeconds": 1.566667,
+                "type": "effect",
+                "label": "瞬移"
+              },
+              {
+                "timeSeconds": 2,
+                "type": "damage",
+                "label": "必定暴击"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill1_1_Jolly",
+                "Skill1_2_Jolly"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "100% × 1＝100%（必定暴击）",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                2
+              ]
+            }
+          ],
+          "hitCount": 1,
+          "confirmedTotalMultiplier": {
+            "min": 100,
+            "max": 100
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [
+          {
+            "type": "位移",
+            "name": "瞬移",
+            "description": "蓄力结束后瞬移并重新定位，再发动攻击。",
+            "target": "Boss自身",
+            "probabilityPercent": 100,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "stacking": null,
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "instant",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "boss",
+            "skillId": "shadyfollowercloserange-60643-sp",
+            "skillType": "attack"
+          },
+          {
+            "type": "伤害特性",
+            "name": "必定暴击",
+            "description": "本次伤害强制判定为暴击；基础倍率不额外乘写暴击系数。",
+            "target": "距离最远的使徒",
+            "probabilityPercent": 100,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "stacking": null,
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "instant",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "team",
+            "skillId": "shadyfollowercloserange-60643-sp",
+            "skillType": "attack"
+          }
+        ],
+        "confirmedTotalMultiplier": {
+          "min": 100,
+          "max": 100
+        },
+        "hitCount": 1,
+        "playerResult": "锁定最远的敌人，蓄力后按目标位置瞬移、重新定位，再造成100%物理伤害（1次，必定暴击）。落点会随目标位置和横向随机偏移变化，不是固定瞬移到前排或后排。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 30
+      }
+    ],
+    "mechanisms": [],
+    "units": [],
+    "playerAdvice": [
+      "SP会锁定最远的敌人；前半段只蓄力，约2秒时才造成一次必定暴击的伤害。"
+    ],
+    "unresolved": [],
+    "presentationRules": {
+      "rawEntryCount": 2,
+      "playerAttackGroupCount": 2,
+      "playerMechanismCount": 0,
+      "rawSkillEntriesRendered": false,
+      "internalUidsVisibleToPlayer": false
+    },
+    "runtimeReferences": {},
+    "skillOrder": [
+      {
+        "type": "attack",
+        "id": "shadyfollowercloserange-60643-normal",
+        "category": "normal"
+      },
+      {
+        "type": "attack",
+        "id": "shadyfollowercloserange-60643-sp",
+        "category": "sp"
+      }
+    ]
+  },
+  "runtimeReferences": {},
+  "encounterOrder": 48,
+  "directoryAppearances": [
+    {
+      "configurationId": "137",
+      "configurationLabel": "侵略",
+      "configurationOrder": 137,
+      "worldInfoUid": 137,
+      "stageUid": "1370051",
+      "stageOrder": 5,
+      "stageName": "갑자기 뭔가 확 튀어나온다면!",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "137",
+      "configurationLabel": "侵略",
+      "configurationOrder": 137,
+      "worldInfoUid": 137,
+      "stageUid": "1370052",
+      "stageOrder": 5,
+      "stageName": "갑자기 뭔가 확 튀어나온다면!",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "137",
+      "configurationLabel": "侵略",
+      "configurationOrder": 137,
+      "worldInfoUid": 137,
+      "stageUid": "1370053",
+      "stageOrder": 5,
+      "stageName": "갑자기 뭔가 확 튀어나온다면!",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "137",
+      "configurationLabel": "侵略",
+      "configurationOrder": 137,
+      "worldInfoUid": 137,
+      "stageUid": "1370101",
+      "stageOrder": 10,
+      "stageName": "지금이 도망칠 최적의 타이밍!",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "137",
+      "configurationLabel": "侵略",
+      "configurationOrder": 137,
+      "worldInfoUid": 137,
+      "stageUid": "1370102",
+      "stageOrder": 10,
+      "stageName": "지금이 도망칠 최적의 타이밍!",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "137",
+      "configurationLabel": "侵略",
+      "configurationOrder": 137,
+      "worldInfoUid": 137,
+      "stageUid": "1370103",
+      "stageOrder": 10,
+      "stageName": "지금이 도망칠 최적의 타이밍!",
+      "hpBarCount": null
+    }
+  ]
+}

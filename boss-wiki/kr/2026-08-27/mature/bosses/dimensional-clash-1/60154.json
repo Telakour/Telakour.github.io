@@ -1,0 +1,1799 @@
+{
+  "schemaVersion": 8,
+  "server": "kr",
+  "dataDate": "2026-08-27",
+  "routeKey": "kr:dimensional-clash-1:60154",
+  "mode": "次元大冲突1.0",
+  "modeCode": 8,
+  "modeKey": "dimensional-clash-1",
+  "identity": {
+    "uid": "60154",
+    "name": "라쿤아치 - 냉정",
+    "displayName": null,
+    "displayNameKind": null,
+    "role": "boss",
+    "context": "Boss索引对象",
+    "spine": "FoodScavenger",
+    "personalityCode": 1,
+    "personality": "냉정",
+    "attackTypeCode": 1,
+    "attackType": "物理",
+    "iconKey": "Icon_FoodScavengerCool",
+    "spineSkinName": null,
+    "spineDefaultAnimation": null,
+    "spineActionSuffix": null,
+    "officialTable": "MonsterInfo",
+    "lifecycle": null,
+    "runtimeReferences": {},
+    "iconUrl": "/boss-wiki/kr/2026-08-27/mature/icons/dimensional-clash-1/60154.png",
+    "iconSourceType": "MonsterInfo.Icon官方PNG"
+  },
+  "runtimeMonsterUids": [
+    "60154"
+  ],
+  "bossName": "라쿤아치 - 냉정",
+  "familyKey": "foodscavenger",
+  "familyOrder": 801001,
+  "variantOrder": 1,
+  "firstFormalAppearance": {
+    "worldInfoUid": 801,
+    "stageOrder": 1,
+    "stageUid": "8010010"
+  },
+  "stageRecords": [
+    {
+      "stageUid": "8010010",
+      "name": "냉정한 차원: 제 1구역",
+      "world": "차원 대충돌",
+      "worldInfoUid": 801,
+      "stageOrder": 1,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 30,
+          "growthTimes": 29,
+          "attributes": {
+            "hp": 351129,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 552,
+            "magicAttack": 0,
+            "physicalDefense": 939,
+            "magicDefense": 939,
+            "criticalRate": 455,
+            "criticalMultiplier": 455,
+            "criticalResist": 455,
+            "criticalMultiplierResist": 455,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 133
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "8010130",
+      "name": "냉정한 차원: 제 13구역",
+      "world": "차원 대충돌",
+      "worldInfoUid": 801,
+      "stageOrder": 13,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 1300,
+          "growthTimes": 1299,
+          "attributes": {
+            "hp": 18343401.7,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 38748.5,
+            "magicAttack": 0,
+            "physicalDefense": 37769,
+            "magicDefense": 37769,
+            "criticalRate": 18235,
+            "criticalMultiplier": 18235,
+            "criticalResist": 18235,
+            "criticalMultiplierResist": 18235,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 133
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 3000,
+              "percent": 30
+            },
+            "AttackPhysicPercent": {
+              "raw": 7500,
+              "percent": 75
+            },
+            "AttackMagicPercent": {
+              "raw": 7500,
+              "percent": 75
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "8010250",
+      "name": "냉정한 차원: 제 25구역",
+      "world": "차원 대충돌",
+      "worldInfoUid": 801,
+      "stageOrder": 25,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 13500,
+          "growthTimes": 13499,
+          "attributes": {
+            "hp": 18578208843,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 14002062,
+            "magicAttack": 0,
+            "physicalDefense": 391569,
+            "magicDefense": 391569,
+            "criticalRate": 189035,
+            "criticalMultiplier": 189035,
+            "criticalResist": 189035,
+            "criticalMultiplierResist": 189035,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 133
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 1260000,
+              "percent": 12600
+            },
+            "AttackPhysicPercent": {
+              "raw": 600000,
+              "percent": 6000
+            },
+            "AttackMagicPercent": {
+              "raw": 600000,
+              "percent": 6000
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "8210010",
+      "name": "냉정한 차원: 제 1구역",
+      "world": "차원 대충돌",
+      "worldInfoUid": 821,
+      "stageOrder": 1,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 30,
+          "growthTimes": 29,
+          "attributes": {
+            "hp": 351129,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 552,
+            "magicAttack": 0,
+            "physicalDefense": 939,
+            "magicDefense": 939,
+            "criticalRate": 455,
+            "criticalMultiplier": 455,
+            "criticalResist": 455,
+            "criticalMultiplierResist": 455,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 133
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "8210130",
+      "name": "냉정한 차원: 제 13구역",
+      "world": "차원 대충돌",
+      "worldInfoUid": 821,
+      "stageOrder": 13,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 1300,
+          "growthTimes": 1299,
+          "attributes": {
+            "hp": 18343401.7,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 38748.5,
+            "magicAttack": 0,
+            "physicalDefense": 37769,
+            "magicDefense": 37769,
+            "criticalRate": 18235,
+            "criticalMultiplier": 18235,
+            "criticalResist": 18235,
+            "criticalMultiplierResist": 18235,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 133
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 3000,
+              "percent": 30
+            },
+            "AttackPhysicPercent": {
+              "raw": 7500,
+              "percent": 75
+            },
+            "AttackMagicPercent": {
+              "raw": 7500,
+              "percent": 75
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "8210250",
+      "name": "냉정한 차원: 제 25구역",
+      "world": "차원 대충돌",
+      "worldInfoUid": 821,
+      "stageOrder": 25,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 13500,
+          "growthTimes": 13499,
+          "attributes": {
+            "hp": 18578208843,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 14002062,
+            "magicAttack": 0,
+            "physicalDefense": 391569,
+            "magicDefense": 391569,
+            "criticalRate": 189035,
+            "criticalMultiplier": 189035,
+            "criticalResist": 189035,
+            "criticalMultiplierResist": 189035,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 133
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 1260000,
+              "percent": 12600
+            },
+            "AttackPhysicPercent": {
+              "raw": 600000,
+              "percent": 6000
+            },
+            "AttackMagicPercent": {
+              "raw": 600000,
+              "percent": 6000
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    }
+  ],
+  "stageRosters": [
+    {
+      "stageUid": "8010010",
+      "stage": "냉정한 차원: 제 1구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 101,
+          "units": [
+            {
+              "uid": "60154",
+              "name": "라쿤아치 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "8010130",
+      "stage": "냉정한 차원: 제 13구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 101,
+          "units": [
+            {
+              "uid": "60154",
+              "name": "라쿤아치 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "8010250",
+      "stage": "냉정한 차원: 제 25구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 101,
+          "units": [
+            {
+              "uid": "60154",
+              "name": "라쿤아치 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "8210010",
+      "stage": "냉정한 차원: 제 1구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 101,
+          "units": [
+            {
+              "uid": "60154",
+              "name": "라쿤아치 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "8210130",
+      "stage": "냉정한 차원: 제 13구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 101,
+          "units": [
+            {
+              "uid": "60154",
+              "name": "라쿤아치 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "8210250",
+      "stage": "냉정한 차원: 제 25구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 101,
+          "units": [
+            {
+              "uid": "60154",
+              "name": "라쿤아치 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "encounterGuide": {
+    "status": "已核对",
+    "battleTimeLimitSeconds": [
+      180
+    ],
+    "battleTimeline": [
+      {
+        "atSeconds": null,
+        "condition": "SP蓄满后释放",
+        "repeatIntervalSeconds": null,
+        "phase": "全阶段",
+        "event": "SP技能：强力踩踏",
+        "category": "sp",
+        "targetType": "attack",
+        "targetId": "foodscavenger-60154-sp",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      }
+    ],
+    "phases": [],
+    "attacks": [
+      {
+        "id": "foodscavenger-60154-normal",
+        "category": "normal",
+        "title": "普通攻击",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "无",
+          "summary": "按普通攻击循环使用",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "单次物理伤害",
+            "actionSequence": [
+              {
+                "action": "踩踏前方目标",
+                "spineAnimation": "Attack1_1_Cool",
+                "eventTimes": [
+                  0.533333
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 100,
+                "multiplierMax": 100,
+                "hitCount": 1,
+                "subtotalMin": 100,
+                "subtotalMax": 100,
+                "eventTimes": [
+                  0.533333
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 100,
+              "max": 100
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "6015401"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "foodscavenger-60154-normal",
+            "label": "普通攻击",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0.533333,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Attack1_1_Cool"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "100% × 1＝100%",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.533333
+              ]
+            }
+          ],
+          "hitCount": 1,
+          "confirmedTotalMultiplier": {
+            "min": 100,
+            "max": 100
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [],
+        "confirmedTotalMultiplier": {
+          "min": 100,
+          "max": 100
+        },
+        "hitCount": 1,
+        "playerResult": "踩踏前方目标，命中1次，造成100%物理伤害。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 10
+      },
+      {
+        "id": "foodscavenger-60154-sp",
+        "category": "sp",
+        "title": "SP技能：强力踩踏",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "SP",
+          "summary": "SP蓄满后释放",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [
+            200
+          ],
+          "spRecoveryValues": [
+            8
+          ],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "单次物理伤害",
+            "actionSequence": [
+              {
+                "action": "跃起后重踏前方",
+                "spineAnimation": "Skill1_1_Cool",
+                "eventTimes": [
+                  1.1
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 400,
+                "multiplierMax": 400,
+                "hitCount": 1,
+                "subtotalMin": 400,
+                "subtotalMax": 400,
+                "eventTimes": [
+                  1.1
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 400,
+              "max": 400
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "6015402"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "foodscavenger-60154-sp",
+            "label": "强力踩踏",
+            "eventMarkers": [
+              {
+                "timeSeconds": 1.1,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill1_1_Cool"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "400% × 1＝400%",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 400,
+              "multiplierMax": 400,
+              "hitCount": 1,
+              "subtotalMin": 400,
+              "subtotalMax": 400,
+              "eventTimes": [
+                1.1
+              ]
+            }
+          ],
+          "hitCount": 1,
+          "confirmedTotalMultiplier": {
+            "min": 400,
+            "max": 400
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [],
+        "confirmedTotalMultiplier": {
+          "min": 400,
+          "max": 400
+        },
+        "hitCount": 1,
+        "playerResult": "跃起后重踏前方，命中1次，造成400%物理伤害。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 30
+      }
+    ],
+    "mechanisms": [],
+    "units": [],
+    "playerAdvice": [
+      "普通攻击与SP都是单次踩踏伤害；同组未被当前动作调用的特效行不属于额外技能。"
+    ],
+    "unresolved": [],
+    "presentationRules": {
+      "rawEntryCount": 2,
+      "playerAttackGroupCount": 2,
+      "playerMechanismCount": 0,
+      "rawSkillEntriesRendered": false,
+      "internalUidsVisibleToPlayer": false
+    },
+    "runtimeReferences": {},
+    "skillOrder": [
+      {
+        "type": "attack",
+        "id": "foodscavenger-60154-normal",
+        "category": "normal"
+      },
+      {
+        "type": "attack",
+        "id": "foodscavenger-60154-sp",
+        "category": "sp"
+      }
+    ]
+  },
+  "runtimeReferences": {},
+  "encounterOrder": 0,
+  "directoryAppearances": [
+    {
+      "configurationId": "5",
+      "configurationLabel": "官方配置 #5",
+      "configurationOrder": 5,
+      "soloRaidInfoUid": 5,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 801,
+      "stageUid": "8010010",
+      "stageOrder": 1,
+      "stageName": "냉정한 차원: 제 1구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "5",
+      "configurationLabel": "官方配置 #5",
+      "configurationOrder": 5,
+      "soloRaidInfoUid": 5,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 801,
+      "stageUid": "8010130",
+      "stageOrder": 13,
+      "stageName": "냉정한 차원: 제 13구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "5",
+      "configurationLabel": "官方配置 #5",
+      "configurationOrder": 5,
+      "soloRaidInfoUid": 5,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 801,
+      "stageUid": "8010250",
+      "stageOrder": 25,
+      "stageName": "냉정한 차원: 제 25구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "6",
+      "configurationLabel": "官方配置 #6",
+      "configurationOrder": 6,
+      "soloRaidInfoUid": 6,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 801,
+      "stageUid": "8010010",
+      "stageOrder": 1,
+      "stageName": "냉정한 차원: 제 1구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "6",
+      "configurationLabel": "官方配置 #6",
+      "configurationOrder": 6,
+      "soloRaidInfoUid": 6,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 801,
+      "stageUid": "8010130",
+      "stageOrder": 13,
+      "stageName": "냉정한 차원: 제 13구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "6",
+      "configurationLabel": "官方配置 #6",
+      "configurationOrder": 6,
+      "soloRaidInfoUid": 6,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 801,
+      "stageUid": "8010250",
+      "stageOrder": 25,
+      "stageName": "냉정한 차원: 제 25구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "13",
+      "configurationLabel": "官方配置 #13",
+      "configurationOrder": 13,
+      "soloRaidInfoUid": 13,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 801,
+      "stageUid": "8010010",
+      "stageOrder": 1,
+      "stageName": "냉정한 차원: 제 1구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "13",
+      "configurationLabel": "官方配置 #13",
+      "configurationOrder": 13,
+      "soloRaidInfoUid": 13,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 801,
+      "stageUid": "8010130",
+      "stageOrder": 13,
+      "stageName": "냉정한 차원: 제 13구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "13",
+      "configurationLabel": "官方配置 #13",
+      "configurationOrder": 13,
+      "soloRaidInfoUid": 13,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 801,
+      "stageUid": "8010250",
+      "stageOrder": 25,
+      "stageName": "냉정한 차원: 제 25구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "21",
+      "configurationLabel": "官方配置 #21",
+      "configurationOrder": 21,
+      "soloRaidInfoUid": 21,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 801,
+      "stageUid": "8010010",
+      "stageOrder": 1,
+      "stageName": "냉정한 차원: 제 1구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "21",
+      "configurationLabel": "官方配置 #21",
+      "configurationOrder": 21,
+      "soloRaidInfoUid": 21,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 801,
+      "stageUid": "8010130",
+      "stageOrder": 13,
+      "stageName": "냉정한 차원: 제 13구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "21",
+      "configurationLabel": "官方配置 #21",
+      "configurationOrder": 21,
+      "soloRaidInfoUid": 21,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 801,
+      "stageUid": "8010250",
+      "stageOrder": 25,
+      "stageName": "냉정한 차원: 제 25구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "24",
+      "configurationLabel": "官方配置 #24",
+      "configurationOrder": 24,
+      "soloRaidInfoUid": 24,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 801,
+      "stageUid": "8010010",
+      "stageOrder": 1,
+      "stageName": "냉정한 차원: 제 1구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "24",
+      "configurationLabel": "官方配置 #24",
+      "configurationOrder": 24,
+      "soloRaidInfoUid": 24,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 801,
+      "stageUid": "8010130",
+      "stageOrder": 13,
+      "stageName": "냉정한 차원: 제 13구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "24",
+      "configurationLabel": "官方配置 #24",
+      "configurationOrder": 24,
+      "soloRaidInfoUid": 24,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 801,
+      "stageUid": "8010250",
+      "stageOrder": 25,
+      "stageName": "냉정한 차원: 제 25구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "29",
+      "configurationLabel": "官方配置 #29",
+      "configurationOrder": 29,
+      "soloRaidInfoUid": 29,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 801,
+      "stageUid": "8010010",
+      "stageOrder": 1,
+      "stageName": "냉정한 차원: 제 1구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "29",
+      "configurationLabel": "官方配置 #29",
+      "configurationOrder": 29,
+      "soloRaidInfoUid": 29,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 801,
+      "stageUid": "8010130",
+      "stageOrder": 13,
+      "stageName": "냉정한 차원: 제 13구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "29",
+      "configurationLabel": "官方配置 #29",
+      "configurationOrder": 29,
+      "soloRaidInfoUid": 29,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 801,
+      "stageUid": "8010250",
+      "stageOrder": 25,
+      "stageName": "냉정한 차원: 제 25구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "33",
+      "configurationLabel": "官方配置 #33",
+      "configurationOrder": 33,
+      "soloRaidInfoUid": 33,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 801,
+      "stageUid": "8010010",
+      "stageOrder": 1,
+      "stageName": "냉정한 차원: 제 1구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "33",
+      "configurationLabel": "官方配置 #33",
+      "configurationOrder": 33,
+      "soloRaidInfoUid": 33,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 801,
+      "stageUid": "8010130",
+      "stageOrder": 13,
+      "stageName": "냉정한 차원: 제 13구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "33",
+      "configurationLabel": "官方配置 #33",
+      "configurationOrder": 33,
+      "soloRaidInfoUid": 33,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 801,
+      "stageUid": "8010250",
+      "stageOrder": 25,
+      "stageName": "냉정한 차원: 제 25구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "38",
+      "configurationLabel": "官方配置 #38",
+      "configurationOrder": 38,
+      "soloRaidInfoUid": 38,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 801,
+      "stageUid": "8010010",
+      "stageOrder": 1,
+      "stageName": "냉정한 차원: 제 1구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "38",
+      "configurationLabel": "官方配置 #38",
+      "configurationOrder": 38,
+      "soloRaidInfoUid": 38,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 801,
+      "stageUid": "8010130",
+      "stageOrder": 13,
+      "stageName": "냉정한 차원: 제 13구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "38",
+      "configurationLabel": "官方配置 #38",
+      "configurationOrder": 38,
+      "soloRaidInfoUid": 38,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 801,
+      "stageUid": "8010250",
+      "stageOrder": 25,
+      "stageName": "냉정한 차원: 제 25구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "51",
+      "configurationLabel": "官方配置 #51",
+      "configurationOrder": 51,
+      "soloRaidInfoUid": 51,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 801,
+      "stageUid": "8010010",
+      "stageOrder": 1,
+      "stageName": "냉정한 차원: 제 1구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "51",
+      "configurationLabel": "官方配置 #51",
+      "configurationOrder": 51,
+      "soloRaidInfoUid": 51,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 801,
+      "stageUid": "8010130",
+      "stageOrder": 13,
+      "stageName": "냉정한 차원: 제 13구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "51",
+      "configurationLabel": "官方配置 #51",
+      "configurationOrder": 51,
+      "soloRaidInfoUid": 51,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 801,
+      "stageUid": "8010250",
+      "stageOrder": 25,
+      "stageName": "냉정한 차원: 제 25구역",
+      "hpBarCount": null
+    }
+  ]
+}

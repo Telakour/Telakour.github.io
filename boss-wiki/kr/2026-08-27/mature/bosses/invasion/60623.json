@@ -1,0 +1,3763 @@
+{
+  "schemaVersion": 8,
+  "server": "kr",
+  "dataDate": "2026-08-27",
+  "routeKey": "kr:invasion:60623",
+  "mode": "侵略",
+  "modeCode": 1,
+  "modeKey": "invasion",
+  "identity": {
+    "uid": "60623",
+    "name": "셰이디아 열혈팬 - 광기",
+    "displayName": null,
+    "displayNameKind": null,
+    "role": "boss",
+    "context": "Boss索引对象",
+    "spine": "ShadyfollowerCloseRange",
+    "personalityCode": 2,
+    "personality": "광기",
+    "attackTypeCode": 1,
+    "attackType": "物理",
+    "iconKey": "Icon_ShadyfollowerCloseRangeMad",
+    "spineSkinName": null,
+    "spineDefaultAnimation": null,
+    "spineActionSuffix": null,
+    "officialTable": "MonsterInfo",
+    "lifecycle": null,
+    "runtimeReferences": {},
+    "iconUrl": "/boss-wiki/kr/2026-08-27/mature/icons/invasion/60623.png",
+    "iconSourceType": "MonsterInfo.Icon官方PNG"
+  },
+  "runtimeMonsterUids": [
+    "60623"
+  ],
+  "bossName": "셰이디아 열혈팬 - 광기",
+  "familyKey": "group-60621",
+  "familyOrder": 126005,
+  "variantOrder": 0,
+  "firstFormalAppearance": {
+    "worldInfoUid": 126,
+    "stageOrder": 5,
+    "stageUid": "1260051"
+  },
+  "stageRecords": [
+    {
+      "stageUid": "1260051",
+      "name": "그래도 더워서 못 자겠어!",
+      "world": "현명한 열대야 나기",
+      "worldInfoUid": 126,
+      "stageOrder": 5,
+      "difficulty": 1,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 1720,
+          "growthTimes": 1719,
+          "attributes": {
+            "hp": 1413755.1,
+            "sp": 200,
+            "recoverySp": 0,
+            "healing": 0,
+            "physicalAttack": 20669,
+            "magicAttack": 0,
+            "physicalDefense": 41337,
+            "magicDefense": 41337,
+            "criticalRate": 34448,
+            "criticalMultiplier": 34448,
+            "criticalResist": 15500,
+            "criticalMultiplierResist": 15500,
+            "pushResist": 10,
+            "moveSpeed": 12,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 17000,
+              "percent": 170
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 200,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1260052",
+      "name": "그래도 더워서 못 자겠어!",
+      "world": "현명한 열대야 나기",
+      "worldInfoUid": 126,
+      "stageOrder": 5,
+      "difficulty": 2,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 6477,
+          "growthTimes": 6476,
+          "attributes": {
+            "hp": 21292900.21,
+            "sp": 200,
+            "recoverySp": 0,
+            "healing": 0,
+            "physicalAttack": 77753,
+            "magicAttack": 0,
+            "physicalDefense": 155505,
+            "magicDefense": 155505,
+            "criticalRate": 129588,
+            "criticalMultiplier": 129588,
+            "criticalResist": 58313,
+            "criticalMultiplierResist": 58313,
+            "pushResist": 10,
+            "moveSpeed": 12,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 98100,
+              "percent": 981
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 4900,
+              "percent": 49
+            },
+            "EndDamageMagicPercent": {
+              "raw": 4900,
+              "percent": 49
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 200,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1260053",
+      "name": "그래도 더워서 못 자겠어!",
+      "world": "현명한 열대야 나기",
+      "worldInfoUid": 126,
+      "stageOrder": 5,
+      "difficulty": 3,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 11081,
+          "growthTimes": 11080,
+          "attributes": {
+            "hp": 44475512.4,
+            "sp": 200,
+            "recoverySp": 0,
+            "healing": 0,
+            "physicalAttack": 133001,
+            "magicAttack": 0,
+            "physicalDefense": 266001,
+            "magicDefense": 266001,
+            "criticalRate": 221668,
+            "criticalMultiplier": 221668,
+            "criticalResist": 99749,
+            "criticalMultiplierResist": 99749,
+            "pushResist": 10,
+            "moveSpeed": 12,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 122000,
+              "percent": 1220
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 18300,
+              "percent": 183
+            },
+            "EndDamageMagicPercent": {
+              "raw": 18300,
+              "percent": 183
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 200,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1260101",
+      "name": "썰렁해지는 지갑!",
+      "world": "현명한 열대야 나기",
+      "worldInfoUid": 126,
+      "stageOrder": 10,
+      "difficulty": 1,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 1801,
+          "growthTimes": 1800,
+          "attributes": {
+            "hp": 1589887.3,
+            "sp": 200,
+            "recoverySp": 0,
+            "healing": 0,
+            "physicalAttack": 21641,
+            "magicAttack": 0,
+            "physicalDefense": 43281,
+            "magicDefense": 43281,
+            "criticalRate": 36068,
+            "criticalMultiplier": 36068,
+            "criticalResist": 16229,
+            "criticalMultiplierResist": 16229,
+            "pushResist": 10,
+            "moveSpeed": 12,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 19000,
+              "percent": 190
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 200,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1260102",
+      "name": "썰렁해지는 지갑!",
+      "world": "현명한 열대야 나기",
+      "worldInfoUid": 126,
+      "stageOrder": 10,
+      "difficulty": 2,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 7129,
+          "growthTimes": 7128,
+          "attributes": {
+            "hp": 25386682.79,
+            "sp": 200,
+            "recoverySp": 0,
+            "healing": 0,
+            "physicalAttack": 85577,
+            "magicAttack": 0,
+            "physicalDefense": 171153,
+            "magicDefense": 171153,
+            "criticalRate": 142628,
+            "criticalMultiplier": 142628,
+            "criticalResist": 64181,
+            "criticalMultiplierResist": 64181,
+            "pushResist": 10,
+            "moveSpeed": 12,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 107100,
+              "percent": 1071
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 10700,
+              "percent": 107
+            },
+            "EndDamageMagicPercent": {
+              "raw": 10700,
+              "percent": 107
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 200,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1260103",
+      "name": "썰렁해지는 지갑!",
+      "world": "현명한 열대야 나기",
+      "worldInfoUid": 126,
+      "stageOrder": 10,
+      "difficulty": 3,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 12322,
+          "growthTimes": 12321,
+          "attributes": {
+            "hp": 55637321.85,
+            "sp": 200,
+            "recoverySp": 0,
+            "healing": 0,
+            "physicalAttack": 147893,
+            "magicAttack": 0,
+            "physicalDefense": 295785,
+            "magicDefense": 295785,
+            "criticalRate": 246488,
+            "criticalMultiplier": 246488,
+            "criticalResist": 110918,
+            "criticalMultiplierResist": 110918,
+            "pushResist": 10,
+            "moveSpeed": 12,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 138500,
+              "percent": 1385
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 34600,
+              "percent": 346
+            },
+            "EndDamageMagicPercent": {
+              "raw": 34600,
+              "percent": 346
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 200,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    }
+  ],
+  "stageRosters": [
+    {
+      "stageUid": "1260051",
+      "stage": "그래도 더워서 못 자겠어!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60721",
+              "name": "수인 광전사 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FurryWarriorCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FurryWarriorCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60821",
+              "name": "고모구지 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60171",
+              "name": "머곰 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60621",
+              "name": "셰이디아 열혈팬 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60721",
+              "name": "수인 광전사 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FurryWarriorCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FurryWarriorCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60821",
+              "name": "고모구지 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60171",
+              "name": "머곰 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60621",
+              "name": "셰이디아 열혈팬 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60821",
+              "name": "고모구지 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60171",
+              "name": "머곰 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60271",
+              "name": "드론 S형 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "DroneS",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_DroneSMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60621",
+              "name": "셰이디아 열혈팬 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60821",
+              "name": "고모구지 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60171",
+              "name": "머곰 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60271",
+              "name": "드론 S형 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "DroneS",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_DroneSMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60623",
+              "name": "셰이디아 열혈팬 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60821",
+              "name": "고모구지 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1260052",
+      "stage": "그래도 더워서 못 자겠어!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60721",
+              "name": "수인 광전사 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FurryWarriorCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FurryWarriorCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60821",
+              "name": "고모구지 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60171",
+              "name": "머곰 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60621",
+              "name": "셰이디아 열혈팬 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60721",
+              "name": "수인 광전사 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FurryWarriorCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FurryWarriorCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60821",
+              "name": "고모구지 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60171",
+              "name": "머곰 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60621",
+              "name": "셰이디아 열혈팬 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60821",
+              "name": "고모구지 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60171",
+              "name": "머곰 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60271",
+              "name": "드론 S형 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "DroneS",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_DroneSMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60621",
+              "name": "셰이디아 열혈팬 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60821",
+              "name": "고모구지 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60171",
+              "name": "머곰 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60271",
+              "name": "드론 S형 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "DroneS",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_DroneSMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60623",
+              "name": "셰이디아 열혈팬 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60821",
+              "name": "고모구지 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1260053",
+      "stage": "그래도 더워서 못 자겠어!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60721",
+              "name": "수인 광전사 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FurryWarriorCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FurryWarriorCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60821",
+              "name": "고모구지 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60171",
+              "name": "머곰 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60621",
+              "name": "셰이디아 열혈팬 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60721",
+              "name": "수인 광전사 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FurryWarriorCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FurryWarriorCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60821",
+              "name": "고모구지 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60171",
+              "name": "머곰 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60621",
+              "name": "셰이디아 열혈팬 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60821",
+              "name": "고모구지 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60171",
+              "name": "머곰 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60271",
+              "name": "드론 S형 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "DroneS",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_DroneSMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60621",
+              "name": "셰이디아 열혈팬 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60821",
+              "name": "고모구지 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60171",
+              "name": "머곰 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60271",
+              "name": "드론 S형 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "DroneS",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_DroneSMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60623",
+              "name": "셰이디아 열혈팬 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60821",
+              "name": "고모구지 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1260101",
+      "stage": "썰렁해지는 지갑!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60721",
+              "name": "수인 광전사 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FurryWarriorCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FurryWarriorCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60821",
+              "name": "고모구지 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60171",
+              "name": "머곰 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60621",
+              "name": "셰이디아 열혈팬 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60721",
+              "name": "수인 광전사 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FurryWarriorCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FurryWarriorCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60821",
+              "name": "고모구지 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60171",
+              "name": "머곰 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60621",
+              "name": "셰이디아 열혈팬 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60821",
+              "name": "고모구지 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60171",
+              "name": "머곰 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60271",
+              "name": "드론 S형 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "DroneS",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_DroneSMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60621",
+              "name": "셰이디아 열혈팬 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60821",
+              "name": "고모구지 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60171",
+              "name": "머곰 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60271",
+              "name": "드론 S형 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "DroneS",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_DroneSMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60621",
+              "name": "셰이디아 열혈팬 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60623",
+              "name": "셰이디아 열혈팬 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60821",
+              "name": "고모구지 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1260102",
+      "stage": "썰렁해지는 지갑!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60721",
+              "name": "수인 광전사 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FurryWarriorCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FurryWarriorCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60821",
+              "name": "고모구지 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60171",
+              "name": "머곰 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60621",
+              "name": "셰이디아 열혈팬 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60721",
+              "name": "수인 광전사 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FurryWarriorCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FurryWarriorCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60821",
+              "name": "고모구지 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60171",
+              "name": "머곰 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60621",
+              "name": "셰이디아 열혈팬 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60821",
+              "name": "고모구지 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60171",
+              "name": "머곰 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60271",
+              "name": "드론 S형 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "DroneS",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_DroneSMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60621",
+              "name": "셰이디아 열혈팬 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60821",
+              "name": "고모구지 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60171",
+              "name": "머곰 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60271",
+              "name": "드론 S형 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "DroneS",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_DroneSMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60621",
+              "name": "셰이디아 열혈팬 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60623",
+              "name": "셰이디아 열혈팬 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60821",
+              "name": "고모구지 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1260103",
+      "stage": "썰렁해지는 지갑!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60721",
+              "name": "수인 광전사 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FurryWarriorCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FurryWarriorCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60821",
+              "name": "고모구지 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60171",
+              "name": "머곰 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60621",
+              "name": "셰이디아 열혈팬 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60721",
+              "name": "수인 광전사 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FurryWarriorCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FurryWarriorCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60821",
+              "name": "고모구지 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60171",
+              "name": "머곰 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60621",
+              "name": "셰이디아 열혈팬 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60821",
+              "name": "고모구지 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60171",
+              "name": "머곰 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60271",
+              "name": "드론 S형 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "DroneS",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_DroneSMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60621",
+              "name": "셰이디아 열혈팬 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60821",
+              "name": "고모구지 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60171",
+              "name": "머곰 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60271",
+              "name": "드론 S형 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "DroneS",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_DroneSMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60621",
+              "name": "셰이디아 열혈팬 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60623",
+              "name": "셰이디아 열혈팬 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "ShadyfollowerCloseRange",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ShadyfollowerCloseRangeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60821",
+              "name": "고모구지 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "encounterGuide": {
+    "status": "部分机制待确认",
+    "battleTimeLimitSeconds": [
+      70
+    ],
+    "battleTimeline": [
+      {
+        "atSeconds": null,
+        "condition": "SP蓄满后，选择最远的敌人发动",
+        "repeatIntervalSeconds": null,
+        "phase": "全阶段",
+        "event": "SP技能：突袭最远敌人",
+        "category": "sp",
+        "targetType": "attack",
+        "targetId": "shadyfollowercloserange-60623-sp",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      }
+    ],
+    "phases": [],
+    "attacks": [
+      {
+        "id": "shadyfollowercloserange-60623-normal",
+        "category": "normal",
+        "title": "普通攻击",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "无",
+          "summary": "按普通攻击循环，攻击最近的敌人",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "单次必定暴击",
+            "actionSequence": [
+              {
+                "action": "近身挥击最近的敌人",
+                "spineAnimation": "Attack1_1_Mad",
+                "eventTimes": [
+                  0.333333
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 100,
+                "multiplierMax": 100,
+                "hitCount": 1,
+                "subtotalMin": 100,
+                "subtotalMax": 100,
+                "eventTimes": [
+                  0.333333
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 100,
+              "max": 100
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "6062301"
+          }
+        ],
+        "actionTimeline": [
+          {
+            "timeSeconds": 0.333333,
+            "timing": "0.333333秒",
+            "summary": "命中最近的敌人，造成100%物理伤害且必定暴击"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "shadyfollowercloserange-60623-normal",
+            "label": "普通攻击",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0.333333,
+                "type": "damage",
+                "label": "必定暴击"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Attack1_1_Mad"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "100% × 1＝100%（必定暴击）",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.333333
+              ]
+            }
+          ],
+          "hitCount": 1,
+          "confirmedTotalMultiplier": {
+            "min": 100,
+            "max": 100
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [
+          {
+            "type": "伤害特性",
+            "name": "必定暴击",
+            "description": "本次伤害强制判定为暴击；基础倍率不额外乘写暴击系数。",
+            "target": "距离最近的使徒",
+            "probabilityPercent": 100,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "stacking": null,
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "instant",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "team",
+            "skillId": "shadyfollowercloserange-60623-normal",
+            "skillType": "attack"
+          }
+        ],
+        "confirmedTotalMultiplier": {
+          "min": 100,
+          "max": 100
+        },
+        "hitCount": 1,
+        "playerResult": "攻击最近的敌人，命中1次，造成100%物理伤害并必定暴击。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 10
+      },
+      {
+        "id": "shadyfollowercloserange-60623-sp",
+        "category": "sp",
+        "title": "SP技能：突袭最远敌人",
+        "displayNameKind": "说明名",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "SP",
+          "summary": "SP蓄满后，选择最远的敌人发动",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [
+            200
+          ],
+          "spRecoveryValues": [
+            0
+          ],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "固定两段连续动作",
+            "actionSequence": [
+              {
+                "action": "蓄力并播放突袭演出，随后固定接续第二段",
+                "spineAnimation": "Skill1_1_Mad",
+                "eventTimes": [
+                  0,
+                  0.6,
+                  0.866667,
+                  1.133333,
+                  1.333333,
+                  1.566667
+                ]
+              },
+              {
+                "action": "瞬移并重新定位，随后攻击最远的敌人",
+                "spineAnimation": "Skill1_2_Mad",
+                "eventTimes": [
+                  0,
+                  0.066667,
+                  0.433333,
+                  0.933333
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 100,
+                "multiplierMax": 100,
+                "hitCount": 1,
+                "subtotalMin": 100,
+                "subtotalMax": 100,
+                "eventTimes": [
+                  2
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 100,
+              "max": 100
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "6062302"
+          }
+        ],
+        "actionTimeline": [
+          {
+            "timeSeconds": 0,
+            "timing": "起手",
+            "summary": "锁定最远的敌人并开始蓄力"
+          },
+          {
+            "timeSeconds": 1.566667,
+            "timing": "1.566667秒",
+            "summary": "接续第二段，Boss瞬移并重新定位"
+          },
+          {
+            "timeSeconds": 2,
+            "timing": "2秒",
+            "summary": "命中1次，造成100%物理伤害且必定暴击"
+          },
+          {
+            "timeSeconds": 2.5,
+            "timing": "2.5秒",
+            "summary": "动作结束"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "shadyfollowercloserange-60623-sp",
+            "label": "突袭最远敌人",
+            "eventMarkers": [
+              {
+                "timeSeconds": 1.566667,
+                "type": "effect",
+                "label": "瞬移"
+              },
+              {
+                "timeSeconds": 2,
+                "type": "damage",
+                "label": "必定暴击"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill1_1_Mad",
+                "Skill1_2_Mad"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "100% × 1＝100%（必定暴击）",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                2
+              ]
+            }
+          ],
+          "hitCount": 1,
+          "confirmedTotalMultiplier": {
+            "min": 100,
+            "max": 100
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [
+          {
+            "type": "位移",
+            "name": "瞬移",
+            "description": "蓄力结束后瞬移并重新定位，再发动攻击。",
+            "target": "Boss自身",
+            "probabilityPercent": 100,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "stacking": null,
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "instant",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "boss",
+            "skillId": "shadyfollowercloserange-60623-sp",
+            "skillType": "attack"
+          },
+          {
+            "type": "伤害特性",
+            "name": "必定暴击",
+            "description": "本次伤害强制判定为暴击；基础倍率不额外乘写暴击系数。",
+            "target": "距离最远的使徒",
+            "probabilityPercent": 100,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "stacking": null,
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "instant",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "team",
+            "skillId": "shadyfollowercloserange-60623-sp",
+            "skillType": "attack"
+          }
+        ],
+        "confirmedTotalMultiplier": {
+          "min": 100,
+          "max": 100
+        },
+        "hitCount": 1,
+        "playerResult": "锁定最远的敌人，蓄力后按目标位置瞬移、重新定位，再造成100%物理伤害（1次，必定暴击）。落点会随目标位置和横向随机偏移变化，不是固定瞬移到前排或后排。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 30
+      }
+    ],
+    "mechanisms": [],
+    "units": [],
+    "playerAdvice": [
+      "SP会锁定最远的敌人；前半段只蓄力，约2秒时才造成一次必定暴击的伤害。"
+    ],
+    "unresolved": [],
+    "presentationRules": {
+      "rawEntryCount": 2,
+      "playerAttackGroupCount": 2,
+      "playerMechanismCount": 0,
+      "rawSkillEntriesRendered": false,
+      "internalUidsVisibleToPlayer": false
+    },
+    "runtimeReferences": {},
+    "skillOrder": [
+      {
+        "type": "attack",
+        "id": "shadyfollowercloserange-60623-normal",
+        "category": "normal"
+      },
+      {
+        "type": "attack",
+        "id": "shadyfollowercloserange-60623-sp",
+        "category": "sp"
+      }
+    ]
+  },
+  "runtimeReferences": {},
+  "encounterOrder": 43,
+  "directoryAppearances": [
+    {
+      "configurationId": "126",
+      "configurationLabel": "侵略",
+      "configurationOrder": 126,
+      "worldInfoUid": 126,
+      "stageUid": "1260051",
+      "stageOrder": 5,
+      "stageName": "그래도 더워서 못 자겠어!",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "126",
+      "configurationLabel": "侵略",
+      "configurationOrder": 126,
+      "worldInfoUid": 126,
+      "stageUid": "1260052",
+      "stageOrder": 5,
+      "stageName": "그래도 더워서 못 자겠어!",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "126",
+      "configurationLabel": "侵略",
+      "configurationOrder": 126,
+      "worldInfoUid": 126,
+      "stageUid": "1260053",
+      "stageOrder": 5,
+      "stageName": "그래도 더워서 못 자겠어!",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "126",
+      "configurationLabel": "侵略",
+      "configurationOrder": 126,
+      "worldInfoUid": 126,
+      "stageUid": "1260101",
+      "stageOrder": 10,
+      "stageName": "썰렁해지는 지갑!",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "126",
+      "configurationLabel": "侵略",
+      "configurationOrder": 126,
+      "worldInfoUid": 126,
+      "stageUid": "1260102",
+      "stageOrder": 10,
+      "stageName": "썰렁해지는 지갑!",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "126",
+      "configurationLabel": "侵略",
+      "configurationOrder": 126,
+      "worldInfoUid": 126,
+      "stageUid": "1260103",
+      "stageOrder": 10,
+      "stageName": "썰렁해지는 지갑!",
+      "hpBarCount": null
+    }
+  ]
+}

@@ -1,0 +1,3403 @@
+{
+  "schemaVersion": 8,
+  "server": "kr",
+  "dataDate": "2026-08-27",
+  "routeKey": "kr:invasion:61303",
+  "mode": "侵略",
+  "modeCode": 1,
+  "modeKey": "invasion",
+  "identity": {
+    "uid": "61303",
+    "name": "햇팽이 - 냉정",
+    "displayName": null,
+    "displayNameKind": null,
+    "role": "boss",
+    "context": "Boss索引对象",
+    "spine": "HatSnail",
+    "personalityCode": 1,
+    "personality": "냉정",
+    "attackTypeCode": 2,
+    "attackType": "魔法",
+    "iconKey": "Icon_HatSnailCool",
+    "spineSkinName": null,
+    "spineDefaultAnimation": null,
+    "spineActionSuffix": null,
+    "officialTable": "MonsterInfo",
+    "lifecycle": null,
+    "runtimeReferences": {},
+    "iconUrl": "/boss-wiki/kr/2026-08-27/mature/icons/invasion/61303.png",
+    "iconSourceType": "MonsterInfo.Icon官方PNG"
+  },
+  "runtimeMonsterUids": [
+    "61303"
+  ],
+  "bossName": "햇팽이 - 냉정",
+  "familyKey": "hatsnail",
+  "familyOrder": 108005,
+  "variantOrder": 1,
+  "firstFormalAppearance": {
+    "worldInfoUid": 113,
+    "stageOrder": 5,
+    "stageUid": "1130051"
+  },
+  "stageRecords": [
+    {
+      "stageUid": "1130051",
+      "name": "치명적 룸서비스!",
+      "world": "빛나는 성의 유혹",
+      "worldInfoUid": 113,
+      "stageOrder": 5,
+      "difficulty": 1,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 320,
+          "growthTimes": 319,
+          "attributes": {
+            "hp": 147020,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 2257,
+            "physicalDefense": 4515,
+            "magicDefense": 10641,
+            "criticalRate": 4515,
+            "criticalMultiplier": 4515,
+            "criticalResist": 4515,
+            "criticalMultiplierResist": 0,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 114
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": -10000,
+              "percent": -100
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1130052",
+      "name": "치명적 룸서비스!",
+      "world": "빛나는 성의 유혹",
+      "worldInfoUid": 113,
+      "stageOrder": 5,
+      "difficulty": 2,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 642,
+          "growthTimes": 641,
+          "attributes": {
+            "hp": 293852,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 4511,
+            "physicalDefense": 9023,
+            "magicDefense": 21267,
+            "criticalRate": 9023,
+            "criticalMultiplier": 9023,
+            "criticalResist": 9023,
+            "criticalMultiplierResist": 0,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 114
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": -10000,
+              "percent": -100
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1130053",
+      "name": "치명적 룸서비스!",
+      "world": "빛나는 성의 유혹",
+      "worldInfoUid": 113,
+      "stageOrder": 5,
+      "difficulty": 3,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 1285,
+          "growthTimes": 1284,
+          "attributes": {
+            "hp": 587060,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 9012,
+            "physicalDefense": 18025,
+            "magicDefense": 42486,
+            "criticalRate": 18025,
+            "criticalMultiplier": 18025,
+            "criticalResist": 18025,
+            "criticalMultiplierResist": 0,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 114
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": -10000,
+              "percent": -100
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1130101",
+      "name": "꿈이 벼락 부자 입니다!",
+      "world": "빛나는 성의 유혹",
+      "worldInfoUid": 113,
+      "stageOrder": 10,
+      "difficulty": 1,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 343,
+          "growthTimes": 342,
+          "attributes": {
+            "hp": 157508,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 2418,
+            "physicalDefense": 4837,
+            "magicDefense": 11400,
+            "criticalRate": 4837,
+            "criticalMultiplier": 4837,
+            "criticalResist": 4837,
+            "criticalMultiplierResist": 0,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 114
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": -10000,
+              "percent": -100
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1130102",
+      "name": "꿈이 벼락 부자 입니다!",
+      "world": "빛나는 성의 유혹",
+      "worldInfoUid": 113,
+      "stageOrder": 10,
+      "difficulty": 2,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 683,
+          "growthTimes": 682,
+          "attributes": {
+            "hp": 312548,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 4798,
+            "physicalDefense": 9597,
+            "magicDefense": 22620,
+            "criticalRate": 9597,
+            "criticalMultiplier": 9597,
+            "criticalResist": 9597,
+            "criticalMultiplierResist": 0,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 114
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": -10000,
+              "percent": -100
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1130103",
+      "name": "꿈이 벼락 부자 입니다!",
+      "world": "빛나는 성의 유혹",
+      "worldInfoUid": 113,
+      "stageOrder": 10,
+      "difficulty": 3,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 1349,
+          "growthTimes": 1348,
+          "attributes": {
+            "hp": 616244,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 9460,
+            "physicalDefense": 18921,
+            "magicDefense": 44598,
+            "criticalRate": 18921,
+            "criticalMultiplier": 18921,
+            "criticalResist": 18921,
+            "criticalMultiplierResist": 0,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 114
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": -10000,
+              "percent": -100
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    }
+  ],
+  "stageRosters": [
+    {
+      "stageUid": "1130051",
+      "stage": "치명적 룸서비스!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60151",
+              "name": "라쿤아치 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60151",
+              "name": "라쿤아치 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 3
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60851",
+              "name": "고모구지 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61301",
+              "name": "햇팽이 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "HatSnail",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatSnailCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60451",
+              "name": "이불령 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "BlanketGhost",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_BlanketGhostCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 3
+            },
+            {
+              "uid": "61301",
+              "name": "햇팽이 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "HatSnail",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatSnailCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60451",
+              "name": "이불령 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "BlanketGhost",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_BlanketGhostCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 3
+            },
+            {
+              "uid": "60851",
+              "name": "고모구지 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61303",
+              "name": "햇팽이 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "HatSnail",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatSnailCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1130052",
+      "stage": "치명적 룸서비스!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60151",
+              "name": "라쿤아치 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60151",
+              "name": "라쿤아치 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 3
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60851",
+              "name": "고모구지 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61301",
+              "name": "햇팽이 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "HatSnail",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatSnailCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60451",
+              "name": "이불령 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "BlanketGhost",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_BlanketGhostCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 3
+            },
+            {
+              "uid": "61301",
+              "name": "햇팽이 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "HatSnail",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatSnailCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60451",
+              "name": "이불령 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "BlanketGhost",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_BlanketGhostCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 3
+            },
+            {
+              "uid": "60851",
+              "name": "고모구지 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61303",
+              "name": "햇팽이 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "HatSnail",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatSnailCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1130053",
+      "stage": "치명적 룸서비스!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60151",
+              "name": "라쿤아치 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60151",
+              "name": "라쿤아치 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 3
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60851",
+              "name": "고모구지 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61301",
+              "name": "햇팽이 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "HatSnail",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatSnailCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60451",
+              "name": "이불령 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "BlanketGhost",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_BlanketGhostCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 3
+            },
+            {
+              "uid": "61301",
+              "name": "햇팽이 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "HatSnail",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatSnailCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60451",
+              "name": "이불령 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "BlanketGhost",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_BlanketGhostCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 3
+            },
+            {
+              "uid": "60851",
+              "name": "고모구지 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61303",
+              "name": "햇팽이 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "HatSnail",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatSnailCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1130101",
+      "stage": "꿈이 벼락 부자 입니다!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60151",
+              "name": "라쿤아치 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60851",
+              "name": "고모구지 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60851",
+              "name": "고모구지 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61301",
+              "name": "햇팽이 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "HatSnail",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatSnailCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60151",
+              "name": "라쿤아치 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60451",
+              "name": "이불령 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "BlanketGhost",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_BlanketGhostCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61301",
+              "name": "햇팽이 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "HatSnail",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatSnailCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60451",
+              "name": "이불령 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "BlanketGhost",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_BlanketGhostCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61301",
+              "name": "햇팽이 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "HatSnail",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatSnailCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60451",
+              "name": "이불령 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "BlanketGhost",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_BlanketGhostCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60851",
+              "name": "고모구지 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61303",
+              "name": "햇팽이 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "HatSnail",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatSnailCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1130102",
+      "stage": "꿈이 벼락 부자 입니다!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60151",
+              "name": "라쿤아치 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60851",
+              "name": "고모구지 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60851",
+              "name": "고모구지 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61301",
+              "name": "햇팽이 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "HatSnail",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatSnailCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60151",
+              "name": "라쿤아치 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60451",
+              "name": "이불령 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "BlanketGhost",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_BlanketGhostCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61301",
+              "name": "햇팽이 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "HatSnail",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatSnailCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60451",
+              "name": "이불령 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "BlanketGhost",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_BlanketGhostCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61301",
+              "name": "햇팽이 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "HatSnail",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatSnailCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60451",
+              "name": "이불령 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "BlanketGhost",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_BlanketGhostCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60851",
+              "name": "고모구지 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61303",
+              "name": "햇팽이 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "HatSnail",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatSnailCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1130103",
+      "stage": "꿈이 벼락 부자 입니다!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60151",
+              "name": "라쿤아치 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60851",
+              "name": "고모구지 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60851",
+              "name": "고모구지 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61301",
+              "name": "햇팽이 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "HatSnail",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatSnailCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60151",
+              "name": "라쿤아치 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60451",
+              "name": "이불령 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "BlanketGhost",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_BlanketGhostCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61301",
+              "name": "햇팽이 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "HatSnail",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatSnailCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60451",
+              "name": "이불령 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "BlanketGhost",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_BlanketGhostCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61301",
+              "name": "햇팽이 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "HatSnail",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatSnailCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60451",
+              "name": "이불령 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "BlanketGhost",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_BlanketGhostCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60551",
+              "name": "고혈당 요정 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobLongRange",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobLongRangeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60851",
+              "name": "고모구지 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61303",
+              "name": "햇팽이 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "HatSnail",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatSnailCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "encounterGuide": {
+    "status": "已核对",
+    "battleTimeLimitSeconds": [
+      70
+    ],
+    "battleTimeline": [
+      {
+        "atSeconds": null,
+        "condition": "SP蓄满后释放",
+        "repeatIntervalSeconds": null,
+        "phase": "全阶段",
+        "event": "SP技能：毒液攻击",
+        "category": "sp",
+        "targetType": "attack",
+        "targetId": "hatsnail-61303-sp",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      }
+    ],
+    "phases": [],
+    "attacks": [
+      {
+        "id": "hatsnail-61303-normal",
+        "category": "normal",
+        "title": "普通攻击",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "无",
+          "summary": "按普通攻击循环使用",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "单次魔法踩击",
+            "actionSequence": [
+              {
+                "action": "跳起后踩击前方目标",
+                "spineAnimation": "Attack1_1_Cool",
+                "eventTimes": [
+                  0.666667
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 100,
+                "multiplierMax": 100,
+                "hitCount": 1,
+                "subtotalMin": 100,
+                "subtotalMax": 100,
+                "eventTimes": [
+                  0.666667
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 100,
+              "max": 100
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "6130301"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "hatsnail-61303-normal",
+            "label": "普通攻击",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0.666667,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Attack1_1_Cool"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "100% × 1＝100%",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.666667
+              ]
+            }
+          ],
+          "hitCount": 1,
+          "confirmedTotalMultiplier": {
+            "min": 100,
+            "max": 100
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [],
+        "confirmedTotalMultiplier": {
+          "min": 100,
+          "max": 100
+        },
+        "hitCount": 1,
+        "playerResult": "向前踩击1次，造成100%魔法伤害。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 10
+      },
+      {
+        "id": "hatsnail-61303-sp",
+        "category": "sp",
+        "title": "SP技能：毒液攻击",
+        "displayNameKind": "说明名",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "SP",
+          "summary": "SP蓄满后释放",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [
+            200
+          ],
+          "spRecoveryValues": [
+            8
+          ],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "单次魔法伤害并施加中毒",
+            "actionSequence": [
+              {
+                "action": "喷出毒液命中目标，同时施加中毒",
+                "spineAnimation": "Skill1_1_Cool",
+                "eventTimes": [
+                  1.5
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 300,
+                "multiplierMax": 300,
+                "hitCount": 1,
+                "subtotalMin": 300,
+                "subtotalMax": 300,
+                "eventTimes": [
+                  1.5
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 300,
+              "max": 300
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "6130302"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "hatsnail-61303-sp",
+            "label": "毒液攻击",
+            "eventMarkers": [
+              {
+                "timeSeconds": 1.5,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 1.5,
+                "type": "debuff",
+                "label": "施加中毒"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill1_1_Cool"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "300% × 1＝300%",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 300,
+              "multiplierMax": 300,
+              "hitCount": 1,
+              "subtotalMin": 300,
+              "subtotalMax": 300,
+              "eventTimes": [
+                1.5
+              ]
+            }
+          ],
+          "hitCount": 1,
+          "confirmedTotalMultiplier": {
+            "min": 300,
+            "max": 300
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [
+          {
+            "type": "持续伤害",
+            "name": "中毒",
+            "description": "施加中毒5秒：每秒受到一次15%倍率的持续伤害。",
+            "target": "命中的使徒",
+            "probabilityPercent": 100,
+            "durationSeconds": 5,
+            "value": 15,
+            "valueUnit": "percent-of-caster-damage-base",
+            "stacking": null,
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "tickDamage": {
+              "baseMultiplierPercent": 15,
+              "intervalSeconds": 1,
+              "totalTicks": null,
+              "confirmedTotalMultiplier": null,
+              "basis": "施加者对目标的伤害结算基准"
+            },
+            "runtimeReferences": {},
+            "effectKind": "status",
+            "statusUid": "58",
+            "statusNameKey": "StateName_Poison",
+            "statusKey": "kr:58",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_4.png",
+            "iconState": "bound",
+            "nature": "debuff",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "team",
+            "skillId": "hatsnail-61303-sp",
+            "skillType": "attack"
+          },
+          {
+            "type": "减益",
+            "name": "攻击力降低",
+            "description": "中毒期间攻击力降低30%，持续5秒。",
+            "target": "命中的使徒",
+            "probabilityPercent": 100,
+            "durationSeconds": 5,
+            "value": 30,
+            "valueUnit": "percent-reduction",
+            "stacking": null,
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "status",
+            "statusKey": "kr:58",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_4.png",
+            "iconState": "bound",
+            "nature": "debuff",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "team",
+            "skillId": "hatsnail-61303-sp",
+            "skillType": "attack",
+            "statusUid": "58",
+            "statusNameKey": "StateName_Poison"
+          }
+        ],
+        "confirmedTotalMultiplier": {
+          "min": 300,
+          "max": 300
+        },
+        "hitCount": 1,
+        "playerResult": "命中1次，造成300%魔法伤害，并必定附加5秒中毒；中毒每秒造成15%基础伤害，同时使目标攻击力降低30%。中毒伤害受伤害修正影响，不是最大生命值伤害。",
+        "evidenceStatus": "部分待确认",
+        "runtimeReferences": {},
+        "sortOrder": 30
+      }
+    ],
+    "mechanisms": [],
+    "units": [],
+    "playerAdvice": [
+      "SP命中后会中毒5秒，并降低30%攻击力；直接伤害只有1次，不把后续中毒跳伤算进300%总倍率。"
+    ],
+    "unresolved": [],
+    "presentationRules": {
+      "rawEntryCount": 2,
+      "playerAttackGroupCount": 2,
+      "playerMechanismCount": 0,
+      "rawSkillEntriesRendered": false,
+      "internalUidsVisibleToPlayer": false
+    },
+    "runtimeReferences": {},
+    "skillOrder": [
+      {
+        "type": "attack",
+        "id": "hatsnail-61303-normal",
+        "category": "normal"
+      },
+      {
+        "type": "attack",
+        "id": "hatsnail-61303-sp",
+        "category": "sp"
+      }
+    ]
+  },
+  "runtimeReferences": {},
+  "encounterOrder": 22,
+  "directoryAppearances": [
+    {
+      "configurationId": "113",
+      "configurationLabel": "侵略",
+      "configurationOrder": 113,
+      "worldInfoUid": 113,
+      "stageUid": "1130051",
+      "stageOrder": 5,
+      "stageName": "치명적 룸서비스!",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "113",
+      "configurationLabel": "侵略",
+      "configurationOrder": 113,
+      "worldInfoUid": 113,
+      "stageUid": "1130052",
+      "stageOrder": 5,
+      "stageName": "치명적 룸서비스!",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "113",
+      "configurationLabel": "侵略",
+      "configurationOrder": 113,
+      "worldInfoUid": 113,
+      "stageUid": "1130053",
+      "stageOrder": 5,
+      "stageName": "치명적 룸서비스!",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "113",
+      "configurationLabel": "侵略",
+      "configurationOrder": 113,
+      "worldInfoUid": 113,
+      "stageUid": "1130101",
+      "stageOrder": 10,
+      "stageName": "꿈이 벼락 부자 입니다!",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "113",
+      "configurationLabel": "侵略",
+      "configurationOrder": 113,
+      "worldInfoUid": 113,
+      "stageUid": "1130102",
+      "stageOrder": 10,
+      "stageName": "꿈이 벼락 부자 입니다!",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "113",
+      "configurationLabel": "侵略",
+      "configurationOrder": 113,
+      "worldInfoUid": 113,
+      "stageUid": "1130103",
+      "stageOrder": 10,
+      "stageName": "꿈이 벼락 부자 입니다!",
+      "hpBarCount": null
+    }
+  ]
+}

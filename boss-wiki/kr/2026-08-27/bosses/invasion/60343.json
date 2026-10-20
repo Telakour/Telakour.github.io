@@ -1,0 +1,478 @@
+{
+  "schemaVersion": 3,
+  "server": "kr",
+  "dataVersion": "2026-08-27",
+  "routeKey": "kr:invasion:60343",
+  "mode": "侵略",
+  "modeKey": "invasion",
+  "monsterUid": "60343",
+  "bossName": "드론 G형 - 활발",
+  "personality": "활발",
+  "attackType": "官方未注明",
+  "spineKey": "DroneG",
+  "spineSkinName": "Skin_Jolly",
+  "iconUrl": null,
+  "difficultyCodes": [
+    1,
+    2,
+    3
+  ],
+  "stages": [
+    {
+      "rowKey": "invasion:1:1170101:60343:0",
+      "monsterUid": "60343",
+      "bossName": "드론 G형 - 활발",
+      "personality": "활발",
+      "attackType": "官方未注明",
+      "difficultyCode": 1,
+      "worldName": "출근길의 무거운 발걸음",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "퇴근길의 가벼운 발걸음!",
+      "官方关卡名": "출근길의 무거운 발걸음",
+      "波次/档位": 10,
+      "等级": "Lv.506",
+      "数值口径": "最终阶段属性",
+      "HP": 154557,
+      "物理攻击": 7119,
+      "魔法攻击": 0,
+      "物理防御": 9660,
+      "魔法防御": 9660,
+      "暴击": 7119,
+      "暴击伤害": 7119,
+      "暴击抵抗": 7119,
+      "暴伤抵抗": 0,
+      "SP上限": 200,
+      "SP恢复": 0,
+      "攻击速度": 77,
+      "属性加成与特殊说明": "暴伤抵抗 -100%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1170101"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1170102:60343:0",
+      "monsterUid": "60343",
+      "bossName": "드론 G형 - 활발",
+      "personality": "활발",
+      "attackType": "官方未注明",
+      "difficultyCode": 2,
+      "worldName": "출근길의 무거운 발걸음",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "퇴근길의 가벼운 발걸음!",
+      "官方关卡名": "출근길의 무거운 발걸음",
+      "波次/档位": 10,
+      "等级": "Lv.933",
+      "数值口径": "最终阶段属性",
+      "HP": 284365,
+      "物理攻击": 13097,
+      "魔法攻击": 0,
+      "物理防御": 17773,
+      "魔法防御": 17773,
+      "暴击": 13097,
+      "暴击伤害": 13097,
+      "暴击抵抗": 13097,
+      "暴伤抵抗": 0,
+      "SP上限": 200,
+      "SP恢复": 0,
+      "攻击速度": 77,
+      "属性加成与特殊说明": "暴伤抵抗 -100%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1170102"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1170103:60343:0",
+      "monsterUid": "60343",
+      "bossName": "드론 G형 - 활발",
+      "personality": "활발",
+      "attackType": "官方未注明",
+      "difficultyCode": 3,
+      "worldName": "출근길의 무거운 발걸음",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "퇴근길의 가벼운 발걸음!",
+      "官方关卡名": "출근길의 무거운 발걸음",
+      "波次/档位": 10,
+      "等级": "Lv.1715",
+      "数值口径": "最终阶段属性",
+      "HP": 522093,
+      "物理攻击": 24045,
+      "魔法攻击": 0,
+      "物理防御": 32631,
+      "魔法防御": 32631,
+      "暴击": 24045,
+      "暴击伤害": 24045,
+      "暴击抵抗": 24045,
+      "暴伤抵抗": 0,
+      "SP上限": 200,
+      "SP恢复": 0,
+      "攻击速度": 77,
+      "属性加成与特殊说明": "暴伤抵抗 -100%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1170103"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1220101:60343:0",
+      "monsterUid": "60343",
+      "bossName": "드론 G형 - 활발",
+      "personality": "활발",
+      "attackType": "官方未注明",
+      "difficultyCode": 1,
+      "worldName": "피톤치드의 하울링",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "다 같이 한 바퀴 돌자!",
+      "官方关卡名": "피톤치드의 하울링",
+      "波次/档位": 10,
+      "等级": "Lv.1247",
+      "数值口径": "最终阶段属性",
+      "HP": 645695.7,
+      "物理攻击": 17493,
+      "魔法攻击": 0,
+      "物理防御": 23739,
+      "魔法防御": 23739,
+      "暴击": 17493,
+      "暴击伤害": 17493,
+      "暴击抵抗": 17493,
+      "暴伤抵抗": 17493,
+      "SP上限": 200,
+      "SP恢复": 0,
+      "攻击速度": 77,
+      "属性加成与特殊说明": "HP +70%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1220101"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1220102:60343:0",
+      "monsterUid": "60343",
+      "bossName": "드론 G형 - 활발",
+      "personality": "활발",
+      "attackType": "官方未注明",
+      "difficultyCode": 2,
+      "worldName": "피톤치드의 하울링",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "다 같이 한 바퀴 돌자!",
+      "官方关卡名": "피톤치드의 하울링",
+      "波次/档位": 10,
+      "等级": "Lv.3620",
+      "数值口径": "最终阶段属性",
+      "HP": 4636106.73,
+      "物理攻击": 50715,
+      "魔法攻击": 0,
+      "物理防御": 68826,
+      "魔法防御": 68826,
+      "暴击": 50715,
+      "暴击伤害": 50715,
+      "暴击抵抗": 50715,
+      "暴伤抵抗": 50715,
+      "SP上限": 200,
+      "SP恢复": 0,
+      "攻击速度": 77,
+      "属性加成与特殊说明": "HP +321%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1220102"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1220103:60343:0",
+      "monsterUid": "60343",
+      "bossName": "드론 G형 - 활발",
+      "personality": "활발",
+      "attackType": "官方未注明",
+      "difficultyCode": 3,
+      "worldName": "피톤치드의 하울링",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "다 같이 한 바퀴 돌자!",
+      "官方关卡名": "피톤치드의 하울링",
+      "波次/档位": 10,
+      "等级": "Lv.5812",
+      "数值口径": "最终阶段属性",
+      "HP": 9332827.68,
+      "物理攻击": 81403,
+      "魔法攻击": 0,
+      "物理防御": 110474,
+      "魔法防御": 110474,
+      "暴击": 81403,
+      "暴击伤害": 81403,
+      "暴击抵抗": 81403,
+      "暴伤抵抗": 81403,
+      "SP上限": 200,
+      "SP恢复": 0,
+      "攻击速度": 77,
+      "属性加成与特殊说明": "HP +428%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1220103"
+      }
+    }
+  ],
+  "skills": [],
+  "guideSkills": [
+    {
+      "id": "6034301",
+      "sourceOrder": 0,
+      "displayName": "일반공격",
+      "presentationLabel": null,
+      "nameKind": "官方技能名",
+      "skillType": "普通攻击",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          16
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 297.00001180172,
+        "max": 297.00001180172,
+        "displayMin": 297.00001180172,
+        "displayMax": 297.00001180172,
+        "hitCount": 3,
+        "formula": "Attack1_1_Jolly 297.00001180172%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Attack1_1_Jolly",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 3,
+          "effectTriggerCount": 3,
+          "eventTimes": [
+            0.466667,
+            0.633333,
+            0.8
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "Attack1_1_Jolly",
+          "spineAnimation": "Attack1_1_Jolly",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 99.0000039339066,
+              "multiplierMax": 99.0000039339066,
+              "hitCount": 3,
+              "subtotalMin": 297.00001180172,
+              "subtotalMax": 297.00001180172,
+              "eventTimes": [
+                0.466667,
+                0.633333,
+                0.8
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 297.00001180172,
+          "confirmedSegmentTotalMax": 297.00001180172,
+          "confirmedDamageHitCount": 3,
+          "restrictions": [],
+          "spineEffects": []
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "6034302",
+      "sourceOrder": 1,
+      "displayName": "8次伤害结算（Skill1_1_Jolly）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          16
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 675.999975204468,
+        "max": 675.999975204468,
+        "displayMin": 675.999975204468,
+        "displayMax": 675.999975204468,
+        "hitCount": 8,
+        "formula": "Skill1_1_Jolly 675.999975204468%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Skill1_1_Jolly",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 8,
+          "effectTriggerCount": 8,
+          "eventTimes": [
+            1.066667,
+            1.2,
+            1.333333,
+            1.466667,
+            1.6,
+            1.733333,
+            1.866667,
+            2
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "Skill1_1_Jolly",
+          "spineAnimation": "Skill1_1_Jolly",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 84.4999969005585,
+              "multiplierMax": 84.4999969005585,
+              "hitCount": 8,
+              "subtotalMin": 675.999975204468,
+              "subtotalMax": 675.999975204468,
+              "eventTimes": [
+                1.066667,
+                1.2,
+                1.333333,
+                1.466667,
+                1.6,
+                1.733333,
+                1.866667,
+                2
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 675.999975204468,
+          "confirmedSegmentTotalMax": 675.999975204468,
+          "confirmedDamageHitCount": 8,
+          "restrictions": [],
+          "spineEffects": []
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    }
+  ],
+  "internalComponents": [],
+  "spineResources": [
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack1_1_Jolly",
+      "直接连接的技能效果": "6034301",
+      "触发时间": "0.466667s / 0.633333s / 0.8s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_1_Jolly",
+      "直接连接的技能效果": "6034302",
+      "触发时间": "1.066667s / 1.2s / 1.333333s / 1.466667s / 1.6s / 1.733333s / 1.866667s / 2s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    }
+  ],
+  "guideReference": null,
+  "runtimeReferences": {}
+}

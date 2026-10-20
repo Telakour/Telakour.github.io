@@ -1,0 +1,1471 @@
+{
+  "schemaVersion": 8,
+  "server": "kr",
+  "dataDate": "2026-08-27",
+  "routeKey": "kr:dimensional-clash-1:61324",
+  "mode": "次元大冲突1.0",
+  "modeCode": 8,
+  "modeKey": "dimensional-clash-1",
+  "identity": {
+    "uid": "61324",
+    "name": "길어용 - 광기",
+    "displayName": null,
+    "displayNameKind": null,
+    "role": "boss",
+    "context": "Boss索引对象",
+    "spine": "Imoogi",
+    "personalityCode": 2,
+    "personality": "광기",
+    "attackTypeCode": 2,
+    "attackType": "魔法",
+    "iconKey": "Icon_ImoogiMad",
+    "spineSkinName": null,
+    "spineDefaultAnimation": null,
+    "spineActionSuffix": null,
+    "officialTable": "MonsterInfo",
+    "lifecycle": null,
+    "runtimeReferences": {},
+    "iconUrl": "/boss-wiki/kr/2026-08-27/mature/icons/dimensional-clash-1/61324.png",
+    "iconSourceType": "MonsterInfo.Icon官方PNG"
+  },
+  "runtimeMonsterUids": [
+    "61324"
+  ],
+  "bossName": "길어용 - 광기",
+  "familyKey": "imoogi",
+  "familyOrder": 801010,
+  "variantOrder": 0,
+  "firstFormalAppearance": {
+    "worldInfoUid": 802,
+    "stageOrder": 10,
+    "stageUid": "8020100"
+  },
+  "stageRecords": [
+    {
+      "stageUid": "8020100",
+      "name": "광기의 차원: 제 10구역",
+      "world": "차원 대충돌",
+      "worldInfoUid": 802,
+      "stageOrder": 10,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 555,
+          "growthTimes": 554,
+          "attributes": {
+            "hp": 12077958,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 22296,
+            "physicalDefense": 16164,
+            "magicDefense": 16164,
+            "criticalRate": 7805,
+            "criticalMultiplier": 7805,
+            "criticalResist": 7805,
+            "criticalMultiplierResist": 7805,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 95
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 10000,
+              "percent": 100
+            },
+            "AttackPhysicPercent": {
+              "raw": 10000,
+              "percent": 100
+            },
+            "AttackMagicPercent": {
+              "raw": 10000,
+              "percent": 100
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "8020220",
+      "name": "광기의 차원: 제 22구역",
+      "world": "차원 대충돌",
+      "worldInfoUid": 802,
+      "stageOrder": 22,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 8250,
+          "growthTimes": 8249,
+          "attributes": {
+            "hp": 1698725571,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 1947566.4,
+            "physicalDefense": 239319,
+            "magicDefense": 239319,
+            "criticalRate": 115535,
+            "criticalMultiplier": 115535,
+            "criticalResist": 115535,
+            "criticalMultiplierResist": 115535,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 95
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 180000,
+              "percent": 1800
+            },
+            "AttackPhysicPercent": {
+              "raw": 108000,
+              "percent": 1080
+            },
+            "AttackMagicPercent": {
+              "raw": 108000,
+              "percent": 1080
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "8220100",
+      "name": "광기의 차원: 제 10구역",
+      "world": "차원 대충돌",
+      "worldInfoUid": 822,
+      "stageOrder": 10,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 555,
+          "growthTimes": 554,
+          "attributes": {
+            "hp": 12077958,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 22296,
+            "physicalDefense": 16164,
+            "magicDefense": 16164,
+            "criticalRate": 7805,
+            "criticalMultiplier": 7805,
+            "criticalResist": 7805,
+            "criticalMultiplierResist": 7805,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 95
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 10000,
+              "percent": 100
+            },
+            "AttackPhysicPercent": {
+              "raw": 10000,
+              "percent": 100
+            },
+            "AttackMagicPercent": {
+              "raw": 10000,
+              "percent": 100
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "8220220",
+      "name": "광기의 차원: 제 22구역",
+      "world": "차원 대충돌",
+      "worldInfoUid": 822,
+      "stageOrder": 22,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 8250,
+          "growthTimes": 8249,
+          "attributes": {
+            "hp": 1698725571,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 1947566.4,
+            "physicalDefense": 239319,
+            "magicDefense": 239319,
+            "criticalRate": 115535,
+            "criticalMultiplier": 115535,
+            "criticalResist": 115535,
+            "criticalMultiplierResist": 115535,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 95
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 180000,
+              "percent": 1800
+            },
+            "AttackPhysicPercent": {
+              "raw": 108000,
+              "percent": 1080
+            },
+            "AttackMagicPercent": {
+              "raw": 108000,
+              "percent": 1080
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    }
+  ],
+  "stageRosters": [
+    {
+      "stageUid": "8020100",
+      "stage": "광기의 차원: 제 10구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 101,
+          "units": [
+            {
+              "uid": "61324",
+              "name": "길어용 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "8020220",
+      "stage": "광기의 차원: 제 22구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 101,
+          "units": [
+            {
+              "uid": "61324",
+              "name": "길어용 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "8220100",
+      "stage": "광기의 차원: 제 10구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 101,
+          "units": [
+            {
+              "uid": "61324",
+              "name": "길어용 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "8220220",
+      "stage": "광기의 차원: 제 22구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 101,
+          "units": [
+            {
+              "uid": "61324",
+              "name": "길어용 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "encounterGuide": {
+    "status": "已核对",
+    "battleTimeLimitSeconds": [
+      180
+    ],
+    "battleTimeline": [
+      {
+        "atSeconds": null,
+        "condition": "SP蓄满后释放",
+        "repeatIntervalSeconds": null,
+        "phase": "全阶段",
+        "event": "SP技能：连续水弹",
+        "category": "sp",
+        "targetType": "attack",
+        "targetId": "imoogi-61324-sp",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      }
+    ],
+    "phases": [],
+    "attacks": [
+      {
+        "id": "imoogi-61324-normal",
+        "category": "normal",
+        "title": "普通攻击",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "无",
+          "summary": "按普通攻击循环使用",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "单次远程魔法攻击",
+            "actionSequence": [
+              {
+                "action": "向前方目标发射水弹",
+                "spineAnimation": "Attack1_1_Mad",
+                "eventTimes": [
+                  0.466667
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 100,
+                "multiplierMax": 100,
+                "hitCount": 1,
+                "subtotalMin": 100,
+                "subtotalMax": 100,
+                "eventTimes": [
+                  0.466667
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 100,
+              "max": 100
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "6132401"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "imoogi-61324-normal",
+            "label": "普通攻击",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0.466667,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Attack1_1_Mad"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "100% × 1＝100%",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.466667
+              ]
+            }
+          ],
+          "hitCount": 1,
+          "confirmedTotalMultiplier": {
+            "min": 100,
+            "max": 100
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [],
+        "confirmedTotalMultiplier": {
+          "min": 100,
+          "max": 100
+        },
+        "hitCount": 1,
+        "playerResult": "向前方目标发射水弹，命中1次，造成100%魔法伤害。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 10
+      },
+      {
+        "id": "imoogi-61324-sp",
+        "category": "sp",
+        "title": "SP技能：连续水弹",
+        "displayNameKind": "说明名",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "SP",
+          "summary": "SP蓄满后释放",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [
+            200
+          ],
+          "spRecoveryValues": [
+            8
+          ],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "同一完整动作连续命中5次",
+            "actionSequence": [
+              {
+                "action": "短暂准备后连续发射5发水弹",
+                "spineAnimation": "Skill1_1_Mad",
+                "eventTimes": [
+                  1.1,
+                  1.233333,
+                  1.366667,
+                  1.5,
+                  1.633333
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 60,
+                "multiplierMax": 60,
+                "hitCount": 5,
+                "subtotalMin": 300,
+                "subtotalMax": 300,
+                "eventTimes": [
+                  1.1,
+                  1.233333,
+                  1.366667,
+                  1.5,
+                  1.633333
+                ]
+              }
+            ],
+            "hitCount": 5,
+            "confirmedTotalMultiplier": {
+              "min": 300,
+              "max": 300
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "6132402"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "imoogi-61324-sp",
+            "label": "连续水弹",
+            "eventMarkers": [
+              {
+                "timeSeconds": 1.1,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 1.233333,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 1.366667,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 1.5,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 1.633333,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 0,
+                "type": "effect",
+                "label": "准备特效"
+              },
+              {
+                "timeSeconds": 1.1,
+                "type": "effect",
+                "label": "水弹轨迹"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill1_1_Mad"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "60% × 5＝300%",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 60,
+              "multiplierMax": 60,
+              "hitCount": 5,
+              "subtotalMin": 300,
+              "subtotalMax": 300,
+              "eventTimes": [
+                1.1,
+                1.233333,
+                1.366667,
+                1.5,
+                1.633333
+              ]
+            }
+          ],
+          "hitCount": 5,
+          "confirmedTotalMultiplier": {
+            "min": 300,
+            "max": 300
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [],
+        "confirmedTotalMultiplier": {
+          "min": 300,
+          "max": 300
+        },
+        "hitCount": 5,
+        "playerResult": "连续发射5发水弹，每发造成60%魔法伤害，总倍率300%；准备亮光和水弹轨迹不另算伤害。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 30
+      }
+    ],
+    "mechanisms": [],
+    "units": [],
+    "playerAdvice": [
+      "SP固定命中5次，每段为官方倍率的20%，五段合计300%。"
+    ],
+    "unresolved": [],
+    "presentationRules": {
+      "rawEntryCount": 2,
+      "playerAttackGroupCount": 2,
+      "playerMechanismCount": 0,
+      "rawSkillEntriesRendered": false,
+      "internalUidsVisibleToPlayer": false
+    },
+    "runtimeReferences": {},
+    "skillOrder": [
+      {
+        "type": "attack",
+        "id": "imoogi-61324-normal",
+        "category": "normal"
+      },
+      {
+        "type": "attack",
+        "id": "imoogi-61324-sp",
+        "category": "sp"
+      }
+    ]
+  },
+  "runtimeReferences": {},
+  "encounterOrder": 16,
+  "directoryAppearances": [
+    {
+      "configurationId": "3",
+      "configurationLabel": "官方配置 #3",
+      "configurationOrder": 3,
+      "soloRaidInfoUid": 3,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 802,
+      "stageUid": "8020100",
+      "stageOrder": 10,
+      "stageName": "광기의 차원: 제 10구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "3",
+      "configurationLabel": "官方配置 #3",
+      "configurationOrder": 3,
+      "soloRaidInfoUid": 3,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 802,
+      "stageUid": "8020220",
+      "stageOrder": 22,
+      "stageName": "광기의 차원: 제 22구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "12",
+      "configurationLabel": "官方配置 #12",
+      "configurationOrder": 12,
+      "soloRaidInfoUid": 12,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 802,
+      "stageUid": "8020100",
+      "stageOrder": 10,
+      "stageName": "광기의 차원: 제 10구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "12",
+      "configurationLabel": "官方配置 #12",
+      "configurationOrder": 12,
+      "soloRaidInfoUid": 12,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 802,
+      "stageUid": "8020220",
+      "stageOrder": 22,
+      "stageName": "광기의 차원: 제 22구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "15",
+      "configurationLabel": "官方配置 #15",
+      "configurationOrder": 15,
+      "soloRaidInfoUid": 15,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 802,
+      "stageUid": "8020100",
+      "stageOrder": 10,
+      "stageName": "광기의 차원: 제 10구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "15",
+      "configurationLabel": "官方配置 #15",
+      "configurationOrder": 15,
+      "soloRaidInfoUid": 15,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 802,
+      "stageUid": "8020220",
+      "stageOrder": 22,
+      "stageName": "광기의 차원: 제 22구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "19",
+      "configurationLabel": "官方配置 #19",
+      "configurationOrder": 19,
+      "soloRaidInfoUid": 19,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 802,
+      "stageUid": "8020100",
+      "stageOrder": 10,
+      "stageName": "광기의 차원: 제 10구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "19",
+      "configurationLabel": "官方配置 #19",
+      "configurationOrder": 19,
+      "soloRaidInfoUid": 19,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 802,
+      "stageUid": "8020220",
+      "stageOrder": 22,
+      "stageName": "광기의 차원: 제 22구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "22",
+      "configurationLabel": "官方配置 #22",
+      "configurationOrder": 22,
+      "soloRaidInfoUid": 22,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 802,
+      "stageUid": "8020100",
+      "stageOrder": 10,
+      "stageName": "광기의 차원: 제 10구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "22",
+      "configurationLabel": "官方配置 #22",
+      "configurationOrder": 22,
+      "soloRaidInfoUid": 22,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 802,
+      "stageUid": "8020220",
+      "stageOrder": 22,
+      "stageName": "광기의 차원: 제 22구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "26",
+      "configurationLabel": "官方配置 #26",
+      "configurationOrder": 26,
+      "soloRaidInfoUid": 26,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 802,
+      "stageUid": "8020100",
+      "stageOrder": 10,
+      "stageName": "광기의 차원: 제 10구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "26",
+      "configurationLabel": "官方配置 #26",
+      "configurationOrder": 26,
+      "soloRaidInfoUid": 26,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 802,
+      "stageUid": "8020220",
+      "stageOrder": 22,
+      "stageName": "광기의 차원: 제 22구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "31",
+      "configurationLabel": "官方配置 #31",
+      "configurationOrder": 31,
+      "soloRaidInfoUid": 31,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 802,
+      "stageUid": "8020100",
+      "stageOrder": 10,
+      "stageName": "광기의 차원: 제 10구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "31",
+      "configurationLabel": "官方配置 #31",
+      "configurationOrder": 31,
+      "soloRaidInfoUid": 31,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 802,
+      "stageUid": "8020220",
+      "stageOrder": 22,
+      "stageName": "광기의 차원: 제 22구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "35",
+      "configurationLabel": "官方配置 #35",
+      "configurationOrder": 35,
+      "soloRaidInfoUid": 35,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 802,
+      "stageUid": "8020100",
+      "stageOrder": 10,
+      "stageName": "광기의 차원: 제 10구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "35",
+      "configurationLabel": "官方配置 #35",
+      "configurationOrder": 35,
+      "soloRaidInfoUid": 35,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 802,
+      "stageUid": "8020220",
+      "stageOrder": 22,
+      "stageName": "광기의 차원: 제 22구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "37",
+      "configurationLabel": "官方配置 #37",
+      "configurationOrder": 37,
+      "soloRaidInfoUid": 37,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 802,
+      "stageUid": "8020100",
+      "stageOrder": 10,
+      "stageName": "광기의 차원: 제 10구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "37",
+      "configurationLabel": "官方配置 #37",
+      "configurationOrder": 37,
+      "soloRaidInfoUid": 37,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 802,
+      "stageUid": "8020220",
+      "stageOrder": 22,
+      "stageName": "광기의 차원: 제 22구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "41",
+      "configurationLabel": "官方配置 #41",
+      "configurationOrder": 41,
+      "soloRaidInfoUid": 41,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 802,
+      "stageUid": "8020100",
+      "stageOrder": 10,
+      "stageName": "광기의 차원: 제 10구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "41",
+      "configurationLabel": "官方配置 #41",
+      "configurationOrder": 41,
+      "soloRaidInfoUid": 41,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 802,
+      "stageUid": "8020220",
+      "stageOrder": 22,
+      "stageName": "광기의 차원: 제 22구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "43",
+      "configurationLabel": "官方配置 #43",
+      "configurationOrder": 43,
+      "soloRaidInfoUid": 43,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 802,
+      "stageUid": "8020100",
+      "stageOrder": 10,
+      "stageName": "광기의 차원: 제 10구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "43",
+      "configurationLabel": "官方配置 #43",
+      "configurationOrder": 43,
+      "soloRaidInfoUid": 43,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 802,
+      "stageUid": "8020220",
+      "stageOrder": 22,
+      "stageName": "광기의 차원: 제 22구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "45",
+      "configurationLabel": "官方配置 #45",
+      "configurationOrder": 45,
+      "soloRaidInfoUid": 45,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 822,
+      "stageUid": "8220100",
+      "stageOrder": 10,
+      "stageName": "광기의 차원: 제 10구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "45",
+      "configurationLabel": "官方配置 #45",
+      "configurationOrder": 45,
+      "soloRaidInfoUid": 45,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 822,
+      "stageUid": "8220220",
+      "stageOrder": 22,
+      "stageName": "광기의 차원: 제 22구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "49",
+      "configurationLabel": "官方配置 #49",
+      "configurationOrder": 49,
+      "soloRaidInfoUid": 49,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 802,
+      "stageUid": "8020100",
+      "stageOrder": 10,
+      "stageName": "광기의 차원: 제 10구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "49",
+      "configurationLabel": "官方配置 #49",
+      "configurationOrder": 49,
+      "soloRaidInfoUid": 49,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 802,
+      "stageUid": "8020220",
+      "stageOrder": 22,
+      "stageName": "광기의 차원: 제 22구역",
+      "hpBarCount": null
+    }
+  ]
+}

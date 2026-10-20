@@ -1,0 +1,3979 @@
+{
+  "schemaVersion": 8,
+  "server": "kr",
+  "dataDate": "2026-08-27",
+  "routeKey": "kr:invasion:60403",
+  "mode": "侵略",
+  "modeCode": 1,
+  "modeKey": "invasion",
+  "identity": {
+    "uid": "60403",
+    "name": "퍼리 - 냉정",
+    "displayName": null,
+    "displayNameKind": null,
+    "role": "boss",
+    "context": "Boss索引对象",
+    "spine": "Furring",
+    "personalityCode": 1,
+    "personality": "냉정",
+    "attackTypeCode": 2,
+    "attackType": "魔法",
+    "iconKey": "Icon_FurringCool",
+    "spineSkinName": null,
+    "spineDefaultAnimation": null,
+    "spineActionSuffix": null,
+    "officialTable": "MonsterInfo",
+    "lifecycle": null,
+    "runtimeReferences": {},
+    "iconUrl": "/boss-wiki/kr/2026-08-27/mature/icons/invasion/60403.png",
+    "iconSourceType": "MonsterInfo.Icon官方PNG"
+  },
+  "runtimeMonsterUids": [
+    "60403"
+  ],
+  "bossName": "퍼리 - 냉정",
+  "familyKey": "furring",
+  "familyOrder": 138005,
+  "variantOrder": 1,
+  "firstFormalAppearance": {
+    "worldInfoUid": 138,
+    "stageOrder": 5,
+    "stageUid": "1380051"
+  },
+  "stageRecords": [
+    {
+      "stageUid": "1380051",
+      "name": "본격적으로 놀아볼까?",
+      "world": "속이 뻥 뚫리는 물세례!",
+      "worldInfoUid": 138,
+      "stageOrder": 5,
+      "difficulty": 1,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 5379,
+          "growthTimes": 5378,
+          "attributes": {
+            "hp": 8097949.2,
+            "sp": 200,
+            "recoverySp": 17,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 64577,
+            "physicalDefense": 129153,
+            "magicDefense": 129153,
+            "criticalRate": 75341,
+            "criticalMultiplier": 75341,
+            "criticalResist": 75341,
+            "criticalMultiplierResist": 75341,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 133
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 56000,
+              "percent": 560
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 21000,
+              "percent": 210
+            },
+            "EndDamageMagicPercent": {
+              "raw": 21000,
+              "percent": 210
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1380052",
+      "name": "본격적으로 놀아볼까?",
+      "world": "속이 뻥 뚫리는 물세례!",
+      "worldInfoUid": 138,
+      "stageOrder": 5,
+      "difficulty": 2,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 25694,
+          "growthTimes": 25693,
+          "attributes": {
+            "hp": 278292145,
+            "sp": 200,
+            "recoverySp": 17,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 308357,
+            "physicalDefense": 616713,
+            "magicDefense": 616713,
+            "criticalRate": 359751,
+            "criticalMultiplier": 359751,
+            "criticalResist": 359751,
+            "criticalMultiplierResist": 359751,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 133
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 465000,
+              "percent": 4650
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 209250,
+              "percent": 2092.5
+            },
+            "EndDamageMagicPercent": {
+              "raw": 209250,
+              "percent": 2092.5
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1380053",
+      "name": "본격적으로 놀아볼까?",
+      "world": "속이 뻥 뚫리는 물세례!",
+      "worldInfoUid": 138,
+      "stageOrder": 5,
+      "difficulty": 3,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 46050,
+          "growthTimes": 46049,
+          "attributes": {
+            "hp": 409498050,
+            "sp": 200,
+            "recoverySp": 17,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 552629,
+            "physicalDefense": 1105257,
+            "magicDefense": 1105257,
+            "criticalRate": 644735,
+            "criticalMultiplier": 644735,
+            "criticalResist": 644735,
+            "criticalMultiplierResist": 644735,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 133
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 380000,
+              "percent": 3800
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 214700,
+              "percent": 2147
+            },
+            "EndDamageMagicPercent": {
+              "raw": 214700,
+              "percent": 2147
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1380101",
+      "name": "다 함께 물속으로 풍덩!",
+      "world": "속이 뻥 뚫리는 물세례!",
+      "worldInfoUid": 138,
+      "stageOrder": 10,
+      "difficulty": 1,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 5604,
+          "growthTimes": 5603,
+          "attributes": {
+            "hp": 8564355.4,
+            "sp": 200,
+            "recoverySp": 17,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 67277,
+            "physicalDefense": 134553,
+            "magicDefense": 134553,
+            "criticalRate": 78491,
+            "criticalMultiplier": 78491,
+            "criticalResist": 78491,
+            "criticalMultiplierResist": 78491,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 133
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 57000,
+              "percent": 570
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 21000,
+              "percent": 210
+            },
+            "EndDamageMagicPercent": {
+              "raw": 21000,
+              "percent": 210
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1380102",
+      "name": "다 함께 물속으로 풍덩!",
+      "world": "속이 뻥 뚫리는 물세례!",
+      "worldInfoUid": 138,
+      "stageOrder": 10,
+      "difficulty": 2,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 27689,
+          "growthTimes": 27688,
+          "attributes": {
+            "hp": 303054816,
+            "sp": 200,
+            "recoverySp": 17,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 332297,
+            "physicalDefense": 664593,
+            "magicDefense": 664593,
+            "criticalRate": 387681,
+            "criticalMultiplier": 387681,
+            "criticalResist": 387681,
+            "criticalMultiplierResist": 387681,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 133
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 470000,
+              "percent": 4700
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 211500,
+              "percent": 2115
+            },
+            "EndDamageMagicPercent": {
+              "raw": 211500,
+              "percent": 2115
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1380103",
+      "name": "다 함께 물속으로 풍덩!",
+      "world": "속이 뻥 뚫리는 물세례!",
+      "worldInfoUid": 138,
+      "stageOrder": 10,
+      "difficulty": 3,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 50910,
+          "growthTimes": 50909,
+          "attributes": {
+            "hp": 455615177.5,
+            "sp": 200,
+            "recoverySp": 17,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 610949,
+            "physicalDefense": 1221897,
+            "magicDefense": 1221897,
+            "criticalRate": 712775,
+            "criticalMultiplier": 712775,
+            "criticalResist": 712775,
+            "criticalMultiplierResist": 712775,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 133
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 382500,
+              "percent": 3825
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 216200,
+              "percent": 2162
+            },
+            "EndDamageMagicPercent": {
+              "raw": 216200,
+              "percent": 2162
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    }
+  ],
+  "stageRosters": [
+    {
+      "stageUid": "1380051",
+      "stage": "본격적으로 놀아볼까?",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60151",
+              "name": "라쿤아치 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60401",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60151",
+              "name": "라쿤아치 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60401",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61251",
+              "name": "근육인데용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ProteinDragon",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ProteinDragonCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60401",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61251",
+              "name": "근육인데용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ProteinDragon",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ProteinDragonCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60401",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61251",
+              "name": "근육인데용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ProteinDragon",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ProteinDragonCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60403",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61251",
+              "name": "근육인데용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ProteinDragon",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ProteinDragonCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1380052",
+      "stage": "본격적으로 놀아볼까?",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60151",
+              "name": "라쿤아치 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60401",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60151",
+              "name": "라쿤아치 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60401",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61251",
+              "name": "근육인데용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ProteinDragon",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ProteinDragonCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60401",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61251",
+              "name": "근육인데용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ProteinDragon",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ProteinDragonCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60401",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61251",
+              "name": "근육인데용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ProteinDragon",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ProteinDragonCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60403",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61251",
+              "name": "근육인데용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ProteinDragon",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ProteinDragonCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1380053",
+      "stage": "본격적으로 놀아볼까?",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60151",
+              "name": "라쿤아치 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60401",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60151",
+              "name": "라쿤아치 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60401",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61251",
+              "name": "근육인데용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ProteinDragon",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ProteinDragonCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60401",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61251",
+              "name": "근육인데용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ProteinDragon",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ProteinDragonCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60401",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61251",
+              "name": "근육인데용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ProteinDragon",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ProteinDragonCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60403",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61251",
+              "name": "근육인데용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ProteinDragon",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ProteinDragonCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1380101",
+      "stage": "다 함께 물속으로 풍덩!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60151",
+              "name": "라쿤아치 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60401",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60151",
+              "name": "라쿤아치 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60401",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61251",
+              "name": "근육인데용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ProteinDragon",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ProteinDragonCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60401",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61251",
+              "name": "근육인데용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ProteinDragon",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ProteinDragonCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60401",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61251",
+              "name": "근육인데용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ProteinDragon",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ProteinDragonCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60403",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61251",
+              "name": "근육인데용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ProteinDragon",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ProteinDragonCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1380102",
+      "stage": "다 함께 물속으로 풍덩!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60151",
+              "name": "라쿤아치 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60401",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60151",
+              "name": "라쿤아치 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60401",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61251",
+              "name": "근육인데용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ProteinDragon",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ProteinDragonCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60401",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61251",
+              "name": "근육인데용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ProteinDragon",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ProteinDragonCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60401",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61251",
+              "name": "근육인데용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ProteinDragon",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ProteinDragonCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60403",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61251",
+              "name": "근육인데용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ProteinDragon",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ProteinDragonCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1380103",
+      "stage": "다 함께 물속으로 풍덩!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60151",
+              "name": "라쿤아치 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60401",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60151",
+              "name": "라쿤아치 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60401",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61251",
+              "name": "근육인데용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ProteinDragon",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ProteinDragonCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60401",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61251",
+              "name": "근육인데용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ProteinDragon",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ProteinDragonCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60401",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61251",
+              "name": "근육인데용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ProteinDragon",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ProteinDragonCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60251",
+              "name": "루파루 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60403",
+              "name": "퍼리 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61251",
+              "name": "근육인데용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "ProteinDragon",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_ProteinDragonCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61351",
+              "name": "길어용 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "encounterGuide": {
+    "status": "已核对",
+    "battleTimeLimitSeconds": [
+      70
+    ],
+    "battleTimeline": [
+      {
+        "atSeconds": null,
+        "condition": "SP蓄满后，对自身发动",
+        "repeatIntervalSeconds": null,
+        "phase": "全阶段",
+        "event": "SP技能：自我恢复",
+        "category": "sp",
+        "targetType": "attack",
+        "targetId": "furring-60403-sp",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      }
+    ],
+    "phases": [],
+    "attacks": [
+      {
+        "id": "furring-60403-normal",
+        "category": "normal",
+        "title": "普通攻击",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "无",
+          "summary": "按普通攻击循环，攻击最近的敌人",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "单次魔法攻击",
+            "actionSequence": [
+              {
+                "action": "攻击最近的敌人",
+                "spineAnimation": "Attack1_1_Cool",
+                "eventTimes": [
+                  0.5
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 100,
+                "multiplierMax": 100,
+                "hitCount": 1,
+                "subtotalMin": 100,
+                "subtotalMax": 100,
+                "eventTimes": [
+                  0.5
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 100,
+              "max": 100
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "6040301"
+          }
+        ],
+        "actionTimeline": [
+          {
+            "timeSeconds": 0.5,
+            "timing": "0.5秒",
+            "summary": "命中最近的敌人，造成100%魔法伤害"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "furring-60403-normal",
+            "label": "普通攻击",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0.5,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Attack1_1_Cool"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "100% × 1＝100%",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.5
+              ]
+            }
+          ],
+          "hitCount": 1,
+          "confirmedTotalMultiplier": {
+            "min": 100,
+            "max": 100
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [],
+        "confirmedTotalMultiplier": {
+          "min": 100,
+          "max": 100
+        },
+        "hitCount": 1,
+        "playerResult": "攻击最近的敌人，命中1次，造成100%魔法伤害。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 10
+      },
+      {
+        "id": "furring-60403-sp",
+        "category": "sp",
+        "title": "SP技能：自我恢复",
+        "displayNameKind": "说明名",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "SP",
+          "summary": "SP蓄满后，对自身发动",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [
+            200
+          ],
+          "spRecoveryValues": [
+            17
+          ],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "一次自我恢复",
+            "actionSequence": [
+              {
+                "action": "恢复自身HP",
+                "spineAnimation": "Skill1_1_Cool",
+                "eventTimes": [
+                  0.766667
+                ]
+              }
+            ],
+            "perHit": [],
+            "hitCount": 0,
+            "confirmedTotalMultiplier": {
+              "min": 0,
+              "max": 0
+            },
+            "verdict": "no-damage",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "6040302"
+          }
+        ],
+        "actionTimeline": [
+          {
+            "timeSeconds": 0.766667,
+            "timing": "0.766667秒",
+            "summary": "恢复自身HP，恢复量为魔法攻击力的150%"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "furring-60403-sp",
+            "label": "自我恢复",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0.766667,
+                "type": "recovery",
+                "label": "恢复生效"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill1_1_Cool"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "无直接伤害",
+          "perHit": [],
+          "hitCount": 0,
+          "confirmedTotalMultiplier": {
+            "min": 0,
+            "max": 0
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [
+          {
+            "type": "恢复",
+            "name": "自我恢复",
+            "description": "恢复量为自身魔法攻击力的150%。",
+            "target": "Boss自身",
+            "probabilityPercent": 100,
+            "durationSeconds": null,
+            "value": 150,
+            "valueUnit": "magic-attack-percent",
+            "stacking": null,
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "instant",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "boss",
+            "skillId": "furring-60403-sp",
+            "skillType": "attack"
+          }
+        ],
+        "confirmedTotalMultiplier": {
+          "min": 0,
+          "max": 0
+        },
+        "hitCount": 0,
+        "playerResult": "恢复自身HP，恢复量为自身魔法攻击力的150%；技能本身不造成伤害。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 30
+      }
+    ],
+    "mechanisms": [],
+    "units": [],
+    "playerAdvice": [
+      "SP不造成伤害，会一次恢复相当于自身魔法攻击力150%的HP。"
+    ],
+    "unresolved": [],
+    "presentationRules": {
+      "rawEntryCount": 2,
+      "playerAttackGroupCount": 2,
+      "playerMechanismCount": 0,
+      "rawSkillEntriesRendered": false,
+      "internalUidsVisibleToPlayer": false
+    },
+    "runtimeReferences": {},
+    "skillOrder": [
+      {
+        "type": "attack",
+        "id": "furring-60403-normal",
+        "category": "normal"
+      },
+      {
+        "type": "attack",
+        "id": "furring-60403-sp",
+        "category": "sp"
+      }
+    ]
+  },
+  "runtimeReferences": {},
+  "encounterOrder": 49,
+  "directoryAppearances": [
+    {
+      "configurationId": "138",
+      "configurationLabel": "侵略",
+      "configurationOrder": 138,
+      "worldInfoUid": 138,
+      "stageUid": "1380051",
+      "stageOrder": 5,
+      "stageName": "본격적으로 놀아볼까?",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "138",
+      "configurationLabel": "侵略",
+      "configurationOrder": 138,
+      "worldInfoUid": 138,
+      "stageUid": "1380052",
+      "stageOrder": 5,
+      "stageName": "본격적으로 놀아볼까?",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "138",
+      "configurationLabel": "侵略",
+      "configurationOrder": 138,
+      "worldInfoUid": 138,
+      "stageUid": "1380053",
+      "stageOrder": 5,
+      "stageName": "본격적으로 놀아볼까?",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "138",
+      "configurationLabel": "侵略",
+      "configurationOrder": 138,
+      "worldInfoUid": 138,
+      "stageUid": "1380101",
+      "stageOrder": 10,
+      "stageName": "다 함께 물속으로 풍덩!",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "138",
+      "configurationLabel": "侵略",
+      "configurationOrder": 138,
+      "worldInfoUid": 138,
+      "stageUid": "1380102",
+      "stageOrder": 10,
+      "stageName": "다 함께 물속으로 풍덩!",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "138",
+      "configurationLabel": "侵略",
+      "configurationOrder": 138,
+      "worldInfoUid": 138,
+      "stageUid": "1380103",
+      "stageOrder": 10,
+      "stageName": "다 함께 물속으로 풍덩!",
+      "hpBarCount": null
+    }
+  ]
+}

@@ -1,0 +1,460 @@
+{
+  "schemaVersion": 3,
+  "server": "kr",
+  "dataVersion": "2026-08-27",
+  "routeKey": "kr:invasion:61133",
+  "mode": "侵略",
+  "modeKey": "invasion",
+  "monsterUid": "61133",
+  "bossName": "목도룡 - 우울",
+  "personality": "우울",
+  "attackType": "官方未注明",
+  "spineKey": "Hatchling",
+  "spineSkinName": "Skin_Gloomy",
+  "iconUrl": "/boss-wiki/kr/2026-08-27/icons/elias-frontier/61136.png",
+  "difficultyCodes": [
+    1,
+    2,
+    3
+  ],
+  "stages": [
+    {
+      "rowKey": "invasion:1:1200051:61133:0",
+      "monsterUid": "61133",
+      "bossName": "목도룡 - 우울",
+      "personality": "우울",
+      "attackType": "官方未注明",
+      "difficultyCode": 1,
+      "worldName": "마당을 나온 탈주자",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "대문의 자물쇠 박살!",
+      "官方关卡名": "마당을 나온 탈주자",
+      "波次/档位": 5,
+      "等级": "Lv.979",
+      "数值口径": "最终阶段属性",
+      "HP": 223762,
+      "物理攻击": 0,
+      "魔法攻击": 13741,
+      "物理防御": 23553,
+      "魔法防御": 23553,
+      "暴击": 13741,
+      "暴击伤害": 19628,
+      "暴击抵抗": 10797,
+      "暴伤抵抗": 10797,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 95,
+      "属性加成与特殊说明": "无非零属性加成",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1200051"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1200052:61133:0",
+      "monsterUid": "61133",
+      "bossName": "목도룡 - 우울",
+      "personality": "우울",
+      "attackType": "官方未注明",
+      "difficultyCode": 2,
+      "worldName": "마당을 나온 탈주자",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "대문의 자물쇠 박살!",
+      "官方关卡名": "마당을 나온 탈주자",
+      "波次/档位": 5,
+      "等级": "Lv.1901",
+      "数值口径": "最终阶段属性",
+      "HP": 433978,
+      "物理攻击": 0,
+      "魔法攻击": 26649,
+      "物理防御": 45681,
+      "魔法防御": 45681,
+      "暴击": 26649,
+      "暴击伤害": 38068,
+      "暴击抵抗": 20939,
+      "暴伤抵抗": 20939,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 95,
+      "属性加成与特殊说明": "无非零属性加成",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1200052"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1200053:61133:0",
+      "monsterUid": "61133",
+      "bossName": "목도룡 - 우울",
+      "personality": "우울",
+      "attackType": "官方未注明",
+      "difficultyCode": 3,
+      "worldName": "마당을 나온 탈주자",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "대문의 자물쇠 박살!",
+      "官方关卡名": "마당을 나온 탈주자",
+      "波次/档位": 5,
+      "等级": "Lv.3107",
+      "数值口径": "最终阶段属性",
+      "HP": 708946,
+      "物理攻击": 0,
+      "魔法攻击": 43533,
+      "物理防御": 74625,
+      "魔法防御": 74625,
+      "暴击": 43533,
+      "暴击伤害": 62188,
+      "暴击抵抗": 34205,
+      "暴伤抵抗": 34205,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 95,
+      "属性加成与特殊说明": "无非零属性加成",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1200053"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1200101:61133:0",
+      "monsterUid": "61133",
+      "bossName": "목도룡 - 우울",
+      "personality": "우울",
+      "attackType": "官方未注明",
+      "difficultyCode": 1,
+      "worldName": "마당을 나온 탈주자",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "탈주자 잠든 채 발견!",
+      "官方关卡名": "마당을 나온 탈주자",
+      "波次/档位": 10,
+      "等级": "Lv.1186",
+      "数值口径": "最终阶段属性",
+      "HP": 270958,
+      "物理攻击": 0,
+      "魔法攻击": 16639,
+      "物理防御": 28521,
+      "魔法防御": 28521,
+      "暴击": 16639,
+      "暴击伤害": 23768,
+      "暴击抵抗": 13074,
+      "暴伤抵抗": 13074,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 95,
+      "属性加成与特殊说明": "无非零属性加成",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1200101"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1200102:61133:0",
+      "monsterUid": "61133",
+      "bossName": "목도룡 - 우울",
+      "personality": "우울",
+      "attackType": "官方未注明",
+      "difficultyCode": 2,
+      "worldName": "마당을 나온 탈주자",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "탈주자 잠든 채 발견!",
+      "官方关卡名": "마당을 나온 탈주자",
+      "波次/档位": 10,
+      "等级": "Lv.2422",
+      "数值口径": "最终阶段属性",
+      "HP": 552766,
+      "物理攻击": 0,
+      "魔法攻击": 33943,
+      "物理防御": 58185,
+      "魔法防御": 58185,
+      "暴击": 33943,
+      "暴击伤害": 48488,
+      "暴击抵抗": 26670,
+      "暴伤抵抗": 26670,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 95,
+      "属性加成与特殊说明": "无非零属性加成",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1200102"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1200103:61133:0",
+      "monsterUid": "61133",
+      "bossName": "목도룡 - 우울",
+      "personality": "우울",
+      "attackType": "官方未注明",
+      "difficultyCode": 3,
+      "worldName": "마당을 나온 탈주자",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "탈주자 잠든 채 발견!",
+      "官方关卡名": "마당을 나온 탈주자",
+      "波次/档位": 10,
+      "等级": "Lv.3889",
+      "数值口径": "最终阶段属性",
+      "HP": 887242,
+      "物理攻击": 0,
+      "魔法攻击": 54481,
+      "物理防御": 93393,
+      "魔法防御": 93393,
+      "暴击": 54481,
+      "暴击伤害": 77828,
+      "暴击抵抗": 42807,
+      "暴伤抵抗": 42807,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 95,
+      "属性加成与特殊说明": "无非零属性加成",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1200103"
+      }
+    }
+  ],
+  "skills": [],
+  "guideSkills": [
+    {
+      "id": "6113301",
+      "sourceOrder": 0,
+      "displayName": "일반공격",
+      "presentationLabel": null,
+      "nameKind": "官方技能名",
+      "skillType": "普通攻击",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          42
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 100,
+        "max": 100,
+        "displayMin": 100,
+        "displayMax": 100,
+        "hitCount": 1,
+        "formula": "Attack1_1_Gloomy 100%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Attack1_1_Gloomy",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.5
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "Attack1_1_Gloomy",
+          "spineAnimation": "Attack1_1_Gloomy",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.5
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 100,
+          "confirmedSegmentTotalMax": 100,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": []
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "执行特殊机制",
+          "note": "处理器语义待确认",
+          "action": "执行特殊机制"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "6113302",
+      "sourceOrder": 1,
+      "displayName": "1次伤害结算（Skill1_1_Gloomy）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          42
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 650,
+        "max": 650,
+        "displayMin": 650,
+        "displayMax": 650,
+        "hitCount": 1,
+        "formula": "Skill1_1_Gloomy 650%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Skill1_1_Gloomy",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.5
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "Skill1_1_Gloomy",
+          "spineAnimation": "Skill1_1_Gloomy",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 650,
+              "multiplierMax": 650,
+              "hitCount": 1,
+              "subtotalMin": 650,
+              "subtotalMax": 650,
+              "eventTimes": [
+                0.5
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 650,
+          "confirmedSegmentTotalMax": 650,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": []
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "执行特殊机制",
+          "note": "处理器语义待确认",
+          "action": "执行特殊机制"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    }
+  ],
+  "internalComponents": [],
+  "spineResources": [
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack1_1_Gloomy",
+      "直接连接的技能效果": "6113301",
+      "触发时间": "0.5s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_1_Gloomy",
+      "直接连接的技能效果": "6113302",
+      "触发时间": "0.5s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    }
+  ],
+  "guideReference": null,
+  "runtimeReferences": {}
+}

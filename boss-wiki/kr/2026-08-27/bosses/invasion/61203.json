@@ -1,0 +1,448 @@
+{
+  "schemaVersion": 3,
+  "server": "kr",
+  "dataVersion": "2026-08-27",
+  "routeKey": "kr:invasion:61203",
+  "mode": "侵略",
+  "modeKey": "invasion",
+  "monsterUid": "61203",
+  "bossName": "동석 - 냉정",
+  "personality": "냉정",
+  "attackType": "官方未注明",
+  "spineKey": "Golem",
+  "spineSkinName": "Skin_Cool",
+  "iconUrl": null,
+  "difficultyCodes": [
+    1,
+    2,
+    3
+  ],
+  "stages": [
+    {
+      "rowKey": "invasion:1:1430051:61203:0",
+      "monsterUid": "61203",
+      "bossName": "동석 - 냉정",
+      "personality": "냉정",
+      "attackType": "官方未注明",
+      "difficultyCode": 1,
+      "worldName": "낙서 가득한 거리",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "낙서한 녀석을 찾아라!",
+      "官方关卡名": "낙서 가득한 거리",
+      "波次/档位": 5,
+      "等级": "Lv.8979",
+      "数值口径": "最终阶段属性",
+      "HP": 33173744.4,
+      "物理攻击": 62870,
+      "魔法攻击": 0,
+      "物理防御": 341294,
+      "魔法防御": 125741,
+      "暴击": 125741,
+      "暴击伤害": 125741,
+      "暴击抵抗": 125741,
+      "暴伤抵抗": 125741,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +710% · 最终物理伤害 +280% · 最终魔法伤害 +280%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1430051"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1430052:61203:0",
+      "monsterUid": "61203",
+      "bossName": "동석 - 냉정",
+      "personality": "냉정",
+      "attackType": "官方未注明",
+      "difficultyCode": 2,
+      "worldName": "낙서 가득한 거리",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "낙서한 녀석을 찾아라!",
+      "官方关卡名": "낙서 가득한 거리",
+      "波次/档位": 5,
+      "等级": "Lv.48332",
+      "数值口径": "最终阶段属性",
+      "HP": 1212227060,
+      "物理攻击": 338341,
+      "魔法攻击": 0,
+      "物理防御": 1836708,
+      "魔法防御": 676683,
+      "暴击": 676683,
+      "暴击伤害": 676683,
+      "暴击抵抗": 676683,
+      "暴伤抵抗": 676683,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +5400% · 最终物理伤害 +2835% · 最终魔法伤害 +2835%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1430052"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1430053:61203:0",
+      "monsterUid": "61203",
+      "bossName": "동석 - 냉정",
+      "personality": "냉정",
+      "attackType": "官方未注明",
+      "difficultyCode": 3,
+      "worldName": "낙서 가득한 거리",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "낙서한 녀석을 찾아라!",
+      "官方关卡名": "낙서 가득한 거리",
+      "波次/档位": 5,
+      "等级": "Lv.79120",
+      "数值口径": "最终阶段属性",
+      "HP": 1542412305,
+      "物理攻击": 553857,
+      "魔法攻击": 0,
+      "物理防御": 3006652,
+      "魔法防御": 1107715,
+      "暴击": 1107715,
+      "暴击伤害": 1107715,
+      "暴击抵抗": 1107715,
+      "暴伤抵抗": 1107715,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +4175% · 最终物理伤害 +2546.75% · 最终魔法伤害 +2546.75%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1430053"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1430101:61203:0",
+      "monsterUid": "61203",
+      "bossName": "동석 - 냉정",
+      "personality": "냉정",
+      "attackType": "官方未注明",
+      "difficultyCode": 1,
+      "worldName": "낙서 가득한 거리",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "혼쭐을 내줄 테다!",
+      "官方关卡名": "낙서 가득한 거리",
+      "波次/档位": 10,
+      "等级": "Lv.9594",
+      "数值口径": "最终阶段属性",
+      "HP": 35882904.8,
+      "物理攻击": 67175,
+      "魔法攻击": 0,
+      "物理防御": 364664,
+      "魔法防御": 134351,
+      "暴击": 134351,
+      "暴击伤害": 134351,
+      "暴击抵抗": 134351,
+      "暴伤抵抗": 134351,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +720% · 最终物理伤害 +290% · 最终魔法伤害 +290%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1430101"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1430102:61203:0",
+      "monsterUid": "61203",
+      "bossName": "동석 - 냉정",
+      "personality": "냉정",
+      "attackType": "官方未注明",
+      "difficultyCode": 2,
+      "worldName": "낙서 가득한 거리",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "혼쭐을 내줄 테다!",
+      "官方关卡名": "낙서 가득한 거리",
+      "波次/档位": 10,
+      "等级": "Lv.52062",
+      "数值口径": "最终阶段属性",
+      "HP": 1317646146,
+      "物理攻击": 364451,
+      "魔法攻击": 0,
+      "物理防御": 1978448,
+      "魔法防御": 728903,
+      "暴击": 728903,
+      "暴击伤害": 728903,
+      "暴击抵抗": 728903,
+      "暴伤抵抗": 728903,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +5450% · 最终物理伤害 +2861.25% · 最终魔法伤害 +2861.25%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1430102"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1430103:61203:0",
+      "monsterUid": "61203",
+      "bossName": "동석 - 냉정",
+      "personality": "냉정",
+      "attackType": "官方未注明",
+      "difficultyCode": 3,
+      "worldName": "낙서 가득한 거리",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "혼쭐을 내줄 테다!",
+      "官方关卡名": "낙서 가득한 거리",
+      "波次/档位": 10,
+      "等级": "Lv.86130",
+      "数值口径": "最终阶段属性",
+      "HP": 1688884340,
+      "物理攻击": 602927,
+      "魔法攻击": 0,
+      "物理防御": 3273032,
+      "魔法防御": 1205855,
+      "暴击": 1205855,
+      "暴击伤害": 1205855,
+      "暴击抵抗": 1205855,
+      "暴伤抵抗": 1205855,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +4200% · 最终物理伤害 +2562% · 最终魔法伤害 +2562%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1430103"
+      }
+    }
+  ],
+  "skills": [],
+  "guideSkills": [
+    {
+      "id": "6120301",
+      "sourceOrder": 0,
+      "displayName": "일반공격",
+      "presentationLabel": null,
+      "nameKind": "官方技能名",
+      "skillType": "普通攻击",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          6
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 100,
+        "max": 100,
+        "displayMin": 100,
+        "displayMax": 100,
+        "hitCount": 1,
+        "formula": "Attack1_1_Cool 100%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Attack1_1_Cool",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.8
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "Attack1_1_Cool",
+          "spineAnimation": "Attack1_1_Cool",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.8
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 100,
+          "confirmedSegmentTotalMax": 100,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": []
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "6120302",
+      "sourceOrder": 1,
+      "displayName": "护盾（Skill1_1_Cool）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          6
+        ]
+      },
+      "range": null,
+      "verdict": "no-damage",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "护盾",
+          "spineAnimation": "Skill1_1_Cool",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            1.833333
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [],
+      "effectGroups": {
+        "buffs": [
+          {
+            "nameKo": null,
+            "fallbackLabel": "护盾",
+            "descriptionKo": null,
+            "relation": null,
+            "relationDepth": null,
+            "category": "buff",
+            "uid": null,
+            "nameKey": null,
+            "iconUrl": null,
+            "catalogMatch": "not-found",
+            "probabilityPercent": null,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": true,
+            "classificationEvidence": null
+          }
+        ],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "执行特殊机制",
+          "note": "处理器语义待确认",
+          "action": "执行特殊机制"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "官方字段和客户端结算共同确认该技能没有直接正伤害。",
+      "evidenceStatus": "官方字段与客户端结算共同确认无直接正伤害",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    }
+  ],
+  "internalComponents": [],
+  "spineResources": [
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack1_1_Cool",
+      "直接连接的技能效果": "6120301",
+      "触发时间": "0.8s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_1_Cool",
+      "直接连接的技能效果": "6120302",
+      "触发时间": "1.833333s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    }
+  ],
+  "guideReference": null,
+  "runtimeReferences": {}
+}

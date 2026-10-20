@@ -1,0 +1,346 @@
+{
+  "schemaVersion": 3,
+  "server": "kr",
+  "dataVersion": "2026-08-27",
+  "routeKey": "kr:invasion:60813",
+  "mode": "侵略",
+  "modeKey": "invasion",
+  "monsterUid": "60813",
+  "bossName": "고모구지 - 순수",
+  "personality": "순수",
+  "attackType": "官方未注明",
+  "spineKey": "OldTree",
+  "spineSkinName": "Skin_Naive",
+  "iconUrl": "/boss-wiki/kr/2026-08-27/icons/dimensional-clash-1/60814.png",
+  "difficultyCodes": [
+    1,
+    2,
+    3
+  ],
+  "stages": [
+    {
+      "rowKey": "invasion:1:1140051:60813:0",
+      "monsterUid": "60813",
+      "bossName": "고모구지 - 순수",
+      "personality": "순수",
+      "attackType": "官方未注明",
+      "difficultyCode": 1,
+      "worldName": "오래된 도서관 탐험",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "도서관에서는 조용히!",
+      "官方关卡名": "오래된 도서관 탐험",
+      "波次/档位": 5,
+      "等级": "Lv.335",
+      "数值口径": "最终阶段属性",
+      "HP": 102573,
+      "物理攻击": 5735,
+      "魔法攻击": 0,
+      "物理防御": 6411,
+      "魔法防御": 6411,
+      "暴击": 4725,
+      "暴击伤害": 4725,
+      "暴击抵抗": 4725,
+      "暴伤抵抗": 0,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "暴伤抵抗 -100%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1140051"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1140052:60813:0",
+      "monsterUid": "60813",
+      "bossName": "고모구지 - 순수",
+      "personality": "순수",
+      "attackType": "官方未注明",
+      "difficultyCode": 2,
+      "worldName": "오래된 도서관 탐험",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "도서관에서는 조용히!",
+      "官方关卡名": "오래된 도서관 탐험",
+      "波次/档位": 5,
+      "等级": "Lv.666",
+      "数值口径": "最终阶段属性",
+      "HP": 203197,
+      "物理攻击": 11362,
+      "魔法攻击": 0,
+      "物理防御": 12700,
+      "魔法防御": 12700,
+      "暴击": 9359,
+      "暴击伤害": 9359,
+      "暴击抵抗": 9359,
+      "暴伤抵抗": 0,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "暴伤抵抗 -100%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1140052"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1140053:60813:0",
+      "monsterUid": "60813",
+      "bossName": "고모구지 - 순수",
+      "personality": "순수",
+      "attackType": "官方未注明",
+      "difficultyCode": 3,
+      "worldName": "오래된 도서관 탐험",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "도서관에서는 조용히!",
+      "官方关卡名": "오래된 도서관 탐험",
+      "波次/档位": 5,
+      "等级": "Lv.1340",
+      "数值口径": "最终阶段属性",
+      "HP": 408093,
+      "物理攻击": 22820,
+      "魔法攻击": 0,
+      "物理防御": 25506,
+      "魔法防御": 25506,
+      "暴击": 18795,
+      "暴击伤害": 18795,
+      "暴击抵抗": 18795,
+      "暴伤抵抗": 0,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "暴伤抵抗 -100%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1140053"
+      }
+    }
+  ],
+  "skills": [],
+  "guideSkills": [
+    {
+      "id": "6081301",
+      "sourceOrder": 0,
+      "displayName": "일반공격",
+      "presentationLabel": null,
+      "nameKind": "官方技能名",
+      "skillType": "普通攻击",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          16
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 100,
+        "max": 100,
+        "displayMin": 100,
+        "displayMax": 100,
+        "hitCount": 1,
+        "formula": "Attack1_1_Naive 100%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Attack1_1_Naive",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.633333
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "Attack1_1_Naive",
+          "spineAnimation": "Attack1_1_Naive",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.633333
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 100,
+          "confirmedSegmentTotalMax": 100,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": []
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "6081302",
+      "sourceOrder": 1,
+      "displayName": "1次伤害结算（Skill1_1_Naive）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          16
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 450,
+        "max": 450,
+        "displayMin": 450,
+        "displayMax": 450,
+        "hitCount": 1,
+        "formula": "Skill1_1_Naive 450%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Skill1_1_Naive",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.966667
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "Skill1_1_Naive",
+          "spineAnimation": "Skill1_1_Naive",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 450,
+              "multiplierMax": 450,
+              "hitCount": 1,
+              "subtotalMin": 450,
+              "subtotalMax": 450,
+              "eventTimes": [
+                0.966667
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 450,
+          "confirmedSegmentTotalMax": 450,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": []
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    }
+  ],
+  "internalComponents": [],
+  "spineResources": [
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack1_1_Naive",
+      "直接连接的技能效果": "6081301",
+      "触发时间": "0.633333s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_1_Naive",
+      "直接连接的技能效果": "6081302",
+      "触发时间": "0.966667s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    }
+  ],
+  "guideReference": null,
+  "runtimeReferences": {}
+}

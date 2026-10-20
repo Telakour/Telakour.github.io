@@ -1,0 +1,3756 @@
+{
+  "schemaVersion": 8,
+  "server": "kr",
+  "dataDate": "2026-08-27",
+  "routeKey": "kr:invasion:61133",
+  "mode": "侵略",
+  "modeCode": 1,
+  "modeKey": "invasion",
+  "identity": {
+    "uid": "61133",
+    "name": "목도룡 - 우울",
+    "displayName": null,
+    "displayNameKind": null,
+    "role": "boss",
+    "context": "Boss索引对象",
+    "spine": "Hatchling",
+    "personalityCode": 4,
+    "personality": "우울",
+    "attackTypeCode": 2,
+    "attackType": "魔法",
+    "iconKey": "Icon_HatchlingGloomy",
+    "spineSkinName": null,
+    "spineDefaultAnimation": null,
+    "spineActionSuffix": null,
+    "officialTable": "MonsterInfo",
+    "lifecycle": null,
+    "runtimeReferences": {},
+    "iconUrl": "/boss-wiki/kr/2026-08-27/mature/icons/invasion/61133.png",
+    "iconSourceType": "MonsterInfo.Icon官方PNG"
+  },
+  "runtimeMonsterUids": [
+    "61133"
+  ],
+  "bossName": "목도룡 - 우울",
+  "familyKey": "hatchling",
+  "familyOrder": 103010,
+  "variantOrder": 3,
+  "firstFormalAppearance": {
+    "worldInfoUid": 120,
+    "stageOrder": 5,
+    "stageUid": "1200051"
+  },
+  "stageRecords": [
+    {
+      "stageUid": "1200051",
+      "name": "대문의 자물쇠 박살!",
+      "world": "마당을 나온 탈주자",
+      "worldInfoUid": 120,
+      "stageOrder": 5,
+      "difficulty": 1,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 979,
+          "growthTimes": 978,
+          "attributes": {
+            "hp": 223762,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 13741,
+            "physicalDefense": 23553,
+            "magicDefense": 23553,
+            "criticalRate": 13741,
+            "criticalMultiplier": 19628,
+            "criticalResist": 10797,
+            "criticalMultiplierResist": 10797,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 95
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1200052",
+      "name": "대문의 자물쇠 박살!",
+      "world": "마당을 나온 탈주자",
+      "worldInfoUid": 120,
+      "stageOrder": 5,
+      "difficulty": 2,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 1901,
+          "growthTimes": 1900,
+          "attributes": {
+            "hp": 433978,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 26649,
+            "physicalDefense": 45681,
+            "magicDefense": 45681,
+            "criticalRate": 26649,
+            "criticalMultiplier": 38068,
+            "criticalResist": 20939,
+            "criticalMultiplierResist": 20939,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 95
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1200053",
+      "name": "대문의 자물쇠 박살!",
+      "world": "마당을 나온 탈주자",
+      "worldInfoUid": 120,
+      "stageOrder": 5,
+      "difficulty": 3,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 3107,
+          "growthTimes": 3106,
+          "attributes": {
+            "hp": 708946,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 43533,
+            "physicalDefense": 74625,
+            "magicDefense": 74625,
+            "criticalRate": 43533,
+            "criticalMultiplier": 62188,
+            "criticalResist": 34205,
+            "criticalMultiplierResist": 34205,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 95
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1200101",
+      "name": "탈주자 잠든 채 발견!",
+      "world": "마당을 나온 탈주자",
+      "worldInfoUid": 120,
+      "stageOrder": 10,
+      "difficulty": 1,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 1186,
+          "growthTimes": 1185,
+          "attributes": {
+            "hp": 270958,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 16639,
+            "physicalDefense": 28521,
+            "magicDefense": 28521,
+            "criticalRate": 16639,
+            "criticalMultiplier": 23768,
+            "criticalResist": 13074,
+            "criticalMultiplierResist": 13074,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 95
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1200102",
+      "name": "탈주자 잠든 채 발견!",
+      "world": "마당을 나온 탈주자",
+      "worldInfoUid": 120,
+      "stageOrder": 10,
+      "difficulty": 2,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 2422,
+          "growthTimes": 2421,
+          "attributes": {
+            "hp": 552766,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 33943,
+            "physicalDefense": 58185,
+            "magicDefense": 58185,
+            "criticalRate": 33943,
+            "criticalMultiplier": 48488,
+            "criticalResist": 26670,
+            "criticalMultiplierResist": 26670,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 95
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1200103",
+      "name": "탈주자 잠든 채 발견!",
+      "world": "마당을 나온 탈주자",
+      "worldInfoUid": 120,
+      "stageOrder": 10,
+      "difficulty": 3,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 3889,
+          "growthTimes": 3888,
+          "attributes": {
+            "hp": 887242,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 54481,
+            "physicalDefense": 93393,
+            "magicDefense": 93393,
+            "criticalRate": 54481,
+            "criticalMultiplier": 77828,
+            "criticalResist": 42807,
+            "criticalMultiplierResist": 42807,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 95
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    }
+  ],
+  "stageRosters": [
+    {
+      "stageUid": "1200051",
+      "stage": "대문의 자물쇠 박살!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60131",
+              "name": "라쿤아치 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60581",
+              "name": "호바깅 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Pumpkin",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_PumpkinGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61331",
+              "name": "길어용 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60131",
+              "name": "라쿤아치 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60581",
+              "name": "호바깅 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Pumpkin",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_PumpkinGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61131",
+              "name": "목도룡 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61331",
+              "name": "길어용 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60131",
+              "name": "라쿤아치 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60181",
+              "name": "머곰 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61131",
+              "name": "목도룡 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61331",
+              "name": "길어용 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60181",
+              "name": "머곰 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60581",
+              "name": "호바깅 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Pumpkin",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_PumpkinGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61131",
+              "name": "목도룡 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61331",
+              "name": "길어용 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60181",
+              "name": "머곰 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 3
+            },
+            {
+              "uid": "60581",
+              "name": "호바깅 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Pumpkin",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_PumpkinGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61133",
+              "name": "목도룡 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61331",
+              "name": "길어용 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1200052",
+      "stage": "대문의 자물쇠 박살!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60131",
+              "name": "라쿤아치 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60581",
+              "name": "호바깅 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Pumpkin",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_PumpkinGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61331",
+              "name": "길어용 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60131",
+              "name": "라쿤아치 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60581",
+              "name": "호바깅 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Pumpkin",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_PumpkinGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61131",
+              "name": "목도룡 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61331",
+              "name": "길어용 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60131",
+              "name": "라쿤아치 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60181",
+              "name": "머곰 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61131",
+              "name": "목도룡 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61331",
+              "name": "길어용 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60181",
+              "name": "머곰 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60581",
+              "name": "호바깅 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Pumpkin",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_PumpkinGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61131",
+              "name": "목도룡 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61331",
+              "name": "길어용 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60181",
+              "name": "머곰 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 3
+            },
+            {
+              "uid": "60581",
+              "name": "호바깅 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Pumpkin",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_PumpkinGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61133",
+              "name": "목도룡 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61331",
+              "name": "길어용 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1200053",
+      "stage": "대문의 자물쇠 박살!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60131",
+              "name": "라쿤아치 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60581",
+              "name": "호바깅 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Pumpkin",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_PumpkinGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61331",
+              "name": "길어용 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60131",
+              "name": "라쿤아치 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60581",
+              "name": "호바깅 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Pumpkin",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_PumpkinGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61131",
+              "name": "목도룡 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61331",
+              "name": "길어용 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60131",
+              "name": "라쿤아치 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60181",
+              "name": "머곰 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61131",
+              "name": "목도룡 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61331",
+              "name": "길어용 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60181",
+              "name": "머곰 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60581",
+              "name": "호바깅 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Pumpkin",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_PumpkinGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61131",
+              "name": "목도룡 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61331",
+              "name": "길어용 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60181",
+              "name": "머곰 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 3
+            },
+            {
+              "uid": "60581",
+              "name": "호바깅 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Pumpkin",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_PumpkinGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61133",
+              "name": "목도룡 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61331",
+              "name": "길어용 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Imoogi",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ImoogiGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1200101",
+      "stage": "탈주자 잠든 채 발견!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60131",
+              "name": "라쿤아치 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60931",
+              "name": "위스프 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Wisps",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_WispsGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61131",
+              "name": "목도룡 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60131",
+              "name": "라쿤아치 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60181",
+              "name": "머곰 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60931",
+              "name": "위스프 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Wisps",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_WispsGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61131",
+              "name": "목도룡 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60181",
+              "name": "머곰 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60931",
+              "name": "위스프 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Wisps",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_WispsGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61131",
+              "name": "목도룡 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60181",
+              "name": "머곰 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 3
+            },
+            {
+              "uid": "60931",
+              "name": "위스프 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Wisps",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_WispsGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61131",
+              "name": "목도룡 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60181",
+              "name": "머곰 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 3
+            },
+            {
+              "uid": "60931",
+              "name": "위스프 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Wisps",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_WispsGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61131",
+              "name": "목도룡 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61133",
+              "name": "목도룡 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1200102",
+      "stage": "탈주자 잠든 채 발견!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60131",
+              "name": "라쿤아치 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60931",
+              "name": "위스프 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Wisps",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_WispsGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61131",
+              "name": "목도룡 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60131",
+              "name": "라쿤아치 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60181",
+              "name": "머곰 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60931",
+              "name": "위스프 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Wisps",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_WispsGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61131",
+              "name": "목도룡 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60181",
+              "name": "머곰 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60931",
+              "name": "위스프 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Wisps",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_WispsGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61131",
+              "name": "목도룡 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60181",
+              "name": "머곰 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 3
+            },
+            {
+              "uid": "60931",
+              "name": "위스프 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Wisps",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_WispsGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61131",
+              "name": "목도룡 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60181",
+              "name": "머곰 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 3
+            },
+            {
+              "uid": "60931",
+              "name": "위스프 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Wisps",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_WispsGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61131",
+              "name": "목도룡 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61133",
+              "name": "목도룡 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1200103",
+      "stage": "탈주자 잠든 채 발견!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60131",
+              "name": "라쿤아치 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60931",
+              "name": "위스프 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Wisps",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_WispsGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61131",
+              "name": "목도룡 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60131",
+              "name": "라쿤아치 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FoodScavenger",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_FoodScavengerGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60181",
+              "name": "머곰 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60931",
+              "name": "위스프 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Wisps",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_WispsGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61131",
+              "name": "목도룡 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60181",
+              "name": "머곰 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60931",
+              "name": "위스프 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Wisps",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_WispsGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61131",
+              "name": "목도룡 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60181",
+              "name": "머곰 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 3
+            },
+            {
+              "uid": "60931",
+              "name": "위스프 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Wisps",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_WispsGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61131",
+              "name": "목도룡 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60181",
+              "name": "머곰 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "GluttonBear",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GluttonBearGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 3
+            },
+            {
+              "uid": "60931",
+              "name": "위스프 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Wisps",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_WispsGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61131",
+              "name": "목도룡 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61133",
+              "name": "목도룡 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Hatchling",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_HatchlingGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "encounterGuide": {
+    "status": "已核对",
+    "battleTimeLimitSeconds": [
+      70
+    ],
+    "battleTimeline": [
+      {
+        "atSeconds": null,
+        "condition": "SP蓄满200后释放",
+        "repeatIntervalSeconds": null,
+        "phase": "全阶段",
+        "event": "SP技能：强力魔法",
+        "category": "sp",
+        "targetType": "attack",
+        "targetId": "hatchling-61133-sp",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      }
+    ],
+    "phases": [],
+    "attacks": [
+      {
+        "id": "hatchling-61133-normal",
+        "category": "normal",
+        "title": "普通攻击",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "无",
+          "summary": "按普通攻击循环使用",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "单次魔法攻击",
+            "actionSequence": [
+              {
+                "action": "发射魔法攻击",
+                "spineAnimation": "Attack1_1_Gloomy",
+                "eventTimes": [
+                  0.5
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 100,
+                "multiplierMax": 100,
+                "hitCount": 1,
+                "subtotalMin": 100,
+                "subtotalMax": 100,
+                "eventTimes": [
+                  0.5
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 100,
+              "max": 100
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "6113301"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "hatchling-61133-normal",
+            "label": "普通攻击",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0.5,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Attack1_1_Gloomy"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "100% × 1＝100%",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.5
+              ]
+            }
+          ],
+          "hitCount": 1,
+          "confirmedTotalMultiplier": {
+            "min": 100,
+            "max": 100
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [
+          {
+            "type": "攻击特性",
+            "name": "必定暴击",
+            "description": "这次伤害会强制判定为暴击。攻略倍率仍显示技能倍率，不把暴击伤害加成重复乘入。",
+            "target": "本次伤害",
+            "probabilityPercent": 100,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "stacking": null,
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "instant",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "unknown",
+            "skillId": "hatchling-61133-normal",
+            "skillType": "attack"
+          }
+        ],
+        "confirmedTotalMultiplier": {
+          "min": 100,
+          "max": 100
+        },
+        "hitCount": 1,
+        "playerResult": "普通攻击命中1次，倍率100%，该次伤害必定暴击。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 10
+      },
+      {
+        "id": "hatchling-61133-sp",
+        "category": "sp",
+        "title": "SP技能：强力魔法",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "SP",
+          "summary": "SP蓄满200后释放",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [
+            200
+          ],
+          "spRecoveryValues": [
+            8
+          ],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "单次魔法攻击",
+            "actionSequence": [
+              {
+                "action": "蓄力后发射强力魔法攻击",
+                "spineAnimation": "Skill1_1_Gloomy",
+                "eventTimes": [
+                  0.5
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 650,
+                "multiplierMax": 650,
+                "hitCount": 1,
+                "subtotalMin": 650,
+                "subtotalMax": 650,
+                "eventTimes": [
+                  0.5
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 650,
+              "max": 650
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "6113302"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "hatchling-61133-sp",
+            "label": "SP技能：强力魔法",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0.5,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill1_1_Gloomy"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "650% × 1＝650%",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 650,
+              "multiplierMax": 650,
+              "hitCount": 1,
+              "subtotalMin": 650,
+              "subtotalMax": 650,
+              "eventTimes": [
+                0.5
+              ]
+            }
+          ],
+          "hitCount": 1,
+          "confirmedTotalMultiplier": {
+            "min": 650,
+            "max": 650
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [
+          {
+            "type": "攻击特性",
+            "name": "必定暴击",
+            "description": "这次伤害会强制判定为暴击。攻略倍率仍显示技能倍率，不把暴击伤害加成重复乘入。",
+            "target": "本次伤害",
+            "probabilityPercent": 100,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "stacking": null,
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "instant",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "unknown",
+            "skillId": "hatchling-61133-sp",
+            "skillType": "attack"
+          }
+        ],
+        "confirmedTotalMultiplier": {
+          "min": 650,
+          "max": 650
+        },
+        "hitCount": 1,
+        "playerResult": "SP命中1次，倍率650%，该次伤害必定暴击。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 30
+      }
+    ],
+    "mechanisms": [],
+    "units": [],
+    "playerAdvice": [
+      "SP只有1次伤害，但单次倍率高；胜利动作里的同效果事件不是SP第二击。"
+    ],
+    "unresolved": [],
+    "presentationRules": {
+      "rawEntryCount": 2,
+      "playerAttackGroupCount": 2,
+      "playerMechanismCount": 0,
+      "rawSkillEntriesRendered": false,
+      "internalUidsVisibleToPlayer": false
+    },
+    "runtimeReferences": {},
+    "skillOrder": [
+      {
+        "type": "attack",
+        "id": "hatchling-61133-normal",
+        "category": "normal"
+      },
+      {
+        "type": "attack",
+        "id": "hatchling-61133-sp",
+        "category": "sp"
+      }
+    ]
+  },
+  "runtimeReferences": {},
+  "encounterOrder": 8,
+  "directoryAppearances": [
+    {
+      "configurationId": "120",
+      "configurationLabel": "侵略",
+      "configurationOrder": 120,
+      "worldInfoUid": 120,
+      "stageUid": "1200051",
+      "stageOrder": 5,
+      "stageName": "대문의 자물쇠 박살!",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "120",
+      "configurationLabel": "侵略",
+      "configurationOrder": 120,
+      "worldInfoUid": 120,
+      "stageUid": "1200052",
+      "stageOrder": 5,
+      "stageName": "대문의 자물쇠 박살!",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "120",
+      "configurationLabel": "侵略",
+      "configurationOrder": 120,
+      "worldInfoUid": 120,
+      "stageUid": "1200053",
+      "stageOrder": 5,
+      "stageName": "대문의 자물쇠 박살!",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "120",
+      "configurationLabel": "侵略",
+      "configurationOrder": 120,
+      "worldInfoUid": 120,
+      "stageUid": "1200101",
+      "stageOrder": 10,
+      "stageName": "탈주자 잠든 채 발견!",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "120",
+      "configurationLabel": "侵略",
+      "configurationOrder": 120,
+      "worldInfoUid": 120,
+      "stageUid": "1200102",
+      "stageOrder": 10,
+      "stageName": "탈주자 잠든 채 발견!",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "120",
+      "configurationLabel": "侵略",
+      "configurationOrder": 120,
+      "worldInfoUid": 120,
+      "stageUid": "1200103",
+      "stageOrder": 10,
+      "stageName": "탈주자 잠든 채 발견!",
+      "hpBarCount": null
+    }
+  ]
+}

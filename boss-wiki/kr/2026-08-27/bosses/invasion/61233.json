@@ -1,0 +1,447 @@
+{
+  "schemaVersion": 3,
+  "server": "kr",
+  "dataVersion": "2026-08-27",
+  "routeKey": "kr:invasion:61233",
+  "mode": "侵略",
+  "modeKey": "invasion",
+  "monsterUid": "61233",
+  "bossName": "근육인데용 - 우울",
+  "personality": "우울",
+  "attackType": "官方未注明",
+  "spineKey": "ProteinDragon",
+  "spineSkinName": "Skin_Gloomy",
+  "iconUrl": null,
+  "difficultyCodes": [
+    1,
+    2,
+    3
+  ],
+  "stages": [
+    {
+      "rowKey": "invasion:1:1300051:61233:0",
+      "monsterUid": "61233",
+      "bossName": "근육인데용 - 우울",
+      "personality": "우울",
+      "attackType": "官方未注明",
+      "difficultyCode": 1,
+      "worldName": "앗, 여긴 수인 숲?!",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "사료스탕스에게 들킬라!",
+      "官方关卡名": "앗, 여긴 수인 숲?!",
+      "波次/档位": 5,
+      "等级": "Lv.2325",
+      "数值口径": "最终阶段属性",
+      "HP": 4952732,
+      "物理攻击": 27929,
+      "魔法攻击": 0,
+      "物理防御": 55857,
+      "魔法防御": 55857,
+      "暴击": 32585,
+      "暴击伤害": 32585,
+      "暴击抵抗": 32585,
+      "暴伤抵抗": 32585,
+      "SP上限": 200,
+      "SP恢复": 17,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +300% · 最终物理伤害 +70% · 最终魔法伤害 +70%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1300051"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1300052:61233:0",
+      "monsterUid": "61233",
+      "bossName": "근육인데용 - 우울",
+      "personality": "우울",
+      "attackType": "官方未注明",
+      "difficultyCode": 2,
+      "worldName": "앗, 여긴 수인 숲?!",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "사료스탕스에게 들킬라!",
+      "官方关卡名": "앗, 여긴 수인 숲?!",
+      "波次/档位": 5,
+      "等级": "Lv.11732",
+      "数值口径": "最终阶段属性",
+      "HP": 193523917,
+      "物理攻击": 140813,
+      "魔法攻击": 0,
+      "物理防御": 281625,
+      "魔法防御": 281625,
+      "暴击": 164283,
+      "暴击伤害": 164283,
+      "暴击抵抗": 164283,
+      "暴伤抵抗": 164283,
+      "SP上限": 200,
+      "SP恢复": 17,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +3000% · 最终物理伤害 +1200% · 最终魔法伤害 +1200%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1300052"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1300053:61233:0",
+      "monsterUid": "61233",
+      "bossName": "근육인데용 - 우울",
+      "personality": "우울",
+      "attackType": "官方未注明",
+      "difficultyCode": 3,
+      "worldName": "앗, 여긴 수인 숲?!",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "사료스탕스에게 들킬라!",
+      "官方关卡名": "앗, 여긴 수인 숲?!",
+      "波次/档位": 5,
+      "等级": "Lv.18108",
+      "数值口径": "最终阶段属性",
+      "HP": 305902963.25,
+      "物理攻击": 217325,
+      "魔法攻击": 0,
+      "物理防御": 434649,
+      "魔法防御": 434649,
+      "暴击": 253547,
+      "暴击伤害": 253547,
+      "暴击抵抗": 253547,
+      "暴伤抵抗": 253547,
+      "SP上限": 200,
+      "SP恢复": 17,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +3075% · 最终物理伤害 +1630% · 最终魔法伤害 +1630%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1300053"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1300101:61233:0",
+      "monsterUid": "61233",
+      "bossName": "근육인데용 - 우울",
+      "personality": "우울",
+      "attackType": "官方未注明",
+      "difficultyCode": 1,
+      "worldName": "앗, 여긴 수인 숲?!",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "우리 구역에 들어온 저 녀석 잡아라!",
+      "官方关卡名": "앗, 여긴 수인 숲?!",
+      "波次/档位": 10,
+      "等级": "Lv.2422",
+      "数值口径": "最终阶段属性",
+      "HP": 5417105.4,
+      "物理攻击": 29093,
+      "魔法攻击": 0,
+      "物理防御": 58185,
+      "魔法防御": 58185,
+      "暴击": 33943,
+      "暴击伤害": 33943,
+      "暴击抵抗": 33943,
+      "暴伤抵抗": 33943,
+      "SP上限": 200,
+      "SP恢复": 17,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +320% · 最终物理伤害 +80% · 最终魔法伤害 +80%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1300101"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1300102:61233:0",
+      "monsterUid": "61233",
+      "bossName": "근육인데용 - 우울",
+      "personality": "우울",
+      "attackType": "官方未注明",
+      "difficultyCode": 2,
+      "worldName": "앗, 여긴 수인 숲?!",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "우리 구역에 들어온 저 녀석 잡아라!",
+      "官方关卡名": "앗, 여긴 수인 숲?!",
+      "波次/档位": 10,
+      "等级": "Lv.12696",
+      "数值口径": "最终阶段属性",
+      "HP": 222933315,
+      "物理攻击": 152381,
+      "魔法攻击": 0,
+      "物理防御": 304761,
+      "魔法防御": 304761,
+      "暴击": 177779,
+      "暴击伤害": 177779,
+      "暴击抵抗": 177779,
+      "暴伤抵抗": 177779,
+      "SP上限": 200,
+      "SP恢复": 17,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +3200% · 最终物理伤害 +1280% · 最终魔法伤害 +1280%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1300102"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1300103:61233:0",
+      "monsterUid": "61233",
+      "bossName": "근육인데용 - 우울",
+      "personality": "우울",
+      "attackType": "官方未注明",
+      "difficultyCode": 3,
+      "worldName": "앗, 여긴 수인 숲?!",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "우리 구역에 들어온 저 녀석 잡아라!",
+      "官方关卡名": "앗, 여긴 수인 숲?!",
+      "波次/档位": 10,
+      "等级": "Lv.18565",
+      "数值口径": "最终阶段属性",
+      "HP": 313622150.25,
+      "物理攻击": 222809,
+      "魔法攻击": 0,
+      "物理防御": 445617,
+      "魔法防御": 445617,
+      "暴击": 259945,
+      "暴击伤害": 259945,
+      "暴击抵抗": 259945,
+      "暴伤抵抗": 259945,
+      "SP上限": 200,
+      "SP恢复": 17,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +3075% · 最终物理伤害 +1780% · 最终魔法伤害 +1780%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1300103"
+      }
+    }
+  ],
+  "skills": [],
+  "guideSkills": [
+    {
+      "id": "6123301",
+      "sourceOrder": 0,
+      "displayName": "일반공격",
+      "presentationLabel": null,
+      "nameKind": "官方技能名",
+      "skillType": "普通攻击",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          6
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 100,
+        "max": 100,
+        "displayMin": 100,
+        "displayMax": 100,
+        "hitCount": 1,
+        "formula": "Attack1_1_Gloomy 100%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Attack1_1_Gloomy",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            1.066667
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "Attack1_1_Gloomy",
+          "spineAnimation": "Attack1_1_Gloomy",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                1.066667
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 100,
+          "confirmedSegmentTotalMax": 100,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": []
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "6123302",
+      "sourceOrder": 1,
+      "displayName": "恢复生命或资源（Skill1_1_Gloomy）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          6
+        ]
+      },
+      "range": null,
+      "verdict": "no-damage",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "恢复生命或资源",
+          "spineAnimation": "Skill1_1_Gloomy",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            2
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [
+          {
+            "healMin": 15,
+            "healMax": 15,
+            "durationMin": 0,
+            "durationMax": 0,
+            "interval": 0
+          }
+        ],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [
+        {
+          "healMin": 15,
+          "healMax": 15,
+          "durationMin": 0,
+          "durationMax": 0,
+          "interval": 0
+        }
+      ],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "按最大HP恢复自身",
+          "officialHealMin": 15,
+          "officialHealMax": 15,
+          "valueUnit": "官方恢复倍率口径",
+          "action": "按最大HP恢复自身"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "官方字段和客户端结算共同确认该技能没有直接正伤害。",
+      "evidenceStatus": "官方字段与客户端结算共同确认无直接正伤害",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    }
+  ],
+  "internalComponents": [],
+  "spineResources": [
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack1_1_Gloomy",
+      "直接连接的技能效果": "6123301",
+      "触发时间": "1.066667s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_1_Gloomy",
+      "直接连接的技能效果": "6123302",
+      "触发时间": "2s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    }
+  ],
+  "guideReference": null,
+  "runtimeReferences": {}
+}

@@ -1,0 +1,3570 @@
+{
+  "schemaVersion": 8,
+  "server": "kr",
+  "dataDate": "2026-08-27",
+  "routeKey": "kr:invasion:61193",
+  "mode": "侵略",
+  "modeCode": 1,
+  "modeKey": "invasion",
+  "identity": {
+    "uid": "61193",
+    "name": "동석 - 활발",
+    "displayName": null,
+    "displayNameKind": null,
+    "role": "boss",
+    "context": "Boss索引对象",
+    "spine": "Golem",
+    "personalityCode": 3,
+    "personality": "활발",
+    "attackTypeCode": 1,
+    "attackType": "物理",
+    "iconKey": "Icon_GolemJolly",
+    "spineSkinName": null,
+    "spineDefaultAnimation": null,
+    "spineActionSuffix": null,
+    "officialTable": "MonsterInfo",
+    "lifecycle": null,
+    "runtimeReferences": {},
+    "iconUrl": "/boss-wiki/kr/2026-08-27/mature/icons/invasion/61193.png",
+    "iconSourceType": "MonsterInfo.Icon官方PNG"
+  },
+  "runtimeMonsterUids": [
+    "61193"
+  ],
+  "bossName": "동석 - 활발",
+  "familyKey": "golem",
+  "familyOrder": 119010,
+  "variantOrder": 4,
+  "firstFormalAppearance": {
+    "worldInfoUid": 127,
+    "stageOrder": 5,
+    "stageUid": "1270051"
+  },
+  "stageRecords": [
+    {
+      "stageUid": "1270051",
+      "name": "쑥쑥! 성장 영양제 투여하기",
+      "world": "유기농 영농 후계자 전설",
+      "worldInfoUid": 127,
+      "stageOrder": 5,
+      "difficulty": 1,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 1871,
+          "growthTimes": 1870,
+          "attributes": {
+            "hp": 2648255.6,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 13114,
+            "magicAttack": 0,
+            "physicalDefense": 71190,
+            "magicDefense": 26229,
+            "criticalRate": 26229,
+            "criticalMultiplier": 26229,
+            "criticalResist": 26229,
+            "criticalMultiplierResist": 26229,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 114
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 21000,
+              "percent": 210
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 2000,
+              "percent": 20
+            },
+            "EndDamageMagicPercent": {
+              "raw": 2000,
+              "percent": 20
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1270052",
+      "name": "쑥쑥! 성장 영양제 투여하기",
+      "world": "유기농 영농 후계자 전설",
+      "worldInfoUid": 127,
+      "stageOrder": 5,
+      "difficulty": 2,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 7564,
+          "growthTimes": 7563,
+          "attributes": {
+            "hp": 48303976,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 52965,
+            "magicAttack": 0,
+            "physicalDefense": 287524,
+            "magicDefense": 105931,
+            "criticalRate": 105931,
+            "criticalMultiplier": 105931,
+            "criticalResist": 105931,
+            "criticalMultiplierResist": 105931,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 114
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 130000,
+              "percent": 1300
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 26000,
+              "percent": 260
+            },
+            "EndDamageMagicPercent": {
+              "raw": 26000,
+              "percent": 260
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1270053",
+      "name": "쑥쑥! 성장 영양제 투여하기",
+      "world": "유기농 영농 후계자 전설",
+      "worldInfoUid": 127,
+      "stageOrder": 5,
+      "difficulty": 3,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 13163,
+          "growthTimes": 13162,
+          "attributes": {
+            "hp": 108061704,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 92158,
+            "magicAttack": 0,
+            "physicalDefense": 500286,
+            "magicDefense": 184317,
+            "criticalRate": 184317,
+            "criticalMultiplier": 184317,
+            "criticalResist": 184317,
+            "criticalMultiplierResist": 184317,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 114
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 170000,
+              "percent": 1700
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 42500,
+              "percent": 425
+            },
+            "EndDamageMagicPercent": {
+              "raw": 42500,
+              "percent": 425
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1270101",
+      "name": "수확은 대풍, 수익은 대흉!",
+      "world": "유기농 영농 후계자 전설",
+      "worldInfoUid": 127,
+      "stageOrder": 10,
+      "difficulty": 1,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 1973,
+          "growthTimes": 1972,
+          "attributes": {
+            "hp": 2972600.4,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 13828,
+            "magicAttack": 0,
+            "physicalDefense": 75066,
+            "magicDefense": 27657,
+            "criticalRate": 27657,
+            "criticalMultiplier": 27657,
+            "criticalResist": 27657,
+            "criticalMultiplierResist": 27657,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 114
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 23000,
+              "percent": 230
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 4000,
+              "percent": 40
+            },
+            "EndDamageMagicPercent": {
+              "raw": 4000,
+              "percent": 40
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1270102",
+      "name": "수확은 대풍, 수익은 대흉!",
+      "world": "유기농 영농 후계자 전설",
+      "worldInfoUid": 127,
+      "stageOrder": 10,
+      "difficulty": 2,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 8262,
+          "growthTimes": 8261,
+          "attributes": {
+            "hp": 64065724,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 57851,
+            "magicAttack": 0,
+            "physicalDefense": 314048,
+            "magicDefense": 115703,
+            "criticalRate": 115703,
+            "criticalMultiplier": 115703,
+            "criticalResist": 115703,
+            "criticalMultiplierResist": 115703,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 114
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 160000,
+              "percent": 1600
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 32000,
+              "percent": 320
+            },
+            "EndDamageMagicPercent": {
+              "raw": 32000,
+              "percent": 320
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "1270103",
+      "name": "수확은 대풍, 수익은 대흉!",
+      "world": "유기농 영농 후계자 전설",
+      "worldInfoUid": 127,
+      "stageOrder": 10,
+      "difficulty": 3,
+      "battleTimeSeconds": 70,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 14508,
+          "growthTimes": 14507,
+          "attributes": {
+            "hp": 152185204,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 101573,
+            "magicAttack": 0,
+            "physicalDefense": 551396,
+            "magicDefense": 203147,
+            "criticalRate": 203147,
+            "criticalMultiplier": 203147,
+            "criticalResist": 203147,
+            "criticalMultiplierResist": 203147,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 114
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 220000,
+              "percent": 2200
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 66000,
+              "percent": 660
+            },
+            "EndDamageMagicPercent": {
+              "raw": 66000,
+              "percent": 660
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    }
+  ],
+  "stageRosters": [
+    {
+      "stageUid": "1270051",
+      "stage": "쑥쑥! 성장 영양제 투여하기",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60391",
+              "name": "퍼리 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60491",
+              "name": "저혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61191",
+              "name": "동석 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60391",
+              "name": "퍼리 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60491",
+              "name": "저혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 3
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60341",
+              "name": "드론 G형 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "DroneG",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_DroneGJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60391",
+              "name": "퍼리 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60491",
+              "name": "저혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61191",
+              "name": "동석 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60341",
+              "name": "드론 G형 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "DroneG",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_DroneGJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60391",
+              "name": "퍼리 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61191",
+              "name": "동석 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60341",
+              "name": "드론 G형 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "DroneG",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_DroneGJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60391",
+              "name": "퍼리 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60491",
+              "name": "저혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61193",
+              "name": "동석 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1270052",
+      "stage": "쑥쑥! 성장 영양제 투여하기",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60391",
+              "name": "퍼리 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60491",
+              "name": "저혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61191",
+              "name": "동석 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60391",
+              "name": "퍼리 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60491",
+              "name": "저혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 3
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60341",
+              "name": "드론 G형 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "DroneG",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_DroneGJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60391",
+              "name": "퍼리 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60491",
+              "name": "저혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61191",
+              "name": "동석 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60341",
+              "name": "드론 G형 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "DroneG",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_DroneGJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60391",
+              "name": "퍼리 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61191",
+              "name": "동석 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60341",
+              "name": "드론 G형 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "DroneG",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_DroneGJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60391",
+              "name": "퍼리 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60491",
+              "name": "저혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61193",
+              "name": "동석 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1270053",
+      "stage": "쑥쑥! 성장 영양제 투여하기",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60391",
+              "name": "퍼리 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60491",
+              "name": "저혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61191",
+              "name": "동석 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60391",
+              "name": "퍼리 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60491",
+              "name": "저혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 3
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60341",
+              "name": "드론 G형 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "DroneG",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_DroneGJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60391",
+              "name": "퍼리 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60491",
+              "name": "저혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61191",
+              "name": "동석 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60341",
+              "name": "드론 G형 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "DroneG",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_DroneGJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60391",
+              "name": "퍼리 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61191",
+              "name": "동석 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60341",
+              "name": "드론 G형 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "DroneG",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_DroneGJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60391",
+              "name": "퍼리 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60491",
+              "name": "저혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61193",
+              "name": "동석 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1270101",
+      "stage": "수확은 대풍, 수익은 대흉!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60341",
+              "name": "드론 G형 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "DroneG",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_DroneGJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60391",
+              "name": "퍼리 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60491",
+              "name": "저혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60391",
+              "name": "퍼리 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60491",
+              "name": "저혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61191",
+              "name": "동석 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60341",
+              "name": "드론 G형 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "DroneG",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_DroneGJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60391",
+              "name": "퍼리 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60491",
+              "name": "저혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61191",
+              "name": "동석 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60341",
+              "name": "드론 G형 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "DroneG",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_DroneGJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60391",
+              "name": "퍼리 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61191",
+              "name": "동석 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60341",
+              "name": "드론 G형 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "DroneG",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_DroneGJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60391",
+              "name": "퍼리 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61191",
+              "name": "동석 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61193",
+              "name": "동석 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1270102",
+      "stage": "수확은 대풍, 수익은 대흉!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60341",
+              "name": "드론 G형 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "DroneG",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_DroneGJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60391",
+              "name": "퍼리 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60491",
+              "name": "저혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60391",
+              "name": "퍼리 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60491",
+              "name": "저혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61191",
+              "name": "동석 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60341",
+              "name": "드론 G형 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "DroneG",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_DroneGJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60391",
+              "name": "퍼리 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60491",
+              "name": "저혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61191",
+              "name": "동석 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60341",
+              "name": "드론 G형 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "DroneG",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_DroneGJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60391",
+              "name": "퍼리 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61191",
+              "name": "동석 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60341",
+              "name": "드론 G형 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "DroneG",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_DroneGJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60391",
+              "name": "퍼리 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61191",
+              "name": "동석 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61193",
+              "name": "동석 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "1270103",
+      "stage": "수확은 대풍, 수익은 대흉!",
+      "battleTimeSeconds": 70,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "60341",
+              "name": "드론 G형 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "DroneG",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_DroneGJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60391",
+              "name": "퍼리 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60491",
+              "name": "저혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "units": [
+            {
+              "uid": "60391",
+              "name": "퍼리 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60491",
+              "name": "저혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61191",
+              "name": "동석 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "units": [
+            {
+              "uid": "60341",
+              "name": "드론 G형 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "DroneG",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_DroneGJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60391",
+              "name": "퍼리 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60491",
+              "name": "저혈당 요정 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "FairyMobCloseRange",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FairyMobCloseRangeJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61191",
+              "name": "동석 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "units": [
+            {
+              "uid": "60341",
+              "name": "드론 G형 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "DroneG",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_DroneGJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "60391",
+              "name": "퍼리 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "61191",
+              "name": "동석 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "units": [
+            {
+              "uid": "60341",
+              "name": "드론 G형 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "DroneG",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_DroneGJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "60391",
+              "name": "퍼리 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Furring",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_FurringJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61191",
+              "name": "동석 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "61193",
+              "name": "동석 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "encounterGuide": {
+    "status": "已核对",
+    "battleTimeLimitSeconds": [
+      70
+    ],
+    "battleTimeline": [
+      {
+        "atSeconds": null,
+        "condition": "SP蓄满200后释放",
+        "repeatIntervalSeconds": null,
+        "phase": "全阶段",
+        "event": "SP技能：蓄力重击",
+        "category": "sp",
+        "targetType": "attack",
+        "targetId": "golem-61193-sp",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      }
+    ],
+    "phases": [],
+    "attacks": [
+      {
+        "id": "golem-61193-normal",
+        "category": "normal",
+        "title": "普通攻击",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "无",
+          "summary": "按普通攻击循环使用",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "单次砸击",
+            "actionSequence": [
+              {
+                "action": "抬手后向前砸击",
+                "spineAnimation": "Attack1_1_Jolly",
+                "eventTimes": [
+                  0.8
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 100,
+                "multiplierMax": 100,
+                "hitCount": 1,
+                "subtotalMin": 100,
+                "subtotalMax": 100,
+                "eventTimes": [
+                  0.8
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 100,
+              "max": 100
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "6119301"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "golem-61193-normal",
+            "label": "普通攻击",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0.8,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Attack1_1_Jolly"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "100% × 1＝100%",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.8
+              ]
+            }
+          ],
+          "hitCount": 1,
+          "confirmedTotalMultiplier": {
+            "min": 100,
+            "max": 100
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [],
+        "confirmedTotalMultiplier": {
+          "min": 100,
+          "max": 100
+        },
+        "hitCount": 1,
+        "playerResult": "向前砸击1次，倍率100%。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 10
+      },
+      {
+        "id": "golem-61193-sp",
+        "category": "sp",
+        "title": "SP技能：蓄力重击",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "SP",
+          "summary": "SP蓄满200后释放",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [
+            200
+          ],
+          "spRecoveryValues": [
+            8
+          ],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "起手命中后进入蓄力循环，再收势",
+            "actionSequence": [
+              {
+                "action": "起手重击并获得减伤",
+                "spineAnimation": "Skill1_1_Jolly",
+                "eventTimes": [
+                  0.666667
+                ]
+              },
+              {
+                "action": "持续蓄力；此段没有伤害",
+                "spineAnimation": "Skill1_2_Jolly_Loop",
+                "eventTimes": []
+              },
+              {
+                "action": "收势；此段没有伤害",
+                "spineAnimation": "Skill1_3_Jolly",
+                "eventTimes": []
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 100,
+                "multiplierMax": 100,
+                "hitCount": 1,
+                "subtotalMin": 100,
+                "subtotalMax": 100,
+                "eventTimes": [
+                  0.666667
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 100,
+              "max": 100
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "6119302"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "golem-61193-sp",
+            "label": "蓄力重击",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0.666667,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 0.666667,
+                "type": "buff",
+                "label": "获得物理减伤"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill1_1_Jolly",
+                "Skill1_2_Jolly_Loop",
+                "Skill1_3_Jolly"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "100% × 1＝100%",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.666667
+              ]
+            }
+          ],
+          "hitCount": 1,
+          "confirmedTotalMultiplier": {
+            "min": 100,
+            "max": 100
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [
+          {
+            "type": "减伤",
+            "name": "物理承伤降低",
+            "description": "受到的物理伤害降低30%，持续5秒。",
+            "target": "Boss自身",
+            "probabilityPercent": 100,
+            "durationSeconds": 5,
+            "value": 30,
+            "valueUnit": "percent-reduction",
+            "stacking": null,
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "status",
+            "statusKey": "kr:24",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_27.png",
+            "iconState": "bound",
+            "nature": "buff",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "boss",
+            "skillId": "golem-61193-sp",
+            "skillType": "attack",
+            "statusUid": "24",
+            "statusNameKey": "StateName_DamagePhysicReceiveDownPercent"
+          }
+        ],
+        "confirmedTotalMultiplier": {
+          "min": 100,
+          "max": 100
+        },
+        "hitCount": 1,
+        "playerResult": "起手重击1次，倍率100%，同时使自身受到的物理伤害降低30%，持续5秒。之后的蓄力循环和收势都不追加伤害。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 30
+      }
+    ],
+    "mechanisms": [],
+    "units": [],
+    "playerAdvice": [
+      "SP起手只有1次伤害；后续长蓄力是输出窗口，但Boss在5秒内获得30%物理减伤。"
+    ],
+    "unresolved": [],
+    "presentationRules": {
+      "rawEntryCount": 2,
+      "playerAttackGroupCount": 2,
+      "playerMechanismCount": 0,
+      "rawSkillEntriesRendered": false,
+      "internalUidsVisibleToPlayer": false
+    },
+    "runtimeReferences": {},
+    "skillOrder": [
+      {
+        "type": "attack",
+        "id": "golem-61193-normal",
+        "category": "normal"
+      },
+      {
+        "type": "attack",
+        "id": "golem-61193-sp",
+        "category": "sp"
+      }
+    ]
+  },
+  "runtimeReferences": {},
+  "encounterOrder": 37,
+  "directoryAppearances": [
+    {
+      "configurationId": "127",
+      "configurationLabel": "侵略",
+      "configurationOrder": 127,
+      "worldInfoUid": 127,
+      "stageUid": "1270051",
+      "stageOrder": 5,
+      "stageName": "쑥쑥! 성장 영양제 투여하기",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "127",
+      "configurationLabel": "侵略",
+      "configurationOrder": 127,
+      "worldInfoUid": 127,
+      "stageUid": "1270052",
+      "stageOrder": 5,
+      "stageName": "쑥쑥! 성장 영양제 투여하기",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "127",
+      "configurationLabel": "侵略",
+      "configurationOrder": 127,
+      "worldInfoUid": 127,
+      "stageUid": "1270053",
+      "stageOrder": 5,
+      "stageName": "쑥쑥! 성장 영양제 투여하기",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "127",
+      "configurationLabel": "侵略",
+      "configurationOrder": 127,
+      "worldInfoUid": 127,
+      "stageUid": "1270101",
+      "stageOrder": 10,
+      "stageName": "수확은 대풍, 수익은 대흉!",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "127",
+      "configurationLabel": "侵略",
+      "configurationOrder": 127,
+      "worldInfoUid": 127,
+      "stageUid": "1270102",
+      "stageOrder": 10,
+      "stageName": "수확은 대풍, 수익은 대흉!",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "127",
+      "configurationLabel": "侵略",
+      "configurationOrder": 127,
+      "worldInfoUid": 127,
+      "stageUid": "1270103",
+      "stageOrder": 10,
+      "stageName": "수확은 대풍, 수익은 대흉!",
+      "hpBarCount": null
+    }
+  ]
+}

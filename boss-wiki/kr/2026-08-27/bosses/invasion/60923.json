@@ -1,0 +1,498 @@
+{
+  "schemaVersion": 3,
+  "server": "kr",
+  "dataVersion": "2026-08-27",
+  "routeKey": "kr:invasion:60923",
+  "mode": "侵略",
+  "modeKey": "invasion",
+  "monsterUid": "60923",
+  "bossName": "위스프 - 광기",
+  "personality": "광기",
+  "attackType": "官方未注明",
+  "spineKey": "Wisps",
+  "spineSkinName": "Skin_Mad",
+  "iconUrl": null,
+  "difficultyCodes": [
+    1,
+    2,
+    3
+  ],
+  "stages": [
+    {
+      "rowKey": "invasion:1:1210051:60923:0",
+      "monsterUid": "60923",
+      "bossName": "위스프 - 광기",
+      "personality": "광기",
+      "attackType": "官方未注明",
+      "difficultyCode": 1,
+      "worldName": "광기의 찜질방",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "드디어 찜질방 입성!",
+      "官方关卡名": "광기의 찜질방",
+      "波次/档位": 5,
+      "等级": "Lv.1157",
+      "数值口径": "最终阶段属性",
+      "HP": 317215.2,
+      "物理攻击": 0,
+      "魔法攻击": 16233,
+      "物理防御": 22029,
+      "魔法防御": 22029,
+      "暴击": 16233,
+      "暴击伤害": 16233,
+      "暴击抵抗": 16233,
+      "暴伤抵抗": 16233,
+      "SP上限": 200,
+      "SP恢复": 17,
+      "攻击速度": 172,
+      "属性加成与特殊说明": "HP +20%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1210051"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1210052:60923:0",
+      "monsterUid": "60923",
+      "bossName": "위스프 - 광기",
+      "personality": "광기",
+      "attackType": "官方未注明",
+      "difficultyCode": 2,
+      "worldName": "광기의 찜질방",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "드디어 찜질방 입성!",
+      "官方关卡名": "광기의 찜질방",
+      "波次/档位": 5,
+      "等级": "Lv.2601",
+      "数值口径": "最终阶段属性",
+      "HP": 813201.86,
+      "物理攻击": 0,
+      "魔法攻击": 36449,
+      "物理防御": 49465,
+      "魔法防御": 49465,
+      "暴击": 36449,
+      "暴击伤害": 36449,
+      "暴击抵抗": 36449,
+      "暴伤抵抗": 36449,
+      "SP上限": 200,
+      "SP恢复": 17,
+      "攻击速度": 172,
+      "属性加成与特殊说明": "HP +37%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1210052"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1210053:60923:0",
+      "monsterUid": "60923",
+      "bossName": "위스프 - 광기",
+      "personality": "광기",
+      "attackType": "官方未注明",
+      "difficultyCode": 3,
+      "worldName": "광기의 찜질방",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "드디어 찜질방 입성!",
+      "官方关卡名": "광기의 찜질방",
+      "波次/档位": 5,
+      "等级": "Lv.4193",
+      "数值口径": "最终阶段属性",
+      "HP": 1549617.48,
+      "物理攻击": 0,
+      "魔法攻击": 58737,
+      "物理防御": 79713,
+      "魔法防御": 79713,
+      "暴击": 58737,
+      "暴击伤害": 58737,
+      "暴击抵抗": 58737,
+      "暴伤抵抗": 58737,
+      "SP上限": 200,
+      "SP恢复": 17,
+      "攻击速度": 172,
+      "属性加成与特殊说明": "HP +62%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1210053"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1210101:60923:0",
+      "monsterUid": "60923",
+      "bossName": "위스프 - 광기",
+      "personality": "광기",
+      "attackType": "官方未注明",
+      "difficultyCode": 1,
+      "worldName": "광기의 찜질방",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "땀 빼고 한판 더!",
+      "官方关卡名": "광기의 찜질방",
+      "波次/档位": 10,
+      "等级": "Lv.1213",
+      "数值口径": "最终阶段属性",
+      "HP": 387959.6,
+      "物理攻击": 0,
+      "魔法攻击": 17017,
+      "物理防御": 23093,
+      "魔法防御": 23093,
+      "暴击": 17017,
+      "暴击伤害": 17017,
+      "暴击抵抗": 17017,
+      "暴伤抵抗": 17017,
+      "SP上限": 200,
+      "SP恢复": 17,
+      "攻击速度": 172,
+      "属性加成与特殊说明": "HP +40%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1210101"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1210102:60923:0",
+      "monsterUid": "60923",
+      "bossName": "위스프 - 광기",
+      "personality": "광기",
+      "attackType": "官方未注明",
+      "difficultyCode": 2,
+      "worldName": "광기의 찜질방",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "땀 빼고 한판 더!",
+      "官方关卡名": "광기의 찜질방",
+      "波次/档位": 10,
+      "等级": "Lv.2992",
+      "数值口径": "最终阶段属性",
+      "HP": 1310833.92,
+      "物理攻击": 0,
+      "魔法攻击": 41923,
+      "物理防御": 56894,
+      "魔法防御": 56894,
+      "暴击": 41923,
+      "暴击伤害": 41923,
+      "暴击抵抗": 41923,
+      "暴伤抵抗": 41923,
+      "SP上限": 200,
+      "SP恢复": 17,
+      "攻击速度": 172,
+      "属性加成与特殊说明": "HP +92%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1210102"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1210103:60923:0",
+      "monsterUid": "60923",
+      "bossName": "위스프 - 광기",
+      "personality": "광기",
+      "attackType": "官方未注明",
+      "difficultyCode": 3,
+      "worldName": "광기의 찜질방",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "땀 빼고 한판 더!",
+      "官方关卡名": "광기의 찜질방",
+      "波次/档位": 10,
+      "等级": "Lv.4816",
+      "数值口径": "最终阶段属性",
+      "HP": 2790438.92,
+      "物理攻击": 0,
+      "魔法攻击": 67459,
+      "物理防御": 91550,
+      "魔法防御": 91550,
+      "暴击": 67459,
+      "暴击伤害": 67459,
+      "暴击抵抗": 67459,
+      "暴伤抵抗": 67459,
+      "SP上限": 200,
+      "SP恢复": 17,
+      "攻击速度": 172,
+      "属性加成与特殊说明": "HP +154%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1210103"
+      }
+    }
+  ],
+  "skills": [],
+  "guideSkills": [
+    {
+      "id": "6092301",
+      "sourceOrder": 0,
+      "displayName": "일반공격",
+      "presentationLabel": null,
+      "nameKind": "官方技能名",
+      "skillType": "普通攻击",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          16
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 100,
+        "max": 100,
+        "displayMin": 100,
+        "displayMax": 100,
+        "hitCount": 1,
+        "formula": "Attack1_1_Mad 100%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "感电；施加控制状态；造成伤害",
+          "spineAnimation": "Attack1_1_Mad",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.633333
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "Attack1_1_Mad",
+          "spineAnimation": "Attack1_1_Mad",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.633333
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 100,
+          "confirmedSegmentTotalMax": 100,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": []
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [
+          {
+            "nameKo": "감전",
+            "fallbackLabel": null,
+            "descriptionKo": "공격 속도와 이동 속도가 감소된다.",
+            "relation": "施加感电",
+            "relationDepth": "直接效果",
+            "category": "debuff",
+            "uid": "55",
+            "nameKey": "StateName_ElectricShock",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_3.png",
+            "catalogMatch": "exact-name",
+            "probabilityPercent": 30,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": false,
+            "classificationEvidence": "官方状态名或说明明确表示控制"
+          }
+        ],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "执行特殊机制",
+          "note": "处理器语义待确认",
+          "action": "执行特殊机制"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "6092302",
+      "sourceOrder": 1,
+      "displayName": "1次伤害结算并感电（Skill1_1_Mad）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          16
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 225,
+        "max": 225,
+        "displayMin": 225,
+        "displayMax": 225,
+        "hitCount": 1,
+        "formula": "Skill1_1_Mad 225%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "感电；施加控制状态；造成伤害",
+          "spineAnimation": "Skill1_1_Mad",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.533333
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "Skill1_1_Mad",
+          "spineAnimation": "Skill1_1_Mad",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 225,
+              "multiplierMax": 225,
+              "hitCount": 1,
+              "subtotalMin": 225,
+              "subtotalMax": 225,
+              "eventTimes": [
+                0.533333
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 225,
+          "confirmedSegmentTotalMax": 225,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": []
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [
+          {
+            "nameKo": "감전",
+            "fallbackLabel": null,
+            "descriptionKo": "공격 속도와 이동 속도가 감소된다.",
+            "relation": "施加感电",
+            "relationDepth": "直接效果",
+            "category": "debuff",
+            "uid": "55",
+            "nameKey": "StateName_ElectricShock",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_3.png",
+            "catalogMatch": "exact-name",
+            "probabilityPercent": 100,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": false,
+            "classificationEvidence": "官方状态名或说明明确表示控制"
+          }
+        ],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "执行特殊机制",
+          "note": "处理器语义待确认",
+          "action": "执行特殊机制"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    }
+  ],
+  "internalComponents": [],
+  "spineResources": [
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack1_1_Mad",
+      "直接连接的技能效果": "6092301",
+      "触发时间": "0.633333s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_1_Mad",
+      "直接连接的技能效果": "6092302",
+      "触发时间": "0.533333s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    }
+  ],
+  "guideReference": null,
+  "runtimeReferences": {}
+}

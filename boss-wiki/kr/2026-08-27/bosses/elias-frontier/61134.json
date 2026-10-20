@@ -1,0 +1,304 @@
+{
+  "schemaVersion": 3,
+  "server": "kr",
+  "dataVersion": "2026-08-27",
+  "routeKey": "kr:elias-frontier:61134",
+  "mode": "艾利亚斯边境",
+  "modeKey": "elias-frontier",
+  "monsterUid": "61134",
+  "bossName": "목도룡 - 우울",
+  "personality": "우울",
+  "attackType": "官方未注明",
+  "spineKey": "Hatchling",
+  "spineSkinName": "Skin_Gloomy",
+  "iconUrl": "/boss-wiki/kr/2026-08-27/icons/elias-frontier/61136.png",
+  "difficultyCodes": [],
+  "stages": [
+    {
+      "rowKey": "elias-frontier:15:15060044:61134:0",
+      "monsterUid": "61134",
+      "bossName": "목도룡 - 우울",
+      "personality": "우울",
+      "attackType": "官方未注明",
+      "difficultyCode": 4,
+      "worldName": "우울의 특이점",
+      "stageOrder": 4,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "not-an-actual-wave-unit",
+      "战斗单位": false,
+      "阶段": "내면의 우울",
+      "官方关卡名": "우울의 특이점",
+      "波次/档位": 4,
+      "等级": "Lv.null",
+      "数值口径": "仅作目标显示参考",
+      "HP": 0,
+      "物理攻击": 0,
+      "魔法攻击": 0,
+      "物理防御": 0,
+      "魔法防御": 0,
+      "暴击": 0,
+      "暴击伤害": 0,
+      "暴击抵抗": 0,
+      "暴伤抵抗": 0,
+      "SP上限": 0,
+      "SP恢复": 0,
+      "攻击速度": 0,
+      "属性加成与特殊说明": "仅作目标显示参考，不是实际波次单位",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": false,
+      "runtimeReferences": {
+        "stageUid": "15060044"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15060094:61134:0",
+      "monsterUid": "61134",
+      "bossName": "목도룡 - 우울",
+      "personality": "우울",
+      "attackType": "官方未注明",
+      "difficultyCode": 4,
+      "worldName": "우울의 특이점",
+      "stageOrder": 9,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "not-an-actual-wave-unit",
+      "战斗单位": false,
+      "阶段": "복잡한 우울",
+      "官方关卡名": "우울의 특이점",
+      "波次/档位": 9,
+      "等级": "Lv.null",
+      "数值口径": "仅作目标显示参考",
+      "HP": 0,
+      "物理攻击": 0,
+      "魔法攻击": 0,
+      "物理防御": 0,
+      "魔法防御": 0,
+      "暴击": 0,
+      "暴击伤害": 0,
+      "暴击抵抗": 0,
+      "暴伤抵抗": 0,
+      "SP上限": 0,
+      "SP恢复": 0,
+      "攻击速度": 0,
+      "属性加成与特殊说明": "仅作目标显示参考，不是实际波次单位",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": false,
+      "runtimeReferences": {
+        "stageUid": "15060094"
+      }
+    }
+  ],
+  "skills": [],
+  "guideSkills": [
+    {
+      "id": "6113401",
+      "sourceOrder": 0,
+      "displayName": "일반공격",
+      "presentationLabel": null,
+      "nameKind": "官方技能名",
+      "skillType": "普通攻击",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          42
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 100,
+        "max": 100,
+        "displayMin": 100,
+        "displayMax": 100,
+        "hitCount": 1,
+        "formula": "Attack1_1_Gloomy 100%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Attack1_1_Gloomy",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.5
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "Attack1_1_Gloomy",
+          "spineAnimation": "Attack1_1_Gloomy",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.5
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 100,
+          "confirmedSegmentTotalMax": 100,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": []
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "执行特殊机制",
+          "note": "处理器语义待确认",
+          "action": "执行特殊机制"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "6113402",
+      "sourceOrder": 1,
+      "displayName": "1次伤害结算（Skill1_1_Gloomy）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          42
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 650,
+        "max": 650,
+        "displayMin": 650,
+        "displayMax": 650,
+        "hitCount": 1,
+        "formula": "Skill1_1_Gloomy 650%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Skill1_1_Gloomy",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.5
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "Skill1_1_Gloomy",
+          "spineAnimation": "Skill1_1_Gloomy",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 650,
+              "multiplierMax": 650,
+              "hitCount": 1,
+              "subtotalMin": 650,
+              "subtotalMax": 650,
+              "eventTimes": [
+                0.5
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 650,
+          "confirmedSegmentTotalMax": 650,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": []
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "执行特殊机制",
+          "note": "处理器语义待确认",
+          "action": "执行特殊机制"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    }
+  ],
+  "internalComponents": [],
+  "spineResources": [
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack1_1_Gloomy",
+      "直接连接的技能效果": "6113401",
+      "触发时间": "0.5s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_1_Gloomy",
+      "直接连接的技能效果": "6113402",
+      "触发时间": "0.5s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    }
+  ],
+  "guideReference": null,
+  "runtimeReferences": {}
+}

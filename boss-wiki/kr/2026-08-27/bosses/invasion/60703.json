@@ -1,0 +1,558 @@
+{
+  "schemaVersion": 3,
+  "server": "kr",
+  "dataVersion": "2026-08-27",
+  "routeKey": "kr:invasion:60703",
+  "mode": "侵略",
+  "modeKey": "invasion",
+  "monsterUid": "60703",
+  "bossName": "셰이디아 극성팬 - 냉정",
+  "personality": "냉정",
+  "attackType": "官方未注明",
+  "spineKey": "ShadyfollowerLongRange",
+  "spineSkinName": "Skin_Cool",
+  "iconUrl": null,
+  "difficultyCodes": [
+    1,
+    2,
+    3
+  ],
+  "stages": [
+    {
+      "rowKey": "invasion:1:1180051:60703:0",
+      "monsterUid": "60703",
+      "bossName": "셰이디아 극성팬 - 냉정",
+      "personality": "냉정",
+      "attackType": "官方未注明",
+      "difficultyCode": 1,
+      "worldName": "바닥과 함께 춤을",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "바닥이 흔들리는 떼창!",
+      "官方关卡名": "바닥과 함께 춤을",
+      "波次/档位": 5,
+      "等级": "Lv.539",
+      "数值口径": "最终阶段属性",
+      "HP": 205736,
+      "物理攻击": 3790,
+      "魔法攻击": 0,
+      "物理防御": 10287,
+      "魔法防御": 10287,
+      "暴击": 7581,
+      "暴击伤害": 7581,
+      "暴击抵抗": 7581,
+      "暴伤抵抗": 3790.5,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 172,
+      "属性加成与特殊说明": "暴伤抵抗 -50%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1180051"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1180052:60703:0",
+      "monsterUid": "60703",
+      "bossName": "셰이디아 극성팬 - 냉정",
+      "personality": "냉정",
+      "attackType": "官方未注明",
+      "difficultyCode": 2,
+      "worldName": "바닥과 함께 춤을",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "바닥이 흔들리는 떼창!",
+      "官方关卡名": "바닥과 함께 춤을",
+      "波次/档位": 5,
+      "等级": "Lv.971",
+      "数值口径": "最终阶段属性",
+      "HP": 369896,
+      "物理攻击": 6814,
+      "魔法攻击": 0,
+      "物理防御": 18495,
+      "魔法防御": 18495,
+      "暴击": 13629,
+      "暴击伤害": 13629,
+      "暴击抵抗": 13629,
+      "暴伤抵抗": 6814.5,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 172,
+      "属性加成与特殊说明": "暴伤抵抗 -50%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1180052"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1180053:60703:0",
+      "monsterUid": "60703",
+      "bossName": "셰이디아 극성팬 - 냉정",
+      "personality": "냉정",
+      "attackType": "官方未注明",
+      "difficultyCode": 3,
+      "worldName": "바닥과 함께 춤을",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "바닥이 흔들리는 떼창!",
+      "官方关卡名": "바닥과 함께 춤을",
+      "波次/档位": 5,
+      "等级": "Lv.1770",
+      "数值口径": "最终阶段属性",
+      "HP": 673516,
+      "物理攻击": 12407,
+      "魔法攻击": 0,
+      "物理防御": 33676,
+      "魔法防御": 33676,
+      "暴击": 24815,
+      "暴击伤害": 24815,
+      "暴击抵抗": 24815,
+      "暴伤抵抗": 12407.5,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 172,
+      "属性加成与特殊说明": "暴伤抵抗 -50%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1180053"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1180101:60703:0",
+      "monsterUid": "60703",
+      "bossName": "셰이디아 극성팬 - 냉정",
+      "personality": "냉정",
+      "attackType": "官方未注明",
+      "difficultyCode": 1,
+      "worldName": "바닥과 함께 춤을",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "앵콜, 앵콜!",
+      "官方关卡名": "바닥과 함께 춤을",
+      "波次/档位": 10,
+      "等级": "Lv.603",
+      "数值口径": "最终阶段属性",
+      "HP": 230056,
+      "物理攻击": 4238,
+      "魔法攻击": 0,
+      "物理防御": 11503,
+      "魔法防御": 11503,
+      "暴击": 8477,
+      "暴击伤害": 8477,
+      "暴击抵抗": 8477,
+      "暴伤抵抗": 4238.5,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 172,
+      "属性加成与特殊说明": "暴伤抵抗 -50%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1180101"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1180102:60703:0",
+      "monsterUid": "60703",
+      "bossName": "셰이디아 극성팬 - 냉정",
+      "personality": "냉정",
+      "attackType": "官方未注明",
+      "difficultyCode": 2,
+      "worldName": "바닥과 함께 춤을",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "앵콜, 앵콜!",
+      "官方关卡名": "바닥과 함께 춤을",
+      "波次/档位": 10,
+      "等级": "Lv.1059",
+      "数值口径": "最终阶段属性",
+      "HP": 403336,
+      "物理攻击": 7430,
+      "魔法攻击": 0,
+      "物理防御": 20167,
+      "魔法防御": 20167,
+      "暴击": 14861,
+      "暴击伤害": 14861,
+      "暴击抵抗": 14861,
+      "暴伤抵抗": 7430.5,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 172,
+      "属性加成与特殊说明": "暴伤抵抗 -50%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1180102"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1180103:60703:0",
+      "monsterUid": "60703",
+      "bossName": "셰이디아 극성팬 - 냉정",
+      "personality": "냉정",
+      "attackType": "官方未注明",
+      "difficultyCode": 3,
+      "worldName": "바닥과 함께 춤을",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "앵콜, 앵콜!",
+      "官方关卡名": "바닥과 함께 춤을",
+      "波次/档位": 10,
+      "等级": "Lv.1888",
+      "数值口径": "最终阶段属性",
+      "HP": 718356,
+      "物理攻击": 13233,
+      "魔法攻击": 0,
+      "物理防御": 35918,
+      "魔法防御": 35918,
+      "暴击": 26467,
+      "暴击伤害": 26467,
+      "暴击抵抗": 26467,
+      "暴伤抵抗": 13233.5,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 172,
+      "属性加成与特殊说明": "暴伤抵抗 -50%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1180103"
+      }
+    }
+  ],
+  "skills": [],
+  "guideSkills": [
+    {
+      "id": "6070301",
+      "sourceOrder": 0,
+      "displayName": "일반공격",
+      "presentationLabel": null,
+      "nameKind": "官方技能名",
+      "skillType": "普通攻击",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          16
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 100,
+        "max": 100,
+        "displayMin": 100,
+        "displayMax": 100,
+        "hitCount": 1,
+        "formula": "Attack1_1_Cool 100%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "流血；造成伤害",
+          "spineAnimation": "Attack1_1_Cool",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.433333
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "Attack1_1_Cool",
+          "spineAnimation": "Attack1_1_Cool",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.433333
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 100,
+          "confirmedSegmentTotalMax": 100,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": []
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [
+          {
+            "nameKo": null,
+            "fallbackLabel": "流血",
+            "descriptionKo": null,
+            "relation": null,
+            "relationDepth": null,
+            "category": "debuff",
+            "uid": null,
+            "nameKey": null,
+            "iconUrl": null,
+            "catalogMatch": "not-found",
+            "probabilityPercent": null,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": true,
+            "classificationEvidence": null
+          }
+        ],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "执行特殊机制",
+          "note": "处理器语义待确认",
+          "action": "执行特殊机制"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "6070302",
+      "sourceOrder": 1,
+      "displayName": "3次伤害结算并流血（Skill1_1_Cool）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          16
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 170.000004768371,
+        "max": 170.000004768371,
+        "displayMin": 170.000004768371,
+        "displayMax": 170.000004768371,
+        "hitCount": 3,
+        "formula": "Skill1_1_Cool 170.000004768371%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "流血；造成伤害",
+          "spineAnimation": "Skill1_1_Cool",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 3,
+          "effectTriggerCount": 3,
+          "eventTimes": [
+            1.033333,
+            1.1,
+            1.2
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "Skill1_1_Cool",
+          "spineAnimation": "Skill1_1_Cool",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 45.0000017881393,
+              "multiplierMax": 45.0000017881393,
+              "hitCount": 1,
+              "subtotalMin": 45.0000017881393,
+              "subtotalMax": 45.0000017881393,
+              "eventTimes": [
+                1.033333
+              ]
+            },
+            {
+              "kind": "direct",
+              "multiplierMin": 45.0000017881393,
+              "multiplierMax": 45.0000017881393,
+              "hitCount": 1,
+              "subtotalMin": 45.0000017881393,
+              "subtotalMax": 45.0000017881393,
+              "eventTimes": [
+                1.1
+              ]
+            },
+            {
+              "kind": "direct",
+              "multiplierMin": 80.0000011920929,
+              "multiplierMax": 80.0000011920929,
+              "hitCount": 1,
+              "subtotalMin": 80.0000011920929,
+              "subtotalMax": 80.0000011920929,
+              "eventTimes": [
+                1.2
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 170.000004768371,
+          "confirmedSegmentTotalMax": 170.000004768371,
+          "confirmedDamageHitCount": 3,
+          "restrictions": [],
+          "spineEffects": []
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [
+          {
+            "nameKo": null,
+            "fallbackLabel": "流血",
+            "descriptionKo": null,
+            "relation": null,
+            "relationDepth": null,
+            "category": "debuff",
+            "uid": null,
+            "nameKey": null,
+            "iconUrl": null,
+            "catalogMatch": "not-found",
+            "probabilityPercent": null,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": true,
+            "classificationEvidence": null
+          },
+          {
+            "nameKo": null,
+            "fallbackLabel": "流血",
+            "descriptionKo": null,
+            "relation": null,
+            "relationDepth": null,
+            "category": "debuff",
+            "uid": null,
+            "nameKey": null,
+            "iconUrl": null,
+            "catalogMatch": "not-found",
+            "probabilityPercent": null,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": true,
+            "classificationEvidence": null
+          },
+          {
+            "nameKo": null,
+            "fallbackLabel": "流血",
+            "descriptionKo": null,
+            "relation": null,
+            "relationDepth": null,
+            "category": "debuff",
+            "uid": null,
+            "nameKey": null,
+            "iconUrl": null,
+            "catalogMatch": "not-found",
+            "probabilityPercent": null,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": true,
+            "classificationEvidence": null
+          }
+        ],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "执行特殊机制",
+          "note": "处理器语义待确认",
+          "action": "执行特殊机制"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    }
+  ],
+  "internalComponents": [],
+  "spineResources": [
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack1_1_Cool",
+      "直接连接的技能效果": "6070301",
+      "触发时间": "0.433333s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_1_Cool",
+      "直接连接的技能效果": "6070302",
+      "触发时间": "1.033333s / 1.1s / 1.2s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    }
+  ],
+  "guideReference": null,
+  "runtimeReferences": {}
+}

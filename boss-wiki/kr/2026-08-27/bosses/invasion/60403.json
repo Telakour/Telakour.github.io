@@ -1,0 +1,445 @@
+{
+  "schemaVersion": 3,
+  "server": "kr",
+  "dataVersion": "2026-08-27",
+  "routeKey": "kr:invasion:60403",
+  "mode": "侵略",
+  "modeKey": "invasion",
+  "monsterUid": "60403",
+  "bossName": "퍼리 - 냉정",
+  "personality": "냉정",
+  "attackType": "官方未注明",
+  "spineKey": "Furring",
+  "spineSkinName": "Skin_Cool",
+  "iconUrl": null,
+  "difficultyCodes": [
+    1,
+    2,
+    3
+  ],
+  "stages": [
+    {
+      "rowKey": "invasion:1:1380051:60403:0",
+      "monsterUid": "60403",
+      "bossName": "퍼리 - 냉정",
+      "personality": "냉정",
+      "attackType": "官方未注明",
+      "difficultyCode": 1,
+      "worldName": "속이 뻥 뚫리는 물세례!",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "본격적으로 놀아볼까?",
+      "官方关卡名": "속이 뻥 뚫리는 물세례!",
+      "波次/档位": 5,
+      "等级": "Lv.5379",
+      "数值口径": "最终阶段属性",
+      "HP": 8097949.2,
+      "物理攻击": 0,
+      "魔法攻击": 64577,
+      "物理防御": 129153,
+      "魔法防御": 129153,
+      "暴击": 75341,
+      "暴击伤害": 75341,
+      "暴击抵抗": 75341,
+      "暴伤抵抗": 75341,
+      "SP上限": 200,
+      "SP恢复": 17,
+      "攻击速度": 133,
+      "属性加成与特殊说明": "HP +560% · 最终物理伤害 +210% · 最终魔法伤害 +210%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1380051"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1380052:60403:0",
+      "monsterUid": "60403",
+      "bossName": "퍼리 - 냉정",
+      "personality": "냉정",
+      "attackType": "官方未注明",
+      "difficultyCode": 2,
+      "worldName": "속이 뻥 뚫리는 물세례!",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "본격적으로 놀아볼까?",
+      "官方关卡名": "속이 뻥 뚫리는 물세례!",
+      "波次/档位": 5,
+      "等级": "Lv.25694",
+      "数值口径": "最终阶段属性",
+      "HP": 278292145,
+      "物理攻击": 0,
+      "魔法攻击": 308357,
+      "物理防御": 616713,
+      "魔法防御": 616713,
+      "暴击": 359751,
+      "暴击伤害": 359751,
+      "暴击抵抗": 359751,
+      "暴伤抵抗": 359751,
+      "SP上限": 200,
+      "SP恢复": 17,
+      "攻击速度": 133,
+      "属性加成与特殊说明": "HP +4650% · 最终物理伤害 +2092.5% · 最终魔法伤害 +2092.5%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1380052"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1380053:60403:0",
+      "monsterUid": "60403",
+      "bossName": "퍼리 - 냉정",
+      "personality": "냉정",
+      "attackType": "官方未注明",
+      "difficultyCode": 3,
+      "worldName": "속이 뻥 뚫리는 물세례!",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "본격적으로 놀아볼까?",
+      "官方关卡名": "속이 뻥 뚫리는 물세례!",
+      "波次/档位": 5,
+      "等级": "Lv.46050",
+      "数值口径": "最终阶段属性",
+      "HP": 409498050,
+      "物理攻击": 0,
+      "魔法攻击": 552629,
+      "物理防御": 1105257,
+      "魔法防御": 1105257,
+      "暴击": 644735,
+      "暴击伤害": 644735,
+      "暴击抵抗": 644735,
+      "暴伤抵抗": 644735,
+      "SP上限": 200,
+      "SP恢复": 17,
+      "攻击速度": 133,
+      "属性加成与特殊说明": "HP +3800% · 最终物理伤害 +2147% · 最终魔法伤害 +2147%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1380053"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1380101:60403:0",
+      "monsterUid": "60403",
+      "bossName": "퍼리 - 냉정",
+      "personality": "냉정",
+      "attackType": "官方未注明",
+      "difficultyCode": 1,
+      "worldName": "속이 뻥 뚫리는 물세례!",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "다 함께 물속으로 풍덩!",
+      "官方关卡名": "속이 뻥 뚫리는 물세례!",
+      "波次/档位": 10,
+      "等级": "Lv.5604",
+      "数值口径": "最终阶段属性",
+      "HP": 8564355.4,
+      "物理攻击": 0,
+      "魔法攻击": 67277,
+      "物理防御": 134553,
+      "魔法防御": 134553,
+      "暴击": 78491,
+      "暴击伤害": 78491,
+      "暴击抵抗": 78491,
+      "暴伤抵抗": 78491,
+      "SP上限": 200,
+      "SP恢复": 17,
+      "攻击速度": 133,
+      "属性加成与特殊说明": "HP +570% · 最终物理伤害 +210% · 最终魔法伤害 +210%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1380101"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1380102:60403:0",
+      "monsterUid": "60403",
+      "bossName": "퍼리 - 냉정",
+      "personality": "냉정",
+      "attackType": "官方未注明",
+      "difficultyCode": 2,
+      "worldName": "속이 뻥 뚫리는 물세례!",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "다 함께 물속으로 풍덩!",
+      "官方关卡名": "속이 뻥 뚫리는 물세례!",
+      "波次/档位": 10,
+      "等级": "Lv.27689",
+      "数值口径": "最终阶段属性",
+      "HP": 303054816,
+      "物理攻击": 0,
+      "魔法攻击": 332297,
+      "物理防御": 664593,
+      "魔法防御": 664593,
+      "暴击": 387681,
+      "暴击伤害": 387681,
+      "暴击抵抗": 387681,
+      "暴伤抵抗": 387681,
+      "SP上限": 200,
+      "SP恢复": 17,
+      "攻击速度": 133,
+      "属性加成与特殊说明": "HP +4700% · 最终物理伤害 +2115% · 最终魔法伤害 +2115%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1380102"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1380103:60403:0",
+      "monsterUid": "60403",
+      "bossName": "퍼리 - 냉정",
+      "personality": "냉정",
+      "attackType": "官方未注明",
+      "difficultyCode": 3,
+      "worldName": "속이 뻥 뚫리는 물세례!",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "다 함께 물속으로 풍덩!",
+      "官方关卡名": "속이 뻥 뚫리는 물세례!",
+      "波次/档位": 10,
+      "等级": "Lv.50910",
+      "数值口径": "最终阶段属性",
+      "HP": 455615177.5,
+      "物理攻击": 0,
+      "魔法攻击": 610949,
+      "物理防御": 1221897,
+      "魔法防御": 1221897,
+      "暴击": 712775,
+      "暴击伤害": 712775,
+      "暴击抵抗": 712775,
+      "暴伤抵抗": 712775,
+      "SP上限": 200,
+      "SP恢复": 17,
+      "攻击速度": 133,
+      "属性加成与特殊说明": "HP +3825% · 最终物理伤害 +2162% · 最终魔法伤害 +2162%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1380103"
+      }
+    }
+  ],
+  "skills": [],
+  "guideSkills": [
+    {
+      "id": "6040301",
+      "sourceOrder": 0,
+      "displayName": "일반공격",
+      "presentationLabel": null,
+      "nameKind": "官方技能名",
+      "skillType": "普通攻击",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          10
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 100,
+        "max": 100,
+        "displayMin": 100,
+        "displayMax": 100,
+        "hitCount": 1,
+        "formula": "Attack1_1_Cool 100%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Attack1_1_Cool",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.5
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "Attack1_1_Cool",
+          "spineAnimation": "Attack1_1_Cool",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.5
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 100,
+          "confirmedSegmentTotalMax": 100,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": []
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "6040302",
+      "sourceOrder": 1,
+      "displayName": "恢复生命或资源（Skill1_1_Cool）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          10
+        ]
+      },
+      "range": null,
+      "verdict": "no-damage",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "恢复生命或资源",
+          "spineAnimation": "Skill1_1_Cool",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.766667
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [
+          {
+            "healMin": 150,
+            "healMax": 150,
+            "durationMin": 0,
+            "durationMax": 0,
+            "interval": 0
+          }
+        ],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [
+        {
+          "healMin": 150,
+          "healMax": 150,
+          "durationMin": 0,
+          "durationMax": 0,
+          "interval": 0
+        }
+      ],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "执行特殊机制",
+          "note": "处理器语义待确认",
+          "action": "执行特殊机制"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "官方字段和客户端结算共同确认该技能没有直接正伤害。",
+      "evidenceStatus": "官方字段与客户端结算共同确认无直接正伤害",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    }
+  ],
+  "internalComponents": [],
+  "spineResources": [
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack1_1_Cool",
+      "直接连接的技能效果": "6040301",
+      "触发时间": "0.5s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_1_Cool",
+      "直接连接的技能效果": "6040302",
+      "触发时间": "0.766667s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    }
+  ],
+  "guideReference": null,
+  "runtimeReferences": {}
+}

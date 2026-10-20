@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 8,
+  "server": "kr",
+  "dataDate": "2026-08-27",
+  "generatedAt": "2026-09-08T14:25:12.015Z",
+  "status": "Boss Wiki成熟攻略数据；网站接入前须通过独立验收",
+  "modes": [
+    {
+      "mode": "次元大冲突1.0",
+      "modeCode": 8,
+      "modeKey": "dimensional-clash-1",
+      "bossCount": 47,
+      "stageMonsterCandidateCount": 0,
+      "configurationCount": 51,
+      "stagesPerConfiguration": 27,
+      "configurationAvailability": "static-table-only"
+    },
+    {
+      "mode": "次元大冲突2.0",
+      "modeCode": 42,
+      "modeKey": "dimensional-clash-2",
+      "bossCount": 19,
+      "stageMonsterCandidateCount": 0,
+      "configurationCount": 8,
+      "stagesPerConfiguration": 24,
+      "configurationAvailability": "static-table-only"
+    },
+    {
+      "mode": "艾利亚斯边境",
+      "modeCode": 15,
+      "modeKey": "elias-frontier",
+      "bossCount": 8,
+      "stageMonsterCandidateCount": 19,
+      "configurationCount": null,
+      "stagesPerConfiguration": 14,
+      "configurationAvailability": null
+    },
+    {
+      "mode": "深海大乱斗",
+      "modeCode": 44,
+      "modeKey": "deep-sea-brawl",
+      "bossCount": 6,
+      "stageMonsterCandidateCount": 0,
+      "configurationCount": null,
+      "stagesPerConfiguration": null,
+      "configurationAvailability": null
+    },
+    {
+      "mode": "侵略",
+      "modeCode": 1,
+      "modeKey": "invasion",
+      "bossCount": 52,
+      "stageMonsterCandidateCount": 0,
+      "configurationCount": null,
+      "stagesPerConfiguration": null,
+      "configurationAvailability": null
+    }
+  ],
+  "bossCount": 132,
+  "officialIconCount": 132,
+  "stageMonsterCount": 19,
+  "targetDisplayReferenceCount": 18,
+  "bossSummonRelationCount": 50,
+  "temporaryAssistRelationCount": 12,
+  "attackGroupCount": 321,
+  "mechanismCount": 47,
+  "exclusions": [
+    {
+      "uid": "65643",
+      "name": "클론 에피카"
+    },
+    {
+      "uid": "21604",
+      "name": "Epicon召唤链"
+    },
+    {
+      "modeCode": 8,
+      "worldInfoUids": [
+        806,
+        807,
+        808,
+        809,
+        810,
+        811
+      ],
+      "reason": "官方测试世界"
+    },
+    {
+      "modeCode": 42,
+      "worldInfoUid": 4105,
+      "reason": "官方遗留世界"
+    }
+  ],
+  "files": {
+    "bossIndex": "bosses-index.json",
+    "unitCatalog": "unit-catalog.json",
+    "stageRosters": "stage-rosters.json"
+  },
+  "specialReview": {
+    "tableDate": "2026-09-24",
+    "tableSha256": "eb22283b69d9e1847a071e471efd0a5d445bb75affd3eff2b7bff05fd0fbad8f",
+    "clientVersion": 10624,
+    "bossCount": 132,
+    "itemCount": 87,
+    "scope": "special-actions-and-mechanisms-only",
+    "stageAttributesDate": "2026-08-27",
+    "runtimeClientDate": "2026-08-27",
+    "report": "special-review-20260924.json"
+  }
+}

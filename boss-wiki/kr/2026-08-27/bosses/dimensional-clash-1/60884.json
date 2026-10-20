@@ -1,0 +1,559 @@
+{
+  "schemaVersion": 3,
+  "server": "kr",
+  "dataVersion": "2026-08-27",
+  "routeKey": "kr:dimensional-clash-1:60884",
+  "mode": "次元大冲突1.0",
+  "modeKey": "dimensional-clash-1",
+  "monsterUid": "60884",
+  "bossName": "한입초 - 우울",
+  "personality": "우울",
+  "attackType": "物理",
+  "spineKey": "Nependers",
+  "spineSkinName": "Skin_Gloomy",
+  "iconUrl": "/boss-wiki/kr/2026-08-27/icons/dimensional-clash-1/60884.png",
+  "difficultyCodes": [
+    0
+  ],
+  "stages": [
+    {
+      "rowKey": "dimensional-clash-1:8:8040110:60884:0",
+      "monsterUid": "60884",
+      "bossName": "한입초 - 우울",
+      "personality": "우울",
+      "attackType": "物理",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 11,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "우울한 차원: 제 11구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 11,
+      "等级": "Lv.900",
+      "数值口径": "最终阶段属性",
+      "HP": 15397709.625,
+      "物理攻击": 8120,
+      "魔法攻击": 0,
+      "物理防御": 26169,
+      "魔法防御": 26169,
+      "暴击": 12635,
+      "暴击伤害": 12635,
+      "暴击抵抗": 9928,
+      "暴伤抵抗": 9928,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 133,
+      "属性加成与特殊说明": "HP +12.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8040110"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-1:8:8040230:60884:0",
+      "monsterUid": "60884",
+      "bossName": "한입초 - 우울",
+      "personality": "우울",
+      "attackType": "物理",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 23,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "우울한 차원: 제 23구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 23,
+      "等级": "Lv.9500",
+      "数值口径": "最终阶段属性",
+      "HP": 6629660438,
+      "物理攻击": 3164240,
+      "魔法攻击": 0,
+      "物理防御": 275569,
+      "魔法防御": 275569,
+      "暴击": 133035,
+      "暴击伤害": 133035,
+      "暴击抵抗": 104528,
+      "暴伤抵抗": 104528,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 133,
+      "属性加成与特殊说明": "HP +4500% · 物攻 +3600% · 魔攻 +3600% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8040230"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-1:8:8240110:60884:0",
+      "monsterUid": "60884",
+      "bossName": "한입초 - 우울",
+      "personality": "우울",
+      "attackType": "物理",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 11,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "우울한 차원: 제 11구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 11,
+      "等级": "Lv.900",
+      "数值口径": "最终阶段属性",
+      "HP": 15397709.625,
+      "物理攻击": 8120,
+      "魔法攻击": 0,
+      "物理防御": 26169,
+      "魔法防御": 26169,
+      "暴击": 12635,
+      "暴击伤害": 12635,
+      "暴击抵抗": 9928,
+      "暴伤抵抗": 9928,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 133,
+      "属性加成与特殊说明": "HP +12.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8240110"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-1:8:8240230:60884:0",
+      "monsterUid": "60884",
+      "bossName": "한입초 - 우울",
+      "personality": "우울",
+      "attackType": "物理",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 23,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "우울한 차원: 제 23구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 23,
+      "等级": "Lv.9500",
+      "数值口径": "最终阶段属性",
+      "HP": 6629660438,
+      "物理攻击": 3164240,
+      "魔法攻击": 0,
+      "物理防御": 275569,
+      "魔法防御": 275569,
+      "暴击": 133035,
+      "暴击伤害": 133035,
+      "暴击抵抗": 104528,
+      "暴伤抵抗": 104528,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 133,
+      "属性加成与特殊说明": "HP +4500% · 物攻 +3600% · 魔攻 +3600% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8240230"
+      }
+    }
+  ],
+  "skills": [],
+  "guideSkills": [
+    {
+      "id": "6088401",
+      "sourceOrder": 0,
+      "displayName": "일반공격",
+      "presentationLabel": null,
+      "nameKind": "官方技能名",
+      "skillType": "普通攻击",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          6
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 100,
+        "max": 100,
+        "displayMin": 100,
+        "displayMax": 100,
+        "hitCount": 1,
+        "formula": "Attack1_1_Gloomy 100%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Attack1_1_Gloomy",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.6
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Attack1"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Nependers_Trace_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_3_M"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "普通攻击动作",
+          "spineAnimation": "Attack1_1_Gloomy",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.6
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 100,
+          "confirmedSegmentTotalMax": 100,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Attack1"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_Nependers_Trace_1"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Common_Hit_3_M"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "6088402",
+      "sourceOrder": 1,
+      "displayName": "2次伤害结算并恢复生命或资源（Skill1_1_Gloomy）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          10
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 1500,
+        "max": 1500,
+        "displayMin": 1500,
+        "displayMax": 1500,
+        "hitCount": 2,
+        "formula": "Skill1_1_Gloomy 1500%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "恢复生命或资源；造成伤害",
+          "spineAnimation": "Skill1_1_Gloomy",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 4,
+          "effectTriggerCount": 4,
+          "eventTimes": [
+            0.766667,
+            1.266667,
+            1.766667,
+            2.6
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Attack1"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Nependers_Trace_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_2_M"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "额外骨骼",
+              "resource": "Point_Top"
+            },
+            {
+              "kind": "额外特效",
+              "resource": "FX_Elena_Ultimate_Eat"
+            },
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill1"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Curburus_Lick_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_1_M"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "技能动作 1",
+          "spineAnimation": "Skill1_1_Gloomy",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 750,
+              "multiplierMax": 750,
+              "hitCount": 1,
+              "subtotalMin": 750,
+              "subtotalMax": 750,
+              "eventTimes": [
+                0.766667
+              ]
+            },
+            {
+              "kind": "direct",
+              "multiplierMin": 750,
+              "multiplierMax": 750,
+              "hitCount": 1,
+              "subtotalMin": 750,
+              "subtotalMax": 750,
+              "eventTimes": [
+                2.6
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 1500,
+          "confirmedSegmentTotalMax": 1500,
+          "confirmedDamageHitCount": 2,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Attack1"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_Nependers_Trace_1"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Common_Hit_2_M"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            },
+            {
+              "field": "额外骨骼",
+              "value": "Point_Top"
+            },
+            {
+              "field": "额外特效",
+              "value": "FX_Elena_Ultimate_Eat"
+            },
+            {
+              "field": "自身骨骼",
+              "value": "Point_Skill1"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_Curburus_Lick_1"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Common_Hit_1_M"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [
+          {
+            "healMin": 500,
+            "healMax": 500,
+            "durationMin": 0,
+            "durationMax": 0,
+            "interval": 0
+          },
+          {
+            "healMin": 500,
+            "healMax": 500,
+            "durationMin": 0,
+            "durationMax": 0,
+            "interval": 0
+          },
+          {
+            "healMin": 500,
+            "healMax": 500,
+            "durationMin": 0,
+            "durationMax": 0,
+            "interval": 0
+          }
+        ],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [
+        {
+          "healMin": 500,
+          "healMax": 500,
+          "durationMin": 0,
+          "durationMax": 0,
+          "interval": 0
+        },
+        {
+          "healMin": 500,
+          "healMax": 500,
+          "durationMin": 0,
+          "durationMax": 0,
+          "interval": 0
+        },
+        {
+          "healMin": 500,
+          "healMax": 500,
+          "durationMin": 0,
+          "durationMax": 0,
+          "interval": 0
+        }
+      ],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "造成伤害并吞入目标",
+          "note": "先进行一次伤害结算，再建立吞食关系；不附加隐藏伤害。",
+          "action": "造成伤害并吞入目标"
+        },
+        {
+          "behavior": "吐出被吞目标并造成伤害",
+          "note": "对吞食列表中的目标各进行一次伤害结算并释放；与Swallow分别计算。",
+          "action": "吐出被吞目标并造成伤害"
+        }
+      ],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    }
+  ],
+  "internalComponents": [],
+  "spineResources": [
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack1_1_Gloomy",
+      "直接连接的技能效果": "6088401",
+      "触发时间": "0.6s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_1_Gloomy",
+      "直接连接的技能效果": "6088402",
+      "触发时间": "0.766667s / 1.266667s / 1.766667s / 2.6s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    }
+  ],
+  "guideReference": null,
+  "runtimeReferences": {}
+}

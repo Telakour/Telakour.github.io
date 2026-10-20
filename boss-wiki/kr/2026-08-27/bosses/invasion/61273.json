@@ -1,0 +1,480 @@
+{
+  "schemaVersion": 3,
+  "server": "kr",
+  "dataVersion": "2026-08-27",
+  "routeKey": "kr:invasion:61273",
+  "mode": "侵略",
+  "modeKey": "invasion",
+  "monsterUid": "61273",
+  "bossName": "햇팽이 - 광기",
+  "personality": "광기",
+  "attackType": "官方未注明",
+  "spineKey": "HatSnail",
+  "spineSkinName": "Skin_Mad",
+  "iconUrl": "/boss-wiki/kr/2026-08-27/icons/dimensional-clash-1/61274.png",
+  "difficultyCodes": [
+    1,
+    2,
+    3
+  ],
+  "stages": [
+    {
+      "rowKey": "invasion:1:1310051:61273:0",
+      "monsterUid": "61273",
+      "bossName": "햇팽이 - 광기",
+      "personality": "광기",
+      "attackType": "官方未注明",
+      "difficultyCode": 1,
+      "worldName": "따뜻시원한 간식 타임",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "보글보글 끓는 요거트",
+      "官方关卡名": "따뜻시원한 간식 타임",
+      "波次/档位": 5,
+      "等级": "Lv.2491",
+      "数值口径": "最终阶段属性",
+      "HP": 4889082.8,
+      "物理攻击": 0,
+      "魔法攻击": 17454,
+      "物理防御": 34909,
+      "魔法防御": 82284,
+      "暴击": 34909,
+      "暴击伤害": 34909,
+      "暴击抵抗": 34909,
+      "暴伤抵抗": 34909,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +330% · 最终物理伤害 +90% · 最终魔法伤害 +90%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1310051"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1310052:61273:0",
+      "monsterUid": "61273",
+      "bossName": "햇팽이 - 광기",
+      "personality": "광기",
+      "attackType": "官方未注明",
+      "difficultyCode": 2,
+      "worldName": "따뜻시원한 간식 타임",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "보글보글 끓는 요거트",
+      "官方关卡名": "따뜻시원한 간식 타임",
+      "波次/档位": 5,
+      "等级": "Lv.12925",
+      "数值口径": "最终阶段属性",
+      "HP": 206321500,
+      "物理攻击": 0,
+      "魔法攻击": 90492,
+      "物理防御": 180985,
+      "魔法防御": 426606,
+      "暴击": 180985,
+      "暴击伤害": 180985,
+      "暴击抵抗": 180985,
+      "暴伤抵抗": 180985,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +3400% · 最终物理伤害 +1360% · 最终魔法伤害 +1360%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1310052"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1310053:61273:0",
+      "monsterUid": "61273",
+      "bossName": "햇팽이 - 광기",
+      "personality": "광기",
+      "attackType": "官方未注明",
+      "difficultyCode": 3,
+      "worldName": "따뜻시원한 간식 타임",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "보글보글 끓는 요거트",
+      "官方关卡名": "따뜻시원한 간식 타임",
+      "波次/档位": 5,
+      "等级": "Lv.21780",
+      "数值口径": "最终阶段属性",
+      "HP": 317848960,
+      "物理攻击": 0,
+      "魔法攻击": 152477,
+      "物理防御": 304955,
+      "魔法防御": 718821,
+      "暴击": 304955,
+      "暴击伤害": 304955,
+      "暴击抵抗": 304955,
+      "暴伤抵抗": 304955,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +3100% · 最终物理伤害 +1795% · 最终魔法伤害 +1795%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1310053"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1310101:61273:0",
+      "monsterUid": "61273",
+      "bossName": "햇팽이 - 광기",
+      "personality": "광기",
+      "attackType": "官方未注明",
+      "difficultyCode": 1,
+      "worldName": "따뜻시원한 간식 타임",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "뭐야, 이 미지근한 맛은!",
+      "官方关卡名": "따뜻시원한 간식 타임",
+      "波次/档位": 10,
+      "等级": "Lv.2600",
+      "数值口径": "最终阶段属性",
+      "HP": 5340150,
+      "物理攻击": 0,
+      "魔法攻击": 18217,
+      "物理防御": 36435,
+      "魔法防御": 85881,
+      "暴击": 36435,
+      "暴击伤害": 36435,
+      "暴击抵抗": 36435,
+      "暴伤抵抗": 36435,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +350% · 最终物理伤害 +100% · 最终魔法伤害 +100%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1310101"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1310102:61273:0",
+      "monsterUid": "61273",
+      "bossName": "햇팽이 - 광기",
+      "personality": "광기",
+      "attackType": "官方未注明",
+      "difficultyCode": 2,
+      "worldName": "따뜻시원한 간식 타임",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "뭐야, 이 미지근한 맛은!",
+      "官方关卡名": "따뜻시원한 간식 타임",
+      "波次/档位": 10,
+      "等级": "Lv.13544",
+      "数值口径": "最终阶段属性",
+      "HP": 222377904,
+      "物理攻击": 0,
+      "魔法攻击": 94825,
+      "物理防御": 189651,
+      "魔法防御": 447033,
+      "暴击": 189651,
+      "暴击伤害": 189651,
+      "暴击抵抗": 189651,
+      "暴伤抵抗": 189651,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +3500% · 最终物理伤害 +1400% · 最终魔法伤害 +1400%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1310102"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1310103:61273:0",
+      "monsterUid": "61273",
+      "bossName": "햇팽이 - 광기",
+      "personality": "광기",
+      "attackType": "官方未注明",
+      "difficultyCode": 3,
+      "worldName": "따뜻시원한 간식 타임",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "뭐야, 이 미지근한 맛은!",
+      "官方关卡名": "따뜻시원한 간식 타임",
+      "波次/档位": 10,
+      "等级": "Lv.22769",
+      "数值口径": "最终阶段属性",
+      "HP": 337472330,
+      "物理攻击": 0,
+      "魔法攻击": 159400,
+      "物理防御": 318801,
+      "魔法防御": 751458,
+      "暴击": 318801,
+      "暴击伤害": 318801,
+      "暴击抵抗": 318801,
+      "暴伤抵抗": 318801,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +3150% · 最终物理伤害 +1824% · 最终魔法伤害 +1824%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1310103"
+      }
+    }
+  ],
+  "skills": [],
+  "guideSkills": [
+    {
+      "id": "6127301",
+      "sourceOrder": 0,
+      "displayName": "일반공격",
+      "presentationLabel": null,
+      "nameKind": "官方技能名",
+      "skillType": "普通攻击",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          6
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 100,
+        "max": 100,
+        "displayMin": 100,
+        "displayMax": 100,
+        "hitCount": 1,
+        "formula": "Attack1_1_Mad 100%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Attack1_1_Mad",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.666667
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "Attack1_1_Mad",
+          "spineAnimation": "Attack1_1_Mad",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.666667
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 100,
+          "confirmedSegmentTotalMax": 100,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": []
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "6127302",
+      "sourceOrder": 1,
+      "displayName": "1次伤害结算并中毒（Skill1_1_Mad）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          6
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 300,
+        "max": 300,
+        "displayMin": 300,
+        "displayMax": 300,
+        "hitCount": 1,
+        "formula": "Skill1_1_Mad 300%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "中毒；施加减益状态；造成伤害",
+          "spineAnimation": "Skill1_1_Mad",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            1.5
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "Skill1_1_Mad",
+          "spineAnimation": "Skill1_1_Mad",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 300,
+              "multiplierMax": 300,
+              "hitCount": 1,
+              "subtotalMin": 300,
+              "subtotalMax": 300,
+              "eventTimes": [
+                1.5
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 300,
+          "confirmedSegmentTotalMax": 300,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": []
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [
+          {
+            "nameKo": "중독",
+            "fallbackLabel": null,
+            "descriptionKo": "일정 시간 동안 매초 피해를 입으며 공격력이 감소한다.",
+            "relation": "施加中毒",
+            "relationDepth": "直接效果",
+            "category": "dot",
+            "uid": "58",
+            "nameKey": "StateName_Poison",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_4.png",
+            "catalogMatch": "exact-name",
+            "probabilityPercent": 100,
+            "durationSeconds": 5,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": false,
+            "classificationEvidence": "官方状态名或说明明确表示减益"
+          }
+        ],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "中毒",
+          "probabilityPercent": 100,
+          "durationSeconds": 5,
+          "action": "造成伤害并中毒"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    }
+  ],
+  "internalComponents": [],
+  "spineResources": [
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack1_1_Mad",
+      "直接连接的技能效果": "6127301",
+      "触发时间": "0.666667s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_1_Mad",
+      "直接连接的技能效果": "6127302",
+      "触发时间": "1.5s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    }
+  ],
+  "guideReference": null,
+  "runtimeReferences": {}
+}

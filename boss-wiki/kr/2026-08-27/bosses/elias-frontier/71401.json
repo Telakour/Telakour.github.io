@@ -1,0 +1,5101 @@
+{
+  "schemaVersion": 3,
+  "server": "kr",
+  "dataVersion": "2026-08-27",
+  "routeKey": "kr:elias-frontier:71401",
+  "mode": "艾利亚斯边境",
+  "modeKey": "elias-frontier",
+  "monsterUid": "71401",
+  "bossName": "M.E.O.W",
+  "personality": "无",
+  "attackType": "物理",
+  "spineKey": "MEOW",
+  "spineSkinName": "Skin_None",
+  "iconUrl": "/boss-wiki/kr/2026-08-27/icons/elias-frontier/71401.png",
+  "difficultyCodes": [
+    4
+  ],
+  "stages": [
+    {
+      "rowKey": "elias-frontier:15:15010014:71401:0",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 1,
+      "variantIndex": 0,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[순한맛1] 순항적인 시공간｜变体 1/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 1,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 521898.75,
+      "物理攻击": 492,
+      "魔法攻击": 0,
+      "物理防御": 857,
+      "魔法防御": 620,
+      "暴击": 301,
+      "暴击伤害": 301,
+      "暴击抵抗": 301,
+      "暴伤抵抗": 301,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +125% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010014"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010014:71401:1",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 1,
+      "variantIndex": 1,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[순한맛1] 순항적인 시공간｜变体 2/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 1,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 668157.75,
+      "物理攻击": 630,
+      "魔法攻击": 0,
+      "物理防御": 1097,
+      "魔法防御": 794,
+      "暴击": 385,
+      "暴击伤害": 385,
+      "暴击抵抗": 385,
+      "暴伤抵抗": 385,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +125% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010014"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010014:71401:2",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 1,
+      "variantIndex": 2,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[순한맛1] 순항적인 시공간｜变体 3/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 1,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 814416.75,
+      "物理攻击": 768,
+      "魔法攻击": 0,
+      "物理防御": 1337,
+      "魔法防御": 968,
+      "暴击": 469,
+      "暴击伤害": 469,
+      "暴击抵抗": 469,
+      "暴伤抵抗": 469,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +125% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010014"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010014:71401:3",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 1,
+      "variantIndex": 3,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[순한맛1] 순항적인 시공간｜变体 4/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 1,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 960675.75,
+      "物理攻击": 906,
+      "魔法攻击": 0,
+      "物理防御": 1577,
+      "魔法防御": 1142,
+      "暴击": 553,
+      "暴击伤害": 553,
+      "暴击抵抗": 553,
+      "暴伤抵抗": 553,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +125% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010014"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010014:71401:4",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 1,
+      "variantIndex": 4,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[순한맛1] 순항적인 시공간｜变体 5/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 1,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 1106934.75,
+      "物理攻击": 1044,
+      "魔法攻击": 0,
+      "物理防御": 1817,
+      "魔法防御": 1316,
+      "暴击": 637,
+      "暴击伤害": 637,
+      "暴击抵抗": 637,
+      "暴伤抵抗": 637,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +125% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010014"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010014:71401:5",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 1,
+      "variantIndex": 5,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[순한맛1] 순항적인 시공간｜变体 6/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 1,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 1253193.75,
+      "物理攻击": 1182,
+      "魔法攻击": 0,
+      "物理防御": 2057,
+      "魔法防御": 1490,
+      "暴击": 721,
+      "暴击伤害": 721,
+      "暴击抵抗": 721,
+      "暴伤抵抗": 721,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +125% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010014"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010024:71401:0",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 2,
+      "variantIndex": 0,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[순한맛2] 합리적인 시공간｜变体 1/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 2,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 1175757.5,
+      "物理攻击": 998,
+      "魔法攻击": 0,
+      "物理防御": 1737,
+      "魔法防御": 1258,
+      "暴击": 609,
+      "暴击伤害": 609,
+      "暴击抵抗": 609,
+      "暴伤抵抗": 609,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +150% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010024"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010024:71401:1",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 2,
+      "variantIndex": 1,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[순한맛2] 합리적인 시공간｜变体 2/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 2,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 1500777.5,
+      "物理攻击": 1274,
+      "魔法攻击": 0,
+      "物理防御": 2217,
+      "魔法防御": 1606,
+      "暴击": 777,
+      "暴击伤害": 777,
+      "暴击抵抗": 777,
+      "暴伤抵抗": 777,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +150% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010024"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010024:71401:2",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 2,
+      "variantIndex": 2,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[순한맛2] 합리적인 시공간｜变体 3/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 2,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 1825797.5,
+      "物理攻击": 1550,
+      "魔法攻击": 0,
+      "物理防御": 2697,
+      "魔法防御": 1954,
+      "暴击": 945,
+      "暴击伤害": 945,
+      "暴击抵抗": 945,
+      "暴伤抵抗": 945,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +150% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010024"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010024:71401:3",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 2,
+      "variantIndex": 3,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[순한맛2] 합리적인 시공간｜变体 4/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 2,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 2150817.5,
+      "物理攻击": 1826,
+      "魔法攻击": 0,
+      "物理防御": 3177,
+      "魔法防御": 2302,
+      "暴击": 1113,
+      "暴击伤害": 1113,
+      "暴击抵抗": 1113,
+      "暴伤抵抗": 1113,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +150% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010024"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010024:71401:4",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 2,
+      "variantIndex": 4,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[순한맛2] 합리적인 시공간｜变体 5/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 2,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 2475837.5,
+      "物理攻击": 2102,
+      "魔法攻击": 0,
+      "物理防御": 3657,
+      "魔法防御": 2650,
+      "暴击": 1281,
+      "暴击伤害": 1281,
+      "暴击抵抗": 1281,
+      "暴伤抵抗": 1281,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +150% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010024"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010024:71401:5",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 2,
+      "variantIndex": 5,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[순한맛2] 합리적인 시공간｜变体 6/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 2,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 2800857.5,
+      "物理攻击": 2378,
+      "魔法攻击": 0,
+      "物理防御": 4137,
+      "魔法防御": 2998,
+      "暴击": 1449,
+      "暴击伤害": 1449,
+      "暴击抵抗": 1449,
+      "暴伤抵抗": 1449,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +150% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010024"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010034:71401:0",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 3,
+      "variantIndex": 0,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[로제맛1] 논리적인 시공간｜变体 1/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 3,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 2663834.25,
+      "物理攻击": 2313,
+      "魔法攻击": 0,
+      "物理防御": 3577,
+      "魔法防御": 2592,
+      "暴击": 1253,
+      "暴击伤害": 1253,
+      "暴击抵抗": 1253,
+      "暴伤抵抗": 1253,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +175% · 物攻 +12.5% · 魔攻 +12.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010034"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010034:71401:1",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 3,
+      "variantIndex": 1,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[로제맛1] 논리적인 시공간｜变体 2/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 3,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 3378878.25,
+      "物理攻击": 2934,
+      "魔法攻击": 0,
+      "物理防御": 4537,
+      "魔法防御": 3288,
+      "暴击": 1589,
+      "暴击伤害": 1589,
+      "暴击抵抗": 1589,
+      "暴伤抵抗": 1589,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +175% · 物攻 +12.5% · 魔攻 +12.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010034"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010034:71401:2",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 3,
+      "variantIndex": 2,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[로제맛1] 논리적인 시공간｜变体 3/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 3,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 4093922.25,
+      "物理攻击": 3555,
+      "魔法攻击": 0,
+      "物理防御": 5497,
+      "魔法防御": 3984,
+      "暴击": 1925,
+      "暴击伤害": 1925,
+      "暴击抵抗": 1925,
+      "暴伤抵抗": 1925,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +175% · 物攻 +12.5% · 魔攻 +12.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010034"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010034:71401:3",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 3,
+      "variantIndex": 3,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[로제맛1] 논리적인 시공간｜变体 4/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 3,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 4808966.25,
+      "物理攻击": 4176,
+      "魔法攻击": 0,
+      "物理防御": 6457,
+      "魔法防御": 4680,
+      "暴击": 2261,
+      "暴击伤害": 2261,
+      "暴击抵抗": 2261,
+      "暴伤抵抗": 2261,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +175% · 物攻 +12.5% · 魔攻 +12.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010034"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010034:71401:4",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 3,
+      "variantIndex": 4,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[로제맛1] 논리적인 시공간｜变体 5/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 3,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 5524010.25,
+      "物理攻击": 4797,
+      "魔法攻击": 0,
+      "物理防御": 7417,
+      "魔法防御": 5376,
+      "暴击": 2597,
+      "暴击伤害": 2597,
+      "暴击抵抗": 2597,
+      "暴伤抵抗": 2597,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +175% · 物攻 +12.5% · 魔攻 +12.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010034"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010034:71401:5",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 3,
+      "variantIndex": 5,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[로제맛1] 논리적인 시공간｜变体 6/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 3,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 6239054.25,
+      "物理攻击": 5418,
+      "魔法攻击": 0,
+      "物理防御": 8377,
+      "魔法防御": 6072,
+      "暴击": 2933,
+      "暴击伤害": 2933,
+      "暴击抵抗": 2933,
+      "暴伤抵抗": 2933,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +175% · 物攻 +12.5% · 魔攻 +12.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010034"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010044:71401:0",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 4,
+      "variantIndex": 0,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[로제맛2] 이성적인 시공간｜变体 1/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 4,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 6024283.625,
+      "物理攻击": 5226.4,
+      "魔法攻击": 0,
+      "物理防御": 7737,
+      "魔法防御": 5608,
+      "暴击": 2709,
+      "暴击伤害": 2709,
+      "暴击抵抗": 2709,
+      "暴伤抵抗": 2709,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +187.5% · 物攻 +17.5% · 魔攻 +17.5% · 最终物理减伤 -37.5% · 最终魔法减伤 -37.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -37.5,
+      "魔法减伤字段": -37.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010044"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010044:71401:1",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 4,
+      "variantIndex": 1,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[로제맛2] 이성적인 시공간｜变体 2/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 4,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 7270193.625,
+      "物理攻击": 6307.4,
+      "魔法攻击": 0,
+      "物理防御": 9337,
+      "魔法防御": 6768,
+      "暴击": 3269,
+      "暴击伤害": 3269,
+      "暴击抵抗": 3269,
+      "暴伤抵抗": 3269,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +187.5% · 物攻 +17.5% · 魔攻 +17.5% · 最终物理减伤 -37.5% · 最终魔法减伤 -37.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -37.5,
+      "魔法减伤字段": -37.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010044"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010044:71401:2",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 4,
+      "variantIndex": 2,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[로제맛2] 이성적인 시공간｜变体 3/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 4,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 8516103.625,
+      "物理攻击": 7388.4,
+      "魔法攻击": 0,
+      "物理防御": 10937,
+      "魔法防御": 7928,
+      "暴击": 3829,
+      "暴击伤害": 3829,
+      "暴击抵抗": 3829,
+      "暴伤抵抗": 3829,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +187.5% · 物攻 +17.5% · 魔攻 +17.5% · 最终物理减伤 -37.5% · 最终魔法减伤 -37.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -37.5,
+      "魔法减伤字段": -37.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010044"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010044:71401:3",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 4,
+      "variantIndex": 3,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[로제맛2] 이성적인 시공간｜变体 4/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 4,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 9762013.625,
+      "物理攻击": 8469.4,
+      "魔法攻击": 0,
+      "物理防御": 12537,
+      "魔法防御": 9088,
+      "暴击": 4389,
+      "暴击伤害": 4389,
+      "暴击抵抗": 4389,
+      "暴伤抵抗": 4389,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +187.5% · 物攻 +17.5% · 魔攻 +17.5% · 最终物理减伤 -37.5% · 最终魔法减伤 -37.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -37.5,
+      "魔法减伤字段": -37.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010044"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010044:71401:4",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 4,
+      "variantIndex": 4,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[로제맛2] 이성적인 시공간｜变体 5/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 4,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 11007923.625,
+      "物理攻击": 9550.4,
+      "魔法攻击": 0,
+      "物理防御": 14137,
+      "魔法防御": 10248,
+      "暴击": 4949,
+      "暴击伤害": 4949,
+      "暴击抵抗": 4949,
+      "暴伤抵抗": 4949,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +187.5% · 物攻 +17.5% · 魔攻 +17.5% · 最终物理减伤 -37.5% · 最终魔法减伤 -37.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -37.5,
+      "魔法减伤字段": -37.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010044"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010044:71401:5",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 4,
+      "variantIndex": 5,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[로제맛2] 이성적인 시공간｜变体 6/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 4,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 12253833.625,
+      "物理攻击": 10631.4,
+      "魔法攻击": 0,
+      "物理防御": 15737,
+      "魔法防御": 11408,
+      "暴击": 5509,
+      "暴击伤害": 5509,
+      "暴击抵抗": 5509,
+      "暴伤抵抗": 5509,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +187.5% · 物攻 +17.5% · 魔攻 +17.5% · 最终物理减伤 -37.5% · 最终魔法减伤 -37.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -37.5,
+      "魔法减伤字段": -37.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010044"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010054:71401:0",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[매운맛1] 고난적인 시공간｜变体 1/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 5,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 19067577.875,
+      "物理攻击": 10069.95,
+      "魔法攻击": 0,
+      "物理防御": 13737,
+      "魔法防御": 9958,
+      "暴击": 4809,
+      "暴击伤害": 4809,
+      "暴击抵抗": 4809,
+      "暴伤抵抗": 4809,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +412.5% · 物攻 +27.5% · 魔攻 +27.5% · 最终物理减伤 -45% · 最终魔法减伤 -45% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -45,
+      "魔法减伤字段": -45,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010054"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010054:71401:1",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 5,
+      "variantIndex": 1,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[매운맛1] 고난적인 시공간｜变体 2/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 5,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 26008109.125,
+      "物理攻击": 13735.575,
+      "魔法攻击": 0,
+      "物理防御": 18737,
+      "魔法防御": 13583,
+      "暴击": 6559,
+      "暴击伤害": 6559,
+      "暴击抵抗": 6559,
+      "暴伤抵抗": 6559,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +412.5% · 物攻 +27.5% · 魔攻 +27.5% · 最终物理减伤 -45% · 最终魔法减伤 -45% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -45,
+      "魔法减伤字段": -45,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010054"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010054:71401:2",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 5,
+      "variantIndex": 2,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[매운맛1] 고난적인 시공간｜变体 3/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 5,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 32948640.375,
+      "物理攻击": 17401.2,
+      "魔法攻击": 0,
+      "物理防御": 23737,
+      "魔法防御": 17208,
+      "暴击": 8309,
+      "暴击伤害": 8309,
+      "暴击抵抗": 8309,
+      "暴伤抵抗": 8309,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +412.5% · 物攻 +27.5% · 魔攻 +27.5% · 最终物理减伤 -45% · 最终魔法减伤 -45% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -45,
+      "魔法减伤字段": -45,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010054"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010054:71401:3",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 5,
+      "variantIndex": 3,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[매운맛1] 고난적인 시공간｜变体 4/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 5,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 39889171.625,
+      "物理攻击": 21066.825,
+      "魔法攻击": 0,
+      "物理防御": 28737,
+      "魔法防御": 20833,
+      "暴击": 10059,
+      "暴击伤害": 10059,
+      "暴击抵抗": 10059,
+      "暴伤抵抗": 10059,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +412.5% · 物攻 +27.5% · 魔攻 +27.5% · 最终物理减伤 -45% · 最终魔法减伤 -45% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -45,
+      "魔法减伤字段": -45,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010054"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010054:71401:4",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 5,
+      "variantIndex": 4,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[매운맛1] 고난적인 시공간｜变体 5/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 5,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 46829702.875,
+      "物理攻击": 24732.45,
+      "魔法攻击": 0,
+      "物理防御": 33737,
+      "魔法防御": 24458,
+      "暴击": 11809,
+      "暴击伤害": 11809,
+      "暴击抵抗": 11809,
+      "暴伤抵抗": 11809,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +412.5% · 物攻 +27.5% · 魔攻 +27.5% · 最终物理减伤 -45% · 最终魔法减伤 -45% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -45,
+      "魔法减伤字段": -45,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010054"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010054:71401:5",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 5,
+      "variantIndex": 5,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[매운맛1] 고난적인 시공간｜变体 6/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 5,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 53770234.125,
+      "物理攻击": 28398.075,
+      "魔法攻击": 0,
+      "物理防御": 38737,
+      "魔法防御": 28083,
+      "暴击": 13559,
+      "暴击伤害": 13559,
+      "暴击抵抗": 13559,
+      "暴伤抵抗": 13559,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +412.5% · 物攻 +27.5% · 魔攻 +27.5% · 最终物理减伤 -45% · 最终魔法减伤 -45% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -45,
+      "魔法减伤字段": -45,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010054"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010064:71401:0",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 6,
+      "variantIndex": 0,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[매운맛2] 압박적인 시공간｜变体 1/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 6,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 47557002.25,
+      "物理攻击": 24142.25,
+      "魔法攻击": 0,
+      "物理防御": 30537,
+      "魔法防御": 22138,
+      "暴击": 10689,
+      "暴击伤害": 10689,
+      "暴击抵抗": 10689,
+      "暴伤抵抗": 10689,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +475% · 物攻 +37.5% · 魔攻 +37.5% · 最终物理减伤 -52.5% · 最终魔法减伤 -52.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -52.5,
+      "魔法减伤字段": -52.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010064"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010064:71401:1",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 6,
+      "variantIndex": 1,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[매운맛2] 압박적인 시공간｜变体 2/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 6,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 58458714.75,
+      "物理攻击": 29676.625,
+      "魔法攻击": 0,
+      "物理防御": 37537,
+      "魔法防御": 27213,
+      "暴击": 13139,
+      "暴击伤害": 13139,
+      "暴击抵抗": 13139,
+      "暴伤抵抗": 13139,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +475% · 物攻 +37.5% · 魔攻 +37.5% · 最终物理减伤 -52.5% · 最终魔法减伤 -52.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -52.5,
+      "魔法减伤字段": -52.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010064"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010064:71401:2",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 6,
+      "variantIndex": 2,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[매운맛2] 압박적인 시공간｜变体 3/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 6,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 69360427.25,
+      "物理攻击": 35211,
+      "魔法攻击": 0,
+      "物理防御": 44537,
+      "魔法防御": 32288,
+      "暴击": 15589,
+      "暴击伤害": 15589,
+      "暴击抵抗": 15589,
+      "暴伤抵抗": 15589,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +475% · 物攻 +37.5% · 魔攻 +37.5% · 最终物理减伤 -52.5% · 最终魔法减伤 -52.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -52.5,
+      "魔法减伤字段": -52.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010064"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010064:71401:3",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 6,
+      "variantIndex": 3,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[매운맛2] 압박적인 시공간｜变体 4/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 6,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 80262139.75,
+      "物理攻击": 40745.375,
+      "魔法攻击": 0,
+      "物理防御": 51537,
+      "魔法防御": 37363,
+      "暴击": 18039,
+      "暴击伤害": 18039,
+      "暴击抵抗": 18039,
+      "暴伤抵抗": 18039,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +475% · 物攻 +37.5% · 魔攻 +37.5% · 最终物理减伤 -52.5% · 最终魔法减伤 -52.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -52.5,
+      "魔法减伤字段": -52.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010064"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010064:71401:4",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 6,
+      "variantIndex": 4,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[매운맛2] 압박적인 시공간｜变体 5/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 6,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 91163852.25,
+      "物理攻击": 46279.75,
+      "魔法攻击": 0,
+      "物理防御": 58537,
+      "魔法防御": 42438,
+      "暴击": 20489,
+      "暴击伤害": 20489,
+      "暴击抵抗": 20489,
+      "暴伤抵抗": 20489,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +475% · 物攻 +37.5% · 魔攻 +37.5% · 最终物理减伤 -52.5% · 最终魔法减伤 -52.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -52.5,
+      "魔法减伤字段": -52.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010064"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010064:71401:5",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 6,
+      "variantIndex": 5,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[매운맛2] 압박적인 시공간｜变体 6/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 6,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 102065564.75,
+      "物理攻击": 51814.125,
+      "魔法攻击": 0,
+      "物理防御": 65537,
+      "魔法防御": 47513,
+      "暴击": 22939,
+      "暴击伤害": 22939,
+      "暴击抵抗": 22939,
+      "暴伤抵抗": 22939,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +475% · 物攻 +37.5% · 魔攻 +37.5% · 最终物理减伤 -52.5% · 最终魔法减伤 -52.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -52.5,
+      "魔法减伤字段": -52.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010064"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010074:71401:0",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 7,
+      "variantIndex": 0,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[마라맛1] 과부하된 시공간｜变体 1/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 7,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 98919895.8,
+      "物理攻击": 47727,
+      "魔法攻击": 0,
+      "物理防御": 55337,
+      "魔法防御": 40118,
+      "暴击": 19369,
+      "暴击伤害": 19369,
+      "暴击抵抗": 19369,
+      "暴伤抵抗": 19369,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +560% · 物攻 +50% · 魔攻 +50% · 最终物理减伤 -60% · 最终魔法减伤 -60% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -60,
+      "魔法减伤字段": -60,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010074"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010074:71401:1",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 7,
+      "variantIndex": 1,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[마라맛1] 과부하된 시공간｜变体 2/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 7,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 114650863.8,
+      "物理攻击": 55317,
+      "魔法攻击": 0,
+      "物理防御": 64137,
+      "魔法防御": 46498,
+      "暴击": 22449,
+      "暴击伤害": 22449,
+      "暴击抵抗": 22449,
+      "暴伤抵抗": 22449,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +560% · 物攻 +50% · 魔攻 +50% · 最终物理减伤 -60% · 最终魔法减伤 -60% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -60,
+      "魔法减伤字段": -60,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010074"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010074:71401:2",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 7,
+      "variantIndex": 2,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[마라맛1] 과부하된 시공간｜变体 3/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 7,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 130381831.8,
+      "物理攻击": 62907,
+      "魔法攻击": 0,
+      "物理防御": 72937,
+      "魔法防御": 52878,
+      "暴击": 25529,
+      "暴击伤害": 25529,
+      "暴击抵抗": 25529,
+      "暴伤抵抗": 25529,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +560% · 物攻 +50% · 魔攻 +50% · 最终物理减伤 -60% · 最终魔法减伤 -60% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -60,
+      "魔法减伤字段": -60,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010074"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010074:71401:3",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 7,
+      "variantIndex": 3,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[마라맛1] 과부하된 시공간｜变体 4/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 7,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 146112799.8,
+      "物理攻击": 70497,
+      "魔法攻击": 0,
+      "物理防御": 81737,
+      "魔法防御": 59258,
+      "暴击": 28609,
+      "暴击伤害": 28609,
+      "暴击抵抗": 28609,
+      "暴伤抵抗": 28609,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +560% · 物攻 +50% · 魔攻 +50% · 最终物理减伤 -60% · 最终魔法减伤 -60% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -60,
+      "魔法减伤字段": -60,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010074"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010074:71401:4",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 7,
+      "variantIndex": 4,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[마라맛1] 과부하된 시공간｜变体 5/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 7,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 161843767.8,
+      "物理攻击": 78087,
+      "魔法攻击": 0,
+      "物理防御": 90537,
+      "魔法防御": 65638,
+      "暴击": 31689,
+      "暴击伤害": 31689,
+      "暴击抵抗": 31689,
+      "暴伤抵抗": 31689,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +560% · 物攻 +50% · 魔攻 +50% · 最终物理减伤 -60% · 最终魔法减伤 -60% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -60,
+      "魔法减伤字段": -60,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010074"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010074:71401:5",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 7,
+      "variantIndex": 5,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[마라맛1] 과부하된 시공간｜变体 6/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 7,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 177574735.8,
+      "物理攻击": 85677,
+      "魔法攻击": 0,
+      "物理防御": 99337,
+      "魔法防御": 72018,
+      "暴击": 34769,
+      "暴击伤害": 34769,
+      "暴击抵抗": 34769,
+      "暴伤抵抗": 34769,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +560% · 物攻 +50% · 魔攻 +50% · 最终物理减伤 -60% · 最终魔法减伤 -60% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -60,
+      "魔法减伤字段": -60,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010074"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010084:71401:0",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 8,
+      "variantIndex": 0,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[마라맛2] 융해되는 시공간｜变体 1/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 8,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 174975322.5,
+      "物理攻击": 86674,
+      "魔法攻击": 0,
+      "物理防御": 86137,
+      "魔法防御": 62448,
+      "暴击": 30149,
+      "暴击伤害": 30149,
+      "暴击抵抗": 30149,
+      "暴伤抵抗": 30149,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +650% · 物攻 +75% · 魔攻 +75% · 最终物理减伤 -67.5% · 最终魔法减伤 -67.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -67.5,
+      "魔法减伤字段": -67.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010084"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010084:71401:1",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 8,
+      "variantIndex": 1,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[마라맛2] 융해되는 시공간｜变体 2/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 8,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 199351822.5,
+      "物理攻击": 98749,
+      "魔法攻击": 0,
+      "物理防御": 98137,
+      "魔法防御": 71148,
+      "暴击": 34349,
+      "暴击伤害": 34349,
+      "暴击抵抗": 34349,
+      "暴伤抵抗": 34349,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +650% · 物攻 +75% · 魔攻 +75% · 最终物理减伤 -67.5% · 最终魔法减伤 -67.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -67.5,
+      "魔法减伤字段": -67.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010084"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010084:71401:2",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 8,
+      "variantIndex": 2,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[마라맛2] 융해되는 시공간｜变体 3/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 8,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 223728322.5,
+      "物理攻击": 110824,
+      "魔法攻击": 0,
+      "物理防御": 110137,
+      "魔法防御": 79848,
+      "暴击": 38549,
+      "暴击伤害": 38549,
+      "暴击抵抗": 38549,
+      "暴伤抵抗": 38549,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +650% · 物攻 +75% · 魔攻 +75% · 最终物理减伤 -67.5% · 最终魔法减伤 -67.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -67.5,
+      "魔法减伤字段": -67.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010084"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010084:71401:3",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 8,
+      "variantIndex": 3,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[마라맛2] 융해되는 시공간｜变体 4/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 8,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 248104822.5,
+      "物理攻击": 122899,
+      "魔法攻击": 0,
+      "物理防御": 122137,
+      "魔法防御": 88548,
+      "暴击": 42749,
+      "暴击伤害": 42749,
+      "暴击抵抗": 42749,
+      "暴伤抵抗": 42749,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +650% · 物攻 +75% · 魔攻 +75% · 最终物理减伤 -67.5% · 最终魔法减伤 -67.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -67.5,
+      "魔法减伤字段": -67.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010084"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010084:71401:4",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 8,
+      "variantIndex": 4,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[마라맛2] 융해되는 시공간｜变体 5/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 8,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 272481322.5,
+      "物理攻击": 134974,
+      "魔法攻击": 0,
+      "物理防御": 134137,
+      "魔法防御": 97248,
+      "暴击": 46949,
+      "暴击伤害": 46949,
+      "暴击抵抗": 46949,
+      "暴伤抵抗": 46949,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +650% · 物攻 +75% · 魔攻 +75% · 最终物理减伤 -67.5% · 最终魔法减伤 -67.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -67.5,
+      "魔法减伤字段": -67.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010084"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010084:71401:5",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 8,
+      "variantIndex": 5,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[마라맛2] 융해되는 시공간｜变体 6/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 8,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 296857822.5,
+      "物理攻击": 147049,
+      "魔法攻击": 0,
+      "物理防御": 146137,
+      "魔法防御": 105948,
+      "暴击": 51149,
+      "暴击伤害": 51149,
+      "暴击抵抗": 51149,
+      "暴伤抵抗": 51149,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +650% · 物攻 +75% · 魔攻 +75% · 最终物理减伤 -67.5% · 最终魔法减伤 -67.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -67.5,
+      "魔法减伤字段": -67.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010084"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010094:71401:0",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 9,
+      "variantIndex": 0,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[핵불맛1] 인성박살 시공간｜变体 1/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 9,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 294998815.5,
+      "物理攻击": 162091.6,
+      "魔法攻击": 0,
+      "物理防御": 128137,
+      "魔法防御": 92898,
+      "暴击": 44849,
+      "暴击伤害": 44849,
+      "暴击抵抗": 44849,
+      "暴伤抵抗": 44849,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +750% · 物攻 +120% · 魔攻 +120% · 最终物理减伤 -75% · 最终魔法减伤 -75% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -75,
+      "魔法减伤字段": -75,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010094"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010094:71401:1",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 9,
+      "variantIndex": 1,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[핵불맛1] 인성박살 시공간｜变体 2/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 9,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 336438865.5,
+      "物理攻击": 184861.6,
+      "魔法攻击": 0,
+      "物理防御": 146137,
+      "魔法防御": 105948,
+      "暴击": 51149,
+      "暴击伤害": 51149,
+      "暴击抵抗": 51149,
+      "暴伤抵抗": 51149,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +750% · 物攻 +120% · 魔攻 +120% · 最终物理减伤 -75% · 最终魔法减伤 -75% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -75,
+      "魔法减伤字段": -75,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010094"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010094:71401:2",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 9,
+      "variantIndex": 2,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[핵불맛1] 인성박살 시공간｜变体 3/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 9,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 377878915.5,
+      "物理攻击": 207631.6,
+      "魔法攻击": 0,
+      "物理防御": 164137,
+      "魔法防御": 118998,
+      "暴击": 57449,
+      "暴击伤害": 57449,
+      "暴击抵抗": 57449,
+      "暴伤抵抗": 57449,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +750% · 物攻 +120% · 魔攻 +120% · 最终物理减伤 -75% · 最终魔法减伤 -75% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -75,
+      "魔法减伤字段": -75,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010094"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010094:71401:3",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 9,
+      "variantIndex": 3,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[핵불맛1] 인성박살 시공간｜变体 4/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 9,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 419318965.5,
+      "物理攻击": 230401.6,
+      "魔法攻击": 0,
+      "物理防御": 182137,
+      "魔法防御": 132048,
+      "暴击": 63749,
+      "暴击伤害": 63749,
+      "暴击抵抗": 63749,
+      "暴伤抵抗": 63749,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +750% · 物攻 +120% · 魔攻 +120% · 最终物理减伤 -75% · 最终魔法减伤 -75% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -75,
+      "魔法减伤字段": -75,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010094"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010094:71401:4",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 9,
+      "variantIndex": 4,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[핵불맛1] 인성박살 시공간｜变体 5/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 9,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 460759015.5,
+      "物理攻击": 253171.6,
+      "魔法攻击": 0,
+      "物理防御": 200137,
+      "魔法防御": 145098,
+      "暴击": 70049,
+      "暴击伤害": 70049,
+      "暴击抵抗": 70049,
+      "暴伤抵抗": 70049,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +750% · 物攻 +120% · 魔攻 +120% · 最终物理减伤 -75% · 最终魔法减伤 -75% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -75,
+      "魔法减伤字段": -75,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010094"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010094:71401:5",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 9,
+      "variantIndex": 5,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[핵불맛1] 인성박살 시공간｜变体 6/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 9,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 502199065.5,
+      "物理攻击": 275941.6,
+      "魔法攻击": 0,
+      "物理防御": 218137,
+      "魔法防御": 158148,
+      "暴击": 76349,
+      "暴击伤害": 76349,
+      "暴击抵抗": 76349,
+      "暴伤抵抗": 76349,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +750% · 物攻 +120% · 魔攻 +120% · 最终物理减伤 -75% · 最终魔法减伤 -75% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -75,
+      "魔法减伤字段": -75,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010094"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010104:71401:0",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[핵불맛2] 좌초직전 시공간｜变体 1/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 10,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 554565473,
+      "物理攻击": 294327,
+      "魔法攻击": 0,
+      "物理防御": 186137,
+      "魔法防御": 134948,
+      "暴击": 65149,
+      "暴击伤害": 65149,
+      "暴击抵抗": 65149,
+      "暴伤抵抗": 65149,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +1000% · 物攻 +175% · 魔攻 +175% · 最终物理减伤 -82.5% · 最终魔法减伤 -82.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -82.5,
+      "魔法减伤字段": -82.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010104"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010104:71401:1",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 10,
+      "variantIndex": 1,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[핵불맛2] 좌초직전 시공간｜变体 2/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 10,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 620111173,
+      "物理攻击": 329114.5,
+      "魔法攻击": 0,
+      "物理防御": 208137,
+      "魔法防御": 150898,
+      "暴击": 72849,
+      "暴击伤害": 72849,
+      "暴击抵抗": 72849,
+      "暴伤抵抗": 72849,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +1000% · 物攻 +175% · 魔攻 +175% · 最终物理减伤 -82.5% · 最终魔法减伤 -82.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -82.5,
+      "魔法减伤字段": -82.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010104"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010104:71401:2",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 10,
+      "variantIndex": 2,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[핵불맛2] 좌초직전 시공간｜变体 3/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 10,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 685656873,
+      "物理攻击": 363902,
+      "魔法攻击": 0,
+      "物理防御": 230137,
+      "魔法防御": 166848,
+      "暴击": 80549,
+      "暴击伤害": 80549,
+      "暴击抵抗": 80549,
+      "暴伤抵抗": 80549,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +1000% · 物攻 +175% · 魔攻 +175% · 最终物理减伤 -82.5% · 最终魔法减伤 -82.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -82.5,
+      "魔法减伤字段": -82.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010104"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010104:71401:3",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 10,
+      "variantIndex": 3,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[핵불맛2] 좌초직전 시공간｜变体 4/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 10,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 751202573,
+      "物理攻击": 398689.5,
+      "魔法攻击": 0,
+      "物理防御": 252137,
+      "魔法防御": 182798,
+      "暴击": 88249,
+      "暴击伤害": 88249,
+      "暴击抵抗": 88249,
+      "暴伤抵抗": 88249,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +1000% · 物攻 +175% · 魔攻 +175% · 最终物理减伤 -82.5% · 最终魔法减伤 -82.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -82.5,
+      "魔法减伤字段": -82.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010104"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010104:71401:4",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 10,
+      "variantIndex": 4,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[핵불맛2] 좌초직전 시공간｜变体 5/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 10,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 816748273,
+      "物理攻击": 433477,
+      "魔法攻击": 0,
+      "物理防御": 274137,
+      "魔法防御": 198748,
+      "暴击": 95949,
+      "暴击伤害": 95949,
+      "暴击抵抗": 95949,
+      "暴伤抵抗": 95949,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +1000% · 物攻 +175% · 魔攻 +175% · 最终物理减伤 -82.5% · 最终魔法减伤 -82.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -82.5,
+      "魔法减伤字段": -82.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010104"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010104:71401:5",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 10,
+      "variantIndex": 5,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[핵불맛2] 좌초직전 시공간｜变体 6/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 10,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 882293973,
+      "物理攻击": 468264.5,
+      "魔法攻击": 0,
+      "物理防御": 296137,
+      "魔法防御": 214698,
+      "暴击": 103649,
+      "暴击伤害": 103649,
+      "暴击抵抗": 103649,
+      "暴伤抵抗": 103649,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +1000% · 物攻 +175% · 魔攻 +175% · 最终物理减伤 -82.5% · 最终魔法减伤 -82.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -82.5,
+      "魔法减伤字段": -82.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010104"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010114:71401:0",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 11,
+      "variantIndex": 0,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[용암맛1] 흔들리는 시공간｜变体 1/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 11,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 2289113763,
+      "物理攻击": 355584,
+      "魔法攻击": 0,
+      "物理防御": 206137,
+      "魔法防御": 149448,
+      "暴击": 72149,
+      "暴击伤害": 72149,
+      "暴击抵抗": 72149,
+      "暴伤抵抗": 72149,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +4000% · 物攻 +200% · 魔攻 +200% · 最终物理伤害 +375% · 最终魔法伤害 +375% · 最终物理减伤 -85% · 最终魔法减伤 -85% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -85,
+      "魔法减伤字段": -85,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010114"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010114:71401:1",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 11,
+      "variantIndex": 1,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[용암맛1] 흔들리는 시공간｜变体 2/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 11,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 2533420463,
+      "物理攻击": 393534,
+      "魔法攻击": 0,
+      "物理防御": 228137,
+      "魔法防御": 165398,
+      "暴击": 79849,
+      "暴击伤害": 79849,
+      "暴击抵抗": 79849,
+      "暴伤抵抗": 79849,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +4000% · 物攻 +200% · 魔攻 +200% · 最终物理伤害 +375% · 最终魔法伤害 +375% · 最终物理减伤 -85% · 最终魔法减伤 -85% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -85,
+      "魔法减伤字段": -85,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010114"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010114:71401:2",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 11,
+      "variantIndex": 2,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[용암맛1] 흔들리는 시공간｜变体 3/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 11,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 2777727163,
+      "物理攻击": 431484,
+      "魔法攻击": 0,
+      "物理防御": 250137,
+      "魔法防御": 181348,
+      "暴击": 87549,
+      "暴击伤害": 87549,
+      "暴击抵抗": 87549,
+      "暴伤抵抗": 87549,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +4000% · 物攻 +200% · 魔攻 +200% · 最终物理伤害 +375% · 最终魔法伤害 +375% · 最终物理减伤 -85% · 最终魔法减伤 -85% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -85,
+      "魔法减伤字段": -85,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010114"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010114:71401:3",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 11,
+      "variantIndex": 3,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[용암맛1] 흔들리는 시공간｜变体 4/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 11,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 3022033863,
+      "物理攻击": 469434,
+      "魔法攻击": 0,
+      "物理防御": 272137,
+      "魔法防御": 197298,
+      "暴击": 95249,
+      "暴击伤害": 95249,
+      "暴击抵抗": 95249,
+      "暴伤抵抗": 95249,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +4000% · 物攻 +200% · 魔攻 +200% · 最终物理伤害 +375% · 最终魔法伤害 +375% · 最终物理减伤 -85% · 最终魔法减伤 -85% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -85,
+      "魔法减伤字段": -85,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010114"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010114:71401:4",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 11,
+      "variantIndex": 4,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[용암맛1] 흔들리는 시공간｜变体 5/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 11,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 3266340563,
+      "物理攻击": 507384,
+      "魔法攻击": 0,
+      "物理防御": 294137,
+      "魔法防御": 213248,
+      "暴击": 102949,
+      "暴击伤害": 102949,
+      "暴击抵抗": 102949,
+      "暴伤抵抗": 102949,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +4000% · 物攻 +200% · 魔攻 +200% · 最终物理伤害 +375% · 最终魔法伤害 +375% · 最终物理减伤 -85% · 最终魔法减伤 -85% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -85,
+      "魔法减伤字段": -85,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010114"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010114:71401:5",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 11,
+      "variantIndex": 5,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[용암맛1] 흔들리는 시공간｜变体 6/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 11,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 3510647263,
+      "物理攻击": 545334,
+      "魔法攻击": 0,
+      "物理防御": 316137,
+      "魔法防御": 229198,
+      "暴击": 110649,
+      "暴击伤害": 110649,
+      "暴击抵抗": 110649,
+      "暴伤抵抗": 110649,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +4000% · 物攻 +200% · 魔攻 +200% · 最终物理伤害 +375% · 最终魔法伤害 +375% · 最终物理减伤 -85% · 最终魔法减伤 -85% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -85,
+      "魔法减伤字段": -85,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010114"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010124:71401:0",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 12,
+      "variantIndex": 0,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[용암맛2] 난리법석 시공간｜变体 1/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 12,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 4348682053,
+      "物理攻击": 422591,
+      "魔法攻击": 0,
+      "物理防御": 226137,
+      "魔法防御": 163948,
+      "暴击": 79149,
+      "暴击伤害": 79149,
+      "暴击抵抗": 79149,
+      "暴伤抵抗": 79149,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +7000% · 物攻 +225% · 魔攻 +225% · 最终物理伤害 +600% · 最终魔法伤害 +600% · 最终物理减伤 -87.5% · 最终魔法减伤 -87.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -87.5,
+      "魔法减伤字段": -87.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010124"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010124:71401:1",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 12,
+      "variantIndex": 1,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[용암맛2] 난리법석 시공간｜变体 2/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 12,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 4771749753,
+      "物理攻击": 463703.5,
+      "魔法攻击": 0,
+      "物理防御": 248137,
+      "魔法防御": 179898,
+      "暴击": 86849,
+      "暴击伤害": 86849,
+      "暴击抵抗": 86849,
+      "暴伤抵抗": 86849,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +7000% · 物攻 +225% · 魔攻 +225% · 最终物理伤害 +600% · 最终魔法伤害 +600% · 最终物理减伤 -87.5% · 最终魔法减伤 -87.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -87.5,
+      "魔法减伤字段": -87.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010124"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010124:71401:2",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 12,
+      "variantIndex": 2,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[용암맛2] 난리법석 시공간｜变体 3/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 12,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 5194817453,
+      "物理攻击": 504816,
+      "魔法攻击": 0,
+      "物理防御": 270137,
+      "魔法防御": 195848,
+      "暴击": 94549,
+      "暴击伤害": 94549,
+      "暴击抵抗": 94549,
+      "暴伤抵抗": 94549,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +7000% · 物攻 +225% · 魔攻 +225% · 最终物理伤害 +600% · 最终魔法伤害 +600% · 最终物理减伤 -87.5% · 最终魔法减伤 -87.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -87.5,
+      "魔法减伤字段": -87.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010124"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010124:71401:3",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 12,
+      "variantIndex": 3,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[용암맛2] 난리법석 시공간｜变体 4/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 12,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 5617885153,
+      "物理攻击": 545928.5,
+      "魔法攻击": 0,
+      "物理防御": 292137,
+      "魔法防御": 211798,
+      "暴击": 102249,
+      "暴击伤害": 102249,
+      "暴击抵抗": 102249,
+      "暴伤抵抗": 102249,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +7000% · 物攻 +225% · 魔攻 +225% · 最终物理伤害 +600% · 最终魔法伤害 +600% · 最终物理减伤 -87.5% · 最终魔法减伤 -87.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -87.5,
+      "魔法减伤字段": -87.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010124"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010124:71401:4",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 12,
+      "variantIndex": 4,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[용암맛2] 난리법석 시공간｜变体 5/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 12,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 6040952853,
+      "物理攻击": 587041,
+      "魔法攻击": 0,
+      "物理防御": 314137,
+      "魔法防御": 227748,
+      "暴击": 109949,
+      "暴击伤害": 109949,
+      "暴击抵抗": 109949,
+      "暴伤抵抗": 109949,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +7000% · 物攻 +225% · 魔攻 +225% · 最终物理伤害 +600% · 最终魔法伤害 +600% · 最终物理减伤 -87.5% · 最终魔法减伤 -87.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -87.5,
+      "魔法减伤字段": -87.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010124"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010124:71401:5",
+      "monsterUid": "71401",
+      "bossName": "M.E.O.W",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 12,
+      "variantIndex": 5,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[용암맛2] 난리법석 시공간｜变体 6/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 12,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 6464020553,
+      "物理攻击": 628153.5,
+      "魔法攻击": 0,
+      "物理防御": 336137,
+      "魔法防御": 243698,
+      "暴击": 117649,
+      "暴击伤害": 117649,
+      "暴击抵抗": 117649,
+      "暴伤抵抗": 117649,
+      "SP上限": 200,
+      "SP恢复": 20,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +7000% · 物攻 +225% · 魔攻 +225% · 最终物理伤害 +600% · 最终魔法伤害 +600% · 最终物理减伤 -87.5% · 最终魔法减伤 -87.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -87.5,
+      "魔法减伤字段": -87.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010124"
+      }
+    }
+  ],
+  "skills": [],
+  "guideSkills": [
+    {
+      "id": "7140101",
+      "sourceOrder": 0,
+      "displayName": "调整技能冷却",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "条件技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          100
+        ]
+      },
+      "range": null,
+      "verdict": "no-damage",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "调整技能冷却",
+          "spineAnimation": "Idle",
+          "relation": "执行关系待确认",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            2
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Shadow"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Empty"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        },
+        {
+          "order": null,
+          "action": "调整技能冷却",
+          "spineAnimation": "Move",
+          "relation": "执行关系待确认",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            2
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Shadow"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Empty"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "检查动画冷却",
+          "note": "按动画状态检查冷却，不产生额外伤害。",
+          "action": "检查动画冷却"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "官方字段和客户端结算共同确认该技能没有直接正伤害。",
+      "evidenceStatus": "官方字段与客户端结算共同确认无直接正伤害",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7140102",
+      "sourceOrder": 1,
+      "displayName": "일반공격",
+      "presentationLabel": null,
+      "nameKind": "官方技能名",
+      "skillType": "普通攻击",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          22
+        ]
+      },
+      "range": null,
+      "verdict": "segment-only",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "造成伤害；执行特殊机制",
+          "spineAnimation": "Attack1_1_None",
+          "relation": "执行关系待确认",
+          "spineEventCount": 2,
+          "effectTriggerCount": 3,
+          "eventTimes": [
+            1.733333,
+            3.6
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill3"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_MEOW_Stomp_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_2_M"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "额外骨骼",
+              "resource": "Point_Skill3"
+            },
+            {
+              "kind": "额外特效",
+              "resource": "FX_MEOW_Stomp_2"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_MaestroMk2_Stomp_1"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        },
+        {
+          "order": null,
+          "action": "造成伤害",
+          "spineAnimation": "Skill5_3_None",
+          "relation": "执行关系待确认",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            5.233334
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill3"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_MaestroMk2_Stomp_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_2_M"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill5"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Empty"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_1_M"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        },
+        {
+          "order": null,
+          "action": "造成伤害",
+          "spineAnimation": "Skill5_4_None",
+          "relation": "执行关系待确认",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            5.233334
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill3"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_MaestroMk2_Stomp_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_2_M"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill5"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Empty"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_1_M"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        },
+        {
+          "order": null,
+          "action": "执行特殊机制",
+          "spineAnimation": "Skill3_1_None",
+          "relation": "执行关系待确认",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.866667
+          ],
+          "spineEffects": [
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill9"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_MEOW_Proj_1"
+            },
+            {
+              "kind": "额外骨骼",
+              "resource": "Point_Bottom"
+            },
+            {
+              "kind": "额外特效",
+              "resource": "FX_MEOW_Explosion_2"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "普通攻击动作",
+          "spineAnimation": "Attack1_1_None",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 50,
+              "multiplierMax": 50,
+              "hitCount": 1,
+              "subtotalMin": 50,
+              "subtotalMax": 50,
+              "eventTimes": [
+                1.733333
+              ]
+            },
+            {
+              "kind": "direct",
+              "multiplierMin": 50,
+              "multiplierMax": 50,
+              "hitCount": 1,
+              "subtotalMin": 50,
+              "subtotalMax": 50,
+              "eventTimes": [
+                3.6
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 100,
+          "confirmedSegmentTotalMax": 100,
+          "confirmedDamageHitCount": 2,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Skill3"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_MEOW_Stomp_1"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Common_Hit_2_M"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            },
+            {
+              "field": "额外骨骼",
+              "value": "Point_Skill3"
+            },
+            {
+              "field": "额外特效",
+              "value": "FX_MEOW_Stomp_2"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_MaestroMk2_Stomp_1"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "镜头震动",
+          "note": "仅触发镜头震动协程，不产生伤害结算。",
+          "action": "镜头震动"
+        },
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "动作内倍率和次数可确认；完整动作集合或运行入口尚未唯一闭合。",
+      "evidenceStatus": "官方单段倍率与动作内次数已确认；完整动作关系未闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7140103",
+      "sourceOrder": 2,
+      "displayName": "冲击波 → 机枪扫射",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "强化攻击",
+      "trigger": {
+        "type": "堆叠",
+        "summary": "堆叠条件原值 3；比较方式仍以客户端运行逻辑为准",
+        "rawValue": "3",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          25
+        ]
+      },
+      "range": null,
+      "verdict": "segmented-unresolved-sequence",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "造成伤害；执行特殊机制",
+          "spineAnimation": "Attack2_1_None",
+          "relation": "分段动作；跨动作衔接尚未证明",
+          "spineEventCount": 2,
+          "effectTriggerCount": 3,
+          "eventTimes": [
+            1.633333,
+            1.666667
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill7"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_MEOW_Windwave_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_2_M"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        },
+        {
+          "order": null,
+          "action": "造成伤害；执行特殊机制",
+          "spineAnimation": "Attack3_1_None",
+          "relation": "分段动作；跨动作衔接尚未证明",
+          "spineEventCount": 9,
+          "effectTriggerCount": 10,
+          "eventTimes": [
+            2.8,
+            2.9,
+            3.1,
+            3.233334,
+            3.333333,
+            3.433333,
+            3.6,
+            3.7,
+            3.8
+          ],
+          "spineEffects": [
+            {
+              "kind": "目标骨骼",
+              "resource": "Point_Bottom"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_MEOW_Hit_Ground_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_2_M"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Attack3_3"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_MEOW_Muzzle_1"
+            },
+            {
+              "kind": "额外骨骼",
+              "resource": "Point_Attack3_7"
+            },
+            {
+              "kind": "额外特效",
+              "resource": "FX_MEOW_Muzzle_1"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "冲击波",
+          "spineAnimation": "Attack2_1_None",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 150,
+              "multiplierMax": 150,
+              "hitCount": 1,
+              "subtotalMin": 150,
+              "subtotalMax": 150,
+              "eventTimes": [
+                1.666667
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 150,
+          "confirmedSegmentTotalMax": 150,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [
+            "各段动作内次数已确认，但现有客户端证据尚未证明这些段必在一次施放中连续执行"
+          ],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Skill7"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_MEOW_Windwave_1"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Common_Hit_2_M"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "action": "机枪扫射",
+          "spineAnimation": "Attack3_1_None",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 150,
+              "multiplierMax": 150,
+              "hitCount": 9,
+              "subtotalMin": 1350,
+              "subtotalMax": 1350,
+              "eventTimes": [
+                2.8,
+                2.9,
+                3.1,
+                3.233334,
+                3.333333,
+                3.433333,
+                3.6,
+                3.7,
+                3.8
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 1350,
+          "confirmedSegmentTotalMax": 1350,
+          "confirmedDamageHitCount": 9,
+          "restrictions": [
+            "各段动作内次数已确认，但现有客户端证据尚未证明这些段必在一次施放中连续执行"
+          ],
+          "spineEffects": [
+            {
+              "field": "目标骨骼",
+              "value": "Point_Bottom"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_MEOW_Hit_Ground_1"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Common_Hit_2_M"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            },
+            {
+              "field": "自身骨骼",
+              "value": "Point_Attack3_3"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_MEOW_Muzzle_1"
+            },
+            {
+              "field": "额外骨骼",
+              "value": "Point_Attack3_7"
+            },
+            {
+              "field": "额外特效",
+              "value": "FX_MEOW_Muzzle_1"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "镜头震动",
+          "note": "仅触发镜头震动协程，不产生伤害结算。",
+          "action": "镜头震动"
+        },
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "各动作段内倍率与次数已确认，但尚不能证明所有段在一次施放中必定连续执行。",
+      "evidenceStatus": "分段已确认；各段是否必在一次施放内连续仍无法确认",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7140105",
+      "sourceOrder": 4,
+      "displayName": "伤害动作并灼烧",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          100
+        ]
+      },
+      "range": null,
+      "verdict": "conditional-or-exclusive-branches",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "灼烧；施加减益状态；造成伤害",
+          "spineAnimation": "Skill1_1_None",
+          "relation": "随机动作分支之一",
+          "spineEventCount": 10,
+          "effectTriggerCount": 10,
+          "eventTimes": [
+            2.666667,
+            2.8,
+            2.966667,
+            3.1,
+            3.266667,
+            3.4,
+            3.566667,
+            3.7,
+            3.866667,
+            4
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill1"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Empty"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_MEOW_Hit_2"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        },
+        {
+          "order": null,
+          "action": "灼烧；施加减益状态；造成伤害",
+          "spineAnimation": "Skill1_2_None",
+          "relation": "随机动作分支之一",
+          "spineEventCount": 10,
+          "effectTriggerCount": 10,
+          "eventTimes": [
+            2.666667,
+            2.833333,
+            2.966667,
+            3.133333,
+            3.266667,
+            3.433333,
+            3.566667,
+            3.733334,
+            3.866667,
+            4.033334
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill1"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Empty"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_MEOW_Hit_2"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "技能动作 1",
+          "spineAnimation": "Skill1_1_None",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 400,
+              "multiplierMax": 400,
+              "hitCount": 1,
+              "subtotalMin": 400,
+              "subtotalMax": 400,
+              "eventTimes": [
+                2.666667
+              ]
+            },
+            {
+              "kind": "direct",
+              "multiplierMin": 400,
+              "multiplierMax": 400,
+              "hitCount": 9,
+              "subtotalMin": 3600,
+              "subtotalMax": 3600,
+              "eventTimes": [
+                2.8,
+                2.966667,
+                3.1,
+                3.266667,
+                3.4,
+                3.566667,
+                3.7,
+                3.866667,
+                4
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 4000,
+          "confirmedSegmentTotalMax": 4000,
+          "confirmedDamageHitCount": 10,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Skill1"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_Empty"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_MEOW_Hit_2"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "action": "技能动作 1",
+          "spineAnimation": "Skill1_2_None",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 400,
+              "multiplierMax": 400,
+              "hitCount": 1,
+              "subtotalMin": 400,
+              "subtotalMax": 400,
+              "eventTimes": [
+                2.666667
+              ]
+            },
+            {
+              "kind": "direct",
+              "multiplierMin": 400,
+              "multiplierMax": 400,
+              "hitCount": 9,
+              "subtotalMin": 3600,
+              "subtotalMax": 3600,
+              "eventTimes": [
+                2.833333,
+                2.966667,
+                3.133333,
+                3.266667,
+                3.433333,
+                3.566667,
+                3.733334,
+                3.866667,
+                4.033334
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 4000,
+          "confirmedSegmentTotalMax": 4000,
+          "confirmedDamageHitCount": 10,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Skill1"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_Empty"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_MEOW_Hit_2"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [
+          {
+            "nameKo": "화상",
+            "fallbackLabel": null,
+            "descriptionKo": "일정 시간 동안 매초 피해를 입는다.",
+            "relation": "施加灼烧",
+            "relationDepth": "直接效果",
+            "category": "dot",
+            "uid": "54",
+            "nameKey": "StateName_Burn",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_2.png",
+            "catalogMatch": "exact-name",
+            "probabilityPercent": 100,
+            "durationSeconds": 9,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": false,
+            "classificationEvidence": "官方状态名或说明明确表示减益"
+          }
+        ],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "灼烧",
+          "probabilityPercent": 100,
+          "durationSeconds": 9,
+          "action": "造成伤害并灼烧"
+        }
+      ],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "不同条件、状态或随机结果互斥显示，各分支不相加。",
+      "evidenceStatus": "条件/随机/状态分支分别显示，禁止相加",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7140106",
+      "sourceOrder": 5,
+      "displayName": "伤害动作并眩晕",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          100
+        ]
+      },
+      "range": null,
+      "verdict": "conditional-or-exclusive-branches",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "眩晕；施加控制状态；造成伤害",
+          "spineAnimation": "Skill2_1_None",
+          "relation": "随机动作分支之一",
+          "spineEventCount": 11,
+          "effectTriggerCount": 11,
+          "eventTimes": [
+            2.666667,
+            2.766667,
+            2.866667,
+            2.966667,
+            3.066667,
+            3.166667,
+            3.266667,
+            3.366667,
+            3.466667,
+            3.566667,
+            3.666667
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill2"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Empty"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_1_M"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        },
+        {
+          "order": null,
+          "action": "眩晕；施加控制状态；造成伤害",
+          "spineAnimation": "Skill2_2_None",
+          "relation": "随机动作分支之一",
+          "spineEventCount": 11,
+          "effectTriggerCount": 11,
+          "eventTimes": [
+            2.666667,
+            2.766667,
+            2.866667,
+            2.966667,
+            3.066667,
+            3.166667,
+            3.266667,
+            3.366667,
+            3.466667,
+            3.566667,
+            3.666667
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill2"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Empty"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_1_M"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "技能动作 2",
+          "spineAnimation": "Skill2_1_None",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 200,
+              "multiplierMax": 200,
+              "hitCount": 1,
+              "subtotalMin": 200,
+              "subtotalMax": 200,
+              "eventTimes": [
+                2.666667
+              ]
+            },
+            {
+              "kind": "direct",
+              "multiplierMin": 200,
+              "multiplierMax": 200,
+              "hitCount": 10,
+              "subtotalMin": 2000,
+              "subtotalMax": 2000,
+              "eventTimes": [
+                2.766667,
+                2.866667,
+                2.966667,
+                3.066667,
+                3.166667,
+                3.266667,
+                3.366667,
+                3.466667,
+                3.566667,
+                3.666667
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 2200,
+          "confirmedSegmentTotalMax": 2200,
+          "confirmedDamageHitCount": 11,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Skill2"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_Empty"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Common_Hit_1_M"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "action": "技能动作 2",
+          "spineAnimation": "Skill2_2_None",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 200,
+              "multiplierMax": 200,
+              "hitCount": 1,
+              "subtotalMin": 200,
+              "subtotalMax": 200,
+              "eventTimes": [
+                2.666667
+              ]
+            },
+            {
+              "kind": "direct",
+              "multiplierMin": 200,
+              "multiplierMax": 200,
+              "hitCount": 10,
+              "subtotalMin": 2000,
+              "subtotalMax": 2000,
+              "eventTimes": [
+                2.766667,
+                2.866667,
+                2.966667,
+                3.066667,
+                3.166667,
+                3.266667,
+                3.366667,
+                3.466667,
+                3.566667,
+                3.666667
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 2200,
+          "confirmedSegmentTotalMax": 2200,
+          "confirmedDamageHitCount": 11,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Skill2"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_Empty"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Common_Hit_1_M"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [
+          {
+            "nameKo": "기절",
+            "fallbackLabel": null,
+            "descriptionKo": "행동 불능 상태가된다.",
+            "relation": "施加眩晕",
+            "relationDepth": "直接效果",
+            "category": "control",
+            "uid": null,
+            "nameKey": null,
+            "iconUrl": null,
+            "catalogMatch": "ambiguous-name",
+            "probabilityPercent": 100,
+            "durationSeconds": 6,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": false,
+            "classificationEvidence": "官方状态名或说明明确表示控制"
+          }
+        ],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "眩晕",
+          "probabilityPercent": 100,
+          "durationSeconds": 6,
+          "action": "造成伤害并眩晕"
+        }
+      ],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "不同条件、状态或随机结果互斥显示，各分支不相加。",
+      "evidenceStatus": "条件/随机/状态分支分别显示，禁止相加",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7140107",
+      "sourceOrder": 6,
+      "displayName": "19次伤害结算（Skill3_1_None）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "冷却技能",
+      "trigger": {
+        "type": "计时",
+        "summary": "计时阈值 40 秒；CoolTime与FirstCoolTime另列，不合并成固定周期",
+        "rawValue": "40",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          100
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 13300,
+        "max": 13300,
+        "displayMin": 13300,
+        "displayMax": 13300,
+        "hitCount": 19,
+        "formula": "Skill3_1_None 13300%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Skill3_1_None",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 19,
+          "effectTriggerCount": 19,
+          "eventTimes": [
+            4.333333,
+            4.466667,
+            4.6,
+            4.733334,
+            4.866667,
+            5,
+            5.133334,
+            5.266667,
+            5.4,
+            5.533334,
+            5.666667,
+            5.8,
+            5.933334,
+            6.066667,
+            6.2,
+            6.333333,
+            6.466667,
+            6.6,
+            6.733334
+          ],
+          "spineEffects": [
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill9"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_MEOW_Proj_1"
+            },
+            {
+              "kind": "额外骨骼",
+              "resource": "Point_Bottom"
+            },
+            {
+              "kind": "额外特效",
+              "resource": "FX_MEOW_Explosion_2"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "技能动作 3",
+          "spineAnimation": "Skill3_1_None",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 700,
+              "multiplierMax": 700,
+              "hitCount": 19,
+              "subtotalMin": 13300,
+              "subtotalMax": 13300,
+              "eventTimes": [
+                4.333333,
+                4.466667,
+                4.6,
+                4.733334,
+                4.866667,
+                5,
+                5.133334,
+                5.266667,
+                5.4,
+                5.533334,
+                5.666667,
+                5.8,
+                5.933334,
+                6.066667,
+                6.2,
+                6.333333,
+                6.466667,
+                6.6,
+                6.733334
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 13300,
+          "confirmedSegmentTotalMax": 13300,
+          "confirmedDamageHitCount": 19,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            },
+            {
+              "field": "自身骨骼",
+              "value": "Point_Skill9"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_MEOW_Proj_1"
+            },
+            {
+              "field": "额外骨骼",
+              "value": "Point_Bottom"
+            },
+            {
+              "field": "额外特效",
+              "value": "FX_MEOW_Explosion_2"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7140108",
+      "sourceOrder": 7,
+      "displayName": "3次伤害结算并执行特殊机制（Skill4_1_None）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "冷却技能",
+      "trigger": {
+        "type": "计时",
+        "summary": "计时阈值 15 秒；CoolTime与FirstCoolTime另列，不合并成固定周期",
+        "rawValue": "15",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          100
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 720,
+        "max": 720,
+        "displayMin": 720,
+        "displayMax": 720,
+        "hitCount": 3,
+        "formula": "Skill4_1_None 720%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害；执行特殊机制",
+          "spineAnimation": "Skill4_1_None",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 3,
+          "effectTriggerCount": 6,
+          "eventTimes": [
+            3.133333,
+            3.566667,
+            4
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill9"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_MEOW_Proj_2"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "额外骨骼",
+              "resource": "Point_Bottom"
+            },
+            {
+              "kind": "额外特效",
+              "resource": "FX_MEOW_Explosion_1"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "技能动作 4",
+          "spineAnimation": "Skill4_1_None",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 240,
+              "multiplierMax": 240,
+              "hitCount": 3,
+              "subtotalMin": 720,
+              "subtotalMax": 720,
+              "eventTimes": [
+                3.133333,
+                3.566667,
+                4
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 720,
+          "confirmedSegmentTotalMax": 720,
+          "confirmedDamageHitCount": 3,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Skill9"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_MEOW_Proj_2"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            },
+            {
+              "field": "额外骨骼",
+              "value": "Point_Bottom"
+            },
+            {
+              "field": "额外特效",
+              "value": "FX_MEOW_Explosion_1"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "镜头震动",
+          "note": "仅触发镜头震动协程，不产生伤害结算。",
+          "action": "镜头震动"
+        },
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7140109",
+      "sourceOrder": 8,
+      "displayName": "召唤单位",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "冷却技能",
+      "trigger": {
+        "type": "计时",
+        "summary": "计时阈值 30 秒；CoolTime与FirstCoolTime另列，不合并成固定周期",
+        "rawValue": "30",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          100
+        ]
+      },
+      "range": null,
+      "verdict": "no-damage",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "召唤单位",
+          "spineAnimation": null,
+          "relation": "未匹配Spine事件的直接或回调效果",
+          "spineEventCount": 0,
+          "effectTriggerCount": 0,
+          "eventTimes": [],
+          "spineEffects": [],
+          "evidenceStatus": "官方效果行存在；Spine事件或具体调用时点尚未匹配"
+        }
+      ],
+      "damageSegments": [],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "召唤单位",
+          "note": "已证明读取前三个参数并启动召唤协程；各参数的正式字段名仍未完整恢复，保持原值。",
+          "action": "召唤单位"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "官方字段和客户端结算共同确认该技能没有直接正伤害。",
+      "evidenceStatus": "官方字段与客户端结算共同确认无直接正伤害",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7140110",
+      "sourceOrder": 9,
+      "displayName": "累计或检查层数（Skill5_1_None）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "生命条件技能",
+      "trigger": {
+        "type": "生命值",
+        "summary": "生命值原值 100",
+        "rawValue": "100",
+        "coolTime": 0,
+        "firstCoolTime": 60,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          100
+        ]
+      },
+      "range": null,
+      "verdict": "no-damage",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "累计或检查层数",
+          "spineAnimation": "Skill5_1_None",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.933333
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Empty"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "受击计数达到条件时播放动作",
+          "note": "已证明受击计数处理器与动画触发关系；参数正式字段名未完整恢复。",
+          "action": "受击计数达到条件时播放动作"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "官方字段和客户端结算共同确认该技能没有直接正伤害。",
+      "evidenceStatus": "官方字段与客户端结算共同确认无直接正伤害",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7140111",
+      "sourceOrder": 10,
+      "displayName": "累计或检查层数并执行特殊机制（Skill5_2_None）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "冷却技能",
+      "trigger": {
+        "type": "计时",
+        "summary": "计时阈值 50 秒；CoolTime与FirstCoolTime另列，不合并成固定周期",
+        "rawValue": "50",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          100
+        ]
+      },
+      "range": null,
+      "verdict": "no-damage",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "累计或检查层数",
+          "spineAnimation": null,
+          "relation": "未匹配Spine事件的直接或回调效果",
+          "spineEventCount": 0,
+          "effectTriggerCount": 0,
+          "eventTimes": [],
+          "spineEffects": [],
+          "evidenceStatus": "官方效果行存在；Spine事件或具体调用时点尚未匹配"
+        },
+        {
+          "order": null,
+          "action": "执行特殊机制",
+          "spineAnimation": "Skill5_2_None",
+          "relation": "执行关系待确认",
+          "spineEventCount": 2,
+          "effectTriggerCount": 2,
+          "eventTimes": [
+            0,
+            0.533333
+          ],
+          "spineEffects": [
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "受击计数达到条件时播放动作",
+          "note": "已证明受击计数处理器与动画触发关系；参数正式字段名未完整恢复。",
+          "action": "受击计数达到条件时播放动作"
+        }
+      ],
+      "internalNotes": [
+        {
+          "behavior": "镜头震动",
+          "note": "仅触发镜头震动协程，不产生伤害结算。",
+          "action": "镜头震动"
+        }
+      ],
+      "conclusion": "官方字段和客户端结算共同确认该技能没有直接正伤害。",
+      "evidenceStatus": "官方字段与客户端结算共同确认无直接正伤害",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7140112",
+      "sourceOrder": 11,
+      "displayName": "伤害动作并执行特殊机制（Skill5_3_None）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "条件技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          100
+        ]
+      },
+      "range": null,
+      "verdict": "segment-only",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "执行特殊机制；眩晕；施加控制状态；造成伤害",
+          "spineAnimation": "Skill5_3_None",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 15,
+          "effectTriggerCount": 15,
+          "eventTimes": [
+            0,
+            0.233333,
+            0.433333,
+            0.633333,
+            0.833333,
+            1.033333,
+            1.233333,
+            1.433333,
+            1.633333,
+            1.833333,
+            2.033334,
+            2.233333,
+            2.433333,
+            2.533334,
+            2.6
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill3"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_MaestroMk2_Stomp_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_2_M"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill5"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Empty"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_1_M"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "技能动作 5",
+          "spineAnimation": "Skill5_3_None",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 300,
+              "multiplierMax": 300,
+              "hitCount": 1,
+              "subtotalMin": 300,
+              "subtotalMax": 300,
+              "eventTimes": [
+                2.6
+              ]
+            },
+            {
+              "kind": "direct",
+              "multiplierMin": 300,
+              "multiplierMax": 300,
+              "hitCount": 13,
+              "subtotalMin": 3900,
+              "subtotalMax": 3900,
+              "eventTimes": [
+                0.233333,
+                0.433333,
+                0.633333,
+                0.833333,
+                1.033333,
+                1.233333,
+                1.433333,
+                1.633333,
+                1.833333,
+                2.033334,
+                2.233333,
+                2.433333,
+                2.533334
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 4200,
+          "confirmedSegmentTotalMax": 4200,
+          "confirmedDamageHitCount": 14,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Skill3"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_MaestroMk2_Stomp_1"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Common_Hit_2_M"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            },
+            {
+              "field": "自身骨骼",
+              "value": "Point_Skill5"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_Empty"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Common_Hit_1_M"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [
+          {
+            "nameKo": "기절",
+            "fallbackLabel": null,
+            "descriptionKo": "행동 불능 상태가된다.",
+            "relation": "施加眩晕",
+            "relationDepth": "直接效果",
+            "category": "control",
+            "uid": null,
+            "nameKey": null,
+            "iconUrl": null,
+            "catalogMatch": "ambiguous-name",
+            "probabilityPercent": 100,
+            "durationSeconds": 6,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": false,
+            "classificationEvidence": "官方状态名或说明明确表示控制"
+          }
+        ],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "眩晕",
+          "probabilityPercent": 100,
+          "durationSeconds": 6,
+          "action": "造成伤害并眩晕"
+        }
+      ],
+      "internalNotes": [
+        {
+          "behavior": "镜头震动",
+          "note": "仅触发镜头震动协程，不产生伤害结算。",
+          "action": "镜头震动"
+        },
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "同一伤害动作被多个技能复用；仅显示本技能可确认分段，不生成完整总倍率。",
+      "evidenceStatus": "官方单段倍率与动作内次数已确认；完整动作关系未闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7140113",
+      "sourceOrder": 12,
+      "displayName": "伤害动作并执行特殊机制",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "条件技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          100
+        ]
+      },
+      "range": null,
+      "verdict": "segment-only",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "执行特殊机制；造成伤害",
+          "spineAnimation": "Skill5_4_None",
+          "relation": "执行关系待确认",
+          "spineEventCount": 4,
+          "effectTriggerCount": 4,
+          "eventTimes": [
+            0,
+            0.233333,
+            0.633333,
+            1.033333
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill3"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_MaestroMk2_Stomp_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_2_M"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill5"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Empty"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_1_M"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        },
+        {
+          "order": null,
+          "action": "调整虚弱或破防状态",
+          "spineAnimation": "Skill5_5_None",
+          "relation": "执行关系待确认",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0
+          ],
+          "spineEffects": [
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "技能动作 5",
+          "spineAnimation": "Skill5_4_None",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 150,
+              "multiplierMax": 150,
+              "hitCount": 3,
+              "subtotalMin": 450,
+              "subtotalMax": 450,
+              "eventTimes": [
+                0.233333,
+                0.633333,
+                1.033333
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 450,
+          "confirmedSegmentTotalMax": 450,
+          "confirmedDamageHitCount": 3,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Skill3"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_MaestroMk2_Stomp_1"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Common_Hit_2_M"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            },
+            {
+              "field": "自身骨骼",
+              "value": "Point_Skill5"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_Empty"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Common_Hit_1_M"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "切换虚弱状态",
+          "note": "切换世界Boss虚弱状态，不产生额外伤害。",
+          "action": "切换虚弱状态"
+        }
+      ],
+      "internalNotes": [
+        {
+          "behavior": "镜头震动",
+          "note": "仅触发镜头震动协程，不产生伤害结算。",
+          "action": "镜头震动"
+        },
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "同一伤害动作被多个技能复用；仅显示本技能可确认分段，不生成完整总倍率。",
+      "evidenceStatus": "官方单段倍率与动作内次数已确认；完整动作关系未闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    }
+  ],
+  "internalComponents": [
+    {
+      "id": "7140104",
+      "sourceOrder": 3,
+      "displayName": "机枪扫射",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          100
+        ]
+      },
+      "range": null,
+      "verdict": "no-damage",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "执行特殊机制",
+          "spineAnimation": "Attack3_1_None",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 8,
+          "effectTriggerCount": 8,
+          "eventTimes": [
+            2.833333,
+            2.966667,
+            3.1,
+            3.233334,
+            3.366667,
+            3.5,
+            3.633333,
+            3.766667
+          ],
+          "spineEffects": [
+            {
+              "kind": "目标骨骼",
+              "resource": "Point_Bottom"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_MEOW_Hit_Ground_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_2_M"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Attack3_3"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_MEOW_Muzzle_1"
+            },
+            {
+              "kind": "额外骨骼",
+              "resource": "Point_Attack3_7"
+            },
+            {
+              "kind": "额外特效",
+              "resource": "FX_MEOW_Muzzle_1"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "执行特殊机制",
+          "note": "处理器语义待确认",
+          "action": "执行特殊机制"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "官方字段和客户端结算共同确认该技能没有直接正伤害。",
+      "evidenceStatus": "官方字段与客户端结算共同确认无直接正伤害",
+      "isInternalOnly": true,
+      "runtimeReferences": {}
+    }
+  ],
+  "spineResources": [
+    {
+      "Spine资源键": null,
+      "骨架动作": "Idle",
+      "直接连接的技能效果": "7140101",
+      "触发时间": "2s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Move",
+      "直接连接的技能效果": "7140101",
+      "触发时间": "2s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack1_1_None",
+      "直接连接的技能效果": "7140102",
+      "触发时间": "1.733333s / 3.6s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill5_3_None",
+      "直接连接的技能效果": "7140102, 7140112",
+      "触发时间": "0s / 0.233333s / 0.433333s / 0.633333s / 0.833333s / 1.033333s / 1.233333s / 1.433333s / 1.633333s / 1.833333s / 2.033334s / 2.233333s / 2.433333s / 2.533334s / 2.6s / 5.233334s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill5_4_None",
+      "直接连接的技能效果": "7140102, 7140113",
+      "触发时间": "0s / 0.233333s / 0.633333s / 1.033333s / 5.233334s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill3_1_None",
+      "直接连接的技能效果": "7140102, 7140107",
+      "触发时间": "0.866667s / 4.333333s / 4.466667s / 4.6s / 4.733334s / 4.866667s / 5s / 5.133334s / 5.266667s / 5.4s / 5.533334s / 5.666667s / 5.8s / 5.933334s / 6.066667s / 6.2s / 6.333333s / 6.466667s / 6.6s / 6.733334s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack2_1_None",
+      "直接连接的技能效果": "7140103",
+      "触发时间": "1.633333s / 1.666667s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack3_1_None",
+      "直接连接的技能效果": "7140103, 7140104",
+      "触发时间": "2.8s / 2.833333s / 2.9s / 2.966667s / 3.1s / 3.233334s / 3.333333s / 3.366667s / 3.433333s / 3.5s / 3.6s / 3.633333s / 3.7s / 3.766667s / 3.8s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_1_None",
+      "直接连接的技能效果": "7140105",
+      "触发时间": "2.666667s / 2.8s / 2.966667s / 3.1s / 3.266667s / 3.4s / 3.566667s / 3.7s / 3.866667s / 4s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_2_None",
+      "直接连接的技能效果": "7140105",
+      "触发时间": "2.666667s / 2.833333s / 2.966667s / 3.133333s / 3.266667s / 3.433333s / 3.566667s / 3.733334s / 3.866667s / 4.033334s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill2_1_None",
+      "直接连接的技能效果": "7140106",
+      "触发时间": "2.666667s / 2.766667s / 2.866667s / 2.966667s / 3.066667s / 3.166667s / 3.266667s / 3.366667s / 3.466667s / 3.566667s / 3.666667s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill2_2_None",
+      "直接连接的技能效果": "7140106",
+      "触发时间": "2.666667s / 2.766667s / 2.866667s / 2.966667s / 3.066667s / 3.166667s / 3.266667s / 3.366667s / 3.466667s / 3.566667s / 3.666667s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill4_1_None",
+      "直接连接的技能效果": "7140108",
+      "触发时间": "3.133333s / 3.566667s / 4s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill5_1_None",
+      "直接连接的技能效果": "7140110",
+      "触发时间": "0.933333s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill5_2_None",
+      "直接连接的技能效果": "7140111",
+      "触发时间": "0s / 0.533333s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill5_5_None",
+      "直接连接的技能效果": "7140113",
+      "触发时间": "0s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    }
+  ],
+  "guideReference": {
+    "sourceType": "player-guide",
+    "official": false,
+    "relativeSource": "艾利亚斯边境/M.E.O.W.txt",
+    "note": "只用于范围、招式称呼、顺序和打法参考；不得覆盖官方倍率。"
+  },
+  "runtimeReferences": {}
+}

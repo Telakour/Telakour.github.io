@@ -1,0 +1,1665 @@
+{
+  "schemaVersion": 3,
+  "server": "kr",
+  "dataVersion": "2026-08-27",
+  "routeKey": "kr:dimensional-clash-1:70401",
+  "mode": "次元大冲突1.0",
+  "modeKey": "dimensional-clash-1",
+  "monsterUid": "70401",
+  "bossName": "크르브르스 - 냉정",
+  "personality": "냉정",
+  "attackType": "物理/魔法",
+  "spineKey": "Curburus",
+  "spineSkinName": "Skin_Cool",
+  "iconUrl": "/boss-wiki/kr/2026-08-27/icons/dimensional-clash-1/70401.png",
+  "difficultyCodes": [
+    0
+  ],
+  "stages": [
+    {
+      "rowKey": "dimensional-clash-1:8:8210030:70401:0",
+      "monsterUid": "70401",
+      "bossName": "크르브르스 - 냉정",
+      "personality": "냉정",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 3,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "냉정한 차원: 제 3구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 3,
+      "等级": "Lv.100",
+      "数值口径": "最终阶段属性",
+      "HP": 1775175,
+      "物理攻击": 1435,
+      "魔法攻击": 1435,
+      "物理防御": 2969,
+      "魔法防御": 2969,
+      "暴击": 1435,
+      "暴击伤害": 1435,
+      "暴击抵抗": 1128,
+      "暴伤抵抗": 1128,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8210030"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-1:8:8210060:70401:0",
+      "monsterUid": "70401",
+      "bossName": "크르브르스 - 냉정",
+      "personality": "냉정",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 6,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "냉정한 차원: 제 6구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 6,
+      "等级": "Lv.400",
+      "数值口径": "最终阶段属性",
+      "HP": 7498528.125,
+      "物理攻击": 5635,
+      "魔法攻击": 5635,
+      "物理防御": 11669,
+      "魔法防御": 11669,
+      "暴击": 5635,
+      "暴击伤害": 5635,
+      "暴击抵抗": 4428,
+      "暴伤抵抗": 4428,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +7.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8210060"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-1:8:8210090:70401:0",
+      "monsterUid": "70401",
+      "bossName": "크르브르스 - 냉정",
+      "personality": "냉정",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 9,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "냉정한 차원: 제 9구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 9,
+      "等级": "Lv.625",
+      "数值口径": "最终阶段属性",
+      "HP": 13594406.25,
+      "物理攻击": 8785,
+      "魔法攻击": 8785,
+      "物理防御": 18194,
+      "魔法防御": 18194,
+      "暴击": 8785,
+      "暴击伤害": 8785,
+      "暴击抵抗": 6903,
+      "暴伤抵抗": 6903,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +25% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8210090"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-1:8:8210120:70401:0",
+      "monsterUid": "70401",
+      "bossName": "크르브르스 - 냉정",
+      "personality": "냉정",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 12,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "냉정한 차원: 제 12구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 12,
+      "等级": "Lv.1410",
+      "数值口径": "最终阶段属性",
+      "HP": 30603393.75,
+      "物理攻击": 19775,
+      "魔法攻击": 19775,
+      "物理防御": 40959,
+      "魔法防御": 40959,
+      "暴击": 19775,
+      "暴击伤害": 19775,
+      "暴击抵抗": 15538,
+      "暴伤抵抗": 15538,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +25% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8210120"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-1:8:8210150:70401:0",
+      "monsterUid": "70401",
+      "bossName": "크르브르스 - 냉정",
+      "personality": "냉정",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 15,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "냉정한 차원: 제 15구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 15,
+      "等级": "Lv.3500",
+      "数值口径": "最终阶段属性",
+      "HP": 212487712.5,
+      "物理攻击": 85811.25,
+      "魔法攻击": 85811.25,
+      "物理防御": 101569,
+      "魔法防御": 101569,
+      "暴击": 49035,
+      "暴击伤害": 49035,
+      "暴击抵抗": 38528,
+      "暴伤抵抗": 38528,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +250% · 物攻 +75% · 魔攻 +75% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8210150"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-1:8:8210180:70401:0",
+      "monsterUid": "70401",
+      "bossName": "크르브르스 - 냉정",
+      "personality": "냉정",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 18,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "냉정한 차원: 제 18구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 18,
+      "等级": "Lv.5150",
+      "数值口径": "最终阶段属性",
+      "HP": 401903437.5,
+      "物理攻击": 216405,
+      "魔法攻击": 216405,
+      "物理防御": 149419,
+      "魔法防御": 149419,
+      "暴击": 72135,
+      "暴击伤害": 72135,
+      "暴击抵抗": 56678,
+      "暴伤抵抗": 56678,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +350% · 物攻 +200% · 魔攻 +200% · 最终物理减伤 -30% · 最终魔法减伤 -30% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -30,
+      "魔法减伤字段": -30,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8210180"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-1:8:8210210:70401:0",
+      "monsterUid": "70401",
+      "bossName": "크르브르스 - 냉정",
+      "personality": "냉정",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 21,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "냉정한 차원: 제 21구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 21,
+      "等级": "Lv.7500",
+      "数值口径": "最终阶段属性",
+      "HP": 1105397587.5,
+      "物理攻击": 630210,
+      "魔法攻击": 630210,
+      "物理防御": 217569,
+      "魔法防御": 217569,
+      "暴击": 105035,
+      "暴击伤害": 105035,
+      "暴击抵抗": 82528,
+      "暴伤抵抗": 82528,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +750% · 物攻 +500% · 魔攻 +500% · 最终物理减伤 -30% · 最终魔法减伤 -30% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -30,
+      "魔法减伤字段": -30,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8210210"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-1:8:8210240:70401:0",
+      "monsterUid": "70401",
+      "bossName": "크르브르스 - 냉정",
+      "personality": "냉정",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 24,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "냉정한 차원: 제 24구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 24,
+      "等级": "Lv.12000",
+      "数值口径": "最终阶段属性",
+      "HP": 15187633575,
+      "物理攻击": 8233715,
+      "魔法攻击": 8233715,
+      "物理防御": 348069,
+      "魔法防御": 348069,
+      "暴击": 168035,
+      "暴击伤害": 168035,
+      "暴击抵抗": 132028,
+      "暴伤抵抗": 132028,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +7200% · 物攻 +4800% · 魔攻 +4800% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8210240"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-1:8:8210270:70401:0",
+      "monsterUid": "70401",
+      "bossName": "크르브르스 - 냉정",
+      "personality": "냉정",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 27,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "냉정한 차원: 제 27구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 27,
+      "等级": "Lv.24000",
+      "数值口径": "最终阶段属性",
+      "HP": 287826646850.347,
+      "物理攻击": 45700760,
+      "魔法攻击": 45700760,
+      "物理防御": 696069,
+      "魔法防御": 696069,
+      "暴击": 336035,
+      "暴击伤害": 336035,
+      "暴击抵抗": 264028,
+      "暴伤抵抗": 264028,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +69079.49% · 物攻 +13500% · 魔攻 +13500% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8210270"
+      }
+    }
+  ],
+  "skills": [],
+  "guideSkills": [
+    {
+      "id": "7040101",
+      "sourceOrder": 0,
+      "displayName": "일반공격",
+      "presentationLabel": "普通攻击",
+      "nameKind": "官方技能名",
+      "skillType": "普通攻击",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          10
+        ]
+      },
+      "range": {
+        "kind": "single",
+        "labelKo": "단일 타격",
+        "sourceType": "player-guide",
+        "official": false
+      },
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 150,
+        "max": 150,
+        "displayMin": 150,
+        "displayMax": 150,
+        "hitCount": 2,
+        "formula": "Attack1_1_Cool 150%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Attack1_1_Cool",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 2,
+          "effectTriggerCount": 2,
+          "eventTimes": [
+            0.733333,
+            1.6
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Attack3"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Curburus_Stomp_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_2_M"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "普通攻击动作",
+          "spineAnimation": "Attack1_1_Cool",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 75,
+              "multiplierMax": 75,
+              "hitCount": 2,
+              "subtotalMin": 150,
+              "subtotalMax": 150,
+              "eventTimes": [
+                0.733333,
+                1.6
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 150,
+          "confirmedSegmentTotalMax": 150,
+          "confirmedDamageHitCount": 2,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Attack3"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_Curburus_Stomp_1"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Common_Hit_2_M"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7040102",
+      "sourceOrder": 1,
+      "displayName": "18次伤害结算并沉默（Skill1_1_Cool）",
+      "presentationLabel": "技能 1",
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          10
+        ]
+      },
+      "range": {
+        "kind": "single",
+        "labelKo": "단일 타격",
+        "sourceType": "player-guide",
+        "official": false
+      },
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 1248.74999932945,
+        "max": 1248.74999932945,
+        "displayMin": 1248.74999932945,
+        "displayMax": 1248.74999932945,
+        "hitCount": 18,
+        "formula": "Skill1_1_Cool 1248.74999932945%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害；沉默；施加控制状态",
+          "spineAnimation": "Skill1_1_Cool",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 9,
+          "effectTriggerCount": 18,
+          "eventTimes": [
+            0.4,
+            0.466667,
+            0.533333,
+            1.066667,
+            1.133333,
+            1.2,
+            1.766667,
+            1.833333,
+            1.9
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Attack3"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Empty"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_1_M"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "目标骨骼",
+              "resource": "Point_Top"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Curburus_Debuff_1"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "技能动作 1",
+          "spineAnimation": "Skill1_1_Cool",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 13.749999925494,
+              "multiplierMax": 13.749999925494,
+              "hitCount": 9,
+              "subtotalMin": 123.749999329446,
+              "subtotalMax": 123.749999329446,
+              "eventTimes": [
+                0.4,
+                0.466667,
+                0.533333,
+                1.066667,
+                1.133333,
+                1.2,
+                1.766667,
+                1.833333,
+                1.9
+              ]
+            },
+            {
+              "kind": "direct",
+              "multiplierMin": 125,
+              "multiplierMax": 125,
+              "hitCount": 9,
+              "subtotalMin": 1125,
+              "subtotalMax": 1125,
+              "eventTimes": [
+                0.4,
+                0.466667,
+                0.533333,
+                1.066667,
+                1.133333,
+                1.2,
+                1.766667,
+                1.833333,
+                1.9
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 1248.74999932945,
+          "confirmedSegmentTotalMax": 1248.74999932945,
+          "confirmedDamageHitCount": 18,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Attack3"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_Empty"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Common_Hit_1_M"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            },
+            {
+              "field": "目标骨骼",
+              "value": "Point_Top"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_Curburus_Debuff_1"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [
+          {
+            "nameKo": "침묵",
+            "fallbackLabel": null,
+            "descriptionKo": "모든 스킬을 사용할 수 없게 된다.",
+            "relation": "施加沉默",
+            "relationDepth": "直接效果",
+            "category": "debuff",
+            "uid": "59",
+            "nameKey": "StateName_Silent",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_13.png",
+            "catalogMatch": "exact-name",
+            "probabilityPercent": 100,
+            "durationSeconds": 6,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": false,
+            "classificationEvidence": "官方状态名或说明明确表示控制"
+          }
+        ],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "沉默",
+          "probabilityPercent": 100,
+          "durationSeconds": 6,
+          "action": "造成伤害并沉默"
+        }
+      ],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7040103",
+      "sourceOrder": 2,
+      "displayName": "3次伤害结算（Skill2_1_Cool）",
+      "presentationLabel": "技能 2",
+      "nameKind": "说明名",
+      "skillType": "冷却技能",
+      "trigger": {
+        "type": "计时",
+        "summary": "计时阈值 20 秒；CoolTime与FirstCoolTime另列，不合并成固定周期",
+        "rawValue": "20",
+        "coolTime": 5,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          10
+        ]
+      },
+      "range": {
+        "kind": "all",
+        "labelKo": "전범위",
+        "sourceType": "player-guide",
+        "official": false
+      },
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 74.2500029504298,
+        "max": 74.2500029504298,
+        "displayMin": 74.2500029504298,
+        "displayMax": 74.2500029504298,
+        "hitCount": 3,
+        "formula": "Skill2_1_Cool 74.2500029504298%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Skill2_1_Cool",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 3,
+          "effectTriggerCount": 3,
+          "eventTimes": [
+            0.4,
+            0.633333,
+            1.366667
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Attack3"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Empty"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_1_M"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "Spine动作内伤害段",
+          "spineAnimation": "Skill2_1_Cool",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 24.7500009834766,
+              "multiplierMax": 24.7500009834766,
+              "hitCount": 3,
+              "subtotalMin": 74.2500029504298,
+              "subtotalMax": 74.2500029504298,
+              "eventTimes": [
+                0.4,
+                0.633333,
+                1.366667
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 74.2500029504298,
+          "confirmedSegmentTotalMax": 74.2500029504298,
+          "confirmedDamageHitCount": 3,
+          "restrictions": [
+            "确认该Spine动作内事件；是否为完整施放由最终动作拓扑裁定"
+          ],
+          "spineEffects": []
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7040104",
+      "sourceOrder": 3,
+      "displayName": "伤害动作",
+      "presentationLabel": "技能 3",
+      "nameKind": "说明名",
+      "skillType": "生命条件技能",
+      "trigger": {
+        "type": "生命值",
+        "summary": "生命值原值 50",
+        "rawValue": "50",
+        "coolTime": 0,
+        "firstCoolTime": 25,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          20
+        ]
+      },
+      "range": {
+        "kind": "all",
+        "labelKo": "전범위",
+        "sourceType": "player-guide",
+        "official": false
+      },
+      "verdict": "segmented-unresolved-sequence",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "造成伤害",
+          "spineAnimation": "Skill3_1_Cool",
+          "relation": "分段动作；跨动作衔接尚未证明",
+          "spineEventCount": 10,
+          "effectTriggerCount": 10,
+          "eventTimes": [
+            2.966667,
+            3.033334,
+            3.633333,
+            3.7,
+            4.3,
+            4.366667,
+            4.966667,
+            5.033334,
+            5.633334,
+            5.7
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Attack3"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Curburus_Stomp_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_1_M"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Cast1"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        },
+        {
+          "order": null,
+          "action": "造成伤害",
+          "spineAnimation": "Skill3_2_Cool",
+          "relation": "分段动作；跨动作衔接尚未证明",
+          "spineEventCount": 6,
+          "effectTriggerCount": 6,
+          "eventTimes": [
+            0.233333,
+            0.3,
+            0.9,
+            0.966667,
+            1.533333,
+            1.6
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Attack3"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Curburus_Stomp_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_1_M"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Cast1"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "技能动作 3",
+          "spineAnimation": "Skill3_1_Cool",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 70,
+              "multiplierMax": 70,
+              "hitCount": 5,
+              "subtotalMin": 350,
+              "subtotalMax": 350,
+              "eventTimes": [
+                2.966667,
+                3.633333,
+                4.3,
+                4.966667,
+                5.633334
+              ]
+            },
+            {
+              "kind": "direct",
+              "multiplierMin": 70,
+              "multiplierMax": 70,
+              "hitCount": 5,
+              "subtotalMin": 350,
+              "subtotalMax": 350,
+              "eventTimes": [
+                3.033334,
+                3.7,
+                4.366667,
+                5.033334,
+                5.7
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 700,
+          "confirmedSegmentTotalMax": 700,
+          "confirmedDamageHitCount": 10,
+          "restrictions": [
+            "各段动作内次数已确认，但现有客户端证据尚未证明这些段必在一次施放中连续执行"
+          ],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Attack3"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_Curburus_Stomp_1"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Common_Hit_1_M"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            },
+            {
+              "field": "自身骨骼",
+              "value": "Point_Cast1"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "action": "技能动作 3",
+          "spineAnimation": "Skill3_2_Cool",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 70,
+              "multiplierMax": 70,
+              "hitCount": 3,
+              "subtotalMin": 210,
+              "subtotalMax": 210,
+              "eventTimes": [
+                0.233333,
+                0.9,
+                1.533333
+              ]
+            },
+            {
+              "kind": "direct",
+              "multiplierMin": 70,
+              "multiplierMax": 70,
+              "hitCount": 3,
+              "subtotalMin": 210,
+              "subtotalMax": 210,
+              "eventTimes": [
+                0.3,
+                0.966667,
+                1.6
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 420,
+          "confirmedSegmentTotalMax": 420,
+          "confirmedDamageHitCount": 6,
+          "restrictions": [
+            "各段动作内次数已确认，但现有客户端证据尚未证明这些段必在一次施放中连续执行"
+          ],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Attack3"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_Curburus_Stomp_1"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Common_Hit_1_M"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            },
+            {
+              "field": "自身骨骼",
+              "value": "Point_Cast1"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "两个动作段内的倍率与次数均已确认，但尚不能证明两段每次必定连续执行，因此不合计完整总倍率。",
+      "evidenceStatus": "分段已确认；各段是否必在一次施放内连续仍无法确认",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7040105",
+      "sourceOrder": 4,
+      "displayName": "伤害动作（Skill4_2_Loop_Cool）",
+      "presentationLabel": "技能 4",
+      "nameKind": "说明名",
+      "skillType": "冷却技能",
+      "trigger": {
+        "type": "计时",
+        "summary": "计时阈值 50 秒；CoolTime与FirstCoolTime另列，不合并成固定周期",
+        "rawValue": "50",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          20
+        ]
+      },
+      "range": {
+        "kind": "single",
+        "labelKo": "단일 타격",
+        "sourceType": "player-guide",
+        "official": false
+      },
+      "verdict": "loop-single-round",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Skill4_2_Loop_Cool",
+          "relation": "循环动作；这里只表示单轮事件",
+          "spineEventCount": 4,
+          "effectTriggerCount": 4,
+          "eventTimes": [
+            0,
+            0.2,
+            0.4,
+            0.6
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_SkillMouth4"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Curburus_Eat_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_1_M"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "技能动作 4",
+          "spineAnimation": "Skill4_2_Loop_Cool",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 25,
+              "multiplierMax": 25,
+              "hitCount": 4,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0,
+                0.2,
+                0.4,
+                0.6
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 100,
+          "confirmedSegmentTotalMax": 100,
+          "confirmedDamageHitCount": 4,
+          "restrictions": [
+            "循环轮数未确认"
+          ],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_SkillMouth4"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_Curburus_Eat_1"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Common_Hit_1_M"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "只确认循环单轮伤害；总轮数由战斗状态决定。",
+      "evidenceStatus": "只确认循环单轮；动画循环不冒充总伤害次数",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7040106",
+      "sourceOrder": 5,
+      "displayName": "伤害动作并执行特殊机制（Skill4_3_Cool）",
+      "presentationLabel": "技能 5",
+      "nameKind": "说明名",
+      "skillType": "生命条件技能",
+      "trigger": {
+        "type": "生命值",
+        "summary": "生命值原值 20",
+        "rawValue": "20",
+        "coolTime": 0,
+        "firstCoolTime": 25,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          20
+        ]
+      },
+      "range": {
+        "kind": "single",
+        "labelKo": "단일 타격",
+        "sourceType": "player-guide",
+        "official": false
+      },
+      "verdict": "segment-only",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "执行特殊机制；造成伤害",
+          "spineAnimation": "Skill4_3_Cool",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.566667
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_SkillMouth2"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Curburus_Lick_1"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "技能动作 4",
+          "spineAnimation": "Skill4_3_Cool",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 200,
+              "multiplierMax": 200,
+              "hitCount": 1,
+              "subtotalMin": 200,
+              "subtotalMax": 200,
+              "eventTimes": [
+                0.566667
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 200,
+          "confirmedSegmentTotalMax": 200,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_SkillMouth2"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_Curburus_Lick_1"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "造成伤害并吞入目标",
+          "note": "先进行一次伤害结算，再建立吞食关系；不附加隐藏伤害。",
+          "action": "造成伤害并吞入目标"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "同一伤害动作被多个技能复用；仅显示本技能可确认分段，不生成完整总倍率。",
+      "evidenceStatus": "官方单段倍率与动作内次数已确认；完整动作关系未闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7040107",
+      "sourceOrder": 6,
+      "displayName": "伤害动作并执行特殊机制（Skill4_3_Cool）",
+      "presentationLabel": "技能 6",
+      "nameKind": "说明名",
+      "skillType": "冷却技能",
+      "trigger": {
+        "type": "计时",
+        "summary": "计时阈值 40 秒；CoolTime与FirstCoolTime另列，不合并成固定周期",
+        "rawValue": "40",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          20
+        ]
+      },
+      "range": {
+        "kind": "single",
+        "labelKo": "단일 타격",
+        "sourceType": "player-guide",
+        "official": false
+      },
+      "verdict": "segment-only",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "执行特殊机制；造成伤害",
+          "spineAnimation": "Skill4_3_Cool",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            3.166667
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_SkillMouth2"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Curburus_Lick_1"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "技能动作 4",
+          "spineAnimation": "Skill4_3_Cool",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 250,
+              "multiplierMax": 250,
+              "hitCount": 1,
+              "subtotalMin": 250,
+              "subtotalMax": 250,
+              "eventTimes": [
+                3.166667
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 250,
+          "confirmedSegmentTotalMax": 250,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_SkillMouth2"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_Curburus_Lick_1"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "吐出被吞目标并造成伤害",
+          "note": "对吞食列表中的目标各进行一次伤害结算并释放；与Swallow分别计算。",
+          "action": "吐出被吞目标并造成伤害"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "同一伤害动作被多个技能复用；仅显示本技能可确认分段，不生成完整总倍率。",
+      "evidenceStatus": "官方单段倍率与动作内次数已确认；完整动作关系未闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7040108",
+      "sourceOrder": 7,
+      "displayName": "1次伤害结算（Attack2_1_Cool）",
+      "presentationLabel": "技能 7",
+      "nameKind": "说明名",
+      "skillType": "强化攻击",
+      "trigger": {
+        "type": "堆叠",
+        "summary": "堆叠条件原值 3；比较方式仍以客户端运行逻辑为准",
+        "rawValue": "3",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          10
+        ]
+      },
+      "range": {
+        "kind": "all",
+        "labelKo": "전범위",
+        "sourceType": "player-guide",
+        "official": false
+      },
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 275,
+        "max": 275,
+        "displayMin": 275,
+        "displayMax": 275,
+        "hitCount": 1,
+        "formula": "Attack2_1_Cool 275%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Attack2_1_Cool",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.9
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Attack3"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Curburus_Stomp_2"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_2_M"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "强化攻击动作",
+          "spineAnimation": "Attack2_1_Cool",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 275,
+              "multiplierMax": 275,
+              "hitCount": 1,
+              "subtotalMin": 275,
+              "subtotalMax": 275,
+              "eventTimes": [
+                0.9
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 275,
+          "confirmedSegmentTotalMax": 275,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Attack3"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_Curburus_Stomp_2"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Common_Hit_2_M"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    }
+  ],
+  "internalComponents": [],
+  "spineResources": [
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack1_1_Cool",
+      "直接连接的技能效果": "7040101",
+      "触发时间": "0.733333s / 1.6s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_1_Cool",
+      "直接连接的技能效果": "7040102",
+      "触发时间": "0.4s / 0.466667s / 0.533333s / 1.066667s / 1.133333s / 1.2s / 1.766667s / 1.833333s / 1.9s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill2_1_Cool",
+      "直接连接的技能效果": "7040103",
+      "触发时间": "0.4s / 0.633333s / 1.366667s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill3_1_Cool",
+      "直接连接的技能效果": "7040104",
+      "触发时间": "2.966667s / 3.033334s / 3.633333s / 3.7s / 4.3s / 4.366667s / 4.966667s / 5.033334s / 5.633334s / 5.7s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill3_2_Cool",
+      "直接连接的技能效果": "7040104",
+      "触发时间": "0.233333s / 0.3s / 0.9s / 0.966667s / 1.533333s / 1.6s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill4_2_Loop_Cool",
+      "直接连接的技能效果": "7040105",
+      "触发时间": "0s / 0.2s / 0.4s / 0.6s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill4_3_Cool",
+      "直接连接的技能效果": "7040106, 7040107",
+      "触发时间": "0.566667s / 3.166667s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack2_1_Cool",
+      "直接连接的技能效果": "7040108",
+      "触发时间": "0.9s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    }
+  ],
+  "guideReference": {
+    "sourceType": "player-guide",
+    "official": false,
+    "relativeSource": "次元1.0/刻耳柏洛斯.txt",
+    "note": "只用于范围、招式称呼、顺序和打法参考；不得覆盖官方倍率。"
+  },
+  "runtimeReferences": {}
+}

@@ -1,0 +1,6200 @@
+{
+  "schemaVersion": 8,
+  "server": "kr",
+  "dataDate": "2026-08-27",
+  "routeKey": "kr:dimensional-clash-2:74501",
+  "mode": "次元大冲突2.0",
+  "modeCode": 42,
+  "modeKey": "dimensional-clash-2",
+  "identity": {
+    "uid": "74501",
+    "name": "흑화 영춘 - 광기",
+    "displayName": null,
+    "displayNameKind": null,
+    "role": "boss",
+    "context": "Boss索引对象",
+    "spine": "YC00",
+    "personalityCode": 2,
+    "personality": "광기",
+    "attackTypeCode": 2,
+    "attackType": "魔法",
+    "iconKey": "Icon_YC00Mad",
+    "spineSkinName": null,
+    "spineDefaultAnimation": null,
+    "spineActionSuffix": null,
+    "officialTable": "MonsterInfo",
+    "lifecycle": null,
+    "runtimeReferences": {},
+    "iconUrl": "/boss-wiki/kr/2026-08-27/mature/icons/dimensional-clash-2/74501.png",
+    "iconSourceType": "KR官方Spine默认动作静态预览"
+  },
+  "runtimeMonsterUids": [
+    "74501"
+  ],
+  "bossName": "흑화 영춘 - 광기",
+  "familyKey": "yc00",
+  "familyOrder": 999999,
+  "variantOrder": 0,
+  "firstFormalAppearance": {
+    "worldInfoUid": 4202,
+    "stageOrder": 3,
+    "stageUid": "42020030"
+  },
+  "stageRecords": [
+    {
+      "stageUid": "42020010",
+      "name": "配置 4202 · 第1关",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4202,
+      "stageOrder": 1,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 50,
+          "growthTimes": 49,
+          "attributes": {
+            "hp": 369072,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 1049,
+            "magicAttack": 1049,
+            "physicalDefense": 1362,
+            "magicDefense": 1362,
+            "criticalRate": 838,
+            "criticalMultiplier": 838,
+            "criticalResist": 838,
+            "criticalMultiplierResist": 838,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": -7500,
+              "percent": -75
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 5000,
+              "percent": 50
+            },
+            "EndDamageMagicPercent": {
+              "raw": 5000,
+              "percent": 50
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42020020",
+      "name": "配置 4202 · 第2关",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4202,
+      "stageOrder": 2,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 81,
+          "growthTimes": 80,
+          "attributes": {
+            "hp": 607109,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 1669,
+            "magicAttack": 1669,
+            "physicalDefense": 2168,
+            "magicDefense": 2168,
+            "criticalRate": 1334,
+            "criticalMultiplier": 1334,
+            "criticalResist": 1334,
+            "criticalMultiplierResist": 1334,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": -7416,
+              "percent": -74.16
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 5217,
+              "percent": 52.17
+            },
+            "EndDamageMagicPercent": {
+              "raw": 5217,
+              "percent": 52.17
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42020030",
+      "name": "配置 4202 · 第3关",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4202,
+      "stageOrder": 3,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 113,
+          "growthTimes": 112,
+          "attributes": {
+            "hp": 1130003,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 2562.990033,
+            "magicAttack": 2562.990033,
+            "physicalDefense": 3000,
+            "magicDefense": 3000,
+            "criticalRate": 1846,
+            "criticalMultiplier": 1846,
+            "criticalResist": 1846,
+            "criticalMultiplierResist": 1846,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": -6524,
+              "percent": -65.24
+            },
+            "AttackPhysicPercent": {
+              "raw": 1100,
+              "percent": 11
+            },
+            "AttackMagicPercent": {
+              "raw": 1100,
+              "percent": 11
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 5434,
+              "percent": 54.34
+            },
+            "EndDamageMagicPercent": {
+              "raw": 5434,
+              "percent": 54.34
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42020040",
+      "name": "配置 4202 · 第4关",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4202,
+      "stageOrder": 4,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 144,
+          "growthTimes": 143,
+          "attributes": {
+            "hp": 1877280,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 3620.244179,
+            "magicAttack": 3620.244179,
+            "physicalDefense": 3806,
+            "magicDefense": 3806,
+            "criticalRate": 2342,
+            "criticalMultiplier": 2342,
+            "criticalResist": 2342,
+            "criticalMultiplierResist": 2342,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": -5448,
+              "percent": -54.48
+            },
+            "AttackPhysicPercent": {
+              "raw": 2360,
+              "percent": 23.6
+            },
+            "AttackMagicPercent": {
+              "raw": 2360,
+              "percent": 23.6
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 5651,
+              "percent": 56.51
+            },
+            "EndDamageMagicPercent": {
+              "raw": 5651,
+              "percent": 56.51
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42020050",
+      "name": "配置 4202 · 第5关",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4202,
+      "stageOrder": 5,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 175,
+          "growthTimes": 174,
+          "attributes": {
+            "hp": 2852951,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 4833.737959,
+            "magicAttack": 4833.737959,
+            "physicalDefense": 4612,
+            "magicDefense": 4612,
+            "criticalRate": 2838,
+            "criticalMultiplier": 2838,
+            "criticalResist": 2838,
+            "criticalMultiplierResist": 2838,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": -4291,
+              "percent": -42.91
+            },
+            "AttackPhysicPercent": {
+              "raw": 3620,
+              "percent": 36.2
+            },
+            "AttackMagicPercent": {
+              "raw": 3620,
+              "percent": 36.2
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 5868,
+              "percent": 58.68
+            },
+            "EndDamageMagicPercent": {
+              "raw": 5868,
+              "percent": 58.68
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42020060",
+      "name": "配置 4202 · 第6关",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4202,
+      "stageOrder": 6,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 206,
+          "growthTimes": 205,
+          "attributes": {
+            "hp": 4083516,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 6203.47165,
+            "magicAttack": 6203.47165,
+            "physicalDefense": 5418,
+            "magicDefense": 5418,
+            "criticalRate": 3334,
+            "criticalMultiplier": 3334,
+            "criticalResist": 3334,
+            "criticalMultiplierResist": 3334,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": -3044,
+              "percent": -30.44
+            },
+            "AttackPhysicPercent": {
+              "raw": 4880,
+              "percent": 48.8
+            },
+            "AttackMagicPercent": {
+              "raw": 4880,
+              "percent": 48.8
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 6085,
+              "percent": 60.85
+            },
+            "EndDamageMagicPercent": {
+              "raw": 6085,
+              "percent": 60.85
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42020070",
+      "name": "配置 4202 · 第7关",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4202,
+      "stageOrder": 7,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 331,
+          "growthTimes": 330,
+          "attributes": {
+            "hp": 14807568,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 16639.154237,
+            "magicAttack": 16639.154237,
+            "physicalDefense": 8668,
+            "magicDefense": 8668,
+            "criticalRate": 5334,
+            "criticalMultiplier": 5334,
+            "criticalResist": 5334,
+            "criticalMultiplierResist": 5334,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 5767,
+              "percent": 57.67
+            },
+            "AttackPhysicPercent": {
+              "raw": 14950,
+              "percent": 149.5
+            },
+            "AttackMagicPercent": {
+              "raw": 14950,
+              "percent": 149.5
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 6302,
+              "percent": 63.02
+            },
+            "EndDamageMagicPercent": {
+              "raw": 6302,
+              "percent": 63.02
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42020080",
+      "name": "配置 4202 · 第8关",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4202,
+      "stageOrder": 8,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 456,
+          "growthTimes": 455,
+          "attributes": {
+            "hp": 32700890,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 32109.836671,
+            "magicAttack": 32109.836671,
+            "physicalDefense": 11918,
+            "magicDefense": 11918,
+            "criticalRate": 7334,
+            "criticalMultiplier": 7334,
+            "criticalResist": 7334,
+            "criticalMultiplierResist": 7334,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 15325,
+              "percent": 153.25
+            },
+            "AttackPhysicPercent": {
+              "raw": 25020,
+              "percent": 250.2
+            },
+            "AttackMagicPercent": {
+              "raw": 25020,
+              "percent": 250.2
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 6519,
+              "percent": 65.19
+            },
+            "EndDamageMagicPercent": {
+              "raw": 6519,
+              "percent": 65.19
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42020090",
+      "name": "配置 4202 · 第9关",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4202,
+      "stageOrder": 9,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 581,
+          "growthTimes": 580,
+          "attributes": {
+            "hp": 58707012,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 52615.518952,
+            "magicAttack": 52615.518952,
+            "physicalDefense": 15168,
+            "magicDefense": 15168,
+            "criticalRate": 9334,
+            "criticalMultiplier": 9334,
+            "criticalResist": 9334,
+            "criticalMultiplierResist": 9334,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 25724,
+              "percent": 257.24
+            },
+            "AttackPhysicPercent": {
+              "raw": 35090,
+              "percent": 350.9
+            },
+            "AttackMagicPercent": {
+              "raw": 35090,
+              "percent": 350.9
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 6736,
+              "percent": 67.36
+            },
+            "EndDamageMagicPercent": {
+              "raw": 6736,
+              "percent": 67.36
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42020100",
+      "name": "配置 4202 · 第10关",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4202,
+      "stageOrder": 10,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 706,
+          "growthTimes": 705,
+          "attributes": {
+            "hp": 93949748,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 78156.201081,
+            "magicAttack": 78156.201081,
+            "physicalDefense": 18418,
+            "magicDefense": 18418,
+            "criticalRate": 11334,
+            "criticalMultiplier": 11334,
+            "criticalResist": 11334,
+            "criticalMultiplierResist": 11334,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 37082,
+              "percent": 370.82
+            },
+            "AttackPhysicPercent": {
+              "raw": 45160,
+              "percent": 451.6
+            },
+            "AttackMagicPercent": {
+              "raw": 45160,
+              "percent": 451.6
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 6953,
+              "percent": 69.53
+            },
+            "EndDamageMagicPercent": {
+              "raw": 6953,
+              "percent": 69.53
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42020110",
+      "name": "配置 4202 · 第11关",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4202,
+      "stageOrder": 11,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 831,
+          "growthTimes": 830,
+          "attributes": {
+            "hp": 139782483,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 108748.550849,
+            "magicAttack": 108748.550849,
+            "physicalDefense": 21668,
+            "magicDefense": 21668,
+            "criticalRate": 13334,
+            "criticalMultiplier": 13334,
+            "criticalResist": 13334,
+            "criticalMultiplierResist": 13334,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 49544,
+              "percent": 495.44
+            },
+            "AttackPhysicPercent": {
+              "raw": 55240,
+              "percent": 552.4
+            },
+            "AttackMagicPercent": {
+              "raw": 55240,
+              "percent": 552.4
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 7170,
+              "percent": 71.7
+            },
+            "EndDamageMagicPercent": {
+              "raw": 7170,
+              "percent": 71.7
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42020120",
+      "name": "配置 4202 · 第12关",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4202,
+      "stageOrder": 12,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 956,
+          "growthTimes": 955,
+          "attributes": {
+            "hp": 197797909,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 144361.732492,
+            "magicAttack": 144361.732492,
+            "physicalDefense": 24918,
+            "magicDefense": 24918,
+            "criticalRate": 15334,
+            "criticalMultiplier": 15334,
+            "criticalResist": 15334,
+            "criticalMultiplierResist": 15334,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 63268,
+              "percent": 632.68
+            },
+            "AttackPhysicPercent": {
+              "raw": 65310,
+              "percent": 653.1
+            },
+            "AttackMagicPercent": {
+              "raw": 65310,
+              "percent": 653.1
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 7387,
+              "percent": 73.87
+            },
+            "EndDamageMagicPercent": {
+              "raw": 7387,
+              "percent": 73.87
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42020130",
+      "name": "配置 4202 · 第13关",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4202,
+      "stageOrder": 13,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 1456,
+          "growthTimes": 1455,
+          "attributes": {
+            "hp": 687547793,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 454686.352861,
+            "magicAttack": 454686.352861,
+            "physicalDefense": 37918,
+            "magicDefense": 37918,
+            "criticalRate": 23334,
+            "criticalMultiplier": 23334,
+            "criticalResist": 23334,
+            "criticalMultiplierResist": 23334,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 157366,
+              "percent": 1573.66
+            },
+            "AttackPhysicPercent": {
+              "raw": 145880,
+              "percent": 1458.8
+            },
+            "AttackMagicPercent": {
+              "raw": 145880,
+              "percent": 1458.8
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 7604,
+              "percent": 76.04
+            },
+            "EndDamageMagicPercent": {
+              "raw": 7604,
+              "percent": 76.04
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42020140",
+      "name": "配置 4202 · 第14关",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4202,
+      "stageOrder": 14,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 1956,
+          "growthTimes": 1955,
+          "attributes": {
+            "hp": 1501086542,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 926150.948221,
+            "magicAttack": 926150.948221,
+            "physicalDefense": 50918,
+            "magicDefense": 50918,
+            "criticalRate": 31334,
+            "criticalMultiplier": 31334,
+            "criticalResist": 31334,
+            "criticalMultiplierResist": 31334,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 262111,
+              "percent": 2621.11
+            },
+            "AttackPhysicPercent": {
+              "raw": 226450,
+              "percent": 2264.5
+            },
+            "AttackMagicPercent": {
+              "raw": 226450,
+              "percent": 2264.5
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 7821,
+              "percent": 78.21
+            },
+            "EndDamageMagicPercent": {
+              "raw": 7821,
+              "percent": 78.21
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42020150",
+      "name": "配置 4202 · 第15关",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4202,
+      "stageOrder": 15,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 2456,
+          "growthTimes": 2455,
+          "attributes": {
+            "hp": 2696751025,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 1558804.763485,
+            "magicAttack": 1558804.763485,
+            "physicalDefense": 63918,
+            "magicDefense": 63918,
+            "criticalRate": 39334,
+            "criticalMultiplier": 39334,
+            "criticalResist": 39334,
+            "criticalMultiplierResist": 39334,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 379431,
+              "percent": 3794.31
+            },
+            "AttackPhysicPercent": {
+              "raw": 307030,
+              "percent": 3070.3
+            },
+            "AttackMagicPercent": {
+              "raw": 307030,
+              "percent": 3070.3
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 8038,
+              "percent": 80.38
+            },
+            "EndDamageMagicPercent": {
+              "raw": 8038,
+              "percent": 80.38
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42020160",
+      "name": "配置 4202 · 第16关",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4202,
+      "stageOrder": 16,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 2956,
+          "growthTimes": 2955,
+          "attributes": {
+            "hp": 4347647746,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 2352559.340687,
+            "magicAttack": 2352559.340687,
+            "physicalDefense": 76918,
+            "magicDefense": 76918,
+            "criticalRate": 47334,
+            "criticalMultiplier": 47334,
+            "criticalResist": 47334,
+            "criticalMultiplierResist": 47334,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 511723,
+              "percent": 5117.23
+            },
+            "AttackPhysicPercent": {
+              "raw": 387600,
+              "percent": 3876
+            },
+            "AttackMagicPercent": {
+              "raw": 387600,
+              "percent": 3876
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 8255,
+              "percent": 82.55
+            },
+            "EndDamageMagicPercent": {
+              "raw": 8255,
+              "percent": 82.55
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42020170",
+      "name": "配置 4202 · 第17关",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4202,
+      "stageOrder": 17,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 3456,
+          "growthTimes": 3455,
+          "attributes": {
+            "hp": 6546973021,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 3307453.90202,
+            "magicAttack": 3307453.90202,
+            "physicalDefense": 89918,
+            "magicDefense": 89918,
+            "criticalRate": 55334,
+            "criticalMultiplier": 55334,
+            "criticalResist": 55334,
+            "criticalMultiplierResist": 55334,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 662060,
+              "percent": 6620.6
+            },
+            "AttackPhysicPercent": {
+              "raw": 468170,
+              "percent": 4681.7
+            },
+            "AttackMagicPercent": {
+              "raw": 468170,
+              "percent": 4681.7
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 8472,
+              "percent": 84.72
+            },
+            "EndDamageMagicPercent": {
+              "raw": 8472,
+              "percent": 84.72
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42020180",
+      "name": "配置 4202 · 第18关",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4202,
+      "stageOrder": 18,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 3956,
+          "growthTimes": 3955,
+          "attributes": {
+            "hp": 9415000755,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 4423567.875,
+            "magicAttack": 4423567.875,
+            "physicalDefense": 102918,
+            "magicDefense": 102918,
+            "criticalRate": 63334,
+            "criticalMultiplier": 63334,
+            "criticalResist": 63334,
+            "criticalMultiplierResist": 63334,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 834391,
+              "percent": 8343.91
+            },
+            "AttackPhysicPercent": {
+              "raw": 548750,
+              "percent": 5487.5
+            },
+            "AttackMagicPercent": {
+              "raw": 548750,
+              "percent": 5487.5
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 8689,
+              "percent": 86.89
+            },
+            "EndDamageMagicPercent": {
+              "raw": 8689,
+              "percent": 86.89
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42020190",
+      "name": "配置 4202 · 第19关",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4202,
+      "stageOrder": 19,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 5006,
+          "growthTimes": 5005,
+          "attributes": {
+            "hp": 16789701379,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 7291802.171585,
+            "magicAttack": 7291802.171585,
+            "physicalDefense": 130218,
+            "magicDefense": 130218,
+            "criticalRate": 80134,
+            "criticalMultiplier": 80134,
+            "criticalResist": 80134,
+            "criticalMultiplierResist": 80134,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 1180110,
+              "percent": 11801.1
+            },
+            "AttackPhysicPercent": {
+              "raw": 717950,
+              "percent": 7179.5
+            },
+            "AttackMagicPercent": {
+              "raw": 717950,
+              "percent": 7179.5
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 8906,
+              "percent": 89.06
+            },
+            "EndDamageMagicPercent": {
+              "raw": 8906,
+              "percent": 89.06
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42020200",
+      "name": "配置 4202 · 第20关",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4202,
+      "stageOrder": 20,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 6056,
+          "growthTimes": 6055,
+          "attributes": {
+            "hp": 27220718503,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 10870676.391266,
+            "magicAttack": 10870676.391266,
+            "physicalDefense": 157518,
+            "magicDefense": 157518,
+            "criticalRate": 96934,
+            "criticalMultiplier": 96934,
+            "criticalResist": 96934,
+            "criticalMultiplierResist": 96934,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 1585089,
+              "percent": 15850.89
+            },
+            "AttackPhysicPercent": {
+              "raw": 887150,
+              "percent": 8871.5
+            },
+            "AttackMagicPercent": {
+              "raw": 887150,
+              "percent": 8871.5
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 9123,
+              "percent": 91.23
+            },
+            "EndDamageMagicPercent": {
+              "raw": 9123,
+              "percent": 91.23
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42020210",
+      "name": "配置 4202 · 第21关",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4202,
+      "stageOrder": 21,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 7106,
+          "growthTimes": 7105,
+          "attributes": {
+            "hp": 41567844570,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 15160332.624947,
+            "magicAttack": 15160332.624947,
+            "physicalDefense": 184818,
+            "magicDefense": 184818,
+            "criticalRate": 113734,
+            "criticalMultiplier": 113734,
+            "criticalResist": 113734,
+            "criticalMultiplierResist": 113734,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 2066008,
+              "percent": 20660.08
+            },
+            "AttackPhysicPercent": {
+              "raw": 1056360,
+              "percent": 10563.6
+            },
+            "AttackMagicPercent": {
+              "raw": 1056360,
+              "percent": 10563.6
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 9340,
+              "percent": 93.4
+            },
+            "EndDamageMagicPercent": {
+              "raw": 9340,
+              "percent": 93.4
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42020220",
+      "name": "配置 4202 · 第22关",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4202,
+      "stageOrder": 22,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 8156,
+          "growthTimes": 8155,
+          "attributes": {
+            "hp": 61046150030,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 20160508.924164,
+            "magicAttack": 20160508.924164,
+            "physicalDefense": 212118,
+            "magicDefense": 212118,
+            "criticalRate": 130534,
+            "criticalMultiplier": 130534,
+            "criticalResist": 130534,
+            "criticalMultiplierResist": 130534,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 2646420,
+              "percent": 26464.2
+            },
+            "AttackPhysicPercent": {
+              "raw": 1225560,
+              "percent": 12255.6
+            },
+            "AttackMagicPercent": {
+              "raw": 1225560,
+              "percent": 12255.6
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 9557,
+              "percent": 95.57
+            },
+            "EndDamageMagicPercent": {
+              "raw": 9557,
+              "percent": 95.57
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42020230",
+      "name": "配置 4202 · 第23关",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4202,
+      "stageOrder": 23,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 9206,
+          "growthTimes": 9205,
+          "attributes": {
+            "hp": 87432180567,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 25871506.724548,
+            "magicAttack": 25871506.724548,
+            "physicalDefense": 239418,
+            "magicDefense": 239418,
+            "criticalRate": 147334,
+            "criticalMultiplier": 147334,
+            "criticalResist": 147334,
+            "criticalMultiplierResist": 147334,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 3360782,
+              "percent": 33607.82
+            },
+            "AttackPhysicPercent": {
+              "raw": 1394770,
+              "percent": 13947.7
+            },
+            "AttackMagicPercent": {
+              "raw": 1394770,
+              "percent": 13947.7
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 9774,
+              "percent": 97.74
+            },
+            "EndDamageMagicPercent": {
+              "raw": 9774,
+              "percent": 97.74
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42020240",
+      "name": "配置 4202 · 第24关",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4202,
+      "stageOrder": 24,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 10256,
+          "growthTimes": 10255,
+          "attributes": {
+            "hp": 123428789808,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 32292985.744171,
+            "magicAttack": 32292985.744171,
+            "physicalDefense": 266718,
+            "magicDefense": 266718,
+            "criticalRate": 164134,
+            "criticalMultiplier": 164134,
+            "criticalResist": 164134,
+            "criticalMultiplierResist": 164134,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 4261500,
+              "percent": 42615
+            },
+            "AttackPhysicPercent": {
+              "raw": 1563970,
+              "percent": 15639.7
+            },
+            "AttackMagicPercent": {
+              "raw": 1563970,
+              "percent": 15639.7
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 10000,
+              "percent": 100
+            },
+            "EndDamageMagicPercent": {
+              "raw": 10000,
+              "percent": 100
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42030030",
+      "name": "配置 4203 · 第3关",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4203,
+      "stageOrder": 3,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 113,
+          "growthTimes": 112,
+          "attributes": {
+            "hp": 1130003,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 2562.990033,
+            "magicAttack": 2562.990033,
+            "physicalDefense": 3000,
+            "magicDefense": 3000,
+            "criticalRate": 1846,
+            "criticalMultiplier": 1846,
+            "criticalResist": 1846,
+            "criticalMultiplierResist": 1846,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": -6524,
+              "percent": -65.24
+            },
+            "AttackPhysicPercent": {
+              "raw": 1100,
+              "percent": 11
+            },
+            "AttackMagicPercent": {
+              "raw": 1100,
+              "percent": 11
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 5434,
+              "percent": 54.34
+            },
+            "EndDamageMagicPercent": {
+              "raw": 5434,
+              "percent": 54.34
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42030060",
+      "name": "配置 4203 · 第6关",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4203,
+      "stageOrder": 6,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 206,
+          "growthTimes": 205,
+          "attributes": {
+            "hp": 4083516,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 6203.47165,
+            "magicAttack": 6203.47165,
+            "physicalDefense": 5418,
+            "magicDefense": 5418,
+            "criticalRate": 3334,
+            "criticalMultiplier": 3334,
+            "criticalResist": 3334,
+            "criticalMultiplierResist": 3334,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": -3044,
+              "percent": -30.44
+            },
+            "AttackPhysicPercent": {
+              "raw": 4880,
+              "percent": 48.8
+            },
+            "AttackMagicPercent": {
+              "raw": 4880,
+              "percent": 48.8
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 6085,
+              "percent": 60.85
+            },
+            "EndDamageMagicPercent": {
+              "raw": 6085,
+              "percent": 60.85
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42030090",
+      "name": "配置 4203 · 第9关",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4203,
+      "stageOrder": 9,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 581,
+          "growthTimes": 580,
+          "attributes": {
+            "hp": 58707012,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 52615.518952,
+            "magicAttack": 52615.518952,
+            "physicalDefense": 15168,
+            "magicDefense": 15168,
+            "criticalRate": 9334,
+            "criticalMultiplier": 9334,
+            "criticalResist": 9334,
+            "criticalMultiplierResist": 9334,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 25724,
+              "percent": 257.24
+            },
+            "AttackPhysicPercent": {
+              "raw": 35090,
+              "percent": 350.9
+            },
+            "AttackMagicPercent": {
+              "raw": 35090,
+              "percent": 350.9
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 6736,
+              "percent": 67.36
+            },
+            "EndDamageMagicPercent": {
+              "raw": 6736,
+              "percent": 67.36
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42030120",
+      "name": "配置 4203 · 第12关",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4203,
+      "stageOrder": 12,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 956,
+          "growthTimes": 955,
+          "attributes": {
+            "hp": 197797909,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 144361.732492,
+            "magicAttack": 144361.732492,
+            "physicalDefense": 24918,
+            "magicDefense": 24918,
+            "criticalRate": 15334,
+            "criticalMultiplier": 15334,
+            "criticalResist": 15334,
+            "criticalMultiplierResist": 15334,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 63268,
+              "percent": 632.68
+            },
+            "AttackPhysicPercent": {
+              "raw": 65310,
+              "percent": 653.1
+            },
+            "AttackMagicPercent": {
+              "raw": 65310,
+              "percent": 653.1
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 7387,
+              "percent": 73.87
+            },
+            "EndDamageMagicPercent": {
+              "raw": 7387,
+              "percent": 73.87
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42030150",
+      "name": "配置 4203 · 第15关",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4203,
+      "stageOrder": 15,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 2456,
+          "growthTimes": 2455,
+          "attributes": {
+            "hp": 2696751025,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 1558804.763485,
+            "magicAttack": 1558804.763485,
+            "physicalDefense": 63918,
+            "magicDefense": 63918,
+            "criticalRate": 39334,
+            "criticalMultiplier": 39334,
+            "criticalResist": 39334,
+            "criticalMultiplierResist": 39334,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 379431,
+              "percent": 3794.31
+            },
+            "AttackPhysicPercent": {
+              "raw": 307030,
+              "percent": 3070.3
+            },
+            "AttackMagicPercent": {
+              "raw": 307030,
+              "percent": 3070.3
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 8038,
+              "percent": 80.38
+            },
+            "EndDamageMagicPercent": {
+              "raw": 8038,
+              "percent": 80.38
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42030180",
+      "name": "配置 4203 · 第18关",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4203,
+      "stageOrder": 18,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 3956,
+          "growthTimes": 3955,
+          "attributes": {
+            "hp": 9415000755,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 4423567.875,
+            "magicAttack": 4423567.875,
+            "physicalDefense": 102918,
+            "magicDefense": 102918,
+            "criticalRate": 63334,
+            "criticalMultiplier": 63334,
+            "criticalResist": 63334,
+            "criticalMultiplierResist": 63334,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 834391,
+              "percent": 8343.91
+            },
+            "AttackPhysicPercent": {
+              "raw": 548750,
+              "percent": 5487.5
+            },
+            "AttackMagicPercent": {
+              "raw": 548750,
+              "percent": 5487.5
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 8689,
+              "percent": 86.89
+            },
+            "EndDamageMagicPercent": {
+              "raw": 8689,
+              "percent": 86.89
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42030210",
+      "name": "配置 4203 · 第21关",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4203,
+      "stageOrder": 21,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 7106,
+          "growthTimes": 7105,
+          "attributes": {
+            "hp": 41567844570,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 15160332.624947,
+            "magicAttack": 15160332.624947,
+            "physicalDefense": 184818,
+            "magicDefense": 184818,
+            "criticalRate": 113734,
+            "criticalMultiplier": 113734,
+            "criticalResist": 113734,
+            "criticalMultiplierResist": 113734,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 2066008,
+              "percent": 20660.08
+            },
+            "AttackPhysicPercent": {
+              "raw": 1056360,
+              "percent": 10563.6
+            },
+            "AttackMagicPercent": {
+              "raw": 1056360,
+              "percent": 10563.6
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 9340,
+              "percent": 93.4
+            },
+            "EndDamageMagicPercent": {
+              "raw": 9340,
+              "percent": 93.4
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42030240",
+      "name": "配置 4203 · 第24关",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4203,
+      "stageOrder": 24,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 10256,
+          "growthTimes": 10255,
+          "attributes": {
+            "hp": 123428789808,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 32292985.744171,
+            "magicAttack": 32292985.744171,
+            "physicalDefense": 266718,
+            "magicDefense": 266718,
+            "criticalRate": 164134,
+            "criticalMultiplier": 164134,
+            "criticalResist": 164134,
+            "criticalMultiplierResist": 164134,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 4261500,
+              "percent": 42615
+            },
+            "AttackPhysicPercent": {
+              "raw": 1563970,
+              "percent": 15639.7
+            },
+            "AttackMagicPercent": {
+              "raw": 1563970,
+              "percent": 15639.7
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 10000,
+              "percent": 100
+            },
+            "EndDamageMagicPercent": {
+              "raw": 10000,
+              "percent": 100
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    }
+  ],
+  "stageRosters": [
+    {
+      "modeKey": "dimensional-clash-2",
+      "modeCode": 42,
+      "stageUid": "42020010",
+      "stage": "配置 4202 · 第1关",
+      "stageOrder": 1,
+      "worldInfoUid": 4202,
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "74501",
+              "name": "흑화 영춘 - 광기",
+              "role": "boss",
+              "context": "关卡出场",
+              "count": 1,
+              "spine": "YC00",
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "level": 50,
+              "runtimeReferences": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modeKey": "dimensional-clash-2",
+      "modeCode": 42,
+      "stageUid": "42020020",
+      "stage": "配置 4202 · 第2关",
+      "stageOrder": 2,
+      "worldInfoUid": 4202,
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "74501",
+              "name": "흑화 영춘 - 광기",
+              "role": "boss",
+              "context": "关卡出场",
+              "count": 1,
+              "spine": "YC00",
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "level": 81,
+              "runtimeReferences": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modeKey": "dimensional-clash-2",
+      "modeCode": 42,
+      "stageUid": "42020030",
+      "stage": "配置 4202 · 第3关",
+      "stageOrder": 3,
+      "worldInfoUid": 4202,
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "74501",
+              "name": "흑화 영춘 - 광기",
+              "role": "boss",
+              "context": "关卡出场",
+              "count": 1,
+              "spine": "YC00",
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "level": 113,
+              "runtimeReferences": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modeKey": "dimensional-clash-2",
+      "modeCode": 42,
+      "stageUid": "42020040",
+      "stage": "配置 4202 · 第4关",
+      "stageOrder": 4,
+      "worldInfoUid": 4202,
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "74501",
+              "name": "흑화 영춘 - 광기",
+              "role": "boss",
+              "context": "关卡出场",
+              "count": 1,
+              "spine": "YC00",
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "level": 144,
+              "runtimeReferences": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modeKey": "dimensional-clash-2",
+      "modeCode": 42,
+      "stageUid": "42020050",
+      "stage": "配置 4202 · 第5关",
+      "stageOrder": 5,
+      "worldInfoUid": 4202,
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "74501",
+              "name": "흑화 영춘 - 광기",
+              "role": "boss",
+              "context": "关卡出场",
+              "count": 1,
+              "spine": "YC00",
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "level": 175,
+              "runtimeReferences": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modeKey": "dimensional-clash-2",
+      "modeCode": 42,
+      "stageUid": "42020060",
+      "stage": "配置 4202 · 第6关",
+      "stageOrder": 6,
+      "worldInfoUid": 4202,
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "74501",
+              "name": "흑화 영춘 - 광기",
+              "role": "boss",
+              "context": "关卡出场",
+              "count": 1,
+              "spine": "YC00",
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "level": 206,
+              "runtimeReferences": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modeKey": "dimensional-clash-2",
+      "modeCode": 42,
+      "stageUid": "42020070",
+      "stage": "配置 4202 · 第7关",
+      "stageOrder": 7,
+      "worldInfoUid": 4202,
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "74501",
+              "name": "흑화 영춘 - 광기",
+              "role": "boss",
+              "context": "关卡出场",
+              "count": 1,
+              "spine": "YC00",
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "level": 331,
+              "runtimeReferences": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modeKey": "dimensional-clash-2",
+      "modeCode": 42,
+      "stageUid": "42020080",
+      "stage": "配置 4202 · 第8关",
+      "stageOrder": 8,
+      "worldInfoUid": 4202,
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "74501",
+              "name": "흑화 영춘 - 광기",
+              "role": "boss",
+              "context": "关卡出场",
+              "count": 1,
+              "spine": "YC00",
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "level": 456,
+              "runtimeReferences": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modeKey": "dimensional-clash-2",
+      "modeCode": 42,
+      "stageUid": "42020090",
+      "stage": "配置 4202 · 第9关",
+      "stageOrder": 9,
+      "worldInfoUid": 4202,
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "74501",
+              "name": "흑화 영춘 - 광기",
+              "role": "boss",
+              "context": "关卡出场",
+              "count": 1,
+              "spine": "YC00",
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "level": 581,
+              "runtimeReferences": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modeKey": "dimensional-clash-2",
+      "modeCode": 42,
+      "stageUid": "42020100",
+      "stage": "配置 4202 · 第10关",
+      "stageOrder": 10,
+      "worldInfoUid": 4202,
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "74501",
+              "name": "흑화 영춘 - 광기",
+              "role": "boss",
+              "context": "关卡出场",
+              "count": 1,
+              "spine": "YC00",
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "level": 706,
+              "runtimeReferences": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modeKey": "dimensional-clash-2",
+      "modeCode": 42,
+      "stageUid": "42020110",
+      "stage": "配置 4202 · 第11关",
+      "stageOrder": 11,
+      "worldInfoUid": 4202,
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "74501",
+              "name": "흑화 영춘 - 광기",
+              "role": "boss",
+              "context": "关卡出场",
+              "count": 1,
+              "spine": "YC00",
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "level": 831,
+              "runtimeReferences": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modeKey": "dimensional-clash-2",
+      "modeCode": 42,
+      "stageUid": "42020120",
+      "stage": "配置 4202 · 第12关",
+      "stageOrder": 12,
+      "worldInfoUid": 4202,
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "74501",
+              "name": "흑화 영춘 - 광기",
+              "role": "boss",
+              "context": "关卡出场",
+              "count": 1,
+              "spine": "YC00",
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "level": 956,
+              "runtimeReferences": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modeKey": "dimensional-clash-2",
+      "modeCode": 42,
+      "stageUid": "42020130",
+      "stage": "配置 4202 · 第13关",
+      "stageOrder": 13,
+      "worldInfoUid": 4202,
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "74501",
+              "name": "흑화 영춘 - 광기",
+              "role": "boss",
+              "context": "关卡出场",
+              "count": 1,
+              "spine": "YC00",
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "level": 1456,
+              "runtimeReferences": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modeKey": "dimensional-clash-2",
+      "modeCode": 42,
+      "stageUid": "42020140",
+      "stage": "配置 4202 · 第14关",
+      "stageOrder": 14,
+      "worldInfoUid": 4202,
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "74501",
+              "name": "흑화 영춘 - 광기",
+              "role": "boss",
+              "context": "关卡出场",
+              "count": 1,
+              "spine": "YC00",
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "level": 1956,
+              "runtimeReferences": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modeKey": "dimensional-clash-2",
+      "modeCode": 42,
+      "stageUid": "42020150",
+      "stage": "配置 4202 · 第15关",
+      "stageOrder": 15,
+      "worldInfoUid": 4202,
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "74501",
+              "name": "흑화 영춘 - 광기",
+              "role": "boss",
+              "context": "关卡出场",
+              "count": 1,
+              "spine": "YC00",
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "level": 2456,
+              "runtimeReferences": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modeKey": "dimensional-clash-2",
+      "modeCode": 42,
+      "stageUid": "42020160",
+      "stage": "配置 4202 · 第16关",
+      "stageOrder": 16,
+      "worldInfoUid": 4202,
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "74501",
+              "name": "흑화 영춘 - 광기",
+              "role": "boss",
+              "context": "关卡出场",
+              "count": 1,
+              "spine": "YC00",
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "level": 2956,
+              "runtimeReferences": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modeKey": "dimensional-clash-2",
+      "modeCode": 42,
+      "stageUid": "42020170",
+      "stage": "配置 4202 · 第17关",
+      "stageOrder": 17,
+      "worldInfoUid": 4202,
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "74501",
+              "name": "흑화 영춘 - 광기",
+              "role": "boss",
+              "context": "关卡出场",
+              "count": 1,
+              "spine": "YC00",
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "level": 3456,
+              "runtimeReferences": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modeKey": "dimensional-clash-2",
+      "modeCode": 42,
+      "stageUid": "42020180",
+      "stage": "配置 4202 · 第18关",
+      "stageOrder": 18,
+      "worldInfoUid": 4202,
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "74501",
+              "name": "흑화 영춘 - 광기",
+              "role": "boss",
+              "context": "关卡出场",
+              "count": 1,
+              "spine": "YC00",
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "level": 3956,
+              "runtimeReferences": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modeKey": "dimensional-clash-2",
+      "modeCode": 42,
+      "stageUid": "42020190",
+      "stage": "配置 4202 · 第19关",
+      "stageOrder": 19,
+      "worldInfoUid": 4202,
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "74501",
+              "name": "흑화 영춘 - 광기",
+              "role": "boss",
+              "context": "关卡出场",
+              "count": 1,
+              "spine": "YC00",
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "level": 5006,
+              "runtimeReferences": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modeKey": "dimensional-clash-2",
+      "modeCode": 42,
+      "stageUid": "42020200",
+      "stage": "配置 4202 · 第20关",
+      "stageOrder": 20,
+      "worldInfoUid": 4202,
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "74501",
+              "name": "흑화 영춘 - 광기",
+              "role": "boss",
+              "context": "关卡出场",
+              "count": 1,
+              "spine": "YC00",
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "level": 6056,
+              "runtimeReferences": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modeKey": "dimensional-clash-2",
+      "modeCode": 42,
+      "stageUid": "42020210",
+      "stage": "配置 4202 · 第21关",
+      "stageOrder": 21,
+      "worldInfoUid": 4202,
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "74501",
+              "name": "흑화 영춘 - 광기",
+              "role": "boss",
+              "context": "关卡出场",
+              "count": 1,
+              "spine": "YC00",
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "level": 7106,
+              "runtimeReferences": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modeKey": "dimensional-clash-2",
+      "modeCode": 42,
+      "stageUid": "42020220",
+      "stage": "配置 4202 · 第22关",
+      "stageOrder": 22,
+      "worldInfoUid": 4202,
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "74501",
+              "name": "흑화 영춘 - 광기",
+              "role": "boss",
+              "context": "关卡出场",
+              "count": 1,
+              "spine": "YC00",
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "level": 8156,
+              "runtimeReferences": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modeKey": "dimensional-clash-2",
+      "modeCode": 42,
+      "stageUid": "42020230",
+      "stage": "配置 4202 · 第23关",
+      "stageOrder": 23,
+      "worldInfoUid": 4202,
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "74501",
+              "name": "흑화 영춘 - 광기",
+              "role": "boss",
+              "context": "关卡出场",
+              "count": 1,
+              "spine": "YC00",
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "level": 9206,
+              "runtimeReferences": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modeKey": "dimensional-clash-2",
+      "modeCode": 42,
+      "stageUid": "42020240",
+      "stage": "配置 4202 · 第24关",
+      "stageOrder": 24,
+      "worldInfoUid": 4202,
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "74501",
+              "name": "흑화 영춘 - 광기",
+              "role": "boss",
+              "context": "关卡出场",
+              "count": 1,
+              "spine": "YC00",
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "level": 10256,
+              "runtimeReferences": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modeKey": "dimensional-clash-2",
+      "modeCode": 42,
+      "stageUid": "42030030",
+      "stage": "配置 4203 · 第3关",
+      "stageOrder": 3,
+      "worldInfoUid": 4203,
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "74501",
+              "name": "흑화 영춘 - 광기",
+              "role": "boss",
+              "context": "9.24正式战斗波次",
+              "count": 1,
+              "spine": "YC00",
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "level": 113,
+              "runtimeReferences": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modeKey": "dimensional-clash-2",
+      "modeCode": 42,
+      "stageUid": "42030060",
+      "stage": "配置 4203 · 第6关",
+      "stageOrder": 6,
+      "worldInfoUid": 4203,
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "74501",
+              "name": "흑화 영춘 - 광기",
+              "role": "boss",
+              "context": "9.24正式战斗波次",
+              "count": 1,
+              "spine": "YC00",
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "level": 206,
+              "runtimeReferences": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modeKey": "dimensional-clash-2",
+      "modeCode": 42,
+      "stageUid": "42030090",
+      "stage": "配置 4203 · 第9关",
+      "stageOrder": 9,
+      "worldInfoUid": 4203,
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "74501",
+              "name": "흑화 영춘 - 광기",
+              "role": "boss",
+              "context": "9.24正式战斗波次",
+              "count": 1,
+              "spine": "YC00",
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "level": 581,
+              "runtimeReferences": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modeKey": "dimensional-clash-2",
+      "modeCode": 42,
+      "stageUid": "42030120",
+      "stage": "配置 4203 · 第12关",
+      "stageOrder": 12,
+      "worldInfoUid": 4203,
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "74501",
+              "name": "흑화 영춘 - 광기",
+              "role": "boss",
+              "context": "9.24正式战斗波次",
+              "count": 1,
+              "spine": "YC00",
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "level": 956,
+              "runtimeReferences": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modeKey": "dimensional-clash-2",
+      "modeCode": 42,
+      "stageUid": "42030150",
+      "stage": "配置 4203 · 第15关",
+      "stageOrder": 15,
+      "worldInfoUid": 4203,
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "74501",
+              "name": "흑화 영춘 - 광기",
+              "role": "boss",
+              "context": "9.24正式战斗波次",
+              "count": 1,
+              "spine": "YC00",
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "level": 2456,
+              "runtimeReferences": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modeKey": "dimensional-clash-2",
+      "modeCode": 42,
+      "stageUid": "42030180",
+      "stage": "配置 4203 · 第18关",
+      "stageOrder": 18,
+      "worldInfoUid": 4203,
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "74501",
+              "name": "흑화 영춘 - 광기",
+              "role": "boss",
+              "context": "9.24正式战斗波次",
+              "count": 1,
+              "spine": "YC00",
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "level": 3956,
+              "runtimeReferences": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modeKey": "dimensional-clash-2",
+      "modeCode": 42,
+      "stageUid": "42030210",
+      "stage": "配置 4203 · 第21关",
+      "stageOrder": 21,
+      "worldInfoUid": 4203,
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "74501",
+              "name": "흑화 영춘 - 광기",
+              "role": "boss",
+              "context": "9.24正式战斗波次",
+              "count": 1,
+              "spine": "YC00",
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "level": 7106,
+              "runtimeReferences": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modeKey": "dimensional-clash-2",
+      "modeCode": 42,
+      "stageUid": "42030240",
+      "stage": "配置 4203 · 第24关",
+      "stageOrder": 24,
+      "worldInfoUid": 4203,
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "74501",
+              "name": "흑화 영춘 - 광기",
+              "role": "boss",
+              "context": "9.24正式战斗波次",
+              "count": 1,
+              "spine": "YC00",
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "level": 10256,
+              "runtimeReferences": {}
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "encounterGuide": {
+    "status": "部分机制待确认",
+    "battleTimeLimitSeconds": [
+      180
+    ],
+    "battleTimeline": [
+      {
+        "atSeconds": 12,
+        "condition": "开战满12秒后可首次出招，之后会重复；每轮计时12秒，等待出招期间暂停，其他动作可能推迟释放。",
+        "repeatIntervalSeconds": null,
+        "phase": "全阶段",
+        "event": "随机落雷",
+        "category": "time-trigger",
+        "targetType": "attack",
+        "targetId": "yc00-74501-time12",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      },
+      {
+        "atSeconds": 10,
+        "condition": "开战满10秒后可首次出招，之后会重复；每轮计时10秒，等待出招期间暂停，其他动作可能推迟释放。",
+        "repeatIntervalSeconds": null,
+        "phase": "全阶段",
+        "event": "愤怒永春：连续跺脚",
+        "category": "time-trigger",
+        "targetType": "attack",
+        "targetId": "yc00-74501-time30",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": 10
+      },
+      {
+        "atSeconds": null,
+        "condition": "普通攻击累计3次后，下一次改为三段强化攻击",
+        "repeatIntervalSeconds": null,
+        "phase": "全阶段",
+        "event": "强化攻击",
+        "category": "enhanced",
+        "targetType": "attack",
+        "targetId": "yc00-74501-enhanced",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      },
+      {
+        "atSeconds": null,
+        "condition": "SP蓄满至200后释放",
+        "repeatIntervalSeconds": null,
+        "phase": "全阶段",
+        "event": "SP技能",
+        "category": "sp",
+        "targetType": "attack",
+        "targetId": "yc00-74501-sp",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      }
+    ],
+    "phases": [],
+    "attacks": [
+      {
+        "id": "yc00-74501-normal",
+        "category": "normal",
+        "title": "普通攻击",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "无",
+          "summary": "按普通攻击循环使用",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "已证明完整施放",
+            "actionSequence": [
+              {
+                "action": "单次攻击",
+                "spineAnimation": "Attack1_1_Mad",
+                "eventTimes": [
+                  0.766667
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 120,
+                "multiplierMax": 120,
+                "hitCount": 1,
+                "subtotalMin": 120,
+                "subtotalMax": 120,
+                "eventTimes": [
+                  0.766667
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 120,
+              "max": 120
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "7450101"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "yc00-74501-normal",
+            "label": "普通攻击",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0.766667,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Attack1_1_Mad"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "120% × 1＝120%",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 120,
+              "multiplierMax": 120,
+              "hitCount": 1,
+              "subtotalMin": 120,
+              "subtotalMax": 120,
+              "eventTimes": [
+                0.766667
+              ]
+            }
+          ],
+          "hitCount": 1,
+          "confirmedTotalMultiplier": {
+            "min": 120,
+            "max": 120
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [],
+        "confirmedTotalMultiplier": {
+          "min": 120,
+          "max": 120
+        },
+        "hitCount": 1,
+        "playerResult": "单次造成120%伤害。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 10
+      },
+      {
+        "id": "yc00-74501-enhanced",
+        "category": "enhanced",
+        "title": "强化攻击",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "堆叠",
+          "summary": "普通攻击累计3次后，下一次改为三段强化攻击",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": 3,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "连续三段",
+            "actionSequence": [
+              {
+                "action": "三段强化攻击",
+                "spineAnimation": "Attack2_1_Mad",
+                "eventTimes": [
+                  1.533333,
+                  2.066667,
+                  3.066667
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 60,
+                "multiplierMax": 60,
+                "hitCount": 1,
+                "subtotalMin": 60,
+                "subtotalMax": 60,
+                "eventTimes": [
+                  1.533333
+                ]
+              },
+              {
+                "kind": "direct",
+                "multiplierMin": 90,
+                "multiplierMax": 90,
+                "hitCount": 1,
+                "subtotalMin": 90,
+                "subtotalMax": 90,
+                "eventTimes": [
+                  2.066667
+                ]
+              },
+              {
+                "kind": "direct",
+                "multiplierMin": 120,
+                "multiplierMax": 120,
+                "hitCount": 1,
+                "subtotalMin": 120,
+                "subtotalMax": 120,
+                "eventTimes": [
+                  3.066667
+                ]
+              }
+            ],
+            "hitCount": 3,
+            "confirmedTotalMultiplier": {
+              "min": 270,
+              "max": 270
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "7450102"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "yc00-74501-enhanced",
+            "label": "强化攻击",
+            "eventMarkers": [
+              {
+                "timeSeconds": 1.533333,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 2.066667,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 3.066667,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Attack2_1_Mad"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "60%＋90%＋120%＝270%",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 60,
+              "multiplierMax": 60,
+              "hitCount": 1,
+              "subtotalMin": 60,
+              "subtotalMax": 60,
+              "eventTimes": [
+                1.533333
+              ]
+            },
+            {
+              "kind": "direct",
+              "multiplierMin": 90,
+              "multiplierMax": 90,
+              "hitCount": 1,
+              "subtotalMin": 90,
+              "subtotalMax": 90,
+              "eventTimes": [
+                2.066667
+              ]
+            },
+            {
+              "kind": "direct",
+              "multiplierMin": 120,
+              "multiplierMax": 120,
+              "hitCount": 1,
+              "subtotalMin": 120,
+              "subtotalMax": 120,
+              "eventTimes": [
+                3.066667
+              ]
+            }
+          ],
+          "hitCount": 3,
+          "confirmedTotalMultiplier": {
+            "min": 270,
+            "max": 270
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [],
+        "confirmedTotalMultiplier": {
+          "min": 270,
+          "max": 270
+        },
+        "hitCount": 3,
+        "playerResult": "每3次普通攻击后，下一击改为连续三段，总倍率270%。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 20
+      },
+      {
+        "id": "yc00-74501-sp",
+        "category": "sp",
+        "title": "SP技能",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "SP",
+          "summary": "SP蓄满至200后释放",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [
+            200
+          ],
+          "spRecoveryValues": [
+            10
+          ],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整释放",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "连续十段",
+            "actionSequence": [
+              {
+                "action": "连续能量波",
+                "spineAnimation": "Skill1_1_Mad",
+                "eventTimes": [
+                  1.266667,
+                  1.566667,
+                  1.866667,
+                  2.166667,
+                  2.466667,
+                  2.766667,
+                  3.066667,
+                  3.366667,
+                  3.666667,
+                  3.966667
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 80,
+                "multiplierMax": 80,
+                "hitCount": 10,
+                "subtotalMin": 800,
+                "subtotalMax": 800,
+                "eventTimes": [
+                  1.266667,
+                  1.566667,
+                  1.866667,
+                  2.166667,
+                  2.466667,
+                  2.766667,
+                  3.066667,
+                  3.366667,
+                  3.666667,
+                  3.966667
+                ]
+              }
+            ],
+            "hitCount": 10,
+            "confirmedTotalMultiplier": {
+              "min": 800,
+              "max": 800
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "7450103"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "yc00-74501-sp",
+            "label": "SP技能",
+            "eventMarkers": [
+              {
+                "timeSeconds": 1.266667,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 1.566667,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 1.866667,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 2.166667,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 2.466667,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 2.766667,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 3.066667,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 3.366667,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 3.666667,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 3.966667,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill1_1_Mad"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "连续10段，每段80%；同一目标全部命中时合计800%。每段最多命中3个目标。",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 80,
+              "multiplierMax": 80,
+              "hitCount": 10,
+              "subtotalMin": 800,
+              "subtotalMax": 800,
+              "eventTimes": [
+                1.266667,
+                1.566667,
+                1.866667,
+                2.166667,
+                2.466667,
+                2.766667,
+                3.066667,
+                3.366667,
+                3.666667,
+                3.966667
+              ]
+            }
+          ],
+          "hitCount": 10,
+          "confirmedTotalMultiplier": {
+            "min": 800,
+            "max": 800
+          },
+          "scope": "full-cast",
+          "branchRule": null
+        },
+        "effects": [],
+        "confirmedTotalMultiplier": {
+          "min": 800,
+          "max": 800
+        },
+        "hitCount": 10,
+        "playerResult": "连续发射10次能量波，每次造成80%伤害、最多命中3个目标；同一目标全部命中时合计800%。被打断或未命中的段数不计入实际伤害。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 30
+      },
+      {
+        "id": "yc00-74501-time12",
+        "category": "time-trigger",
+        "title": "随机落雷",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "计时",
+          "summary": "开战满12秒后可首次出招，之后会重复；每轮计时12秒，等待出招期间暂停，其他动作可能推迟释放。",
+          "firstTriggerTimeSeconds": 12,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {},
+          "timerCycleSeconds": 12,
+          "repeatMode": "preparation-loop"
+        },
+        "variants": [
+          {
+            "label": "每个落点的完整伤害",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "四种演出伤害相同，只播放其中一种",
+            "actionSequence": [
+              {
+                "action": "Boss施放",
+                "spineAnimation": "Skill2_1_Mad",
+                "eventTimes": [
+                  0.866667
+                ]
+              },
+              {
+                "action": "指定位置出现落雷效果",
+                "spineAnimation": "四种完整落点动画之一",
+                "eventTimes": [
+                  0.266667,
+                  0.3
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 60,
+                "multiplierMax": 60,
+                "hitCount": 1,
+                "subtotalMin": 60,
+                "subtotalMax": 60,
+                "eventTimes": [
+                  0.266667,
+                  0.3
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 60,
+              "max": 60
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "7450104"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "yc00-74501-time12-cast",
+            "label": "施放动作",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0.866667,
+                "type": "effect",
+                "label": "生成落点效果"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill2_1_Mad"
+              ]
+            }
+          },
+          {
+            "id": "yc00-74501-time12-effect-1",
+            "label": "落点效果1",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0.266667,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill1_1"
+              ]
+            }
+          },
+          {
+            "id": "yc00-74501-time12-effect-2",
+            "label": "落点效果2",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0.266667,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill1_2"
+              ]
+            }
+          },
+          {
+            "id": "yc00-74501-time12-effect-3",
+            "label": "落点效果3",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0.3,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill1_3"
+              ]
+            }
+          },
+          {
+            "id": "yc00-74501-time12-effect-4",
+            "label": "落点效果4",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0.266667,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill1_4"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "最多点名2人，每人60%伤害、命中1次。",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 60,
+              "multiplierMax": 60,
+              "hitCount": 1,
+              "subtotalMin": 60,
+              "subtotalMax": 60,
+              "eventTimes": [
+                0.266667,
+                0.3
+              ]
+            }
+          ],
+          "hitCount": 1,
+          "confirmedTotalMultiplier": {
+            "min": 60,
+            "max": 60
+          },
+          "scope": "per-effect-position",
+          "branchRule": "每个生成的效果体只播放四种演出中的一种；位置参数不是伤害次数。"
+        },
+        "effects": [],
+        "confirmedTotalMultiplier": {
+          "min": 60,
+          "max": 60
+        },
+        "hitCount": 1,
+        "playerResult": "随机点名最多2名使徒，各落雷一次，不会因雷光重叠重复命中。落雷命中时，已死亡或尚未复活的目标不会受伤，也不会转打其他人。",
+        "evidenceStatus": "部分待确认",
+        "runtimeReferences": {},
+        "sortOrder": 40,
+        "targetSelection": {
+          "summary": "从可选敌方目标中随机选取最多2个，各生成一个落雷效果；不固定前排或后排。",
+          "maximumSelectedTargets": 2,
+          "selection": "随机",
+          "fixedFormationRow": null,
+          "equalProbabilityPercent": null,
+          "evidenceStatus": "已核对"
+        },
+        "effectPlacement": {
+          "summary": "落雷演出跟随被点名者的定位点，不是固定留在Boss脚下。",
+          "reference": "selected-target",
+          "visualFollowsTarget": true,
+          "damageAreaFollowsTarget": null,
+          "hitRange": {
+            "kind": "single-target",
+            "summary": "每个落雷只结算其对应的有效目标，不按光效大小搜索周围单位。"
+          },
+          "overlapHitRule": "两个落雷分别对应被点名的不同目标；演出重叠不产生额外范围命中。",
+          "targetExitRule": {
+            "summary": "结算时已被判定死亡或正在等待复活：跳过，不换目标。",
+            "replacementTarget": false,
+            "zeroHpAloneCancels": null,
+            "recycledOrRevivedObject": null,
+            "evidenceStatus": "部分待确认"
+          },
+          "evidenceStatus": "部分待确认"
+        }
+      },
+      {
+        "id": "yc00-74501-time30",
+        "category": "time-trigger",
+        "title": "愤怒永春：连续跺脚",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "计时",
+          "summary": "开战满10秒后可首次出招，之后会重复；每轮计时10秒，等待出招期间暂停，其他动作可能推迟释放。",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": 10,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {},
+          "basePreparationSeconds": 10,
+          "earliestAvailabilitySeconds": 10,
+          "timerCycleSeconds": 10,
+          "repeatMode": "preparation-loop"
+        },
+        "variants": [],
+        "previewOptions": [
+          {
+            "id": "yc00-74501-time30-start",
+            "label": "起手",
+            "eventMarkers": [],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill3_1_Mad"
+              ]
+            }
+          },
+          {
+            "id": "yc00-74501-time30-loop",
+            "label": "跺脚（单次）",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0,
+                "type": "damage",
+                "label": "跺脚"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill3_2_Mad"
+              ]
+            }
+          },
+          {
+            "id": "yc00-74501-time30-end",
+            "label": "收尾并获得愤怒",
+            "eventMarkers": [
+              {
+                "timeSeconds": 1.1,
+                "type": "buff",
+                "label": "获得愤怒"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill3_3_Mad"
+              ]
+            }
+          },
+          {
+            "id": "yc00-74501-time30-interrupt",
+            "label": "打断倒地",
+            "eventMarkers": [],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "ShieldBreak1_1"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "每次跺脚50%；未被打断时连续30次。",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 50,
+              "multiplierMax": 50,
+              "hitCount": 1,
+              "subtotalMin": 50,
+              "subtotalMax": 50
+            }
+          ],
+          "hitCount": null,
+          "confirmedTotalMultiplier": null,
+          "scope": "per-event",
+          "branchRule": null
+        },
+        "effects": [
+          {
+            "type": "特殊状态",
+            "name": "愤怒",
+            "description": "每层使造成伤害修正增加150%、基础SP恢复量增加50%。本场战斗内不会自然到期。",
+            "target": "Boss自身",
+            "probabilityPercent": null,
+            "durationSeconds": 9999,
+            "value": null,
+            "valueUnit": null,
+            "stacking": "完成整套跺脚增加1层；中途打断不增加，也不清除已有层数。",
+            "parameterPending": false,
+            "evidenceStatus": "已确认",
+            "effectKind": "status",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "boss",
+            "skillId": "yc00-74501-time30",
+            "skillType": "attack",
+            "runtimeReferences": {},
+            "statusUid": "502",
+            "statusKey": "kr:502",
+            "statusNameKey": "StateName_Angry_YC00",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_163.png",
+            "iconState": "bound",
+            "nature": "buff",
+            "stacksApplied": 1,
+            "linkedModifiers": [
+              {
+                "statusUid": "153",
+                "name": "造成伤害提高",
+                "value": 150,
+                "valueUnit": "damage-dealt-modifier-percent"
+              },
+              {
+                "statusUid": "183",
+                "name": "基础SP恢复量提高",
+                "value": 50,
+                "valueUnit": "base-sp-recovery-modifier-percent"
+              }
+            ],
+            "durationLabel": "本场战斗内不会自然到期"
+          },
+          {
+            "type": "特殊状态",
+            "effectKind": "status",
+            "name": "行为的代价",
+            "description": "第2次眩晕的施加者获得此状态，持续50秒；期间不能再次触发“小小反抗”。",
+            "target": "施加第2次眩晕并触发打断的使徒",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "team",
+            "durationSeconds": 50,
+            "value": null,
+            "valueUnit": null,
+            "probabilityPercent": null,
+            "stacking": null,
+            "parameterPending": false,
+            "evidenceStatus": "已确认",
+            "statusUid": "580",
+            "statusKey": "kr:580",
+            "statusNameKey": "StateName_Correction",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_228.png",
+            "iconState": "bound",
+            "nature": "debuff",
+            "skillId": "yc00-74501-time30",
+            "skillType": "attack",
+            "runtimeReferences": {}
+          }
+        ],
+        "confirmedTotalMultiplier": null,
+        "hitCount": null,
+        "playerResult": "连续跺脚期间可用两次眩晕打断。整套动作完成后，Boss获得1层愤怒；中途打断则不增加，已有愤怒不会消失。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 50,
+        "castPattern": {
+          "uninterruptedDamageEvents": 30,
+          "interruptible": true,
+          "perEventMultiplier": 50
+        }
+      }
+    ],
+    "mechanisms": [
+      {
+        "id": "yc00-74501-rebellion",
+        "category": "passive",
+        "title": "小小反抗与行为的代价",
+        "triggers": [],
+        "guideTriggerSummary": "连续跺脚期间，累计受到2次眩晕。",
+        "summary": "触发“小小反抗”，立即打断跺脚，阻止本轮获得愤怒。",
+        "playerResponse": "保留眩晕打断跺脚；再次打断时，让未带“行为的代价”的使徒施加第2次眩晕。",
+        "caution": "小小反抗的实际扣血量仍受伤害修正影响，不保证直接扣除30%血量。",
+        "actionSequence": [],
+        "damageVariants": [],
+        "effects": [],
+        "units": [],
+        "evidenceStatus": "已确认",
+        "runtimeReferences": {},
+        "damageFormula": {
+          "basis": "boss-max-hp",
+          "coefficientPercent": 30,
+          "scope": "damage-calculation-base",
+          "fixedFinalHpLoss": false
+        },
+        "detailNotes": [
+          {
+            "label": "Boss受伤",
+            "summary": "Boss受到一次以自身最大生命值30%为基数的伤害。"
+          },
+          {
+            "label": "使徒限制",
+            "summary": "第2次眩晕的施加者获得“行为的代价”，持续50秒；期间不能再次触发“小小反抗”。"
+          }
+        ]
+      }
+    ],
+    "units": [],
+    "playerAdvice": [
+      "优先打断连续跺脚，防止愤怒越叠越高。后续打断不会清除已有愤怒；让未带“行为的代价”的使徒负责第2次眩晕。"
+    ],
+    "unresolved": [
+      "特殊复活或目标被替换后，原落雷是否继续锁定尚不明确。"
+    ],
+    "presentationRules": {
+      "rawEntryCount": 6,
+      "playerAttackGroupCount": 5,
+      "playerMechanismCount": 1,
+      "rawSkillEntriesRendered": false,
+      "internalUidsVisibleToPlayer": false
+    },
+    "runtimeReferences": {},
+    "skillOrder": [
+      {
+        "type": "attack",
+        "id": "yc00-74501-normal",
+        "category": "normal"
+      },
+      {
+        "type": "attack",
+        "id": "yc00-74501-enhanced",
+        "category": "enhanced"
+      },
+      {
+        "type": "attack",
+        "id": "yc00-74501-sp",
+        "category": "sp"
+      },
+      {
+        "type": "attack",
+        "id": "yc00-74501-time12",
+        "category": "time-trigger"
+      },
+      {
+        "type": "attack",
+        "id": "yc00-74501-time30",
+        "category": "time-trigger"
+      },
+      {
+        "type": "mechanism",
+        "id": "yc00-74501-rebellion",
+        "category": "passive"
+      }
+    ]
+  },
+  "runtimeReferences": {},
+  "encounterOrder": 5,
+  "directoryAppearances": []
+}

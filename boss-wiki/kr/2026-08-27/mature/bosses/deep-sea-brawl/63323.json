@@ -1,0 +1,641 @@
+{
+  "schemaVersion": 8,
+  "server": "kr",
+  "dataDate": "2026-08-27",
+  "routeKey": "kr:deep-sea-brawl:63323",
+  "mode": "深海大乱斗",
+  "modeCode": 44,
+  "modeKey": "deep-sea-brawl",
+  "identity": {
+    "uid": "63323",
+    "name": "옥토 - 광기",
+    "displayName": null,
+    "displayNameKind": null,
+    "role": "boss",
+    "context": "Boss索引对象",
+    "spine": "Octo",
+    "personalityCode": 2,
+    "personality": "광기",
+    "attackTypeCode": 1,
+    "attackType": "物理",
+    "iconKey": "Icon_OctoMad",
+    "spineSkinName": null,
+    "spineDefaultAnimation": null,
+    "spineActionSuffix": null,
+    "officialTable": "MonsterInfo",
+    "lifecycle": null,
+    "runtimeReferences": {},
+    "iconUrl": "/boss-wiki/kr/2026-08-27/mature/icons/deep-sea-brawl/63323.png",
+    "iconSourceType": "MonsterInfo.Icon官方PNG"
+  },
+  "runtimeMonsterUids": [
+    "63323"
+  ],
+  "bossName": "옥토 - 광기",
+  "familyKey": "octo",
+  "familyOrder": 999999,
+  "variantOrder": 0,
+  "firstFormalAppearance": {
+    "worldInfoUid": 8002,
+    "stageOrder": 10,
+    "stageUid": "80020100"
+  },
+  "stageRecords": [
+    {
+      "stageUid": "80020100",
+      "name": "수심 {0}m",
+      "world": "냉정",
+      "worldInfoUid": 8002,
+      "stageOrder": 10,
+      "difficulty": 4,
+      "battleTimeSeconds": 110,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 127,
+          "growthTimes": 126,
+          "attributes": {
+            "hp": 49176,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 2242,
+            "magicAttack": 2242,
+            "physicalDefense": 3105,
+            "magicDefense": 3105,
+            "criticalRate": 1813,
+            "criticalMultiplier": 1813,
+            "criticalResist": 1813,
+            "criticalMultiplierResist": 0,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 95
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": -10000,
+              "percent": -100
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    }
+  ],
+  "stageRosters": [
+    {
+      "stageUid": "80020100",
+      "stage": "수심 {0}m",
+      "battleTimeSeconds": 110,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "63323",
+              "name": "옥토 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Octo",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OctoMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "63371",
+              "name": "헤링 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Herring",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_HerringMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "63421",
+              "name": "크랭커 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Cranker",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_CrankerMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            },
+            {
+              "uid": "63471",
+              "name": "아트카 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Atka",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_AtkaMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 2
+            },
+            {
+              "uid": "63521",
+              "name": "소이어 - 광기",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "stage-monster",
+              "context": "关卡波次单位",
+              "spine": "Soyer",
+              "personalityCode": 2,
+              "personality": "광기",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_SoyerMad",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "encounterGuide": {
+    "status": "已核对",
+    "battleTimeLimitSeconds": [
+      110
+    ],
+    "battleTimeline": [
+      {
+        "atSeconds": null,
+        "condition": "SP蓄满后释放",
+        "repeatIntervalSeconds": null,
+        "phase": "全阶段",
+        "event": "SP技能：强击挑衅",
+        "category": "sp",
+        "targetType": "attack",
+        "targetId": "octo-63323-sp",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      }
+    ],
+    "phases": [],
+    "attacks": [
+      {
+        "id": "octo-63323-normal",
+        "category": "normal",
+        "title": "普通攻击",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "无",
+          "summary": "按普通攻击循环使用",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "单次物理伤害",
+            "actionSequence": [
+              {
+                "action": "挥动触手攻击前方目标",
+                "spineAnimation": "Attack1_1_Mad",
+                "eventTimes": [
+                  1.333333
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 100,
+                "multiplierMax": 100,
+                "hitCount": 1,
+                "subtotalMin": 100,
+                "subtotalMax": 100,
+                "eventTimes": [
+                  1.333333
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 100,
+              "max": 100
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "6332301"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "octo-63323-normal",
+            "label": "普通攻击",
+            "eventMarkers": [
+              {
+                "timeSeconds": 1.333333,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Attack1_1_Mad"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "100% × 1＝100%",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                1.333333
+              ]
+            }
+          ],
+          "hitCount": 1,
+          "confirmedTotalMultiplier": {
+            "min": 100,
+            "max": 100
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [],
+        "confirmedTotalMultiplier": {
+          "min": 100,
+          "max": 100
+        },
+        "hitCount": 1,
+        "playerResult": "挥动触手攻击前方目标，命中1次，造成100%物理伤害。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 10
+      },
+      {
+        "id": "octo-63323-sp",
+        "category": "sp",
+        "title": "SP技能：强击挑衅",
+        "displayNameKind": "说明名",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "SP",
+          "summary": "SP蓄满后释放",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [
+            200
+          ],
+          "spRecoveryValues": [
+            8
+          ],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "伤害与挑衅同时生效",
+            "actionSequence": [
+              {
+                "action": "蓄力后发动强力攻击，并对命中的敌人施加挑衅",
+                "spineAnimation": "Skill1_1_Mad",
+                "eventTimes": [
+                  1.5
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 450,
+                "multiplierMax": 450,
+                "hitCount": 1,
+                "subtotalMin": 450,
+                "subtotalMax": 450,
+                "eventTimes": [
+                  1.5
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 450,
+              "max": 450
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "6332302"
+          }
+        ],
+        "actionTimeline": [
+          {
+            "timeSeconds": 0,
+            "timing": "起手",
+            "summary": "开始施放"
+          },
+          {
+            "timeSeconds": 1.5,
+            "timing": "1.5秒",
+            "summary": "伤害与挑衅同时生效"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "octo-63323-sp",
+            "label": "强击并挑衅",
+            "eventMarkers": [
+              {
+                "timeSeconds": 1.5,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 1.5,
+                "type": "control",
+                "label": "挑衅"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill1_1_Mad"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "450% × 1＝450%",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 450,
+              "multiplierMax": 450,
+              "hitCount": 1,
+              "subtotalMin": 450,
+              "subtotalMax": 450,
+              "eventTimes": [
+                1.5
+              ]
+            }
+          ],
+          "hitCount": 1,
+          "confirmedTotalMultiplier": {
+            "min": 450,
+            "max": 450
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [
+          {
+            "type": "控制",
+            "name": "挑衅",
+            "description": "被挑衅的敌人会在持续时间内把普通攻击目标锁定为该Boss。",
+            "target": "命中的使徒",
+            "probabilityPercent": 100,
+            "durationSeconds": 8,
+            "value": null,
+            "valueUnit": null,
+            "stacking": null,
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "status",
+            "statusNameKey": "StateName_Taunt",
+            "statusKey": "kr-text:StateName_Taunt",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_1.png",
+            "iconState": "bound",
+            "nature": "debuff",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "team",
+            "skillId": "octo-63323-sp",
+            "skillType": "attack"
+          }
+        ],
+        "confirmedTotalMultiplier": {
+          "min": 450,
+          "max": 450
+        },
+        "hitCount": 1,
+        "playerResult": "发动一次强力攻击，造成450%物理伤害；命中时100%挑衅目标8秒。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 30
+      }
+    ],
+    "mechanisms": [],
+    "units": [],
+    "playerAdvice": [
+      "SP只命中1次；伤害与8秒挑衅在同一动作时点生效，挑衅不是额外伤害。"
+    ],
+    "unresolved": [],
+    "presentationRules": {
+      "rawEntryCount": 2,
+      "playerAttackGroupCount": 2,
+      "playerMechanismCount": 0,
+      "rawSkillEntriesRendered": false,
+      "internalUidsVisibleToPlayer": false
+    },
+    "runtimeReferences": {},
+    "skillOrder": [
+      {
+        "type": "attack",
+        "id": "octo-63323-normal",
+        "category": "normal"
+      },
+      {
+        "type": "attack",
+        "id": "octo-63323-sp",
+        "category": "sp"
+      }
+    ]
+  },
+  "runtimeReferences": {},
+  "encounterOrder": 0,
+  "directoryAppearances": [
+    {
+      "configurationId": "8002",
+      "configurationLabel": "深海大乱斗",
+      "configurationOrder": 8002,
+      "worldInfoUid": 8002,
+      "stageUid": "80020100",
+      "stageOrder": 10,
+      "stageName": "수심 {0}m",
+      "hpBarCount": null
+    }
+  ]
+}

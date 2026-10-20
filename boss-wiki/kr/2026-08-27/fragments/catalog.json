@@ -1,0 +1,2848 @@
+{
+  "schemaVersion": 1,
+  "title": "次元碎片",
+  "cardNameNote": "卡片以效果简称显示。",
+  "summary": "通关琳的里世界，获得碎片选择次数与硬币。碎片增益用于谢迪的次元；同一枚碎片可以反复选择升级。",
+  "upgradeRule": "每次选择使该碎片提高1级，消耗1次选择机会，不扣硬币。每组奖励共8次选择，集中投入同一枚最多Lv.8；Lv.9仅供数值查询。战斗中不能选择，可在大厅重置分配。",
+  "poolNotice": "下方为当前可选的三种碎片。往期使用的卡片可能不同，不能用当前卡池代替往期卡池。",
+  "releaseNotice": "编号用于区分奖励配置，不作为开放期数。",
+  "cards": [
+    {
+      "id": "4000001",
+      "name": "生命强化",
+      "icon": "boss-wiki/kr/2026-08-27/fragments/images/Dimension_Icon_01.png",
+      "maxLevel": 9,
+      "upgrade": "每选择一次，等级提高1级。",
+      "levels": [
+        {
+          "level": 1,
+          "description": "最大生命值提高50%。"
+        },
+        {
+          "level": 2,
+          "description": "最大生命值提高80%。"
+        },
+        {
+          "level": 3,
+          "description": "最大生命值提高110%。"
+        },
+        {
+          "level": 4,
+          "description": "最大生命值提高140%。"
+        },
+        {
+          "level": 5,
+          "description": "最大生命值提高170%。"
+        },
+        {
+          "level": 6,
+          "description": "最大生命值提高200%。"
+        },
+        {
+          "level": 7,
+          "description": "最大生命值提高230%。"
+        },
+        {
+          "level": 8,
+          "description": "最大生命值提高260%。"
+        },
+        {
+          "level": 9,
+          "description": "最大生命值提高290%。"
+        }
+      ]
+    },
+    {
+      "id": "4000021",
+      "name": "减益增伤",
+      "icon": "boss-wiki/kr/2026-08-27/fragments/images/Dimension_Icon_14.png",
+      "maxLevel": 9,
+      "upgrade": "每选择一次，等级提高1级。",
+      "levels": [
+        {
+          "level": 1,
+          "description": "释放低年级技能后，10秒内对处于减益状态的敌人造成的伤害提高30%。基础SP恢复量提高60%；普通攻击伤害降低20%。"
+        },
+        {
+          "level": 2,
+          "description": "释放低年级技能后，10秒内对处于减益状态的敌人造成的伤害提高40%。基础SP恢复量提高80%；普通攻击伤害降低30%。"
+        },
+        {
+          "level": 3,
+          "description": "释放低年级技能后，10秒内对处于减益状态的敌人造成的伤害提高50%。基础SP恢复量提高100%；普通攻击伤害降低40%。"
+        },
+        {
+          "level": 4,
+          "description": "释放低年级技能后，10秒内对处于减益状态的敌人造成的伤害提高60%。基础SP恢复量提高120%；普通攻击伤害降低50%。"
+        },
+        {
+          "level": 5,
+          "description": "释放低年级技能后，10秒内对处于减益状态的敌人造成的伤害提高70%。基础SP恢复量提高140%；普通攻击伤害降低60%。"
+        },
+        {
+          "level": 6,
+          "description": "释放低年级技能后，10秒内对处于减益状态的敌人造成的伤害提高80%。基础SP恢复量提高160%；普通攻击伤害降低70%。"
+        },
+        {
+          "level": 7,
+          "description": "释放低年级技能后，10秒内对处于减益状态的敌人造成的伤害提高90%。基础SP恢复量提高180%；普通攻击伤害降低80%。"
+        },
+        {
+          "level": 8,
+          "description": "释放低年级技能后，10秒内对处于减益状态的敌人造成的伤害提高100%。基础SP恢复量提高200%；普通攻击伤害降低90%。"
+        },
+        {
+          "level": 9,
+          "description": "释放低年级技能后，10秒内对处于减益状态的敌人造成的伤害提高110%。基础SP恢复量提高220%；普通攻击伤害降低100%。"
+        }
+      ]
+    },
+    {
+      "id": "4000022",
+      "name": "普攻追击",
+      "icon": "boss-wiki/kr/2026-08-27/fragments/images/Dimension_Icon_15.png",
+      "maxLevel": 9,
+      "upgrade": "每选择一次，等级提高1级。",
+      "levels": [
+        {
+          "level": 1,
+          "description": "普通攻击每命中2次，发射造成100%伤害的投射物。攻击速度提高25%；受到的伤害提高15%。"
+        },
+        {
+          "level": 2,
+          "description": "普通攻击每命中2次，发射造成200%伤害的投射物。攻击速度提高50%；受到的伤害提高20%。"
+        },
+        {
+          "level": 3,
+          "description": "普通攻击每命中2次，发射造成300%伤害的投射物。攻击速度提高75%；受到的伤害提高25%。"
+        },
+        {
+          "level": 4,
+          "description": "普通攻击每命中2次，发射造成400%伤害的投射物。攻击速度提高100%；受到的伤害提高30%。"
+        },
+        {
+          "level": 5,
+          "description": "普通攻击每命中2次，发射造成500%伤害的投射物。攻击速度提高125%；受到的伤害提高35%。"
+        },
+        {
+          "level": 6,
+          "description": "普通攻击每命中2次，发射造成600%伤害的投射物。攻击速度提高150%；受到的伤害提高40%。"
+        },
+        {
+          "level": 7,
+          "description": "普通攻击每命中2次，发射造成700%伤害的投射物。攻击速度提高175%；受到的伤害提高45%。"
+        },
+        {
+          "level": 8,
+          "description": "普通攻击每命中2次，发射造成800%伤害的投射物。攻击速度提高200%；受到的伤害提高50%。"
+        },
+        {
+          "level": 9,
+          "description": "普通攻击每命中2次，发射造成900%伤害的投射物。攻击速度提高225%；受到的伤害提高55%。"
+        }
+      ]
+    }
+  ],
+  "seasons": [
+    {
+      "season": 44,
+      "label": "莉纽阿 · 配置44",
+      "stageScheduleConfirmed": false,
+      "notice": "这组奖励仍引用另一套关卡，暂不标注领取关数。",
+      "rewardStages": [],
+      "choiceStages": [],
+      "totalChoices": 8,
+      "coinReward": 320
+    },
+    {
+      "season": 46,
+      "label": "刻耳柏洛斯 · 配置46",
+      "stageScheduleConfirmed": true,
+      "notice": "",
+      "rewardStages": [
+        {
+          "stage": 1,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 2,
+          "kind": "buff",
+          "amount": null,
+          "description": "魔法伤害提高16%"
+        },
+        {
+          "stage": 3,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 4,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 5,
+          "kind": "buff",
+          "amount": null,
+          "description": "精灵使徒造成的伤害提高16%"
+        },
+        {
+          "stage": 6,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 7,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 8,
+          "kind": "buff",
+          "amount": null,
+          "description": "中排使徒造成的伤害提高16%"
+        },
+        {
+          "stage": 9,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 10,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 11,
+          "kind": "buff",
+          "amount": null,
+          "description": "魔法伤害提高19%"
+        },
+        {
+          "stage": 12,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 13,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 14,
+          "kind": "buff",
+          "amount": null,
+          "description": "精灵使徒造成的伤害提高19%"
+        },
+        {
+          "stage": 15,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 16,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 17,
+          "kind": "buff",
+          "amount": null,
+          "description": "中排使徒造成的伤害提高19%"
+        },
+        {
+          "stage": 18,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 19,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 20,
+          "kind": "buff",
+          "amount": null,
+          "description": "魔法伤害提高22%"
+        },
+        {
+          "stage": 21,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 22,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 23,
+          "kind": "buff",
+          "amount": null,
+          "description": "精灵使徒造成的伤害提高22%"
+        },
+        {
+          "stage": 24,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        }
+      ],
+      "choiceStages": [
+        3,
+        6,
+        9,
+        12,
+        15,
+        18,
+        21,
+        24
+      ],
+      "totalChoices": 8,
+      "coinReward": 320
+    },
+    {
+      "season": 48,
+      "label": "莉纽阿 · 配置48",
+      "stageScheduleConfirmed": false,
+      "notice": "这组奖励仍引用另一套关卡，暂不标注领取关数。",
+      "rewardStages": [],
+      "choiceStages": [],
+      "totalChoices": 8,
+      "coinReward": 320
+    },
+    {
+      "season": 50,
+      "label": "莉莉 · 配置50",
+      "stageScheduleConfirmed": true,
+      "notice": "",
+      "rewardStages": [
+        {
+          "stage": 1,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 2,
+          "kind": "buff",
+          "amount": null,
+          "description": "低年级技能伤害提高16%"
+        },
+        {
+          "stage": 3,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 4,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 5,
+          "kind": "buff",
+          "amount": null,
+          "description": "龙族使徒的治疗量提高16%"
+        },
+        {
+          "stage": 6,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 7,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 8,
+          "kind": "buff",
+          "amount": null,
+          "description": "基础SP恢复量提高16%"
+        },
+        {
+          "stage": 9,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 10,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 11,
+          "kind": "buff",
+          "amount": null,
+          "description": "低年级技能伤害提高19%"
+        },
+        {
+          "stage": 12,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 13,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 14,
+          "kind": "buff",
+          "amount": null,
+          "description": "龙族使徒的治疗量提高19%"
+        },
+        {
+          "stage": 15,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 16,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 17,
+          "kind": "buff",
+          "amount": null,
+          "description": "基础SP恢复量提高19%"
+        },
+        {
+          "stage": 18,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 19,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 20,
+          "kind": "buff",
+          "amount": null,
+          "description": "低年级技能伤害提高22%"
+        },
+        {
+          "stage": 21,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 22,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 23,
+          "kind": "buff",
+          "amount": null,
+          "description": "龙族使徒的治疗量提高22%"
+        },
+        {
+          "stage": 24,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        }
+      ],
+      "choiceStages": [
+        3,
+        6,
+        9,
+        12,
+        15,
+        18,
+        21,
+        24
+      ],
+      "totalChoices": 8,
+      "coinReward": 320
+    },
+    {
+      "season": 52,
+      "label": "刻耳柏洛斯 · 配置52",
+      "stageScheduleConfirmed": true,
+      "notice": "",
+      "rewardStages": [
+        {
+          "stage": 1,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 2,
+          "kind": "buff",
+          "amount": null,
+          "description": "兽人使徒造成的伤害提高16%"
+        },
+        {
+          "stage": 3,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 4,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 5,
+          "kind": "buff",
+          "amount": null,
+          "description": "生命恢复量提高16%"
+        },
+        {
+          "stage": 6,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 7,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 8,
+          "kind": "buff",
+          "amount": null,
+          "description": "前排使徒造成的伤害提高16%"
+        },
+        {
+          "stage": 9,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 10,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 11,
+          "kind": "buff",
+          "amount": null,
+          "description": "兽人使徒造成的伤害提高19%"
+        },
+        {
+          "stage": 12,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 13,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 14,
+          "kind": "buff",
+          "amount": null,
+          "description": "生命恢复量提高19%"
+        },
+        {
+          "stage": 15,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 16,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 17,
+          "kind": "buff",
+          "amount": null,
+          "description": "前排使徒造成的伤害提高19%"
+        },
+        {
+          "stage": 18,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 19,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 20,
+          "kind": "buff",
+          "amount": null,
+          "description": "兽人使徒造成的伤害提高22%"
+        },
+        {
+          "stage": 21,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 22,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 23,
+          "kind": "buff",
+          "amount": null,
+          "description": "生命恢复量提高22%"
+        },
+        {
+          "stage": 24,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        }
+      ],
+      "choiceStages": [
+        3,
+        6,
+        9,
+        12,
+        15,
+        18,
+        21,
+        24
+      ],
+      "totalChoices": 8,
+      "coinReward": 320
+    },
+    {
+      "season": 54,
+      "label": "喵漫塔 · 配置54",
+      "stageScheduleConfirmed": true,
+      "notice": "",
+      "rewardStages": [
+        {
+          "stage": 1,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 2,
+          "kind": "buff",
+          "amount": null,
+          "description": "中排使徒受到的伤害降低16%"
+        },
+        {
+          "stage": 3,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 4,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 5,
+          "kind": "buff",
+          "amount": null,
+          "description": "龙族使徒的治疗量提高16%"
+        },
+        {
+          "stage": 6,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 7,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 8,
+          "kind": "buff",
+          "amount": null,
+          "description": "攻击速度提高16%"
+        },
+        {
+          "stage": 9,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 10,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 11,
+          "kind": "buff",
+          "amount": null,
+          "description": "中排使徒受到的伤害降低19%"
+        },
+        {
+          "stage": 12,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 13,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 14,
+          "kind": "buff",
+          "amount": null,
+          "description": "龙族使徒的治疗量提高19%"
+        },
+        {
+          "stage": 15,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 16,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 17,
+          "kind": "buff",
+          "amount": null,
+          "description": "攻击速度提高19%"
+        },
+        {
+          "stage": 18,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 19,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 20,
+          "kind": "buff",
+          "amount": null,
+          "description": "中排使徒受到的伤害降低22%"
+        },
+        {
+          "stage": 21,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 22,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 23,
+          "kind": "buff",
+          "amount": null,
+          "description": "龙族使徒的治疗量提高22%"
+        },
+        {
+          "stage": 24,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        }
+      ],
+      "choiceStages": [
+        3,
+        6,
+        9,
+        12,
+        15,
+        18,
+        21,
+        24
+      ],
+      "totalChoices": 8,
+      "coinReward": 320
+    },
+    {
+      "season": 56,
+      "label": "蜡笔勇士 · 配置56",
+      "stageScheduleConfirmed": true,
+      "notice": "",
+      "rewardStages": [
+        {
+          "stage": 1,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 2,
+          "kind": "buff",
+          "amount": null,
+          "description": "中排使徒受到的伤害降低16%"
+        },
+        {
+          "stage": 3,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 4,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 5,
+          "kind": "buff",
+          "amount": null,
+          "description": "幽灵使徒造成的伤害提高16%"
+        },
+        {
+          "stage": 6,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 7,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 8,
+          "kind": "buff",
+          "amount": null,
+          "description": "幽灵使徒的治疗量提高16%"
+        },
+        {
+          "stage": 9,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 10,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 11,
+          "kind": "buff",
+          "amount": null,
+          "description": "中排使徒受到的伤害降低19%"
+        },
+        {
+          "stage": 12,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 13,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 14,
+          "kind": "buff",
+          "amount": null,
+          "description": "幽灵使徒造成的伤害提高19%"
+        },
+        {
+          "stage": 15,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 16,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 17,
+          "kind": "buff",
+          "amount": null,
+          "description": "幽灵使徒的治疗量提高19%"
+        },
+        {
+          "stage": 18,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 19,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 20,
+          "kind": "buff",
+          "amount": null,
+          "description": "中排使徒受到的伤害降低22%"
+        },
+        {
+          "stage": 21,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 22,
+          "kind": "coin",
+          "amount": 40,
+          "description": "硬币 ×40"
+        },
+        {
+          "stage": 23,
+          "kind": "buff",
+          "amount": null,
+          "description": "幽灵使徒造成的伤害提高22%"
+        },
+        {
+          "stage": 24,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        }
+      ],
+      "choiceStages": [
+        3,
+        6,
+        9,
+        12,
+        15,
+        18,
+        21,
+        24
+      ],
+      "totalChoices": 8,
+      "coinReward": 320
+    },
+    {
+      "season": 58,
+      "label": "喵漫塔 · 配置58",
+      "stageScheduleConfirmed": true,
+      "notice": "",
+      "rewardStages": [
+        {
+          "stage": 1,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 2,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 3,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 4,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 5,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 6,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 7,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 8,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 9,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 10,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 11,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 12,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 13,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 14,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 15,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 16,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 17,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 18,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 19,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 20,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 21,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 22,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 23,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 24,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 25,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 26,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 27,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 28,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 29,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 30,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 31,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 32,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 33,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 34,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 35,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 36,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 37,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 38,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 39,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 40,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 41,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 42,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 43,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 44,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 45,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 46,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 47,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 48,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 49,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 50,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 51,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 52,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 53,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 54,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 55,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 56,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 57,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 58,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 59,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 60,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 61,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 62,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 63,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 64,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 65,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 66,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 67,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 68,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 69,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 70,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 71,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 72,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 73,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 74,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 75,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 76,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 77,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 78,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 79,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 80,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 81,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 82,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 83,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 84,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 85,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 86,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 87,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 88,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 89,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 90,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 91,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 92,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 93,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 94,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 95,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 96,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 97,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 98,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 99,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 100,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        }
+      ],
+      "choiceStages": [
+        10,
+        25,
+        35,
+        50,
+        60,
+        75,
+        85,
+        100
+      ],
+      "totalChoices": 8,
+      "coinReward": 460
+    },
+    {
+      "season": 60,
+      "label": "蜡笔勇士 · 配置60",
+      "stageScheduleConfirmed": true,
+      "notice": "",
+      "rewardStages": [
+        {
+          "stage": 1,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 2,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 3,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 4,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 5,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 6,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 7,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 8,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 9,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 10,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 11,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 12,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 13,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 14,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 15,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 16,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 17,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 18,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 19,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 20,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 21,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 22,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 23,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 24,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 25,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 26,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 27,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 28,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 29,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 30,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 31,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 32,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 33,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 34,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 35,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 36,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 37,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 38,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 39,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 40,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 41,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 42,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 43,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 44,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 45,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 46,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 47,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 48,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 49,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 50,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 51,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 52,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 53,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 54,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 55,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 56,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 57,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 58,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 59,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 60,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 61,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 62,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 63,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 64,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 65,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 66,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 67,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 68,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 69,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 70,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 71,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 72,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 73,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 74,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 75,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 76,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 77,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 78,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 79,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 80,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 81,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 82,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 83,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 84,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 85,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 86,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 87,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 88,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 89,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 90,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 91,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 92,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 93,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 94,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 95,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 96,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 97,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 98,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 99,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 100,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        }
+      ],
+      "choiceStages": [
+        10,
+        25,
+        35,
+        50,
+        60,
+        75,
+        85,
+        100
+      ],
+      "totalChoices": 8,
+      "coinReward": 460
+    },
+    {
+      "season": 62,
+      "label": "黑化永春 · 配置62",
+      "stageScheduleConfirmed": true,
+      "notice": "",
+      "rewardStages": [
+        {
+          "stage": 1,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 2,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 3,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 4,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 5,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 6,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 7,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 8,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 9,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 10,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 11,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 12,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 13,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 14,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 15,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 16,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 17,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 18,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 19,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 20,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 21,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 22,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 23,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 24,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 25,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 26,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 27,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 28,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 29,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 30,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 31,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 32,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 33,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 34,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 35,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 36,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 37,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 38,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 39,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 40,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 41,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 42,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 43,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 44,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 45,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 46,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 47,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 48,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 49,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 50,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 51,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 52,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 53,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 54,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 55,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 56,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 57,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 58,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 59,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 60,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 61,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 62,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 63,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 64,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 65,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 66,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 67,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 68,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 69,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 70,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 71,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 72,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 73,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 74,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 75,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 76,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 77,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 78,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 79,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 80,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 81,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 82,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 83,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 84,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 85,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        },
+        {
+          "stage": 86,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 87,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 88,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 89,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 90,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 91,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 92,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 93,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 94,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 95,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 96,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 97,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 98,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 99,
+          "kind": "coin",
+          "amount": 5,
+          "description": "硬币 ×5"
+        },
+        {
+          "stage": 100,
+          "kind": "choice",
+          "amount": 1,
+          "description": "碎片选择次数 +1"
+        }
+      ],
+      "choiceStages": [
+        10,
+        25,
+        35,
+        50,
+        60,
+        75,
+        85,
+        100
+      ],
+      "totalChoices": 8,
+      "coinReward": 460
+    }
+  ]
+}

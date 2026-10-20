@@ -1,0 +1,478 @@
+{
+  "schemaVersion": 3,
+  "server": "kr",
+  "dataVersion": "2026-08-27",
+  "routeKey": "kr:invasion:60293",
+  "mode": "侵略",
+  "modeKey": "invasion",
+  "monsterUid": "60293",
+  "bossName": "드론 S형 - 활발",
+  "personality": "활발",
+  "attackType": "官方未注明",
+  "spineKey": "DroneS",
+  "spineSkinName": "Skin_Jolly",
+  "iconUrl": null,
+  "difficultyCodes": [
+    1,
+    2,
+    3
+  ],
+  "stages": [
+    {
+      "rowKey": "invasion:1:1420051:60293:0",
+      "monsterUid": "60293",
+      "bossName": "드론 S형 - 활발",
+      "personality": "활발",
+      "attackType": "官方未注明",
+      "difficultyCode": 1,
+      "worldName": "달려요! 고속도로!",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "우당탕! 가로등을 들이받았다!",
+      "官方关卡名": "달려요! 고속도로!",
+      "波次/档位": 5,
+      "等级": "Lv.7915",
+      "数值口径": "最终阶段属性",
+      "HP": 23467204.8,
+      "物理攻击": 95009,
+      "魔法攻击": 0,
+      "物理防御": 190017,
+      "魔法防御": 190017,
+      "暴击": 110845,
+      "暴击伤害": 110845,
+      "暴击抵抗": 110845,
+      "暴伤抵抗": 110845,
+      "SP上限": 200,
+      "SP恢复": 0,
+      "攻击速度": 77,
+      "属性加成与特殊说明": "HP +680% · 最终物理伤害 +270% · 最终魔法伤害 +270%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1420051"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1420052:60293:0",
+      "monsterUid": "60293",
+      "bossName": "드론 S형 - 활발",
+      "personality": "활발",
+      "attackType": "官方未注明",
+      "difficultyCode": 2,
+      "worldName": "달려요! 고속도로!",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "우당탕! 가로등을 들이받았다!",
+      "官方关卡名": "달려요! 고속도로!",
+      "波次/档位": 5,
+      "等级": "Lv.42947",
+      "数值口径": "最终阶段属性",
+      "HP": 873161516,
+      "物理攻击": 515393,
+      "魔法攻击": 0,
+      "物理防御": 1030785,
+      "魔法防御": 1030785,
+      "暴击": 601293,
+      "暴击伤害": 601293,
+      "暴击抵抗": 601293,
+      "暴伤抵抗": 601293,
+      "SP上限": 200,
+      "SP恢复": 0,
+      "攻击速度": 77,
+      "属性加成与特殊说明": "HP +5250% · 最终物理伤害 +2625% · 最终魔法伤害 +2625%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1420052"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1420053:60293:0",
+      "monsterUid": "60293",
+      "bossName": "드론 S형 - 활발",
+      "personality": "활발",
+      "attackType": "官方未注明",
+      "difficultyCode": 3,
+      "worldName": "달려요! 고속도로!",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "우당탕! 가로등을 들이받았다!",
+      "官方关卡名": "달려요! 고속도로!",
+      "波次/档位": 5,
+      "等级": "Lv.70004",
+      "数值口径": "最终阶段属性",
+      "HP": 1117302312,
+      "物理攻击": 840077,
+      "魔法攻击": 0,
+      "物理防御": 1680153,
+      "魔法防御": 1680153,
+      "暴击": 980091,
+      "暴击伤害": 980091,
+      "暴击抵抗": 980091,
+      "暴伤抵抗": 980091,
+      "SP上限": 200,
+      "SP恢复": 0,
+      "攻击速度": 77,
+      "属性加成与特殊说明": "HP +4100% · 最终物理伤害 +2460% · 最终魔法伤害 +2460%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1420053"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1420101:60293:0",
+      "monsterUid": "60293",
+      "bossName": "드론 S형 - 활발",
+      "personality": "활발",
+      "attackType": "官方未注明",
+      "difficultyCode": 1,
+      "worldName": "달려요! 고속도로!",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "신나는 고속도로 드라이브!",
+      "官方关卡名": "달려요! 고속도로!",
+      "波次/档位": 10,
+      "等级": "Lv.8280",
+      "数值口径": "最终阶段属性",
+      "HP": 24863796.4,
+      "物理攻击": 99389,
+      "魔法攻击": 0,
+      "物理防御": 198777,
+      "魔法防御": 198777,
+      "暴击": 115955,
+      "暴击伤害": 115955,
+      "暴击抵抗": 115955,
+      "暴伤抵抗": 115955,
+      "SP上限": 200,
+      "SP恢复": 0,
+      "攻击速度": 77,
+      "属性加成与特殊说明": "HP +690% · 最终物理伤害 +270% · 最终魔法伤害 +270%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1420101"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1420102:60293:0",
+      "monsterUid": "60293",
+      "bossName": "드론 S형 - 활발",
+      "personality": "활발",
+      "attackType": "官方未注明",
+      "difficultyCode": 2,
+      "worldName": "달려요! 고속도로!",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "신나는 고속도로 드라이브!",
+      "官方关卡名": "달려요! 고속도로!",
+      "波次/档位": 10,
+      "等级": "Lv.44242",
+      "数值口径": "最终阶段属性",
+      "HP": 907895304,
+      "物理攻击": 530933,
+      "魔法攻击": 0,
+      "物理防御": 1061865,
+      "魔法防御": 1061865,
+      "暴击": 619423,
+      "暴击伤害": 619423,
+      "暴击抵抗": 619423,
+      "暴伤抵抗": 619423,
+      "SP上限": 200,
+      "SP恢复": 0,
+      "攻击速度": 77,
+      "属性加成与特殊说明": "HP +5300% · 最终物理伤害 +2650% · 最终魔法伤害 +2650%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1420102"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1420103:60293:0",
+      "monsterUid": "60293",
+      "bossName": "드론 S형 - 활발",
+      "personality": "활발",
+      "attackType": "官方未注明",
+      "difficultyCode": 3,
+      "worldName": "달려요! 고속도로!",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "신나는 고속도로 드라이브!",
+      "官方关卡名": "달려요! 고속도로!",
+      "波次/档位": 10,
+      "等级": "Lv.71719",
+      "数值口径": "最终阶段属性",
+      "HP": 1151487246,
+      "物理攻击": 860657,
+      "魔法攻击": 0,
+      "物理防御": 1721313,
+      "魔法防御": 1721313,
+      "暴击": 1004101,
+      "暴击伤害": 1004101,
+      "暴击抵抗": 1004101,
+      "暴伤抵抗": 1004101,
+      "SP上限": 200,
+      "SP恢复": 0,
+      "攻击速度": 77,
+      "属性加成与特殊说明": "HP +4125% · 最终物理伤害 +2475% · 最终魔法伤害 +2475%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1420103"
+      }
+    }
+  ],
+  "skills": [],
+  "guideSkills": [
+    {
+      "id": "6029301",
+      "sourceOrder": 0,
+      "displayName": "일반공격",
+      "presentationLabel": null,
+      "nameKind": "官方技能名",
+      "skillType": "普通攻击",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          10
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 297.00001180172,
+        "max": 297.00001180172,
+        "displayMin": 297.00001180172,
+        "displayMax": 297.00001180172,
+        "hitCount": 3,
+        "formula": "Attack1_1_Jolly 297.00001180172%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Attack1_1_Jolly",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 3,
+          "effectTriggerCount": 3,
+          "eventTimes": [
+            0.333333,
+            0.5,
+            0.666667
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "Attack1_1_Jolly",
+          "spineAnimation": "Attack1_1_Jolly",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 99.0000039339066,
+              "multiplierMax": 99.0000039339066,
+              "hitCount": 3,
+              "subtotalMin": 297.00001180172,
+              "subtotalMax": 297.00001180172,
+              "eventTimes": [
+                0.333333,
+                0.5,
+                0.666667
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 297.00001180172,
+          "confirmedSegmentTotalMax": 297.00001180172,
+          "confirmedDamageHitCount": 3,
+          "restrictions": [],
+          "spineEffects": []
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "6029302",
+      "sourceOrder": 1,
+      "displayName": "8次伤害结算（Skill1_1_Jolly）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          10
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 675.999975204468,
+        "max": 675.999975204468,
+        "displayMin": 675.999975204468,
+        "displayMax": 675.999975204468,
+        "hitCount": 8,
+        "formula": "Skill1_1_Jolly 675.999975204468%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Skill1_1_Jolly",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 8,
+          "effectTriggerCount": 8,
+          "eventTimes": [
+            0.933333,
+            1.066667,
+            1.2,
+            1.333333,
+            1.466667,
+            1.6,
+            1.733333,
+            1.866667
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "Skill1_1_Jolly",
+          "spineAnimation": "Skill1_1_Jolly",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 84.4999969005585,
+              "multiplierMax": 84.4999969005585,
+              "hitCount": 8,
+              "subtotalMin": 675.999975204468,
+              "subtotalMax": 675.999975204468,
+              "eventTimes": [
+                0.933333,
+                1.066667,
+                1.2,
+                1.333333,
+                1.466667,
+                1.6,
+                1.733333,
+                1.866667
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 675.999975204468,
+          "confirmedSegmentTotalMax": 675.999975204468,
+          "confirmedDamageHitCount": 8,
+          "restrictions": [],
+          "spineEffects": []
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    }
+  ],
+  "internalComponents": [],
+  "spineResources": [
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack1_1_Jolly",
+      "直接连接的技能效果": "6029301",
+      "触发时间": "0.333333s / 0.5s / 0.666667s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_1_Jolly",
+      "直接连接的技能效果": "6029302",
+      "触发时间": "0.933333s / 1.066667s / 1.2s / 1.333333s / 1.466667s / 1.6s / 1.733333s / 1.866667s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    }
+  ],
+  "guideReference": null,
+  "runtimeReferences": {}
+}

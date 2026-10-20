@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 3,
+  "server": "kr",
+  "dataVersion": "2026-08-27",
+  "bossCount": 174,
+  "stageCount": 1453,
+  "stageRecordCount": 1058,
+  "battleStageCount": 1330,
+  "skillCount": 797,
+  "guideSkillCount": 691,
+  "internalComponentCount": 106,
+  "skillGroupCount": 797,
+  "unresolvedCount": 201,
+  "verdictCounts": {
+    "complete-total": 355,
+    "no-damage": 341,
+    "conditional-or-exclusive-branches": 53,
+    "segmented-unresolved-sequence": 4,
+    "loop-single-round": 1,
+    "segment-only": 25,
+    "official-insufficient": 17,
+    "dynamic-condition-formula": 1
+  },
+  "modeCounts": {
+    "dimensional-clash-1": 50,
+    "dimensional-clash-2": 37,
+    "elias-frontier": 29,
+    "deep-sea-brawl": 6,
+    "invasion": 52
+  },
+  "modes": [
+    {
+      "mode": "次元大冲突1.0",
+      "modeKey": "dimensional-clash-1",
+      "bossCount": 50,
+      "stageVariantCount": 276,
+      "battleStageCount": 276,
+      "difficultyOptions": [],
+      "stagesUrl": "/boss-wiki/kr/2026-08-27/modes/dimensional-clash-1/stages.json"
+    },
+    {
+      "mode": "次元大冲突2.0",
+      "modeKey": "dimensional-clash-2",
+      "bossCount": 37,
+      "stageVariantCount": 338,
+      "battleStageCount": 240,
+      "difficultyOptions": [],
+      "stagesUrl": "/boss-wiki/kr/2026-08-27/modes/dimensional-clash-2/stages.json"
+    },
+    {
+      "mode": "艾利亚斯边境",
+      "modeKey": "elias-frontier",
+      "bossCount": 29,
+      "stageVariantCount": 411,
+      "battleStageCount": 388,
+      "difficultyOptions": [],
+      "stagesUrl": "/boss-wiki/kr/2026-08-27/modes/elias-frontier/stages.json"
+    },
+    {
+      "mode": "深海大乱斗",
+      "modeKey": "deep-sea-brawl",
+      "bossCount": 6,
+      "stageVariantCount": 6,
+      "battleStageCount": 6,
+      "difficultyOptions": [],
+      "stagesUrl": "/boss-wiki/kr/2026-08-27/modes/deep-sea-brawl/stages.json"
+    },
+    {
+      "mode": "侵略",
+      "modeKey": "invasion",
+      "bossCount": 52,
+      "stageVariantCount": 422,
+      "battleStageCount": 420,
+      "difficultyOptions": [
+        {
+          "code": 1,
+          "bossCount": 52,
+          "stageRecordCount": 111,
+          "stageVariantCount": 140
+        },
+        {
+          "code": 2,
+          "bossCount": 52,
+          "stageRecordCount": 111,
+          "stageVariantCount": 140
+        },
+        {
+          "code": 3,
+          "bossCount": 52,
+          "stageRecordCount": 113,
+          "stageVariantCount": 142
+        }
+      ],
+      "stagesUrl": "/boss-wiki/kr/2026-08-27/modes/invasion/stages.json"
+    }
+  ],
+  "bossIndexUrl": "/boss-wiki/kr/2026-08-27/bosses-index.json",
+  "statusCatalogUrl": "/boss-wiki/kr/2026-08-27/status-catalog.json",
+  "dataWarnings": [
+    "非完整伤害结论：保留可靠分段、动态公式、互斥/条件分支或循环单轮，不伪造总倍率",
+    "处理器参数正式字段名未完全恢复：原始值和ARM64参数读取保留在技术证据中",
+    "官方断链：保持官方断链，不伪造目标"
+  ],
+  "finalValidation": {
+    "result": "通过",
+    "errorCount": 0,
+    "warningCount": 3,
+    "checkCount": 48
+  }
+}

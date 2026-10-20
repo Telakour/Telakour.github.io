@@ -1,0 +1,485 @@
+{
+  "authorities": [
+    {
+      "id": "2300101",
+      "name": "真正天罚",
+      "icon": "boss-wiki/kr/2026-08-27/support/images/AuthorityIcon_1.png",
+      "summary": "5000%魔法伤害 · 感电7秒",
+      "description": "对随机一名敌人造成5000%魔法伤害，并施加7秒感电。目标正在使用特定技能时，其技能进度条减少30%。",
+      "tip": "用于施加感电，或削减Boss特定技能的进度条。",
+      "cooldownSeconds": 15,
+      "purchase": {
+        "currency": "实体现币",
+        "amount": 30,
+        "label": "购买：30枚实体现币"
+      },
+      "preview": {
+        "width": 496,
+        "height": 774,
+        "positionX": 0,
+        "positionY": 0,
+        "zoom": 1
+      },
+      "spine": {
+        "resourceCode": "Thunder",
+        "folderName": "thunder",
+        "baseFileName": "Thunder",
+        "skeletonFileName": "Thunder.skel.bytes",
+        "atlasFileName": "Thunder.atlas.txt",
+        "textureFileNames": [
+          "Thunder.png"
+        ],
+        "skeletonFormat": "binary",
+        "isComplete": true,
+        "animation": "Thunder",
+        "skin": "Normal"
+      },
+      "originalName": "찐짜 천벌"
+    },
+    {
+      "id": "2300102",
+      "name": "白吃护盾",
+      "icon": "boss-wiki/kr/2026-08-27/support/images/AuthorityIcon_2.png",
+      "summary": "最大生命值150%护盾 · 12秒",
+      "description": "为全体我方使徒提供各自最大生命值150%的护盾，持续12秒。",
+      "tip": "在高伤害攻击到来前使用，保护全队。",
+      "cooldownSeconds": 30,
+      "purchase": {
+        "currency": "实体现币",
+        "amount": 30,
+        "label": "购买：30枚实体现币"
+      },
+      "preview": {
+        "width": 496,
+        "height": 774,
+        "positionX": 0,
+        "positionY": 0,
+        "zoom": 1
+      },
+      "spine": {
+        "resourceCode": "Shield",
+        "folderName": "shield",
+        "baseFileName": "Shield",
+        "skeletonFileName": "Shield.skel.bytes",
+        "atlasFileName": "Shield.atlas.txt",
+        "textureFileNames": [
+          "Shield.png"
+        ],
+        "skeletonFormat": "binary",
+        "isComplete": true,
+        "animation": "Shield",
+        "skin": "Normal"
+      },
+      "originalName": "날먹 보호막"
+    },
+    {
+      "id": "2300103",
+      "name": "极速暴冲",
+      "icon": "boss-wiki/kr/2026-08-27/support/images/AuthorityIcon_3.png",
+      "summary": "全队加速 · 15秒",
+      "description": "全体我方使徒攻击速度提高125%、移动速度提高25%、基础SP恢复量提高100%，持续15秒；高年级技能冷却时间减少40%。",
+      "tip": "集中爆发前使用，配合全队技能输出。",
+      "cooldownSeconds": 30,
+      "purchase": {
+        "currency": "实体现币",
+        "amount": 30,
+        "label": "购买：30枚实体现币"
+      },
+      "preview": {
+        "width": 496,
+        "height": 774,
+        "positionX": 0,
+        "positionY": 0,
+        "zoom": 1
+      },
+      "spine": {
+        "resourceCode": "TimeAccelerate",
+        "folderName": "timeaccelerate",
+        "baseFileName": "TimeAccelerate",
+        "skeletonFileName": "TimeAccelerate.skel.bytes",
+        "atlasFileName": "TimeAccelerate.atlas.txt",
+        "textureFileNames": [
+          "TimeAccelerate.png"
+        ],
+        "skeletonFormat": "binary",
+        "isComplete": true,
+        "animation": "TimeAccelerate",
+        "skin": "Normal"
+      },
+      "originalName": "급발진"
+    },
+    {
+      "id": "2300104",
+      "name": "衣恋枕头",
+      "icon": "boss-wiki/kr/2026-08-27/support/images/AuthorityIcon_4.png",
+      "summary": "减伤40% · 恢复6秒",
+      "description": "全体我方使徒受到的伤害降低40%，每秒恢复4%生命值，持续6秒。",
+      "tip": "在连续受击时使用，兼顾减伤和恢复。",
+      "cooldownSeconds": 12,
+      "purchase": {
+        "currency": "实体现币",
+        "amount": 30,
+        "label": "购买：30枚实体现币"
+      },
+      "preview": {
+        "width": 496,
+        "height": 774,
+        "positionX": 0,
+        "positionY": 0,
+        "zoom": 1
+      },
+      "spine": {
+        "resourceCode": "SleepingPillow",
+        "folderName": "sleepingpillow",
+        "baseFileName": "SleepingPillow",
+        "skeletonFileName": "SleepingPillow.skel.bytes",
+        "atlasFileName": "SleepingPillow.atlas.txt",
+        "textureFileNames": [
+          "SleepingPillow.png"
+        ],
+        "skeletonFormat": "binary",
+        "isComplete": true,
+        "animation": "SleepingPillow",
+        "skin": "Normal"
+      },
+      "originalName": "애착 담요"
+    },
+    {
+      "id": "2300105",
+      "name": "直击要害",
+      "icon": "boss-wiki/kr/2026-08-27/support/images/AuthorityIcon_5.png",
+      "summary": "控制与易伤60% · 6秒",
+      "description": "使全体敌人眩晕，并使其受到的伤害提高60%，持续6秒。对世界Boss则使其无法行动。",
+      "tip": "用于阻止危险动作，并在生效期间集中输出。",
+      "cooldownSeconds": 24,
+      "purchase": {
+        "currency": "实体现币",
+        "amount": 30,
+        "label": "购买：30枚实体现币"
+      },
+      "preview": {
+        "width": 496,
+        "height": 774,
+        "positionX": 0,
+        "positionY": 0,
+        "zoom": 1
+      },
+      "spine": {
+        "resourceCode": "ChestStrike",
+        "folderName": "cheststrike",
+        "baseFileName": "ChestStrike",
+        "skeletonFileName": "ChestStrike.skel.bytes",
+        "atlasFileName": "ChestStrike.atlas.txt",
+        "textureFileNames": [
+          "ChestStrike.png"
+        ],
+        "skeletonFormat": "binary",
+        "isComplete": true,
+        "animation": "ChestStrike",
+        "skin": "Normal"
+      },
+      "originalName": "명치 꽂기"
+    },
+    {
+      "id": "2300106",
+      "name": "街舞明星",
+      "icon": "boss-wiki/kr/2026-08-27/support/images/AuthorityIcon_6.png",
+      "summary": "2600%物理伤害 · 全队增伤",
+      "description": "落下星糖，造成2600%物理伤害；对普通怪物造成双倍伤害。每命中一名敌人，全体我方使徒造成的伤害提高8%，最多64%，持续6秒。",
+      "tip": "敌人较多时使用，更容易获得较高的增伤。",
+      "cooldownSeconds": 9,
+      "purchase": {
+        "currency": "实体现币",
+        "amount": 30,
+        "label": "购买：30枚实体现币"
+      },
+      "preview": {
+        "width": 496,
+        "height": 774,
+        "positionX": 0,
+        "positionY": 0,
+        "zoom": 1
+      },
+      "spine": {
+        "resourceCode": "Poppinstar",
+        "folderName": "poppinstar",
+        "baseFileName": "Poppinstar",
+        "skeletonFileName": "Poppinstar.skel.bytes",
+        "atlasFileName": "Poppinstar.atlas.txt",
+        "textureFileNames": [
+          "Poppinstar.png"
+        ],
+        "skeletonFormat": "binary",
+        "isComplete": true,
+        "animation": "PoppinStar",
+        "skin": "Normal"
+      },
+      "originalName": "팝핀 스타"
+    }
+  ],
+  "cheers": [
+    {
+      "id": "2200208",
+      "name": "学年提升",
+      "description": "使学年最低的我方使徒学年提升1级。",
+      "targetLabel": "学年最低的我方使徒",
+      "originalName": "학년 증가",
+      "icon": "boss-wiki/kr/2026-08-27/support/images/CheerCardIcon_8.png",
+      "effects": [
+        {
+          "name": "学年",
+          "value": 1,
+          "unit": "级"
+        }
+      ],
+      "purchase": {
+        "currency": "实体现币",
+        "firstPurchase": 60,
+        "repeatMultiplier": 2,
+        "firstThreePrices": [
+          60,
+          120,
+          240
+        ],
+        "label": "首购60枚",
+        "repeatLabel": "60 → 120 → 240枚"
+      }
+    },
+    {
+      "id": "2200209",
+      "name": "攻击速度强化",
+      "description": "全体我方使徒的攻击速度提高1%。",
+      "targetLabel": "全体我方使徒",
+      "originalName": "공격 속도 강화",
+      "icon": "boss-wiki/kr/2026-08-27/support/images/CheerCardIcon_9.png",
+      "effects": [
+        {
+          "name": "攻击速度",
+          "value": 1,
+          "unit": "%"
+        }
+      ],
+      "purchase": {
+        "currency": "实体现币",
+        "firstPurchase": 40,
+        "repeatMultiplier": 2,
+        "firstThreePrices": [
+          40,
+          80,
+          160
+        ],
+        "label": "首购40枚",
+        "repeatLabel": "40 → 80 → 160枚"
+      }
+    },
+    {
+      "id": "2200202",
+      "name": "普通攻击强化",
+      "description": "全体我方使徒的普通攻击伤害提高1%。",
+      "targetLabel": "全体我方使徒",
+      "originalName": "일반 공격 강화",
+      "icon": "boss-wiki/kr/2026-08-27/support/images/CheerCardIcon_2.png",
+      "effects": [
+        {
+          "name": "普通攻击伤害",
+          "value": 1,
+          "unit": "%"
+        }
+      ],
+      "purchase": {
+        "currency": "实体现币",
+        "firstPurchase": 25,
+        "repeatMultiplier": 2,
+        "firstThreePrices": [
+          25,
+          50,
+          100
+        ],
+        "label": "首购25枚",
+        "repeatLabel": "25 → 50 → 100枚"
+      }
+    },
+    {
+      "id": "2200203",
+      "name": "技能攻击强化",
+      "description": "全体我方使徒的技能伤害提高1%。",
+      "targetLabel": "全体我方使徒",
+      "originalName": "스킬 공격 강화",
+      "icon": "boss-wiki/kr/2026-08-27/support/images/CheerCardIcon_3.png",
+      "effects": [
+        {
+          "name": "技能伤害",
+          "value": 1,
+          "unit": "%"
+        }
+      ],
+      "purchase": {
+        "currency": "实体现币",
+        "firstPurchase": 25,
+        "repeatMultiplier": 2,
+        "firstThreePrices": [
+          25,
+          50,
+          100
+        ],
+        "label": "首购25枚",
+        "repeatLabel": "25 → 50 → 100枚"
+      }
+    },
+    {
+      "id": "2200204",
+      "name": "暴击强化",
+      "description": "全体我方使徒的暴击、暴击伤害各提高1%。",
+      "targetLabel": "全体我方使徒",
+      "originalName": "치명 강화",
+      "icon": "boss-wiki/kr/2026-08-27/support/images/CheerCardIcon_4.png",
+      "effects": [
+        {
+          "name": "暴击",
+          "value": 1,
+          "unit": "%"
+        },
+        {
+          "name": "暴击伤害",
+          "value": 1,
+          "unit": "%"
+        }
+      ],
+      "purchase": {
+        "currency": "实体现币",
+        "firstPurchase": 25,
+        "repeatMultiplier": 2,
+        "firstThreePrices": [
+          25,
+          50,
+          100
+        ],
+        "label": "首购25枚",
+        "repeatLabel": "25 → 50 → 100枚"
+      }
+    },
+    {
+      "id": "2200205",
+      "name": "耐打强化",
+      "description": "全体我方使徒受到的伤害降低1%。",
+      "targetLabel": "全体我方使徒",
+      "originalName": "맷집 강화",
+      "icon": "boss-wiki/kr/2026-08-27/support/images/CheerCardIcon_5.png",
+      "effects": [
+        {
+          "name": "受到的伤害",
+          "value": -1,
+          "unit": "%"
+        }
+      ],
+      "purchase": {
+        "currency": "实体现币",
+        "firstPurchase": 25,
+        "repeatMultiplier": 2,
+        "firstThreePrices": [
+          25,
+          50,
+          100
+        ],
+        "label": "首购25枚",
+        "repeatLabel": "25 → 50 → 100枚"
+      }
+    },
+    {
+      "id": "2200206",
+      "name": "暴击抵抗强化",
+      "description": "全体我方使徒的暴击抵抗、暴击伤害抵抗各提高1%。",
+      "targetLabel": "全体我方使徒",
+      "originalName": "치명 저항 강화",
+      "icon": "boss-wiki/kr/2026-08-27/support/images/CheerCardIcon_6.png",
+      "effects": [
+        {
+          "name": "暴击抵抗",
+          "value": 1,
+          "unit": "%"
+        },
+        {
+          "name": "暴击伤害抵抗",
+          "value": 1,
+          "unit": "%"
+        }
+      ],
+      "purchase": {
+        "currency": "实体现币",
+        "firstPurchase": 25,
+        "repeatMultiplier": 2,
+        "firstThreePrices": [
+          25,
+          50,
+          100
+        ],
+        "label": "首购25枚",
+        "repeatLabel": "25 → 50 → 100枚"
+      }
+    },
+    {
+      "id": "2200207",
+      "name": "生命强化",
+      "description": "全体我方使徒的最大生命值提高2%。",
+      "targetLabel": "全体我方使徒",
+      "originalName": "HP 강화",
+      "icon": "boss-wiki/kr/2026-08-27/support/images/CheerCardIcon_7.png",
+      "effects": [
+        {
+          "name": "最大生命值",
+          "value": 2,
+          "unit": "%"
+        }
+      ],
+      "purchase": {
+        "currency": "实体现币",
+        "firstPurchase": 25,
+        "repeatMultiplier": 2,
+        "firstThreePrices": [
+          25,
+          50,
+          100
+        ],
+        "label": "首购25枚",
+        "repeatLabel": "25 → 50 → 100枚"
+      }
+    },
+    {
+      "id": "2200210",
+      "name": "SP恢复强化",
+      "description": "全体我方使徒的基础SP恢复量提高5%。",
+      "targetLabel": "全体我方使徒",
+      "originalName": "SP 회복 강화",
+      "icon": "boss-wiki/kr/2026-08-27/support/images/CheerCardIcon_10.png",
+      "effects": [
+        {
+          "name": "基础SP恢复量",
+          "value": 5,
+          "unit": "%"
+        }
+      ],
+      "purchase": {
+        "currency": "实体现币",
+        "firstPurchase": 25,
+        "repeatMultiplier": 2,
+        "firstThreePrices": [
+          25,
+          50,
+          100
+        ],
+        "label": "首购25枚",
+        "repeatLabel": "25 → 50 → 100枚"
+      }
+    }
+  ],
+  "currencyIcon": "boss-wiki/kr/2026-08-27/support/images/Icon_SoloEndInGameCoin.png",
+  "ui": {
+    "cardFrame": "boss-wiki/kr/2026-08-27/support/images/Ingame_CardBorder_Grade_4.png",
+    "cardBase": "boss-wiki/kr/2026-08-27/support/images/Ingame_CardBase_Spell.png",
+    "cheerBadge": "boss-wiki/kr/2026-08-27/support/images/Ingame_CardIcon_Cheer.png",
+    "authorityFrame": "boss-wiki/kr/2026-08-27/support/images/Ingame_Authority_Border.png",
+    "authorityFlower": "boss-wiki/kr/2026-08-27/support/images/Ingame_Authority_Flower.png"
+  },
+  "authorityNote": "艾利亚斯边境 · 一次携带一种权能，购买后可反复使用。可选种类随场次变化。",
+  "cheerNote": "同一种应援再次购买时，价格翻倍；各卡分别计价。"
+}

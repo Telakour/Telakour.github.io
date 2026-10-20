@@ -1,0 +1,346 @@
+{
+  "schemaVersion": 3,
+  "server": "kr",
+  "dataVersion": "2026-08-27",
+  "routeKey": "kr:invasion:60213",
+  "mode": "侵略",
+  "modeKey": "invasion",
+  "monsterUid": "60213",
+  "bossName": "루파루 - 순수",
+  "personality": "순수",
+  "attackType": "官方未注明",
+  "spineKey": "Lupalu",
+  "spineSkinName": "Skin_Naive",
+  "iconUrl": "/boss-wiki/kr/2026-08-27/icons/dimensional-clash-1/60214.png",
+  "difficultyCodes": [
+    1,
+    2,
+    3
+  ],
+  "stages": [
+    {
+      "rowKey": "invasion:1:1060101:60213:0",
+      "monsterUid": "60213",
+      "bossName": "루파루 - 순수",
+      "personality": "순수",
+      "attackType": "官方未注明",
+      "difficultyCode": 1,
+      "worldName": "안개숲의 위협",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "수인 공동체의 저력!",
+      "官方关卡名": "안개숲의 위협",
+      "波次/档位": 10,
+      "等级": "Lv.151",
+      "数值口径": "最终阶段属性",
+      "HP": 46637,
+      "物理攻击": 0,
+      "魔法攻击": 2149,
+      "物理防御": 2915,
+      "魔法防御": 2915,
+      "暴击": 2149,
+      "暴击伤害": 2149,
+      "暴击抵抗": 2149,
+      "暴伤抵抗": 0,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 133,
+      "属性加成与特殊说明": "暴伤抵抗 -100%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1060101"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1060102:60213:0",
+      "monsterUid": "60213",
+      "bossName": "루파루 - 순수",
+      "personality": "순수",
+      "attackType": "官方未注明",
+      "difficultyCode": 2,
+      "worldName": "안개숲의 위협",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "수인 공동체의 저력!",
+      "官方关卡名": "안개숲의 위협",
+      "波次/档位": 10,
+      "等级": "Lv.367",
+      "数值口径": "最终阶段属性",
+      "HP": 112301,
+      "物理攻击": 0,
+      "魔法攻击": 5173,
+      "物理防御": 7019,
+      "魔法防御": 7019,
+      "暴击": 5173,
+      "暴击伤害": 5173,
+      "暴击抵抗": 5173,
+      "暴伤抵抗": 0,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 133,
+      "属性加成与特殊说明": "暴伤抵抗 -100%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1060102"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1060103:60213:0",
+      "monsterUid": "60213",
+      "bossName": "루파루 - 순수",
+      "personality": "순수",
+      "attackType": "官方未注明",
+      "difficultyCode": 3,
+      "worldName": "안개숲의 위협",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "수인 공동체의 저력!",
+      "官方关卡名": "안개숲의 위협",
+      "波次/档位": 10,
+      "等级": "Lv.783",
+      "数值口径": "最终阶段属性",
+      "HP": 238765,
+      "物理攻击": 0,
+      "魔法攻击": 10997,
+      "物理防御": 14923,
+      "魔法防御": 14923,
+      "暴击": 10997,
+      "暴击伤害": 10997,
+      "暴击抵抗": 10997,
+      "暴伤抵抗": 0,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 133,
+      "属性加成与特殊说明": "暴伤抵抗 -100%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1060103"
+      }
+    }
+  ],
+  "skills": [],
+  "guideSkills": [
+    {
+      "id": "6021301",
+      "sourceOrder": 0,
+      "displayName": "일반공격",
+      "presentationLabel": null,
+      "nameKind": "官方技能名",
+      "skillType": "普通攻击",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          16
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 100,
+        "max": 100,
+        "displayMin": 100,
+        "displayMax": 100,
+        "hitCount": 1,
+        "formula": "Attack1_1_Naive 100%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Attack1_1_Naive",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            1.533333
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "Attack1_1_Naive",
+          "spineAnimation": "Attack1_1_Naive",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                1.533333
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 100,
+          "confirmedSegmentTotalMax": 100,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": []
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "6021302",
+      "sourceOrder": 1,
+      "displayName": "1次伤害结算（Skill1_1_Naive）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          16
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 700,
+        "max": 700,
+        "displayMin": 700,
+        "displayMax": 700,
+        "hitCount": 1,
+        "formula": "Skill1_1_Naive 700%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Skill1_1_Naive",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            1.2
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "Skill1_1_Naive",
+          "spineAnimation": "Skill1_1_Naive",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 700,
+              "multiplierMax": 700,
+              "hitCount": 1,
+              "subtotalMin": 700,
+              "subtotalMax": 700,
+              "eventTimes": [
+                1.2
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 700,
+          "confirmedSegmentTotalMax": 700,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": []
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    }
+  ],
+  "internalComponents": [],
+  "spineResources": [
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack1_1_Naive",
+      "直接连接的技能效果": "6021301",
+      "触发时间": "1.533333s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_1_Naive",
+      "直接连接的技能效果": "6021302",
+      "触发时间": "1.2s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    }
+  ],
+  "guideReference": null,
+  "runtimeReferences": {}
+}

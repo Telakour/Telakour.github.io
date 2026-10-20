@@ -1,0 +1,428 @@
+{
+  "schemaVersion": 8,
+  "server": "kr",
+  "dataDate": "2026-08-27",
+  "routeKey": "kr:deep-sea-brawl:76101",
+  "mode": "深海大乱斗",
+  "modeCode": 44,
+  "modeKey": "deep-sea-brawl",
+  "identity": {
+    "uid": "76101",
+    "name": "오리카",
+    "displayName": null,
+    "displayNameKind": null,
+    "role": "boss",
+    "context": "Boss索引对象",
+    "spine": "Orica",
+    "personalityCode": -1,
+    "personality": "无",
+    "attackTypeCode": 1,
+    "attackType": "物理",
+    "iconKey": "Icon_OricaNone",
+    "spineSkinName": null,
+    "spineDefaultAnimation": null,
+    "spineActionSuffix": null,
+    "officialTable": "MonsterInfo",
+    "lifecycle": null,
+    "runtimeReferences": {},
+    "iconUrl": "/boss-wiki/kr/2026-08-27/mature/icons/deep-sea-brawl/76101.png",
+    "iconSourceType": "MonsterInfo.Icon官方PNG"
+  },
+  "runtimeMonsterUids": [
+    "76101"
+  ],
+  "bossName": "오리카",
+  "familyKey": "orica",
+  "familyOrder": 999999,
+  "variantOrder": 5,
+  "firstFormalAppearance": {
+    "worldInfoUid": 8006,
+    "stageOrder": 1,
+    "stageUid": "80060010"
+  },
+  "stageRecords": [
+    {
+      "stageUid": "80060010",
+      "name": "고래 대난투",
+      "world": "BreadCrumbBattle_Boss",
+      "worldInfoUid": 8006,
+      "stageOrder": 1,
+      "difficulty": 4,
+      "battleTimeSeconds": 120,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 1,
+          "growthTimes": 0,
+          "attributes": {
+            "hp": 96051.8,
+            "sp": 800,
+            "recoverySp": 160,
+            "healing": 0,
+            "physicalAttack": 100,
+            "magicAttack": 100,
+            "physicalDefense": 0,
+            "magicDefense": 0,
+            "criticalRate": 49,
+            "criticalMultiplier": 49,
+            "criticalResist": 49,
+            "criticalMultiplierResist": 49,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 200
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 3000,
+              "percent": 30
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": -9650,
+              "percent": -96.5
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": -9650,
+              "percent": -96.5
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    }
+  ],
+  "stageRosters": [
+    {
+      "stageUid": "80060010",
+      "stage": "고래 대난투",
+      "battleTimeSeconds": 120,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "76101",
+              "name": "오리카",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Orica",
+              "personalityCode": -1,
+              "personality": "无",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OricaNone",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "encounterGuide": {
+    "status": "已核对",
+    "battleTimeLimitSeconds": [
+      120
+    ],
+    "battleTimeline": [
+      {
+        "atSeconds": null,
+        "condition": "每次受到伤害后，随机播放一种受击动作",
+        "repeatIntervalSeconds": null,
+        "phase": "全程",
+        "event": "受击反馈",
+        "category": "passive",
+        "targetType": "mechanism",
+        "targetId": "orica-hit-reaction",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      },
+      {
+        "atSeconds": null,
+        "condition": "生命归零后触发一次",
+        "repeatIntervalSeconds": null,
+        "phase": "退场",
+        "event": "被击破演出",
+        "category": "defeat-presentation",
+        "targetType": "mechanism",
+        "targetId": "orica-death-feedback",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      }
+    ],
+    "phases": [],
+    "attacks": [],
+    "mechanisms": [
+      {
+        "id": "orica-hit-reaction",
+        "category": "passive",
+        "title": "受击反馈",
+        "guideTriggerSummary": "每次受到伤害后",
+        "triggers": [
+          {
+            "type": "受击",
+            "summary": "每次受到伤害后，随机播放一种受击动作"
+          }
+        ],
+        "summary": "奥莉卡不会反击；每次受伤后，只会等概率播放两种受击动作之一。两种动作都是演出，不造成额外伤害，也不附加状态。",
+        "actionSequence": [
+          {
+            "order": 1,
+            "action": "承受本次伤害",
+            "summary": "先完成正常受伤结算"
+          },
+          {
+            "order": 2,
+            "action": "随机受击动作",
+            "summary": "50%播放动作1，50%播放动作2；每次只选一个"
+          }
+        ],
+        "variants": [
+          {
+            "label": "受击动作1",
+            "probabilityPercent": 50,
+            "damageSummary": null,
+            "effects": []
+          },
+          {
+            "label": "受击动作2",
+            "probabilityPercent": 50,
+            "damageSummary": null,
+            "effects": []
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "orica-hit-1",
+            "label": "受击动作1",
+            "eventMarkers": [],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Hit1_1"
+              ]
+            }
+          },
+          {
+            "id": "orica-hit-2",
+            "label": "受击动作2",
+            "eventMarkers": [],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Hit1_2"
+              ]
+            }
+          }
+        ],
+        "damageVariants": [],
+        "effects": [],
+        "units": [],
+        "evidenceStatus": "已核对",
+        "playerResponse": "无需把受击动作当作反击提示；可以持续输出。",
+        "caution": null,
+        "runtimeReferences": {}
+      },
+      {
+        "id": "orica-death-feedback",
+        "category": "defeat-presentation",
+        "title": "被击破演出",
+        "guideTriggerSummary": "生命归零时",
+        "triggers": [
+          {
+            "type": "被击破",
+            "summary": "生命归零后触发一次"
+          }
+        ],
+        "summary": "被击破后播放退场动作，并在动作开始约0.03秒时震动镜头。该效果没有伤害、控制或Buff。",
+        "actionSequence": [
+          {
+            "order": 1,
+            "action": "播放被击破动作",
+            "summary": "生命归零后开始退场演出"
+          },
+          {
+            "order": 2,
+            "atSeconds": 0.033333,
+            "action": "镜头震动",
+            "summary": "只改变画面表现，不造成伤害"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "orica-defeat",
+            "label": "被击破演出",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0.033333,
+                "type": "effect",
+                "label": "镜头震动"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Die"
+              ]
+            }
+          }
+        ],
+        "damageVariants": [],
+        "effects": [
+          {
+            "type": "演出",
+            "name": "镜头震动",
+            "description": "只触发画面震动。",
+            "target": "画面",
+            "probabilityPercent": 100,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "stacking": null,
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "mechanism-result",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "unknown",
+            "skillId": "orica-death-feedback",
+            "skillType": "mechanism"
+          }
+        ],
+        "units": [],
+        "evidenceStatus": "已核对",
+        "playerResponse": "这是退场演出，不需要额外应对。",
+        "caution": null,
+        "runtimeReferences": {}
+      }
+    ],
+    "units": [],
+    "playerAdvice": [
+      "奥莉卡不会移动或反击；在120秒内持续集中输出即可。"
+    ],
+    "unresolved": [],
+    "presentationRules": {
+      "rawEntryCount": 4,
+      "playerAttackGroupCount": 0,
+      "playerMechanismCount": 2,
+      "rawSkillEntriesRendered": false,
+      "internalUidsVisibleToPlayer": false
+    },
+    "runtimeReferences": {},
+    "skillOrder": []
+  },
+  "runtimeReferences": {},
+  "encounterOrder": 5,
+  "directoryAppearances": [
+    {
+      "configurationId": "8006",
+      "configurationLabel": "深海大乱斗",
+      "configurationOrder": 8006,
+      "worldInfoUid": 8006,
+      "stageUid": "80060010",
+      "stageOrder": 1,
+      "stageName": "고래 대난투",
+      "hpBarCount": null
+    }
+  ]
+}

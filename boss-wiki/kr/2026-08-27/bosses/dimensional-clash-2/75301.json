@@ -1,0 +1,1259 @@
+{
+  "schemaVersion": 3,
+  "server": "kr",
+  "dataVersion": "2026-08-27",
+  "routeKey": "kr:dimensional-clash-2:75301",
+  "mode": "次元大冲突2.0",
+  "modeKey": "dimensional-clash-2",
+  "monsterUid": "75301",
+  "bossName": "냥만 타워 - 활발",
+  "personality": "활발",
+  "attackType": "物理/魔法",
+  "spineKey": "NT00Jolly",
+  "spineSkinName": "Skin_Jolly",
+  "iconUrl": "/boss-wiki/kr/2026-08-27/icons/dimensional-clash-2/75301.png",
+  "difficultyCodes": [
+    0
+  ],
+  "stages": [
+    {
+      "rowKey": "dimensional-clash-2:42:42080030:75301:0",
+      "monsterUid": "75301",
+      "bossName": "냥만 타워 - 활발",
+      "personality": "활발",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 3,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "활발한 차원: 제 3구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 3,
+      "等级": "Lv.113",
+      "数值口径": "最终阶段属性",
+      "HP": 1130002.412,
+      "物理攻击": 2562.99,
+      "魔法攻击": 2562.99,
+      "物理防御": 3000,
+      "魔法防御": 3000,
+      "暴击": 1846,
+      "暴击伤害": 1846,
+      "暴击抵抗": 1846,
+      "暴伤抵抗": 1846,
+      "SP上限": 200,
+      "SP恢复": 10,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "HP -65.24% · 物攻 +11% · 魔攻 +11% · 最终物理伤害 +54.34% · 最终魔法伤害 +54.34%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42080030"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42080060:75301:0",
+      "monsterUid": "75301",
+      "bossName": "냥만 타워 - 활발",
+      "personality": "활발",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 6,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "활발한 차원: 제 6구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 6,
+      "等级": "Lv.206",
+      "数值口径": "最终阶段属性",
+      "HP": 4083515.6264,
+      "物理攻击": 6203.472,
+      "魔法攻击": 6203.472,
+      "物理防御": 5418,
+      "魔法防御": 5418,
+      "暴击": 3334,
+      "暴击伤害": 3334,
+      "暴击抵抗": 3334,
+      "暴伤抵抗": 3334,
+      "SP上限": 200,
+      "SP恢复": 10,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "HP -30.44% · 物攻 +48.8% · 魔攻 +48.8% · 最终物理伤害 +60.85% · 最终魔法伤害 +60.85%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42080060"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42080090:75301:0",
+      "monsterUid": "75301",
+      "bossName": "냥만 타워 - 활발",
+      "personality": "활발",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 9,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "활발한 차원: 제 9구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 9,
+      "等级": "Lv.581",
+      "数值口径": "最终阶段属性",
+      "HP": 58707013.9656,
+      "物理攻击": 52615.521,
+      "魔法攻击": 52615.521,
+      "物理防御": 15168,
+      "魔法防御": 15168,
+      "暴击": 9334,
+      "暴击伤害": 9334,
+      "暴击抵抗": 9334,
+      "暴伤抵抗": 9334,
+      "SP上限": 200,
+      "SP恢复": 10,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "HP +257.24% · 物攻 +350.9% · 魔攻 +350.9% · 最终物理伤害 +67.36% · 最终魔法伤害 +67.36%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42080090"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42080120:75301:0",
+      "monsterUid": "75301",
+      "bossName": "냥만 타워 - 활발",
+      "personality": "활발",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 12,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "활발한 차원: 제 12구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 12,
+      "等级": "Lv.956",
+      "数值口径": "最终阶段属性",
+      "HP": 197797912.2392,
+      "物理攻击": 144361.739,
+      "魔法攻击": 144361.739,
+      "物理防御": 24918,
+      "魔法防御": 24918,
+      "暴击": 15334,
+      "暴击伤害": 15334,
+      "暴击抵抗": 15334,
+      "暴伤抵抗": 15334,
+      "SP上限": 200,
+      "SP恢复": 10,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "HP +632.68% · 物攻 +653.1% · 魔攻 +653.1% · 最终物理伤害 +73.87% · 最终魔法伤害 +73.87%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42080120"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42080150:75301:0",
+      "monsterUid": "75301",
+      "bossName": "냥만 타워 - 활발",
+      "personality": "활발",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 15,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "활발한 차원: 제 15구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 15,
+      "等级": "Lv.2456",
+      "数值口径": "最终阶段属性",
+      "HP": 2696751026.6914,
+      "物理攻击": 1558804.807,
+      "魔法攻击": 1558804.807,
+      "物理防御": 63918,
+      "魔法防御": 63918,
+      "暴击": 39334,
+      "暴击伤害": 39334,
+      "暴击抵抗": 39334,
+      "暴伤抵抗": 39334,
+      "SP上限": 200,
+      "SP恢复": 10,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "HP +3794.31% · 物攻 +3070.3% · 魔攻 +3070.3% · 最终物理伤害 +80.38% · 最终魔法伤害 +80.38%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42080150"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42080180:75301:0",
+      "monsterUid": "75301",
+      "bossName": "냥만 타워 - 활발",
+      "personality": "활발",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 18,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "활발한 차원: 제 18구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 18,
+      "等级": "Lv.3956",
+      "数值口径": "最终阶段属性",
+      "HP": 9415001362.9154,
+      "物理攻击": 4423567.875,
+      "魔法攻击": 4423567.875,
+      "物理防御": 102918,
+      "魔法防御": 102918,
+      "暴击": 63334,
+      "暴击伤害": 63334,
+      "暴击抵抗": 63334,
+      "暴伤抵抗": 63334,
+      "SP上限": 200,
+      "SP恢复": 10,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "HP +8343.91% · 物攻 +5487.5% · 魔攻 +5487.5% · 最终物理伤害 +86.89% · 最终魔法伤害 +86.89%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42080180"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42080210:75301:0",
+      "monsterUid": "75301",
+      "bossName": "냥만 타워 - 활발",
+      "personality": "활발",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 21,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "활발한 차원: 제 21구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 21,
+      "等级": "Lv.7106",
+      "数值口径": "最终阶段属性",
+      "HP": 41567844658.1552,
+      "物理攻击": 15160333.484,
+      "魔法攻击": 15160333.484,
+      "物理防御": 184818,
+      "魔法防御": 184818,
+      "暴击": 113734,
+      "暴击伤害": 113734,
+      "暴击抵抗": 113734,
+      "暴伤抵抗": 113734,
+      "SP上限": 200,
+      "SP恢复": 10,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "HP +20660.08% · 物攻 +10563.6% · 魔攻 +10563.6% · 最终物理伤害 +93.4% · 最终魔法伤害 +93.4%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42080210"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42080240:75301:0",
+      "monsterUid": "75301",
+      "bossName": "냥만 타워 - 활발",
+      "personality": "활발",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 24,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "활발한 차원: 제 24구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 24,
+      "等级": "Lv.10256",
+      "数值口径": "最终阶段属性",
+      "HP": 123428791572.1,
+      "物理攻击": 32292985.093,
+      "魔法攻击": 32292985.093,
+      "物理防御": 266718,
+      "魔法防御": 266718,
+      "暴击": 164134,
+      "暴击伤害": 164134,
+      "暴击抵抗": 164134,
+      "暴伤抵抗": 164134,
+      "SP上限": 200,
+      "SP恢复": 10,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "HP +42615% · 物攻 +15639.7% · 魔攻 +15639.7% · 最终物理伤害 +100% · 最终魔法伤害 +100%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42080240"
+      }
+    }
+  ],
+  "skills": [],
+  "guideSkills": [
+    {
+      "id": "7530101",
+      "sourceOrder": 0,
+      "displayName": "1次伤害结算（Attack1_1）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "普通攻击",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          15
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 120,
+        "max": 120,
+        "displayMin": 120,
+        "displayMax": 120,
+        "hitCount": 1,
+        "formula": "Attack1_1 120%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Attack1_1",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            1.2
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Attack1"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_NT00_Attack_DrillSpin_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_NT00_Attack_Hit_1"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "普通攻击动作",
+          "spineAnimation": "Attack1_1",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 120,
+              "multiplierMax": 120,
+              "hitCount": 1,
+              "subtotalMin": 120,
+              "subtotalMax": 120,
+              "eventTimes": [
+                1.2
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 120,
+          "confirmedSegmentTotalMax": 120,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Attack1"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_NT00_Attack_DrillSpin_1"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_NT00_Attack_Hit_1"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7530102",
+      "sourceOrder": 1,
+      "displayName": "1次伤害结算（Attack2_1）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "强化攻击",
+      "trigger": {
+        "type": "堆叠",
+        "summary": "堆叠条件原值 3；比较方式仍以客户端运行逻辑为准",
+        "rawValue": "3",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          15
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 270,
+        "max": 270,
+        "displayMin": 270,
+        "displayMax": 270,
+        "hitCount": 1,
+        "formula": "Attack2_1 270%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Attack2_1",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            2.033334
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Bottom"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_NT00_Attack2_Explosion_1"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "强化攻击动作",
+          "spineAnimation": "Attack2_1",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 270,
+              "multiplierMax": 270,
+              "hitCount": 1,
+              "subtotalMin": 270,
+              "subtotalMax": 270,
+              "eventTimes": [
+                2.033334
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 270,
+          "confirmedSegmentTotalMax": 270,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Bottom"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_NT00_Attack2_Explosion_1"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7530103",
+      "sourceOrder": 2,
+      "displayName": "6次伤害结算并施加状态效果（Skill1_1）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          50
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 1800,
+        "max": 1800,
+        "displayMin": 1800,
+        "displayMax": 1800,
+        "hitCount": 6,
+        "formula": "Skill1_1 1800%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "施加状态效果；造成伤害",
+          "spineAnimation": "Skill1_1",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 6,
+          "effectTriggerCount": 6,
+          "eventTimes": [
+            2.333333,
+            2.466667,
+            2.6,
+            2.733334,
+            2.866667,
+            3
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Missile_1"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_NT00_Skill1_Missile_Proj_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_NT00_Skill1_Missile_Hit_1"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "技能动作 1",
+          "spineAnimation": "Skill1_1",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 300,
+              "multiplierMax": 300,
+              "hitCount": 6,
+              "subtotalMin": 1800,
+              "subtotalMax": 1800,
+              "eventTimes": [
+                2.333333,
+                2.466667,
+                2.6,
+                2.733334,
+                2.866667,
+                3
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 1800,
+          "confirmedSegmentTotalMax": 1800,
+          "confirmedDamageHitCount": 6,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Missile_1"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_NT00_Skill1_Missile_Proj_1"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_NT00_Skill1_Missile_Hit_1"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "造成伤害并施加状态",
+          "name": "官方未提供状态名",
+          "description": "官方未提供状态说明",
+          "durationSeconds": 0,
+          "valueRaw": 0,
+          "valueUnit": "官方未注明",
+          "probabilityPercent": 0,
+          "action": "造成伤害并施加状态"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7530104",
+      "sourceOrder": 3,
+      "displayName": "보호막",
+      "presentationLabel": null,
+      "nameKind": "官方技能名",
+      "skillType": "冷却技能",
+      "trigger": {
+        "type": "计时",
+        "summary": "计时阈值 7.5 秒；CoolTime与FirstCoolTime另列，不合并成固定周期",
+        "rawValue": "7.5",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          50
+        ]
+      },
+      "range": null,
+      "verdict": "no-damage",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "护盾",
+          "spineAnimation": "Skill2_1",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Bottom"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_NT00_Skill2_Shield_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_NT00_Skill2_Hit_1"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [],
+      "effectGroups": {
+        "buffs": [
+          {
+            "nameKo": null,
+            "fallbackLabel": "护盾",
+            "descriptionKo": null,
+            "relation": null,
+            "relationDepth": null,
+            "category": "buff",
+            "uid": null,
+            "nameKey": null,
+            "iconUrl": null,
+            "catalogMatch": "not-found",
+            "probabilityPercent": null,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": true,
+            "classificationEvidence": null
+          }
+        ],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "获得护盾",
+          "note": "已证明护盾处理器入口；护盾数值保留官方字段口径。",
+          "action": "获得护盾"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "官方字段和客户端结算共同确认该技能没有直接正伤害。",
+      "evidenceStatus": "官方字段与客户端结算共同确认无直接正伤害",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7530105",
+      "sourceOrder": 4,
+      "displayName": "접근 금지",
+      "presentationLabel": null,
+      "nameKind": "官方技能名",
+      "skillType": "冷却技能",
+      "trigger": {
+        "type": "计时",
+        "summary": "计时阈值 15 秒；CoolTime与FirstCoolTime另列，不合并成固定周期",
+        "rawValue": "15",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          50
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 600,
+        "max": 600,
+        "displayMin": 600,
+        "displayMax": 600,
+        "hitCount": 1,
+        "formula": "Skill3_1 600%"
+      },
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "造成伤害",
+          "spineAnimation": "Skill3_1",
+          "relation": "执行关系待确认",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            3.233334
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_NT00_Skill3_Charge_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_NT00_Skill3_Hit_1"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        },
+        {
+          "order": null,
+          "action": "执行特殊机制",
+          "spineAnimation": null,
+          "relation": "未匹配Spine事件的直接或回调效果",
+          "spineEventCount": 0,
+          "effectTriggerCount": 0,
+          "eventTimes": [],
+          "spineEffects": [],
+          "evidenceStatus": "官方效果行存在；Spine事件或具体调用时点尚未匹配"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "技能动作 3",
+          "spineAnimation": "Skill3_1",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 600,
+              "multiplierMax": 600,
+              "hitCount": 1,
+              "subtotalMin": 600,
+              "subtotalMax": 600,
+              "eventTimes": [
+                3.233334
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 600,
+          "confirmedSegmentTotalMax": 600,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Middle"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_NT00_Skill3_Charge_1"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_NT00_Skill3_Hit_1"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "执行特殊机制",
+          "note": "处理器语义待确认",
+          "action": "执行特殊机制"
+        }
+      ],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7530106",
+      "sourceOrder": 5,
+      "displayName": "天赋",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "天赋",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          10
+        ]
+      },
+      "range": null,
+      "verdict": "no-damage",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "施加状态；施加减益状态",
+          "spineAnimation": null,
+          "relation": "未匹配Spine事件的直接或回调效果",
+          "spineEventCount": 0,
+          "effectTriggerCount": 0,
+          "eventTimes": [],
+          "spineEffects": [],
+          "evidenceStatus": "官方效果行存在；Spine事件或具体调用时点尚未匹配"
+        }
+      ],
+      "damageSegments": [],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [
+          {
+            "nameKo": "회로 노출",
+            "fallbackLabel": null,
+            "descriptionKo": "보호막 파괴 효과로 보호막이 파괴되면 냥만타워가 최대 HP에 비례한 피해를 받는다.\\n보호막을 파괴한 사도를 접근 금지시킨다.",
+            "relation": "施加",
+            "relationDepth": "直接效果",
+            "category": "debuff",
+            "uid": "557",
+            "nameKey": "StateName_DeviceDamaged",
+            "iconUrl": null,
+            "catalogMatch": "exact-name",
+            "probabilityPercent": null,
+            "durationSeconds": 99999,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": true,
+            "classificationEvidence": "官方状态名或说明明确表示减益"
+          }
+        ],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": [
+          {
+            "nameKo": null,
+            "fallbackLabel": null,
+            "descriptionKo": null,
+            "relation": "施加",
+            "relationDepth": "直接效果",
+            "category": "special",
+            "uid": null,
+            "nameKey": null,
+            "iconUrl": null,
+            "catalogMatch": "not-found",
+            "probabilityPercent": null,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": true,
+            "classificationEvidence": "官方状态存在，但仅凭现有静态字段不能可靠判定增益或减益"
+          }
+        ]
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "施加状态",
+          "name": "官方未提供状态名",
+          "description": "官方未提供状态说明",
+          "durationSeconds": 99999,
+          "valueRaw": null,
+          "valueUnit": "官方未注明",
+          "note": "参数2起为状态专用参数，具体含义只在技术证据保留",
+          "action": "施加状态"
+        }
+      ],
+      "internalNotes": [
+        {
+          "behavior": "施加状态",
+          "name": "회로 노출",
+          "description": "보호막 파괴 효과로 보호막이 파괴되면 냥만타워가 최대 HP에 비례한 피해를 받는다.\\n보호막을 파괴한 사도를 접근 금지시킨다.",
+          "durationSeconds": 99999,
+          "valueRaw": null,
+          "valueUnit": "官方未注明",
+          "note": "参数2起为状态专用参数，具体含义只在技术证据保留",
+          "action": "施加状态"
+        }
+      ],
+      "conclusion": "官方字段和客户端结算共同确认该技能没有直接正伤害。",
+      "evidenceStatus": "官方字段与客户端结算共同确认无直接正伤害",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7530107",
+      "sourceOrder": 6,
+      "displayName": "施加状态效果",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "条件技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          10
+        ]
+      },
+      "range": null,
+      "verdict": "no-damage",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "施加状态效果",
+          "spineAnimation": null,
+          "relation": "未匹配Spine事件的直接或回调效果",
+          "spineEventCount": 0,
+          "effectTriggerCount": 0,
+          "eventTimes": [],
+          "spineEffects": [],
+          "evidenceStatus": "官方效果行存在；Spine事件或具体调用时点尚未匹配"
+        }
+      ],
+      "damageSegments": [],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "按状态层数选择动作",
+          "note": "按状态层数选择动作并播放对应特效；层数分支不相加。",
+          "action": "按状态层数选择动作"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "官方字段和客户端结算共同确认该技能没有直接正伤害。",
+      "evidenceStatus": "官方字段与客户端结算共同确认无直接正伤害",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7530108",
+      "sourceOrder": 7,
+      "displayName": "회로 노출",
+      "presentationLabel": null,
+      "nameKind": "官方技能名",
+      "skillType": "天赋",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          10
+        ]
+      },
+      "range": null,
+      "verdict": "no-damage",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "ShieldBreak1_1",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.066667
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_NT00_Attack_MachineDamage_1"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "电路暴露并造成伤害",
+          "note": "电路暴露动作内结算伤害；动作次数仍按Spine事件。",
+          "action": "电路暴露并造成伤害"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "官方字段和客户端结算共同确认该技能没有直接正伤害。",
+      "evidenceStatus": "官方字段与客户端结算共同确认无直接正伤害",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    }
+  ],
+  "internalComponents": [],
+  "spineResources": [
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack1_1",
+      "直接连接的技能效果": "7530101",
+      "触发时间": "1.2s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack2_1",
+      "直接连接的技能效果": "7530102",
+      "触发时间": "2.033334s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_1",
+      "直接连接的技能效果": "7530103",
+      "触发时间": "2.333333s / 2.466667s / 2.6s / 2.733334s / 2.866667s / 3s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill2_1",
+      "直接连接的技能效果": "7530104",
+      "触发时间": "0s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill3_1",
+      "直接连接的技能效果": "7530105",
+      "触发时间": "3.233334s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "ShieldBreak1_1",
+      "直接连接的技能效果": "7530108",
+      "触发时间": "0.066667s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    }
+  ],
+  "guideReference": null,
+  "runtimeReferences": {}
+}

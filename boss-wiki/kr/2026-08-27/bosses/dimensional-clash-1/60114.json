@@ -1,0 +1,526 @@
+{
+  "schemaVersion": 3,
+  "server": "kr",
+  "dataVersion": "2026-08-27",
+  "routeKey": "kr:dimensional-clash-1:60114",
+  "mode": "次元大冲突1.0",
+  "modeKey": "dimensional-clash-1",
+  "monsterUid": "60114",
+  "bossName": "라쿤아치 - 순수",
+  "personality": "순수",
+  "attackType": "物理",
+  "spineKey": "FoodScavenger",
+  "spineSkinName": "Skin_Naive",
+  "iconUrl": "/boss-wiki/kr/2026-08-27/icons/dimensional-clash-1/60114.png",
+  "difficultyCodes": [
+    0
+  ],
+  "stages": [
+    {
+      "rowKey": "dimensional-clash-1:8:8050010:60114:0",
+      "monsterUid": "60114",
+      "bossName": "라쿤아치 - 순수",
+      "personality": "순수",
+      "attackType": "物理",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 1,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "순수한 차원: 제 1구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 1,
+      "等级": "Lv.30",
+      "数值口径": "最终阶段属性",
+      "HP": 351129,
+      "物理攻击": 552,
+      "魔法攻击": 0,
+      "物理防御": 939,
+      "魔法防御": 939,
+      "暴击": 455,
+      "暴击伤害": 455,
+      "暴击抵抗": 455,
+      "暴伤抵抗": 455,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 133,
+      "属性加成与特殊说明": "免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8050010"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-1:8:8050130:60114:0",
+      "monsterUid": "60114",
+      "bossName": "라쿤아치 - 순수",
+      "personality": "순수",
+      "attackType": "物理",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 13,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "순수한 차원: 제 13구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 13,
+      "等级": "Lv.1300",
+      "数值口径": "最终阶段属性",
+      "HP": 18343401.7,
+      "物理攻击": 38748.5,
+      "魔法攻击": 0,
+      "物理防御": 37769,
+      "魔法防御": 37769,
+      "暴击": 18235,
+      "暴击伤害": 18235,
+      "暴击抵抗": 18235,
+      "暴伤抵抗": 18235,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 133,
+      "属性加成与特殊说明": "HP +30% · 物攻 +75% · 魔攻 +75% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8050130"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-1:8:8050250:60114:0",
+      "monsterUid": "60114",
+      "bossName": "라쿤아치 - 순수",
+      "personality": "순수",
+      "attackType": "物理",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 25,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "순수한 차원: 제 25구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 25,
+      "等级": "Lv.13500",
+      "数值口径": "最终阶段属性",
+      "HP": 18578208843,
+      "物理攻击": 14002062,
+      "魔法攻击": 0,
+      "物理防御": 391569,
+      "魔法防御": 391569,
+      "暴击": 189035,
+      "暴击伤害": 189035,
+      "暴击抵抗": 189035,
+      "暴伤抵抗": 189035,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 133,
+      "属性加成与特殊说明": "HP +12600% · 物攻 +6000% · 魔攻 +6000% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8050250"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-1:8:8250010:60114:0",
+      "monsterUid": "60114",
+      "bossName": "라쿤아치 - 순수",
+      "personality": "순수",
+      "attackType": "物理",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 1,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "순수한 차원: 제 1구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 1,
+      "等级": "Lv.30",
+      "数值口径": "最终阶段属性",
+      "HP": 351129,
+      "物理攻击": 552,
+      "魔法攻击": 0,
+      "物理防御": 939,
+      "魔法防御": 939,
+      "暴击": 455,
+      "暴击伤害": 455,
+      "暴击抵抗": 455,
+      "暴伤抵抗": 455,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 133,
+      "属性加成与特殊说明": "免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8250010"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-1:8:8250130:60114:0",
+      "monsterUid": "60114",
+      "bossName": "라쿤아치 - 순수",
+      "personality": "순수",
+      "attackType": "物理",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 13,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "순수한 차원: 제 13구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 13,
+      "等级": "Lv.1300",
+      "数值口径": "最终阶段属性",
+      "HP": 18343401.7,
+      "物理攻击": 38748.5,
+      "魔法攻击": 0,
+      "物理防御": 37769,
+      "魔法防御": 37769,
+      "暴击": 18235,
+      "暴击伤害": 18235,
+      "暴击抵抗": 18235,
+      "暴伤抵抗": 18235,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 133,
+      "属性加成与特殊说明": "HP +30% · 物攻 +75% · 魔攻 +75% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8250130"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-1:8:8250250:60114:0",
+      "monsterUid": "60114",
+      "bossName": "라쿤아치 - 순수",
+      "personality": "순수",
+      "attackType": "物理",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 25,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "순수한 차원: 제 25구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 25,
+      "等级": "Lv.13500",
+      "数值口径": "最终阶段属性",
+      "HP": 18578208843,
+      "物理攻击": 14002062,
+      "魔法攻击": 0,
+      "物理防御": 391569,
+      "魔法防御": 391569,
+      "暴击": 189035,
+      "暴击伤害": 189035,
+      "暴击抵抗": 189035,
+      "暴伤抵抗": 189035,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 133,
+      "属性加成与特殊说明": "HP +12600% · 物攻 +6000% · 魔攻 +6000% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8250250"
+      }
+    }
+  ],
+  "skills": [],
+  "guideSkills": [
+    {
+      "id": "6011401",
+      "sourceOrder": 0,
+      "displayName": "일반공격",
+      "presentationLabel": null,
+      "nameKind": "官方技能名",
+      "skillType": "普通攻击",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          10
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 100,
+        "max": 100,
+        "displayMin": 100,
+        "displayMax": 100,
+        "hitCount": 1,
+        "formula": "Attack1_1_Naive 100%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Attack1_1_Naive",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.533333
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Attack1"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_FoodScavenger_Stomp_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_1_M"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "普通攻击动作",
+          "spineAnimation": "Attack1_1_Naive",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.533333
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 100,
+          "confirmedSegmentTotalMax": 100,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Attack1"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_FoodScavenger_Stomp_1"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Common_Hit_1_M"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "6011402",
+      "sourceOrder": 1,
+      "displayName": "1次伤害结算（Skill1_1_Naive）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          6
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 400,
+        "max": 400,
+        "displayMin": 400,
+        "displayMax": 400,
+        "hitCount": 1,
+        "formula": "Skill1_1_Naive 400%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Skill1_1_Naive",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            1.1
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Attack1"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_FoodScavenger_Stomp_2"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_2_M"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "技能动作 1",
+          "spineAnimation": "Skill1_1_Naive",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 400,
+              "multiplierMax": 400,
+              "hitCount": 1,
+              "subtotalMin": 400,
+              "subtotalMax": 400,
+              "eventTimes": [
+                1.1
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 400,
+          "confirmedSegmentTotalMax": 400,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Attack1"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_FoodScavenger_Stomp_2"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Common_Hit_2_M"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    }
+  ],
+  "internalComponents": [],
+  "spineResources": [
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack1_1_Naive",
+      "直接连接的技能效果": "6011401",
+      "触发时间": "0.533333s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_1_Naive",
+      "直接连接的技能效果": "6011402",
+      "触发时间": "1.1s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    }
+  ],
+  "guideReference": null,
+  "runtimeReferences": {}
+}

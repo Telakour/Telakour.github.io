@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 3,
+  "server": "kr",
+  "dataVersion": "2026-08-27",
+  "routeKey": "kr:deep-sea-brawl:76101",
+  "mode": "深海大乱斗",
+  "modeKey": "deep-sea-brawl",
+  "monsterUid": "76101",
+  "bossName": "오리카",
+  "personality": "无",
+  "attackType": "物理/魔法",
+  "spineKey": "Orica",
+  "spineSkinName": "Skin_None",
+  "iconUrl": "/boss-wiki/kr/2026-08-27/icons/deep-sea-brawl/76101.png",
+  "difficultyCodes": [
+    4
+  ],
+  "stages": [
+    {
+      "rowKey": "deep-sea-brawl:44:80060010:76101:0",
+      "monsterUid": "76101",
+      "bossName": "오리카",
+      "personality": "无",
+      "attackType": "物理/魔法",
+      "difficultyCode": 4,
+      "worldName": "BreadCrumbBattle_Boss",
+      "stageOrder": 1,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "고래 대난투",
+      "官方关卡名": "BreadCrumbBattle_Boss",
+      "波次/档位": 1,
+      "等级": "Lv.1",
+      "数值口径": "最终阶段属性",
+      "HP": 96051.8,
+      "物理攻击": 100,
+      "魔法攻击": 100,
+      "物理防御": 0,
+      "魔法防御": 0,
+      "暴击": 49,
+      "暴击伤害": 49,
+      "暴击抵抗": 49,
+      "暴伤抵抗": 49,
+      "SP上限": 800,
+      "SP恢复": 160,
+      "攻击速度": 200,
+      "属性加成与特殊说明": "HP +30% · 最终物理减伤 -96.5% · 最终魔法减伤 -96.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -96.5,
+      "魔法减伤字段": -96.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "80060010"
+      }
+    }
+  ],
+  "skills": [],
+  "guideSkills": [],
+  "internalComponents": [
+    {
+      "id": "7610101",
+      "sourceOrder": 0,
+      "displayName": "普通攻击",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "普通攻击",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          1000
+        ]
+      },
+      "range": null,
+      "verdict": "no-damage",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "没有可确认的执行动作或效果",
+          "spineAnimation": null,
+          "relation": "未匹配Spine事件的直接或回调效果",
+          "spineEventCount": 0,
+          "effectTriggerCount": 0,
+          "eventTimes": [],
+          "spineEffects": [],
+          "evidenceStatus": "官方资料不足，无法确认"
+        }
+      ],
+      "damageSegments": [],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [],
+      "conclusion": "官方字段和客户端结算共同确认该技能没有直接正伤害。",
+      "evidenceStatus": "官方字段与客户端结算共同确认无直接正伤害",
+      "isInternalOnly": true,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7610102",
+      "sourceOrder": 1,
+      "displayName": "SP技能（表内无官方名称）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          1000
+        ]
+      },
+      "range": null,
+      "verdict": "no-damage",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "没有可确认的执行动作或效果",
+          "spineAnimation": null,
+          "relation": "未匹配Spine事件的直接或回调效果",
+          "spineEventCount": 0,
+          "effectTriggerCount": 0,
+          "eventTimes": [],
+          "spineEffects": [],
+          "evidenceStatus": "官方资料不足，无法确认"
+        }
+      ],
+      "damageSegments": [],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [],
+      "conclusion": "官方字段和客户端结算共同确认该技能没有直接正伤害。",
+      "evidenceStatus": "官方字段与客户端结算共同确认无直接正伤害",
+      "isInternalOnly": true,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7610103",
+      "sourceOrder": 2,
+      "displayName": "终极技能",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "终极技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          1000
+        ]
+      },
+      "range": null,
+      "verdict": "no-damage",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "没有可确认的执行动作或效果",
+          "spineAnimation": null,
+          "relation": "未匹配Spine事件的直接或回调效果",
+          "spineEventCount": 0,
+          "effectTriggerCount": 0,
+          "eventTimes": [],
+          "spineEffects": [],
+          "evidenceStatus": "官方资料不足，无法确认"
+        }
+      ],
+      "damageSegments": [],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [],
+      "conclusion": "官方字段和客户端结算共同确认该技能没有直接正伤害。",
+      "evidenceStatus": "官方字段与客户端结算共同确认无直接正伤害",
+      "isInternalOnly": true,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7610104",
+      "sourceOrder": 3,
+      "displayName": "执行特殊机制（Die）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "终极技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 40,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          42
+        ]
+      },
+      "range": null,
+      "verdict": "no-damage",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "执行特殊机制",
+          "spineAnimation": "Die",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.033333
+          ],
+          "spineEffects": [
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "镜头震动",
+          "note": "仅触发镜头震动协程，不产生伤害结算。",
+          "action": "镜头震动"
+        }
+      ],
+      "conclusion": "官方字段和客户端结算共同确认该技能没有直接正伤害。",
+      "evidenceStatus": "官方字段与客户端结算共同确认无直接正伤害",
+      "isInternalOnly": true,
+      "runtimeReferences": {}
+    }
+  ],
+  "spineResources": [
+    {
+      "Spine资源键": null,
+      "骨架动作": "Die",
+      "直接连接的技能效果": "7610104",
+      "触发时间": "0.033333s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    }
+  ],
+  "guideReference": null,
+  "runtimeReferences": {}
+}

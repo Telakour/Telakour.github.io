@@ -1,0 +1,460 @@
+{
+  "schemaVersion": 3,
+  "server": "kr",
+  "dataVersion": "2026-08-27",
+  "routeKey": "kr:invasion:60623",
+  "mode": "侵略",
+  "modeKey": "invasion",
+  "monsterUid": "60623",
+  "bossName": "셰이디아 열혈팬 - 광기",
+  "personality": "광기",
+  "attackType": "官方未注明",
+  "spineKey": "ShadyfollowerCloseRange",
+  "spineSkinName": "Skin_Mad",
+  "iconUrl": null,
+  "difficultyCodes": [
+    1,
+    2,
+    3
+  ],
+  "stages": [
+    {
+      "rowKey": "invasion:1:1260051:60623:0",
+      "monsterUid": "60623",
+      "bossName": "셰이디아 열혈팬 - 광기",
+      "personality": "광기",
+      "attackType": "官方未注明",
+      "difficultyCode": 1,
+      "worldName": "현명한 열대야 나기",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "그래도 더워서 못 자겠어!",
+      "官方关卡名": "현명한 열대야 나기",
+      "波次/档位": 5,
+      "等级": "Lv.1720",
+      "数值口径": "最终阶段属性",
+      "HP": 1413755.1,
+      "物理攻击": 20669,
+      "魔法攻击": 0,
+      "物理防御": 41337,
+      "魔法防御": 41337,
+      "暴击": 34448,
+      "暴击伤害": 34448,
+      "暴击抵抗": 15500,
+      "暴伤抵抗": 15500,
+      "SP上限": 200,
+      "SP恢复": 0,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "HP +170%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1260051"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1260052:60623:0",
+      "monsterUid": "60623",
+      "bossName": "셰이디아 열혈팬 - 광기",
+      "personality": "광기",
+      "attackType": "官方未注明",
+      "difficultyCode": 2,
+      "worldName": "현명한 열대야 나기",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "그래도 더워서 못 자겠어!",
+      "官方关卡名": "현명한 열대야 나기",
+      "波次/档位": 5,
+      "等级": "Lv.6477",
+      "数值口径": "最终阶段属性",
+      "HP": 21292900.21,
+      "物理攻击": 77753,
+      "魔法攻击": 0,
+      "物理防御": 155505,
+      "魔法防御": 155505,
+      "暴击": 129588,
+      "暴击伤害": 129588,
+      "暴击抵抗": 58313,
+      "暴伤抵抗": 58313,
+      "SP上限": 200,
+      "SP恢复": 0,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "HP +981% · 最终物理伤害 +49% · 最终魔法伤害 +49%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1260052"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1260053:60623:0",
+      "monsterUid": "60623",
+      "bossName": "셰이디아 열혈팬 - 광기",
+      "personality": "광기",
+      "attackType": "官方未注明",
+      "difficultyCode": 3,
+      "worldName": "현명한 열대야 나기",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "그래도 더워서 못 자겠어!",
+      "官方关卡名": "현명한 열대야 나기",
+      "波次/档位": 5,
+      "等级": "Lv.11081",
+      "数值口径": "最终阶段属性",
+      "HP": 44475512.4,
+      "物理攻击": 133001,
+      "魔法攻击": 0,
+      "物理防御": 266001,
+      "魔法防御": 266001,
+      "暴击": 221668,
+      "暴击伤害": 221668,
+      "暴击抵抗": 99749,
+      "暴伤抵抗": 99749,
+      "SP上限": 200,
+      "SP恢复": 0,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "HP +1220% · 最终物理伤害 +183% · 最终魔法伤害 +183%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1260053"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1260101:60623:0",
+      "monsterUid": "60623",
+      "bossName": "셰이디아 열혈팬 - 광기",
+      "personality": "광기",
+      "attackType": "官方未注明",
+      "difficultyCode": 1,
+      "worldName": "현명한 열대야 나기",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "썰렁해지는 지갑!",
+      "官方关卡名": "현명한 열대야 나기",
+      "波次/档位": 10,
+      "等级": "Lv.1801",
+      "数值口径": "最终阶段属性",
+      "HP": 1589887.3,
+      "物理攻击": 21641,
+      "魔法攻击": 0,
+      "物理防御": 43281,
+      "魔法防御": 43281,
+      "暴击": 36068,
+      "暴击伤害": 36068,
+      "暴击抵抗": 16229,
+      "暴伤抵抗": 16229,
+      "SP上限": 200,
+      "SP恢复": 0,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "HP +190%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1260101"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1260102:60623:0",
+      "monsterUid": "60623",
+      "bossName": "셰이디아 열혈팬 - 광기",
+      "personality": "광기",
+      "attackType": "官方未注明",
+      "difficultyCode": 2,
+      "worldName": "현명한 열대야 나기",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "썰렁해지는 지갑!",
+      "官方关卡名": "현명한 열대야 나기",
+      "波次/档位": 10,
+      "等级": "Lv.7129",
+      "数值口径": "最终阶段属性",
+      "HP": 25386682.79,
+      "物理攻击": 85577,
+      "魔法攻击": 0,
+      "物理防御": 171153,
+      "魔法防御": 171153,
+      "暴击": 142628,
+      "暴击伤害": 142628,
+      "暴击抵抗": 64181,
+      "暴伤抵抗": 64181,
+      "SP上限": 200,
+      "SP恢复": 0,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "HP +1071% · 最终物理伤害 +107% · 最终魔法伤害 +107%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1260102"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1260103:60623:0",
+      "monsterUid": "60623",
+      "bossName": "셰이디아 열혈팬 - 광기",
+      "personality": "광기",
+      "attackType": "官方未注明",
+      "difficultyCode": 3,
+      "worldName": "현명한 열대야 나기",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "썰렁해지는 지갑!",
+      "官方关卡名": "현명한 열대야 나기",
+      "波次/档位": 10,
+      "等级": "Lv.12322",
+      "数值口径": "最终阶段属性",
+      "HP": 55637321.85,
+      "物理攻击": 147893,
+      "魔法攻击": 0,
+      "物理防御": 295785,
+      "魔法防御": 295785,
+      "暴击": 246488,
+      "暴击伤害": 246488,
+      "暴击抵抗": 110918,
+      "暴伤抵抗": 110918,
+      "SP上限": 200,
+      "SP恢复": 0,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "HP +1385% · 最终物理伤害 +346% · 最终魔法伤害 +346%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1260103"
+      }
+    }
+  ],
+  "skills": [],
+  "guideSkills": [
+    {
+      "id": "6062301",
+      "sourceOrder": 0,
+      "displayName": "일반공격",
+      "presentationLabel": null,
+      "nameKind": "官方技能名",
+      "skillType": "普通攻击",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          4.800000190734863
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 100,
+        "max": 100,
+        "displayMin": 100,
+        "displayMax": 100,
+        "hitCount": 1,
+        "formula": "Attack1_1_Mad 100%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Attack1_1_Mad",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.333333
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "Attack1_1_Mad",
+          "spineAnimation": "Attack1_1_Mad",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.333333
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 100,
+          "confirmedSegmentTotalMax": 100,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": []
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "执行特殊机制",
+          "note": "处理器语义待确认",
+          "action": "执行特殊机制"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "6062302",
+      "sourceOrder": 1,
+      "displayName": "1次伤害结算（Skill1_2_Mad）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          42
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 100,
+        "max": 100,
+        "displayMin": 100,
+        "displayMax": 100,
+        "hitCount": 1,
+        "formula": "Skill1_2_Mad 100%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Skill1_2_Mad",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.433333
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "Skill1_2_Mad",
+          "spineAnimation": "Skill1_2_Mad",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.433333
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 100,
+          "confirmedSegmentTotalMax": 100,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": []
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "执行特殊机制",
+          "note": "处理器语义待确认",
+          "action": "执行特殊机制"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    }
+  ],
+  "internalComponents": [],
+  "spineResources": [
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack1_1_Mad",
+      "直接连接的技能效果": "6062301",
+      "触发时间": "0.333333s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_2_Mad",
+      "直接连接的技能效果": "6062302",
+      "触发时间": "0.433333s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    }
+  ],
+  "guideReference": null,
+  "runtimeReferences": {}
+}

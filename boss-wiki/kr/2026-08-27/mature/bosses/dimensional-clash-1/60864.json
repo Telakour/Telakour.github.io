@@ -1,0 +1,1526 @@
+{
+  "schemaVersion": 8,
+  "server": "kr",
+  "dataDate": "2026-08-27",
+  "routeKey": "kr:dimensional-clash-1:60864",
+  "mode": "次元大冲突1.0",
+  "modeCode": 8,
+  "modeKey": "dimensional-clash-1",
+  "identity": {
+    "uid": "60864",
+    "name": "한입초 - 순수",
+    "displayName": null,
+    "displayNameKind": null,
+    "role": "boss",
+    "context": "Boss索引对象",
+    "spine": "Nependers",
+    "personalityCode": 0,
+    "personality": "순수",
+    "attackTypeCode": 1,
+    "attackType": "物理",
+    "iconKey": "Icon_NependersNaive",
+    "spineSkinName": null,
+    "spineDefaultAnimation": null,
+    "spineActionSuffix": null,
+    "officialTable": "MonsterInfo",
+    "lifecycle": null,
+    "runtimeReferences": {},
+    "iconUrl": "/boss-wiki/kr/2026-08-27/mature/icons/dimensional-clash-1/60864.png",
+    "iconSourceType": "MonsterInfo.Icon官方PNG"
+  },
+  "runtimeMonsterUids": [
+    "60864"
+  ],
+  "bossName": "한입초 - 순수",
+  "familyKey": "nependers",
+  "familyOrder": 801011,
+  "variantOrder": 2,
+  "firstFormalAppearance": {
+    "worldInfoUid": 805,
+    "stageOrder": 11,
+    "stageUid": "8050110"
+  },
+  "stageRecords": [
+    {
+      "stageUid": "8050110",
+      "name": "순수한 차원: 제 11구역",
+      "world": "차원 대충돌",
+      "worldInfoUid": 805,
+      "stageOrder": 11,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 900,
+          "growthTimes": 899,
+          "attributes": {
+            "hp": 15397709.625,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 8120,
+            "magicAttack": 0,
+            "physicalDefense": 26169,
+            "magicDefense": 26169,
+            "criticalRate": 12635,
+            "criticalMultiplier": 12635,
+            "criticalResist": 9928,
+            "criticalMultiplierResist": 9928,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 133
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 1250,
+              "percent": 12.5
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "8050230",
+      "name": "순수한 차원: 제 23구역",
+      "world": "차원 대충돌",
+      "worldInfoUid": 805,
+      "stageOrder": 23,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 9500,
+          "growthTimes": 9499,
+          "attributes": {
+            "hp": 6629660438,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 3164240,
+            "magicAttack": 0,
+            "physicalDefense": 275569,
+            "magicDefense": 275569,
+            "criticalRate": 133035,
+            "criticalMultiplier": 133035,
+            "criticalResist": 104528,
+            "criticalMultiplierResist": 104528,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 133
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 450000,
+              "percent": 4500
+            },
+            "AttackPhysicPercent": {
+              "raw": 360000,
+              "percent": 3600
+            },
+            "AttackMagicPercent": {
+              "raw": 360000,
+              "percent": 3600
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "8250110",
+      "name": "순수한 차원: 제 11구역",
+      "world": "차원 대충돌",
+      "worldInfoUid": 825,
+      "stageOrder": 11,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 900,
+          "growthTimes": 899,
+          "attributes": {
+            "hp": 15397709.625,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 8120,
+            "magicAttack": 0,
+            "physicalDefense": 26169,
+            "magicDefense": 26169,
+            "criticalRate": 12635,
+            "criticalMultiplier": 12635,
+            "criticalResist": 9928,
+            "criticalMultiplierResist": 9928,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 133
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 1250,
+              "percent": 12.5
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "8250230",
+      "name": "순수한 차원: 제 23구역",
+      "world": "차원 대충돌",
+      "worldInfoUid": 825,
+      "stageOrder": 23,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 9500,
+          "growthTimes": 9499,
+          "attributes": {
+            "hp": 6629660438,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 3164240,
+            "magicAttack": 0,
+            "physicalDefense": 275569,
+            "magicDefense": 275569,
+            "criticalRate": 133035,
+            "criticalMultiplier": 133035,
+            "criticalResist": 104528,
+            "criticalMultiplierResist": 104528,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 133
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 450000,
+              "percent": 4500
+            },
+            "AttackPhysicPercent": {
+              "raw": 360000,
+              "percent": 3600
+            },
+            "AttackMagicPercent": {
+              "raw": 360000,
+              "percent": 3600
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    }
+  ],
+  "stageRosters": [
+    {
+      "stageUid": "8050110",
+      "stage": "순수한 차원: 제 11구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 101,
+          "units": [
+            {
+              "uid": "60864",
+              "name": "한입초 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Nependers",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_NependersNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "8050230",
+      "stage": "순수한 차원: 제 23구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 101,
+          "units": [
+            {
+              "uid": "60864",
+              "name": "한입초 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Nependers",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_NependersNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "8250110",
+      "stage": "순수한 차원: 제 11구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 101,
+          "units": [
+            {
+              "uid": "60864",
+              "name": "한입초 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Nependers",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_NependersNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "8250230",
+      "stage": "순수한 차원: 제 23구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 101,
+          "units": [
+            {
+              "uid": "60864",
+              "name": "한입초 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Nependers",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_NependersNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "encounterGuide": {
+    "status": "已核对",
+    "battleTimeLimitSeconds": [
+      180
+    ],
+    "battleTimeline": [
+      {
+        "atSeconds": null,
+        "condition": "SP蓄满后释放",
+        "repeatIntervalSeconds": null,
+        "phase": "全阶段",
+        "event": "SP技能：吞食",
+        "category": "sp",
+        "targetType": "attack",
+        "targetId": "nependers-60864-sp",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      }
+    ],
+    "phases": [],
+    "attacks": [
+      {
+        "id": "nependers-60864-normal",
+        "category": "normal",
+        "title": "普通攻击",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "无",
+          "summary": "按普通攻击循环使用",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "单次物理伤害",
+            "actionSequence": [
+              {
+                "action": "挥击前方目标",
+                "spineAnimation": "Attack1_1_Naive",
+                "eventTimes": [
+                  0.6
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 100,
+                "multiplierMax": 100,
+                "hitCount": 1,
+                "subtotalMin": 100,
+                "subtotalMax": 100,
+                "eventTimes": [
+                  0.6
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 100,
+              "max": 100
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "6086401"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "nependers-60864-normal",
+            "label": "普通攻击",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0.6,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Attack1_1_Naive"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "100% × 1＝100%",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.6
+              ]
+            }
+          ],
+          "hitCount": 1,
+          "confirmedTotalMultiplier": {
+            "min": 100,
+            "max": 100
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [],
+        "confirmedTotalMultiplier": {
+          "min": 100,
+          "max": 100
+        },
+        "hitCount": 1,
+        "playerResult": "挥击前方目标，命中1次，造成100%物理伤害。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 10
+      },
+      {
+        "id": "nependers-60864-sp",
+        "category": "sp",
+        "title": "SP技能：吞食",
+        "displayNameKind": "说明名",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "SP",
+          "summary": "SP蓄满后释放",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [
+            200
+          ],
+          "spRecoveryValues": [
+            8
+          ],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "固定连续动作",
+            "actionSequence": [
+              {
+                "action": "吞入目标并结算第一段伤害",
+                "spineAnimation": "Skill1_1_Naive",
+                "eventTimes": [
+                  0.766667
+                ]
+              },
+              {
+                "action": "咀嚼两次；仅为演出，不造成伤害",
+                "spineAnimation": "Skill1_1_Naive",
+                "eventTimes": [
+                  1.266667,
+                  1.766667
+                ]
+              },
+              {
+                "action": "吐出已吞入的目标并结算第二段伤害",
+                "spineAnimation": "Skill1_1_Naive",
+                "eventTimes": [
+                  2.6
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "label": "吞入",
+                "multiplierMin": 750,
+                "multiplierMax": 750,
+                "hitCount": 1,
+                "subtotalMin": 750,
+                "subtotalMax": 750,
+                "eventTimes": [
+                  0.766667
+                ]
+              },
+              {
+                "kind": "direct",
+                "label": "吐出",
+                "multiplierMin": 750,
+                "multiplierMax": 750,
+                "hitCount": 1,
+                "subtotalMin": 750,
+                "subtotalMax": 750,
+                "eventTimes": [
+                  2.6
+                ]
+              }
+            ],
+            "hitCount": 2,
+            "confirmedTotalMultiplier": {
+              "min": 1500,
+              "max": 1500
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "6086402"
+          }
+        ],
+        "actionTimeline": [
+          {
+            "timeSeconds": 0,
+            "timing": "起手",
+            "summary": "开始施放"
+          },
+          {
+            "timeSeconds": 0.766667,
+            "timing": "0.766667秒",
+            "summary": "吞入并造成750%伤害"
+          },
+          {
+            "timeSeconds": 1.266667,
+            "timing": "1.266667秒",
+            "summary": "第1次咀嚼演出，不造成伤害"
+          },
+          {
+            "timeSeconds": 1.766667,
+            "timing": "1.766667秒",
+            "summary": "第2次咀嚼演出，不造成伤害"
+          },
+          {
+            "timeSeconds": 2.6,
+            "timing": "2.6秒",
+            "summary": "吐出并造成750%伤害"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "nependers-60864-sp",
+            "label": "吞入并吐出",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0,
+                "type": "effect",
+                "label": "准备特效"
+              },
+              {
+                "timeSeconds": 0.766667,
+                "type": "damage",
+                "label": "吞入伤害"
+              },
+              {
+                "timeSeconds": 1.266667,
+                "type": "effect",
+                "label": "咀嚼演出"
+              },
+              {
+                "timeSeconds": 1.766667,
+                "type": "effect",
+                "label": "咀嚼演出"
+              },
+              {
+                "timeSeconds": 2.6,
+                "type": "damage",
+                "label": "吐出伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill1_1_Naive"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "750% × 2＝1500%（吞入后完整吐出）",
+          "perHit": [
+            {
+              "kind": "direct",
+              "label": "吞入",
+              "multiplierMin": 750,
+              "multiplierMax": 750,
+              "hitCount": 1,
+              "subtotalMin": 750,
+              "subtotalMax": 750,
+              "eventTimes": [
+                0.766667
+              ]
+            },
+            {
+              "kind": "direct",
+              "label": "吐出",
+              "multiplierMin": 750,
+              "multiplierMax": 750,
+              "hitCount": 1,
+              "subtotalMin": 750,
+              "subtotalMax": 750,
+              "eventTimes": [
+                2.6
+              ]
+            }
+          ],
+          "hitCount": 2,
+          "confirmedTotalMultiplier": {
+            "min": 1500,
+            "max": 1500
+          },
+          "scope": "complete-cast",
+          "branchRule": "第二段只作用于第一段成功吞入并在动作结束时吐出的目标"
+        },
+        "effects": [
+          {
+            "type": "特殊动作",
+            "name": "吞入",
+            "description": "第一段命中后吞入目标，约1.833333秒后进入吐出结算。",
+            "target": "技能选中的目标",
+            "probabilityPercent": 100,
+            "durationSeconds": 1.833333,
+            "value": null,
+            "valueUnit": null,
+            "stacking": null,
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "mechanism-result",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "unknown",
+            "skillId": "nependers-60864-sp",
+            "skillType": "attack"
+          },
+          {
+            "type": "特殊动作",
+            "name": "吐出",
+            "description": "第二段只对前段已吞入的目标结算伤害并释放目标。",
+            "target": "已吞入的目标",
+            "probabilityPercent": 100,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "stacking": null,
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "mechanism-result",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "unknown",
+            "skillId": "nependers-60864-sp",
+            "skillType": "attack"
+          }
+        ],
+        "confirmedTotalMultiplier": {
+          "min": 1500,
+          "max": 1500
+        },
+        "hitCount": 2,
+        "playerResult": "先造成750%物理伤害并吞入目标，中间两次咀嚼只是演出；约1.833333秒后吐出目标并再造成750%物理伤害。对完整经历吞入和吐出的同一目标，总倍率1500%。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 30
+      }
+    ],
+    "mechanisms": [],
+    "units": [],
+    "playerAdvice": [
+      "SP会让同一目标承受吞入和吐出两段伤害；中间两次咀嚼没有额外伤害。"
+    ],
+    "unresolved": [],
+    "presentationRules": {
+      "rawEntryCount": 2,
+      "playerAttackGroupCount": 2,
+      "playerMechanismCount": 0,
+      "rawSkillEntriesRendered": false,
+      "internalUidsVisibleToPlayer": false
+    },
+    "runtimeReferences": {},
+    "skillOrder": [
+      {
+        "type": "attack",
+        "id": "nependers-60864-normal",
+        "category": "normal"
+      },
+      {
+        "type": "attack",
+        "id": "nependers-60864-sp",
+        "category": "sp"
+      }
+    ]
+  },
+  "runtimeReferences": {},
+  "encounterOrder": 44,
+  "directoryAppearances": [
+    {
+      "configurationId": "8",
+      "configurationLabel": "官方配置 #8",
+      "configurationOrder": 8,
+      "soloRaidInfoUid": 8,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050110",
+      "stageOrder": 11,
+      "stageName": "순수한 차원: 제 11구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "8",
+      "configurationLabel": "官方配置 #8",
+      "configurationOrder": 8,
+      "soloRaidInfoUid": 8,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050230",
+      "stageOrder": 23,
+      "stageName": "순수한 차원: 제 23구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "10",
+      "configurationLabel": "官方配置 #10",
+      "configurationOrder": 10,
+      "soloRaidInfoUid": 10,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050110",
+      "stageOrder": 11,
+      "stageName": "순수한 차원: 제 11구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "10",
+      "configurationLabel": "官方配置 #10",
+      "configurationOrder": 10,
+      "soloRaidInfoUid": 10,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050230",
+      "stageOrder": 23,
+      "stageName": "순수한 차원: 제 23구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "11",
+      "configurationLabel": "官方配置 #11",
+      "configurationOrder": 11,
+      "soloRaidInfoUid": 11,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050110",
+      "stageOrder": 11,
+      "stageName": "순수한 차원: 제 11구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "11",
+      "configurationLabel": "官方配置 #11",
+      "configurationOrder": 11,
+      "soloRaidInfoUid": 11,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050230",
+      "stageOrder": 23,
+      "stageName": "순수한 차원: 제 23구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "17",
+      "configurationLabel": "官方配置 #17",
+      "configurationOrder": 17,
+      "soloRaidInfoUid": 17,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050110",
+      "stageOrder": 11,
+      "stageName": "순수한 차원: 제 11구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "17",
+      "configurationLabel": "官方配置 #17",
+      "configurationOrder": 17,
+      "soloRaidInfoUid": 17,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050230",
+      "stageOrder": 23,
+      "stageName": "순수한 차원: 제 23구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "20",
+      "configurationLabel": "官方配置 #20",
+      "configurationOrder": 20,
+      "soloRaidInfoUid": 20,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050110",
+      "stageOrder": 11,
+      "stageName": "순수한 차원: 제 11구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "20",
+      "configurationLabel": "官方配置 #20",
+      "configurationOrder": 20,
+      "soloRaidInfoUid": 20,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050230",
+      "stageOrder": 23,
+      "stageName": "순수한 차원: 제 23구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "27",
+      "configurationLabel": "官方配置 #27",
+      "configurationOrder": 27,
+      "soloRaidInfoUid": 27,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050110",
+      "stageOrder": 11,
+      "stageName": "순수한 차원: 제 11구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "27",
+      "configurationLabel": "官方配置 #27",
+      "configurationOrder": 27,
+      "soloRaidInfoUid": 27,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050230",
+      "stageOrder": 23,
+      "stageName": "순수한 차원: 제 23구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "30",
+      "configurationLabel": "官方配置 #30",
+      "configurationOrder": 30,
+      "soloRaidInfoUid": 30,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050110",
+      "stageOrder": 11,
+      "stageName": "순수한 차원: 제 11구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "30",
+      "configurationLabel": "官方配置 #30",
+      "configurationOrder": 30,
+      "soloRaidInfoUid": 30,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050230",
+      "stageOrder": 23,
+      "stageName": "순수한 차원: 제 23구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "34",
+      "configurationLabel": "官方配置 #34",
+      "configurationOrder": 34,
+      "soloRaidInfoUid": 34,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050110",
+      "stageOrder": 11,
+      "stageName": "순수한 차원: 제 11구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "34",
+      "configurationLabel": "官方配置 #34",
+      "configurationOrder": 34,
+      "soloRaidInfoUid": 34,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050230",
+      "stageOrder": 23,
+      "stageName": "순수한 차원: 제 23구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "39",
+      "configurationLabel": "官方配置 #39",
+      "configurationOrder": 39,
+      "soloRaidInfoUid": 39,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050110",
+      "stageOrder": 11,
+      "stageName": "순수한 차원: 제 11구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "39",
+      "configurationLabel": "官方配置 #39",
+      "configurationOrder": 39,
+      "soloRaidInfoUid": 39,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050230",
+      "stageOrder": 23,
+      "stageName": "순수한 차원: 제 23구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "42",
+      "configurationLabel": "官方配置 #42",
+      "configurationOrder": 42,
+      "soloRaidInfoUid": 42,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050110",
+      "stageOrder": 11,
+      "stageName": "순수한 차원: 제 11구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "42",
+      "configurationLabel": "官方配置 #42",
+      "configurationOrder": 42,
+      "soloRaidInfoUid": 42,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050230",
+      "stageOrder": 23,
+      "stageName": "순수한 차원: 제 23구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "55",
+      "configurationLabel": "官方配置 #55",
+      "configurationOrder": 55,
+      "soloRaidInfoUid": 55,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050110",
+      "stageOrder": 11,
+      "stageName": "순수한 차원: 제 11구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "55",
+      "configurationLabel": "官方配置 #55",
+      "configurationOrder": 55,
+      "soloRaidInfoUid": 55,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050230",
+      "stageOrder": 23,
+      "stageName": "순수한 차원: 제 23구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "59",
+      "configurationLabel": "官方配置 #59",
+      "configurationOrder": 59,
+      "soloRaidInfoUid": 59,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 825,
+      "stageUid": "8250110",
+      "stageOrder": 11,
+      "stageName": "순수한 차원: 제 11구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "59",
+      "configurationLabel": "官方配置 #59",
+      "configurationOrder": 59,
+      "soloRaidInfoUid": 59,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 825,
+      "stageUid": "8250230",
+      "stageOrder": 23,
+      "stageName": "순수한 차원: 제 23구역",
+      "hpBarCount": null
+    }
+  ]
+}

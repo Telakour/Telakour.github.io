@@ -1,0 +1,1404 @@
+{
+  "schemaVersion": 8,
+  "server": "kr",
+  "dataDate": "2026-08-27",
+  "routeKey": "kr:dimensional-clash-1:60214",
+  "mode": "次元大冲突1.0",
+  "modeCode": 8,
+  "modeKey": "dimensional-clash-1",
+  "identity": {
+    "uid": "60214",
+    "name": "루파루 - 순수",
+    "displayName": null,
+    "displayNameKind": null,
+    "role": "boss",
+    "context": "Boss索引对象",
+    "spine": "Lupalu",
+    "personalityCode": 0,
+    "personality": "순수",
+    "attackTypeCode": 2,
+    "attackType": "魔法",
+    "iconKey": "Icon_LupaluNaive",
+    "spineSkinName": null,
+    "spineDefaultAnimation": null,
+    "spineActionSuffix": null,
+    "officialTable": "MonsterInfo",
+    "lifecycle": null,
+    "runtimeReferences": {},
+    "iconUrl": "/boss-wiki/kr/2026-08-27/mature/icons/dimensional-clash-1/60214.png",
+    "iconSourceType": "MonsterInfo.Icon官方PNG"
+  },
+  "runtimeMonsterUids": [
+    "60214"
+  ],
+  "bossName": "루파루 - 순수",
+  "familyKey": "lupalu",
+  "familyOrder": 801004,
+  "variantOrder": 2,
+  "firstFormalAppearance": {
+    "worldInfoUid": 805,
+    "stageOrder": 4,
+    "stageUid": "8050040"
+  },
+  "stageRecords": [
+    {
+      "stageUid": "8050040",
+      "name": "순수한 차원: 제 4구역",
+      "world": "차원 대충돌",
+      "worldInfoUid": 805,
+      "stageOrder": 4,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 180,
+          "growthTimes": 179,
+          "attributes": {
+            "hp": 1580948,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 3102,
+            "physicalDefense": 4195,
+            "magicDefense": 4195,
+            "criticalRate": 2555,
+            "criticalMultiplier": 2555,
+            "criticalResist": 2555,
+            "criticalMultiplierResist": 2555,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 133
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "8050160",
+      "name": "순수한 차원: 제 16구역",
+      "world": "차원 대충돌",
+      "worldInfoUid": 805,
+      "stageOrder": 16,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 4050,
+          "growthTimes": 4049,
+          "attributes": {
+            "hp": 133464504.4,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 551136,
+            "physicalDefense": 93205,
+            "magicDefense": 93205,
+            "criticalRate": 56735,
+            "criticalMultiplier": 56735,
+            "criticalResist": 56735,
+            "criticalMultiplierResist": 56735,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 133
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 28000,
+              "percent": 280
+            },
+            "AttackPhysicPercent": {
+              "raw": 70000,
+              "percent": 700
+            },
+            "AttackMagicPercent": {
+              "raw": 70000,
+              "percent": 700
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "8250040",
+      "name": "순수한 차원: 제 4구역",
+      "world": "차원 대충돌",
+      "worldInfoUid": 825,
+      "stageOrder": 4,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 180,
+          "growthTimes": 179,
+          "attributes": {
+            "hp": 1580948,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 3102,
+            "physicalDefense": 4195,
+            "magicDefense": 4195,
+            "criticalRate": 2555,
+            "criticalMultiplier": 2555,
+            "criticalResist": 2555,
+            "criticalMultiplierResist": 2555,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 133
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "8250160",
+      "name": "순수한 차원: 제 16구역",
+      "world": "차원 대충돌",
+      "worldInfoUid": 825,
+      "stageOrder": 16,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 4050,
+          "growthTimes": 4049,
+          "attributes": {
+            "hp": 133464504.4,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 551136,
+            "physicalDefense": 93205,
+            "magicDefense": 93205,
+            "criticalRate": 56735,
+            "criticalMultiplier": 56735,
+            "criticalResist": 56735,
+            "criticalMultiplierResist": 56735,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 133
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 28000,
+              "percent": 280
+            },
+            "AttackPhysicPercent": {
+              "raw": 70000,
+              "percent": 700
+            },
+            "AttackMagicPercent": {
+              "raw": 70000,
+              "percent": 700
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    }
+  ],
+  "stageRosters": [
+    {
+      "stageUid": "8050040",
+      "stage": "순수한 차원: 제 4구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 101,
+          "units": [
+            {
+              "uid": "60214",
+              "name": "루파루 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "8050160",
+      "stage": "순수한 차원: 제 16구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 101,
+          "units": [
+            {
+              "uid": "60214",
+              "name": "루파루 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "8250040",
+      "stage": "순수한 차원: 제 4구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 101,
+          "units": [
+            {
+              "uid": "60214",
+              "name": "루파루 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "8250160",
+      "stage": "순수한 차원: 제 16구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 101,
+          "units": [
+            {
+              "uid": "60214",
+              "name": "루파루 - 순수",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Lupalu",
+              "personalityCode": 0,
+              "personality": "순수",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_LupaluNaive",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "encounterGuide": {
+    "status": "已核对",
+    "battleTimeLimitSeconds": [
+      180
+    ],
+    "battleTimeline": [
+      {
+        "atSeconds": null,
+        "condition": "SP蓄满后释放",
+        "repeatIntervalSeconds": null,
+        "phase": "全阶段",
+        "event": "SP技能：强力水弹",
+        "category": "sp",
+        "targetType": "attack",
+        "targetId": "lupalu-60214-sp",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      }
+    ],
+    "phases": [],
+    "attacks": [
+      {
+        "id": "lupalu-60214-normal",
+        "category": "normal",
+        "title": "普通攻击",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "无",
+          "summary": "按普通攻击循环使用",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "单次远程魔法攻击",
+            "actionSequence": [
+              {
+                "action": "向前方目标发射水弹",
+                "spineAnimation": "Attack1_1_Naive",
+                "eventTimes": [
+                  1.533333
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 100,
+                "multiplierMax": 100,
+                "hitCount": 1,
+                "subtotalMin": 100,
+                "subtotalMax": 100,
+                "eventTimes": [
+                  1.533333
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 100,
+              "max": 100
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "6021401"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "lupalu-60214-normal",
+            "label": "普通攻击",
+            "eventMarkers": [
+              {
+                "timeSeconds": 1.533333,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Attack1_1_Naive"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "100% × 1＝100%",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                1.533333
+              ]
+            }
+          ],
+          "hitCount": 1,
+          "confirmedTotalMultiplier": {
+            "min": 100,
+            "max": 100
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [],
+        "confirmedTotalMultiplier": {
+          "min": 100,
+          "max": 100
+        },
+        "hitCount": 1,
+        "playerResult": "向前方目标发射水弹，命中1次，造成100%魔法伤害。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 10
+      },
+      {
+        "id": "lupalu-60214-sp",
+        "category": "sp",
+        "title": "SP技能：强力水弹",
+        "displayNameKind": "说明名",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "SP",
+          "summary": "SP蓄满后释放",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [
+            200
+          ],
+          "spRecoveryValues": [
+            8
+          ],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "蓄力后单次远程魔法攻击",
+            "actionSequence": [
+              {
+                "action": "短暂蓄力后发射强力水弹",
+                "spineAnimation": "Skill1_1_Naive",
+                "eventTimes": [
+                  1.2
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 700,
+                "multiplierMax": 700,
+                "hitCount": 1,
+                "subtotalMin": 700,
+                "subtotalMax": 700,
+                "eventTimes": [
+                  1.2
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 700,
+              "max": 700
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "6021402"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "lupalu-60214-sp",
+            "label": "强力水弹",
+            "eventMarkers": [
+              {
+                "timeSeconds": 1.2,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 0.2,
+                "type": "effect",
+                "label": "蓄力特效"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill1_1_Naive"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "700% × 1＝700%",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 700,
+              "multiplierMax": 700,
+              "hitCount": 1,
+              "subtotalMin": 700,
+              "subtotalMax": 700,
+              "eventTimes": [
+                1.2
+              ]
+            }
+          ],
+          "hitCount": 1,
+          "confirmedTotalMultiplier": {
+            "min": 700,
+            "max": 700
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [],
+        "confirmedTotalMultiplier": {
+          "min": 700,
+          "max": 700
+        },
+        "hitCount": 1,
+        "playerResult": "短暂蓄力后发射强力水弹，命中1次，造成700%魔法伤害；蓄力特效不另算伤害。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 30
+      }
+    ],
+    "mechanisms": [],
+    "units": [],
+    "playerAdvice": [
+      "SP在蓄力后只结算1次700%伤害；起手特效不是额外命中。"
+    ],
+    "unresolved": [],
+    "presentationRules": {
+      "rawEntryCount": 2,
+      "playerAttackGroupCount": 2,
+      "playerMechanismCount": 0,
+      "rawSkillEntriesRendered": false,
+      "internalUidsVisibleToPlayer": false
+    },
+    "runtimeReferences": {},
+    "skillOrder": [
+      {
+        "type": "attack",
+        "id": "lupalu-60214-normal",
+        "category": "normal"
+      },
+      {
+        "type": "attack",
+        "id": "lupalu-60214-sp",
+        "category": "sp"
+      }
+    ]
+  },
+  "runtimeReferences": {},
+  "encounterOrder": 39,
+  "directoryAppearances": [
+    {
+      "configurationId": "8",
+      "configurationLabel": "官方配置 #8",
+      "configurationOrder": 8,
+      "soloRaidInfoUid": 8,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050040",
+      "stageOrder": 4,
+      "stageName": "순수한 차원: 제 4구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "8",
+      "configurationLabel": "官方配置 #8",
+      "configurationOrder": 8,
+      "soloRaidInfoUid": 8,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050160",
+      "stageOrder": 16,
+      "stageName": "순수한 차원: 제 16구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "10",
+      "configurationLabel": "官方配置 #10",
+      "configurationOrder": 10,
+      "soloRaidInfoUid": 10,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050040",
+      "stageOrder": 4,
+      "stageName": "순수한 차원: 제 4구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "10",
+      "configurationLabel": "官方配置 #10",
+      "configurationOrder": 10,
+      "soloRaidInfoUid": 10,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050160",
+      "stageOrder": 16,
+      "stageName": "순수한 차원: 제 16구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "11",
+      "configurationLabel": "官方配置 #11",
+      "configurationOrder": 11,
+      "soloRaidInfoUid": 11,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050040",
+      "stageOrder": 4,
+      "stageName": "순수한 차원: 제 4구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "11",
+      "configurationLabel": "官方配置 #11",
+      "configurationOrder": 11,
+      "soloRaidInfoUid": 11,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050160",
+      "stageOrder": 16,
+      "stageName": "순수한 차원: 제 16구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "17",
+      "configurationLabel": "官方配置 #17",
+      "configurationOrder": 17,
+      "soloRaidInfoUid": 17,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050040",
+      "stageOrder": 4,
+      "stageName": "순수한 차원: 제 4구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "17",
+      "configurationLabel": "官方配置 #17",
+      "configurationOrder": 17,
+      "soloRaidInfoUid": 17,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050160",
+      "stageOrder": 16,
+      "stageName": "순수한 차원: 제 16구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "20",
+      "configurationLabel": "官方配置 #20",
+      "configurationOrder": 20,
+      "soloRaidInfoUid": 20,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050040",
+      "stageOrder": 4,
+      "stageName": "순수한 차원: 제 4구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "20",
+      "configurationLabel": "官方配置 #20",
+      "configurationOrder": 20,
+      "soloRaidInfoUid": 20,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050160",
+      "stageOrder": 16,
+      "stageName": "순수한 차원: 제 16구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "27",
+      "configurationLabel": "官方配置 #27",
+      "configurationOrder": 27,
+      "soloRaidInfoUid": 27,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050040",
+      "stageOrder": 4,
+      "stageName": "순수한 차원: 제 4구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "27",
+      "configurationLabel": "官方配置 #27",
+      "configurationOrder": 27,
+      "soloRaidInfoUid": 27,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050160",
+      "stageOrder": 16,
+      "stageName": "순수한 차원: 제 16구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "30",
+      "configurationLabel": "官方配置 #30",
+      "configurationOrder": 30,
+      "soloRaidInfoUid": 30,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050040",
+      "stageOrder": 4,
+      "stageName": "순수한 차원: 제 4구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "30",
+      "configurationLabel": "官方配置 #30",
+      "configurationOrder": 30,
+      "soloRaidInfoUid": 30,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050160",
+      "stageOrder": 16,
+      "stageName": "순수한 차원: 제 16구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "34",
+      "configurationLabel": "官方配置 #34",
+      "configurationOrder": 34,
+      "soloRaidInfoUid": 34,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050040",
+      "stageOrder": 4,
+      "stageName": "순수한 차원: 제 4구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "34",
+      "configurationLabel": "官方配置 #34",
+      "configurationOrder": 34,
+      "soloRaidInfoUid": 34,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050160",
+      "stageOrder": 16,
+      "stageName": "순수한 차원: 제 16구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "39",
+      "configurationLabel": "官方配置 #39",
+      "configurationOrder": 39,
+      "soloRaidInfoUid": 39,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050040",
+      "stageOrder": 4,
+      "stageName": "순수한 차원: 제 4구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "39",
+      "configurationLabel": "官方配置 #39",
+      "configurationOrder": 39,
+      "soloRaidInfoUid": 39,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050160",
+      "stageOrder": 16,
+      "stageName": "순수한 차원: 제 16구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "42",
+      "configurationLabel": "官方配置 #42",
+      "configurationOrder": 42,
+      "soloRaidInfoUid": 42,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050040",
+      "stageOrder": 4,
+      "stageName": "순수한 차원: 제 4구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "42",
+      "configurationLabel": "官方配置 #42",
+      "configurationOrder": 42,
+      "soloRaidInfoUid": 42,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050160",
+      "stageOrder": 16,
+      "stageName": "순수한 차원: 제 16구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "55",
+      "configurationLabel": "官方配置 #55",
+      "configurationOrder": 55,
+      "soloRaidInfoUid": 55,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050040",
+      "stageOrder": 4,
+      "stageName": "순수한 차원: 제 4구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "55",
+      "configurationLabel": "官方配置 #55",
+      "configurationOrder": 55,
+      "soloRaidInfoUid": 55,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 805,
+      "stageUid": "8050160",
+      "stageOrder": 16,
+      "stageName": "순수한 차원: 제 16구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "59",
+      "configurationLabel": "官方配置 #59",
+      "configurationOrder": 59,
+      "soloRaidInfoUid": 59,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 825,
+      "stageUid": "8250040",
+      "stageOrder": 4,
+      "stageName": "순수한 차원: 제 4구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "59",
+      "configurationLabel": "官方配置 #59",
+      "configurationOrder": 59,
+      "soloRaidInfoUid": 59,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 825,
+      "stageUid": "8250160",
+      "stageOrder": 16,
+      "stageName": "순수한 차원: 제 16구역",
+      "hpBarCount": null
+    }
+  ]
+}

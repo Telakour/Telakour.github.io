@@ -1,0 +1,784 @@
+{
+  "schemaVersion": 3,
+  "server": "kr",
+  "dataVersion": "2026-08-27",
+  "routeKey": "kr:dimensional-clash-2:161194",
+  "mode": "次元大冲突2.0",
+  "modeKey": "dimensional-clash-2",
+  "monsterUid": "161194",
+  "bossName": "동석 - 활발",
+  "personality": "활발",
+  "attackType": "物理/魔法",
+  "spineKey": "Golem",
+  "spineSkinName": "Skin_Jolly",
+  "iconUrl": "/boss-wiki/kr/2026-08-27/icons/dimensional-clash-2/161194.png",
+  "difficultyCodes": [
+    0
+  ],
+  "stages": [
+    {
+      "rowKey": "dimensional-clash-2:42:42080020:161194:0",
+      "monsterUid": "161194",
+      "bossName": "동석 - 활발",
+      "personality": "활발",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 2,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "활발한 차원: 제 2구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 2,
+      "等级": "Lv.81",
+      "数值口径": "最终阶段属性",
+      "HP": 485679.0792,
+      "物理攻击": 749,
+      "魔法攻击": 749,
+      "物理防御": 3170,
+      "魔法防御": 1169,
+      "暴击": 1169,
+      "暴击伤害": 1169,
+      "暴击抵抗": 1169,
+      "暴伤抵抗": 1169,
+      "SP上限": 200,
+      "SP恢复": 16,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP -74.16% · 最终物理伤害 +52.17% · 最终魔法伤害 +52.17%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42080020"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42080050:161194:0",
+      "monsterUid": "161194",
+      "bossName": "동석 - 활발",
+      "personality": "활발",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "활발한 차원: 제 5구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 5,
+      "等级": "Lv.175",
+      "数值口径": "最终阶段属性",
+      "HP": 2282320.6131,
+      "物理攻击": 2172.39,
+      "魔法攻击": 2172.39,
+      "物理防御": 6742,
+      "魔法防御": 2485,
+      "暴击": 2485,
+      "暴击伤害": 2485,
+      "暴击抵抗": 2485,
+      "暴伤抵抗": 2485,
+      "SP上限": 200,
+      "SP恢复": 16,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP -42.91% · 物攻 +36.2% · 魔攻 +36.2% · 最终物理伤害 +58.68% · 最终魔法伤害 +58.68%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42080050"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42080080:161194:0",
+      "monsterUid": "161194",
+      "bossName": "동석 - 활발",
+      "personality": "활발",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 8,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "활발한 차원: 제 8구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 8,
+      "等级": "Lv.456",
+      "数值口径": "最终阶段属性",
+      "HP": 26160251.4225,
+      "物理攻击": 14442.248,
+      "魔法攻击": 14442.248,
+      "物理防御": 17420,
+      "魔法防御": 6419,
+      "暴击": 6419,
+      "暴击伤害": 6419,
+      "暴击抵抗": 6419,
+      "暴伤抵抗": 6419,
+      "SP上限": 200,
+      "SP恢复": 16,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +153.25% · 物攻 +250.2% · 魔攻 +250.2% · 最终物理伤害 +65.19% · 最终魔法伤害 +65.19%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42080080"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42080110:161194:0",
+      "monsterUid": "161194",
+      "bossName": "동석 - 활발",
+      "personality": "활발",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 11,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "활발한 차원: 제 11구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 11,
+      "等级": "Lv.831",
+      "数值口径": "最终阶段属性",
+      "HP": 111824007.1272,
+      "物理攻击": 48923.476,
+      "魔法攻击": 48923.476,
+      "物理防御": 31670,
+      "魔法防御": 11669,
+      "暴击": 11669,
+      "暴击伤害": 11669,
+      "暴击抵抗": 11669,
+      "暴伤抵抗": 11669,
+      "SP上限": 200,
+      "SP恢复": 16,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +495.44% · 物攻 +552.4% · 魔攻 +552.4% · 最终物理伤害 +71.7% · 最终魔法伤害 +71.7%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42080110"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42080140:161194:0",
+      "monsterUid": "161194",
+      "bossName": "동석 - 활발",
+      "personality": "활발",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 14,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "활발한 차원: 제 14구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 14,
+      "等级": "Lv.1956",
+      "数值口径": "最终阶段属性",
+      "HP": 1200847965.6243,
+      "物理攻击": 416719.48,
+      "魔法攻击": 416719.48,
+      "物理防御": 74420,
+      "魔法防御": 27419,
+      "暴击": 27419,
+      "暴击伤害": 27419,
+      "暴击抵抗": 27419,
+      "暴伤抵抗": 27419,
+      "SP上限": 200,
+      "SP恢复": 16,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +2621.11% · 物攻 +2264.5% · 魔攻 +2264.5% · 最终物理伤害 +78.21% · 最终魔法伤害 +78.21%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42080140"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42080170:161194:0",
+      "monsterUid": "161194",
+      "bossName": "동석 - 활발",
+      "personality": "활발",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 17,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "활발한 차원: 제 17구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 17,
+      "等级": "Lv.3456",
+      "数值口径": "最终阶段属性",
+      "HP": 5237485424.478,
+      "物理攻击": 1488256.308,
+      "魔法攻击": 1488256.308,
+      "物理防御": 131420,
+      "魔法防御": 48419,
+      "暴击": 48419,
+      "暴击伤害": 48419,
+      "暴击抵抗": 48419,
+      "暴伤抵抗": 48419,
+      "SP上限": 200,
+      "SP恢复": 16,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +6620.6% · 物攻 +4681.7% · 魔攻 +4681.7% · 最终物理伤害 +84.72% · 最终魔法伤害 +84.72%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42080170"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42080200:161194:0",
+      "monsterUid": "161194",
+      "bossName": "동석 - 활발",
+      "personality": "활발",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 20,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "활발한 차원: 제 20구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 20,
+      "等级": "Lv.6056",
+      "数值口径": "最终阶段属性",
+      "HP": 21776189003.3957,
+      "物理攻击": 4891620.66,
+      "魔法攻击": 4891620.66,
+      "物理防御": 230220,
+      "魔法防御": 84819,
+      "暴击": 84819,
+      "暴击伤害": 84819,
+      "暴击抵抗": 84819,
+      "暴伤抵抗": 84819,
+      "SP上限": 200,
+      "SP恢复": 16,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +15850.89% · 物攻 +8871.5% · 魔攻 +8871.5% · 最终物理伤害 +91.23% · 最终魔法伤害 +91.23%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42080200"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42080230:161194:0",
+      "monsterUid": "161194",
+      "bossName": "동석 - 활발",
+      "personality": "활발",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 23,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "활발한 차원: 제 23구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 23,
+      "等级": "Lv.9206",
+      "数值口径": "最终阶段属性",
+      "HP": 69944506161.8766,
+      "物理攻击": 11641890.898,
+      "魔法攻击": 11641890.898,
+      "物理防御": 349920,
+      "魔法防御": 128919,
+      "暴击": 128919,
+      "暴击伤害": 128919,
+      "暴击抵抗": 128919,
+      "暴伤抵抗": 128919,
+      "SP上限": 200,
+      "SP恢复": 16,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +33607.82% · 物攻 +13947.7% · 魔攻 +13947.7% · 最终物理伤害 +97.74% · 最终魔法伤害 +97.74%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42080230"
+      }
+    }
+  ],
+  "skills": [],
+  "guideSkills": [
+    {
+      "id": "16119401",
+      "sourceOrder": 0,
+      "displayName": "일반공격",
+      "presentationLabel": null,
+      "nameKind": "官方技能名",
+      "skillType": "普通攻击",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          10
+        ]
+      },
+      "range": null,
+      "verdict": "segment-only",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "造成伤害",
+          "spineAnimation": "Attack1_1_Jolly",
+          "relation": "执行关系待确认",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.8
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Attack1"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Kommy_Trace_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Velvet_Stomp_1"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "额外骨骼",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "额外特效",
+              "resource": "FX_Common_Hit_2_M"
+            },
+            {
+              "kind": "命中轴",
+              "resource": "Z"
+            },
+            {
+              "kind": "命中角度",
+              "resource": "40"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        },
+        {
+          "order": null,
+          "action": "造成伤害",
+          "spineAnimation": "Skill1_1_Jolly",
+          "relation": "执行关系待确认",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.666667
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Attack1"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Kommy_Trace_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Velvet_Stomp_1"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "额外骨骼",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "额外特效",
+              "resource": "FX_Common_Hit_2_M"
+            },
+            {
+              "kind": "命中轴",
+              "resource": "Z"
+            },
+            {
+              "kind": "命中角度",
+              "resource": "40"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Gabia_Personal_1_End"
+            },
+            {
+              "kind": "额外骨骼",
+              "resource": "Point_Attack1"
+            },
+            {
+              "kind": "额外特效",
+              "resource": "FX_Beni_Stomp_1"
+            },
+            {
+              "kind": "额外轴",
+              "resource": "Z"
+            },
+            {
+              "kind": "额外角度",
+              "resource": "-90"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "普通攻击动作",
+          "spineAnimation": "Attack1_1_Jolly",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.8
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 100,
+          "confirmedSegmentTotalMax": 100,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Attack1"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_Kommy_Trace_1"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Velvet_Stomp_1"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            },
+            {
+              "field": "额外骨骼",
+              "value": "Point_Middle"
+            },
+            {
+              "field": "额外特效",
+              "value": "FX_Common_Hit_2_M"
+            },
+            {
+              "field": "命中轴",
+              "value": "Z"
+            },
+            {
+              "field": "命中角度",
+              "value": "40"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "动作内倍率和次数可确认；完整动作集合或运行入口尚未唯一闭合。",
+      "evidenceStatus": "官方单段倍率与动作内次数已确认；完整动作关系未闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "16119402",
+      "sourceOrder": 1,
+      "displayName": "1次伤害结算并物理伤害承受降低（Skill1_1_Jolly）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          10
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 100,
+        "max": 100,
+        "displayMin": 100,
+        "displayMax": 100,
+        "hitCount": 1,
+        "formula": "Skill1_1_Jolly 100%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "物理伤害承受降低；造成伤害",
+          "spineAnimation": "Skill1_1_Jolly",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.666667
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Attack1"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Kommy_Trace_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Velvet_Stomp_1"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "额外骨骼",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "额外特效",
+              "resource": "FX_Common_Hit_2_M"
+            },
+            {
+              "kind": "命中轴",
+              "resource": "Z"
+            },
+            {
+              "kind": "命中角度",
+              "resource": "40"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Gabia_Personal_1_End"
+            },
+            {
+              "kind": "额外骨骼",
+              "resource": "Point_Attack1"
+            },
+            {
+              "kind": "额外特效",
+              "resource": "FX_Beni_Stomp_1"
+            },
+            {
+              "kind": "额外轴",
+              "resource": "Z"
+            },
+            {
+              "kind": "额外角度",
+              "resource": "-90"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "技能动作 1",
+          "spineAnimation": "Skill1_1_Jolly",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.666667
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 100,
+          "confirmedSegmentTotalMax": 100,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Attack1"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_Kommy_Trace_1"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Velvet_Stomp_1"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            },
+            {
+              "field": "额外骨骼",
+              "value": "Point_Middle"
+            },
+            {
+              "field": "额外特效",
+              "value": "FX_Common_Hit_2_M"
+            },
+            {
+              "field": "命中轴",
+              "value": "Z"
+            },
+            {
+              "field": "命中角度",
+              "value": "40"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_Gabia_Personal_1_End"
+            },
+            {
+              "field": "额外骨骼",
+              "value": "Point_Attack1"
+            },
+            {
+              "field": "额外特效",
+              "value": "FX_Beni_Stomp_1"
+            },
+            {
+              "field": "额外轴",
+              "value": "Z"
+            },
+            {
+              "field": "额外角度",
+              "value": "-90"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [
+          {
+            "nameKo": null,
+            "fallbackLabel": "物理伤害承受降低",
+            "descriptionKo": null,
+            "relation": null,
+            "relationDepth": null,
+            "category": "buff",
+            "uid": null,
+            "nameKey": null,
+            "iconUrl": null,
+            "catalogMatch": "not-found",
+            "probabilityPercent": null,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": true,
+            "classificationEvidence": null
+          }
+        ],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "降低受到的物理伤害",
+          "note": "降低受到的物理伤害；数值按官方参数保留。",
+          "action": "降低受到的物理伤害"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "SP动作依次执行起手、循环和收尾；只有起手造成100%伤害1次，循环与收尾没有伤害事件。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    }
+  ],
+  "internalComponents": [],
+  "spineResources": [
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack1_1_Jolly",
+      "直接连接的技能效果": "16119401",
+      "触发时间": "0.8s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_1_Jolly",
+      "直接连接的技能效果": "16119401, 16119402",
+      "触发时间": "0.666667s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    }
+  ],
+  "guideReference": null,
+  "runtimeReferences": {}
+}

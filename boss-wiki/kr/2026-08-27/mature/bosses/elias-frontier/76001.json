@@ -1,0 +1,4003 @@
+{
+  "schemaVersion": 8,
+  "server": "kr",
+  "dataDate": "2026-08-27",
+  "routeKey": "kr:elias-frontier:76001",
+  "mode": "艾利亚斯边境",
+  "modeCode": 15,
+  "modeKey": "elias-frontier",
+  "identity": {
+    "uid": "76001",
+    "name": "붉은 속박의 우로스",
+    "displayName": null,
+    "displayNameKind": null,
+    "role": "boss",
+    "context": "Boss索引对象",
+    "spine": "ExE0_Uros",
+    "personalityCode": -1,
+    "personality": "无",
+    "attackTypeCode": 2,
+    "attackType": "魔法",
+    "iconKey": "Icon_ExE0_UrosNone",
+    "spineSkinName": null,
+    "spineDefaultAnimation": null,
+    "spineActionSuffix": null,
+    "officialTable": "MonsterInfo",
+    "lifecycle": null,
+    "runtimeReferences": {},
+    "iconUrl": "/boss-wiki/kr/2026-08-27/mature/icons/elias-frontier/76001.png",
+    "iconSourceType": "MonsterInfo.Icon官方PNG"
+  },
+  "runtimeMonsterUids": [
+    "76001"
+  ],
+  "bossName": "붉은 속박의 우로스",
+  "familyKey": "uros",
+  "familyOrder": 999999,
+  "variantOrder": 1,
+  "firstFormalAppearance": {
+    "worldInfoUid": 1531,
+    "stageOrder": 13,
+    "stageUid": "15310134"
+  },
+  "stageRecords": [
+    {
+      "stageUid": "15310134",
+      "name": "[마그맛1] 침식되는 시공간",
+      "world": "SoloEnd_Boss",
+      "worldInfoUid": 1531,
+      "stageOrder": 13,
+      "difficulty": 4,
+      "battleTimeSeconds": 240,
+      "stageStructure": "six-hp-bars",
+      "hpBarCount": 6,
+      "hpBars": [
+        {
+          "hpBar": 1,
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": null,
+          "growthTimes": 7050,
+          "attributes": {
+            "hp": 15436161886,
+            "sp": 800,
+            "recoverySp": 160,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 567798,
+            "physicalDefense": 282137,
+            "magicDefense": 204548,
+            "criticalRate": 98749,
+            "criticalMultiplier": 98749,
+            "criticalResist": 98749,
+            "criticalMultiplierResist": 98749,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 200
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 1000000,
+              "percent": 10000
+            },
+            "AttackPhysicPercent": {
+              "raw": 25000,
+              "percent": 250
+            },
+            "AttackMagicPercent": {
+              "raw": 25000,
+              "percent": 250
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 82500,
+              "percent": 825
+            },
+            "EndDamageMagicPercent": {
+              "raw": 82500,
+              "percent": 825
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": -9000,
+              "percent": -90
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": -9000,
+              "percent": -90
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        },
+        {
+          "hpBar": 2,
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": null,
+          "growthTimes": 7800,
+          "attributes": {
+            "hp": 17077512886,
+            "sp": 800,
+            "recoverySp": 160,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 628173,
+            "physicalDefense": 312137,
+            "magicDefense": 226298,
+            "criticalRate": 109249,
+            "criticalMultiplier": 109249,
+            "criticalResist": 109249,
+            "criticalMultiplierResist": 109249,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 200
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 1000000,
+              "percent": 10000
+            },
+            "AttackPhysicPercent": {
+              "raw": 25000,
+              "percent": 250
+            },
+            "AttackMagicPercent": {
+              "raw": 25000,
+              "percent": 250
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 82500,
+              "percent": 825
+            },
+            "EndDamageMagicPercent": {
+              "raw": 82500,
+              "percent": 825
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": -9000,
+              "percent": -90
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": -9000,
+              "percent": -90
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        },
+        {
+          "hpBar": 3,
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": null,
+          "growthTimes": 8550,
+          "attributes": {
+            "hp": 18718863886,
+            "sp": 800,
+            "recoverySp": 160,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 688548,
+            "physicalDefense": 342137,
+            "magicDefense": 248048,
+            "criticalRate": 119749,
+            "criticalMultiplier": 119749,
+            "criticalResist": 119749,
+            "criticalMultiplierResist": 119749,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 200
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 1000000,
+              "percent": 10000
+            },
+            "AttackPhysicPercent": {
+              "raw": 25000,
+              "percent": 250
+            },
+            "AttackMagicPercent": {
+              "raw": 25000,
+              "percent": 250
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 82500,
+              "percent": 825
+            },
+            "EndDamageMagicPercent": {
+              "raw": 82500,
+              "percent": 825
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": -9000,
+              "percent": -90
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": -9000,
+              "percent": -90
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        },
+        {
+          "hpBar": 4,
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": null,
+          "growthTimes": 9300,
+          "attributes": {
+            "hp": 20360214886,
+            "sp": 800,
+            "recoverySp": 160,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 748923,
+            "physicalDefense": 372137,
+            "magicDefense": 269798,
+            "criticalRate": 130249,
+            "criticalMultiplier": 130249,
+            "criticalResist": 130249,
+            "criticalMultiplierResist": 130249,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 200
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 1000000,
+              "percent": 10000
+            },
+            "AttackPhysicPercent": {
+              "raw": 25000,
+              "percent": 250
+            },
+            "AttackMagicPercent": {
+              "raw": 25000,
+              "percent": 250
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 82500,
+              "percent": 825
+            },
+            "EndDamageMagicPercent": {
+              "raw": 82500,
+              "percent": 825
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": -9000,
+              "percent": -90
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": -9000,
+              "percent": -90
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        },
+        {
+          "hpBar": 5,
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": null,
+          "growthTimes": 10050,
+          "attributes": {
+            "hp": 22001565886,
+            "sp": 800,
+            "recoverySp": 160,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 809298,
+            "physicalDefense": 402137,
+            "magicDefense": 291548,
+            "criticalRate": 140749,
+            "criticalMultiplier": 140749,
+            "criticalResist": 140749,
+            "criticalMultiplierResist": 140749,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 200
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 1000000,
+              "percent": 10000
+            },
+            "AttackPhysicPercent": {
+              "raw": 25000,
+              "percent": 250
+            },
+            "AttackMagicPercent": {
+              "raw": 25000,
+              "percent": 250
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 82500,
+              "percent": 825
+            },
+            "EndDamageMagicPercent": {
+              "raw": 82500,
+              "percent": 825
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": -9000,
+              "percent": -90
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": -9000,
+              "percent": -90
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        },
+        {
+          "hpBar": 6,
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": null,
+          "growthTimes": 10800,
+          "attributes": {
+            "hp": 23642916886,
+            "sp": 800,
+            "recoverySp": 160,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 869673,
+            "physicalDefense": 432137,
+            "magicDefense": 313298,
+            "criticalRate": 151249,
+            "criticalMultiplier": 151249,
+            "criticalResist": 151249,
+            "criticalMultiplierResist": 151249,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 200
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 1000000,
+              "percent": 10000
+            },
+            "AttackPhysicPercent": {
+              "raw": 25000,
+              "percent": 250
+            },
+            "AttackMagicPercent": {
+              "raw": 25000,
+              "percent": 250
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 82500,
+              "percent": 825
+            },
+            "EndDamageMagicPercent": {
+              "raw": 82500,
+              "percent": 825
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": -9000,
+              "percent": -90
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": -9000,
+              "percent": -90
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "15310144",
+      "name": "[마그맛2] 부식중인 시공간",
+      "world": "SoloEnd_Boss",
+      "worldInfoUid": 1531,
+      "stageOrder": 14,
+      "difficulty": 4,
+      "battleTimeSeconds": 240,
+      "stageStructure": "six-hp-bars",
+      "hpBarCount": 6,
+      "hpBars": [
+        {
+          "hpBar": 1,
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": null,
+          "growthTimes": 9300,
+          "attributes": {
+            "hp": 26407803466,
+            "sp": 800,
+            "recoverySp": 160,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 802417.5,
+            "physicalDefense": 372137,
+            "magicDefense": 269798,
+            "criticalRate": 130249,
+            "criticalMultiplier": 130249,
+            "criticalResist": 130249,
+            "criticalMultiplierResist": 130249,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 200
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 1300000,
+              "percent": 13000
+            },
+            "AttackPhysicPercent": {
+              "raw": 27500,
+              "percent": 275
+            },
+            "AttackMagicPercent": {
+              "raw": 27500,
+              "percent": 275
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 105000,
+              "percent": 1050
+            },
+            "EndDamageMagicPercent": {
+              "raw": 105000,
+              "percent": 1050
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": -9250,
+              "percent": -92.5
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": -9250,
+              "percent": -92.5
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        },
+        {
+          "hpBar": 2,
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": null,
+          "growthTimes": 10250,
+          "attributes": {
+            "hp": 29104386066,
+            "sp": 800,
+            "recoverySp": 160,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 884355,
+            "physicalDefense": 410137,
+            "magicDefense": 297348,
+            "criticalRate": 143549,
+            "criticalMultiplier": 143549,
+            "criticalResist": 143549,
+            "criticalMultiplierResist": 143549,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 200
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 1300000,
+              "percent": 13000
+            },
+            "AttackPhysicPercent": {
+              "raw": 27500,
+              "percent": 275
+            },
+            "AttackMagicPercent": {
+              "raw": 27500,
+              "percent": 275
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 105000,
+              "percent": 1050
+            },
+            "EndDamageMagicPercent": {
+              "raw": 105000,
+              "percent": 1050
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": -9250,
+              "percent": -92.5
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": -9250,
+              "percent": -92.5
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        },
+        {
+          "hpBar": 3,
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": null,
+          "growthTimes": 11200,
+          "attributes": {
+            "hp": 31800968666,
+            "sp": 800,
+            "recoverySp": 160,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 966292.5,
+            "physicalDefense": 448137,
+            "magicDefense": 324898,
+            "criticalRate": 156849,
+            "criticalMultiplier": 156849,
+            "criticalResist": 156849,
+            "criticalMultiplierResist": 156849,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 200
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 1300000,
+              "percent": 13000
+            },
+            "AttackPhysicPercent": {
+              "raw": 27500,
+              "percent": 275
+            },
+            "AttackMagicPercent": {
+              "raw": 27500,
+              "percent": 275
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 105000,
+              "percent": 1050
+            },
+            "EndDamageMagicPercent": {
+              "raw": 105000,
+              "percent": 1050
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": -9250,
+              "percent": -92.5
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": -9250,
+              "percent": -92.5
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        },
+        {
+          "hpBar": 4,
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": null,
+          "growthTimes": 12150,
+          "attributes": {
+            "hp": 34497551266,
+            "sp": 800,
+            "recoverySp": 160,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 1048230,
+            "physicalDefense": 486137,
+            "magicDefense": 352448,
+            "criticalRate": 170149,
+            "criticalMultiplier": 170149,
+            "criticalResist": 170149,
+            "criticalMultiplierResist": 170149,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 200
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 1300000,
+              "percent": 13000
+            },
+            "AttackPhysicPercent": {
+              "raw": 27500,
+              "percent": 275
+            },
+            "AttackMagicPercent": {
+              "raw": 27500,
+              "percent": 275
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 105000,
+              "percent": 1050
+            },
+            "EndDamageMagicPercent": {
+              "raw": 105000,
+              "percent": 1050
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": -9250,
+              "percent": -92.5
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": -9250,
+              "percent": -92.5
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        },
+        {
+          "hpBar": 5,
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": null,
+          "growthTimes": 13100,
+          "attributes": {
+            "hp": 37194133866,
+            "sp": 800,
+            "recoverySp": 160,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 1130167.5,
+            "physicalDefense": 524137,
+            "magicDefense": 379998,
+            "criticalRate": 183449,
+            "criticalMultiplier": 183449,
+            "criticalResist": 183449,
+            "criticalMultiplierResist": 183449,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 200
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 1300000,
+              "percent": 13000
+            },
+            "AttackPhysicPercent": {
+              "raw": 27500,
+              "percent": 275
+            },
+            "AttackMagicPercent": {
+              "raw": 27500,
+              "percent": 275
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 105000,
+              "percent": 1050
+            },
+            "EndDamageMagicPercent": {
+              "raw": 105000,
+              "percent": 1050
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": -9250,
+              "percent": -92.5
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": -9250,
+              "percent": -92.5
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        },
+        {
+          "hpBar": 6,
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": null,
+          "growthTimes": 14050,
+          "attributes": {
+            "hp": 39890716466,
+            "sp": 800,
+            "recoverySp": 160,
+            "healing": 0,
+            "physicalAttack": 0,
+            "magicAttack": 1212105,
+            "physicalDefense": 562137,
+            "magicDefense": 407548,
+            "criticalRate": 196749,
+            "criticalMultiplier": 196749,
+            "criticalResist": 196749,
+            "criticalMultiplierResist": 196749,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 200
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 1300000,
+              "percent": 13000
+            },
+            "AttackPhysicPercent": {
+              "raw": 27500,
+              "percent": 275
+            },
+            "AttackMagicPercent": {
+              "raw": 27500,
+              "percent": 275
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 105000,
+              "percent": 1050
+            },
+            "EndDamageMagicPercent": {
+              "raw": 105000,
+              "percent": 1050
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": -9250,
+              "percent": -92.5
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": -9250,
+              "percent": -92.5
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    }
+  ],
+  "stageRosters": [
+    {
+      "stageUid": "15310134",
+      "stage": "[마그맛1] 침식되는 시공간",
+      "battleTimeSeconds": 240,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "76001",
+              "name": "붉은 속박의 우로스",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "ExE0_Uros",
+              "personalityCode": -1,
+              "personality": "无",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ExE0_UrosNone",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "15310144",
+      "stage": "[마그맛2] 부식중인 시공간",
+      "battleTimeSeconds": 240,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "76001",
+              "name": "붉은 속박의 우로스",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "ExE0_Uros",
+              "personalityCode": -1,
+              "personality": "无",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_ExE0_UrosNone",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "encounterGuide": {
+    "status": "部分机制待确认",
+    "battleTimeLimitSeconds": [
+      240
+    ],
+    "battleTimeline": [
+      {
+        "atSeconds": null,
+        "condition": "进入常态或涅槃后准备18秒，此后在该形态内重复准备，每轮18秒；切换形态时重新计时。等待出招时暂停计时，当前形态决定动作。",
+        "repeatIntervalSeconds": null,
+        "phase": "按当前状态",
+        "event": "18秒震击",
+        "category": "time-trigger",
+        "targetType": "attack",
+        "targetId": "uros-time-18",
+        "timeOrigin": "form-registration",
+        "earliestAvailabilitySeconds": 18
+      },
+      {
+        "atSeconds": null,
+        "condition": "进入常态或涅槃后准备26秒，此后在该形态内重复准备，每轮26秒；切换形态时重新计时。等待出招时暂停计时，当前形态决定动作。",
+        "repeatIntervalSeconds": null,
+        "phase": "按当前状态",
+        "event": "26秒重击",
+        "category": "time-trigger",
+        "targetType": "attack",
+        "targetId": "uros-time-26",
+        "timeOrigin": "form-registration",
+        "earliestAvailabilitySeconds": 26
+      },
+      {
+        "atSeconds": null,
+        "condition": "进入涅槃后准备45秒，之后在涅槃期间重复准备，每轮45秒；切换形态时重新计时。等待出招时暂停计时，不是开战45秒必放。",
+        "repeatIntervalSeconds": null,
+        "phase": "涅槃",
+        "event": "45秒涅槃大招",
+        "category": "time-trigger",
+        "targetType": "attack",
+        "targetId": "uros-time-45",
+        "timeOrigin": "form-registration",
+        "earliestAvailabilitySeconds": 45
+      },
+      {
+        "atSeconds": null,
+        "condition": "开战后在常态准备50秒；返回常态时重新准备50秒，此后在常态期间重复。等待出招时暂停计时，切换涅槃后停用这招。",
+        "repeatIntervalSeconds": null,
+        "phase": "常态",
+        "event": "50秒常态特动",
+        "category": "time-trigger",
+        "targetType": "attack",
+        "targetId": "uros-time-50",
+        "timeOrigin": "form-registration",
+        "earliestAvailabilitySeconds": 50
+      },
+      {
+        "atSeconds": null,
+        "condition": "累计3层后替换本次普通攻击；当前状态决定动作版本",
+        "repeatIntervalSeconds": null,
+        "phase": "按当前状态",
+        "event": "强化攻击",
+        "category": "enhanced",
+        "targetType": "attack",
+        "targetId": "uros-enhanced",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      },
+      {
+        "atSeconds": null,
+        "condition": "常态充能满后进入涅槃；涅槃量表耗尽后准备退出，退出动作须等待尚未结束的位移处理完成。",
+        "repeatIntervalSeconds": null,
+        "phase": "满足对应条件时",
+        "event": "充能与涅槃切换",
+        "category": "boss-mechanic",
+        "targetType": "mechanism",
+        "targetId": "uros-gauge",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      },
+      {
+        "atSeconds": null,
+        "condition": "SP蓄满后释放；常态生成一组轰炸，涅槃生成两组。",
+        "repeatIntervalSeconds": null,
+        "phase": "按当前状态",
+        "event": "SP技能：圆形区域轰炸",
+        "category": "sp",
+        "targetType": "attack",
+        "targetId": "uros-sp",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      }
+    ],
+    "phases": [
+      {
+        "id": "normal-state",
+        "name": "常态",
+        "activationCondition": "开战默认使用常态动作组",
+        "attackIds": [
+          "uros-normal",
+          "uros-enhanced",
+          "uros-sp",
+          "uros-time-18",
+          "uros-time-26",
+          "uros-time-50"
+        ],
+        "evidenceStatus": "已核对"
+      },
+      {
+        "id": "nirvana-state",
+        "name": "涅槃",
+        "activationCondition": "常态量表充满后开始变身；正常变身动作约1.67秒涅槃状态生效，前2秒无敌。不是血量百分比或固定受击次数。",
+        "attackIds": [
+          "uros-normal",
+          "uros-enhanced",
+          "uros-sp",
+          "uros-time-18",
+          "uros-time-26",
+          "uros-time-45"
+        ],
+        "evidenceStatus": "部分待确认",
+        "deactivationCondition": "涅槃量表耗尽后准备退出；若尚有位移未结束，先等待其完成。退出动作开始时撤掉涅槃状态，同时获得技能易伤+200%。",
+        "runtimeReferences": {}
+      }
+    ],
+    "attacks": [
+      {
+        "id": "uros-normal",
+        "category": "normal",
+        "title": "普通攻击",
+        "phase": "按当前状态",
+        "trigger": {
+          "type": "无",
+          "summary": "按Boss普通攻击循环使用；当前状态决定动作版本",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "常态：两段挥击",
+            "phase": "常态",
+            "stateVariant": "常态",
+            "relation": "该状态下的完整动作",
+            "actionSequence": [
+              {
+                "action": "常态：两段挥击",
+                "spineAnimation": "Attack1_1",
+                "eventTimes": [
+                  0.7,
+                  1.366667
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 75,
+                "multiplierMax": 75,
+                "hitCount": 1,
+                "subtotalMin": 75,
+                "subtotalMax": 75,
+                "eventTimes": [
+                  0.7
+                ]
+              },
+              {
+                "kind": "direct",
+                "multiplierMin": 100,
+                "multiplierMax": 100,
+                "hitCount": 1,
+                "subtotalMin": 100,
+                "subtotalMax": 100,
+                "eventTimes": [
+                  1.366667
+                ]
+              }
+            ],
+            "hitCount": 2,
+            "confirmedTotalMultiplier": {
+              "min": 175,
+              "max": 175
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "7600101"
+          },
+          {
+            "label": "涅槃：两段重击",
+            "phase": "涅槃",
+            "stateVariant": "涅槃",
+            "relation": "该状态下的完整动作",
+            "actionSequence": [
+              {
+                "action": "涅槃：两段重击",
+                "spineAnimation": "Attack1_2",
+                "eventTimes": [
+                  1.266667,
+                  2.466667
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 200,
+                "multiplierMax": 200,
+                "hitCount": 1,
+                "subtotalMin": 200,
+                "subtotalMax": 200,
+                "eventTimes": [
+                  1.266667
+                ]
+              },
+              {
+                "kind": "direct",
+                "multiplierMin": 300,
+                "multiplierMax": 300,
+                "hitCount": 1,
+                "subtotalMin": 300,
+                "subtotalMax": 300,
+                "eventTimes": [
+                  2.466667
+                ]
+              }
+            ],
+            "hitCount": 2,
+            "confirmedTotalMultiplier": {
+              "min": 500,
+              "max": 500
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "7600102"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "uros-normal-default",
+            "label": "常态普通攻击",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0.7,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 1.366667,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Attack1_1"
+              ]
+            }
+          },
+          {
+            "id": "uros-normal-nirvana",
+            "label": "涅槃普通攻击",
+            "eventMarkers": [
+              {
+                "timeSeconds": 1.266667,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 2.466667,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Attack1_2"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "常态：75%＋100%＝175%（2次）；涅槃：200%＋300%＝500%（2次）",
+          "perHit": [],
+          "hitCount": null,
+          "confirmedTotalMultiplier": null,
+          "scope": "each-state-version",
+          "branchRule": "只使用Boss当前状态对应的一种动作，两种状态不能相加。"
+        },
+        "confirmedTotalMultiplier": null,
+        "hitCount": null,
+        "effects": [],
+        "playerResult": "常态连续命中两次、总计175%；涅槃连续命中两次、总计500%。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 0
+      },
+      {
+        "id": "uros-enhanced",
+        "category": "enhanced",
+        "title": "强化攻击",
+        "phase": "按当前状态",
+        "trigger": {
+          "type": "堆叠",
+          "summary": "累计3层后替换本次普通攻击；当前状态决定动作版本",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": 3,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "常态：最多3名目标，各450%一次",
+            "phase": "常态",
+            "stateVariant": "常态",
+            "relation": "每轮追击一名尚未选过的目标，不波及旁观者",
+            "actionSequence": [
+              {
+                "action": "启动最多三轮追击，每轮选择不同目标",
+                "spineAnimation": "Attack2_1",
+                "eventTimes": [
+                  1.433333396911621
+                ],
+                "repeatCount": null
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 450,
+                "multiplierMax": 450,
+                "hitCount": 1,
+                "subtotalMin": 450,
+                "subtotalMax": 450,
+                "eventTimes": [],
+                "scope": "每名本次选中且结算时有效的目标"
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 450,
+              "max": 450
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "7600103",
+            "targetSelection": {
+              "maxRounds": 3,
+              "reselectProcessedTarget": false,
+              "requiresEligibleTarget": true,
+              "configuredInitialWaitSeconds": 0,
+              "configuredRepeatWaitSeconds": 0.10000000149011612,
+              "actualFixedHitCount": null,
+              "hitCountPerSelectedValidTarget": 1,
+              "hitScope": "selected-target-only",
+              "bystanderOverlapDamage": false
+            },
+            "runtimeReferences": {}
+          },
+          {
+            "label": "涅槃：重击",
+            "phase": "涅槃",
+            "stateVariant": "涅槃",
+            "relation": "该状态下的完整动作",
+            "actionSequence": [
+              {
+                "action": "涅槃：重击",
+                "spineAnimation": "Attack2_2",
+                "eventTimes": [
+                  1.433333
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 900,
+                "multiplierMax": 900,
+                "hitCount": 1,
+                "subtotalMin": 900,
+                "subtotalMax": 900,
+                "eventTimes": [
+                  1.433333
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 900,
+              "max": 900
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "7600104"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "uros-enhanced-default",
+            "label": "常态强化攻击",
+            "eventMarkers": [
+              {
+                "timeSeconds": 1.433333,
+                "type": "effect",
+                "label": "启动最多三轮追击"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Attack2_1"
+              ]
+            }
+          },
+          {
+            "id": "uros-enhanced-nirvana",
+            "label": "涅槃强化攻击",
+            "eventMarkers": [
+              {
+                "timeSeconds": 1.433333,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Attack2_2"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "常态：最多3名目标，各450%一次；涅槃：900%一次",
+          "perHit": [],
+          "hitCount": null,
+          "confirmedTotalMultiplier": null,
+          "scope": "each-state-version",
+          "branchRule": "常态各追击不同目标，不波及旁观者；两种形态不相加。"
+        },
+        "confirmedTotalMultiplier": null,
+        "hitCount": null,
+        "effects": [],
+        "playerResult": "常态最多追击3名不同目标，每名有效目标受到450%伤害（1次），不波及旁边的人。涅槃改为一次900%重击。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 10
+      },
+      {
+        "id": "uros-sp",
+        "category": "sp",
+        "title": "SP技能：圆形区域轰炸",
+        "phase": "按当前状态",
+        "trigger": {
+          "type": "SP",
+          "summary": "SP蓄满后释放；常态生成一组轰炸，涅槃生成两组。",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [
+            800
+          ],
+          "spRecoveryValues": [
+            160
+          ],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "常态：一组圆形区域",
+            "phase": "常态",
+            "stateVariant": "常态",
+            "relation": "动态对象命中",
+            "actionSequence": [
+              {
+                "action": "生成18个圆形对象",
+                "spineAnimation": "Skill1_1",
+                "eventTimes": [
+                  2.033334
+                ],
+                "objectCount": 18
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "object-hit",
+                "multiplierMin": 300,
+                "multiplierMax": 300,
+                "hitCount": null,
+                "subtotalMin": null,
+                "subtotalMax": null,
+                "eventTimes": []
+              }
+            ],
+            "hitCount": null,
+            "confirmedTotalMultiplier": null,
+            "verdict": "dynamic-formula",
+            "formula": "每个实际命中的对象造成300%；生成18个对象",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "7600105"
+          },
+          {
+            "label": "涅槃：两组圆形区域",
+            "phase": "涅槃",
+            "stateVariant": "涅槃",
+            "relation": "动态对象命中",
+            "actionSequence": [
+              {
+                "action": "先后生成两组、每组18个圆形对象",
+                "spineAnimation": "Skill1_2",
+                "eventTimes": [
+                  2.133333
+                ],
+                "objectCountPerGroup": 18,
+                "groupCount": 2
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "object-hit",
+                "multiplierMin": 300,
+                "multiplierMax": 300,
+                "hitCount": null,
+                "subtotalMin": null,
+                "subtotalMax": null,
+                "eventTimes": []
+              }
+            ],
+            "hitCount": null,
+            "confirmedTotalMultiplier": null,
+            "verdict": "dynamic-formula",
+            "formula": "每个实际命中的对象造成300%；两组各生成18个对象",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "7600106"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "uros-sp-default",
+            "label": "常态区域轰炸",
+            "eventMarkers": [
+              {
+                "timeSeconds": 2.033334,
+                "type": "effect",
+                "label": "生成区域对象"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill1_1"
+              ]
+            }
+          },
+          {
+            "id": "uros-sp-nirvana",
+            "label": "涅槃区域轰炸",
+            "eventMarkers": [
+              {
+                "timeSeconds": 2.133333,
+                "type": "effect",
+                "label": "生成两组区域对象"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill1_2"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "每个命中的对象300%；常态生成18个，涅槃生成两组各18个",
+          "perHit": [
+            {
+              "min": 300,
+              "max": 300,
+              "count": null
+            }
+          ],
+          "hitCount": null,
+          "confirmedTotalMultiplier": null,
+          "scope": "dynamic-object-hits",
+          "branchRule": "生成数量不等于同一目标的命中次数，不计算固定总倍率。"
+        },
+        "confirmedTotalMultiplier": null,
+        "hitCount": null,
+        "effects": [],
+        "playerResult": "每个轰炸落点命中时造成300%伤害，并施加持续6秒的技能伤害、攻击速度和SP恢复降低：常态各降低5%，涅槃各降低75%。个人受击次数随站位而变。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 20,
+        "phaseComparisons": [
+          {
+            "id": "uros-sp-0",
+            "label": "常态",
+            "trigger": {
+              "type": "SP",
+              "summary": "SP蓄满后释放；常态生成一组轰炸，涅槃生成两组。",
+              "firstTriggerTimeSeconds": null,
+              "repeatIntervalSeconds": null,
+              "cooldownSeconds": null,
+              "hpThresholdRaw": null,
+              "hpThresholdPercent": null,
+              "hpLine": null,
+              "approxTotalHpPercent": null,
+              "stackThreshold": null,
+              "spMaxValues": [
+                800
+              ],
+              "spRecoveryValues": [
+                160
+              ],
+              "evidenceStatus": "已核对",
+              "runtimeReferences": {}
+            },
+            "damageSummary": {
+              "display": "每次命中300%；生成一组18个轰炸落点",
+              "perHit": [
+                {
+                  "min": 300,
+                  "max": 300,
+                  "count": null
+                }
+              ],
+              "hitCount": null,
+              "confirmedTotalMultiplier": null,
+              "scope": "dynamic-object-hits",
+              "branchRule": "生成数量不等于同一目标的命中次数，不计算固定总倍率。"
+            },
+            "effects": [
+              {
+                "type": "造成技能伤害降低",
+                "name": "技能伤害降低",
+                "description": "命中的使徒技能伤害降低5%，持续6秒。",
+                "target": "命中的使徒",
+                "probabilityPercent": 100,
+                "durationSeconds": 6,
+                "value": 5,
+                "valueUnit": "percent",
+                "parameterPending": false,
+                "evidenceStatus": "已核对",
+                "stacking": "不据区域对象数量推断叠加",
+                "runtimeReferences": {},
+                "effectKind": "status",
+                "statusUid": "390",
+                "statusNameKey": "StateName_SkillAttackDamageDownPercent",
+                "statusKey": "kr:390",
+                "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_91.png",
+                "iconState": "bound",
+                "nature": "debuff",
+                "sourceRole": "boss",
+                "sourceLabel": "Boss",
+                "targetRole": "team",
+                "skillId": "uros-sp",
+                "skillType": "attack",
+                "formLabel": "常态"
+              },
+              {
+                "type": "攻击速度降低",
+                "name": "攻击速度降低",
+                "description": "命中的使徒攻击速度降低5%，持续6秒。",
+                "target": "命中的使徒",
+                "probabilityPercent": 100,
+                "durationSeconds": 6,
+                "value": 5,
+                "valueUnit": "percent",
+                "parameterPending": false,
+                "evidenceStatus": "已核对",
+                "stacking": "不据区域对象数量推断叠加",
+                "runtimeReferences": {},
+                "effectKind": "status",
+                "statusUid": "100",
+                "statusNameKey": "StateName_AttackSpeedDownPercent",
+                "statusKey": "kr:100",
+                "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_37.png",
+                "iconState": "bound",
+                "nature": "debuff",
+                "sourceRole": "boss",
+                "sourceLabel": "Boss",
+                "targetRole": "team",
+                "skillId": "uros-sp",
+                "skillType": "attack",
+                "formLabel": "常态"
+              },
+              {
+                "type": "SP恢复降低",
+                "name": "SP恢复降低",
+                "description": "命中的使徒SP恢复降低5%，持续6秒。",
+                "target": "命中的使徒",
+                "probabilityPercent": 100,
+                "durationSeconds": 6,
+                "value": 5,
+                "valueUnit": "percent",
+                "parameterPending": false,
+                "evidenceStatus": "已核对",
+                "stacking": "不据区域对象数量推断叠加",
+                "runtimeReferences": {},
+                "effectKind": "status",
+                "statusUid": "98",
+                "statusNameKey": "StateName_RecoverySpDownPercent",
+                "statusKey": "kr:98",
+                "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_174.png",
+                "iconState": "bound",
+                "nature": "debuff",
+                "sourceRole": "boss",
+                "sourceLabel": "Boss",
+                "targetRole": "team",
+                "skillId": "uros-sp",
+                "skillType": "attack",
+                "formLabel": "常态"
+              }
+            ],
+            "previewOptions": [
+              {
+                "id": "uros-sp-default",
+                "label": "常态区域轰炸",
+                "eventMarkers": [
+                  {
+                    "timeSeconds": 2.033334,
+                    "type": "effect",
+                    "label": "生成区域对象"
+                  }
+                ],
+                "runtimeReferences": {
+                  "spineAnimations": [
+                    "Skill1_1"
+                  ]
+                }
+              }
+            ],
+            "evidenceStatus": "已核对"
+          },
+          {
+            "id": "uros-sp-1",
+            "label": "涅槃",
+            "trigger": {
+              "type": "SP",
+              "summary": "SP蓄满后释放；常态生成一组轰炸，涅槃生成两组。",
+              "firstTriggerTimeSeconds": null,
+              "repeatIntervalSeconds": null,
+              "cooldownSeconds": null,
+              "hpThresholdRaw": null,
+              "hpThresholdPercent": null,
+              "hpLine": null,
+              "approxTotalHpPercent": null,
+              "stackThreshold": null,
+              "spMaxValues": [
+                800
+              ],
+              "spRecoveryValues": [
+                160
+              ],
+              "evidenceStatus": "已核对",
+              "runtimeReferences": {}
+            },
+            "damageSummary": {
+              "display": "每次命中300%；先后生成两组，每组18个轰炸落点",
+              "perHit": [
+                {
+                  "min": 300,
+                  "max": 300,
+                  "count": null
+                }
+              ],
+              "hitCount": null,
+              "confirmedTotalMultiplier": null,
+              "scope": "dynamic-object-hits",
+              "branchRule": "生成数量不等于同一目标的命中次数，不计算固定总倍率。"
+            },
+            "effects": [
+              {
+                "type": "造成技能伤害降低",
+                "name": "技能伤害降低",
+                "description": "命中的使徒技能伤害降低75%，持续6秒。",
+                "target": "命中的使徒",
+                "probabilityPercent": 100,
+                "durationSeconds": 6,
+                "value": 75,
+                "valueUnit": "percent",
+                "parameterPending": false,
+                "evidenceStatus": "已核对",
+                "stacking": "不据区域对象数量推断叠加",
+                "runtimeReferences": {},
+                "effectKind": "status",
+                "statusUid": "390",
+                "statusNameKey": "StateName_SkillAttackDamageDownPercent",
+                "statusKey": "kr:390",
+                "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_91.png",
+                "iconState": "bound",
+                "nature": "debuff",
+                "sourceRole": "boss",
+                "sourceLabel": "Boss",
+                "targetRole": "team",
+                "skillId": "uros-sp",
+                "skillType": "attack",
+                "formLabel": "涅槃"
+              },
+              {
+                "type": "攻击速度降低",
+                "name": "攻击速度降低",
+                "description": "命中的使徒攻击速度降低75%，持续6秒。",
+                "target": "命中的使徒",
+                "probabilityPercent": 100,
+                "durationSeconds": 6,
+                "value": 75,
+                "valueUnit": "percent",
+                "parameterPending": false,
+                "evidenceStatus": "已核对",
+                "stacking": "不据区域对象数量推断叠加",
+                "runtimeReferences": {},
+                "effectKind": "status",
+                "statusUid": "100",
+                "statusNameKey": "StateName_AttackSpeedDownPercent",
+                "statusKey": "kr:100",
+                "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_37.png",
+                "iconState": "bound",
+                "nature": "debuff",
+                "sourceRole": "boss",
+                "sourceLabel": "Boss",
+                "targetRole": "team",
+                "skillId": "uros-sp",
+                "skillType": "attack",
+                "formLabel": "涅槃"
+              },
+              {
+                "type": "SP恢复降低",
+                "name": "SP恢复降低",
+                "description": "命中的使徒SP恢复降低75%，持续6秒。",
+                "target": "命中的使徒",
+                "probabilityPercent": 100,
+                "durationSeconds": 6,
+                "value": 75,
+                "valueUnit": "percent",
+                "parameterPending": false,
+                "evidenceStatus": "已核对",
+                "stacking": "不据区域对象数量推断叠加",
+                "runtimeReferences": {},
+                "effectKind": "status",
+                "statusUid": "98",
+                "statusNameKey": "StateName_RecoverySpDownPercent",
+                "statusKey": "kr:98",
+                "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_174.png",
+                "iconState": "bound",
+                "nature": "debuff",
+                "sourceRole": "boss",
+                "sourceLabel": "Boss",
+                "targetRole": "team",
+                "skillId": "uros-sp",
+                "skillType": "attack",
+                "formLabel": "涅槃"
+              }
+            ],
+            "previewOptions": [
+              {
+                "id": "uros-sp-nirvana",
+                "label": "涅槃区域轰炸",
+                "eventMarkers": [
+                  {
+                    "timeSeconds": 2.133333,
+                    "type": "effect",
+                    "label": "生成两组区域对象"
+                  }
+                ],
+                "runtimeReferences": {
+                  "spineAnimations": [
+                    "Skill1_2"
+                  ]
+                }
+              }
+            ],
+            "evidenceStatus": "已核对"
+          }
+        ]
+      },
+      {
+        "id": "uros-time-18",
+        "category": "time-trigger",
+        "title": "18秒震击",
+        "phase": "按当前状态",
+        "trigger": {
+          "type": "计时",
+          "summary": "进入常态或涅槃后准备18秒，此后在该形态内重复准备，每轮18秒；切换形态时重新计时。等待出招时暂停计时，当前形态决定动作。",
+          "firstTriggerTimeSeconds": 18,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {},
+          "timerCycleSeconds": 18,
+          "repeatMode": "preparation-loop",
+          "timeOrigin": "form-registration"
+        },
+        "variants": [
+          {
+            "label": "常态：18秒震击",
+            "phase": "常态",
+            "stateVariant": "常态",
+            "relation": "该状态下的完整动作",
+            "actionSequence": [
+              {
+                "action": "常态：18秒震击",
+                "spineAnimation": "Skill2_1",
+                "eventTimes": [
+                  3.5
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 1800,
+                "multiplierMax": 1800,
+                "hitCount": 1,
+                "subtotalMin": 1800,
+                "subtotalMax": 1800,
+                "eventTimes": [
+                  3.5
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 1800,
+              "max": 1800
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "7600107"
+          },
+          {
+            "label": "涅槃：18秒震击",
+            "phase": "涅槃",
+            "stateVariant": "涅槃",
+            "relation": "该状态下的完整动作",
+            "actionSequence": [
+              {
+                "action": "涅槃：18秒震击",
+                "spineAnimation": "Skill2_2",
+                "eventTimes": [
+                  3.566667
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 4000,
+                "multiplierMax": 4000,
+                "hitCount": 1,
+                "subtotalMin": 4000,
+                "subtotalMax": 4000,
+                "eventTimes": [
+                  3.566667
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 4000,
+              "max": 4000
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "7600108"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "uros-time-18-default",
+            "label": "常态18秒震击",
+            "eventMarkers": [
+              {
+                "timeSeconds": 3.5,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill2_1"
+              ]
+            }
+          },
+          {
+            "id": "uros-time-18-nirvana",
+            "label": "涅槃18秒震击",
+            "eventMarkers": [
+              {
+                "timeSeconds": 3.566667,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill2_2"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "常态：1800%×1＝1800%；涅槃：4000%×1＝4000%",
+          "perHit": [],
+          "hitCount": null,
+          "confirmedTotalMultiplier": null,
+          "scope": "each-state-version",
+          "branchRule": "只使用Boss当前状态对应的一种动作，两种状态不能相加。"
+        },
+        "confirmedTotalMultiplier": null,
+        "hitCount": null,
+        "effects": [],
+        "playerResult": "常态造成1800%；涅槃造成4000%。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 30,
+        "phaseComparisons": [
+          {
+            "id": "uros-time-18-0",
+            "label": "常态",
+            "trigger": {
+              "type": "计时",
+              "summary": "进入常态或涅槃后准备18秒，此后在该形态内重复准备，每轮18秒；切换形态时重新计时。等待出招时暂停计时，当前形态决定动作。",
+              "firstTriggerTimeSeconds": 18,
+              "repeatIntervalSeconds": null,
+              "cooldownSeconds": null,
+              "hpThresholdRaw": null,
+              "hpThresholdPercent": null,
+              "hpLine": null,
+              "approxTotalHpPercent": null,
+              "stackThreshold": null,
+              "spMaxValues": [],
+              "spRecoveryValues": [],
+              "evidenceStatus": "已核对",
+              "runtimeReferences": {},
+              "timerCycleSeconds": 18,
+              "repeatMode": "preparation-loop",
+              "timeOrigin": "form-registration"
+            },
+            "damageSummary": {
+              "display": "1800%",
+              "perHit": [
+                {
+                  "kind": "direct",
+                  "multiplierMin": 1800,
+                  "multiplierMax": 1800,
+                  "hitCount": 1,
+                  "subtotalMin": 1800,
+                  "subtotalMax": 1800,
+                  "eventTimes": [
+                    3.5
+                  ]
+                }
+              ],
+              "hitCount": 1,
+              "confirmedTotalMultiplier": {
+                "min": 1800,
+                "max": 1800
+              },
+              "scope": "complete-cast",
+              "branchRule": null
+            },
+            "effects": [
+              {
+                "type": "眩晕",
+                "name": "眩晕",
+                "description": "命中的使徒眩晕5秒。",
+                "target": "被该招命中的使徒",
+                "probabilityPercent": 100,
+                "durationSeconds": 5,
+                "value": null,
+                "valueUnit": null,
+                "parameterPending": false,
+                "evidenceStatus": "已核对",
+                "effectKind": "status",
+                "statusNameKey": "StateName_Stun",
+                "statusKey": "kr-text:StateName_Stun",
+                "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_0.png",
+                "iconState": "bound",
+                "nature": "debuff",
+                "sourceRole": "boss",
+                "sourceLabel": "Boss",
+                "targetRole": "team",
+                "skillId": "uros-time-18",
+                "skillType": "attack",
+                "formLabel": "常态"
+              }
+            ],
+            "previewOptions": [
+              {
+                "id": "uros-time-18-default",
+                "label": "常态18秒震击",
+                "eventMarkers": [
+                  {
+                    "timeSeconds": 3.5,
+                    "type": "damage",
+                    "label": "伤害"
+                  }
+                ],
+                "runtimeReferences": {
+                  "spineAnimations": [
+                    "Skill2_1"
+                  ]
+                }
+              }
+            ],
+            "evidenceStatus": "已核对"
+          },
+          {
+            "id": "uros-time-18-1",
+            "label": "涅槃",
+            "trigger": {
+              "type": "计时",
+              "summary": "进入常态或涅槃后准备18秒，此后在该形态内重复准备，每轮18秒；切换形态时重新计时。等待出招时暂停计时，当前形态决定动作。",
+              "firstTriggerTimeSeconds": 18,
+              "repeatIntervalSeconds": null,
+              "cooldownSeconds": null,
+              "hpThresholdRaw": null,
+              "hpThresholdPercent": null,
+              "hpLine": null,
+              "approxTotalHpPercent": null,
+              "stackThreshold": null,
+              "spMaxValues": [],
+              "spRecoveryValues": [],
+              "evidenceStatus": "已核对",
+              "runtimeReferences": {},
+              "timerCycleSeconds": 18,
+              "repeatMode": "preparation-loop",
+              "timeOrigin": "form-registration"
+            },
+            "damageSummary": {
+              "display": "4000%",
+              "perHit": [
+                {
+                  "kind": "direct",
+                  "multiplierMin": 4000,
+                  "multiplierMax": 4000,
+                  "hitCount": 1,
+                  "subtotalMin": 4000,
+                  "subtotalMax": 4000,
+                  "eventTimes": [
+                    3.566667
+                  ]
+                }
+              ],
+              "hitCount": 1,
+              "confirmedTotalMultiplier": {
+                "min": 4000,
+                "max": 4000
+              },
+              "scope": "complete-cast",
+              "branchRule": null
+            },
+            "effects": [
+              {
+                "type": "眩晕",
+                "name": "眩晕",
+                "description": "命中的使徒眩晕10秒。",
+                "target": "被该招命中的使徒",
+                "probabilityPercent": 100,
+                "durationSeconds": 10,
+                "value": null,
+                "valueUnit": null,
+                "parameterPending": false,
+                "evidenceStatus": "已核对",
+                "effectKind": "status",
+                "statusNameKey": "StateName_Stun",
+                "statusKey": "kr-text:StateName_Stun",
+                "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_0.png",
+                "iconState": "bound",
+                "nature": "debuff",
+                "sourceRole": "boss",
+                "sourceLabel": "Boss",
+                "targetRole": "team",
+                "skillId": "uros-time-18",
+                "skillType": "attack",
+                "formLabel": "涅槃"
+              }
+            ],
+            "previewOptions": [
+              {
+                "id": "uros-time-18-nirvana",
+                "label": "涅槃18秒震击",
+                "eventMarkers": [
+                  {
+                    "timeSeconds": 3.566667,
+                    "type": "damage",
+                    "label": "伤害"
+                  }
+                ],
+                "runtimeReferences": {
+                  "spineAnimations": [
+                    "Skill2_2"
+                  ]
+                }
+              }
+            ],
+            "evidenceStatus": "已核对"
+          }
+        ]
+      },
+      {
+        "id": "uros-time-26",
+        "category": "time-trigger",
+        "title": "26秒重击",
+        "phase": "按当前状态",
+        "trigger": {
+          "type": "计时",
+          "summary": "进入常态或涅槃后准备26秒，此后在该形态内重复准备，每轮26秒；切换形态时重新计时。等待出招时暂停计时，当前形态决定动作。",
+          "firstTriggerTimeSeconds": 26,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {},
+          "timerCycleSeconds": 26,
+          "repeatMode": "preparation-loop",
+          "timeOrigin": "form-registration"
+        },
+        "variants": [
+          {
+            "label": "常态：26秒重击",
+            "phase": "常态",
+            "stateVariant": "常态",
+            "relation": "该状态下的完整动作",
+            "actionSequence": [
+              {
+                "action": "常态：26秒重击",
+                "spineAnimation": "Skill5_1",
+                "eventTimes": [
+                  4.7
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 900,
+                "multiplierMax": 900,
+                "hitCount": 1,
+                "subtotalMin": 900,
+                "subtotalMax": 900,
+                "eventTimes": [
+                  4.7
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 900,
+              "max": 900
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "7600113"
+          },
+          {
+            "label": "涅槃：26秒重击",
+            "phase": "涅槃",
+            "stateVariant": "涅槃",
+            "relation": "该状态下的完整动作",
+            "actionSequence": [
+              {
+                "action": "涅槃：26秒重击",
+                "spineAnimation": "Skill5_2",
+                "eventTimes": [
+                  4.7
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 2000,
+                "multiplierMax": 2000,
+                "hitCount": 1,
+                "subtotalMin": 2000,
+                "subtotalMax": 2000,
+                "eventTimes": [
+                  4.7
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 2000,
+              "max": 2000
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "7600114"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "uros-time-26-default",
+            "label": "常态26秒重击",
+            "eventMarkers": [
+              {
+                "timeSeconds": 4.7,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill5_1"
+              ]
+            }
+          },
+          {
+            "id": "uros-time-26-nirvana",
+            "label": "涅槃26秒重击",
+            "eventMarkers": [
+              {
+                "timeSeconds": 4.7,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill5_2"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "常态：900%×1＝900%；涅槃：2000%×1＝2000%",
+          "perHit": [],
+          "hitCount": null,
+          "confirmedTotalMultiplier": null,
+          "scope": "each-state-version",
+          "branchRule": "只使用Boss当前状态对应的一种动作，两种状态不能相加。"
+        },
+        "confirmedTotalMultiplier": null,
+        "hitCount": null,
+        "effects": [],
+        "playerResult": "常态造成900%；涅槃造成2000%。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 40
+      },
+      {
+        "id": "uros-time-50",
+        "category": "time-trigger",
+        "title": "50秒常态特动",
+        "phase": "常态",
+        "trigger": {
+          "type": "计时",
+          "summary": "开战后在常态准备50秒；返回常态时重新准备50秒，此后在常态期间重复。等待出招时暂停计时，切换涅槃后停用这招。",
+          "firstTriggerTimeSeconds": 50,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {},
+          "timerCycleSeconds": 50,
+          "repeatMode": "preparation-loop",
+          "timeOrigin": "form-registration"
+        },
+        "variants": [
+          {
+            "label": "常态炮击",
+            "phase": "常态",
+            "stateVariant": "常态",
+            "relation": "该状态下的完整动作",
+            "actionSequence": [
+              {
+                "action": "常态炮击",
+                "spineAnimation": "Skill3_1",
+                "eventTimes": [
+                  1.2
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 2000,
+                "multiplierMax": 2000,
+                "hitCount": 1,
+                "subtotalMin": 2000,
+                "subtotalMax": 2000,
+                "eventTimes": [
+                  1.2
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 2000,
+              "max": 2000
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "7600109"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "uros-time-50",
+            "label": "50秒常态特动",
+            "eventMarkers": [
+              {
+                "timeSeconds": 1.2,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill3_1"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "2000% × 1＝2000%",
+          "perHit": [
+            {
+              "min": 2000,
+              "max": 2000,
+              "count": 1
+            }
+          ],
+          "hitCount": 1,
+          "confirmedTotalMultiplier": {
+            "min": 2000,
+            "max": 2000
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "confirmedTotalMultiplier": {
+          "min": 2000,
+          "max": 2000
+        },
+        "hitCount": 1,
+        "effects": [],
+        "playerResult": "常态下轮到这招时发动一次2000%炮击。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 50
+      },
+      {
+        "id": "uros-time-45",
+        "category": "time-trigger",
+        "title": "45秒涅槃大招",
+        "phase": "涅槃",
+        "trigger": {
+          "type": "计时",
+          "summary": "进入涅槃后准备45秒，之后在涅槃期间重复准备，每轮45秒；切换形态时重新计时。等待出招时暂停计时，不是开战45秒必放。",
+          "firstTriggerTimeSeconds": 45,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {},
+          "timerCycleSeconds": 45,
+          "repeatMode": "preparation-loop",
+          "timeOrigin": "form-registration"
+        },
+        "variants": [
+          {
+            "label": "无猎物：5000%一次",
+            "phase": "涅槃",
+            "stateVariant": "涅槃",
+            "relation": "按本次选中目标的猎物状态选择",
+            "actionSequence": [
+              {
+                "action": "根据猎物状态选择伤害",
+                "spineAnimation": "Skill3_2",
+                "eventTimes": []
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 5000,
+                "multiplierMax": 5000,
+                "hitCount": 1,
+                "subtotalMin": 5000,
+                "subtotalMax": 5000,
+                "eventTimes": [],
+                "scope": "本次被选中且结算时有效的目标"
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 5000,
+              "max": 5000
+            },
+            "verdict": "segment-only",
+            "evidenceStatus": "部分待确认",
+            "sourceSkillUid": "7600110",
+            "runtimeReferences": {}
+          },
+          {
+            "label": "有猎物：10000%一次",
+            "phase": "涅槃",
+            "stateVariant": "涅槃",
+            "relation": "按本次选中目标的猎物状态选择",
+            "actionSequence": [
+              {
+                "action": "根据猎物状态选择伤害",
+                "spineAnimation": "Skill3_2",
+                "eventTimes": []
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 10000,
+                "multiplierMax": 10000,
+                "hitCount": 1,
+                "subtotalMin": 10000,
+                "subtotalMax": 10000,
+                "eventTimes": [],
+                "scope": "本次被选中且结算时有效的目标"
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 10000,
+              "max": 10000
+            },
+            "verdict": "segment-only",
+            "evidenceStatus": "部分待确认",
+            "sourceSkillUid": "7600110",
+            "runtimeReferences": {}
+          }
+        ],
+        "branches": [
+          {
+            "id": "prey-result-a",
+            "label": "目标没有猎物",
+            "condition": "本次选中目标未持有猎物增伤",
+            "damageSummary": {
+              "display": "5000% × 1＝5000%",
+              "perHit": [
+                {
+                  "min": 5000,
+                  "max": 5000,
+                  "count": 1
+                }
+              ],
+              "hitCount": 1,
+              "confirmedTotalMultiplier": {
+                "min": 5000,
+                "max": 5000
+              },
+              "scope": "single-selection-segment",
+              "branchRule": null
+            }
+          },
+          {
+            "id": "prey-result-b",
+            "label": "目标已有猎物",
+            "condition": "本次选中目标持有至少一项猎物增伤",
+            "damageSummary": {
+              "display": "10000% × 1＝10000%",
+              "perHit": [
+                {
+                  "min": 10000,
+                  "max": 10000,
+                  "count": 1
+                }
+              ],
+              "hitCount": 1,
+              "confirmedTotalMultiplier": {
+                "min": 10000,
+                "max": 10000
+              },
+              "scope": "single-selection-segment",
+              "branchRule": null
+            }
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "uros-time-45",
+            "label": "45秒涅槃大招",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0,
+                "type": "effect",
+                "label": "大招事件"
+              },
+              {
+                "timeSeconds": 1,
+                "type": "effect",
+                "label": "大招事件"
+              },
+              {
+                "timeSeconds": 7.2,
+                "type": "effect",
+                "label": "大招事件"
+              },
+              {
+                "timeSeconds": 10.166667,
+                "type": "effect",
+                "label": "大招事件"
+              },
+              {
+                "timeSeconds": 10.200001,
+                "type": "effect",
+                "label": "大招事件"
+              },
+              {
+                "timeSeconds": 10.700001,
+                "type": "effect",
+                "label": "大招事件"
+              },
+              {
+                "timeSeconds": 11.833334,
+                "type": "effect",
+                "label": "大招事件"
+              },
+              {
+                "timeSeconds": 13.033334,
+                "type": "effect",
+                "label": "大招事件"
+              },
+              {
+                "timeSeconds": 13.866668,
+                "type": "effect",
+                "label": "大招事件"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill3_2"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "无猎物5000%一次；有猎物10000%一次（每名被选中目标）",
+          "perHit": [],
+          "hitCount": null,
+          "confirmedTotalMultiplier": null,
+          "scope": "conditional-single-segment",
+          "branchRule": "只按本次目标的猎物状态选一种伤害，不相加，不波及旁观者。"
+        },
+        "confirmedTotalMultiplier": null,
+        "hitCount": null,
+        "effects": [
+          {
+            "type": "受到伤害增加",
+            "name": "猎物",
+            "description": "剩余血量低于75%时，物理、魔法受到伤害的修正增加30%；恢复至75%及以上后移除这项增伤。每秒检查一次。",
+            "target": "被该招命中的使徒",
+            "probabilityPercent": null,
+            "durationSeconds": null,
+            "value": 30,
+            "valueUnit": "damage-received-percent",
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "activationHpBelowPercent": 75,
+            "removalHpAtLeastPercent": 75,
+            "checkIntervalSeconds": 1,
+            "runtimeReferences": {},
+            "effectKind": "status",
+            "statusUid": "510",
+            "statusNameKey": "StateName_PreyDamageReceiveUpPercent_E0",
+            "statusKey": "kr:510",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_173.png",
+            "iconState": "bound",
+            "nature": "debuff",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "team",
+            "skillId": "uros-time-45",
+            "skillType": "attack"
+          },
+          {
+            "type": "无敌",
+            "name": "大招保护",
+            "description": "大招演出约7.20秒时进入无敌，约13.87秒时解除，保护覆盖约6.67秒的动作长度。这里按演出进度计时，实际战斗秒数随播放速度变化；不是固定无敌20秒。",
+            "target": "Boss自身",
+            "probabilityPercent": 100,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "animationWindow": {
+              "animation": "Skill3_2",
+              "startSeconds": 7.200000286102295,
+              "endSeconds": 13.866667747497559,
+              "lengthSeconds": 6.666667461395264,
+              "timeBasis": "animation-playback",
+              "requiresUninterruptedPlayback": true
+            },
+            "runtimeReferences": {},
+            "effectKind": "status",
+            "statusKey": "kr:174",
+            "iconUrl": null,
+            "iconState": "no-independent-icon",
+            "nature": "buff",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "boss",
+            "skillId": "uros-time-45",
+            "skillType": "attack",
+            "statusUid": "174",
+            "statusNameKey": null
+          }
+        ],
+        "playerResult": "涅槃大招演出约12.23秒后开始点名不同目标，最多15轮。每名有效目标只结算本次对应分支：无猎物5000%一次，有猎物10000%一次，不波及旁边的人；不是同一人连打15次。中断或取消对整套动作的影响仍未确认。",
+        "evidenceStatus": "部分待确认",
+        "runtimeReferences": {},
+        "sortOrder": 60,
+        "targetSelection": {
+          "maxRounds": 15,
+          "reselectProcessedTarget": false,
+          "initialDelaySeconds": 0.4000000059604645,
+          "repeatWaitSeconds": 0,
+          "firstSelectionAnimationOffsetSeconds": 12.233333975076675,
+          "requiresEligibleTarget": true,
+          "hitScope": "selected-target-only",
+          "hitCountPerSelectedValidTarget": 1,
+          "bystanderOverlapDamage": false
+        }
+      }
+    ],
+    "mechanisms": [
+      {
+        "id": "uros-gauge",
+        "category": "boss-mechanic",
+        "title": "涅槃变身",
+        "triggers": [
+          {
+            "type": "量表充能",
+            "summary": "常态充能满后触发涅槃；涅槃量表耗尽后触发退出",
+            "firstTriggerTimeSeconds": null,
+            "repeatIntervalSeconds": null,
+            "cooldownSeconds": null,
+            "stackThreshold": null,
+            "evidenceStatus": "部分待确认"
+          }
+        ],
+        "guideTriggerSummary": "常态充能满时变身；涅槃量表耗尽后退出。",
+        "summary": "常态充能以30秒为基准；充满后变身并释放冲击。涅槃量表初始270点，耗尽后恢复常态。",
+        "playerResponse": "涅槃期间利用能够生效的控制消耗量表；退出后用技能集中输出，普通攻击和强化普攻不享受这项技能易伤。",
+        "caution": "量表消耗增幅会先按比例增加扣量，再舍去小数。普通受击是否扣量、退出时的保护时长，以及技能易伤的最大层数和提前解除条件尚不明确。",
+        "actionSequence": [
+          {
+            "order": 1,
+            "action": "常态充能满",
+            "summary": "正常重新充能采用30秒计时基准；初始充能按当前关卡条件处理。"
+          },
+          {
+            "order": 2,
+            "action": "进入涅槃",
+            "spineAnimation": "Skill4_1",
+            "summary": "播放变身动作：开始时无敌，约1.67秒涅槃状态生效，2秒解除无敌（正常动作播放）。"
+          },
+          {
+            "order": 3,
+            "action": "涅槃量表耗尽",
+            "summary": "量表耗尽后恢复常态技能组。退出动作会等尚未结束的位移处理完成后再开始，没有固定多等几秒的规则；这段等待不代表无敌，退出保护仍未确认。退出动作开始时解除涅槃状态，并获得受技能伤害修正+200%。",
+            "spineAnimation": "Skill6_1"
+          }
+        ],
+        "damageVariants": [
+          {
+            "label": "变身冲击",
+            "relation": "已确认动作段",
+            "actionSequence": [
+              {
+                "action": "切换冲击",
+                "spineAnimation": "Skill4_1",
+                "eventTimes": [
+                  4.733334
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 500,
+                "multiplierMax": 500,
+                "hitCount": 1,
+                "subtotalMin": 500,
+                "subtotalMax": 500,
+                "eventTimes": [
+                  4.733334
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 500,
+              "max": 500
+            },
+            "verdict": "segment-only",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "7600111"
+          }
+        ],
+        "effects": [
+          {
+            "type": "无敌",
+            "name": "进入涅槃保护",
+            "description": "正常变身动作开始时无敌，动作2秒时解除；约1.67秒涅槃状态生效。退出时的保护尚未确认。",
+            "target": "Boss自身",
+            "probabilityPercent": 100,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "animationWindow": {
+              "animation": "Skill4_1",
+              "startSeconds": 0,
+              "endSeconds": 2,
+              "lengthSeconds": 2,
+              "timeBasis": "animation-playback",
+              "requiresUninterruptedPlayback": true
+            },
+            "runtimeReferences": {},
+            "effectKind": "status",
+            "statusKey": "kr:174",
+            "iconUrl": null,
+            "iconState": "no-independent-icon",
+            "nature": "buff",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "boss",
+            "skillId": "uros-gauge",
+            "skillType": "mechanism",
+            "statusUid": "174",
+            "statusNameKey": null
+          },
+          {
+            "type": "受到技能伤害增加",
+            "name": "退出涅槃后的技能易伤（说明名）",
+            "description": "退出涅槃的动作开始时，Boss获得200%的技能易伤，与其他增减伤一起计算；普通攻击和强化普攻不享受这项易伤。",
+            "target": "Boss自身",
+            "value": 200,
+            "valueUnit": "percent",
+            "durationSeconds": 99999,
+            "durationLabel": "本场战斗内不会自然到期；提前解除条件暂不明确",
+            "probabilityPercent": null,
+            "parameterPending": false,
+            "stacking": "重复施加会再追加一份；实战最多能叠几份、是否会提前消失尚不明确。",
+            "evidenceStatus": "部分待确认",
+            "runtimeReferences": {},
+            "effectKind": "status",
+            "statusUid": "516",
+            "statusNameKey": "StateName_SkillDamageReceiveUpPercent_E0",
+            "statusKey": "kr:516",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_179.png",
+            "iconState": "bound",
+            "nature": "debuff",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "boss",
+            "skillId": "uros-gauge",
+            "skillType": "mechanism"
+          }
+        ],
+        "units": [],
+        "evidenceStatus": "部分待确认",
+        "runtimeReferences": {},
+        "controlDrainRules": [
+          {
+            "control": "眩晕",
+            "baseGaugePointsPerConfiguredSecond": 5,
+            "summary": "按眩晕技能配置时长计算，每秒基础扣5点"
+          },
+          {
+            "control": "变形",
+            "baseGaugePointsPerConfiguredSecond": 3,
+            "summary": "按变形技能配置时长计算，每秒基础扣3点"
+          },
+          {
+            "control": "失衡",
+            "baseGaugePointsPerConfiguredSecond": 5,
+            "summary": "按失衡技能配置时长计算，每秒基础扣5点"
+          },
+          {
+            "control": "击退",
+            "baseGaugePointsPerAcceptedEvent": 36,
+            "summary": "每次被该机制接收的击退，基础扣36点"
+          }
+        ],
+        "controlDrainCondition": "仅在涅槃期间且控制事件被机制接收时扣量；有额外消耗修正时先修正，再舍去小数。配置时长不等于Boss实际被控时间。",
+        "pauseRule": "量表锁定期间暂停自然消耗，但仍可接收控制带来的额外扣量。具体锁定起止尚未确认。",
+        "previewOptions": [
+          {
+            "id": "76001-nirvana-enter",
+            "label": "涅槃变身",
+            "eventMarkers": [
+              {
+                "timeSeconds": 4.733334,
+                "type": "damage",
+                "label": "变身冲击"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill4_1"
+              ]
+            }
+          }
+        ],
+        "detailNotes": [
+          {
+            "label": "进入涅槃",
+            "summary": "正常变身动作前2秒无敌，约1.67秒时涅槃生效。"
+          },
+          {
+            "label": "退出涅槃",
+            "summary": "退出动作开始时失去涅槃，并获得200%技能易伤，本场战斗内不会自然到期。普通攻击和强化普攻不享受这项易伤。"
+          },
+          {
+            "label": "控制消耗",
+            "summary": "涅槃期间，有效眩晕或失衡每秒消耗5点量表，变形每秒3点，击退每次36点；时长按技能标注计算。"
+          },
+          {
+            "label": "量表暂停",
+            "summary": "量表锁定时暂停自然消耗，但有效控制仍可消耗量表；锁定的具体时机尚不明确。"
+          }
+        ]
+      },
+      {
+        "id": "uros-doom",
+        "category": "boss-mechanic",
+        "title": "毁灭命运：全场持续伤害",
+        "triggers": [
+          {
+            "type": "状态机制",
+            "summary": "由Uros状态链施加；涅槃时强化",
+            "firstTriggerTimeSeconds": null,
+            "repeatIntervalSeconds": 1,
+            "cooldownSeconds": null
+          }
+        ],
+        "guideTriggerSummary": "Boss对我方全队施加毁灭命运，持续造成伤害。",
+        "summary": "每秒伤害按目标最大生命值计算：常态以1%为基数，涅槃以4%为基数。",
+        "playerResponse": "保持全队持续治疗，进入涅槃后加强防护。",
+        "caution": "演出被异常中断后的恢复时机尚不明确。",
+        "actionSequence": [
+          {
+            "order": 1,
+            "action": "向所有敌人施加毁灭命运"
+          },
+          {
+            "order": 2,
+            "action": "每秒按目标最大HP造成伤害"
+          },
+          {
+            "order": 3,
+            "action": "涅槃状态下强化"
+          }
+        ],
+        "damageVariants": [
+          {
+            "label": "常态：最大生命值1%／秒",
+            "relation": "按当前状态选择",
+            "formula": "每轮伤害基数＝目标最大生命值×1%（向下取整，正常值至少1）",
+            "hitCount": null,
+            "confirmedTotalMultiplier": null,
+            "verdict": "dynamic-formula",
+            "evidenceStatus": "已核对"
+          },
+          {
+            "label": "涅槃：最大生命值4%／秒",
+            "relation": "按当前状态选择",
+            "formula": "每轮伤害基数＝目标最大生命值×4%（向下取整，正常值至少1）",
+            "hitCount": null,
+            "confirmedTotalMultiplier": null,
+            "verdict": "dynamic-formula",
+            "evidenceStatus": "已核对"
+          }
+        ],
+        "effects": [
+          {
+            "type": "持续伤害",
+            "name": "毁灭命运",
+            "description": "每秒的伤害基数为受影响单位最大生命值：常态1%，涅槃4%。大招进入特写演出时暂停扣血；演出正常结束后恢复后续结算，暂停期间跳过的伤害不会补扣。不是整个涅槃形态都停止扣血。演出被打断后的恢复时机仍未确认。",
+            "target": "我方全队",
+            "probabilityPercent": 100,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": "max-hp-percent",
+            "parameterPending": false,
+            "evidenceStatus": "部分待确认",
+            "phaseValues": [
+              {
+                "phase": "普通状态",
+                "value": 1
+              },
+              {
+                "phase": "涅槃状态",
+                "value": 4
+              }
+            ],
+            "tickDamage": {
+              "intervalSeconds": 1,
+              "basis": "target-max-hp",
+              "normalPercent": 1,
+              "nirvanaPercent": 4,
+              "totalTicks": null,
+              "confirmedTotalMultiplier": null
+            },
+            "runtimeReferences": {},
+            "effectKind": "status",
+            "statusUid": "496",
+            "statusKey": "kr:496",
+            "iconUrl": null,
+            "iconState": "no-independent-icon",
+            "nature": "debuff",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "team",
+            "skillId": "uros-doom",
+            "skillType": "mechanism"
+          }
+        ],
+        "units": [],
+        "evidenceStatus": "部分待确认",
+        "runtimeReferences": {},
+        "pauseRule": "持续伤害有独立的暂停条件，不等于量表锁定；完整暂停起止尚未确认。",
+        "detailNotes": [
+          {
+            "label": "大招特写",
+            "summary": "正常特写期间暂停扣血，结束后恢复；暂停期间跳过的伤害不会补扣。"
+          }
+        ]
+      },
+      {
+        "id": "uros-delayed-six",
+        "category": "boss-mechanic",
+        "title": "强化乌罗斯：涅槃追击",
+        "triggers": [
+          {
+            "type": "状态期间追击",
+            "summary": "进入涅槃或涅槃大招的动作会请求启动追击状态；状态启动时检查发动一次，之后按有效计时再次发动。",
+            "firstTriggerTimeSeconds": null,
+            "repeatIntervalSeconds": null,
+            "cooldownSeconds": null
+          }
+        ],
+        "guideTriggerSummary": "进入涅槃或释放涅槃大招时启动检查；条件允许就发动一组追击，之后每累计约14.8秒有效计时再次发动。指定动作会暂停并重置计时，不是开战后固定周期。",
+        "summary": "发出六道穿透追击，每次有效命中造成200%伤害；同一使徒的实际受击次数不固定。",
+        "playerResponse": "进入涅槃和涅槃大招期间就要留意追击；不要以为演出后固定等15秒才需要防守。",
+        "caution": "碰撞不保证造成伤害，死亡或等待复活等情况仍会跳过结算；特效循环不代表额外伤害。",
+        "actionSequence": [
+          {
+            "order": 1,
+            "action": "进入涅槃或释放涅槃大招",
+            "summary": "动作事件请求启动追击状态"
+          },
+          {
+            "order": 2,
+            "action": "启动时检查发动一组追击",
+            "summary": "仅在战斗、单位与动作条件允许时发动；不先固定等待14.8秒"
+          },
+          {
+            "order": 3,
+            "action": "按有效计时再次追击",
+            "summary": "累计约14.8秒后再次发动；指定动作暂停并清零，离开后重新计时"
+          }
+        ],
+        "damageVariants": [
+          {
+            "label": "每组追击",
+            "relation": "六道追击，实际伤害次数待确认",
+            "formula": "每次200%；总倍率随实际受击次数变化",
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 200,
+                "multiplierMax": 200,
+                "hitCount": null,
+                "subtotalMin": null,
+                "subtotalMax": null,
+                "eventTimes": []
+              }
+            ],
+            "hitCount": null,
+            "confirmedTotalMultiplier": null,
+            "verdict": "dynamic-formula",
+            "evidenceStatus": "部分待确认"
+          }
+        ],
+        "effects": [
+          {
+            "type": "造成伤害提升",
+            "name": "强化乌罗斯天赋增伤（说明名）",
+            "description": "该状态生效时，Boss造成的物理、魔法伤害修正增加75%，与其他增减伤共同计算。",
+            "target": "Boss自身",
+            "probabilityPercent": 100,
+            "durationSeconds": null,
+            "value": 75,
+            "valueUnit": "damage-dealt-modifier-percent",
+            "parameterPending": false,
+            "evidenceStatus": "部分待确认",
+            "durationLabel": "长期配置；实际启用和解除时机仍待确认",
+            "stacking": "每份有效修正+75%；重复施加规则尚未确认",
+            "runtimeReferences": {},
+            "effectKind": "status",
+            "statusUid": "153",
+            "statusKey": "kr:153",
+            "iconUrl": null,
+            "iconState": "no-independent-icon",
+            "nature": "buff",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "boss",
+            "skillId": "uros-delayed-six",
+            "skillType": "mechanism"
+          }
+        ],
+        "units": [],
+        "evidenceStatus": "部分待确认",
+        "runtimeReferences": {},
+        "triggerNotes": [
+          {
+            "label": "开始追击",
+            "summary": "进入涅槃或释放涅槃大招时启动，条件允许即可发动第一组追击。"
+          },
+          {
+            "label": "再次追击",
+            "summary": "之后累计约14.8秒有效计时可再发动；指定动作会暂停并重置计时。"
+          }
+        ]
+      }
+    ],
+    "units": [],
+    "playerAdvice": [
+      "观察Boss量表和发光演出；进入涅槃后，普通攻击、18秒/26秒特动及SP都会换成更强版本。",
+      "这是覆盖全场的持续伤害，进入涅槃后压力更高；需要预留治疗、护盾或减伤。",
+      "进入涅槃或释放涅槃大招时就要留意追击，及时准备防护；后续追击会受其他动作影响，不是固定等15秒才发动。"
+    ],
+    "unresolved": [
+      "普通攻击是否削减量表、退出变身时的完整保护时长及其他暂停条件尚不明确；退出后的易伤实际叠加上限与提前消失条件也未确定。",
+      "45秒大招被打断或取消后的后续伤害、收招方式尚不明确。",
+      "毁灭命运在大招演出正常结束后恢复扣血；演出被异常打断时是否恢复，以及其他暂停条件尚不明确。",
+      "涅槃追击是否每轮重新选择目标、同时存在多少弹体、单人最终被命中几次，以及提前结束和重新启用条件尚不明确，不标固定整招伤害。"
+    ],
+    "presentationRules": {
+      "rawEntryCount": 26,
+      "playerAttackGroupCount": 7,
+      "playerMechanismCount": 3,
+      "rawSkillEntriesRendered": false,
+      "internalUidsVisibleToPlayer": false
+    },
+    "runtimeReferences": {},
+    "skillOrder": [
+      {
+        "type": "attack",
+        "id": "uros-normal",
+        "category": "normal"
+      },
+      {
+        "type": "attack",
+        "id": "uros-enhanced",
+        "category": "enhanced"
+      },
+      {
+        "type": "attack",
+        "id": "uros-sp",
+        "category": "sp"
+      },
+      {
+        "type": "attack",
+        "id": "uros-time-18",
+        "category": "time-trigger"
+      },
+      {
+        "type": "attack",
+        "id": "uros-time-26",
+        "category": "time-trigger"
+      },
+      {
+        "type": "attack",
+        "id": "uros-time-45",
+        "category": "time-trigger"
+      },
+      {
+        "type": "attack",
+        "id": "uros-time-50",
+        "category": "time-trigger"
+      },
+      {
+        "type": "mechanism",
+        "id": "uros-delayed-six",
+        "category": "conditional"
+      },
+      {
+        "type": "mechanism",
+        "id": "uros-gauge",
+        "category": "phase-form"
+      }
+    ]
+  },
+  "runtimeReferences": {},
+  "encounterOrder": 7,
+  "directoryAppearances": [
+    {
+      "configurationId": "1531",
+      "configurationLabel": "Boss大关 1531",
+      "configurationOrder": 1531,
+      "worldInfoUid": 1531,
+      "stageUid": "15310134",
+      "stageOrder": 13,
+      "stageName": "[마그맛1] 침식되는 시공간",
+      "hpBarCount": 6
+    },
+    {
+      "configurationId": "1531",
+      "configurationLabel": "Boss大关 1531",
+      "configurationOrder": 1531,
+      "worldInfoUid": 1531,
+      "stageUid": "15310144",
+      "stageOrder": 14,
+      "stageName": "[마그맛2] 부식중인 시공간",
+      "hpBarCount": 6
+    }
+  ]
+}

@@ -1,0 +1,1283 @@
+{
+  "schemaVersion": 8,
+  "server": "kr",
+  "dataDate": "2026-08-27",
+  "routeKey": "kr:dimensional-clash-1:60834",
+  "mode": "次元大冲突1.0",
+  "modeCode": 8,
+  "modeKey": "dimensional-clash-1",
+  "identity": {
+    "uid": "60834",
+    "name": "고모구지 - 우울",
+    "displayName": null,
+    "displayNameKind": null,
+    "role": "boss",
+    "context": "Boss索引对象",
+    "spine": "OldTree",
+    "personalityCode": 4,
+    "personality": "우울",
+    "attackTypeCode": 1,
+    "attackType": "物理",
+    "iconKey": "Icon_OldTreeGloomy",
+    "spineSkinName": null,
+    "spineDefaultAnimation": null,
+    "spineActionSuffix": null,
+    "officialTable": "MonsterInfo",
+    "lifecycle": null,
+    "runtimeReferences": {},
+    "iconUrl": "/boss-wiki/kr/2026-08-27/mature/icons/dimensional-clash-1/60834.png",
+    "iconSourceType": "MonsterInfo.Icon官方PNG"
+  },
+  "runtimeMonsterUids": [
+    "60834"
+  ],
+  "bossName": "고모구지 - 우울",
+  "familyKey": "oldtree",
+  "familyOrder": 801007,
+  "variantOrder": 3,
+  "firstFormalAppearance": {
+    "worldInfoUid": 804,
+    "stageOrder": 7,
+    "stageUid": "8040070"
+  },
+  "stageRecords": [
+    {
+      "stageUid": "8040070",
+      "name": "우울한 차원: 제 7구역",
+      "world": "차원 대충돌",
+      "worldInfoUid": 804,
+      "stageOrder": 7,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 330,
+          "growthTimes": 329,
+          "attributes": {
+            "hp": 5185796.4,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 11634,
+            "magicAttack": 0,
+            "physicalDefense": 7645,
+            "magicDefense": 7645,
+            "criticalRate": 4655,
+            "criticalMultiplier": 4655,
+            "criticalResist": 4655,
+            "criticalMultiplierResist": 4655,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 114
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 8000,
+              "percent": 80
+            },
+            "AttackPhysicPercent": {
+              "raw": 7500,
+              "percent": 75
+            },
+            "AttackMagicPercent": {
+              "raw": 7500,
+              "percent": 75
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "8040190",
+      "name": "우울한 차원: 제 19구역",
+      "world": "차원 대충돌",
+      "worldInfoUid": 804,
+      "stageOrder": 19,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 5700,
+          "growthTimes": 5699,
+          "attributes": {
+            "hp": 568362062,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 1211760,
+            "magicAttack": 0,
+            "physicalDefense": 131155,
+            "magicDefense": 131155,
+            "criticalRate": 79835,
+            "criticalMultiplier": 79835,
+            "criticalResist": 79835,
+            "criticalMultiplierResist": 79835,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 114
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 105000,
+              "percent": 1050
+            },
+            "AttackPhysicPercent": {
+              "raw": 96250,
+              "percent": 962.5
+            },
+            "AttackMagicPercent": {
+              "raw": 96250,
+              "percent": 962.5
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "8240070",
+      "name": "우울한 차원: 제 7구역",
+      "world": "차원 대충돌",
+      "worldInfoUid": 824,
+      "stageOrder": 7,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 330,
+          "growthTimes": 329,
+          "attributes": {
+            "hp": 5185796.4,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 11634,
+            "magicAttack": 0,
+            "physicalDefense": 7645,
+            "magicDefense": 7645,
+            "criticalRate": 4655,
+            "criticalMultiplier": 4655,
+            "criticalResist": 4655,
+            "criticalMultiplierResist": 4655,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 114
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 8000,
+              "percent": 80
+            },
+            "AttackPhysicPercent": {
+              "raw": 7500,
+              "percent": 75
+            },
+            "AttackMagicPercent": {
+              "raw": 7500,
+              "percent": 75
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "8240190",
+      "name": "우울한 차원: 제 19구역",
+      "world": "차원 대충돌",
+      "worldInfoUid": 824,
+      "stageOrder": 19,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 5700,
+          "growthTimes": 5699,
+          "attributes": {
+            "hp": 568362062,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 1211760,
+            "magicAttack": 0,
+            "physicalDefense": 131155,
+            "magicDefense": 131155,
+            "criticalRate": 79835,
+            "criticalMultiplier": 79835,
+            "criticalResist": 79835,
+            "criticalMultiplierResist": 79835,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 114
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 105000,
+              "percent": 1050
+            },
+            "AttackPhysicPercent": {
+              "raw": 96250,
+              "percent": 962.5
+            },
+            "AttackMagicPercent": {
+              "raw": 96250,
+              "percent": 962.5
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    }
+  ],
+  "stageRosters": [
+    {
+      "stageUid": "8040070",
+      "stage": "우울한 차원: 제 7구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 101,
+          "units": [
+            {
+              "uid": "60834",
+              "name": "고모구지 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "8040190",
+      "stage": "우울한 차원: 제 19구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 101,
+          "units": [
+            {
+              "uid": "60834",
+              "name": "고모구지 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "8240070",
+      "stage": "우울한 차원: 제 7구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 101,
+          "units": [
+            {
+              "uid": "60834",
+              "name": "고모구지 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "8240190",
+      "stage": "우울한 차원: 제 19구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 101,
+          "units": [
+            {
+              "uid": "60834",
+              "name": "고모구지 - 우울",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "OldTree",
+              "personalityCode": 4,
+              "personality": "우울",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_OldTreeGloomy",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "encounterGuide": {
+    "status": "已核对",
+    "battleTimeLimitSeconds": [
+      180
+    ],
+    "battleTimeline": [
+      {
+        "atSeconds": null,
+        "condition": "SP蓄满后释放",
+        "repeatIntervalSeconds": null,
+        "phase": "全阶段",
+        "event": "SP技能：强力投掷",
+        "category": "sp",
+        "targetType": "attack",
+        "targetId": "oldtree-60834-sp",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      }
+    ],
+    "phases": [],
+    "attacks": [
+      {
+        "id": "oldtree-60834-normal",
+        "category": "normal",
+        "title": "普通攻击",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "无",
+          "summary": "按普通攻击循环使用",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "单次物理伤害",
+            "actionSequence": [
+              {
+                "action": "向前方目标投掷树果",
+                "spineAnimation": "Attack1_1_Gloomy",
+                "eventTimes": [
+                  0.633333
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 100,
+                "multiplierMax": 100,
+                "hitCount": 1,
+                "subtotalMin": 100,
+                "subtotalMax": 100,
+                "eventTimes": [
+                  0.633333
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 100,
+              "max": 100
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "6083401"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "oldtree-60834-normal",
+            "label": "普通攻击",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0.633333,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Attack1_1_Gloomy"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "100% × 1＝100%",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.633333
+              ]
+            }
+          ],
+          "hitCount": 1,
+          "confirmedTotalMultiplier": {
+            "min": 100,
+            "max": 100
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [],
+        "confirmedTotalMultiplier": {
+          "min": 100,
+          "max": 100
+        },
+        "hitCount": 1,
+        "playerResult": "向前方目标投掷树果，命中1次，造成100%物理伤害。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 10
+      },
+      {
+        "id": "oldtree-60834-sp",
+        "category": "sp",
+        "title": "SP技能：强力投掷",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "SP",
+          "summary": "SP蓄满后释放",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [
+            200
+          ],
+          "spRecoveryValues": [
+            8
+          ],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "单次物理伤害",
+            "actionSequence": [
+              {
+                "action": "准备后投出更强的树果",
+                "spineAnimation": "Skill1_1_Gloomy",
+                "eventTimes": [
+                  0.966667
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 450,
+                "multiplierMax": 450,
+                "hitCount": 1,
+                "subtotalMin": 450,
+                "subtotalMax": 450,
+                "eventTimes": [
+                  0.966667
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 450,
+              "max": 450
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "6083402"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "oldtree-60834-sp",
+            "label": "强力投掷",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0.966667,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 0.1,
+                "type": "effect",
+                "label": "准备特效"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill1_1_Gloomy"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "450% × 1＝450%",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 450,
+              "multiplierMax": 450,
+              "hitCount": 1,
+              "subtotalMin": 450,
+              "subtotalMax": 450,
+              "eventTimes": [
+                0.966667
+              ]
+            }
+          ],
+          "hitCount": 1,
+          "confirmedTotalMultiplier": {
+            "min": 450,
+            "max": 450
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [],
+        "confirmedTotalMultiplier": {
+          "min": 450,
+          "max": 450
+        },
+        "hitCount": 1,
+        "playerResult": "短暂准备后投出强力树果，命中1次，造成450%物理伤害；起手亮光只是准备特效。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 30
+      }
+    ],
+    "mechanisms": [],
+    "units": [],
+    "playerAdvice": [
+      "SP起手亮光不造成伤害，真正伤害只在树果命中时结算1次。"
+    ],
+    "unresolved": [],
+    "presentationRules": {
+      "rawEntryCount": 2,
+      "playerAttackGroupCount": 2,
+      "playerMechanismCount": 0,
+      "rawSkillEntriesRendered": false,
+      "internalUidsVisibleToPlayer": false
+    },
+    "runtimeReferences": {},
+    "skillOrder": [
+      {
+        "type": "attack",
+        "id": "oldtree-60834-normal",
+        "category": "normal"
+      },
+      {
+        "type": "attack",
+        "id": "oldtree-60834-sp",
+        "category": "sp"
+      }
+    ]
+  },
+  "runtimeReferences": {},
+  "encounterOrder": 32,
+  "directoryAppearances": [
+    {
+      "configurationId": "4",
+      "configurationLabel": "官方配置 #4",
+      "configurationOrder": 4,
+      "soloRaidInfoUid": 4,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 804,
+      "stageUid": "8040070",
+      "stageOrder": 7,
+      "stageName": "우울한 차원: 제 7구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "4",
+      "configurationLabel": "官方配置 #4",
+      "configurationOrder": 4,
+      "soloRaidInfoUid": 4,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 804,
+      "stageUid": "8040190",
+      "stageOrder": 19,
+      "stageName": "우울한 차원: 제 19구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "9",
+      "configurationLabel": "官方配置 #9",
+      "configurationOrder": 9,
+      "soloRaidInfoUid": 9,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 804,
+      "stageUid": "8040070",
+      "stageOrder": 7,
+      "stageName": "우울한 차원: 제 7구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "9",
+      "configurationLabel": "官方配置 #9",
+      "configurationOrder": 9,
+      "soloRaidInfoUid": 9,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 804,
+      "stageUid": "8040190",
+      "stageOrder": 19,
+      "stageName": "우울한 차원: 제 19구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "16",
+      "configurationLabel": "官方配置 #16",
+      "configurationOrder": 16,
+      "soloRaidInfoUid": 16,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 804,
+      "stageUid": "8040070",
+      "stageOrder": 7,
+      "stageName": "우울한 차원: 제 7구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "16",
+      "configurationLabel": "官方配置 #16",
+      "configurationOrder": 16,
+      "soloRaidInfoUid": 16,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 804,
+      "stageUid": "8040190",
+      "stageOrder": 19,
+      "stageName": "우울한 차원: 제 19구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "23",
+      "configurationLabel": "官方配置 #23",
+      "configurationOrder": 23,
+      "soloRaidInfoUid": 23,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 804,
+      "stageUid": "8040070",
+      "stageOrder": 7,
+      "stageName": "우울한 차원: 제 7구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "23",
+      "configurationLabel": "官方配置 #23",
+      "configurationOrder": 23,
+      "soloRaidInfoUid": 23,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 804,
+      "stageUid": "8040190",
+      "stageOrder": 19,
+      "stageName": "우울한 차원: 제 19구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "32",
+      "configurationLabel": "官方配置 #32",
+      "configurationOrder": 32,
+      "soloRaidInfoUid": 32,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 804,
+      "stageUid": "8040070",
+      "stageOrder": 7,
+      "stageName": "우울한 차원: 제 7구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "32",
+      "configurationLabel": "官方配置 #32",
+      "configurationOrder": 32,
+      "soloRaidInfoUid": 32,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 804,
+      "stageUid": "8040190",
+      "stageOrder": 19,
+      "stageName": "우울한 차원: 제 19구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "40",
+      "configurationLabel": "官方配置 #40",
+      "configurationOrder": 40,
+      "soloRaidInfoUid": 40,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 804,
+      "stageUid": "8040070",
+      "stageOrder": 7,
+      "stageName": "우울한 차원: 제 7구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "40",
+      "configurationLabel": "官方配置 #40",
+      "configurationOrder": 40,
+      "soloRaidInfoUid": 40,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 804,
+      "stageUid": "8040190",
+      "stageOrder": 19,
+      "stageName": "우울한 차원: 제 19구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "53",
+      "configurationLabel": "官方配置 #53",
+      "configurationOrder": 53,
+      "soloRaidInfoUid": 53,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 804,
+      "stageUid": "8040070",
+      "stageOrder": 7,
+      "stageName": "우울한 차원: 제 7구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "53",
+      "configurationLabel": "官方配置 #53",
+      "configurationOrder": 53,
+      "soloRaidInfoUid": 53,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 804,
+      "stageUid": "8040190",
+      "stageOrder": 19,
+      "stageName": "우울한 차원: 제 19구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "57",
+      "configurationLabel": "官方配置 #57",
+      "configurationOrder": 57,
+      "soloRaidInfoUid": 57,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 804,
+      "stageUid": "8040070",
+      "stageOrder": 7,
+      "stageName": "우울한 차원: 제 7구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "57",
+      "configurationLabel": "官方配置 #57",
+      "configurationOrder": 57,
+      "soloRaidInfoUid": 57,
+      "configurationTargetPersonalityCode": 0,
+      "configurationTargetPersonality": "None",
+      "sourceIsDeleted": false,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 804,
+      "stageUid": "8040190",
+      "stageOrder": 19,
+      "stageName": "우울한 차원: 제 19구역",
+      "hpBarCount": null
+    }
+  ]
+}

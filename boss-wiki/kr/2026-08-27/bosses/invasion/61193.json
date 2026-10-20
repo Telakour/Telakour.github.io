@@ -1,0 +1,477 @@
+{
+  "schemaVersion": 3,
+  "server": "kr",
+  "dataVersion": "2026-08-27",
+  "routeKey": "kr:invasion:61193",
+  "mode": "侵略",
+  "modeKey": "invasion",
+  "monsterUid": "61193",
+  "bossName": "동석 - 활발",
+  "personality": "활발",
+  "attackType": "官方未注明",
+  "spineKey": "Golem",
+  "spineSkinName": "Skin_Jolly",
+  "iconUrl": "/boss-wiki/kr/2026-08-27/icons/dimensional-clash-2/161194.png",
+  "difficultyCodes": [
+    1,
+    2,
+    3
+  ],
+  "stages": [
+    {
+      "rowKey": "invasion:1:1270051:61193:0",
+      "monsterUid": "61193",
+      "bossName": "동석 - 활발",
+      "personality": "활발",
+      "attackType": "官方未注明",
+      "difficultyCode": 1,
+      "worldName": "유기농 영농 후계자 전설",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "쑥쑥! 성장 영양제 투여하기",
+      "官方关卡名": "유기농 영농 후계자 전설",
+      "波次/档位": 5,
+      "等级": "Lv.1871",
+      "数值口径": "最终阶段属性",
+      "HP": 2648255.6,
+      "物理攻击": 13114,
+      "魔法攻击": 0,
+      "物理防御": 71190,
+      "魔法防御": 26229,
+      "暴击": 26229,
+      "暴击伤害": 26229,
+      "暴击抵抗": 26229,
+      "暴伤抵抗": 26229,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +210% · 最终物理伤害 +20% · 最终魔法伤害 +20%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1270051"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1270052:61193:0",
+      "monsterUid": "61193",
+      "bossName": "동석 - 활발",
+      "personality": "활발",
+      "attackType": "官方未注明",
+      "difficultyCode": 2,
+      "worldName": "유기농 영농 후계자 전설",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "쑥쑥! 성장 영양제 투여하기",
+      "官方关卡名": "유기농 영농 후계자 전설",
+      "波次/档位": 5,
+      "等级": "Lv.7564",
+      "数值口径": "最终阶段属性",
+      "HP": 48303976,
+      "物理攻击": 52965,
+      "魔法攻击": 0,
+      "物理防御": 287524,
+      "魔法防御": 105931,
+      "暴击": 105931,
+      "暴击伤害": 105931,
+      "暴击抵抗": 105931,
+      "暴伤抵抗": 105931,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +1300% · 最终物理伤害 +260% · 最终魔法伤害 +260%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1270052"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1270053:61193:0",
+      "monsterUid": "61193",
+      "bossName": "동석 - 활발",
+      "personality": "활발",
+      "attackType": "官方未注明",
+      "difficultyCode": 3,
+      "worldName": "유기농 영농 후계자 전설",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "쑥쑥! 성장 영양제 투여하기",
+      "官方关卡名": "유기농 영농 후계자 전설",
+      "波次/档位": 5,
+      "等级": "Lv.13163",
+      "数值口径": "最终阶段属性",
+      "HP": 108061704,
+      "物理攻击": 92158,
+      "魔法攻击": 0,
+      "物理防御": 500286,
+      "魔法防御": 184317,
+      "暴击": 184317,
+      "暴击伤害": 184317,
+      "暴击抵抗": 184317,
+      "暴伤抵抗": 184317,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +1700% · 最终物理伤害 +425% · 最终魔法伤害 +425%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1270053"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1270101:61193:0",
+      "monsterUid": "61193",
+      "bossName": "동석 - 활발",
+      "personality": "활발",
+      "attackType": "官方未注明",
+      "difficultyCode": 1,
+      "worldName": "유기농 영농 후계자 전설",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "수확은 대풍, 수익은 대흉!",
+      "官方关卡名": "유기농 영농 후계자 전설",
+      "波次/档位": 10,
+      "等级": "Lv.1973",
+      "数值口径": "最终阶段属性",
+      "HP": 2972600.4,
+      "物理攻击": 13828,
+      "魔法攻击": 0,
+      "物理防御": 75066,
+      "魔法防御": 27657,
+      "暴击": 27657,
+      "暴击伤害": 27657,
+      "暴击抵抗": 27657,
+      "暴伤抵抗": 27657,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +230% · 最终物理伤害 +40% · 最终魔法伤害 +40%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1270101"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1270102:61193:0",
+      "monsterUid": "61193",
+      "bossName": "동석 - 활발",
+      "personality": "활발",
+      "attackType": "官方未注明",
+      "difficultyCode": 2,
+      "worldName": "유기농 영농 후계자 전설",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "수확은 대풍, 수익은 대흉!",
+      "官方关卡名": "유기농 영농 후계자 전설",
+      "波次/档位": 10,
+      "等级": "Lv.8262",
+      "数值口径": "最终阶段属性",
+      "HP": 64065724,
+      "物理攻击": 57851,
+      "魔法攻击": 0,
+      "物理防御": 314048,
+      "魔法防御": 115703,
+      "暴击": 115703,
+      "暴击伤害": 115703,
+      "暴击抵抗": 115703,
+      "暴伤抵抗": 115703,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +1600% · 最终物理伤害 +320% · 最终魔法伤害 +320%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1270102"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1270103:61193:0",
+      "monsterUid": "61193",
+      "bossName": "동석 - 활발",
+      "personality": "활발",
+      "attackType": "官方未注明",
+      "difficultyCode": 3,
+      "worldName": "유기농 영농 후계자 전설",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "수확은 대풍, 수익은 대흉!",
+      "官方关卡名": "유기농 영농 후계자 전설",
+      "波次/档位": 10,
+      "等级": "Lv.14508",
+      "数值口径": "最终阶段属性",
+      "HP": 152185204,
+      "物理攻击": 101573,
+      "魔法攻击": 0,
+      "物理防御": 551396,
+      "魔法防御": 203147,
+      "暴击": 203147,
+      "暴击伤害": 203147,
+      "暴击抵抗": 203147,
+      "暴伤抵抗": 203147,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +2200% · 最终物理伤害 +660% · 最终魔法伤害 +660%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1270103"
+      }
+    }
+  ],
+  "skills": [],
+  "guideSkills": [
+    {
+      "id": "6119301",
+      "sourceOrder": 0,
+      "displayName": "일반공격",
+      "presentationLabel": null,
+      "nameKind": "官方技能名",
+      "skillType": "普通攻击",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          6
+        ]
+      },
+      "range": null,
+      "verdict": "segment-only",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "造成伤害",
+          "spineAnimation": "Attack1_1_Jolly",
+          "relation": "执行关系待确认",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.8
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        },
+        {
+          "order": null,
+          "action": "造成伤害",
+          "spineAnimation": "Skill1_1_Jolly",
+          "relation": "执行关系待确认",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.666667
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "Attack1_1_Jolly",
+          "spineAnimation": "Attack1_1_Jolly",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.8
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 100,
+          "confirmedSegmentTotalMax": 100,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": []
+        },
+        {
+          "order": 2,
+          "action": "Skill1_1_Jolly",
+          "spineAnimation": "Skill1_1_Jolly",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.666667
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 100,
+          "confirmedSegmentTotalMax": 100,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": []
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "动作内倍率和次数可确认；完整动作集合或运行入口尚未唯一闭合。",
+      "evidenceStatus": "官方单段倍率与动作内次数已确认；完整动作关系未闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "6119302",
+      "sourceOrder": 1,
+      "displayName": "物理伤害承受降低（Skill1_1_Jolly）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          6
+        ]
+      },
+      "range": null,
+      "verdict": "no-damage",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "物理伤害承受降低",
+          "spineAnimation": "Skill1_1_Jolly",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.666667
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [],
+      "effectGroups": {
+        "buffs": [
+          {
+            "nameKo": null,
+            "fallbackLabel": "物理伤害承受降低",
+            "descriptionKo": null,
+            "relation": null,
+            "relationDepth": null,
+            "category": "buff",
+            "uid": null,
+            "nameKey": null,
+            "iconUrl": null,
+            "catalogMatch": "not-found",
+            "probabilityPercent": null,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": true,
+            "classificationEvidence": null
+          }
+        ],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "降低受到的物理伤害",
+          "note": "降低受到的物理伤害；数值按官方参数保留。",
+          "action": "降低受到的物理伤害"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "官方字段和客户端结算共同确认该技能没有直接正伤害。",
+      "evidenceStatus": "官方字段与客户端结算共同确认无直接正伤害",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    }
+  ],
+  "internalComponents": [],
+  "spineResources": [
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack1_1_Jolly",
+      "直接连接的技能效果": "6119301",
+      "触发时间": "0.8s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_1_Jolly",
+      "直接连接的技能效果": "6119301, 6119302",
+      "触发时间": "0.666667s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    }
+  ],
+  "guideReference": null,
+  "runtimeReferences": {}
+}

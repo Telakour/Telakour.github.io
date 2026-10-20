@@ -1,0 +1,346 @@
+{
+  "schemaVersion": 3,
+  "server": "kr",
+  "dataVersion": "2026-08-27",
+  "routeKey": "kr:invasion:61153",
+  "mode": "侵略",
+  "modeKey": "invasion",
+  "monsterUid": "61153",
+  "bossName": "목도룡 - 냉정",
+  "personality": "냉정",
+  "attackType": "官方未注明",
+  "spineKey": "Hatchling",
+  "spineSkinName": "Skin_Cool",
+  "iconUrl": null,
+  "difficultyCodes": [
+    1,
+    2,
+    3
+  ],
+  "stages": [
+    {
+      "rowKey": "invasion:1:1030101:61153:0",
+      "monsterUid": "61153",
+      "bossName": "목도룡 - 냉정",
+      "personality": "냉정",
+      "attackType": "官方未注明",
+      "difficultyCode": 1,
+      "worldName": "베이커 골목의 비극!",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "폭주하는 여왕!",
+      "官方关卡名": "베이커 골목의 비극!",
+      "波次/档位": 10,
+      "等级": "Lv.32",
+      "数值口径": "最终阶段属性",
+      "HP": 7846,
+      "物理攻击": 0,
+      "魔法攻击": 483,
+      "物理防御": 825,
+      "魔法防御": 825,
+      "暴击": 483,
+      "暴击伤害": 688,
+      "暴击抵抗": 380,
+      "暴伤抵抗": 0,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 95,
+      "属性加成与特殊说明": "暴伤抵抗 -100%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1030101"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1030102:61153:0",
+      "monsterUid": "61153",
+      "bossName": "목도룡 - 냉정",
+      "personality": "냉정",
+      "attackType": "官方未注明",
+      "difficultyCode": 2,
+      "worldName": "베이커 골목의 비극!",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "폭주하는 여왕!",
+      "官方关卡名": "베이커 골목의 비극!",
+      "波次/档位": 10,
+      "等级": "Lv.167",
+      "数值口径": "最终阶段属性",
+      "HP": 38626,
+      "物理攻击": 0,
+      "魔法攻击": 2373,
+      "物理防御": 4065,
+      "魔法防御": 4065,
+      "暴击": 2373,
+      "暴击伤害": 3388,
+      "暴击抵抗": 1865,
+      "暴伤抵抗": 0,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 95,
+      "属性加成与特殊说明": "暴伤抵抗 -100%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1030102"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1030103:61153:0",
+      "monsterUid": "61153",
+      "bossName": "목도룡 - 냉정",
+      "personality": "냉정",
+      "attackType": "官方未注明",
+      "difficultyCode": 3,
+      "worldName": "베이커 골목의 비극!",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "폭주하는 여왕!",
+      "官方关卡名": "베이커 골목의 비극!",
+      "波次/档位": 10,
+      "等级": "Lv.462",
+      "数值口径": "最终阶段属性",
+      "HP": 105886,
+      "物理攻击": 0,
+      "魔法攻击": 6503,
+      "物理防御": 11145,
+      "魔法防御": 11145,
+      "暴击": 6503,
+      "暴击伤害": 9288,
+      "暴击抵抗": 5110,
+      "暴伤抵抗": 0,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 95,
+      "属性加成与特殊说明": "暴伤抵抗 -100%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1030103"
+      }
+    }
+  ],
+  "skills": [],
+  "guideSkills": [
+    {
+      "id": "6115301",
+      "sourceOrder": 0,
+      "displayName": "일반공격",
+      "presentationLabel": null,
+      "nameKind": "官方技能名",
+      "skillType": "普通攻击",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          42
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 100,
+        "max": 100,
+        "displayMin": 100,
+        "displayMax": 100,
+        "hitCount": 1,
+        "formula": "Attack1_1_Cool 100%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Attack1_1_Cool",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.5
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "Attack1_1_Cool",
+          "spineAnimation": "Attack1_1_Cool",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.5
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 100,
+          "confirmedSegmentTotalMax": 100,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": []
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "执行特殊机制",
+          "note": "处理器语义待确认",
+          "action": "执行特殊机制"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "6115302",
+      "sourceOrder": 1,
+      "displayName": "1次伤害结算（Skill1_1_Cool）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          42
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 650,
+        "max": 650,
+        "displayMin": 650,
+        "displayMax": 650,
+        "hitCount": 1,
+        "formula": "Skill1_1_Cool 650%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Skill1_1_Cool",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.5
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "Skill1_1_Cool",
+          "spineAnimation": "Skill1_1_Cool",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 650,
+              "multiplierMax": 650,
+              "hitCount": 1,
+              "subtotalMin": 650,
+              "subtotalMax": 650,
+              "eventTimes": [
+                0.5
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 650,
+          "confirmedSegmentTotalMax": 650,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": []
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "执行特殊机制",
+          "note": "处理器语义待确认",
+          "action": "执行特殊机制"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    }
+  ],
+  "internalComponents": [],
+  "spineResources": [
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack1_1_Cool",
+      "直接连接的技能效果": "6115301",
+      "触发时间": "0.5s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_1_Cool",
+      "直接连接的技能效果": "6115302",
+      "触发时间": "0.5s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    }
+  ],
+  "guideReference": null,
+  "runtimeReferences": {}
+}

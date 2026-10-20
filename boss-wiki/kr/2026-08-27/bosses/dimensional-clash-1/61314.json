@@ -1,0 +1,458 @@
+{
+  "schemaVersion": 3,
+  "server": "kr",
+  "dataVersion": "2026-08-27",
+  "routeKey": "kr:dimensional-clash-1:61314",
+  "mode": "次元大冲突1.0",
+  "modeKey": "dimensional-clash-1",
+  "monsterUid": "61314",
+  "bossName": "길어용 - 순수",
+  "personality": "순수",
+  "attackType": "魔法",
+  "spineKey": "Imoogi",
+  "spineSkinName": "Skin_Naive",
+  "iconUrl": "/boss-wiki/kr/2026-08-27/icons/dimensional-clash-1/61314.png",
+  "difficultyCodes": [
+    0
+  ],
+  "stages": [
+    {
+      "rowKey": "dimensional-clash-1:8:8050100:61314:0",
+      "monsterUid": "61314",
+      "bossName": "길어용 - 순수",
+      "personality": "순수",
+      "attackType": "魔法",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "순수한 차원: 제 10구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 10,
+      "等级": "Lv.555",
+      "数值口径": "最终阶段属性",
+      "HP": 12077958,
+      "物理攻击": 0,
+      "魔法攻击": 22296,
+      "物理防御": 16164,
+      "魔法防御": 16164,
+      "暴击": 7805,
+      "暴击伤害": 7805,
+      "暴击抵抗": 7805,
+      "暴伤抵抗": 7805,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 95,
+      "属性加成与特殊说明": "HP +100% · 物攻 +100% · 魔攻 +100% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8050100"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-1:8:8050220:61314:0",
+      "monsterUid": "61314",
+      "bossName": "길어용 - 순수",
+      "personality": "순수",
+      "attackType": "魔法",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 22,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "순수한 차원: 제 22구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 22,
+      "等级": "Lv.8250",
+      "数值口径": "最终阶段属性",
+      "HP": 1698725571,
+      "物理攻击": 0,
+      "魔法攻击": 1947566.4,
+      "物理防御": 239319,
+      "魔法防御": 239319,
+      "暴击": 115535,
+      "暴击伤害": 115535,
+      "暴击抵抗": 115535,
+      "暴伤抵抗": 115535,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 95,
+      "属性加成与特殊说明": "HP +1800% · 物攻 +1080% · 魔攻 +1080% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8050220"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-1:8:8250100:61314:0",
+      "monsterUid": "61314",
+      "bossName": "길어용 - 순수",
+      "personality": "순수",
+      "attackType": "魔法",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "순수한 차원: 제 10구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 10,
+      "等级": "Lv.555",
+      "数值口径": "最终阶段属性",
+      "HP": 12077958,
+      "物理攻击": 0,
+      "魔法攻击": 22296,
+      "物理防御": 16164,
+      "魔法防御": 16164,
+      "暴击": 7805,
+      "暴击伤害": 7805,
+      "暴击抵抗": 7805,
+      "暴伤抵抗": 7805,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 95,
+      "属性加成与特殊说明": "HP +100% · 物攻 +100% · 魔攻 +100% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8250100"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-1:8:8250220:61314:0",
+      "monsterUid": "61314",
+      "bossName": "길어용 - 순수",
+      "personality": "순수",
+      "attackType": "魔法",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 22,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "순수한 차원: 제 22구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 22,
+      "等级": "Lv.8250",
+      "数值口径": "最终阶段属性",
+      "HP": 1698725571,
+      "物理攻击": 0,
+      "魔法攻击": 1947566.4,
+      "物理防御": 239319,
+      "魔法防御": 239319,
+      "暴击": 115535,
+      "暴击伤害": 115535,
+      "暴击抵抗": 115535,
+      "暴伤抵抗": 115535,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 95,
+      "属性加成与特殊说明": "HP +1800% · 物攻 +1080% · 魔攻 +1080% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8250220"
+      }
+    }
+  ],
+  "skills": [],
+  "guideSkills": [
+    {
+      "id": "6131401",
+      "sourceOrder": 0,
+      "displayName": "일반공격",
+      "presentationLabel": null,
+      "nameKind": "官方技能名",
+      "skillType": "普通攻击",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          10
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 160,
+        "max": 160,
+        "displayMin": 160,
+        "displayMax": 160,
+        "hitCount": 1,
+        "formula": "Attack1_1_Naive 160%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Attack1_1_Naive",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.466667
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Attack1"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Imoogi_Proj_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Espi_Hit_1"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "普通攻击动作",
+          "spineAnimation": "Attack1_1_Naive",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 160,
+              "multiplierMax": 160,
+              "hitCount": 1,
+              "subtotalMin": 160,
+              "subtotalMax": 160,
+              "eventTimes": [
+                0.466667
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 160,
+          "confirmedSegmentTotalMax": 160,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Attack1"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_Imoogi_Proj_1"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Espi_Hit_1"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "6131402",
+      "sourceOrder": 1,
+      "displayName": "5次伤害结算（Skill1_1_Naive）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          10
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 540.000008046625,
+        "max": 540.000008046625,
+        "displayMin": 540.000008046625,
+        "displayMax": 540.000008046625,
+        "hitCount": 5,
+        "formula": "Skill1_1_Naive 540.000008046625%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Skill1_1_Naive",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 5,
+          "effectTriggerCount": 5,
+          "eventTimes": [
+            1.1,
+            1.233333,
+            1.366667,
+            1.5,
+            1.633333
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill1"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Empty"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Espi_Hit_1"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "技能动作 1",
+          "spineAnimation": "Skill1_1_Naive",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 108.000001609325,
+              "multiplierMax": 108.000001609325,
+              "hitCount": 5,
+              "subtotalMin": 540.000008046625,
+              "subtotalMax": 540.000008046625,
+              "eventTimes": [
+                1.1,
+                1.233333,
+                1.366667,
+                1.5,
+                1.633333
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 540.000008046625,
+          "confirmedSegmentTotalMax": 540.000008046625,
+          "confirmedDamageHitCount": 5,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Skill1"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_Empty"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Espi_Hit_1"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    }
+  ],
+  "internalComponents": [],
+  "spineResources": [
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack1_1_Naive",
+      "直接连接的技能效果": "6131401",
+      "触发时间": "0.466667s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_1_Naive",
+      "直接连接的技能效果": "6131402",
+      "触发时间": "1.1s / 1.233333s / 1.366667s / 1.5s / 1.633333s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    }
+  ],
+  "guideReference": null,
+  "runtimeReferences": {}
+}

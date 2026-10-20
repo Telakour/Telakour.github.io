@@ -1,0 +1,334 @@
+{
+  "schemaVersion": 3,
+  "server": "kr",
+  "dataVersion": "2026-08-27",
+  "routeKey": "kr:invasion:61163",
+  "mode": "侵略",
+  "modeKey": "invasion",
+  "monsterUid": "61163",
+  "bossName": "동석 - 순수",
+  "personality": "순수",
+  "attackType": "官方未注明",
+  "spineKey": "Golem",
+  "spineSkinName": "Skin_Naive",
+  "iconUrl": null,
+  "difficultyCodes": [
+    1,
+    2,
+    3
+  ],
+  "stages": [
+    {
+      "rowKey": "invasion:1:1190101:61163:0",
+      "monsterUid": "61163",
+      "bossName": "동석 - 순수",
+      "personality": "순수",
+      "attackType": "官方未注明",
+      "difficultyCode": 1,
+      "worldName": "오싹한 복도의 면담",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "오늘 저녁은 회식!",
+      "官方关卡名": "오싹한 복도의 면담",
+      "波次/档位": 10,
+      "等级": "Lv.837",
+      "数值口径": "最终阶段属性",
+      "HP": 382772,
+      "物理攻击": 5876,
+      "魔法攻击": 0,
+      "物理防御": 31898,
+      "魔法防御": 11753,
+      "暴击": 11753,
+      "暴击伤害": 11753,
+      "暴击抵抗": 11753,
+      "暴伤抵抗": 8814.75,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "暴伤抵抗 -25%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1190101"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1190102:61163:0",
+      "monsterUid": "61163",
+      "bossName": "동석 - 순수",
+      "personality": "순수",
+      "attackType": "官方未注明",
+      "difficultyCode": 2,
+      "worldName": "오싹한 복도의 면담",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "오늘 저녁은 회식!",
+      "官方关卡名": "오싹한 복도의 면담",
+      "波次/档位": 10,
+      "等级": "Lv.1504",
+      "数值口径": "最终阶段属性",
+      "HP": 686924,
+      "物理攻击": 10545,
+      "魔法攻击": 0,
+      "物理防御": 57244,
+      "魔法防御": 21091,
+      "暴击": 21091,
+      "暴击伤害": 21091,
+      "暴击抵抗": 21091,
+      "暴伤抵抗": 15818.25,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "暴伤抵抗 -25%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1190102"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1190103:61163:0",
+      "monsterUid": "61163",
+      "bossName": "동석 - 순수",
+      "personality": "순수",
+      "attackType": "官方未注明",
+      "difficultyCode": 3,
+      "worldName": "오싹한 복도의 면담",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "오늘 저녁은 회식!",
+      "官方关卡名": "오싹한 복도의 면담",
+      "波次/档位": 10,
+      "等级": "Lv.2487",
+      "数值口径": "最终阶段属性",
+      "HP": 1135172,
+      "物理攻击": 17426,
+      "魔法攻击": 0,
+      "物理防御": 94598,
+      "魔法防御": 34853,
+      "暴击": 34853,
+      "暴击伤害": 34853,
+      "暴击抵抗": 34853,
+      "暴伤抵抗": 26139.75,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "暴伤抵抗 -25%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1190103"
+      }
+    }
+  ],
+  "skills": [],
+  "guideSkills": [
+    {
+      "id": "6116301",
+      "sourceOrder": 0,
+      "displayName": "일반공격",
+      "presentationLabel": null,
+      "nameKind": "官方技能名",
+      "skillType": "普通攻击",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          6
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 100,
+        "max": 100,
+        "displayMin": 100,
+        "displayMax": 100,
+        "hitCount": 1,
+        "formula": "Attack1_1_Naive 100%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Attack1_1_Naive",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.8
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "Attack1_1_Naive",
+          "spineAnimation": "Attack1_1_Naive",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.8
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 100,
+          "confirmedSegmentTotalMax": 100,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": []
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "6116302",
+      "sourceOrder": 1,
+      "displayName": "护盾（Skill1_1_Naive）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          6
+        ]
+      },
+      "range": null,
+      "verdict": "no-damage",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "护盾",
+          "spineAnimation": "Skill1_1_Naive",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            1.833333
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [],
+      "effectGroups": {
+        "buffs": [
+          {
+            "nameKo": null,
+            "fallbackLabel": "护盾",
+            "descriptionKo": null,
+            "relation": null,
+            "relationDepth": null,
+            "category": "buff",
+            "uid": null,
+            "nameKey": null,
+            "iconUrl": null,
+            "catalogMatch": "not-found",
+            "probabilityPercent": null,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": true,
+            "classificationEvidence": null
+          }
+        ],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "执行特殊机制",
+          "note": "处理器语义待确认",
+          "action": "执行特殊机制"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "官方字段和客户端结算共同确认该技能没有直接正伤害。",
+      "evidenceStatus": "官方字段与客户端结算共同确认无直接正伤害",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    }
+  ],
+  "internalComponents": [],
+  "spineResources": [
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack1_1_Naive",
+      "直接连接的技能效果": "6116301",
+      "触发时间": "0.8s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_1_Naive",
+      "直接连接的技能效果": "6116302",
+      "触发时间": "1.833333s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    }
+  ],
+  "guideReference": null,
+  "runtimeReferences": {}
+}

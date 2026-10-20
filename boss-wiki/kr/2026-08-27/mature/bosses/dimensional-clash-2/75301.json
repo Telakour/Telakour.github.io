@@ -1,0 +1,2482 @@
+{
+  "schemaVersion": 8,
+  "server": "kr",
+  "dataDate": "2026-08-27",
+  "routeKey": "kr:dimensional-clash-2:75301",
+  "mode": "次元大冲突2.0",
+  "modeCode": 42,
+  "modeKey": "dimensional-clash-2",
+  "identity": {
+    "uid": "75301",
+    "name": "냥만 타워 - 활발",
+    "displayName": null,
+    "displayNameKind": null,
+    "role": "boss",
+    "context": "Boss索引对象",
+    "spine": "NT00Jolly",
+    "personalityCode": 3,
+    "personality": "활발",
+    "attackTypeCode": 1,
+    "attackType": "物理",
+    "iconKey": "Icon_NT00Jolly",
+    "spineSkinName": null,
+    "spineDefaultAnimation": null,
+    "spineActionSuffix": null,
+    "officialTable": "MonsterInfo",
+    "lifecycle": null,
+    "runtimeReferences": {},
+    "iconUrl": "/boss-wiki/kr/2026-08-27/mature/icons/dimensional-clash-2/75301.png",
+    "iconSourceType": "MonsterInfo.Icon官方PNG"
+  },
+  "runtimeMonsterUids": [
+    "75301"
+  ],
+  "bossName": "냥만 타워 - 활발",
+  "familyKey": "nt00",
+  "familyOrder": 999999,
+  "variantOrder": 2,
+  "firstFormalAppearance": {
+    "worldInfoUid": 4208,
+    "stageOrder": 3,
+    "stageUid": "42080030"
+  },
+  "stageRecords": [
+    {
+      "stageUid": "42080030",
+      "name": "활발한 차원: 제 3구역",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4208,
+      "stageOrder": 3,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 113,
+          "growthTimes": 112,
+          "attributes": {
+            "hp": 1130002.412,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 2562.99,
+            "magicAttack": 2562.99,
+            "physicalDefense": 3000,
+            "magicDefense": 3000,
+            "criticalRate": 1846,
+            "criticalMultiplier": 1846,
+            "criticalResist": 1846,
+            "criticalMultiplierResist": 1846,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": -6524,
+              "percent": -65.24
+            },
+            "AttackPhysicPercent": {
+              "raw": 1100,
+              "percent": 11
+            },
+            "AttackMagicPercent": {
+              "raw": 1100,
+              "percent": 11
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 5434,
+              "percent": 54.34
+            },
+            "EndDamageMagicPercent": {
+              "raw": 5434,
+              "percent": 54.34
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42080060",
+      "name": "활발한 차원: 제 6구역",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4208,
+      "stageOrder": 6,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 206,
+          "growthTimes": 205,
+          "attributes": {
+            "hp": 4083515.6264,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 6203.472,
+            "magicAttack": 6203.472,
+            "physicalDefense": 5418,
+            "magicDefense": 5418,
+            "criticalRate": 3334,
+            "criticalMultiplier": 3334,
+            "criticalResist": 3334,
+            "criticalMultiplierResist": 3334,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": -3044,
+              "percent": -30.44
+            },
+            "AttackPhysicPercent": {
+              "raw": 4880,
+              "percent": 48.8
+            },
+            "AttackMagicPercent": {
+              "raw": 4880,
+              "percent": 48.8
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 6085,
+              "percent": 60.85
+            },
+            "EndDamageMagicPercent": {
+              "raw": 6085,
+              "percent": 60.85
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42080090",
+      "name": "활발한 차원: 제 9구역",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4208,
+      "stageOrder": 9,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 581,
+          "growthTimes": 580,
+          "attributes": {
+            "hp": 58707013.9656,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 52615.521,
+            "magicAttack": 52615.521,
+            "physicalDefense": 15168,
+            "magicDefense": 15168,
+            "criticalRate": 9334,
+            "criticalMultiplier": 9334,
+            "criticalResist": 9334,
+            "criticalMultiplierResist": 9334,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 25724,
+              "percent": 257.24
+            },
+            "AttackPhysicPercent": {
+              "raw": 35090,
+              "percent": 350.9
+            },
+            "AttackMagicPercent": {
+              "raw": 35090,
+              "percent": 350.9
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 6736,
+              "percent": 67.36
+            },
+            "EndDamageMagicPercent": {
+              "raw": 6736,
+              "percent": 67.36
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42080120",
+      "name": "활발한 차원: 제 12구역",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4208,
+      "stageOrder": 12,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 956,
+          "growthTimes": 955,
+          "attributes": {
+            "hp": 197797912.2392,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 144361.739,
+            "magicAttack": 144361.739,
+            "physicalDefense": 24918,
+            "magicDefense": 24918,
+            "criticalRate": 15334,
+            "criticalMultiplier": 15334,
+            "criticalResist": 15334,
+            "criticalMultiplierResist": 15334,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 63268,
+              "percent": 632.68
+            },
+            "AttackPhysicPercent": {
+              "raw": 65310,
+              "percent": 653.1
+            },
+            "AttackMagicPercent": {
+              "raw": 65310,
+              "percent": 653.1
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 7387,
+              "percent": 73.87
+            },
+            "EndDamageMagicPercent": {
+              "raw": 7387,
+              "percent": 73.87
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42080150",
+      "name": "활발한 차원: 제 15구역",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4208,
+      "stageOrder": 15,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 2456,
+          "growthTimes": 2455,
+          "attributes": {
+            "hp": 2696751026.6914,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 1558804.807,
+            "magicAttack": 1558804.807,
+            "physicalDefense": 63918,
+            "magicDefense": 63918,
+            "criticalRate": 39334,
+            "criticalMultiplier": 39334,
+            "criticalResist": 39334,
+            "criticalMultiplierResist": 39334,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 379431,
+              "percent": 3794.31
+            },
+            "AttackPhysicPercent": {
+              "raw": 307030,
+              "percent": 3070.3
+            },
+            "AttackMagicPercent": {
+              "raw": 307030,
+              "percent": 3070.3
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 8038,
+              "percent": 80.38
+            },
+            "EndDamageMagicPercent": {
+              "raw": 8038,
+              "percent": 80.38
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42080180",
+      "name": "활발한 차원: 제 18구역",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4208,
+      "stageOrder": 18,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 3956,
+          "growthTimes": 3955,
+          "attributes": {
+            "hp": 9415001362.9154,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 4423567.875,
+            "magicAttack": 4423567.875,
+            "physicalDefense": 102918,
+            "magicDefense": 102918,
+            "criticalRate": 63334,
+            "criticalMultiplier": 63334,
+            "criticalResist": 63334,
+            "criticalMultiplierResist": 63334,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 834391,
+              "percent": 8343.91
+            },
+            "AttackPhysicPercent": {
+              "raw": 548750,
+              "percent": 5487.5
+            },
+            "AttackMagicPercent": {
+              "raw": 548750,
+              "percent": 5487.5
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 8689,
+              "percent": 86.89
+            },
+            "EndDamageMagicPercent": {
+              "raw": 8689,
+              "percent": 86.89
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42080210",
+      "name": "활발한 차원: 제 21구역",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4208,
+      "stageOrder": 21,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 7106,
+          "growthTimes": 7105,
+          "attributes": {
+            "hp": 41567844658.1552,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 15160333.484,
+            "magicAttack": 15160333.484,
+            "physicalDefense": 184818,
+            "magicDefense": 184818,
+            "criticalRate": 113734,
+            "criticalMultiplier": 113734,
+            "criticalResist": 113734,
+            "criticalMultiplierResist": 113734,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 2066008,
+              "percent": 20660.08
+            },
+            "AttackPhysicPercent": {
+              "raw": 1056360,
+              "percent": 10563.6
+            },
+            "AttackMagicPercent": {
+              "raw": 1056360,
+              "percent": 10563.6
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 9340,
+              "percent": 93.4
+            },
+            "EndDamageMagicPercent": {
+              "raw": 9340,
+              "percent": 93.4
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42080240",
+      "name": "활발한 차원: 제 24구역",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4208,
+      "stageOrder": 24,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 10256,
+          "growthTimes": 10255,
+          "attributes": {
+            "hp": 123428791572.1,
+            "sp": 200,
+            "recoverySp": 10,
+            "healing": 0,
+            "physicalAttack": 32292985.093,
+            "magicAttack": 32292985.093,
+            "physicalDefense": 266718,
+            "magicDefense": 266718,
+            "criticalRate": 164134,
+            "criticalMultiplier": 164134,
+            "criticalResist": 164134,
+            "criticalMultiplierResist": 164134,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 152
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 4261500,
+              "percent": 42615
+            },
+            "AttackPhysicPercent": {
+              "raw": 1563970,
+              "percent": 15639.7
+            },
+            "AttackMagicPercent": {
+              "raw": 1563970,
+              "percent": 15639.7
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 10000,
+              "percent": 100
+            },
+            "EndDamageMagicPercent": {
+              "raw": 10000,
+              "percent": 100
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    }
+  ],
+  "stageRosters": [
+    {
+      "stageUid": "42080030",
+      "stage": "활발한 차원: 제 3구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "75301",
+              "name": "냥만 타워 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "NT00Jolly",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_NT00Jolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "42080060",
+      "stage": "활발한 차원: 제 6구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "75301",
+              "name": "냥만 타워 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "NT00Jolly",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_NT00Jolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "42080090",
+      "stage": "활발한 차원: 제 9구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "75301",
+              "name": "냥만 타워 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "NT00Jolly",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_NT00Jolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "42080120",
+      "stage": "활발한 차원: 제 12구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "75301",
+              "name": "냥만 타워 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "NT00Jolly",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_NT00Jolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "42080150",
+      "stage": "활발한 차원: 제 15구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "75301",
+              "name": "냥만 타워 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "NT00Jolly",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_NT00Jolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "42080180",
+      "stage": "활발한 차원: 제 18구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "75301",
+              "name": "냥만 타워 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "NT00Jolly",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_NT00Jolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "42080210",
+      "stage": "활발한 차원: 제 21구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "75301",
+              "name": "냥만 타워 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "NT00Jolly",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_NT00Jolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "42080240",
+      "stage": "활발한 차원: 제 24구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "75301",
+              "name": "냥만 타워 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "NT00Jolly",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_NT00Jolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "encounterGuide": {
+    "status": "部分机制待确认",
+    "battleTimeLimitSeconds": [
+      180
+    ],
+    "battleTimeline": [
+      {
+        "atSeconds": 0,
+        "condition": "开战后持续生效；护盾被直接破盾效果破坏时执行回路暴露",
+        "repeatIntervalSeconds": null,
+        "phase": "满足对应条件时",
+        "event": "回路暴露与减益计数",
+        "category": "passive",
+        "targetType": "mechanism",
+        "targetId": "nt00-75301-circuit",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      },
+      {
+        "atSeconds": 7.5,
+        "condition": "开战累计7.5秒后可首次生成护盾；持盾期间不会再次生成。护盾被打破或消失后，重新累计7.5秒再准备开盾，实际施放可能因其他动作延后。",
+        "repeatIntervalSeconds": null,
+        "phase": "满足对应条件时",
+        "event": "护盾",
+        "category": "status-effect",
+        "targetType": "mechanism",
+        "targetId": "nt00-75301-shield",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      },
+      {
+        "atSeconds": 15,
+        "condition": "开战15秒后首次可用，此后重复准备，每轮15秒；等待轮到这招时暂停计时，实际出招可能延后。",
+        "repeatIntervalSeconds": null,
+        "phase": "全阶段",
+        "event": "15秒特动：禁止接近",
+        "category": "time-trigger",
+        "targetType": "attack",
+        "targetId": "nt00-75301-time15",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      },
+      {
+        "atSeconds": null,
+        "condition": "普通攻击累计3次后，下一次改为强化攻击",
+        "repeatIntervalSeconds": null,
+        "phase": "全阶段",
+        "event": "强化攻击",
+        "category": "enhanced",
+        "targetType": "attack",
+        "targetId": "nt00-75301-enhanced",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      },
+      {
+        "atSeconds": null,
+        "condition": "SP蓄满200后释放",
+        "repeatIntervalSeconds": null,
+        "phase": "全阶段",
+        "event": "SP技能：六连导弹",
+        "category": "sp",
+        "targetType": "attack",
+        "targetId": "nt00-75301-sp",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      }
+    ],
+    "phases": [],
+    "attacks": [
+      {
+        "id": "nt00-75301-normal",
+        "category": "normal",
+        "title": "普通攻击",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "无",
+          "summary": "按普通攻击循环使用",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "已证明完整施放",
+            "actionSequence": [
+              {
+                "action": "单次攻击",
+                "spineAnimation": "Attack1_1",
+                "eventTimes": [
+                  1.2
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 120,
+                "multiplierMax": 120,
+                "hitCount": 1,
+                "subtotalMin": 120,
+                "subtotalMax": 120,
+                "eventTimes": [
+                  1.2
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 120,
+              "max": 120
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "7530101"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "nt00-75301-normal",
+            "label": "普通攻击",
+            "eventMarkers": [
+              {
+                "timeSeconds": 1.2,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Attack1_1"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "120% × 1＝120%",
+          "perHit": [
+            {
+              "min": 120,
+              "max": 120,
+              "count": 1
+            }
+          ],
+          "hitCount": 1,
+          "confirmedTotalMultiplier": {
+            "min": 120,
+            "max": 120
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [],
+        "confirmedTotalMultiplier": {
+          "min": 120,
+          "max": 120
+        },
+        "hitCount": 1,
+        "playerResult": "单次造成120%伤害。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 10
+      },
+      {
+        "id": "nt00-75301-enhanced",
+        "category": "enhanced",
+        "title": "强化攻击",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "堆叠",
+          "summary": "普通攻击累计3次后，下一次改为强化攻击",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": 3,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "已证明完整施放",
+            "actionSequence": [
+              {
+                "action": "强化攻击",
+                "spineAnimation": "Attack2_1",
+                "eventTimes": [
+                  2.033334
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 270,
+                "multiplierMax": 270,
+                "hitCount": 1,
+                "subtotalMin": 270,
+                "subtotalMax": 270,
+                "eventTimes": [
+                  2.033334
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 270,
+              "max": 270
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "7530102"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "nt00-75301-enhanced",
+            "label": "强化攻击",
+            "eventMarkers": [
+              {
+                "timeSeconds": 2.033334,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Attack2_1"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "270% × 1＝270%",
+          "perHit": [
+            {
+              "min": 270,
+              "max": 270,
+              "count": 1
+            }
+          ],
+          "hitCount": 1,
+          "confirmedTotalMultiplier": {
+            "min": 270,
+            "max": 270
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [],
+        "confirmedTotalMultiplier": {
+          "min": 270,
+          "max": 270
+        },
+        "hitCount": 1,
+        "playerResult": "每3次普通攻击后，下一击改为强化攻击，造成270%×1。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 20
+      },
+      {
+        "id": "nt00-75301-sp",
+        "category": "sp",
+        "title": "SP技能：六连导弹",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "SP",
+          "summary": "SP蓄满200后释放",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [
+            200
+          ],
+          "spRecoveryValues": [
+            10
+          ],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "六枚导弹连续命中",
+            "actionSequence": [
+              {
+                "action": "依次发射六枚导弹",
+                "spineAnimation": "Skill1_1",
+                "eventTimes": [
+                  2.333333,
+                  2.466667,
+                  2.6,
+                  2.733334,
+                  2.866667,
+                  3
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 300,
+                "multiplierMax": 300,
+                "hitCount": 6,
+                "subtotalMin": 1800,
+                "subtotalMax": 1800,
+                "eventTimes": [
+                  2.333333,
+                  2.466667,
+                  2.6,
+                  2.733334,
+                  2.866667,
+                  3
+                ]
+              }
+            ],
+            "hitCount": 6,
+            "confirmedTotalMultiplier": {
+              "min": 1800,
+              "max": 1800
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "7530103"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "nt00-75301-sp",
+            "label": "六连导弹",
+            "eventMarkers": [
+              {
+                "timeSeconds": 2.333333,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 2.466667,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 2.6,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 2.733334,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 2.866667,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 3,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill1_1"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "300% × 6＝1800%",
+          "perHit": [
+            {
+              "min": 300,
+              "max": 300,
+              "count": 6
+            }
+          ],
+          "hitCount": 6,
+          "confirmedTotalMultiplier": {
+            "min": 1800,
+            "max": 1800
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [],
+        "confirmedTotalMultiplier": {
+          "min": 1800,
+          "max": 1800
+        },
+        "hitCount": 6,
+        "playerResult": "连续发射6枚导弹，每枚300%，总倍率1800%。这招没有启用额外Buff或减益。",
+        "evidenceStatus": "部分待确认",
+        "runtimeReferences": {},
+        "sortOrder": 30
+      },
+      {
+        "id": "nt00-75301-time15",
+        "category": "time-trigger",
+        "title": "15秒特动：禁止接近",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "计时",
+          "summary": "开战15秒后首次可用，此后重复准备，每轮15秒；等待轮到这招时暂停计时，实际出招可能延后。",
+          "firstTriggerTimeSeconds": 15,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {},
+          "timerCycleSeconds": 15,
+          "repeatMode": "preparation-loop",
+          "timeOrigin": "battle-start"
+        },
+        "variants": [
+          {
+            "label": "完整伤害动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "蓄力后单次命中",
+            "actionSequence": [
+              {
+                "action": "钻头与滚轮启动",
+                "spineAnimation": "Skill3_1",
+                "eventTimes": [
+                  0.7,
+                  0.8,
+                  2.333333
+                ]
+              },
+              {
+                "action": "冲击命中",
+                "spineAnimation": "Skill3_1",
+                "eventTimes": [
+                  3.233334
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 600,
+                "multiplierMax": 600,
+                "hitCount": 1,
+                "subtotalMin": 600,
+                "subtotalMax": 600,
+                "eventTimes": [
+                  3.233334
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 600,
+              "max": 600
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "7530105"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "nt00-75301-time15",
+            "label": "禁止接近",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0.7,
+                "type": "effect",
+                "label": "装置启动"
+              },
+              {
+                "timeSeconds": 0.8,
+                "type": "effect",
+                "label": "高速旋转"
+              },
+              {
+                "timeSeconds": 2.333333,
+                "type": "effect",
+                "label": "蓄力"
+              },
+              {
+                "timeSeconds": 3.233334,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill3_1"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "600% × 1＝600%",
+          "perHit": [
+            {
+              "min": 600,
+              "max": 600,
+              "count": 1
+            }
+          ],
+          "hitCount": 1,
+          "confirmedTotalMultiplier": {
+            "min": 600,
+            "max": 600
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [],
+        "confirmedTotalMultiplier": {
+          "min": 600,
+          "max": 600
+        },
+        "hitCount": 1,
+        "playerResult": "蓄力后冲击，造成600%伤害，命中1次，不附加护盾。额外效果暂不明确。",
+        "evidenceStatus": "部分待确认",
+        "runtimeReferences": {},
+        "sortOrder": 40
+      }
+    ],
+    "mechanisms": [
+      {
+        "id": "nt00-75301-shield",
+        "category": "status-effect",
+        "title": "护盾",
+        "triggers": [
+          {
+            "type": "计时",
+            "summary": "开战先准备7.5秒；持盾期间不再准备下一面盾。护盾被打破或消失后，重新准备7.5秒，再等可出招时开盾。同时满足释放条件时，SP技能优先于开盾；破盾演出也会阻止动作切换。因此不是固定每7.5秒开盾。",
+            "firstTriggerTimeSeconds": 7.5,
+            "repeatIntervalSeconds": null,
+            "cooldownSeconds": null,
+            "hpThresholdRaw": null,
+            "hpThresholdPercent": null,
+            "hpLine": null,
+            "approxTotalHpPercent": null,
+            "stackThreshold": null,
+            "spMaxValues": [],
+            "spRecoveryValues": [],
+            "evidenceStatus": "已核对",
+            "runtimeReferences": {},
+            "timerCycleSeconds": 7.5,
+            "repeatMode": "restart-after-shield-end"
+          }
+        ],
+        "guideTriggerSummary": "开战先准备7.5秒；持盾期间不再准备下一面盾。护盾被打破或消失后，重新准备7.5秒，再等可出招时开盾。同时满足释放条件时，SP技能优先于开盾；破盾演出也会阻止动作切换。因此不是固定每7.5秒开盾。",
+        "summary": "获得相当于自身最大生命值500%的护盾，最长持续300秒。旧盾结束后才会准备下一次开盾，不会每7.5秒叠加一层。",
+        "playerResponse": "准备直接破盾手段；破盾后可趁Boss受伤集中输出，但同一名破盾者随后45秒内不能再次直接破盾。",
+        "caution": "500%是护盾量相对Boss最大HP的比例，不是攻击倍率。",
+        "actionSequence": [
+          {
+            "order": 1,
+            "action": "生成护盾",
+            "spineAnimation": "Skill2_1",
+            "summary": "生成相当于自身最大生命值500%的护盾，最长持续300秒。"
+          }
+        ],
+        "effects": [
+          {
+            "type": "护盾",
+            "name": "护盾",
+            "description": "护盾量为Boss最大生命值的500%，最长持续300秒；被打破后提前消失。",
+            "target": "Boss自身",
+            "probabilityPercent": 100,
+            "durationSeconds": 300,
+            "value": 500,
+            "valueUnit": "boss-max-hp-percent",
+            "stacking": "本招持盾期间停止再次开盾计时，旧盾结束后才重新计时。",
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "status",
+            "statusKey": "kr:37",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_24.png",
+            "iconState": "bound",
+            "nature": "buff",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "boss",
+            "skillId": "nt00-75301-shield",
+            "skillType": "mechanism",
+            "statusUid": "37",
+            "statusNameKey": "StateName_Shield"
+          }
+        ],
+        "units": [],
+        "previewOptions": [
+          {
+            "id": "nt00-75301-shield",
+            "label": "生成护盾",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0,
+                "type": "buff",
+                "label": "获得护盾"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill2_1"
+              ]
+            }
+          }
+        ],
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {}
+      },
+      {
+        "id": "nt00-75301-circuit",
+        "category": "passive",
+        "title": "回路暴露与减益计数",
+        "triggers": [
+          {
+            "type": "常驻",
+            "summary": "开战后持续生效；护盾被直接破盾效果破坏时执行回路暴露",
+            "firstTriggerTimeSeconds": 0,
+            "repeatIntervalSeconds": null
+          }
+        ],
+        "guideTriggerSummary": "敌方施加的减益种类越多，Boss越脆；直接破盾会触发额外代价。",
+        "summary": "不同种类的减益会降低Boss防御、增加其受到的伤害；直接破盾还能触发额外伤害，但破盾者会受到限制。",
+        "playerResponse": "叠加不同种类的减益后集中输出。直接破盾会触发一次额外伤害，但破盾者随后45秒不能再次使用直接破盾类效果。",
+        "caution": "破盾伤害按最大生命值计算，与攻击力无关。纯粹版同一次破盾只结算一次；没有破盾记录时不造成这部分伤害。",
+        "actionSequence": [
+          {
+            "order": 1,
+            "action": "按减益种类累计弱化",
+            "summary": "每种：防御-2.5%、受到伤害+5%"
+          },
+          {
+            "order": 2,
+            "action": "直接破盾",
+            "summary": "先给破盾者施加45秒「禁止接近」"
+          },
+          {
+            "order": 3,
+            "action": "回路暴露",
+            "spineAnimation": "ShieldBreak1_1",
+            "summary": "播放破盾动作，保存一份以Boss最大生命值30%计算的伤害记录"
+          },
+          {
+            "order": 4,
+            "action": "一次结算",
+            "summary": "本次破盾伤害只结算一次，后续动作不会重复结算"
+          }
+        ],
+        "damageVariants": [
+          {
+            "label": "一次有效破盾",
+            "formula": "Boss最大生命值 × 30%（基础伤害）",
+            "hitCount": 1,
+            "confirmedTotalMultiplier": null,
+            "verdict": "dynamic-formula",
+            "evidenceStatus": "已核对",
+            "runtimeReferences": {}
+          }
+        ],
+        "effects": [
+          {
+            "type": "防御降低",
+            "name": "混乱喵",
+            "description": "我方每给Boss施加1种不同减益，Boss防御降低2.5%；减益消失时重新计算。",
+            "target": "Boss自身",
+            "probabilityPercent": 100,
+            "durationSeconds": null,
+            "durationText": "随Boss身上的当前减益变化；新增、消失时重算",
+            "value": -2.5,
+            "valueUnit": "percent-per-distinct-debuff",
+            "stacking": "按当前不同减益种类数计算；同一种减益重复命中不等于增加一种。",
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "runtimeReferences": {},
+            "effectKind": "status",
+            "statusNameKey": "StateName_ConfuseCat_NT00",
+            "statusKey": "kr-text:StateName_ConfuseCat_NT00",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_175.png",
+            "iconState": "bound",
+            "nature": "debuff",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "boss",
+            "skillId": "nt00-75301-circuit",
+            "skillType": "mechanism"
+          },
+          {
+            "type": "受到伤害提高",
+            "name": "混乱喵",
+            "description": "我方每给Boss施加1种不同减益，Boss受到伤害提高5%；减益消失时重新计算。",
+            "target": "Boss自身",
+            "probabilityPercent": 100,
+            "durationSeconds": null,
+            "durationText": "随Boss身上的当前减益变化；新增、消失时重算",
+            "value": 5,
+            "valueUnit": "percent-per-distinct-debuff",
+            "stacking": "按当前不同减益种类数计算；同一种减益重复命中不等于增加一种。",
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "runtimeReferences": {},
+            "effectKind": "status",
+            "statusNameKey": "StateName_ConfuseCat_NT00",
+            "statusKey": "kr-text:StateName_ConfuseCat_NT00",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_175.png",
+            "iconState": "bound",
+            "nature": "debuff",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "boss",
+            "skillId": "nt00-75301-circuit",
+            "skillType": "mechanism"
+          },
+          {
+            "type": "限制破盾",
+            "name": "禁止接近",
+            "description": "直接破盾的使徒获得，持续45秒；期间该使徒不能再通过直接破盾类效果破坏护盾，不是Boss整体无敌。",
+            "target": "直接击破护盾的使徒",
+            "probabilityPercent": 100,
+            "durationSeconds": 45,
+            "value": null,
+            "valueUnit": null,
+            "stacking": null,
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "durationText": "45秒",
+            "runtimeReferences": {},
+            "effectKind": "status",
+            "statusNameKey": "StateName_AccessDenied",
+            "statusKey": "kr:558",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_212.png",
+            "iconState": "bound",
+            "nature": "special",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "team",
+            "skillId": "nt00-75301-circuit",
+            "skillType": "mechanism",
+            "statusUid": "558"
+          },
+          {
+            "type": "破盾弱点",
+            "name": "回路暴露",
+            "description": "护盾被直接破盾效果破坏时，Boss受到一次以自身最大生命值30%为基数的伤害；破盾的使徒随后45秒不能再次通过直接破盾效果破坏护盾。",
+            "target": "Boss自身",
+            "probabilityPercent": null,
+            "durationSeconds": 99999,
+            "durationLabel": "本场战斗内不会自然到期",
+            "value": null,
+            "valueUnit": null,
+            "stacking": null,
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "status",
+            "statusUid": "557",
+            "statusKey": "kr:557",
+            "statusNameKey": "StateName_DeviceDamaged",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_211.png",
+            "iconState": "bound",
+            "nature": "debuff",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss自身常驻规则",
+            "targetRole": "boss",
+            "skillId": "nt00-75301-circuit",
+            "skillType": "mechanism"
+          }
+        ],
+        "units": [],
+        "previewOptions": [
+          {
+            "id": "nt00-75301-circuit",
+            "label": "护盾破坏",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0.066667,
+                "type": "effect",
+                "label": "尝试结算破盾记录（同一份只结算一次）"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "ShieldBreak1_1"
+              ]
+            }
+          }
+        ],
+        "evidenceStatus": "部分待确认",
+        "runtimeReferences": {},
+        "statusUpdate": {
+          "on": [
+            "状态新增",
+            "状态结束"
+          ],
+          "summary": "Boss身上的减益新增或结束时，重新计算当前减益对应的增伤与降防；不是每次命中永久追加。"
+        },
+        "detailNotes": [
+          {
+            "label": "减益弱点",
+            "summary": "Boss每多受到1种不同减益，防御降低2.5%、受到伤害提高5%；减益消失时重新计算。"
+          },
+          {
+            "label": "直接破盾",
+            "summary": "Boss受到一次以自身最大生命值30%为基数的伤害；实际扣血受伤害修正影响。"
+          },
+          {
+            "label": "破盾者限制",
+            "summary": "直接破盾的使徒获得45秒“禁止接近”，期间不能再次通过直接破盾类效果破坏护盾。"
+          }
+        ]
+      }
+    ],
+    "units": [],
+    "playerAdvice": [
+      "利用不同种类的减益降低Boss防御、提高其受到的伤害，再集中输出；直接破盾后，注意破盾者持续45秒的限制。"
+    ],
+    "unresolved": [
+      "活泼性格的15秒技能另有一项效果暂不明确。",
+      "护盾被击破后的SP恢复变化暂不标注。"
+    ],
+    "presentationRules": {
+      "rawEntryCount": 8,
+      "playerAttackGroupCount": 4,
+      "playerMechanismCount": 2,
+      "rawSkillEntriesRendered": false,
+      "internalUidsVisibleToPlayer": false
+    },
+    "runtimeReferences": {},
+    "skillOrder": [
+      {
+        "type": "attack",
+        "id": "nt00-75301-normal",
+        "category": "normal"
+      },
+      {
+        "type": "attack",
+        "id": "nt00-75301-enhanced",
+        "category": "enhanced"
+      },
+      {
+        "type": "attack",
+        "id": "nt00-75301-sp",
+        "category": "sp"
+      },
+      {
+        "type": "mechanism",
+        "id": "nt00-75301-shield",
+        "category": "time-trigger"
+      },
+      {
+        "type": "attack",
+        "id": "nt00-75301-time15",
+        "category": "time-trigger"
+      }
+    ]
+  },
+  "runtimeReferences": {},
+  "encounterOrder": 18,
+  "directoryAppearances": [
+    {
+      "configurationId": "56",
+      "configurationLabel": "官方配置 #56",
+      "configurationOrder": 56,
+      "soloRaidInfoUid": 56,
+      "configurationTargetPersonalityCode": 2,
+      "configurationTargetPersonality": "Gloomy",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 4208,
+      "stageUid": "42080030",
+      "stageOrder": 3,
+      "stageName": "활발한 차원: 제 3구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "56",
+      "configurationLabel": "官方配置 #56",
+      "configurationOrder": 56,
+      "soloRaidInfoUid": 56,
+      "configurationTargetPersonalityCode": 2,
+      "configurationTargetPersonality": "Gloomy",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 4208,
+      "stageUid": "42080060",
+      "stageOrder": 6,
+      "stageName": "활발한 차원: 제 6구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "56",
+      "configurationLabel": "官方配置 #56",
+      "configurationOrder": 56,
+      "soloRaidInfoUid": 56,
+      "configurationTargetPersonalityCode": 2,
+      "configurationTargetPersonality": "Gloomy",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 4208,
+      "stageUid": "42080090",
+      "stageOrder": 9,
+      "stageName": "활발한 차원: 제 9구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "56",
+      "configurationLabel": "官方配置 #56",
+      "configurationOrder": 56,
+      "soloRaidInfoUid": 56,
+      "configurationTargetPersonalityCode": 2,
+      "configurationTargetPersonality": "Gloomy",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 4208,
+      "stageUid": "42080120",
+      "stageOrder": 12,
+      "stageName": "활발한 차원: 제 12구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "56",
+      "configurationLabel": "官方配置 #56",
+      "configurationOrder": 56,
+      "soloRaidInfoUid": 56,
+      "configurationTargetPersonalityCode": 2,
+      "configurationTargetPersonality": "Gloomy",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 4208,
+      "stageUid": "42080150",
+      "stageOrder": 15,
+      "stageName": "활발한 차원: 제 15구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "56",
+      "configurationLabel": "官方配置 #56",
+      "configurationOrder": 56,
+      "soloRaidInfoUid": 56,
+      "configurationTargetPersonalityCode": 2,
+      "configurationTargetPersonality": "Gloomy",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 4208,
+      "stageUid": "42080180",
+      "stageOrder": 18,
+      "stageName": "활발한 차원: 제 18구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "56",
+      "configurationLabel": "官方配置 #56",
+      "configurationOrder": 56,
+      "soloRaidInfoUid": 56,
+      "configurationTargetPersonalityCode": 2,
+      "configurationTargetPersonality": "Gloomy",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 4208,
+      "stageUid": "42080210",
+      "stageOrder": 21,
+      "stageName": "활발한 차원: 제 21구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "56",
+      "configurationLabel": "官方配置 #56",
+      "configurationOrder": 56,
+      "soloRaidInfoUid": 56,
+      "configurationTargetPersonalityCode": 2,
+      "configurationTargetPersonality": "Gloomy",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 4208,
+      "stageUid": "42080240",
+      "stageOrder": 24,
+      "stageName": "활발한 차원: 제 24구역",
+      "hpBarCount": null
+    }
+  ]
+}

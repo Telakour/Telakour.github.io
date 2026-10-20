@@ -1,0 +1,1415 @@
+{
+  "schemaVersion": 3,
+  "server": "kr",
+  "dataVersion": "2026-08-27",
+  "routeKey": "kr:dimensional-clash-2:74601",
+  "mode": "次元大冲突2.0",
+  "modeKey": "dimensional-clash-2",
+  "monsterUid": "74601",
+  "bossName": "흑화 영춘 - 우울",
+  "personality": "우울",
+  "attackType": "物理/魔法",
+  "spineKey": "YC00",
+  "spineSkinName": "Skin_Gloomy",
+  "iconUrl": null,
+  "difficultyCodes": [
+    0
+  ],
+  "stages": [
+    {
+      "rowKey": "dimensional-clash-2:42:42040030:74601:0",
+      "monsterUid": "74601",
+      "bossName": "흑화 영춘 - 우울",
+      "personality": "우울",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 3,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "우울한 차원: 제 3구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 3,
+      "等级": "Lv.113",
+      "数值口径": "最终阶段属性",
+      "HP": 1130002.412,
+      "物理攻击": 2562.99,
+      "魔法攻击": 2562.99,
+      "物理防御": 3000,
+      "魔法防御": 3000,
+      "暴击": 1846,
+      "暴击伤害": 1846,
+      "暴击抵抗": 1846,
+      "暴伤抵抗": 1846,
+      "SP上限": 200,
+      "SP恢复": 10,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "HP -65.24% · 物攻 +11% · 魔攻 +11% · 最终物理伤害 +54.34% · 最终魔法伤害 +54.34%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42040030"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42040060:74601:0",
+      "monsterUid": "74601",
+      "bossName": "흑화 영춘 - 우울",
+      "personality": "우울",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 6,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "우울한 차원: 제 6구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 6,
+      "等级": "Lv.206",
+      "数值口径": "最终阶段属性",
+      "HP": 4083515.6264,
+      "物理攻击": 6203.472,
+      "魔法攻击": 6203.472,
+      "物理防御": 5418,
+      "魔法防御": 5418,
+      "暴击": 3334,
+      "暴击伤害": 3334,
+      "暴击抵抗": 3334,
+      "暴伤抵抗": 3334,
+      "SP上限": 200,
+      "SP恢复": 10,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "HP -30.44% · 物攻 +48.8% · 魔攻 +48.8% · 最终物理伤害 +60.85% · 最终魔法伤害 +60.85%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42040060"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42040090:74601:0",
+      "monsterUid": "74601",
+      "bossName": "흑화 영춘 - 우울",
+      "personality": "우울",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 9,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "우울한 차원: 제 9구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 9,
+      "等级": "Lv.581",
+      "数值口径": "最终阶段属性",
+      "HP": 58707013.9656,
+      "物理攻击": 52615.521,
+      "魔法攻击": 52615.521,
+      "物理防御": 15168,
+      "魔法防御": 15168,
+      "暴击": 9334,
+      "暴击伤害": 9334,
+      "暴击抵抗": 9334,
+      "暴伤抵抗": 9334,
+      "SP上限": 200,
+      "SP恢复": 10,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "HP +257.24% · 物攻 +350.9% · 魔攻 +350.9% · 最终物理伤害 +67.36% · 最终魔法伤害 +67.36%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42040090"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42040120:74601:0",
+      "monsterUid": "74601",
+      "bossName": "흑화 영춘 - 우울",
+      "personality": "우울",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 12,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "우울한 차원: 제 12구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 12,
+      "等级": "Lv.956",
+      "数值口径": "最终阶段属性",
+      "HP": 197797912.2392,
+      "物理攻击": 144361.739,
+      "魔法攻击": 144361.739,
+      "物理防御": 24918,
+      "魔法防御": 24918,
+      "暴击": 15334,
+      "暴击伤害": 15334,
+      "暴击抵抗": 15334,
+      "暴伤抵抗": 15334,
+      "SP上限": 200,
+      "SP恢复": 10,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "HP +632.68% · 物攻 +653.1% · 魔攻 +653.1% · 最终物理伤害 +73.87% · 最终魔法伤害 +73.87%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42040120"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42040150:74601:0",
+      "monsterUid": "74601",
+      "bossName": "흑화 영춘 - 우울",
+      "personality": "우울",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 15,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "우울한 차원: 제 15구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 15,
+      "等级": "Lv.2456",
+      "数值口径": "最终阶段属性",
+      "HP": 2696751026.6914,
+      "物理攻击": 1558804.807,
+      "魔法攻击": 1558804.807,
+      "物理防御": 63918,
+      "魔法防御": 63918,
+      "暴击": 39334,
+      "暴击伤害": 39334,
+      "暴击抵抗": 39334,
+      "暴伤抵抗": 39334,
+      "SP上限": 200,
+      "SP恢复": 10,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "HP +3794.31% · 物攻 +3070.3% · 魔攻 +3070.3% · 最终物理伤害 +80.38% · 最终魔法伤害 +80.38%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42040150"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42040180:74601:0",
+      "monsterUid": "74601",
+      "bossName": "흑화 영춘 - 우울",
+      "personality": "우울",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 18,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "우울한 차원: 제 18구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 18,
+      "等级": "Lv.3956",
+      "数值口径": "最终阶段属性",
+      "HP": 9415001362.9154,
+      "物理攻击": 4423567.875,
+      "魔法攻击": 4423567.875,
+      "物理防御": 102918,
+      "魔法防御": 102918,
+      "暴击": 63334,
+      "暴击伤害": 63334,
+      "暴击抵抗": 63334,
+      "暴伤抵抗": 63334,
+      "SP上限": 200,
+      "SP恢复": 10,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "HP +8343.91% · 物攻 +5487.5% · 魔攻 +5487.5% · 最终物理伤害 +86.89% · 最终魔法伤害 +86.89%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42040180"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42040210:74601:0",
+      "monsterUid": "74601",
+      "bossName": "흑화 영춘 - 우울",
+      "personality": "우울",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 21,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "우울한 차원: 제 21구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 21,
+      "等级": "Lv.7106",
+      "数值口径": "最终阶段属性",
+      "HP": 41567844658.1552,
+      "物理攻击": 15160333.484,
+      "魔法攻击": 15160333.484,
+      "物理防御": 184818,
+      "魔法防御": 184818,
+      "暴击": 113734,
+      "暴击伤害": 113734,
+      "暴击抵抗": 113734,
+      "暴伤抵抗": 113734,
+      "SP上限": 200,
+      "SP恢复": 10,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "HP +20660.08% · 物攻 +10563.6% · 魔攻 +10563.6% · 最终物理伤害 +93.4% · 最终魔法伤害 +93.4%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42040210"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42040240:74601:0",
+      "monsterUid": "74601",
+      "bossName": "흑화 영춘 - 우울",
+      "personality": "우울",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 24,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "우울한 차원: 제 24구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 24,
+      "等级": "Lv.10256",
+      "数值口径": "最终阶段属性",
+      "HP": 123428791572.1,
+      "物理攻击": 32292985.093,
+      "魔法攻击": 32292985.093,
+      "物理防御": 266718,
+      "魔法防御": 266718,
+      "暴击": 164134,
+      "暴击伤害": 164134,
+      "暴击抵抗": 164134,
+      "暴伤抵抗": 164134,
+      "SP上限": 200,
+      "SP恢复": 10,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "HP +42615% · 物攻 +15639.7% · 魔攻 +15639.7% · 最终物理伤害 +100% · 最终魔法伤害 +100%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42040240"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42090030:74601:0",
+      "monsterUid": "74601",
+      "bossName": "흑화 영춘 - 우울",
+      "personality": "우울",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 3,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "우울한 차원: 제 3구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 3,
+      "等级": "Lv.113",
+      "数值口径": "最终阶段属性",
+      "HP": 1130002.412,
+      "物理攻击": 2562.99,
+      "魔法攻击": 2562.99,
+      "物理防御": 3000,
+      "魔法防御": 3000,
+      "暴击": 1846,
+      "暴击伤害": 1846,
+      "暴击抵抗": 1846,
+      "暴伤抵抗": 1846,
+      "SP上限": 200,
+      "SP恢复": 10,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "HP -65.24% · 物攻 +11% · 魔攻 +11% · 最终物理伤害 +54.34% · 最终魔法伤害 +54.34%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42090030"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42090060:74601:0",
+      "monsterUid": "74601",
+      "bossName": "흑화 영춘 - 우울",
+      "personality": "우울",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 6,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "우울한 차원: 제 6구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 6,
+      "等级": "Lv.206",
+      "数值口径": "最终阶段属性",
+      "HP": 4083515.6264,
+      "物理攻击": 6203.472,
+      "魔法攻击": 6203.472,
+      "物理防御": 5418,
+      "魔法防御": 5418,
+      "暴击": 3334,
+      "暴击伤害": 3334,
+      "暴击抵抗": 3334,
+      "暴伤抵抗": 3334,
+      "SP上限": 200,
+      "SP恢复": 10,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "HP -30.44% · 物攻 +48.8% · 魔攻 +48.8% · 最终物理伤害 +60.85% · 最终魔法伤害 +60.85%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42090060"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42090090:74601:0",
+      "monsterUid": "74601",
+      "bossName": "흑화 영춘 - 우울",
+      "personality": "우울",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 9,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "우울한 차원: 제 9구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 9,
+      "等级": "Lv.581",
+      "数值口径": "最终阶段属性",
+      "HP": 58707013.9656,
+      "物理攻击": 52615.521,
+      "魔法攻击": 52615.521,
+      "物理防御": 15168,
+      "魔法防御": 15168,
+      "暴击": 9334,
+      "暴击伤害": 9334,
+      "暴击抵抗": 9334,
+      "暴伤抵抗": 9334,
+      "SP上限": 200,
+      "SP恢复": 10,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "HP +257.24% · 物攻 +350.9% · 魔攻 +350.9% · 最终物理伤害 +67.36% · 最终魔法伤害 +67.36%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42090090"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42090120:74601:0",
+      "monsterUid": "74601",
+      "bossName": "흑화 영춘 - 우울",
+      "personality": "우울",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 12,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "우울한 차원: 제 12구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 12,
+      "等级": "Lv.956",
+      "数值口径": "最终阶段属性",
+      "HP": 197797912.2392,
+      "物理攻击": 144361.739,
+      "魔法攻击": 144361.739,
+      "物理防御": 24918,
+      "魔法防御": 24918,
+      "暴击": 15334,
+      "暴击伤害": 15334,
+      "暴击抵抗": 15334,
+      "暴伤抵抗": 15334,
+      "SP上限": 200,
+      "SP恢复": 10,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "HP +632.68% · 物攻 +653.1% · 魔攻 +653.1% · 最终物理伤害 +73.87% · 最终魔法伤害 +73.87%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42090120"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42090150:74601:0",
+      "monsterUid": "74601",
+      "bossName": "흑화 영춘 - 우울",
+      "personality": "우울",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 15,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "우울한 차원: 제 15구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 15,
+      "等级": "Lv.2456",
+      "数值口径": "最终阶段属性",
+      "HP": 2696751026.6914,
+      "物理攻击": 1558804.807,
+      "魔法攻击": 1558804.807,
+      "物理防御": 63918,
+      "魔法防御": 63918,
+      "暴击": 39334,
+      "暴击伤害": 39334,
+      "暴击抵抗": 39334,
+      "暴伤抵抗": 39334,
+      "SP上限": 200,
+      "SP恢复": 10,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "HP +3794.31% · 物攻 +3070.3% · 魔攻 +3070.3% · 最终物理伤害 +80.38% · 最终魔法伤害 +80.38%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42090150"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42090180:74601:0",
+      "monsterUid": "74601",
+      "bossName": "흑화 영춘 - 우울",
+      "personality": "우울",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 18,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "우울한 차원: 제 18구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 18,
+      "等级": "Lv.3956",
+      "数值口径": "最终阶段属性",
+      "HP": 9415001362.9154,
+      "物理攻击": 4423567.875,
+      "魔法攻击": 4423567.875,
+      "物理防御": 102918,
+      "魔法防御": 102918,
+      "暴击": 63334,
+      "暴击伤害": 63334,
+      "暴击抵抗": 63334,
+      "暴伤抵抗": 63334,
+      "SP上限": 200,
+      "SP恢复": 10,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "HP +8343.91% · 物攻 +5487.5% · 魔攻 +5487.5% · 最终物理伤害 +86.89% · 最终魔法伤害 +86.89%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42090180"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42090210:74601:0",
+      "monsterUid": "74601",
+      "bossName": "흑화 영춘 - 우울",
+      "personality": "우울",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 21,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "우울한 차원: 제 21구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 21,
+      "等级": "Lv.7106",
+      "数值口径": "最终阶段属性",
+      "HP": 41567844658.1552,
+      "物理攻击": 15160333.484,
+      "魔法攻击": 15160333.484,
+      "物理防御": 184818,
+      "魔法防御": 184818,
+      "暴击": 113734,
+      "暴击伤害": 113734,
+      "暴击抵抗": 113734,
+      "暴伤抵抗": 113734,
+      "SP上限": 200,
+      "SP恢复": 10,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "HP +20660.08% · 物攻 +10563.6% · 魔攻 +10563.6% · 最终物理伤害 +93.4% · 最终魔法伤害 +93.4%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42090210"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42090240:74601:0",
+      "monsterUid": "74601",
+      "bossName": "흑화 영춘 - 우울",
+      "personality": "우울",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 24,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "우울한 차원: 제 24구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 24,
+      "等级": "Lv.10256",
+      "数值口径": "最终阶段属性",
+      "HP": 123428791572.1,
+      "物理攻击": 32292985.093,
+      "魔法攻击": 32292985.093,
+      "物理防御": 266718,
+      "魔法防御": 266718,
+      "暴击": 164134,
+      "暴击伤害": 164134,
+      "暴击抵抗": 164134,
+      "暴伤抵抗": 164134,
+      "SP上限": 200,
+      "SP恢复": 10,
+      "攻击速度": 152,
+      "属性加成与特殊说明": "HP +42615% · 物攻 +15639.7% · 魔攻 +15639.7% · 最终物理伤害 +100% · 最终魔法伤害 +100%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "42090240"
+      }
+    }
+  ],
+  "skills": [],
+  "guideSkills": [
+    {
+      "id": "7460101",
+      "sourceOrder": 0,
+      "displayName": "1次伤害结算（Attack1_1_Gloomy）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "普通攻击",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          7
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 120,
+        "max": 120,
+        "displayMin": 120,
+        "displayMax": 120,
+        "hitCount": 1,
+        "formula": "Attack1_1_Gloomy 120%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Attack1_1_Gloomy",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.766667
+          ],
+          "spineEffects": [
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_1_M"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "额外骨骼",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "额外特效",
+              "resource": "FX_YC00_Attack_Hit_1"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "普通攻击动作",
+          "spineAnimation": "Attack1_1_Gloomy",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 120,
+              "multiplierMax": 120,
+              "hitCount": 1,
+              "subtotalMin": 120,
+              "subtotalMax": 120,
+              "eventTimes": [
+                0.766667
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 120,
+          "confirmedSegmentTotalMax": 120,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "命中特效",
+              "value": "FX_Common_Hit_1_M"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            },
+            {
+              "field": "额外骨骼",
+              "value": "Point_Middle"
+            },
+            {
+              "field": "额外特效",
+              "value": "FX_YC00_Attack_Hit_1"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7460102",
+      "sourceOrder": 1,
+      "displayName": "3次伤害结算（Attack2_1_Gloomy）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "强化攻击",
+      "trigger": {
+        "type": "堆叠",
+        "summary": "堆叠条件原值 3；比较方式仍以客户端运行逻辑为准",
+        "rawValue": "3",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          10
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 270,
+        "max": 270,
+        "displayMin": 270,
+        "displayMax": 270,
+        "hitCount": 3,
+        "formula": "Attack2_1_Gloomy 270%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Attack2_1_Gloomy",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 3,
+          "effectTriggerCount": 3,
+          "eventTimes": [
+            1.533333,
+            2.066667,
+            3.066667
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Bottom"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_YC00_Attack2_Ground_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_2_M"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_YC00_Attack2_Ground_2"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_YC00_Attack2_Ground_3"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "强化攻击动作",
+          "spineAnimation": "Attack2_1_Gloomy",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 60,
+              "multiplierMax": 60,
+              "hitCount": 1,
+              "subtotalMin": 60,
+              "subtotalMax": 60,
+              "eventTimes": [
+                1.533333
+              ]
+            },
+            {
+              "kind": "direct",
+              "multiplierMin": 90,
+              "multiplierMax": 90,
+              "hitCount": 1,
+              "subtotalMin": 90,
+              "subtotalMax": 90,
+              "eventTimes": [
+                2.066667
+              ]
+            },
+            {
+              "kind": "direct",
+              "multiplierMin": 120,
+              "multiplierMax": 120,
+              "hitCount": 1,
+              "subtotalMin": 120,
+              "subtotalMax": 120,
+              "eventTimes": [
+                3.066667
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 270,
+          "confirmedSegmentTotalMax": 270,
+          "confirmedDamageHitCount": 3,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Bottom"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_YC00_Attack2_Ground_1"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Common_Hit_2_M"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_YC00_Attack2_Ground_2"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_YC00_Attack2_Ground_3"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7460103",
+      "sourceOrder": 2,
+      "displayName": "10次伤害结算并累计或检查层数（Skill1_1_Gloomy）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          50
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 1200.00001788139,
+        "max": 1200.00001788139,
+        "displayMin": 1200.00001788139,
+        "displayMax": 1200.00001788139,
+        "hitCount": 10,
+        "formula": "Skill1_1_Gloomy 1200.00001788139%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "累计或检查层数；造成伤害",
+          "spineAnimation": "Skill1_1_Gloomy",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 10,
+          "effectTriggerCount": 10,
+          "eventTimes": [
+            1.266667,
+            1.566667,
+            1.866667,
+            2.166667,
+            2.466667,
+            2.766667,
+            3.066667,
+            3.366667,
+            3.666667,
+            3.966667
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_SkillReady"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_YC00_Attack_Wave_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_YC00_Skill_Hit_1"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "技能动作 1",
+          "spineAnimation": "Skill1_1_Gloomy",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 120.000001788139,
+              "multiplierMax": 120.000001788139,
+              "hitCount": 10,
+              "subtotalMin": 1200.00001788139,
+              "subtotalMax": 1200.00001788139,
+              "eventTimes": [
+                1.266667,
+                1.566667,
+                1.866667,
+                2.166667,
+                2.466667,
+                2.766667,
+                3.066667,
+                3.366667,
+                3.666667,
+                3.966667
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 1200.00001788139,
+          "confirmedSegmentTotalMax": 1200.00001788139,
+          "confirmedDamageHitCount": 10,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_SkillReady"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_YC00_Attack_Wave_1"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_YC00_Skill_Hit_1"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "造成多段伤害",
+          "note": "按官方多段计数参数结算；固定次数只在处理器与Spine事件同时闭合时合计。",
+          "action": "造成多段伤害"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7460104",
+      "sourceOrder": 3,
+      "displayName": "伤害动作并触发死亡或击杀机制（Skill2_1_Gloomy）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "冷却技能",
+      "trigger": {
+        "type": "计时",
+        "summary": "计时阈值 12 秒；CoolTime与FirstCoolTime另列，不合并成固定周期",
+        "rawValue": "12",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          50
+        ]
+      },
+      "range": null,
+      "verdict": "official-insufficient",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "触发死亡或击杀机制",
+          "spineAnimation": "Skill2_1_Gloomy",
+          "relation": "执行关系待确认",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.866667
+          ],
+          "spineEffects": [
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        },
+        {
+          "order": null,
+          "action": "触发死亡或击杀机制；造成伤害",
+          "spineAnimation": null,
+          "relation": "未匹配Spine事件的直接或回调效果",
+          "spineEventCount": 0,
+          "effectTriggerCount": 0,
+          "eventTimes": [],
+          "spineEffects": [],
+          "evidenceStatus": "官方效果行存在；Spine事件或具体调用时点尚未匹配"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "官方单次伤害段",
+          "spineAnimation": null,
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 60,
+              "multiplierMax": 60,
+              "hitCount": null,
+              "subtotalMin": null,
+              "subtotalMax": null,
+              "eventTimes": []
+            }
+          ],
+          "confirmedSegmentTotalMin": null,
+          "confirmedSegmentTotalMax": null,
+          "confirmedDamageHitCount": null,
+          "restrictions": [
+            "现有动作资源未连接到该伤害效果，完整次数无法确认"
+          ],
+          "spineEffects": []
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "在指定位置触发效果",
+          "note": "在指定位置调用效果；位置和效果参数由处理器读取。",
+          "action": "在指定位置触发效果"
+        },
+        {
+          "behavior": "由Spine事件触发技能效果",
+          "note": "由Spine技能事件进入效果分发；事件时间以KR骨架为准。",
+          "action": "由Spine事件触发技能效果"
+        }
+      ],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "保留官方单次字段；现有官方表、动作资源和客户端静态证据仍无法唯一确认次数或运行入口。",
+      "evidenceStatus": "保留官方原始字段；现有静态证据不能唯一闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7460105",
+      "sourceOrder": 4,
+      "displayName": "5次伤害结算并施加状态（Skill3_1_Gloomy）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "冷却技能",
+      "trigger": {
+        "type": "计时",
+        "summary": "计时阈值 30 秒；CoolTime与FirstCoolTime另列，不合并成固定周期",
+        "rawValue": "30",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          50
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 1600.00002384186,
+        "max": 1600.00002384186,
+        "displayMin": 1600.00002384186,
+        "displayMax": 1600.00002384186,
+        "hitCount": 5,
+        "formula": "Skill3_1_Gloomy 1600.00002384186%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害；施加状态；执行特殊机制",
+          "spineAnimation": "Skill3_1_Gloomy",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 5,
+          "effectTriggerCount": 11,
+          "eventTimes": [
+            1.033333,
+            1.433333,
+            1.833333,
+            2.233333,
+            2.633333
+          ],
+          "spineEffects": [
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_YC00_Skill3_Wave_1"
+            },
+            {
+              "kind": "额外特效",
+              "resource": "FX_YC00_Skill3_Wave_1"
+            },
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Bottom"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_YC00_Skill3_Fire_1"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "技能动作 3",
+          "spineAnimation": "Skill3_1_Gloomy",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 320.000004768372,
+              "multiplierMax": 320.000004768372,
+              "hitCount": 5,
+              "subtotalMin": 1600.00002384186,
+              "subtotalMax": 1600.00002384186,
+              "eventTimes": [
+                1.033333,
+                1.433333,
+                1.833333,
+                2.233333,
+                2.633333
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 1600.00002384186,
+          "confirmedSegmentTotalMax": 1600.00002384186,
+          "confirmedDamageHitCount": 5,
+          "restrictions": [
+            "官方表行虽带正数，但客户端没有直接伤害结算，已从伤害合计排除"
+          ],
+          "spineEffects": [
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            },
+            {
+              "field": "自身骨骼",
+              "value": "Point_Middle"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_YC00_Skill3_Wave_1"
+            },
+            {
+              "field": "额外特效",
+              "value": "FX_YC00_Skill3_Wave_1"
+            },
+            {
+              "field": "自身骨骼",
+              "value": "Point_Bottom"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_YC00_Skill3_Fire_1"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": [
+          {
+            "nameKo": "앵그리",
+            "fallbackLabel": null,
+            "descriptionKo": "공격 속도 및 기본 SP 회복량이 퍼센트로 증가한다.",
+            "relation": "施加",
+            "relationDepth": "直接效果",
+            "category": "buff",
+            "uid": "502",
+            "nameKey": "StateName_Angry_YC00",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_163.png",
+            "catalogMatch": "exact-name",
+            "probabilityPercent": null,
+            "durationSeconds": 9999,
+            "value": null,
+            "valueUnit": "percent",
+            "parameterPending": true,
+            "classificationEvidence": "官方状态存在，但仅凭现有静态字段不能可靠判定增益或减益"
+          }
+        ]
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "镜头震动",
+          "note": "仅触发镜头震动协程，不产生伤害结算。",
+          "action": "镜头震动"
+        },
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        },
+        {
+          "behavior": "施加状态",
+          "name": "앵그리",
+          "description": "공격 속도 및 기본 SP 회복량이 퍼센트로 증가한다.",
+          "durationSeconds": 9999,
+          "valueRaw": null,
+          "valueUnit": "percent",
+          "note": "参数2起为状态专用参数，具体含义只在技术证据保留",
+          "action": "施加状态"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    }
+  ],
+  "internalComponents": [],
+  "spineResources": [
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack1_1_Gloomy",
+      "直接连接的技能效果": "7460101",
+      "触发时间": "0.766667s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack2_1_Gloomy",
+      "直接连接的技能效果": "7460102",
+      "触发时间": "1.533333s / 2.066667s / 3.066667s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_1_Gloomy",
+      "直接连接的技能效果": "7460103",
+      "触发时间": "1.266667s / 1.566667s / 1.866667s / 2.166667s / 2.466667s / 2.766667s / 3.066667s / 3.366667s / 3.666667s / 3.966667s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill2_1_Gloomy",
+      "直接连接的技能效果": "7460104",
+      "触发时间": "0.866667s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill3_1_Gloomy",
+      "直接连接的技能效果": "7460105",
+      "触发时间": "1.033333s / 1.433333s / 1.833333s / 2.233333s / 2.633333s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    }
+  ],
+  "guideReference": null,
+  "runtimeReferences": {}
+}

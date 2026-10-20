@@ -1,0 +1,1874 @@
+{
+  "schemaVersion": 3,
+  "server": "kr",
+  "dataVersion": "2026-08-27",
+  "routeKey": "kr:dimensional-clash-1:70701",
+  "mode": "次元大冲突1.0",
+  "modeKey": "dimensional-clash-1",
+  "monsterUid": "70701",
+  "bossName": "릴1리 - 순수",
+  "personality": "순수",
+  "attackType": "物理/魔法",
+  "spineKey": "Lil1li",
+  "spineSkinName": "Skin_Naive",
+  "iconUrl": "/boss-wiki/kr/2026-08-27/icons/dimensional-clash-1/70701.png",
+  "difficultyCodes": [
+    0
+  ],
+  "stages": [
+    {
+      "rowKey": "dimensional-clash-1:8:8050030:70701:0",
+      "monsterUid": "70701",
+      "bossName": "릴1리 - 순수",
+      "personality": "순수",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 3,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "순수한 차원: 제 3구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 3,
+      "等级": "Lv.100",
+      "数值口径": "最终阶段属性",
+      "HP": 887588,
+      "物理攻击": 2355,
+      "魔法攻击": 2355,
+      "物理防御": 2969,
+      "魔法防御": 2969,
+      "暴击": 1742,
+      "暴击伤害": 1742,
+      "暴击抵抗": 1435,
+      "暴伤抵抗": 1435,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8050030"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-1:8:8050060:70701:0",
+      "monsterUid": "70701",
+      "bossName": "릴1리 - 순수",
+      "personality": "순수",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 6,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "순수한 차원: 제 6구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 6,
+      "等级": "Lv.400",
+      "数值口径": "最终阶段属性",
+      "HP": 3749264.6,
+      "物理攻击": 9255,
+      "魔法攻击": 9255,
+      "物理防御": 11669,
+      "魔法防御": 11669,
+      "暴击": 6842,
+      "暴击伤害": 6842,
+      "暴击抵抗": 5635,
+      "暴伤抵抗": 5635,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +7.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8050060"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-1:8:8050090:70701:0",
+      "monsterUid": "70701",
+      "bossName": "릴1리 - 순수",
+      "personality": "순수",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 9,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "순수한 차원: 제 9구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 9,
+      "等级": "Lv.625",
+      "数值口径": "最终阶段属性",
+      "HP": 6797203.75,
+      "物理攻击": 14430,
+      "魔法攻击": 14430,
+      "物理防御": 18194,
+      "魔法防御": 18194,
+      "暴击": 10667,
+      "暴击伤害": 10667,
+      "暴击抵抗": 8785,
+      "暴伤抵抗": 8785,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +25% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8050090"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-1:8:8050120:70701:0",
+      "monsterUid": "70701",
+      "bossName": "릴1리 - 순수",
+      "personality": "순수",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 12,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "순수한 차원: 제 12구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 12,
+      "等级": "Lv.1410",
+      "数值口径": "最终阶段属性",
+      "HP": 15301697.5,
+      "物理攻击": 32485,
+      "魔法攻击": 32485,
+      "物理防御": 40959,
+      "魔法防御": 40959,
+      "暴击": 24012,
+      "暴击伤害": 24012,
+      "暴击抵抗": 19775,
+      "暴伤抵抗": 19775,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +25% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8050120"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-1:8:8050150:70701:0",
+      "monsterUid": "70701",
+      "bossName": "릴1리 - 순수",
+      "personality": "순수",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 15,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "순수한 차원: 제 15구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 15,
+      "等级": "Lv.3500",
+      "数值口径": "最终阶段属性",
+      "HP": 106243858,
+      "物理攻击": 140971.25,
+      "魔法攻击": 140971.25,
+      "物理防御": 101569,
+      "魔法防御": 101569,
+      "暴击": 59542,
+      "暴击伤害": 59542,
+      "暴击抵抗": 49035,
+      "暴伤抵抗": 49035,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +250% · 物攻 +75% · 魔攻 +75% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8050150"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-1:8:8050180:70701:0",
+      "monsterUid": "70701",
+      "bossName": "릴1리 - 순수",
+      "personality": "순수",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 18,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "순수한 차원: 제 18구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 18,
+      "等级": "Lv.5150",
+      "数值口径": "最终阶段属性",
+      "HP": 200951721,
+      "物理攻击": 355515,
+      "魔法攻击": 355515,
+      "物理防御": 149419,
+      "魔法防御": 149419,
+      "暴击": 87592,
+      "暴击伤害": 87592,
+      "暴击抵抗": 72135,
+      "暴伤抵抗": 72135,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +350% · 物攻 +200% · 魔攻 +200% · 最终物理减伤 -30% · 最终魔法减伤 -30% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -30,
+      "魔法减伤字段": -30,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8050180"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-1:8:8050210:70701:0",
+      "monsterUid": "70701",
+      "bossName": "릴1리 - 순수",
+      "personality": "순수",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 21,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "순수한 차원: 제 21구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 21,
+      "等级": "Lv.7500",
+      "数值口径": "最终阶段属性",
+      "HP": 552698798,
+      "物理攻击": 1035330,
+      "魔法攻击": 1035330,
+      "物理防御": 217569,
+      "魔法防御": 217569,
+      "暴击": 127542,
+      "暴击伤害": 127542,
+      "暴击抵抗": 105035,
+      "暴伤抵抗": 105035,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +750% · 物攻 +500% · 魔攻 +500% · 最终物理减伤 -30% · 最终魔法减伤 -30% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -30,
+      "魔法减伤字段": -30,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8050210"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-1:8:8050240:70701:0",
+      "monsterUid": "70701",
+      "bossName": "릴1리 - 순수",
+      "personality": "순수",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 24,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "순수한 차원: 제 24구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 24,
+      "等级": "Lv.12000",
+      "数值口径": "最终阶段属性",
+      "HP": 7593816824,
+      "物理攻击": 13526695,
+      "魔法攻击": 13526695,
+      "物理防御": 348069,
+      "魔法防御": 348069,
+      "暴击": 204042,
+      "暴击伤害": 204042,
+      "暴击抵抗": 168035,
+      "暴伤抵抗": 168035,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +7200% · 物攻 +4800% · 魔攻 +4800% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8050240"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-1:8:8050270:70701:0",
+      "monsterUid": "70701",
+      "bossName": "릴1리 - 순수",
+      "personality": "순수",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 27,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "순수한 차원: 제 27구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 27,
+      "等级": "Lv.24000",
+      "数值口径": "最终阶段属性",
+      "HP": 143913323771.071,
+      "物理攻击": 75079480,
+      "魔法攻击": 75079480,
+      "物理防御": 696069,
+      "魔法防御": 696069,
+      "暴击": 408042,
+      "暴击伤害": 408042,
+      "暴击抵抗": 336035,
+      "暴伤抵抗": 336035,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +69079.49% · 物攻 +13500% · 魔攻 +13500% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8050270"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-1:8:8060010:70701:0",
+      "monsterUid": "70701",
+      "bossName": "릴1리 - 순수",
+      "personality": "순수",
+      "attackType": "物理/魔法",
+      "difficultyCode": 0,
+      "worldName": "테스트 차원 순수",
+      "stageOrder": 1,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "순수한 차원: 제 1구역",
+      "官方关卡名": "테스트 차원 순수",
+      "波次/档位": 1,
+      "等级": "Lv.1",
+      "数值口径": "最终阶段属性",
+      "HP": 4137729555,
+      "物理攻击": 78,
+      "魔法攻击": 78,
+      "物理防御": 98,
+      "魔法防御": 98,
+      "暴击": 59,
+      "暴击伤害": 59,
+      "暴击抵抗": 49,
+      "暴伤抵抗": 49,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +14000000% · 最终物理减伤 -50% · 最终魔法减伤 -50% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -50,
+      "魔法减伤字段": -50,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8060010"
+      }
+    }
+  ],
+  "skills": [],
+  "guideSkills": [
+    {
+      "id": "7070106",
+      "sourceOrder": 5,
+      "displayName": "5次伤害结算并执行特殊机制（Skill4_1_Naive）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "冷却技能",
+      "trigger": {
+        "type": "计时",
+        "summary": "计时阈值 25 秒；CoolTime与FirstCoolTime另列，不合并成固定周期",
+        "rawValue": "25",
+        "coolTime": 25,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          6
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 80.000001192095,
+        "max": 80.000001192095,
+        "displayMin": 80.000001192095,
+        "displayMax": 80.000001192095,
+        "hitCount": 5,
+        "formula": "Skill4_1_Naive 80.000001192095%"
+      },
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "造成伤害",
+          "spineAnimation": "Skill4_1_Naive",
+          "relation": "执行关系待确认",
+          "spineEventCount": 5,
+          "effectTriggerCount": 5,
+          "eventTimes": [
+            3,
+            3.266667,
+            3.533334,
+            3.8,
+            4.066667
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill2"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Empty"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        },
+        {
+          "order": null,
+          "action": "执行特殊机制",
+          "spineAnimation": null,
+          "relation": "未匹配Spine事件的直接或回调效果",
+          "spineEventCount": 0,
+          "effectTriggerCount": 0,
+          "eventTimes": [],
+          "spineEffects": [],
+          "evidenceStatus": "官方效果行存在；Spine事件或具体调用时点尚未匹配"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "技能动作 4",
+          "spineAnimation": "Skill4_1_Naive",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 16.000000238419,
+              "multiplierMax": 16.000000238419,
+              "hitCount": 5,
+              "subtotalMin": 80.000001192095,
+              "subtotalMax": 80.000001192095,
+              "eventTimes": [
+                3,
+                3.266667,
+                3.533334,
+                3.8,
+                4.066667
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 80.000001192095,
+          "confirmedSegmentTotalMax": 80.000001192095,
+          "confirmedDamageHitCount": 5,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Skill2"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_Empty"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "镜头震动",
+          "note": "仅触发镜头震动协程，不产生伤害结算。",
+          "action": "镜头震动"
+        },
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7070108",
+      "sourceOrder": 7,
+      "displayName": "伤害动作并随机选择效果分支（Skill6_1_Naive）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "生命条件技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          25
+        ]
+      },
+      "range": null,
+      "verdict": "conditional-or-exclusive-branches",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "随机选择效果分支",
+          "spineAnimation": "Skill6_1_Naive",
+          "relation": "执行关系待确认",
+          "spineEventCount": 2,
+          "effectTriggerCount": 2,
+          "eventTimes": [
+            0,
+            0.3
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Attack1"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Empty"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        },
+        {
+          "order": null,
+          "action": "造成伤害；恢复生命或资源；执行特殊机制",
+          "spineAnimation": null,
+          "relation": "未匹配Spine事件的直接或回调效果",
+          "spineEventCount": 0,
+          "effectTriggerCount": 0,
+          "eventTimes": [],
+          "spineEffects": [],
+          "evidenceStatus": "官方效果行存在；Spine事件或具体调用时点尚未匹配"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "官方单次伤害段",
+          "spineAnimation": null,
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 60,
+              "multiplierMax": 60,
+              "hitCount": null,
+              "subtotalMin": null,
+              "subtotalMax": null,
+              "eventTimes": []
+            }
+          ],
+          "confirmedSegmentTotalMin": null,
+          "confirmedSegmentTotalMax": null,
+          "confirmedDamageHitCount": null,
+          "restrictions": [
+            "现有动作资源未连接到该伤害效果，完整次数无法确认"
+          ],
+          "spineEffects": []
+        },
+        {
+          "order": 2,
+          "action": "官方单次伤害段",
+          "spineAnimation": null,
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": null,
+              "subtotalMin": null,
+              "subtotalMax": null,
+              "eventTimes": []
+            }
+          ],
+          "confirmedSegmentTotalMin": null,
+          "confirmedSegmentTotalMax": null,
+          "confirmedDamageHitCount": null,
+          "restrictions": [
+            "现有动作资源未连接到该伤害效果，完整次数无法确认"
+          ],
+          "spineEffects": []
+        },
+        {
+          "order": 3,
+          "action": "官方单次伤害段",
+          "spineAnimation": null,
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 120,
+              "multiplierMax": 120,
+              "hitCount": null,
+              "subtotalMin": null,
+              "subtotalMax": null,
+              "eventTimes": []
+            }
+          ],
+          "confirmedSegmentTotalMin": null,
+          "confirmedSegmentTotalMax": null,
+          "confirmedDamageHitCount": null,
+          "restrictions": [
+            "现有动作资源未连接到该伤害效果，完整次数无法确认"
+          ],
+          "spineEffects": []
+        },
+        {
+          "order": 4,
+          "action": "官方单次伤害段",
+          "spineAnimation": null,
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 150,
+              "multiplierMax": 150,
+              "hitCount": null,
+              "subtotalMin": null,
+              "subtotalMax": null,
+              "eventTimes": []
+            }
+          ],
+          "confirmedSegmentTotalMin": null,
+          "confirmedSegmentTotalMax": null,
+          "confirmedDamageHitCount": null,
+          "restrictions": [
+            "现有动作资源未连接到该伤害效果，完整次数无法确认"
+          ],
+          "spineEffects": []
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [
+          {
+            "healMin": 200,
+            "healMax": 200,
+            "durationMin": 0,
+            "durationMax": 0,
+            "interval": 0
+          }
+        ],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [
+        {
+          "healMin": 200,
+          "healMax": 200,
+          "durationMin": 0,
+          "durationMax": 0,
+          "interval": 0
+        }
+      ],
+      "randomBranches": [
+        {
+          "probabilitySum": 100,
+          "probabilityValid": true,
+          "probabilityStatus": "官方概率合计有效",
+          "conclusion": "每次只选择一个官方随机分支；各分支不能相加。",
+          "branches": [
+            {
+              "branch": 1,
+              "probability": 40,
+              "outcomes": [
+                {
+                  "damageMin": 60,
+                  "damageMax": 60,
+                  "actionDamageFactor": 1
+                }
+              ]
+            },
+            {
+              "branch": 2,
+              "probability": 20,
+              "outcomes": [
+                {
+                  "damageMin": 100,
+                  "damageMax": 100,
+                  "actionDamageFactor": 1
+                }
+              ]
+            },
+            {
+              "branch": 3,
+              "probability": 20,
+              "outcomes": [
+                {
+                  "damageMin": 120,
+                  "damageMax": 120,
+                  "actionDamageFactor": 1
+                }
+              ]
+            },
+            {
+              "branch": 4,
+              "probability": 10,
+              "outcomes": [
+                {
+                  "damageMin": 0,
+                  "damageMax": 0,
+                  "actionDamageFactor": 1
+                }
+              ]
+            },
+            {
+              "branch": 5,
+              "probability": 10,
+              "outcomes": [
+                {
+                  "damageMin": 150,
+                  "damageMax": 150,
+                  "actionDamageFactor": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "mechanics": [
+        {
+          "behavior": "随机选择一个分支",
+          "probabilitySum": 100,
+          "probabilityValid": true,
+          "branches": [
+            {
+              "probabilityPercent": 40,
+              "outcomeCount": 1
+            },
+            {
+              "probabilityPercent": 20,
+              "outcomeCount": 1
+            },
+            {
+              "probabilityPercent": 20,
+              "outcomeCount": 1
+            },
+            {
+              "probabilityPercent": 10,
+              "outcomeCount": 1
+            },
+            {
+              "probabilityPercent": 10,
+              "outcomeCount": 1
+            }
+          ],
+          "action": "随机选择一个效果分支"
+        },
+        {
+          "behavior": "按最大HP恢复目标",
+          "officialHealMin": 200,
+          "officialHealMax": 200,
+          "valueUnit": "官方恢复倍率口径",
+          "action": "按最大HP恢复目标"
+        }
+      ],
+      "internalNotes": [
+        {
+          "behavior": "镜头震动",
+          "note": "仅触发镜头震动协程，不产生伤害结算。",
+          "action": "镜头震动"
+        },
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "不同条件、状态或随机结果互斥显示，各分支不相加。",
+      "evidenceStatus": "条件/随机/状态分支分别显示，禁止相加",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7070101",
+      "sourceOrder": 8,
+      "displayName": "1次伤害结算（Attack1_1_Naive）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SkillNew定义缺失",
+      "trigger": {
+        "type": "Boss专用状态机",
+        "summary": "由Boss专用状态机选择该动作；官方未单列具体触发阈值。",
+        "skillRange": [
+          null,
+          null
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 100,
+        "max": 100,
+        "displayMin": 100,
+        "displayMax": 100,
+        "hitCount": 1,
+        "formula": "Attack1_1_Naive 100%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Attack1_1_Naive",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.9
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Attack2"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Lil1li_Trace_1"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "额外骨骼",
+              "resource": "Point_Attack2"
+            },
+            {
+              "kind": "额外特效",
+              "resource": "FX_Lil1li_Trace_2_1"
+            },
+            {
+              "kind": "特效轴",
+              "resource": "Z"
+            },
+            {
+              "kind": "特效角度",
+              "resource": "50"
+            },
+            {
+              "kind": "命中轴",
+              "resource": "Z"
+            },
+            {
+              "kind": "命中角度",
+              "resource": "10,0,-10,-20,-60"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "普通攻击动作",
+          "spineAnimation": "Attack1_1_Naive",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.9
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 100,
+          "confirmedSegmentTotalMax": 100,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Attack2"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_Lil1li_Trace_1"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            },
+            {
+              "field": "额外骨骼",
+              "value": "Point_Attack2"
+            },
+            {
+              "field": "额外特效",
+              "value": "FX_Lil1li_Trace_2_1"
+            },
+            {
+              "field": "特效轴",
+              "value": "Z"
+            },
+            {
+              "field": "特效角度",
+              "value": "50"
+            },
+            {
+              "field": "命中轴",
+              "value": "Z"
+            },
+            {
+              "field": "命中角度",
+              "value": "10,0,-10,-20,-60"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "Boss专用状态机已确认该动作入口，动作内伤害事件已闭合；官方未单列具体触发阈值。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7070102",
+      "sourceOrder": 9,
+      "displayName": "随机选择效果分支（Skill6_1_Naive）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SkillNew定义缺失",
+      "trigger": {
+        "type": "Boss专用状态机",
+        "summary": "由Boss专用状态机选择该动作；官方未单列具体触发阈值。",
+        "skillRange": [
+          null,
+          null
+        ]
+      },
+      "range": null,
+      "verdict": "no-damage",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "随机选择效果分支",
+          "spineAnimation": "Skill6_1_Naive",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 2,
+          "effectTriggerCount": 2,
+          "eventTimes": [
+            0,
+            0.3
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Attack1"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Empty"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [
+        {
+          "probabilitySum": 0,
+          "probabilityValid": null,
+          "probabilityStatus": "官方资料不足，无法确认分支与概率",
+          "conclusion": "官方随机效果入口存在，但现有分支表为空；不猜测分支或概率。",
+          "branches": []
+        }
+      ],
+      "mechanics": [
+        {
+          "behavior": "随机选择一个分支",
+          "probabilitySum": 0,
+          "probabilityValid": false,
+          "branches": [],
+          "action": "随机选择一个效果分支"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "Boss专用状态机已确认该动作入口，动作内伤害事件已闭合；官方未单列具体触发阈值。",
+      "evidenceStatus": "官方字段与客户端结算共同确认无直接正伤害",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7070103",
+      "sourceOrder": 10,
+      "displayName": "1次伤害结算（Skill1_1_Naive）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SkillNew定义缺失",
+      "trigger": {
+        "type": "Boss专用状态机",
+        "summary": "由Boss专用状态机选择该动作；官方未单列具体触发阈值。",
+        "skillRange": [
+          null,
+          null
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 60,
+        "max": 60,
+        "displayMin": 60,
+        "displayMax": 60,
+        "hitCount": 1,
+        "formula": "Skill1_1_Naive 60%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Skill1_1_Naive",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            2.733334
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill1"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Lil1li_Stomp_1"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "技能动作 1",
+          "spineAnimation": "Skill1_1_Naive",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 60,
+              "multiplierMax": 60,
+              "hitCount": 1,
+              "subtotalMin": 60,
+              "subtotalMax": 60,
+              "eventTimes": [
+                2.733334
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 60,
+          "confirmedSegmentTotalMax": 60,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Skill1"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_Lil1li_Stomp_1"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "Boss专用状态机已确认该动作入口，动作内伤害事件已闭合；官方未单列具体触发阈值。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7070104",
+      "sourceOrder": 11,
+      "displayName": "1次伤害结算并执行特殊机制（Skill2_1_Naive）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SkillNew定义缺失",
+      "trigger": {
+        "type": "Boss专用状态机",
+        "summary": "由Boss专用状态机选择该动作；官方未单列具体触发阈值。",
+        "skillRange": [
+          null,
+          null
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 100,
+        "max": 100,
+        "displayMin": 100,
+        "displayMax": 100,
+        "hitCount": 1,
+        "formula": "Skill2_1_Naive 100%"
+      },
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "造成伤害",
+          "spineAnimation": "Skill2_1_Naive",
+          "relation": "执行关系待确认",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            3.166667
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill1"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Lil1li_Stomp_3"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        },
+        {
+          "order": null,
+          "action": "执行特殊机制",
+          "spineAnimation": null,
+          "relation": "未匹配Spine事件的直接或回调效果",
+          "spineEventCount": 0,
+          "effectTriggerCount": 0,
+          "eventTimes": [],
+          "spineEffects": [],
+          "evidenceStatus": "官方效果行存在；Spine事件或具体调用时点尚未匹配"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "技能动作 2",
+          "spineAnimation": "Skill2_1_Naive",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                3.166667
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 100,
+          "confirmedSegmentTotalMax": 100,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Skill1"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_Lil1li_Stomp_3"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "镜头震动",
+          "note": "仅触发镜头震动协程，不产生伤害结算。",
+          "action": "镜头震动"
+        },
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "Boss专用状态机已确认该动作入口，动作内伤害事件已闭合；官方未单列具体触发阈值。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7070105",
+      "sourceOrder": 12,
+      "displayName": "1次伤害结算并眩晕（Skill3_1_Naive）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SkillNew定义缺失",
+      "trigger": {
+        "type": "Boss专用状态机",
+        "summary": "由Boss专用状态机选择该动作；官方未单列具体触发阈值。",
+        "skillRange": [
+          null,
+          null
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 80,
+        "max": 80,
+        "displayMin": 80,
+        "displayMax": 80,
+        "hitCount": 1,
+        "formula": "Skill3_1_Naive 80%"
+      },
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "眩晕；施加控制状态；造成伤害",
+          "spineAnimation": "Skill3_1_Naive",
+          "relation": "执行关系待确认",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            3.133333
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill1"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Lil1li_Stomp_2"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        },
+        {
+          "order": null,
+          "action": "执行特殊机制",
+          "spineAnimation": null,
+          "relation": "未匹配Spine事件的直接或回调效果",
+          "spineEventCount": 0,
+          "effectTriggerCount": 0,
+          "eventTimes": [],
+          "spineEffects": [],
+          "evidenceStatus": "官方效果行存在；Spine事件或具体调用时点尚未匹配"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "技能动作 3",
+          "spineAnimation": "Skill3_1_Naive",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 80,
+              "multiplierMax": 80,
+              "hitCount": 1,
+              "subtotalMin": 80,
+              "subtotalMax": 80,
+              "eventTimes": [
+                3.133333
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 80,
+          "confirmedSegmentTotalMax": 80,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Skill1"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_Lil1li_Stomp_2"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [
+          {
+            "nameKo": "기절",
+            "fallbackLabel": null,
+            "descriptionKo": "행동 불능 상태가된다.",
+            "relation": "施加眩晕",
+            "relationDepth": "直接效果",
+            "category": "control",
+            "uid": null,
+            "nameKey": null,
+            "iconUrl": null,
+            "catalogMatch": "ambiguous-name",
+            "probabilityPercent": 100,
+            "durationSeconds": 2,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": false,
+            "classificationEvidence": "官方状态名或说明明确表示控制"
+          }
+        ],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "眩晕",
+          "probabilityPercent": 100,
+          "durationSeconds": 2,
+          "action": "造成伤害并眩晕"
+        }
+      ],
+      "internalNotes": [
+        {
+          "behavior": "镜头震动",
+          "note": "仅触发镜头震动协程，不产生伤害结算。",
+          "action": "镜头震动"
+        }
+      ],
+      "conclusion": "Boss专用状态机已确认该动作入口，动作内伤害事件已闭合；官方未单列具体触发阈值。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    }
+  ],
+  "internalComponents": [
+    {
+      "id": "7070001",
+      "sourceOrder": 0,
+      "displayName": "普通攻击",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "普通攻击",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          7
+        ]
+      },
+      "range": null,
+      "verdict": "no-damage",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "没有可确认的执行动作或效果",
+          "spineAnimation": null,
+          "relation": "未匹配Spine事件的直接或回调效果",
+          "spineEventCount": 0,
+          "effectTriggerCount": 0,
+          "eventTimes": [],
+          "spineEffects": [],
+          "evidenceStatus": "官方资料不足，无法确认"
+        }
+      ],
+      "damageSegments": [],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [],
+      "conclusion": "官方字段和客户端结算共同确认该技能没有直接正伤害。",
+      "evidenceStatus": "官方字段与客户端结算共同确认无直接正伤害",
+      "isInternalOnly": true,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7070002",
+      "sourceOrder": 1,
+      "displayName": "SP技能（表内无官方名称）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          7
+        ]
+      },
+      "range": null,
+      "verdict": "no-damage",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "没有可确认的执行动作或效果",
+          "spineAnimation": null,
+          "relation": "未匹配Spine事件的直接或回调效果",
+          "spineEventCount": 0,
+          "effectTriggerCount": 0,
+          "eventTimes": [],
+          "spineEffects": [],
+          "evidenceStatus": "官方资料不足，无法确认"
+        }
+      ],
+      "damageSegments": [],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [],
+      "conclusion": "官方字段和客户端结算共同确认该技能没有直接正伤害。",
+      "evidenceStatus": "官方字段与客户端结算共同确认无直接正伤害",
+      "isInternalOnly": true,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7070003",
+      "sourceOrder": 2,
+      "displayName": "SP技能（表内无官方名称）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          7
+        ]
+      },
+      "range": null,
+      "verdict": "no-damage",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "没有可确认的执行动作或效果",
+          "spineAnimation": null,
+          "relation": "未匹配Spine事件的直接或回调效果",
+          "spineEventCount": 0,
+          "effectTriggerCount": 0,
+          "eventTimes": [],
+          "spineEffects": [],
+          "evidenceStatus": "官方资料不足，无法确认"
+        }
+      ],
+      "damageSegments": [],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [],
+      "conclusion": "官方字段和客户端结算共同确认该技能没有直接正伤害。",
+      "evidenceStatus": "官方字段与客户端结算共同确认无直接正伤害",
+      "isInternalOnly": true,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7070004",
+      "sourceOrder": 3,
+      "displayName": "SP技能（表内无官方名称）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          7
+        ]
+      },
+      "range": null,
+      "verdict": "no-damage",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "没有可确认的执行动作或效果",
+          "spineAnimation": null,
+          "relation": "未匹配Spine事件的直接或回调效果",
+          "spineEventCount": 0,
+          "effectTriggerCount": 0,
+          "eventTimes": [],
+          "spineEffects": [],
+          "evidenceStatus": "官方资料不足，无法确认"
+        }
+      ],
+      "damageSegments": [],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [],
+      "conclusion": "官方字段和客户端结算共同确认该技能没有直接正伤害。",
+      "evidenceStatus": "官方字段与客户端结算共同确认无直接正伤害",
+      "isInternalOnly": true,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7070005",
+      "sourceOrder": 4,
+      "displayName": "SP技能（表内无官方名称）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          7
+        ]
+      },
+      "range": null,
+      "verdict": "no-damage",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "没有可确认的执行动作或效果",
+          "spineAnimation": null,
+          "relation": "未匹配Spine事件的直接或回调效果",
+          "spineEventCount": 0,
+          "effectTriggerCount": 0,
+          "eventTimes": [],
+          "spineEffects": [],
+          "evidenceStatus": "官方资料不足，无法确认"
+        }
+      ],
+      "damageSegments": [],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [],
+      "conclusion": "官方字段和客户端结算共同确认该技能没有直接正伤害。",
+      "evidenceStatus": "官方字段与客户端结算共同确认无直接正伤害",
+      "isInternalOnly": true,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7070107",
+      "sourceOrder": 6,
+      "displayName": "执行特殊机制",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "生命条件技能",
+      "trigger": {
+        "type": "生命值",
+        "summary": "生命值原值 10",
+        "rawValue": "10",
+        "coolTime": 0,
+        "firstCoolTime": 25,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          20
+        ]
+      },
+      "range": null,
+      "verdict": "no-damage",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "执行特殊机制",
+          "spineAnimation": null,
+          "relation": "未匹配Spine事件的直接或回调效果",
+          "spineEventCount": 0,
+          "effectTriggerCount": 0,
+          "eventTimes": [],
+          "spineEffects": [],
+          "evidenceStatus": "官方效果行存在；Spine事件或具体调用时点尚未匹配"
+        }
+      ],
+      "damageSegments": [],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "执行特殊机制",
+          "note": "处理器语义待确认",
+          "action": "执行特殊机制"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "官方字段和客户端结算共同确认该技能没有直接正伤害。",
+      "evidenceStatus": "官方字段与客户端结算共同确认无直接正伤害",
+      "isInternalOnly": true,
+      "runtimeReferences": {}
+    }
+  ],
+  "spineResources": [
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill4_1_Naive",
+      "直接连接的技能效果": "7070106",
+      "触发时间": "3s / 3.266667s / 3.533334s / 3.8s / 4.066667s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill6_1_Naive",
+      "直接连接的技能效果": "7070108, 7070102",
+      "触发时间": "0s / 0.3s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack1_1_Naive",
+      "直接连接的技能效果": "7070101",
+      "触发时间": "0.9s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_1_Naive",
+      "直接连接的技能效果": "7070103",
+      "触发时间": "2.733334s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill2_1_Naive",
+      "直接连接的技能效果": "7070104",
+      "触发时间": "3.166667s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill3_1_Naive",
+      "直接连接的技能效果": "7070105",
+      "触发时间": "3.133333s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    }
+  ],
+  "guideReference": null,
+  "runtimeReferences": {}
+}

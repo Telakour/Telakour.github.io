@@ -1,0 +1,2790 @@
+{
+  "schemaVersion": 3,
+  "server": "kr",
+  "dataVersion": "2026-08-27",
+  "routeKey": "kr:elias-frontier:75501",
+  "mode": "艾利亚斯边境",
+  "modeKey": "elias-frontier",
+  "monsterUid": "75501",
+  "bossName": "M.E.O.W(R41)",
+  "personality": "无",
+  "attackType": "物理",
+  "spineKey": "ExMEOW",
+  "spineSkinName": "Skin_None",
+  "iconUrl": null,
+  "difficultyCodes": [
+    4
+  ],
+  "stages": [
+    {
+      "rowKey": "elias-frontier:15:15010134:75501:0",
+      "monsterUid": "75501",
+      "bossName": "M.E.O.W(R41)",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 13,
+      "variantIndex": 0,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[마그맛1] 침식되는 시공간｜变体 1/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 13,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 7718080943,
+      "物理攻击": 567798,
+      "魔法攻击": 0,
+      "物理防御": 282137,
+      "魔法防御": 204548,
+      "暴击": 98749,
+      "暴击伤害": 98749,
+      "暴击抵抗": 98749,
+      "暴伤抵抗": 98749,
+      "SP上限": 600,
+      "SP恢复": 90,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +10000% · 物攻 +250% · 魔攻 +250% · 最终物理伤害 +825% · 最终魔法伤害 +825% · 最终物理减伤 -90% · 最终魔法减伤 -90% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -90,
+      "魔法减伤字段": -90,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010134"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010134:75501:1",
+      "monsterUid": "75501",
+      "bossName": "M.E.O.W(R41)",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 13,
+      "variantIndex": 1,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[마그맛1] 침식되는 시공간｜变体 2/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 13,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 8538756443,
+      "物理攻击": 628173,
+      "魔法攻击": 0,
+      "物理防御": 312137,
+      "魔法防御": 226298,
+      "暴击": 109249,
+      "暴击伤害": 109249,
+      "暴击抵抗": 109249,
+      "暴伤抵抗": 109249,
+      "SP上限": 600,
+      "SP恢复": 90,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +10000% · 物攻 +250% · 魔攻 +250% · 最终物理伤害 +825% · 最终魔法伤害 +825% · 最终物理减伤 -90% · 最终魔法减伤 -90% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -90,
+      "魔法减伤字段": -90,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010134"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010134:75501:2",
+      "monsterUid": "75501",
+      "bossName": "M.E.O.W(R41)",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 13,
+      "variantIndex": 2,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[마그맛1] 침식되는 시공간｜变体 3/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 13,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 9359431943,
+      "物理攻击": 688548,
+      "魔法攻击": 0,
+      "物理防御": 342137,
+      "魔法防御": 248048,
+      "暴击": 119749,
+      "暴击伤害": 119749,
+      "暴击抵抗": 119749,
+      "暴伤抵抗": 119749,
+      "SP上限": 600,
+      "SP恢复": 90,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +10000% · 物攻 +250% · 魔攻 +250% · 最终物理伤害 +825% · 最终魔法伤害 +825% · 最终物理减伤 -90% · 最终魔法减伤 -90% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -90,
+      "魔法减伤字段": -90,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010134"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010134:75501:3",
+      "monsterUid": "75501",
+      "bossName": "M.E.O.W(R41)",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 13,
+      "variantIndex": 3,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[마그맛1] 침식되는 시공간｜变体 4/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 13,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 10180107443,
+      "物理攻击": 748923,
+      "魔法攻击": 0,
+      "物理防御": 372137,
+      "魔法防御": 269798,
+      "暴击": 130249,
+      "暴击伤害": 130249,
+      "暴击抵抗": 130249,
+      "暴伤抵抗": 130249,
+      "SP上限": 600,
+      "SP恢复": 90,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +10000% · 物攻 +250% · 魔攻 +250% · 最终物理伤害 +825% · 最终魔法伤害 +825% · 最终物理减伤 -90% · 最终魔法减伤 -90% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -90,
+      "魔法减伤字段": -90,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010134"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010134:75501:4",
+      "monsterUid": "75501",
+      "bossName": "M.E.O.W(R41)",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 13,
+      "variantIndex": 4,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[마그맛1] 침식되는 시공간｜变体 5/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 13,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 11000782943,
+      "物理攻击": 809298,
+      "魔法攻击": 0,
+      "物理防御": 402137,
+      "魔法防御": 291548,
+      "暴击": 140749,
+      "暴击伤害": 140749,
+      "暴击抵抗": 140749,
+      "暴伤抵抗": 140749,
+      "SP上限": 600,
+      "SP恢复": 90,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +10000% · 物攻 +250% · 魔攻 +250% · 最终物理伤害 +825% · 最终魔法伤害 +825% · 最终物理减伤 -90% · 最终魔法减伤 -90% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -90,
+      "魔法减伤字段": -90,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010134"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010134:75501:5",
+      "monsterUid": "75501",
+      "bossName": "M.E.O.W(R41)",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 13,
+      "variantIndex": 5,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[마그맛1] 침식되는 시공간｜变体 6/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 13,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 11821458443,
+      "物理攻击": 869673,
+      "魔法攻击": 0,
+      "物理防御": 432137,
+      "魔法防御": 313298,
+      "暴击": 151249,
+      "暴击伤害": 151249,
+      "暴击抵抗": 151249,
+      "暴伤抵抗": 151249,
+      "SP上限": 600,
+      "SP恢复": 90,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +10000% · 物攻 +250% · 魔攻 +250% · 最终物理伤害 +825% · 最终魔法伤害 +825% · 最终物理减伤 -90% · 最终魔法减伤 -90% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -90,
+      "魔法减伤字段": -90,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010134"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010144:75501:0",
+      "monsterUid": "75501",
+      "bossName": "M.E.O.W(R41)",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 14,
+      "variantIndex": 0,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[마그맛2] 부식중인 시공간｜变体 1/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 14,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 13203901733,
+      "物理攻击": 802417.5,
+      "魔法攻击": 0,
+      "物理防御": 372137,
+      "魔法防御": 269798,
+      "暴击": 130249,
+      "暴击伤害": 130249,
+      "暴击抵抗": 130249,
+      "暴伤抵抗": 130249,
+      "SP上限": 600,
+      "SP恢复": 90,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +13000% · 物攻 +275% · 魔攻 +275% · 最终物理伤害 +1050% · 最终魔法伤害 +1050% · 最终物理减伤 -92.5% · 最终魔法减伤 -92.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -92.5,
+      "魔法减伤字段": -92.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010144"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010144:75501:1",
+      "monsterUid": "75501",
+      "bossName": "M.E.O.W(R41)",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 14,
+      "variantIndex": 1,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[마그맛2] 부식중인 시공간｜变体 2/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 14,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 14552193033,
+      "物理攻击": 884355,
+      "魔法攻击": 0,
+      "物理防御": 410137,
+      "魔法防御": 297348,
+      "暴击": 143549,
+      "暴击伤害": 143549,
+      "暴击抵抗": 143549,
+      "暴伤抵抗": 143549,
+      "SP上限": 600,
+      "SP恢复": 90,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +13000% · 物攻 +275% · 魔攻 +275% · 最终物理伤害 +1050% · 最终魔法伤害 +1050% · 最终物理减伤 -92.5% · 最终魔法减伤 -92.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -92.5,
+      "魔法减伤字段": -92.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010144"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010144:75501:2",
+      "monsterUid": "75501",
+      "bossName": "M.E.O.W(R41)",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 14,
+      "variantIndex": 2,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[마그맛2] 부식중인 시공간｜变体 3/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 14,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 15900484333,
+      "物理攻击": 966292.5,
+      "魔法攻击": 0,
+      "物理防御": 448137,
+      "魔法防御": 324898,
+      "暴击": 156849,
+      "暴击伤害": 156849,
+      "暴击抵抗": 156849,
+      "暴伤抵抗": 156849,
+      "SP上限": 600,
+      "SP恢复": 90,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +13000% · 物攻 +275% · 魔攻 +275% · 最终物理伤害 +1050% · 最终魔法伤害 +1050% · 最终物理减伤 -92.5% · 最终魔法减伤 -92.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -92.5,
+      "魔法减伤字段": -92.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010144"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010144:75501:3",
+      "monsterUid": "75501",
+      "bossName": "M.E.O.W(R41)",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 14,
+      "variantIndex": 3,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[마그맛2] 부식중인 시공간｜变体 4/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 14,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 17248775633,
+      "物理攻击": 1048230,
+      "魔法攻击": 0,
+      "物理防御": 486137,
+      "魔法防御": 352448,
+      "暴击": 170149,
+      "暴击伤害": 170149,
+      "暴击抵抗": 170149,
+      "暴伤抵抗": 170149,
+      "SP上限": 600,
+      "SP恢复": 90,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +13000% · 物攻 +275% · 魔攻 +275% · 最终物理伤害 +1050% · 最终魔法伤害 +1050% · 最终物理减伤 -92.5% · 最终魔法减伤 -92.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -92.5,
+      "魔法减伤字段": -92.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010144"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010144:75501:4",
+      "monsterUid": "75501",
+      "bossName": "M.E.O.W(R41)",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 14,
+      "variantIndex": 4,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[마그맛2] 부식중인 시공간｜变体 5/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 14,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 18597066933,
+      "物理攻击": 1130167.5,
+      "魔法攻击": 0,
+      "物理防御": 524137,
+      "魔法防御": 379998,
+      "暴击": 183449,
+      "暴击伤害": 183449,
+      "暴击抵抗": 183449,
+      "暴伤抵抗": 183449,
+      "SP上限": 600,
+      "SP恢复": 90,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +13000% · 物攻 +275% · 魔攻 +275% · 最终物理伤害 +1050% · 最终魔法伤害 +1050% · 最终物理减伤 -92.5% · 最终魔法减伤 -92.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -92.5,
+      "魔法减伤字段": -92.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010144"
+      }
+    },
+    {
+      "rowKey": "elias-frontier:15:15010144:75501:5",
+      "monsterUid": "75501",
+      "bossName": "M.E.O.W(R41)",
+      "personality": "无",
+      "attackType": "物理",
+      "difficultyCode": 4,
+      "worldName": "SoloEnd_Boss",
+      "stageOrder": 14,
+      "variantIndex": 5,
+      "variantCount": 6,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "[마그맛2] 부식중인 시공간｜变体 6/6",
+      "官方关卡名": "SoloEnd_Boss",
+      "波次/档位": 14,
+      "等级": "Lv.null",
+      "数值口径": "最终阶段属性",
+      "HP": 19945358233,
+      "物理攻击": 1212105,
+      "魔法攻击": 0,
+      "物理防御": 562137,
+      "魔法防御": 407548,
+      "暴击": 196749,
+      "暴击伤害": 196749,
+      "暴击抵抗": 196749,
+      "暴伤抵抗": 196749,
+      "SP上限": 600,
+      "SP恢复": 90,
+      "攻击速度": 30,
+      "属性加成与特殊说明": "HP +13000% · 物攻 +275% · 魔攻 +275% · 最终物理伤害 +1050% · 最终魔法伤害 +1050% · 最终物理减伤 -92.5% · 最终魔法减伤 -92.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": -92.5,
+      "魔法减伤字段": -92.5,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "15010144"
+      }
+    }
+  ],
+  "skills": [],
+  "guideSkills": [
+    {
+      "id": "7550101",
+      "sourceOrder": 0,
+      "displayName": "调整技能冷却",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "条件技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          100
+        ]
+      },
+      "range": null,
+      "verdict": "no-damage",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "调整技能冷却",
+          "spineAnimation": "Idle",
+          "relation": "执行关系待确认",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            2
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Shadow"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Empty"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        },
+        {
+          "order": null,
+          "action": "调整技能冷却",
+          "spineAnimation": "Move",
+          "relation": "执行关系待确认",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            2
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Shadow"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Empty"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "检查动画冷却",
+          "note": "按动画状态检查冷却，不产生额外伤害。",
+          "action": "检查动画冷却"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "官方字段和客户端结算共同确认该技能没有直接正伤害。",
+      "evidenceStatus": "官方字段与客户端结算共同确认无直接正伤害",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7550102",
+      "sourceOrder": 1,
+      "displayName": "伤害动作并执行特殊机制",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "普通攻击",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          22
+        ]
+      },
+      "range": null,
+      "verdict": "segment-only",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "造成伤害；执行特殊机制",
+          "spineAnimation": "Attack1_1_None",
+          "relation": "执行关系待确认",
+          "spineEventCount": 2,
+          "effectTriggerCount": 3,
+          "eventTimes": [
+            1.733333,
+            3.6
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill3"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_MEOW_Stomp_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_2_M"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "额外骨骼",
+              "resource": "Point_Skill3"
+            },
+            {
+              "kind": "额外特效",
+              "resource": "FX_MEOW_Stomp_2"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_MaestroMk2_Stomp_1"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        },
+        {
+          "order": null,
+          "action": "造成伤害",
+          "spineAnimation": "Groggy2_3",
+          "relation": "执行关系待确认",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            1.866667
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill3"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_MaestroMk2_Stomp_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_2_M"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        },
+        {
+          "order": null,
+          "action": "造成伤害",
+          "spineAnimation": "Skill5_3_None",
+          "relation": "执行关系待确认",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            5.233334
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill3"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_MaestroMk2_Stomp_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_2_M"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill5"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Empty"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_1_M"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        },
+        {
+          "order": null,
+          "action": "造成伤害",
+          "spineAnimation": "Skill5_4_None",
+          "relation": "执行关系待确认",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            5.233334
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill3"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_MaestroMk2_Stomp_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_2_M"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill5"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Empty"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_1_M"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        },
+        {
+          "order": null,
+          "action": "执行特殊机制",
+          "spineAnimation": "Skill3_1_None",
+          "relation": "执行关系待确认",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.866667
+          ],
+          "spineEffects": [
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill9"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_ExMEOW_Proj_1"
+            },
+            {
+              "kind": "额外骨骼",
+              "resource": "Point_Bottom"
+            },
+            {
+              "kind": "额外特效",
+              "resource": "FX_ExMEOW_Explosion_1"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "普通攻击动作",
+          "spineAnimation": "Attack1_1_None",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 50,
+              "multiplierMax": 50,
+              "hitCount": 1,
+              "subtotalMin": 50,
+              "subtotalMax": 50,
+              "eventTimes": [
+                1.733333
+              ]
+            },
+            {
+              "kind": "direct",
+              "multiplierMin": 50,
+              "multiplierMax": 50,
+              "hitCount": 1,
+              "subtotalMin": 50,
+              "subtotalMax": 50,
+              "eventTimes": [
+                3.6
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 100,
+          "confirmedSegmentTotalMax": 100,
+          "confirmedDamageHitCount": 2,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Skill3"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_MEOW_Stomp_1"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Common_Hit_2_M"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            },
+            {
+              "field": "额外骨骼",
+              "value": "Point_Skill3"
+            },
+            {
+              "field": "额外特效",
+              "value": "FX_MEOW_Stomp_2"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_MaestroMk2_Stomp_1"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "镜头震动",
+          "note": "仅触发镜头震动协程，不产生伤害结算。",
+          "action": "镜头震动"
+        },
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "动作内倍率和次数可确认；完整动作集合或运行入口尚未唯一闭合。",
+      "evidenceStatus": "官方单段倍率与动作内次数已确认；完整动作关系未闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7550103",
+      "sourceOrder": 2,
+      "displayName": "冲击波 → 机枪扫射",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "强化攻击",
+      "trigger": {
+        "type": "堆叠",
+        "summary": "堆叠条件原值 3；比较方式仍以客户端运行逻辑为准",
+        "rawValue": "3",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          25
+        ]
+      },
+      "range": null,
+      "verdict": "segmented-unresolved-sequence",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "造成伤害；执行特殊机制",
+          "spineAnimation": "Attack2_1_None",
+          "relation": "分段动作；跨动作衔接尚未证明",
+          "spineEventCount": 2,
+          "effectTriggerCount": 3,
+          "eventTimes": [
+            1.633333,
+            1.666667
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill7"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_MEOW_Windwave_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_2_M"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        },
+        {
+          "order": null,
+          "action": "造成伤害；执行特殊机制",
+          "spineAnimation": "Attack3_1_None",
+          "relation": "分段动作；跨动作衔接尚未证明",
+          "spineEventCount": 9,
+          "effectTriggerCount": 10,
+          "eventTimes": [
+            2.8,
+            2.9,
+            3.1,
+            3.233334,
+            3.333333,
+            3.433333,
+            3.6,
+            3.7,
+            3.8
+          ],
+          "spineEffects": [
+            {
+              "kind": "目标骨骼",
+              "resource": "Point_Bottom"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_MEOW_Hit_Ground_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_2_M"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "冲击波",
+          "spineAnimation": "Attack2_1_None",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 150,
+              "multiplierMax": 150,
+              "hitCount": 1,
+              "subtotalMin": 150,
+              "subtotalMax": 150,
+              "eventTimes": [
+                1.666667
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 150,
+          "confirmedSegmentTotalMax": 150,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [
+            "各段动作内次数已确认，但现有客户端证据尚未证明这些段必在一次施放中连续执行"
+          ],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Skill7"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_MEOW_Windwave_1"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Common_Hit_2_M"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "action": "机枪扫射",
+          "spineAnimation": "Attack3_1_None",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 150,
+              "multiplierMax": 150,
+              "hitCount": 9,
+              "subtotalMin": 1350,
+              "subtotalMax": 1350,
+              "eventTimes": [
+                2.8,
+                2.9,
+                3.1,
+                3.233334,
+                3.333333,
+                3.433333,
+                3.6,
+                3.7,
+                3.8
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 1350,
+          "confirmedSegmentTotalMax": 1350,
+          "confirmedDamageHitCount": 9,
+          "restrictions": [
+            "各段动作内次数已确认，但现有客户端证据尚未证明这些段必在一次施放中连续执行"
+          ],
+          "spineEffects": [
+            {
+              "field": "目标骨骼",
+              "value": "Point_Bottom"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_MEOW_Hit_Ground_1"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Common_Hit_2_M"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "镜头震动",
+          "note": "仅触发镜头震动协程，不产生伤害结算。",
+          "action": "镜头震动"
+        },
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "各动作段内倍率与次数已确认，但尚不能证明所有段在一次施放中必定连续执行。",
+      "evidenceStatus": "分段已确认；各段是否必在一次施放内连续仍无法确认",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7550107",
+      "sourceOrder": 3,
+      "displayName": "19次伤害结算（Skill3_1_None）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "冷却技能",
+      "trigger": {
+        "type": "计时",
+        "summary": "计时阈值 40 秒；CoolTime与FirstCoolTime另列，不合并成固定周期",
+        "rawValue": "40",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          100
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 13300,
+        "max": 13300,
+        "displayMin": 13300,
+        "displayMax": 13300,
+        "hitCount": 19,
+        "formula": "Skill3_1_None 13300%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Skill3_1_None",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 19,
+          "effectTriggerCount": 19,
+          "eventTimes": [
+            4.333333,
+            4.466667,
+            4.6,
+            4.733334,
+            4.866667,
+            5,
+            5.133334,
+            5.266667,
+            5.4,
+            5.533334,
+            5.666667,
+            5.8,
+            5.933334,
+            6.066667,
+            6.2,
+            6.333333,
+            6.466667,
+            6.6,
+            6.733334
+          ],
+          "spineEffects": [
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill9"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_ExMEOW_Proj_1"
+            },
+            {
+              "kind": "额外骨骼",
+              "resource": "Point_Bottom"
+            },
+            {
+              "kind": "额外特效",
+              "resource": "FX_ExMEOW_Explosion_1"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "技能动作 3",
+          "spineAnimation": "Skill3_1_None",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 700,
+              "multiplierMax": 700,
+              "hitCount": 19,
+              "subtotalMin": 13300,
+              "subtotalMax": 13300,
+              "eventTimes": [
+                4.333333,
+                4.466667,
+                4.6,
+                4.733334,
+                4.866667,
+                5,
+                5.133334,
+                5.266667,
+                5.4,
+                5.533334,
+                5.666667,
+                5.8,
+                5.933334,
+                6.066667,
+                6.2,
+                6.333333,
+                6.466667,
+                6.6,
+                6.733334
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 13300,
+          "confirmedSegmentTotalMax": 13300,
+          "confirmedDamageHitCount": 19,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            },
+            {
+              "field": "自身骨骼",
+              "value": "Point_Skill9"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_ExMEOW_Proj_1"
+            },
+            {
+              "field": "额外骨骼",
+              "value": "Point_Bottom"
+            },
+            {
+              "field": "额外特效",
+              "value": "FX_ExMEOW_Explosion_1"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7550109",
+      "sourceOrder": 4,
+      "displayName": "召唤单位",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "冷却技能",
+      "trigger": {
+        "type": "计时",
+        "summary": "计时阈值 30 秒；CoolTime与FirstCoolTime另列，不合并成固定周期",
+        "rawValue": "30",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          100
+        ]
+      },
+      "range": null,
+      "verdict": "no-damage",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "召唤单位",
+          "spineAnimation": null,
+          "relation": "未匹配Spine事件的直接或回调效果",
+          "spineEventCount": 0,
+          "effectTriggerCount": 0,
+          "eventTimes": [],
+          "spineEffects": [],
+          "evidenceStatus": "官方效果行存在；Spine事件或具体调用时点尚未匹配"
+        }
+      ],
+      "damageSegments": [],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "召唤单位",
+          "note": "已证明读取前三个参数并启动召唤协程；各参数的正式字段名仍未完整恢复，保持原值。",
+          "action": "召唤单位"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "官方字段和客户端结算共同确认该技能没有直接正伤害。",
+      "evidenceStatus": "官方字段与客户端结算共同确认无直接正伤害",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7550110",
+      "sourceOrder": 5,
+      "displayName": "累计或检查层数（Skill5_1_None）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "生命条件技能",
+      "trigger": {
+        "type": "生命值",
+        "summary": "生命值原值 100",
+        "rawValue": "100",
+        "coolTime": 0,
+        "firstCoolTime": 60,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          100
+        ]
+      },
+      "range": null,
+      "verdict": "no-damage",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "累计或检查层数",
+          "spineAnimation": "Skill5_1_None",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.933333
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Empty"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "受击计数达到条件时播放动作",
+          "note": "已证明受击计数处理器与动画触发关系；参数正式字段名未完整恢复。",
+          "action": "受击计数达到条件时播放动作"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "官方字段和客户端结算共同确认该技能没有直接正伤害。",
+      "evidenceStatus": "官方字段与客户端结算共同确认无直接正伤害",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7550111",
+      "sourceOrder": 6,
+      "displayName": "累计或检查层数并执行特殊机制（Skill5_2_None）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "冷却技能",
+      "trigger": {
+        "type": "计时",
+        "summary": "计时阈值 50 秒；CoolTime与FirstCoolTime另列，不合并成固定周期",
+        "rawValue": "50",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          100
+        ]
+      },
+      "range": null,
+      "verdict": "no-damage",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "累计或检查层数",
+          "spineAnimation": null,
+          "relation": "未匹配Spine事件的直接或回调效果",
+          "spineEventCount": 0,
+          "effectTriggerCount": 0,
+          "eventTimes": [],
+          "spineEffects": [],
+          "evidenceStatus": "官方效果行存在；Spine事件或具体调用时点尚未匹配"
+        },
+        {
+          "order": null,
+          "action": "执行特殊机制",
+          "spineAnimation": "Skill5_2_None",
+          "relation": "执行关系待确认",
+          "spineEventCount": 2,
+          "effectTriggerCount": 2,
+          "eventTimes": [
+            0,
+            0.533333
+          ],
+          "spineEffects": [
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "受击计数达到条件时播放动作",
+          "note": "已证明受击计数处理器与动画触发关系；参数正式字段名未完整恢复。",
+          "action": "受击计数达到条件时播放动作"
+        }
+      ],
+      "internalNotes": [
+        {
+          "behavior": "镜头震动",
+          "note": "仅触发镜头震动协程，不产生伤害结算。",
+          "action": "镜头震动"
+        }
+      ],
+      "conclusion": "官方字段和客户端结算共同确认该技能没有直接正伤害。",
+      "evidenceStatus": "官方字段与客户端结算共同确认无直接正伤害",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7550112",
+      "sourceOrder": 7,
+      "displayName": "伤害动作并执行特殊机制（Skill5_3_None）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "条件技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          100
+        ]
+      },
+      "range": null,
+      "verdict": "segment-only",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "执行特殊机制；眩晕；施加控制状态；造成伤害",
+          "spineAnimation": "Skill5_3_None",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 15,
+          "effectTriggerCount": 15,
+          "eventTimes": [
+            0,
+            0.233333,
+            0.433333,
+            0.633333,
+            0.833333,
+            1.033333,
+            1.233333,
+            1.433333,
+            1.633333,
+            1.833333,
+            2.033334,
+            2.233333,
+            2.433333,
+            2.533334,
+            2.6
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill3"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_MaestroMk2_Stomp_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_2_M"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill5"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Empty"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_1_M"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "技能动作 5",
+          "spineAnimation": "Skill5_3_None",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 450,
+              "multiplierMax": 450,
+              "hitCount": 1,
+              "subtotalMin": 450,
+              "subtotalMax": 450,
+              "eventTimes": [
+                2.6
+              ]
+            },
+            {
+              "kind": "direct",
+              "multiplierMin": 450,
+              "multiplierMax": 450,
+              "hitCount": 13,
+              "subtotalMin": 5850,
+              "subtotalMax": 5850,
+              "eventTimes": [
+                0.233333,
+                0.433333,
+                0.633333,
+                0.833333,
+                1.033333,
+                1.233333,
+                1.433333,
+                1.633333,
+                1.833333,
+                2.033334,
+                2.233333,
+                2.433333,
+                2.533334
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 6300,
+          "confirmedSegmentTotalMax": 6300,
+          "confirmedDamageHitCount": 14,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Skill3"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_MaestroMk2_Stomp_1"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Common_Hit_2_M"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            },
+            {
+              "field": "自身骨骼",
+              "value": "Point_Skill5"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_Empty"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Common_Hit_1_M"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [
+          {
+            "nameKo": "기절",
+            "fallbackLabel": null,
+            "descriptionKo": "행동 불능 상태가된다.",
+            "relation": "施加眩晕",
+            "relationDepth": "直接效果",
+            "category": "control",
+            "uid": null,
+            "nameKey": null,
+            "iconUrl": null,
+            "catalogMatch": "ambiguous-name",
+            "probabilityPercent": 100,
+            "durationSeconds": 6,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": false,
+            "classificationEvidence": "官方状态名或说明明确表示控制"
+          }
+        ],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "眩晕",
+          "probabilityPercent": 100,
+          "durationSeconds": 6,
+          "action": "造成伤害并眩晕"
+        }
+      ],
+      "internalNotes": [
+        {
+          "behavior": "镜头震动",
+          "note": "仅触发镜头震动协程，不产生伤害结算。",
+          "action": "镜头震动"
+        },
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "同一伤害动作被多个技能复用；仅显示本技能可确认分段，不生成完整总倍率。",
+      "evidenceStatus": "官方单段倍率与动作内次数已确认；完整动作关系未闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7550113",
+      "sourceOrder": 8,
+      "displayName": "伤害动作并执行特殊机制",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "条件技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          100
+        ]
+      },
+      "range": null,
+      "verdict": "segment-only",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "执行特殊机制；造成伤害",
+          "spineAnimation": "Skill5_4_None",
+          "relation": "执行关系待确认",
+          "spineEventCount": 4,
+          "effectTriggerCount": 4,
+          "eventTimes": [
+            0,
+            0.233333,
+            0.633333,
+            1.033333
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill3"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_MaestroMk2_Stomp_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_2_M"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill5"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Empty"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_1_M"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        },
+        {
+          "order": null,
+          "action": "调整虚弱或破防状态",
+          "spineAnimation": "Skill5_5_None",
+          "relation": "执行关系待确认",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0
+          ],
+          "spineEffects": [
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "技能动作 5",
+          "spineAnimation": "Skill5_4_None",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 150,
+              "multiplierMax": 150,
+              "hitCount": 3,
+              "subtotalMin": 450,
+              "subtotalMax": 450,
+              "eventTimes": [
+                0.233333,
+                0.633333,
+                1.033333
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 450,
+          "confirmedSegmentTotalMax": 450,
+          "confirmedDamageHitCount": 3,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Skill3"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_MaestroMk2_Stomp_1"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Common_Hit_2_M"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            },
+            {
+              "field": "自身骨骼",
+              "value": "Point_Skill5"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_Empty"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Common_Hit_1_M"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "切换虚弱状态",
+          "note": "切换世界Boss虚弱状态，不产生额外伤害。",
+          "action": "切换虚弱状态"
+        }
+      ],
+      "internalNotes": [
+        {
+          "behavior": "镜头震动",
+          "note": "仅触发镜头震动协程，不产生伤害结算。",
+          "action": "镜头震动"
+        },
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "同一伤害动作被多个技能复用；仅显示本技能可确认分段，不生成完整总倍率。",
+      "evidenceStatus": "官方单段倍率与动作内次数已确认；完整动作关系未闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7550114",
+      "sourceOrder": 9,
+      "displayName": "1次伤害结算并眩晕（Skill1_1_None）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          100
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 400,
+        "max": 400,
+        "displayMin": 400,
+        "displayMax": 400,
+        "hitCount": 1,
+        "formula": "Skill1_1_None 400%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "眩晕；施加控制状态；造成伤害",
+          "spineAnimation": "Skill1_1_None",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.966667
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill5"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_MEOW_Shouting_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_1_M"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "技能动作 1",
+          "spineAnimation": "Skill1_1_None",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 400,
+              "multiplierMax": 400,
+              "hitCount": 1,
+              "subtotalMin": 400,
+              "subtotalMax": 400,
+              "eventTimes": [
+                0.966667
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 400,
+          "confirmedSegmentTotalMax": 400,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Skill5"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_MEOW_Shouting_1"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Common_Hit_1_M"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [
+          {
+            "nameKo": "기절",
+            "fallbackLabel": null,
+            "descriptionKo": "행동 불능 상태가된다.",
+            "relation": "施加眩晕",
+            "relationDepth": "直接效果",
+            "category": "control",
+            "uid": null,
+            "nameKey": null,
+            "iconUrl": null,
+            "catalogMatch": "ambiguous-name",
+            "probabilityPercent": 100,
+            "durationSeconds": 2,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": false,
+            "classificationEvidence": "官方状态名或说明明确表示控制"
+          }
+        ],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "眩晕",
+          "probabilityPercent": 100,
+          "durationSeconds": 2,
+          "action": "造成伤害并眩晕"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7550119",
+      "sourceOrder": 10,
+      "displayName": "累计或检查层数并触发死亡或击杀机制（Skill9_1_None）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "冷却技能",
+      "trigger": {
+        "type": "计时",
+        "summary": "计时阈值 60 秒；CoolTime与FirstCoolTime另列，不合并成固定周期",
+        "rawValue": "60",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          100
+        ]
+      },
+      "range": null,
+      "verdict": "no-damage",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "累计或检查层数；触发死亡或击杀机制",
+          "spineAnimation": "Skill9_1_None",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 2,
+          "effectTriggerCount": 2,
+          "eventTimes": [
+            0,
+            2.666667
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Empty"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "受击计数达到条件时播放动作",
+          "note": "已证明受击计数处理器与动画触发关系；参数正式字段名未完整恢复。",
+          "action": "受击计数达到条件时播放动作"
+        }
+      ],
+      "internalNotes": [
+        {
+          "behavior": "调用内部自定义技能",
+          "note": "具体内部编号与调用参数仅保存在技术证据中",
+          "action": "调用指定自定义技能"
+        }
+      ],
+      "conclusion": "官方字段和客户端结算共同确认该技能没有直接正伤害。",
+      "evidenceStatus": "官方字段与客户端结算共同确认无直接正伤害",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7550120",
+      "sourceOrder": 11,
+      "displayName": "8次伤害结算（Skill9_2_None）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "冷却技能",
+      "trigger": {
+        "type": "计时",
+        "summary": "计时阈值 0 秒；CoolTime与FirstCoolTime另列，不合并成固定周期",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          100
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 3000,
+        "max": 3000,
+        "displayMin": 3000,
+        "displayMax": 3000,
+        "hitCount": 8,
+        "formula": "Skill9_2_None 3000%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Skill9_2_None",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 8,
+          "effectTriggerCount": 8,
+          "eventTimes": [
+            0,
+            0.166667,
+            0.333333,
+            0.5,
+            0.666667,
+            0.833333,
+            1,
+            1.166667
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill10"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_ExMEOW_Proj_2"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "额外骨骼",
+              "resource": "Point_Bottom"
+            },
+            {
+              "kind": "额外特效",
+              "resource": "FX_ExMEOW_Explosion_1"
+            },
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill9"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "技能动作 9",
+          "spineAnimation": "Skill9_2_None",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 375,
+              "multiplierMax": 375,
+              "hitCount": 4,
+              "subtotalMin": 1500,
+              "subtotalMax": 1500,
+              "eventTimes": [
+                0.166667,
+                0.5,
+                0.833333,
+                1.166667
+              ]
+            },
+            {
+              "kind": "direct",
+              "multiplierMin": 375,
+              "multiplierMax": 375,
+              "hitCount": 4,
+              "subtotalMin": 1500,
+              "subtotalMax": 1500,
+              "eventTimes": [
+                0,
+                0.333333,
+                0.666667,
+                1
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 3000,
+          "confirmedSegmentTotalMax": 3000,
+          "confirmedDamageHitCount": 8,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Skill10"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_ExMEOW_Proj_2"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            },
+            {
+              "field": "额外骨骼",
+              "value": "Point_Bottom"
+            },
+            {
+              "field": "额外特效",
+              "value": "FX_ExMEOW_Explosion_1"
+            },
+            {
+              "field": "自身骨骼",
+              "value": "Point_Skill9"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7550122",
+      "sourceOrder": 13,
+      "displayName": "1次伤害结算并感电（Skill7_1_None）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "冷却技能",
+      "trigger": {
+        "type": "计时",
+        "summary": "计时阈值 15 秒；CoolTime与FirstCoolTime另列，不合并成固定周期",
+        "rawValue": "15",
+        "coolTime": 0,
+        "firstCoolTime": 60,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          100
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 500,
+        "max": 500,
+        "displayMin": 500,
+        "displayMax": 500,
+        "hitCount": 1,
+        "formula": "Skill7_1_None 500%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "感电；施加控制状态；造成伤害",
+          "spineAnimation": "Skill7_1_None",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            3.866667
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_MEOW_ElectricShockwave_3"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_2_M"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "技能动作 7",
+          "spineAnimation": "Skill7_1_None",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 500,
+              "multiplierMax": 500,
+              "hitCount": 1,
+              "subtotalMin": 500,
+              "subtotalMax": 500,
+              "eventTimes": [
+                3.866667
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 500,
+          "confirmedSegmentTotalMax": 500,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Middle"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_MEOW_ElectricShockwave_3"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Common_Hit_2_M"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [
+          {
+            "nameKo": "감전",
+            "fallbackLabel": null,
+            "descriptionKo": "공격 속도와 이동 속도가 감소된다.",
+            "relation": "施加感电",
+            "relationDepth": "直接效果",
+            "category": "debuff",
+            "uid": "55",
+            "nameKey": "StateName_ElectricShock",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_3.png",
+            "catalogMatch": "exact-name",
+            "probabilityPercent": 100,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": false,
+            "classificationEvidence": "官方状态名或说明明确表示控制"
+          }
+        ],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "执行特殊机制",
+          "note": "处理器语义待确认",
+          "action": "执行特殊机制"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7550123",
+      "sourceOrder": 14,
+      "displayName": "天赋",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "天赋",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          10
+        ]
+      },
+      "range": null,
+      "verdict": "no-damage",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "施加状态",
+          "spineAnimation": null,
+          "relation": "未匹配Spine事件的直接或回调效果",
+          "spineEventCount": 0,
+          "effectTriggerCount": 0,
+          "eventTimes": [],
+          "spineEffects": [],
+          "evidenceStatus": "官方效果行存在；Spine事件或具体调用时点尚未匹配"
+        }
+      ],
+      "damageSegments": [],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": [
+          {
+            "nameKo": "Meeeeow",
+            "fallbackLabel": null,
+            "descriptionKo": "M.E.O.W(R41)가 주는 피해량이 증가한다.",
+            "relation": "施加",
+            "relationDepth": "直接效果",
+            "category": "debuff",
+            "uid": "521",
+            "nameKey": "StateName_Meeeeow",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_182.png",
+            "catalogMatch": "exact-name",
+            "probabilityPercent": null,
+            "durationSeconds": 99999,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": true,
+            "classificationEvidence": "官方状态存在，但仅凭现有静态字段不能可靠判定增益或减益"
+          }
+        ]
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "施加状态",
+          "name": "Meeeeow",
+          "description": "M.E.O.W(R41)가 주는 피해량이 증가한다.",
+          "durationSeconds": 99999,
+          "valueRaw": null,
+          "valueUnit": "官方未注明",
+          "note": "参数2起为状态专用参数，具体含义只在技术证据保留",
+          "action": "施加状态"
+        }
+      ],
+      "conclusion": "官方字段和客户端结算共同确认该技能没有直接正伤害。",
+      "evidenceStatus": "官方字段与客户端结算共同确认无直接正伤害",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "7550124",
+      "sourceOrder": 15,
+      "displayName": "天赋",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "天赋",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          10
+        ]
+      },
+      "range": null,
+      "verdict": "no-damage",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "施加控制状态",
+          "spineAnimation": null,
+          "relation": "未匹配Spine事件的直接或回调效果",
+          "spineEventCount": 0,
+          "effectTriggerCount": 0,
+          "eventTimes": [],
+          "spineEffects": [],
+          "evidenceStatus": "官方效果行存在；Spine事件或具体调用时点尚未匹配"
+        }
+      ],
+      "damageSegments": [],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [
+          {
+            "nameKo": "찌릿",
+            "fallbackLabel": null,
+            "descriptionKo": "감전 상태일 경우 받는 피해량이 증가한다.\\n감전에 걸릴 때마다, 자신에게 정전기를 부여한다.",
+            "relation": "施加",
+            "relationDepth": "直接效果",
+            "category": "debuff",
+            "uid": "522",
+            "nameKey": "StateName_Tingling",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_183.png",
+            "catalogMatch": "exact-name",
+            "probabilityPercent": null,
+            "durationSeconds": 99999,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": true,
+            "classificationEvidence": "官方状态名或说明明确表示控制"
+          }
+        ],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "施加状态",
+          "name": "찌릿",
+          "description": "감전 상태일 경우 받는 피해량이 증가한다.\\n감전에 걸릴 때마다, 자신에게 정전기를 부여한다.",
+          "durationSeconds": 99999,
+          "valueRaw": null,
+          "valueUnit": "官方未注明",
+          "note": "参数2起为状态专用参数，具体含义只在技术证据保留",
+          "action": "施加状态"
+        }
+      ],
+      "conclusion": "官方字段和客户端结算共同确认该技能没有直接正伤害。",
+      "evidenceStatus": "官方字段与客户端结算共同确认无直接正伤害",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    }
+  ],
+  "internalComponents": [
+    {
+      "id": "7550121",
+      "sourceOrder": 12,
+      "displayName": "触发死亡或击杀机制",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "条件技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          100
+        ]
+      },
+      "range": null,
+      "verdict": "no-damage",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "触发死亡或击杀机制",
+          "spineAnimation": null,
+          "relation": "未匹配Spine事件的直接或回调效果",
+          "spineEventCount": 0,
+          "effectTriggerCount": 0,
+          "eventTimes": [],
+          "spineEffects": [],
+          "evidenceStatus": "官方效果行存在；Spine事件或具体调用时点尚未匹配"
+        }
+      ],
+      "damageSegments": [],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "调用内部自定义技能",
+          "note": "具体内部编号与调用参数仅保存在技术证据中",
+          "action": "调用指定自定义技能"
+        }
+      ],
+      "conclusion": "官方字段和客户端结算共同确认该技能没有直接正伤害。",
+      "evidenceStatus": "官方字段与客户端结算共同确认无直接正伤害",
+      "isInternalOnly": true,
+      "runtimeReferences": {}
+    }
+  ],
+  "spineResources": [
+    {
+      "Spine资源键": null,
+      "骨架动作": "Idle",
+      "直接连接的技能效果": "7550101",
+      "触发时间": "2s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Move",
+      "直接连接的技能效果": "7550101",
+      "触发时间": "2s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack1_1_None",
+      "直接连接的技能效果": "7550102",
+      "触发时间": "1.733333s / 3.6s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Groggy2_3",
+      "直接连接的技能效果": "7550102",
+      "触发时间": "1.866667s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill5_3_None",
+      "直接连接的技能效果": "7550102, 7550112",
+      "触发时间": "0s / 0.233333s / 0.433333s / 0.633333s / 0.833333s / 1.033333s / 1.233333s / 1.433333s / 1.633333s / 1.833333s / 2.033334s / 2.233333s / 2.433333s / 2.533334s / 2.6s / 5.233334s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill5_4_None",
+      "直接连接的技能效果": "7550102, 7550113",
+      "触发时间": "0s / 0.233333s / 0.633333s / 1.033333s / 5.233334s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill3_1_None",
+      "直接连接的技能效果": "7550102, 7550107",
+      "触发时间": "0.866667s / 4.333333s / 4.466667s / 4.6s / 4.733334s / 4.866667s / 5s / 5.133334s / 5.266667s / 5.4s / 5.533334s / 5.666667s / 5.8s / 5.933334s / 6.066667s / 6.2s / 6.333333s / 6.466667s / 6.6s / 6.733334s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack2_1_None",
+      "直接连接的技能效果": "7550103",
+      "触发时间": "1.633333s / 1.666667s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack3_1_None",
+      "直接连接的技能效果": "7550103",
+      "触发时间": "2.8s / 2.9s / 3.1s / 3.233334s / 3.333333s / 3.433333s / 3.6s / 3.7s / 3.8s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill5_1_None",
+      "直接连接的技能效果": "7550110",
+      "触发时间": "0.933333s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill5_2_None",
+      "直接连接的技能效果": "7550111",
+      "触发时间": "0s / 0.533333s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill5_5_None",
+      "直接连接的技能效果": "7550113",
+      "触发时间": "0s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_1_None",
+      "直接连接的技能效果": "7550114",
+      "触发时间": "0.966667s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill9_1_None",
+      "直接连接的技能效果": "7550119",
+      "触发时间": "0s / 2.666667s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill9_2_None",
+      "直接连接的技能效果": "7550120",
+      "触发时间": "0s / 0.166667s / 0.333333s / 0.5s / 0.666667s / 0.833333s / 1s / 1.166667s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill7_1_None",
+      "直接连接的技能效果": "7550122",
+      "触发时间": "3.866667s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    }
+  ],
+  "guideReference": null,
+  "runtimeReferences": {}
+}

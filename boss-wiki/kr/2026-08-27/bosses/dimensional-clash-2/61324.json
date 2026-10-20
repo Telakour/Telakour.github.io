@@ -1,0 +1,380 @@
+{
+  "schemaVersion": 3,
+  "server": "kr",
+  "dataVersion": "2026-08-27",
+  "routeKey": "kr:dimensional-clash-2:61324",
+  "mode": "次元大冲突2.0",
+  "modeKey": "dimensional-clash-2",
+  "monsterUid": "61324",
+  "bossName": "길어용 - 광기",
+  "personality": "광기",
+  "attackType": "魔法",
+  "spineKey": "Imoogi",
+  "spineSkinName": "Skin_Mad",
+  "iconUrl": "/boss-wiki/kr/2026-08-27/icons/dimensional-clash-1/61324.png",
+  "difficultyCodes": [],
+  "stages": [
+    {
+      "rowKey": "dimensional-clash-2:42:42020100:61324:0",
+      "monsterUid": "61324",
+      "bossName": "길어용 - 광기",
+      "personality": "광기",
+      "attackType": "魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "not-an-actual-wave-unit",
+      "战斗单位": false,
+      "阶段": "광기의 차원: 제 10구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 10,
+      "等级": "Lv.null",
+      "数值口径": "仅作目标显示参考",
+      "HP": 0,
+      "物理攻击": 0,
+      "魔法攻击": 0,
+      "物理防御": 0,
+      "魔法防御": 0,
+      "暴击": 0,
+      "暴击伤害": 0,
+      "暴击抵抗": 0,
+      "暴伤抵抗": 0,
+      "SP上限": 0,
+      "SP恢复": 0,
+      "攻击速度": 0,
+      "属性加成与特殊说明": "仅作目标显示参考，不是实际波次单位",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": false,
+      "runtimeReferences": {
+        "stageUid": "42020100"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-2:42:42020220:61324:0",
+      "monsterUid": "61324",
+      "bossName": "길어용 - 광기",
+      "personality": "광기",
+      "attackType": "魔法",
+      "difficultyCode": 0,
+      "worldName": "Mode_SoloRaid2",
+      "stageOrder": 22,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "not-an-actual-wave-unit",
+      "战斗单位": false,
+      "阶段": "광기의 차원: 제 22구역",
+      "官方关卡名": "Mode_SoloRaid2",
+      "波次/档位": 22,
+      "等级": "Lv.null",
+      "数值口径": "仅作目标显示参考",
+      "HP": 0,
+      "物理攻击": 0,
+      "魔法攻击": 0,
+      "物理防御": 0,
+      "魔法防御": 0,
+      "暴击": 0,
+      "暴击伤害": 0,
+      "暴击抵抗": 0,
+      "暴伤抵抗": 0,
+      "SP上限": 0,
+      "SP恢复": 0,
+      "攻击速度": 0,
+      "属性加成与特殊说明": "仅作目标显示参考，不是实际波次单位",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": false,
+      "runtimeReferences": {
+        "stageUid": "42020220"
+      }
+    }
+  ],
+  "skills": [],
+  "guideSkills": [
+    {
+      "id": "6132401",
+      "sourceOrder": 0,
+      "displayName": "일반공격",
+      "presentationLabel": null,
+      "nameKind": "官方技能名",
+      "skillType": "普通攻击",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          10
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 100,
+        "max": 100,
+        "displayMin": 100,
+        "displayMax": 100,
+        "hitCount": 1,
+        "formula": "Attack1_1_Mad 100%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Attack1_1_Mad",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.466667
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Attack1"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Imoogi_Proj_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Espi_Hit_1"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "普通攻击动作",
+          "spineAnimation": "Attack1_1_Mad",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.466667
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 100,
+          "confirmedSegmentTotalMax": 100,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Attack1"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_Imoogi_Proj_1"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Espi_Hit_1"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "6132402",
+      "sourceOrder": 1,
+      "displayName": "5次伤害结算（Skill1_1_Mad）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          10
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 300.00000447035,
+        "max": 300.00000447035,
+        "displayMin": 300.00000447035,
+        "displayMax": 300.00000447035,
+        "hitCount": 5,
+        "formula": "Skill1_1_Mad 300.00000447035%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Skill1_1_Mad",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 5,
+          "effectTriggerCount": 5,
+          "eventTimes": [
+            1.1,
+            1.233333,
+            1.366667,
+            1.5,
+            1.633333
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Skill1"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_Empty"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Espi_Hit_1"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "技能动作 1",
+          "spineAnimation": "Skill1_1_Mad",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 60.00000089407,
+              "multiplierMax": 60.00000089407,
+              "hitCount": 5,
+              "subtotalMin": 300.00000447035,
+              "subtotalMax": 300.00000447035,
+              "eventTimes": [
+                1.1,
+                1.233333,
+                1.366667,
+                1.5,
+                1.633333
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 300.00000447035,
+          "confirmedSegmentTotalMax": 300.00000447035,
+          "confirmedDamageHitCount": 5,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Skill1"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_Empty"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Espi_Hit_1"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    }
+  ],
+  "internalComponents": [],
+  "spineResources": [
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack1_1_Mad",
+      "直接连接的技能效果": "6132401",
+      "触发时间": "0.466667s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_1_Mad",
+      "直接连接的技能效果": "6132402",
+      "触发时间": "1.1s / 1.233333s / 1.366667s / 1.5s / 1.633333s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    }
+  ],
+  "guideReference": null,
+  "runtimeReferences": {}
+}

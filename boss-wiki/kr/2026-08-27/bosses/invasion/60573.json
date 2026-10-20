@@ -1,0 +1,481 @@
+{
+  "schemaVersion": 3,
+  "server": "kr",
+  "dataVersion": "2026-08-27",
+  "routeKey": "kr:invasion:60573",
+  "mode": "侵略",
+  "modeKey": "invasion",
+  "monsterUid": "60573",
+  "bossName": "호바깅 - 광기",
+  "personality": "광기",
+  "attackType": "官方未注明",
+  "spineKey": "Pumpkin",
+  "spineSkinName": "Skin_Mad",
+  "iconUrl": null,
+  "difficultyCodes": [
+    1,
+    2,
+    3
+  ],
+  "stages": [
+    {
+      "rowKey": "invasion:1:1410051:60573:0",
+      "monsterUid": "60573",
+      "bossName": "호바깅 - 광기",
+      "personality": "광기",
+      "attackType": "官方未注明",
+      "difficultyCode": 1,
+      "worldName": "동굴 탐험 일지",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "어느 쪽으로 가볼까?",
+      "官方关卡名": "동굴 탐험 일지",
+      "波次/档位": 5,
+      "等级": "Lv.7185",
+      "数值口径": "最终阶段属性",
+      "HP": 16387297.5,
+      "物理攻击": 100625,
+      "魔法攻击": 0,
+      "物理防御": 172497,
+      "魔法防御": 172497,
+      "暴击": 100625,
+      "暴击伤害": 100625,
+      "暴击抵抗": 100625,
+      "暴伤抵抗": 100625,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 133,
+      "属性加成与特殊说明": "HP +650% · 最终物理伤害 +250% · 最终魔法伤害 +250%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1410051"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1410052:60573:0",
+      "monsterUid": "60573",
+      "bossName": "호바깅 - 광기",
+      "personality": "광기",
+      "attackType": "官方未注明",
+      "difficultyCode": 2,
+      "worldName": "동굴 탐험 일지",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "어느 쪽으로 가볼까?",
+      "官方关卡名": "동굴 탐험 일지",
+      "波次/档位": 5,
+      "等级": "Lv.40357",
+      "数值口径": "最终阶段属性",
+      "HP": 638001572,
+      "物理攻击": 565033,
+      "魔法攻击": 0,
+      "物理防御": 968625,
+      "魔法防御": 968625,
+      "暴击": 565033,
+      "暴击伤害": 565033,
+      "暴击抵抗": 565033,
+      "暴伤抵抗": 565033,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 133,
+      "属性加成与特殊说明": "HP +5100% · 最终物理伤害 +2550% · 最终魔法伤害 +2550%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1410052"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1410053:60573:0",
+      "monsterUid": "60573",
+      "bossName": "호바깅 - 광기",
+      "personality": "광기",
+      "attackType": "官方未注明",
+      "difficultyCode": 3,
+      "worldName": "동굴 탐험 일지",
+      "stageOrder": 5,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "어느 쪽으로 가볼까?",
+      "官方关卡名": "동굴 탐험 일지",
+      "波次/档位": 5,
+      "等级": "Lv.66574",
+      "数值口径": "最终阶段属性",
+      "HP": 834868196.25,
+      "物理攻击": 932071,
+      "魔法攻击": 0,
+      "物理防御": 1597833,
+      "魔法防御": 1597833,
+      "暴击": 932071,
+      "暴击伤害": 932071,
+      "暴击抵抗": 932071,
+      "暴伤抵抗": 932071,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 133,
+      "属性加成与特殊说明": "HP +4025% · 最终物理伤害 +2415% · 最终魔法伤害 +2415%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1410053"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1410101:60573:0",
+      "monsterUid": "60573",
+      "bossName": "호바깅 - 광기",
+      "personality": "광기",
+      "attackType": "官方未注明",
+      "difficultyCode": 1,
+      "worldName": "동굴 탐험 일지",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "마침내 유물 발견!",
+      "官方关卡名": "동굴 탐험 일지",
+      "波次/档位": 10,
+      "等级": "Lv.7550",
+      "数值口径": "最终阶段属性",
+      "HP": 17449090.8,
+      "物理攻击": 105735,
+      "魔法攻击": 0,
+      "物理防御": 181257,
+      "魔法防御": 181257,
+      "暴击": 105735,
+      "暴击伤害": 105735,
+      "暴击抵抗": 105735,
+      "暴伤抵抗": 105735,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 133,
+      "属性加成与特殊说明": "HP +660% · 最终物理伤害 +260% · 最终魔法伤害 +260%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1410101"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1410102:60573:0",
+      "monsterUid": "60573",
+      "bossName": "호바깅 - 광기",
+      "personality": "광기",
+      "attackType": "官方未注明",
+      "difficultyCode": 2,
+      "worldName": "동굴 탐험 일지",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "마침내 유물 발견!",
+      "官方关卡名": "동굴 탐험 일지",
+      "波次/档位": 10,
+      "等级": "Lv.41652",
+      "数值口径": "最终阶段属性",
+      "HP": 664804402.5,
+      "物理攻击": 583163,
+      "魔法攻击": 0,
+      "物理防御": 999705,
+      "魔法防御": 999705,
+      "暴击": 583163,
+      "暴击伤害": 583163,
+      "暴击抵抗": 583163,
+      "暴伤抵抗": 583163,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 133,
+      "属性加成与特殊说明": "HP +5150% · 最终物理伤害 +2575% · 最终魔法伤害 +2575%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1410102"
+      }
+    },
+    {
+      "rowKey": "invasion:1:1410103:60573:0",
+      "monsterUid": "60573",
+      "bossName": "호바깅 - 광기",
+      "personality": "광기",
+      "attackType": "官方未注明",
+      "difficultyCode": 3,
+      "worldName": "동굴 탐험 일지",
+      "stageOrder": 10,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "마침내 유물 발견!",
+      "官方关卡名": "동굴 탐험 일지",
+      "波次/档位": 10,
+      "等级": "Lv.68289",
+      "数值口径": "最终阶段属性",
+      "HP": 861564443.5,
+      "物理攻击": 956081,
+      "魔法攻击": 0,
+      "物理防御": 1638993,
+      "魔法防御": 1638993,
+      "暴击": 956081,
+      "暴击伤害": 956081,
+      "暴击抵抗": 956081,
+      "暴伤抵抗": 956081,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 133,
+      "属性加成与特殊说明": "HP +4050% · 最终物理伤害 +2430% · 最终魔法伤害 +2430%",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "1410103"
+      }
+    }
+  ],
+  "skills": [],
+  "guideSkills": [
+    {
+      "id": "6057301",
+      "sourceOrder": 0,
+      "displayName": "일반공격",
+      "presentationLabel": null,
+      "nameKind": "官方技能名",
+      "skillType": "普通攻击",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          10
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 100,
+        "max": 100,
+        "displayMin": 100,
+        "displayMax": 100,
+        "hitCount": 1,
+        "formula": "Attack1_1_Mad 100%"
+      },
+      "actionOrder": [
+        {
+          "order": null,
+          "action": "造成伤害",
+          "spineAnimation": "Attack1_1_Mad",
+          "relation": "执行关系待确认",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.666667
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        },
+        {
+          "order": null,
+          "action": "执行特殊机制",
+          "spineAnimation": null,
+          "relation": "未匹配Spine事件的直接或回调效果",
+          "spineEventCount": 0,
+          "effectTriggerCount": 0,
+          "eventTimes": [],
+          "spineEffects": [],
+          "evidenceStatus": "官方效果行存在；Spine事件或具体调用时点尚未匹配"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "Attack1_1_Mad",
+          "spineAnimation": "Attack1_1_Mad",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.666667
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 100,
+          "confirmedSegmentTotalMax": 100,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": []
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "执行特殊机制",
+          "note": "处理器语义待确认",
+          "action": "执行特殊机制"
+        }
+      ],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "6057302",
+      "sourceOrder": 1,
+      "displayName": "攻击速度提高并恢复生命或资源（Skill1_1_Mad）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          10
+        ]
+      },
+      "range": null,
+      "verdict": "no-damage",
+      "completeTotal": null,
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "攻击速度提高；恢复生命或资源",
+          "spineAnimation": "Skill1_1_Mad",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            1.666667
+          ],
+          "spineEffects": [],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [],
+      "effectGroups": {
+        "buffs": [
+          {
+            "nameKo": null,
+            "fallbackLabel": "攻击速度提高",
+            "descriptionKo": null,
+            "relation": null,
+            "relationDepth": null,
+            "category": "buff",
+            "uid": null,
+            "nameKey": null,
+            "iconUrl": null,
+            "catalogMatch": "not-found",
+            "probabilityPercent": null,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "parameterPending": true,
+            "classificationEvidence": null
+          }
+        ],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [
+          {
+            "healMin": 500,
+            "healMax": 500,
+            "durationMin": 0,
+            "durationMax": 0,
+            "interval": 0
+          }
+        ],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [
+        {
+          "healMin": 500,
+          "healMax": 500,
+          "durationMin": 0,
+          "durationMax": 0,
+          "interval": 0
+        }
+      ],
+      "randomBranches": [],
+      "mechanics": [
+        {
+          "behavior": "提高攻击速度",
+          "note": "提高攻击速度；数值按官方参数保留。",
+          "action": "提高攻击速度"
+        }
+      ],
+      "internalNotes": [],
+      "conclusion": "官方字段和客户端结算共同确认该技能没有直接正伤害。",
+      "evidenceStatus": "官方字段与客户端结算共同确认无直接正伤害",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    }
+  ],
+  "internalComponents": [],
+  "spineResources": [
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack1_1_Mad",
+      "直接连接的技能效果": "6057301",
+      "触发时间": "0.666667s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_1_Mad",
+      "直接连接的技能效果": "6057302",
+      "触发时间": "1.666667s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    }
+  ],
+  "guideReference": null,
+  "runtimeReferences": {}
+}

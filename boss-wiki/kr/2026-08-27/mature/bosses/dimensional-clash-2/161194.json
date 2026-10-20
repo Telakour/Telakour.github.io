@@ -1,0 +1,1913 @@
+{
+  "schemaVersion": 8,
+  "server": "kr",
+  "dataDate": "2026-08-27",
+  "routeKey": "kr:dimensional-clash-2:161194",
+  "mode": "次元大冲突2.0",
+  "modeCode": 42,
+  "modeKey": "dimensional-clash-2",
+  "identity": {
+    "uid": "161194",
+    "name": "동석 - 활발",
+    "displayName": null,
+    "displayNameKind": null,
+    "role": "boss",
+    "context": "Boss索引对象",
+    "spine": "Golem",
+    "personalityCode": 3,
+    "personality": "활발",
+    "attackTypeCode": 1,
+    "attackType": "物理",
+    "iconKey": "Icon_GolemJolly",
+    "spineSkinName": null,
+    "spineDefaultAnimation": null,
+    "spineActionSuffix": null,
+    "officialTable": "MonsterInfo",
+    "lifecycle": null,
+    "runtimeReferences": {},
+    "iconUrl": "/boss-wiki/kr/2026-08-27/mature/icons/dimensional-clash-2/161194.png",
+    "iconSourceType": "MonsterInfo.Icon官方PNG"
+  },
+  "runtimeMonsterUids": [
+    "161194"
+  ],
+  "bossName": "동석 - 활발",
+  "familyKey": "golem",
+  "familyOrder": 999999,
+  "variantOrder": 4,
+  "firstFormalAppearance": {
+    "worldInfoUid": 4208,
+    "stageOrder": 2,
+    "stageUid": "42080020"
+  },
+  "stageRecords": [
+    {
+      "stageUid": "42080020",
+      "name": "활발한 차원: 제 2구역",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4208,
+      "stageOrder": 2,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 81,
+          "growthTimes": 80,
+          "attributes": {
+            "hp": 485679.0792,
+            "sp": 200,
+            "recoverySp": 16,
+            "healing": 0,
+            "physicalAttack": 749,
+            "magicAttack": 749,
+            "physicalDefense": 3170,
+            "magicDefense": 1169,
+            "criticalRate": 1169,
+            "criticalMultiplier": 1169,
+            "criticalResist": 1169,
+            "criticalMultiplierResist": 1169,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 114
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": -7416,
+              "percent": -74.16
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 5217,
+              "percent": 52.17
+            },
+            "EndDamageMagicPercent": {
+              "raw": 5217,
+              "percent": 52.17
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42080050",
+      "name": "활발한 차원: 제 5구역",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4208,
+      "stageOrder": 5,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 175,
+          "growthTimes": 174,
+          "attributes": {
+            "hp": 2282320.6131,
+            "sp": 200,
+            "recoverySp": 16,
+            "healing": 0,
+            "physicalAttack": 2172.39,
+            "magicAttack": 2172.39,
+            "physicalDefense": 6742,
+            "magicDefense": 2485,
+            "criticalRate": 2485,
+            "criticalMultiplier": 2485,
+            "criticalResist": 2485,
+            "criticalMultiplierResist": 2485,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 114
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": -4291,
+              "percent": -42.91
+            },
+            "AttackPhysicPercent": {
+              "raw": 3620,
+              "percent": 36.2
+            },
+            "AttackMagicPercent": {
+              "raw": 3620,
+              "percent": 36.2
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 5868,
+              "percent": 58.68
+            },
+            "EndDamageMagicPercent": {
+              "raw": 5868,
+              "percent": 58.68
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42080080",
+      "name": "활발한 차원: 제 8구역",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4208,
+      "stageOrder": 8,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 456,
+          "growthTimes": 455,
+          "attributes": {
+            "hp": 26160251.4225,
+            "sp": 200,
+            "recoverySp": 16,
+            "healing": 0,
+            "physicalAttack": 14442.248,
+            "magicAttack": 14442.248,
+            "physicalDefense": 17420,
+            "magicDefense": 6419,
+            "criticalRate": 6419,
+            "criticalMultiplier": 6419,
+            "criticalResist": 6419,
+            "criticalMultiplierResist": 6419,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 114
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 15325,
+              "percent": 153.25
+            },
+            "AttackPhysicPercent": {
+              "raw": 25020,
+              "percent": 250.2
+            },
+            "AttackMagicPercent": {
+              "raw": 25020,
+              "percent": 250.2
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 6519,
+              "percent": 65.19
+            },
+            "EndDamageMagicPercent": {
+              "raw": 6519,
+              "percent": 65.19
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42080110",
+      "name": "활발한 차원: 제 11구역",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4208,
+      "stageOrder": 11,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 831,
+          "growthTimes": 830,
+          "attributes": {
+            "hp": 111824007.1272,
+            "sp": 200,
+            "recoverySp": 16,
+            "healing": 0,
+            "physicalAttack": 48923.476,
+            "magicAttack": 48923.476,
+            "physicalDefense": 31670,
+            "magicDefense": 11669,
+            "criticalRate": 11669,
+            "criticalMultiplier": 11669,
+            "criticalResist": 11669,
+            "criticalMultiplierResist": 11669,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 114
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 49544,
+              "percent": 495.44
+            },
+            "AttackPhysicPercent": {
+              "raw": 55240,
+              "percent": 552.4
+            },
+            "AttackMagicPercent": {
+              "raw": 55240,
+              "percent": 552.4
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 7170,
+              "percent": 71.7
+            },
+            "EndDamageMagicPercent": {
+              "raw": 7170,
+              "percent": 71.7
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42080140",
+      "name": "활발한 차원: 제 14구역",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4208,
+      "stageOrder": 14,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 1956,
+          "growthTimes": 1955,
+          "attributes": {
+            "hp": 1200847965.6243,
+            "sp": 200,
+            "recoverySp": 16,
+            "healing": 0,
+            "physicalAttack": 416719.48,
+            "magicAttack": 416719.48,
+            "physicalDefense": 74420,
+            "magicDefense": 27419,
+            "criticalRate": 27419,
+            "criticalMultiplier": 27419,
+            "criticalResist": 27419,
+            "criticalMultiplierResist": 27419,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 114
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 262111,
+              "percent": 2621.11
+            },
+            "AttackPhysicPercent": {
+              "raw": 226450,
+              "percent": 2264.5
+            },
+            "AttackMagicPercent": {
+              "raw": 226450,
+              "percent": 2264.5
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 7821,
+              "percent": 78.21
+            },
+            "EndDamageMagicPercent": {
+              "raw": 7821,
+              "percent": 78.21
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42080170",
+      "name": "활발한 차원: 제 17구역",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4208,
+      "stageOrder": 17,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 3456,
+          "growthTimes": 3455,
+          "attributes": {
+            "hp": 5237485424.478,
+            "sp": 200,
+            "recoverySp": 16,
+            "healing": 0,
+            "physicalAttack": 1488256.308,
+            "magicAttack": 1488256.308,
+            "physicalDefense": 131420,
+            "magicDefense": 48419,
+            "criticalRate": 48419,
+            "criticalMultiplier": 48419,
+            "criticalResist": 48419,
+            "criticalMultiplierResist": 48419,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 114
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 662060,
+              "percent": 6620.6
+            },
+            "AttackPhysicPercent": {
+              "raw": 468170,
+              "percent": 4681.7
+            },
+            "AttackMagicPercent": {
+              "raw": 468170,
+              "percent": 4681.7
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 8472,
+              "percent": 84.72
+            },
+            "EndDamageMagicPercent": {
+              "raw": 8472,
+              "percent": 84.72
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42080200",
+      "name": "활발한 차원: 제 20구역",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4208,
+      "stageOrder": 20,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 6056,
+          "growthTimes": 6055,
+          "attributes": {
+            "hp": 21776189003.3957,
+            "sp": 200,
+            "recoverySp": 16,
+            "healing": 0,
+            "physicalAttack": 4891620.66,
+            "magicAttack": 4891620.66,
+            "physicalDefense": 230220,
+            "magicDefense": 84819,
+            "criticalRate": 84819,
+            "criticalMultiplier": 84819,
+            "criticalResist": 84819,
+            "criticalMultiplierResist": 84819,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 114
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 1585089,
+              "percent": 15850.89
+            },
+            "AttackPhysicPercent": {
+              "raw": 887150,
+              "percent": 8871.5
+            },
+            "AttackMagicPercent": {
+              "raw": 887150,
+              "percent": 8871.5
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 9123,
+              "percent": 91.23
+            },
+            "EndDamageMagicPercent": {
+              "raw": 9123,
+              "percent": 91.23
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "42080230",
+      "name": "활발한 차원: 제 23구역",
+      "world": "Mode_SoloRaid2",
+      "worldInfoUid": 4208,
+      "stageOrder": 23,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 9206,
+          "growthTimes": 9205,
+          "attributes": {
+            "hp": 69944506161.8766,
+            "sp": 200,
+            "recoverySp": 16,
+            "healing": 0,
+            "physicalAttack": 11641890.898,
+            "magicAttack": 11641890.898,
+            "physicalDefense": 349920,
+            "magicDefense": 128919,
+            "criticalRate": 128919,
+            "criticalMultiplier": 128919,
+            "criticalResist": 128919,
+            "criticalMultiplierResist": 128919,
+            "pushResist": 10,
+            "moveSpeed": 11,
+            "attackRange": 0,
+            "attackSpeed": 114
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 3360782,
+              "percent": 33607.82
+            },
+            "AttackPhysicPercent": {
+              "raw": 1394770,
+              "percent": 13947.7
+            },
+            "AttackMagicPercent": {
+              "raw": 1394770,
+              "percent": 13947.7
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 9774,
+              "percent": 97.74
+            },
+            "EndDamageMagicPercent": {
+              "raw": 9774,
+              "percent": 97.74
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": 0,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": false,
+            "immunePush": false,
+            "immuneKnockBack": false
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    }
+  ],
+  "stageRosters": [
+    {
+      "stageUid": "42080020",
+      "stage": "활발한 차원: 제 2구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "161194",
+              "name": "동석 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "42080050",
+      "stage": "활발한 차원: 제 5구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "161194",
+              "name": "동석 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "42080080",
+      "stage": "활발한 차원: 제 8구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "161194",
+              "name": "동석 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "42080110",
+      "stage": "활발한 차원: 제 11구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "161194",
+              "name": "동석 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "42080140",
+      "stage": "활발한 차원: 제 14구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "161194",
+              "name": "동석 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "42080170",
+      "stage": "활발한 차원: 제 17구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "161194",
+              "name": "동석 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "42080200",
+      "stage": "활발한 차원: 제 20구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "161194",
+              "name": "동석 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "42080230",
+      "stage": "활발한 차원: 제 23구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 1,
+          "units": [
+            {
+              "uid": "161194",
+              "name": "동석 - 활발",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Golem",
+              "personalityCode": 3,
+              "personality": "활발",
+              "attackTypeCode": 1,
+              "attackType": "物理",
+              "iconKey": "Icon_GolemJolly",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "encounterGuide": {
+    "status": "已核对",
+    "battleTimeLimitSeconds": [
+      180
+    ],
+    "battleTimeline": [
+      {
+        "atSeconds": null,
+        "condition": "SP蓄满200后释放",
+        "repeatIntervalSeconds": null,
+        "phase": "全阶段",
+        "event": "SP技能：蓄力重击",
+        "category": "sp",
+        "targetType": "attack",
+        "targetId": "golem-161194-sp",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      }
+    ],
+    "phases": [],
+    "attacks": [
+      {
+        "id": "golem-161194-normal",
+        "category": "normal",
+        "title": "普通攻击",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "无",
+          "summary": "按普通攻击循环使用",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "单次砸击",
+            "actionSequence": [
+              {
+                "action": "抬手后向前砸击",
+                "spineAnimation": "Attack1_1_Jolly",
+                "eventTimes": [
+                  0.8
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 100,
+                "multiplierMax": 100,
+                "hitCount": 1,
+                "subtotalMin": 100,
+                "subtotalMax": 100,
+                "eventTimes": [
+                  0.8
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 100,
+              "max": 100
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "16119401"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "golem-161194-normal",
+            "label": "普通攻击",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0.8,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Attack1_1_Jolly"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "100% × 1＝100%",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.8
+              ]
+            }
+          ],
+          "hitCount": 1,
+          "confirmedTotalMultiplier": {
+            "min": 100,
+            "max": 100
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [],
+        "confirmedTotalMultiplier": {
+          "min": 100,
+          "max": 100
+        },
+        "hitCount": 1,
+        "playerResult": "向前砸击1次，倍率100%。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 10
+      },
+      {
+        "id": "golem-161194-sp",
+        "category": "sp",
+        "title": "SP技能：蓄力重击",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "SP",
+          "summary": "SP蓄满200后释放",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [
+            200
+          ],
+          "spRecoveryValues": [
+            16
+          ],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "起手命中后进入蓄力循环，再收势",
+            "actionSequence": [
+              {
+                "action": "起手重击并获得减伤",
+                "spineAnimation": "Skill1_1_Jolly",
+                "eventTimes": [
+                  0.666667
+                ]
+              },
+              {
+                "action": "持续蓄力；此段没有伤害",
+                "spineAnimation": "Skill1_2_Jolly_Loop",
+                "eventTimes": []
+              },
+              {
+                "action": "收势；此段没有伤害",
+                "spineAnimation": "Skill1_3_Jolly",
+                "eventTimes": []
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 100,
+                "multiplierMax": 100,
+                "hitCount": 1,
+                "subtotalMin": 100,
+                "subtotalMax": 100,
+                "eventTimes": [
+                  0.666667
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 100,
+              "max": 100
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "16119402"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "golem-161194-sp",
+            "label": "蓄力重击",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0.666667,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 0.666667,
+                "type": "buff",
+                "label": "获得物理减伤"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill1_1_Jolly",
+                "Skill1_2_Jolly_Loop",
+                "Skill1_3_Jolly"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "100% × 1＝100%",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.666667
+              ]
+            }
+          ],
+          "hitCount": 1,
+          "confirmedTotalMultiplier": {
+            "min": 100,
+            "max": 100
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [
+          {
+            "type": "减伤",
+            "name": "物理承伤降低",
+            "description": "受到的物理伤害降低30%，持续5秒。",
+            "target": "Boss自身",
+            "probabilityPercent": 100,
+            "durationSeconds": 5,
+            "value": 30,
+            "valueUnit": "percent-reduction",
+            "stacking": null,
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "status",
+            "statusKey": "kr:24",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_27.png",
+            "iconState": "bound",
+            "nature": "buff",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "boss",
+            "skillId": "golem-161194-sp",
+            "skillType": "attack",
+            "statusUid": "24",
+            "statusNameKey": "StateName_DamagePhysicReceiveDownPercent"
+          }
+        ],
+        "confirmedTotalMultiplier": {
+          "min": 100,
+          "max": 100
+        },
+        "hitCount": 1,
+        "playerResult": "起手重击1次，倍率100%，同时使自身受到的物理伤害降低30%，持续5秒。之后的蓄力循环和收势都不追加伤害。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 30
+      }
+    ],
+    "mechanisms": [],
+    "units": [],
+    "playerAdvice": [
+      "SP起手只有1次伤害；后续长蓄力是输出窗口，但Boss在5秒内获得30%物理减伤。"
+    ],
+    "unresolved": [],
+    "presentationRules": {
+      "rawEntryCount": 2,
+      "playerAttackGroupCount": 2,
+      "playerMechanismCount": 0,
+      "rawSkillEntriesRendered": false,
+      "internalUidsVisibleToPlayer": false
+    },
+    "runtimeReferences": {},
+    "skillOrder": [
+      {
+        "type": "attack",
+        "id": "golem-161194-normal",
+        "category": "normal"
+      },
+      {
+        "type": "attack",
+        "id": "golem-161194-sp",
+        "category": "sp"
+      }
+    ]
+  },
+  "runtimeReferences": {},
+  "encounterOrder": 17,
+  "directoryAppearances": [
+    {
+      "configurationId": "56",
+      "configurationLabel": "官方配置 #56",
+      "configurationOrder": 56,
+      "soloRaidInfoUid": 56,
+      "configurationTargetPersonalityCode": 2,
+      "configurationTargetPersonality": "Gloomy",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 4208,
+      "stageUid": "42080020",
+      "stageOrder": 2,
+      "stageName": "활발한 차원: 제 2구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "56",
+      "configurationLabel": "官方配置 #56",
+      "configurationOrder": 56,
+      "soloRaidInfoUid": 56,
+      "configurationTargetPersonalityCode": 2,
+      "configurationTargetPersonality": "Gloomy",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 4208,
+      "stageUid": "42080050",
+      "stageOrder": 5,
+      "stageName": "활발한 차원: 제 5구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "56",
+      "configurationLabel": "官方配置 #56",
+      "configurationOrder": 56,
+      "soloRaidInfoUid": 56,
+      "configurationTargetPersonalityCode": 2,
+      "configurationTargetPersonality": "Gloomy",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 4208,
+      "stageUid": "42080080",
+      "stageOrder": 8,
+      "stageName": "활발한 차원: 제 8구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "56",
+      "configurationLabel": "官方配置 #56",
+      "configurationOrder": 56,
+      "soloRaidInfoUid": 56,
+      "configurationTargetPersonalityCode": 2,
+      "configurationTargetPersonality": "Gloomy",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 4208,
+      "stageUid": "42080110",
+      "stageOrder": 11,
+      "stageName": "활발한 차원: 제 11구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "56",
+      "configurationLabel": "官方配置 #56",
+      "configurationOrder": 56,
+      "soloRaidInfoUid": 56,
+      "configurationTargetPersonalityCode": 2,
+      "configurationTargetPersonality": "Gloomy",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 4208,
+      "stageUid": "42080140",
+      "stageOrder": 14,
+      "stageName": "활발한 차원: 제 14구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "56",
+      "configurationLabel": "官方配置 #56",
+      "configurationOrder": 56,
+      "soloRaidInfoUid": 56,
+      "configurationTargetPersonalityCode": 2,
+      "configurationTargetPersonality": "Gloomy",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 4208,
+      "stageUid": "42080170",
+      "stageOrder": 17,
+      "stageName": "활발한 차원: 제 17구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "56",
+      "configurationLabel": "官方配置 #56",
+      "configurationOrder": 56,
+      "soloRaidInfoUid": 56,
+      "configurationTargetPersonalityCode": 2,
+      "configurationTargetPersonality": "Gloomy",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 4208,
+      "stageUid": "42080200",
+      "stageOrder": 20,
+      "stageName": "활발한 차원: 제 20구역",
+      "hpBarCount": null
+    },
+    {
+      "configurationId": "56",
+      "configurationLabel": "官方配置 #56",
+      "configurationOrder": 56,
+      "soloRaidInfoUid": 56,
+      "configurationTargetPersonalityCode": 2,
+      "configurationTargetPersonality": "Gloomy",
+      "sourceIsDeleted": true,
+      "availabilityStatus": "static-configuration-only",
+      "worldInfoUid": 4208,
+      "stageUid": "42080230",
+      "stageOrder": 23,
+      "stageName": "활발한 차원: 제 23구역",
+      "hpBarCount": null
+    }
+  ]
+}

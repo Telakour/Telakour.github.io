@@ -1,0 +1,566 @@
+{
+  "schemaVersion": 3,
+  "server": "kr",
+  "dataVersion": "2026-08-27",
+  "routeKey": "kr:dimensional-clash-1:60184",
+  "mode": "次元大冲突1.0",
+  "modeKey": "dimensional-clash-1",
+  "monsterUid": "60184",
+  "bossName": "머곰 - 우울",
+  "personality": "우울",
+  "attackType": "物理",
+  "spineKey": "GluttonBear",
+  "spineSkinName": "Skin_Gloomy",
+  "iconUrl": "/boss-wiki/kr/2026-08-27/icons/dimensional-clash-1/60184.png",
+  "difficultyCodes": [
+    0
+  ],
+  "stages": [
+    {
+      "rowKey": "dimensional-clash-1:8:8040020:60184:0",
+      "monsterUid": "60184",
+      "bossName": "머곰 - 우울",
+      "personality": "우울",
+      "attackType": "物理",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 2,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "우울한 차원: 제 2구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 2,
+      "等级": "Lv.55",
+      "数值口径": "最终阶段属性",
+      "HP": 870738,
+      "物理攻击": 633,
+      "魔法攻击": 0,
+      "物理防御": 1664,
+      "魔法防御": 1664,
+      "暴击": 805,
+      "暴击伤害": 805,
+      "暴击抵抗": 633,
+      "暴伤抵抗": 633,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8040020"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-1:8:8040140:60184:0",
+      "monsterUid": "60184",
+      "bossName": "머곰 - 우울",
+      "personality": "우울",
+      "attackType": "物理",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 14,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "우울한 차원: 제 14구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 14,
+      "等级": "Lv.2266",
+      "数值口径": "最终阶段属性",
+      "HP": 44726467.5,
+      "物理攻击": 62385,
+      "魔法攻击": 0,
+      "物理防御": 47692.675,
+      "魔法防御": 47692.675,
+      "暴击": 31759,
+      "暴击伤害": 31759,
+      "暴击抵抗": 24954,
+      "暴伤抵抗": 24954,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +30% · 物攻 +150% · 魔攻 +150% · 物防 -27.5% · 魔防 -27.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8040140"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-1:8:8040260:60184:0",
+      "monsterUid": "60184",
+      "bossName": "머곰 - 우울",
+      "personality": "우울",
+      "attackType": "物理",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 26,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "우울한 차원: 제 26구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 26,
+      "等级": "Lv.17000",
+      "数值口径": "最终阶段属性",
+      "HP": 70116362860.7,
+      "物理攻击": 17019548,
+      "魔法攻击": 0,
+      "物理防御": 493069,
+      "魔法防御": 493069,
+      "暴击": 238035,
+      "暴击伤害": 238035,
+      "暴击抵抗": 187028,
+      "暴伤抵抗": 187028,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +27090% · 物攻 +9000% · 魔攻 +9000% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8040260"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-1:8:8240020:60184:0",
+      "monsterUid": "60184",
+      "bossName": "머곰 - 우울",
+      "personality": "우울",
+      "attackType": "物理",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 2,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "우울한 차원: 제 2구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 2,
+      "等级": "Lv.55",
+      "数值口径": "最终阶段属性",
+      "HP": 870738,
+      "物理攻击": 633,
+      "魔法攻击": 0,
+      "物理防御": 1664,
+      "魔法防御": 1664,
+      "暴击": 805,
+      "暴击伤害": 805,
+      "暴击抵抗": 633,
+      "暴伤抵抗": 633,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8240020"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-1:8:8240140:60184:0",
+      "monsterUid": "60184",
+      "bossName": "머곰 - 우울",
+      "personality": "우울",
+      "attackType": "物理",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 14,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "우울한 차원: 제 14구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 14,
+      "等级": "Lv.2266",
+      "数值口径": "最终阶段属性",
+      "HP": 44726467.5,
+      "物理攻击": 62385,
+      "魔法攻击": 0,
+      "物理防御": 47692.675,
+      "魔法防御": 47692.675,
+      "暴击": 31759,
+      "暴击伤害": 31759,
+      "暴击抵抗": 24954,
+      "暴伤抵抗": 24954,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +30% · 物攻 +150% · 魔攻 +150% · 物防 -27.5% · 魔防 -27.5% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8240140"
+      }
+    },
+    {
+      "rowKey": "dimensional-clash-1:8:8240260:60184:0",
+      "monsterUid": "60184",
+      "bossName": "머곰 - 우울",
+      "personality": "우울",
+      "attackType": "物理",
+      "difficultyCode": 0,
+      "worldName": "차원 대충돌",
+      "stageOrder": 26,
+      "variantIndex": 0,
+      "variantCount": 1,
+      "battleRelevance": "actual-battle-unit",
+      "战斗单位": true,
+      "阶段": "우울한 차원: 제 26구역",
+      "官方关卡名": "차원 대충돌",
+      "波次/档位": 26,
+      "等级": "Lv.17000",
+      "数值口径": "最终阶段属性",
+      "HP": 70116362860.7,
+      "物理攻击": 17019548,
+      "魔法攻击": 0,
+      "物理防御": 493069,
+      "魔法防御": 493069,
+      "暴击": 238035,
+      "暴击伤害": 238035,
+      "暴击抵抗": 187028,
+      "暴伤抵抗": 187028,
+      "SP上限": 200,
+      "SP恢复": 8,
+      "攻击速度": 114,
+      "属性加成与特殊说明": "HP +27090% · 物攻 +9000% · 魔攻 +9000% · 免疫僵直 · 免疫推动 · 免疫击退 · 虚弱耐性 -100",
+      "物理减伤字段": 0,
+      "魔法减伤字段": 0,
+      "可作为最终值": true,
+      "runtimeReferences": {
+        "stageUid": "8240260"
+      }
+    }
+  ],
+  "skills": [],
+  "guideSkills": [
+    {
+      "id": "6018401",
+      "sourceOrder": 0,
+      "displayName": "일반공격",
+      "presentationLabel": null,
+      "nameKind": "官方技能名",
+      "skillType": "普通攻击",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          10
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 100,
+        "max": 100,
+        "displayMin": 100,
+        "displayMax": 100,
+        "hitCount": 1,
+        "formula": "Attack1_1_Gloomy 100%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "造成伤害",
+          "spineAnimation": "Attack1_1_Gloomy",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            0.8
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Attack1"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_FoodScavenger_Stomp_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_1_M"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "普通攻击动作",
+          "spineAnimation": "Attack1_1_Gloomy",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 100,
+              "multiplierMax": 100,
+              "hitCount": 1,
+              "subtotalMin": 100,
+              "subtotalMax": 100,
+              "eventTimes": [
+                0.8
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 100,
+          "confirmedSegmentTotalMax": 100,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Attack1"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_FoodScavenger_Stomp_1"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Common_Hit_1_M"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    },
+    {
+      "id": "6018402",
+      "sourceOrder": 1,
+      "displayName": "1次伤害结算并恢复生命或资源（Skill1_1_Gloomy）",
+      "presentationLabel": null,
+      "nameKind": "说明名",
+      "skillType": "SP技能",
+      "trigger": {
+        "type": "无",
+        "summary": "没有额外触发条件字段",
+        "rawValue": "0",
+        "coolTime": 0,
+        "firstCoolTime": 0,
+        "targetRange": 80,
+        "skillRange": [
+          0,
+          6
+        ]
+      },
+      "range": null,
+      "verdict": "complete-total",
+      "completeTotal": {
+        "min": 450,
+        "max": 450,
+        "displayMin": 450,
+        "displayMax": 450,
+        "hitCount": 1,
+        "formula": "Skill1_1_Gloomy 450%"
+      },
+      "actionOrder": [
+        {
+          "order": 1,
+          "action": "恢复生命或资源；造成伤害",
+          "spineAnimation": "Skill1_1_Gloomy",
+          "relation": "单一已匹配Spine动作",
+          "spineEventCount": 1,
+          "effectTriggerCount": 1,
+          "eventTimes": [
+            1.733333
+          ],
+          "spineEffects": [
+            {
+              "kind": "自身骨骼",
+              "resource": "Point_Attack1"
+            },
+            {
+              "kind": "技能特效",
+              "resource": "FX_GluttonBear_Stomp_1"
+            },
+            {
+              "kind": "命中特效",
+              "resource": "FX_Common_Hit_2_M"
+            },
+            {
+              "kind": "命中特效挂点",
+              "resource": "Point_Middle"
+            },
+            {
+              "kind": "额外骨骼",
+              "resource": "Point_Attack1"
+            },
+            {
+              "kind": "额外特效",
+              "resource": "FX_Common_Hit_3_M"
+            },
+            {
+              "kind": "特效轴",
+              "resource": "`"
+            }
+          ],
+          "evidenceStatus": "KR Spine事件与官方效果行已匹配；动作之间的关系以relation字段为准"
+        }
+      ],
+      "damageSegments": [
+        {
+          "order": 1,
+          "action": "技能动作 1",
+          "spineAnimation": "Skill1_1_Gloomy",
+          "perHit": [
+            {
+              "kind": "direct",
+              "multiplierMin": 450,
+              "multiplierMax": 450,
+              "hitCount": 1,
+              "subtotalMin": 450,
+              "subtotalMax": 450,
+              "eventTimes": [
+                1.733333
+              ]
+            }
+          ],
+          "confirmedSegmentTotalMin": 450,
+          "confirmedSegmentTotalMax": 450,
+          "confirmedDamageHitCount": 1,
+          "restrictions": [],
+          "spineEffects": [
+            {
+              "field": "自身骨骼",
+              "value": "Point_Attack1"
+            },
+            {
+              "field": "技能特效",
+              "value": "FX_GluttonBear_Stomp_1"
+            },
+            {
+              "field": "命中特效",
+              "value": "FX_Common_Hit_2_M"
+            },
+            {
+              "field": "命中特效挂点",
+              "value": "Point_Middle"
+            },
+            {
+              "field": "额外骨骼",
+              "value": "Point_Attack1"
+            },
+            {
+              "field": "额外特效",
+              "value": "FX_Common_Hit_3_M"
+            },
+            {
+              "field": "特效轴",
+              "value": "`"
+            }
+          ]
+        }
+      ],
+      "effectGroups": {
+        "buffs": [],
+        "debuffs": [],
+        "controls": [],
+        "recovery": [
+          {
+            "healMin": 500,
+            "healMax": 500,
+            "durationMin": 0,
+            "durationMax": 0,
+            "interval": 0
+          }
+        ],
+        "immunity": [],
+        "removedStatuses": [],
+        "unclassifiedStatuses": []
+      },
+      "recoveryEffects": [
+        {
+          "healMin": 500,
+          "healMax": 500,
+          "durationMin": 0,
+          "durationMax": 0,
+          "interval": 0
+        }
+      ],
+      "randomBranches": [],
+      "mechanics": [],
+      "internalNotes": [
+        {
+          "behavior": "造成伤害",
+          "note": "每个Spine效果事件进入一次静态伤害结算。",
+          "action": "造成伤害"
+        }
+      ],
+      "conclusion": "该技能的触发入口、单一非循环动作、伤害结算和动作内次数均已闭合。",
+      "evidenceStatus": "官方表、客户端执行与动作事件证据完整闭合",
+      "isInternalOnly": false,
+      "runtimeReferences": {}
+    }
+  ],
+  "internalComponents": [],
+  "spineResources": [
+    {
+      "Spine资源键": null,
+      "骨架动作": "Attack1_1_Gloomy",
+      "直接连接的技能效果": "6018401",
+      "触发时间": "0.8s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    },
+    {
+      "Spine资源键": null,
+      "骨架动作": "Skill1_1_Gloomy",
+      "直接连接的技能效果": "6018402",
+      "触发时间": "1.733333s",
+      "证据状态": "最终五模式数据已连接",
+      "骨架路径": null
+    }
+  ],
+  "guideReference": null,
+  "runtimeReferences": {}
+}

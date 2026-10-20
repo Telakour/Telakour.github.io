@@ -1,0 +1,3025 @@
+{
+  "schemaVersion": 8,
+  "server": "kr",
+  "dataDate": "2026-08-27",
+  "routeKey": "kr:dimensional-clash-1:70401",
+  "mode": "次元大冲突1.0",
+  "modeCode": 8,
+  "modeKey": "dimensional-clash-1",
+  "identity": {
+    "uid": "70401",
+    "name": "크르브르스 - 냉정",
+    "displayName": null,
+    "displayNameKind": null,
+    "role": "boss",
+    "context": "Boss索引对象",
+    "spine": "Curburus",
+    "personalityCode": 1,
+    "personality": "냉정",
+    "attackTypeCode": 2,
+    "attackType": "魔法",
+    "iconKey": "Icon_CurburusCool",
+    "spineSkinName": null,
+    "spineDefaultAnimation": null,
+    "spineActionSuffix": null,
+    "officialTable": "MonsterInfo",
+    "lifecycle": null,
+    "runtimeReferences": {},
+    "iconUrl": "/boss-wiki/kr/2026-08-27/mature/icons/dimensional-clash-1/70401.png",
+    "iconSourceType": "MonsterInfo.Icon官方PNG"
+  },
+  "runtimeMonsterUids": [
+    "70401"
+  ],
+  "bossName": "크르브르스 - 냉정",
+  "familyKey": "curburus",
+  "familyOrder": 821003,
+  "variantOrder": 1,
+  "firstFormalAppearance": {
+    "worldInfoUid": 821,
+    "stageOrder": 3,
+    "stageUid": "8210030"
+  },
+  "stageRecords": [
+    {
+      "stageUid": "8210030",
+      "name": "냉정한 차원: 제 3구역",
+      "world": "차원 대충돌",
+      "worldInfoUid": 821,
+      "stageOrder": 3,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 100,
+          "growthTimes": 99,
+          "attributes": {
+            "hp": 1775175,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 1435,
+            "magicAttack": 1435,
+            "physicalDefense": 2969,
+            "magicDefense": 2969,
+            "criticalRate": 1435,
+            "criticalMultiplier": 1435,
+            "criticalResist": 1128,
+            "criticalMultiplierResist": 1128,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 114
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "8210060",
+      "name": "냉정한 차원: 제 6구역",
+      "world": "차원 대충돌",
+      "worldInfoUid": 821,
+      "stageOrder": 6,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 400,
+          "growthTimes": 399,
+          "attributes": {
+            "hp": 7498528.125,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 5635,
+            "magicAttack": 5635,
+            "physicalDefense": 11669,
+            "magicDefense": 11669,
+            "criticalRate": 5635,
+            "criticalMultiplier": 5635,
+            "criticalResist": 4428,
+            "criticalMultiplierResist": 4428,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 114
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 750,
+              "percent": 7.5
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "8210090",
+      "name": "냉정한 차원: 제 9구역",
+      "world": "차원 대충돌",
+      "worldInfoUid": 821,
+      "stageOrder": 9,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 625,
+          "growthTimes": 624,
+          "attributes": {
+            "hp": 13594406.25,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 8785,
+            "magicAttack": 8785,
+            "physicalDefense": 18194,
+            "magicDefense": 18194,
+            "criticalRate": 8785,
+            "criticalMultiplier": 8785,
+            "criticalResist": 6903,
+            "criticalMultiplierResist": 6903,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 114
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 2500,
+              "percent": 25
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "8210120",
+      "name": "냉정한 차원: 제 12구역",
+      "world": "차원 대충돌",
+      "worldInfoUid": 821,
+      "stageOrder": 12,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 1410,
+          "growthTimes": 1409,
+          "attributes": {
+            "hp": 30603393.75,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 19775,
+            "magicAttack": 19775,
+            "physicalDefense": 40959,
+            "magicDefense": 40959,
+            "criticalRate": 19775,
+            "criticalMultiplier": 19775,
+            "criticalResist": 15538,
+            "criticalMultiplierResist": 15538,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 114
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 2500,
+              "percent": 25
+            },
+            "AttackPhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "AttackMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "8210150",
+      "name": "냉정한 차원: 제 15구역",
+      "world": "차원 대충돌",
+      "worldInfoUid": 821,
+      "stageOrder": 15,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 3500,
+          "growthTimes": 3499,
+          "attributes": {
+            "hp": 212487712.5,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 85811.25,
+            "magicAttack": 85811.25,
+            "physicalDefense": 101569,
+            "magicDefense": 101569,
+            "criticalRate": 49035,
+            "criticalMultiplier": 49035,
+            "criticalResist": 38528,
+            "criticalMultiplierResist": 38528,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 114
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 25000,
+              "percent": 250
+            },
+            "AttackPhysicPercent": {
+              "raw": 7500,
+              "percent": 75
+            },
+            "AttackMagicPercent": {
+              "raw": 7500,
+              "percent": 75
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "8210180",
+      "name": "냉정한 차원: 제 18구역",
+      "world": "차원 대충돌",
+      "worldInfoUid": 821,
+      "stageOrder": 18,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 5150,
+          "growthTimes": 5149,
+          "attributes": {
+            "hp": 401903437.5,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 216405,
+            "magicAttack": 216405,
+            "physicalDefense": 149419,
+            "magicDefense": 149419,
+            "criticalRate": 72135,
+            "criticalMultiplier": 72135,
+            "criticalResist": 56678,
+            "criticalMultiplierResist": 56678,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 114
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 35000,
+              "percent": 350
+            },
+            "AttackPhysicPercent": {
+              "raw": 20000,
+              "percent": 200
+            },
+            "AttackMagicPercent": {
+              "raw": 20000,
+              "percent": 200
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": -3000,
+              "percent": -30
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": -3000,
+              "percent": -30
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "8210210",
+      "name": "냉정한 차원: 제 21구역",
+      "world": "차원 대충돌",
+      "worldInfoUid": 821,
+      "stageOrder": 21,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 7500,
+          "growthTimes": 7499,
+          "attributes": {
+            "hp": 1105397587.5,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 630210,
+            "magicAttack": 630210,
+            "physicalDefense": 217569,
+            "magicDefense": 217569,
+            "criticalRate": 105035,
+            "criticalMultiplier": 105035,
+            "criticalResist": 82528,
+            "criticalMultiplierResist": 82528,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 114
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 75000,
+              "percent": 750
+            },
+            "AttackPhysicPercent": {
+              "raw": 50000,
+              "percent": 500
+            },
+            "AttackMagicPercent": {
+              "raw": 50000,
+              "percent": 500
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": -3000,
+              "percent": -30
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": -3000,
+              "percent": -30
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "8210240",
+      "name": "냉정한 차원: 제 24구역",
+      "world": "차원 대충돌",
+      "worldInfoUid": 821,
+      "stageOrder": 24,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 12000,
+          "growthTimes": 11999,
+          "attributes": {
+            "hp": 15187633575,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 8233715,
+            "magicAttack": 8233715,
+            "physicalDefense": 348069,
+            "magicDefense": 348069,
+            "criticalRate": 168035,
+            "criticalMultiplier": 168035,
+            "criticalResist": 132028,
+            "criticalMultiplierResist": 132028,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 114
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 720000,
+              "percent": 7200
+            },
+            "AttackPhysicPercent": {
+              "raw": 480000,
+              "percent": 4800
+            },
+            "AttackMagicPercent": {
+              "raw": 480000,
+              "percent": 4800
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    },
+    {
+      "stageUid": "8210270",
+      "name": "냉정한 차원: 제 27구역",
+      "world": "차원 대충돌",
+      "worldInfoUid": 821,
+      "stageOrder": 27,
+      "difficulty": 0,
+      "battleTimeSeconds": 180,
+      "stageStructure": "attribute-profiles",
+      "attributeProfiles": [
+        {
+          "status": "calculated",
+          "battleRelevance": "actual-battle-unit",
+          "reason": null,
+          "officialLevel": 24000,
+          "growthTimes": 23999,
+          "attributes": {
+            "hp": 287826646850.347,
+            "sp": 200,
+            "recoverySp": 8,
+            "healing": 0,
+            "physicalAttack": 45700760,
+            "magicAttack": 45700760,
+            "physicalDefense": 696069,
+            "magicDefense": 696069,
+            "criticalRate": 336035,
+            "criticalMultiplier": 336035,
+            "criticalResist": 264028,
+            "criticalMultiplierResist": 264028,
+            "pushResist": 10,
+            "moveSpeed": 10,
+            "attackRange": 0,
+            "attackSpeed": 114
+          },
+          "stageModifiers": {
+            "HpPercent": {
+              "raw": 6907949,
+              "percent": 69079.49
+            },
+            "AttackPhysicPercent": {
+              "raw": 1350000,
+              "percent": 13500
+            },
+            "AttackMagicPercent": {
+              "raw": 1350000,
+              "percent": 13500
+            },
+            "DefensePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DefenseMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRatePercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultResistPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HealingUpPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "HpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "SpRecoveryPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "ShieldPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamagePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReducePhysicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "EndDamageReduceMagicPercent": {
+              "raw": 0,
+              "percent": 0
+            },
+            "DamageReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalRateReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            },
+            "CriticalMultReduceDefenseBravo": {
+              "raw": 0,
+              "percent": 0
+            }
+          },
+          "combatRules": {
+            "defaultSp": 0,
+            "toleranceGroggy": -100,
+            "toleranceDebuff": 0,
+            "toleranceDOT": 0,
+            "immuneStiffen": true,
+            "immunePush": true,
+            "immuneKnockBack": true
+          }
+        }
+      ],
+      "runtimeReferences": {}
+    }
+  ],
+  "stageRosters": [
+    {
+      "stageUid": "8210030",
+      "stage": "냉정한 차원: 제 3구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 101,
+          "units": [
+            {
+              "uid": "70401",
+              "name": "크르브르스 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Curburus",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_CurburusCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "8210060",
+      "stage": "냉정한 차원: 제 6구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 101,
+          "units": [
+            {
+              "uid": "70401",
+              "name": "크르브르스 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Curburus",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_CurburusCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "8210090",
+      "stage": "냉정한 차원: 제 9구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 101,
+          "units": [
+            {
+              "uid": "70401",
+              "name": "크르브르스 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Curburus",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_CurburusCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "8210120",
+      "stage": "냉정한 차원: 제 12구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 101,
+          "units": [
+            {
+              "uid": "70401",
+              "name": "크르브르스 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Curburus",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_CurburusCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "8210150",
+      "stage": "냉정한 차원: 제 15구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 101,
+          "units": [
+            {
+              "uid": "70401",
+              "name": "크르브르스 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Curburus",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_CurburusCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "8210180",
+      "stage": "냉정한 차원: 제 18구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 101,
+          "units": [
+            {
+              "uid": "70401",
+              "name": "크르브르스 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Curburus",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_CurburusCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "8210210",
+      "stage": "냉정한 차원: 제 21구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 101,
+          "units": [
+            {
+              "uid": "70401",
+              "name": "크르브르스 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Curburus",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_CurburusCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "8210240",
+      "stage": "냉정한 차원: 제 24구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 101,
+          "units": [
+            {
+              "uid": "70401",
+              "name": "크르브르스 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Curburus",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_CurburusCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stageUid": "8210270",
+      "stage": "냉정한 차원: 제 27구역",
+      "battleTimeSeconds": 180,
+      "waves": [
+        {
+          "order": 101,
+          "units": [
+            {
+              "uid": "70401",
+              "name": "크르브르스 - 냉정",
+              "displayName": null,
+              "displayNameKind": null,
+              "role": "boss",
+              "context": "关卡波次单位",
+              "spine": "Curburus",
+              "personalityCode": 1,
+              "personality": "냉정",
+              "attackTypeCode": 2,
+              "attackType": "魔法",
+              "iconKey": "Icon_CurburusCool",
+              "spineSkinName": null,
+              "spineDefaultAnimation": null,
+              "spineActionSuffix": null,
+              "officialTable": "MonsterInfo",
+              "lifecycle": null,
+              "runtimeReferences": {},
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "encounterGuide": {
+    "status": "普通打法已整理；踩踏按实际覆盖、吞食按单轮说明",
+    "battleTimeLimitSeconds": [
+      180
+    ],
+    "battleTimeline": [
+      {
+        "atSeconds": 20,
+        "condition": "登场20秒后首次可用，此后重复准备，每轮准备20秒；50%和20%血量特动启动时重新计时。其他动作可能延后出招。",
+        "repeatIntervalSeconds": null,
+        "phase": "全阶段",
+        "event": "20秒特动",
+        "category": "time-trigger",
+        "targetType": "attack",
+        "targetId": "curburus-time-20",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      },
+      {
+        "atSeconds": null,
+        "condition": "生命降至50%时触发；登场至少25秒后才可触发",
+        "repeatIntervalSeconds": null,
+        "phase": "全阶段",
+        "event": "50%血量特动：连续踩踏",
+        "category": "hp-trigger",
+        "targetType": "attack",
+        "targetId": "curburus-hp-50-stomp",
+        "timeOrigin": "unit-registration",
+        "earliestAvailabilitySeconds": 25
+      },
+      {
+        "atSeconds": null,
+        "condition": "普通攻击累计3次后，下一次攻击替换为强化踩踏",
+        "repeatIntervalSeconds": null,
+        "phase": "全阶段",
+        "event": "强化攻击",
+        "category": "enhanced",
+        "targetType": "attack",
+        "targetId": "curburus-enhanced",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      },
+      {
+        "atSeconds": null,
+        "condition": "SP蓄满至200后释放",
+        "repeatIntervalSeconds": null,
+        "phase": "全阶段",
+        "event": "SP技能",
+        "category": "sp",
+        "targetType": "attack",
+        "targetId": "curburus-sp",
+        "timeOrigin": null,
+        "earliestAvailabilitySeconds": null
+      },
+      {
+        "atSeconds": null,
+        "relativeWaitSeconds": 50,
+        "condition": "从50%血量的首次踩踏开始计时，最早50秒后可再次踩踏，此后还会重复；20%血量特动会重新计时，其他招式可能使出招延后。",
+        "repeatIntervalSeconds": null,
+        "phase": "按血量特动进程",
+        "event": "连续踩踏再次发动",
+        "category": "hp-trigger",
+        "targetType": "attack",
+        "targetId": "curburus-hp-50-stomp",
+        "timeOrigin": "at-50-percent-special-entry"
+      },
+      {
+        "atSeconds": null,
+        "relativeWaitSeconds": null,
+        "condition": "登场满25秒后，生命降至20%时发动吞食；从这次吞食开始计时，最早40秒后可再次使用，之后还会重复，其他招式可能使出招延后。",
+        "repeatIntervalSeconds": null,
+        "phase": "按血量特动进程",
+        "event": "20%血量特动：吸入、吞下并吐出",
+        "category": "hp-trigger",
+        "targetType": "mechanism",
+        "targetId": "curburus-devour",
+        "timeOrigin": "at-20-percent-special-entry"
+      }
+    ],
+    "phases": [],
+    "attacks": [
+      {
+        "id": "curburus-normal",
+        "category": "normal",
+        "title": "普通攻击",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "无",
+          "summary": "按Boss普通攻击循环使用",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "已证明完整施放",
+            "actionSequence": [
+              {
+                "action": "两次踩踏",
+                "spineAnimation": "Attack1_1_Cool",
+                "eventTimes": [
+                  0.733333,
+                  1.6
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 75,
+                "multiplierMax": 75,
+                "hitCount": 2,
+                "subtotalMin": 150,
+                "subtotalMax": 150,
+                "eventTimes": [
+                  0.733333,
+                  1.6
+                ]
+              }
+            ],
+            "hitCount": 2,
+            "confirmedTotalMultiplier": {
+              "min": 150,
+              "max": 150
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "7040101"
+          }
+        ],
+        "damageSummary": {
+          "display": "75% × 2＝150%",
+          "perHit": [
+            {
+              "min": 75,
+              "max": 75,
+              "count": 2
+            }
+          ],
+          "hitCount": 2,
+          "confirmedTotalMultiplier": {
+            "min": 150,
+            "max": 150
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [],
+        "confirmedTotalMultiplier": {
+          "min": 150,
+          "max": 150
+        },
+        "hitCount": 2,
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 0,
+        "previewOptions": [
+          {
+            "id": "curburus-normal",
+            "label": "普通攻击",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0.733333,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 1.6,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Attack1_1_Cool"
+              ]
+            }
+          }
+        ],
+        "playerResult": "每次普攻连续踩踏2次，每次75%，合计150%。"
+      },
+      {
+        "id": "curburus-enhanced",
+        "category": "enhanced",
+        "title": "强化攻击",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "攻击循环",
+          "summary": "普通攻击累计3次后，下一次攻击替换为强化踩踏",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": 3,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "已证明完整施放",
+            "actionSequence": [
+              {
+                "action": "强化踩踏",
+                "spineAnimation": "Attack2_1_Cool",
+                "eventTimes": [
+                  0.9
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 275,
+                "multiplierMax": 275,
+                "hitCount": 1,
+                "subtotalMin": 275,
+                "subtotalMax": 275,
+                "eventTimes": [
+                  0.9
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 275,
+              "max": 275
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "7040108"
+          }
+        ],
+        "damageSummary": {
+          "display": "275% × 1＝275%",
+          "perHit": [
+            {
+              "min": 275,
+              "max": 275,
+              "count": 1
+            }
+          ],
+          "hitCount": 1,
+          "confirmedTotalMultiplier": {
+            "min": 275,
+            "max": 275
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [],
+        "confirmedTotalMultiplier": {
+          "min": 275,
+          "max": 275
+        },
+        "hitCount": 1,
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 10,
+        "previewOptions": [
+          {
+            "id": "curburus-enhanced",
+            "label": "强化攻击",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0.9,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Attack2_1_Cool"
+              ]
+            }
+          }
+        ],
+        "playerResult": "普通攻击累计3次后，下一次改为强化踩踏：275%伤害，1次。"
+      },
+      {
+        "id": "curburus-sp",
+        "category": "sp",
+        "title": "SP技能",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "SP",
+          "summary": "SP蓄满至200后释放",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [
+            200
+          ],
+          "spRecoveryValues": [
+            8
+          ],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {}
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "已证明完整施放",
+            "actionSequence": [
+              {
+                "action": "连续打击并施加沉默",
+                "spineAnimation": "Skill1_1_Cool",
+                "eventTimes": [
+                  0.4,
+                  0.466667,
+                  0.533333,
+                  1.066667,
+                  1.133333,
+                  1.2,
+                  1.766667,
+                  1.833333,
+                  1.9
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 13.75,
+                "multiplierMax": 13.75,
+                "hitCount": 9,
+                "subtotalMin": 123.75,
+                "subtotalMax": 123.75,
+                "eventTimes": [
+                  0.4,
+                  0.466667,
+                  0.533333,
+                  1.066667,
+                  1.133333,
+                  1.2,
+                  1.766667,
+                  1.833333,
+                  1.9
+                ]
+              },
+              {
+                "kind": "direct",
+                "multiplierMin": 125,
+                "multiplierMax": 125,
+                "hitCount": 9,
+                "subtotalMin": 1125,
+                "subtotalMax": 1125,
+                "eventTimes": [
+                  0.4,
+                  0.466667,
+                  0.533333,
+                  1.066667,
+                  1.133333,
+                  1.2,
+                  1.766667,
+                  1.833333,
+                  1.9
+                ]
+              }
+            ],
+            "hitCount": 18,
+            "confirmedTotalMultiplier": {
+              "min": 1248.75,
+              "max": 1248.75
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "7040102"
+          }
+        ],
+        "damageSummary": {
+          "display": "9组双段伤害 · 合计1248.75%",
+          "perHit": [
+            {
+              "min": 13.75,
+              "max": 13.75,
+              "count": 9
+            },
+            {
+              "min": 125,
+              "max": 125,
+              "count": 9
+            }
+          ],
+          "hitCount": 18,
+          "confirmedTotalMultiplier": {
+            "min": 1248.75,
+            "max": 1248.75
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [
+          {
+            "type": "沉默",
+            "name": "沉默",
+            "description": "命中时使该使徒沉默6秒，期间无法使用技能。",
+            "target": "被该招命中的使徒",
+            "probabilityPercent": 100,
+            "durationSeconds": 6,
+            "value": null,
+            "valueUnit": null,
+            "stacking": null,
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "status",
+            "statusNameKey": "StateName_Silent",
+            "statusKey": "kr:59",
+            "iconUrl": "/boss-wiki/kr/2026-08-27/state-icons/StateIcon_13.png",
+            "iconState": "bound",
+            "nature": "debuff",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "team",
+            "skillId": "curburus-sp",
+            "skillType": "attack",
+            "statusUid": "59"
+          }
+        ],
+        "confirmedTotalMultiplier": {
+          "min": 1248.75,
+          "max": 1248.75
+        },
+        "hitCount": 18,
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 20,
+        "previewOptions": [
+          {
+            "id": "curburus-sp",
+            "label": "SP技能",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0.4,
+                "type": "damage",
+                "label": "13.75%伤害"
+              },
+              {
+                "timeSeconds": 0.466667,
+                "type": "damage",
+                "label": "13.75%伤害"
+              },
+              {
+                "timeSeconds": 0.533333,
+                "type": "damage",
+                "label": "13.75%伤害"
+              },
+              {
+                "timeSeconds": 1.066667,
+                "type": "damage",
+                "label": "13.75%伤害"
+              },
+              {
+                "timeSeconds": 1.133333,
+                "type": "damage",
+                "label": "13.75%伤害"
+              },
+              {
+                "timeSeconds": 1.2,
+                "type": "damage",
+                "label": "13.75%伤害"
+              },
+              {
+                "timeSeconds": 1.766667,
+                "type": "damage",
+                "label": "13.75%伤害"
+              },
+              {
+                "timeSeconds": 1.833333,
+                "type": "damage",
+                "label": "13.75%伤害"
+              },
+              {
+                "timeSeconds": 1.9,
+                "type": "damage",
+                "label": "13.75%伤害"
+              },
+              {
+                "timeSeconds": 0.4,
+                "type": "debuff",
+                "label": "125%伤害＋沉默6秒"
+              },
+              {
+                "timeSeconds": 0.466667,
+                "type": "debuff",
+                "label": "125%伤害＋沉默6秒"
+              },
+              {
+                "timeSeconds": 0.533333,
+                "type": "debuff",
+                "label": "125%伤害＋沉默6秒"
+              },
+              {
+                "timeSeconds": 1.066667,
+                "type": "debuff",
+                "label": "125%伤害＋沉默6秒"
+              },
+              {
+                "timeSeconds": 1.133333,
+                "type": "debuff",
+                "label": "125%伤害＋沉默6秒"
+              },
+              {
+                "timeSeconds": 1.2,
+                "type": "debuff",
+                "label": "125%伤害＋沉默6秒"
+              },
+              {
+                "timeSeconds": 1.766667,
+                "type": "debuff",
+                "label": "125%伤害＋沉默6秒"
+              },
+              {
+                "timeSeconds": 1.833333,
+                "type": "debuff",
+                "label": "125%伤害＋沉默6秒"
+              },
+              {
+                "timeSeconds": 1.9,
+                "type": "debuff",
+                "label": "125%伤害＋沉默6秒"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill1_1_Cool"
+              ]
+            }
+          }
+        ],
+        "playerResult": "SP满200时发动9次连续打击，每次造成13.75%和125%两段伤害，合计1248.75%。125%伤害段命中时附加6秒沉默。"
+      },
+      {
+        "id": "curburus-time-20",
+        "category": "time-trigger",
+        "title": "20秒特动",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "计时",
+          "summary": "登场20秒后首次可用，此后重复准备，每轮准备20秒；50%和20%血量特动启动时重新计时。其他动作可能延后出招。",
+          "firstTriggerTimeSeconds": 20,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": 5,
+          "hpThresholdRaw": null,
+          "hpThresholdPercent": null,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {},
+          "timerCycleSeconds": 20,
+          "repeatMode": "preparation-loop"
+        },
+        "variants": [
+          {
+            "label": "完整动作",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "已证明完整施放",
+            "actionSequence": [
+              {
+                "action": "三段打击",
+                "spineAnimation": "Skill2_1_Cool",
+                "eventTimes": [
+                  0.4,
+                  0.633333,
+                  1.366667
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 24.75,
+                "multiplierMax": 24.75,
+                "hitCount": 3,
+                "subtotalMin": 74.25,
+                "subtotalMax": 74.25,
+                "eventTimes": [
+                  0.4,
+                  0.633333,
+                  1.366667
+                ]
+              }
+            ],
+            "hitCount": 3,
+            "confirmedTotalMultiplier": {
+              "min": 74.25,
+              "max": 74.25
+            },
+            "verdict": "complete-total",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "7040103"
+          }
+        ],
+        "damageSummary": {
+          "display": "24.75% × 3＝74.25%",
+          "perHit": [
+            {
+              "min": 24.75,
+              "max": 24.75,
+              "count": 3
+            }
+          ],
+          "hitCount": 3,
+          "confirmedTotalMultiplier": {
+            "min": 74.25,
+            "max": 74.25
+          },
+          "scope": "complete-cast",
+          "branchRule": null
+        },
+        "effects": [],
+        "confirmedTotalMultiplier": {
+          "min": 74.25,
+          "max": 74.25
+        },
+        "hitCount": 3,
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 30,
+        "previewOptions": [
+          {
+            "id": "curburus-time-20",
+            "label": "20秒特动",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0.4,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 0.633333,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 1.366667,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill2_1_Cool"
+              ]
+            }
+          }
+        ],
+        "playerResult": "登场20秒后可发动，造成3段伤害，每段24.75%，合计74.25%。50%和20%血量特动开始时会重置它的计时，不能当作固定每5秒释放。"
+      },
+      {
+        "id": "curburus-hp-50-stomp",
+        "category": "hp-trigger",
+        "title": "50%血量特动：连续踩踏",
+        "phase": "全阶段",
+        "trigger": {
+          "type": "生命值",
+          "summary": "登场满25秒后，生命降至50%时发动连续踩踏；从这次踩踏开始计时，最早50秒后可再次使用，之后还会重复。20%血量特动会重新开始计时，其他招式可能使出招延后。",
+          "firstTriggerTimeSeconds": null,
+          "repeatIntervalSeconds": null,
+          "cooldownSeconds": null,
+          "hpThresholdRaw": 50,
+          "hpThresholdPercent": 50,
+          "hpLine": null,
+          "approxTotalHpPercent": null,
+          "stackThreshold": null,
+          "spMaxValues": [],
+          "spRecoveryValues": [],
+          "evidenceStatus": "已核对",
+          "runtimeReferences": {},
+          "earliestAvailabilitySeconds": 25,
+          "timeOrigin": "unit-registration"
+        },
+        "variants": [
+          {
+            "label": "第一段踩踏",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "先执行第一段，再接第二段",
+            "actionSequence": [
+              {
+                "action": "第一段踩踏",
+                "spineAnimation": "Skill3_1_Cool",
+                "eventTimes": [
+                  2.966667,
+                  3.033334,
+                  3.633333,
+                  3.7,
+                  4.3,
+                  4.366667,
+                  4.966667,
+                  5.033334,
+                  5.633334,
+                  5.7
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 70,
+                "multiplierMax": 70,
+                "hitCount": 10,
+                "subtotalMin": 700,
+                "subtotalMax": 700,
+                "eventTimes": [
+                  2.966667,
+                  3.033334,
+                  3.633333,
+                  3.7,
+                  4.3,
+                  4.366667,
+                  4.966667,
+                  5.033334,
+                  5.633334,
+                  5.7
+                ]
+              }
+            ],
+            "hitCount": 10,
+            "confirmedTotalMultiplier": {
+              "min": 700,
+              "max": 700
+            },
+            "verdict": "segment-only",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "7040104"
+          },
+          {
+            "label": "第二段踩踏",
+            "phase": "全阶段",
+            "stateVariant": null,
+            "relation": "第一段完成后继续执行",
+            "actionSequence": [
+              {
+                "action": "第二段踩踏",
+                "spineAnimation": "Skill3_2_Cool",
+                "eventTimes": [
+                  0.233333,
+                  0.3,
+                  0.9,
+                  0.966667,
+                  1.533333,
+                  1.6
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 70,
+                "multiplierMax": 70,
+                "hitCount": 6,
+                "subtotalMin": 420,
+                "subtotalMax": 420,
+                "eventTimes": [
+                  0.233333,
+                  0.3,
+                  0.9,
+                  0.966667,
+                  1.533333,
+                  1.6
+                ]
+              }
+            ],
+            "hitCount": 6,
+            "confirmedTotalMultiplier": {
+              "min": 420,
+              "max": 420
+            },
+            "verdict": "segment-only",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "7040104"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "curburus-stomp-complete",
+            "label": "完整踩踏",
+            "sequenceDurationsSeconds": [
+              6.100000381469727,
+              3.133333444595337
+            ],
+            "eventMarkers": [
+              {
+                "timeSeconds": 2.966667,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 3.033334,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 3.633333,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 3.7,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 4.3,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 4.366667,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 4.966667,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 5.033334,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 5.633334,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 5.7,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 6.333333381469727,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 6.400000381469726,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 7.000000381469727,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 7.066667381469727,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 7.633333381469726,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 7.700000381469726,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill3_1_Cool",
+                "Skill3_2_Cool"
+              ]
+            }
+          },
+          {
+            "id": "curburus-stomp-long",
+            "label": "第一段踩踏",
+            "eventMarkers": [
+              {
+                "timeSeconds": 2.966667,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 3.033334,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 3.633333,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 3.7,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 4.3,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 4.366667,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 4.966667,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 5.033334,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 5.633334,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 5.7,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill3_1_Cool"
+              ]
+            }
+          },
+          {
+            "id": "curburus-stomp-short",
+            "label": "第二段踩踏",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0.233333,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 0.3,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 0.9,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 0.966667,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 1.533333,
+                "type": "damage",
+                "label": "伤害"
+              },
+              {
+                "timeSeconds": 1.6,
+                "type": "damage",
+                "label": "伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill3_2_Cool"
+              ]
+            }
+          }
+        ],
+        "damageSummary": {
+          "display": "两段连续踩踏 · 每次命中70%",
+          "perHit": [],
+          "hitCount": null,
+          "confirmedTotalMultiplier": null,
+          "scope": "sequential-area-segments",
+          "branchRule": "第一段10个、第二段6个伤害事件，依次播放；每名使徒受击多少次取决于区域覆盖，不给固定个人总倍率。"
+        },
+        "effects": [],
+        "confirmedTotalMultiplier": null,
+        "hitCount": null,
+        "playerResult": "先踩踏一轮，再接第二轮，每次命中造成70%伤害。生命降至50%时首次发动，之后仍会再次使用；两轮共有16次伤害判定，不是每名使徒都会全部吃到。",
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "sortOrder": 40,
+        "followupTiming": [
+          {
+            "afterHpSpecialPercent": 50,
+            "timeOrigin": "at-special-entry",
+            "timerCycleSeconds": 50,
+            "repeatMode": "preparation-loop"
+          }
+        ]
+      }
+    ],
+    "mechanisms": [
+      {
+        "id": "curburus-devour",
+        "category": "boss-mechanic",
+        "title": "吞食",
+        "triggers": [
+          {
+            "type": "生命值",
+            "summary": "登场满25秒后，生命降至20%时发动吞食；从这次吞食开始计时，最早40秒后可再次使用，之后还会重复，其他招式可能使出招延后。",
+            "firstTriggerTimeSeconds": null,
+            "repeatIntervalSeconds": null,
+            "cooldownSeconds": null,
+            "hpThresholdRaw": 20,
+            "hpThresholdPercent": 20,
+            "hpLine": null,
+            "approxTotalHpPercent": null,
+            "stackThreshold": null,
+            "spMaxValues": [],
+            "spRecoveryValues": [],
+            "evidenceStatus": "已核对",
+            "runtimeReferences": {},
+            "earliestAvailabilitySeconds": 25,
+            "timeOrigin": "at-20-percent-special-entry"
+          }
+        ],
+        "guideTriggerSummary": "登场满25秒后，生命降至20%时发动吞食；从这次吞食开始计时，最早40秒后可再次使用，之后还会重复，其他招式可能使出招延后。",
+        "summary": "先吸入目标，持续约5秒，再吞下并吐出；这是同一套连续动作，不会吞下后等待40秒才吐出。",
+        "playerResponse": "吸入开始前稳住队伍血量，吞下和吐出还会各造成一次伤害，不要在吸入结束后就停止治疗。",
+        "caution": "持续吸入每轮造成4次25%伤害；整个吸入过程的总次数暂不标注。吞下造成200%伤害，吐出再造成250%伤害。",
+        "actionSequence": [
+          {
+            "order": 1,
+            "action": "吸入起手",
+            "spineAnimation": "Skill4_1_Cool",
+            "summary": "吸入动作起手"
+          },
+          {
+            "order": 2,
+            "action": "持续吸入",
+            "spineAnimation": "Skill4_2_Loop_Cool",
+            "summary": "持续约5秒，每轮4次伤害，每次25%"
+          },
+          {
+            "order": 3,
+            "action": "吞入目标",
+            "spineAnimation": "Skill4_3_Cool",
+            "atSeconds": 0.566667,
+            "summary": "吞下目标，造成200%伤害"
+          },
+          {
+            "order": 4,
+            "action": "吐出目标",
+            "spineAnimation": "Skill4_3_Cool",
+            "atSeconds": 3.166667,
+            "summary": "吐出目标，造成250%伤害"
+          }
+        ],
+        "previewOptions": [
+          {
+            "id": "curburus-devour-stage-1",
+            "label": "吸入起手",
+            "eventMarkers": [],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill4_1_Cool"
+              ]
+            }
+          },
+          {
+            "id": "curburus-devour-stage-2",
+            "label": "持续吸入（单轮）",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0,
+                "type": "damage",
+                "label": "循环单轮伤害"
+              },
+              {
+                "timeSeconds": 0.2,
+                "type": "damage",
+                "label": "循环单轮伤害"
+              },
+              {
+                "timeSeconds": 0.4,
+                "type": "damage",
+                "label": "循环单轮伤害"
+              },
+              {
+                "timeSeconds": 0.6,
+                "type": "damage",
+                "label": "循环单轮伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill4_2_Loop_Cool"
+              ]
+            }
+          },
+          {
+            "id": "curburus-devour-stage-3",
+            "label": "吞入与吐出",
+            "eventMarkers": [
+              {
+                "timeSeconds": 0.566667,
+                "type": "control",
+                "label": "吞入并造成200%伤害"
+              },
+              {
+                "timeSeconds": 3.166667,
+                "type": "damage",
+                "label": "吐出并造成250%伤害"
+              }
+            ],
+            "runtimeReferences": {
+              "spineAnimations": [
+                "Skill4_3_Cool"
+              ]
+            }
+          }
+        ],
+        "damageVariants": [
+          {
+            "label": "持续吸入·单轮",
+            "relation": "循环单轮",
+            "actionSequence": [
+              {
+                "action": "持续吸入",
+                "spineAnimation": "Skill4_2_Loop_Cool",
+                "eventTimes": [
+                  0,
+                  0.2,
+                  0.4,
+                  0.6
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 25,
+                "multiplierMax": 25,
+                "hitCount": 4,
+                "subtotalMin": 100,
+                "subtotalMax": 100,
+                "eventTimes": [
+                  0,
+                  0.2,
+                  0.4,
+                  0.6
+                ]
+              }
+            ],
+            "hitCount": 4,
+            "confirmedTotalMultiplier": {
+              "min": 100,
+              "max": 100
+            },
+            "verdict": "loop-single-round",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "7040105"
+          },
+          {
+            "label": "吞入",
+            "relation": "已确认动作段",
+            "actionSequence": [
+              {
+                "action": "吞入目标",
+                "spineAnimation": "Skill4_3_Cool",
+                "eventTimes": [
+                  0.566667
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 200,
+                "multiplierMax": 200,
+                "hitCount": 1,
+                "subtotalMin": 200,
+                "subtotalMax": 200,
+                "eventTimes": [
+                  0.566667
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 200,
+              "max": 200
+            },
+            "verdict": "segment-only",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "7040106"
+          },
+          {
+            "label": "吐出",
+            "relation": "已确认动作段",
+            "actionSequence": [
+              {
+                "action": "吐出目标",
+                "spineAnimation": "Skill4_3_Cool",
+                "eventTimes": [
+                  3.166667
+                ]
+              }
+            ],
+            "perHit": [
+              {
+                "kind": "direct",
+                "multiplierMin": 250,
+                "multiplierMax": 250,
+                "hitCount": 1,
+                "subtotalMin": 250,
+                "subtotalMax": 250,
+                "eventTimes": [
+                  3.166667
+                ]
+              }
+            ],
+            "hitCount": 1,
+            "confirmedTotalMultiplier": {
+              "min": 250,
+              "max": 250
+            },
+            "verdict": "segment-only",
+            "evidenceStatus": "已核对",
+            "sourceSkillUid": "7040107"
+          }
+        ],
+        "effects": [
+          {
+            "type": "吞食",
+            "name": "吞入",
+            "description": "吞下目标。",
+            "target": "被吞目标",
+            "probabilityPercent": 100,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "stacking": null,
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "mechanism-result",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "unknown",
+            "skillId": "curburus-devour",
+            "skillType": "mechanism"
+          },
+          {
+            "type": "释放",
+            "name": "吐出",
+            "description": "将被吞目标吐出。",
+            "target": "被吞目标",
+            "probabilityPercent": 100,
+            "durationSeconds": null,
+            "value": null,
+            "valueUnit": null,
+            "stacking": null,
+            "parameterPending": false,
+            "evidenceStatus": "已核对",
+            "effectKind": "mechanism-result",
+            "sourceRole": "boss",
+            "sourceLabel": "Boss",
+            "targetRole": "unknown",
+            "skillId": "curburus-devour",
+            "skillType": "mechanism"
+          }
+        ],
+        "units": [],
+        "evidenceStatus": "已核对",
+        "runtimeReferences": {},
+        "followupTiming": [
+          {
+            "afterHpSpecialPercent": 20,
+            "timeOrigin": "at-special-entry",
+            "timerCycleSeconds": 40,
+            "repeatMode": "preparation-loop"
+          }
+        ],
+        "triggerNotes": [
+          {
+            "label": "首次吞食",
+            "summary": "登场满25秒后，生命降至20%时触发。"
+          },
+          {
+            "label": "后续吞食",
+            "summary": "从20%血量的首次吞食开始计时，最早40秒后可再次发动整套动作，此后还会重复；其他招式可能使出招延后。"
+          }
+        ]
+      }
+    ],
+    "units": [],
+    "playerAdvice": [
+      "平时按“3次普攻后接强化”准备承伤：普攻每次合计150%，强化275%。",
+      "SP命中会附带6秒沉默。阵容需要能承受这段技能受限期，不要只关注伤害倍率。",
+      "50%和20%血量特动都有登场至少25秒的条件；血量提前达到阈值，不代表当场发动。",
+      "踩踏是先一段、再一段，不是二选一。个人受击次数看区域覆盖，不能把16个事件当成必吃16次。",
+      "吞食收尾仍有200%的吞入和250%的吐出伤害；循环结束后也要继续留意血量。"
+    ],
+    "unresolved": [],
+    "presentationRules": {
+      "rawEntryCount": 8,
+      "playerAttackGroupCount": 5,
+      "playerMechanismCount": 1,
+      "rawSkillEntriesRendered": false,
+      "internalUidsVisibleToPlayer": false
+    },
+    "runtimeReferences": {},
+    "skillOrder": [
+      {
+        "type": "attack",
+        "id": "curburus-normal",
+        "category": "normal"
+      },
+      {
+        "type": "attack",
+        "id": "curburus-enhanced",
+        "category": "enhanced"
+      },
+      {
+        "type": "attack",
+        "id": "curburus-sp",
+        "category": "sp"
+      },
+      {
+        "type": "attack",
+        "id": "curburus-hp-50-stomp",
+        "category": "hp-trigger"
+      },
+      {
+        "type": "mechanism",
+        "id": "curburus-devour",
+        "category": "hp-trigger"
+      },
+      {
+        "type": "attack",
+        "id": "curburus-time-20",
+        "category": "time-trigger"
+      }
+    ]
+  },
+  "runtimeReferences": {},
+  "encounterOrder": 45,
+  "directoryAppearances": []
+}
