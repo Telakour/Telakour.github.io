@@ -1,6 +1,6 @@
 {
-  "studio.meme.loop_sync": "特效循环对齐",
-  "studio.meme.loop_sync_note": "让连续变形、摇摆、抖动和旋转在导出的一轮内完整循环；旋转至少一圈。关闭后使用自由速度。手动定时和关键帧不变，非循环动作不会自动变成循环。",
+  "studio.meme.loop_sync": "特效自动调速循环",
+  "studio.meme.loop_sync_note": "按成品时长调整连续特效的速度，让首尾对齐。短动作可能加快旋转；想保持设定速度请关闭。手动定时、关键帧和原动作的循环设置不变。",
   "studio.export.trim_transparent": "裁掉透明留白",
   "studio.export.trim_transparent_note": "整段统一裁掉四周透明空白，保留少量边距；输出可能变成长方形，不拉伸。",
   "studio.export.trim_transparent_disabled": "仅透明背景可用。",
@@ -634,6 +634,7 @@
   "studio.composition.active": "组合轨道",
   "studio.composition.trigger": "轨道编排",
   "studio.composition.trigger_short": "轨",
+  "studio.composition.mobile_trigger": "轨道",
   "studio.composition.track.main": "主轨道",
   "studio.composition.track.overlay": "叠加轨道",
   "studio.composition.track.link": "链接轨道",

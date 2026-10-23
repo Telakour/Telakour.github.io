@@ -1,6 +1,6 @@
 {
-  "studio.meme.loop_sync": "효과 반복 맞추기",
-  "studio.meme.loop_sync_note": "연속 변형, 흔들림, 진동, 회전을 내보내기 한 주기에 맞춥니다. 회전은 최소 한 바퀴입니다. 끄면 자유 속도를 사용합니다. 예약 및 키프레임은 유지되며 원본 동작의 반복 여부는 바뀌지 않습니다.",
+  "studio.meme.loop_sync": "효과 반복 속도 자동 조정",
+  "studio.meme.loop_sync_note": "출력 길이에 맞춰 연속 효과의 속도를 조정하여 처음과 끝을 맞춥니다. 짧은 동작에서는 회전이 빨라질 수 있습니다. 설정한 속도를 유지하려면 끄세요. 예약, 키프레임, 원본 동작의 반복 설정은 유지됩니다.",
   "studio.export.trim_transparent": "투명 여백 자르기",
   "studio.export.trim_transparent_note": "전체 프레임에 같은 영역을 적용하고 작은 여백을 남깁니다. 늘이지 않으며 출력이 직사각형이 될 수 있습니다.",
   "studio.export.trim_transparent_disabled": "투명 배경에서만 사용할 수 있습니다.",
@@ -634,6 +634,7 @@
   "studio.composition.active": "조합 트랙",
   "studio.composition.trigger": "트랙 편집",
   "studio.composition.trigger_short": "트",
+  "studio.composition.mobile_trigger": "트랙",
   "studio.composition.track.main": "메인 트랙",
   "studio.composition.track.overlay": "오버레이 트랙",
   "studio.composition.track.link": "연결 트랙",

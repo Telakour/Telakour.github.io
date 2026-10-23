@@ -2,7 +2,7 @@
   "version": 1,
   "resourceRoot": "spine",
   "sourceDirectoryName": "spine",
-  "generatedAt": "2026-10-20T10:20:25.085Z",
+  "generatedAt": "2026-10-22T22:06:00.452Z",
   "entries": [
     {
       "resourceCode": "AliceAside",
@@ -541,6 +541,32 @@
         "ChloeAside.atlas.txt.meta",
         "ChloeAside.png.meta",
         "ChloeAside.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "CoffeAside",
+      "resourceGroup": "CoffeAside",
+      "resourceCategory": "aside（坨格）",
+      "folderName": "aside（坨格）/coffeaside",
+      "baseFileName": "CoffeAside",
+      "label": "CoffeAside",
+      "skeletonFileName": "CoffeAside.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "CoffeAside.atlas.txt",
+      "textureFileNames": [
+        "CoffeAside.png"
+      ],
+      "dataFileNames": [
+        "CoffeAside_Atlas.asset",
+        "CoffeAside_Atlas.asset.meta",
+        "CoffeAside_Material.mat",
+        "CoffeAside_Material.mat.meta",
+        "CoffeAside_SkeletonData.asset",
+        "CoffeAside_SkeletonData.asset.meta",
+        "CoffeAside.atlas.txt.meta",
+        "CoffeAside.png.meta",
+        "CoffeAside.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -4451,6 +4477,38 @@
       "isComplete": true
     },
     {
+      "resourceCode": "StoryBG_Coffe",
+      "resourceGroup": "StoryBG_Coffe",
+      "resourceCategory": "其余/剧情模型",
+      "folderName": "其余/剧情模型/storybg_coffe",
+      "baseFileName": "StoryBG_Coffe",
+      "label": "StoryBG_Coffe",
+      "skeletonFileName": "StoryBG_Coffe.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "StoryBG_Coffe.atlas.txt",
+      "textureFileNames": [
+        "StoryBG_Coffe.png"
+      ],
+      "dataFileNames": [],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "StoryFoodObject",
+      "resourceGroup": "StoryFoodObject",
+      "resourceCategory": "其余/剧情模型",
+      "folderName": "其余/剧情模型/storyfoodobject",
+      "baseFileName": "StoryFoodObject",
+      "label": "StoryFoodObject",
+      "skeletonFileName": "StoryFoodObject.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "StoryFoodObject.atlas.txt",
+      "textureFileNames": [
+        "StoryFoodObject.png"
+      ],
+      "dataFileNames": [],
+      "isComplete": true
+    },
+    {
       "resourceCode": "StoryObject",
       "resourceGroup": "StoryObject",
       "resourceCategory": "其余/剧情模型",
@@ -6729,6 +6787,22 @@
       "isComplete": true
     },
     {
+      "resourceCode": "NamePlateSpine11",
+      "resourceGroup": "NamePlateSpine11",
+      "resourceCategory": "其余/名牌",
+      "folderName": "其余/名牌/nameplatespine11",
+      "baseFileName": "NamePlateSpine11",
+      "label": "NamePlateSpine11",
+      "skeletonFileName": "NamePlateSpine11.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "NamePlateSpine11.atlas.txt",
+      "textureFileNames": [
+        "NamePlateSpine11.png"
+      ],
+      "dataFileNames": [],
+      "isComplete": true
+    },
+    {
       "resourceCode": "NamePlateSpine22",
       "resourceGroup": "NamePlateSpine22",
       "resourceCategory": "其余/名牌",
@@ -6896,6 +6970,22 @@
         "FigureL10.png.meta",
         "FigureL10.skel.bytes.meta"
       ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "FigureL104",
+      "resourceGroup": "FigureL104",
+      "resourceCategory": "其余/家具",
+      "folderName": "其余/家具/figurel104_spine",
+      "baseFileName": "FigureL104",
+      "label": "FigureL104",
+      "skeletonFileName": "FigureL104.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "FigureL104.atlas.txt",
+      "textureFileNames": [
+        "FigureL104.png"
+      ],
+      "dataFileNames": [],
       "isComplete": true
     },
     {
@@ -12059,6 +12149,22 @@
       "isComplete": true
     },
     {
+      "resourceCode": "CG_Event78",
+      "resourceGroup": "CG_Event78",
+      "resourceCategory": "其余/活动CG",
+      "folderName": "其余/活动CG/cg_event78",
+      "baseFileName": "CG_Event78",
+      "label": "CG_Event78",
+      "skeletonFileName": "CG_Event78.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "CG_Event78.atlas.txt",
+      "textureFileNames": [
+        "CG_Event78.png"
+      ],
+      "dataFileNames": [],
+      "isComplete": true
+    },
+    {
       "resourceCode": "CG_Flowering",
       "resourceGroup": "CG_Flowering",
       "resourceCategory": "其余/活动CG",
@@ -14309,40 +14415,6 @@
         "CG_2026FoolDay.atlas.txt.meta",
         "CG_2026FoolDay.png.meta",
         "CG_2026FoolDay.skel.bytes.meta"
-      ],
-      "isComplete": true
-    },
-    {
-      "resourceCode": "CG_Chap11-A",
-      "resourceGroup": "CG_Chap11-A",
-      "resourceCategory": "其余/活动CG/国际服",
-      "folderName": "其余/活动CG/国际服/cg_chap11-a",
-      "baseFileName": "CG_Chap11-A",
-      "label": "CG_Chap11-A",
-      "skeletonFileName": "CG_Chap11-A.skel.bytes",
-      "skeletonFormat": "binary",
-      "atlasFileName": "CG_Chap11-A.atlas.txt",
-      "textureFileNames": [
-        "CG_Chap11-A_2.png",
-        "CG_Chap11-A_3.png",
-        "CG_Chap11-A.png"
-      ],
-      "dataFileNames": [
-        "CG_Chap11-A_2.png.meta",
-        "CG_Chap11-A_3.png.meta",
-        "CG_Chap11-A_Atlas.asset",
-        "CG_Chap11-A_Atlas.asset.meta",
-        "CG_Chap11-A_CG_Chap11-A_2.mat",
-        "CG_Chap11-A_CG_Chap11-A_2.mat.meta",
-        "CG_Chap11-A_CG_Chap11-A_3.mat",
-        "CG_Chap11-A_CG_Chap11-A_3.mat.meta",
-        "CG_Chap11-A_CG_Chap11-A.mat",
-        "CG_Chap11-A_CG_Chap11-A.mat.meta",
-        "CG_Chap11-A_SkeletonData.asset",
-        "CG_Chap11-A_SkeletonData.asset.meta",
-        "CG_Chap11-A.atlas.txt.meta",
-        "CG_Chap11-A.png.meta",
-        "CG_Chap11-A.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -19341,6 +19413,38 @@
       "isComplete": true
     },
     {
+      "resourceCode": "ThemeEvent_Coffe_ResultStep",
+      "resourceGroup": "ThemeEvent_Coffe_ResultStep",
+      "resourceCategory": "其余/活动大厅",
+      "folderName": "其余/活动大厅/themeevent_coffe_resultstep",
+      "baseFileName": "ThemeEvent_Coffe_ResultStep",
+      "label": "ThemeEvent_Coffe_ResultStep",
+      "skeletonFileName": "ThemeEvent_Coffe_ResultStep.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "ThemeEvent_Coffe_ResultStep.atlas.txt",
+      "textureFileNames": [
+        "ThemeEvent_Coffe_ResultStep.png"
+      ],
+      "dataFileNames": [],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "ThemeEvent_Coffe_ResultStep_Coffe",
+      "resourceGroup": "ThemeEvent_Coffe_ResultStep_Coffe",
+      "resourceCategory": "其余/活动大厅",
+      "folderName": "其余/活动大厅/themeevent_coffe_resultstep_coffe",
+      "baseFileName": "ThemeEvent_Coffe_ResultStep_Coffe",
+      "label": "ThemeEvent_Coffe_ResultStep_Coffe",
+      "skeletonFileName": "ThemeEvent_Coffe_ResultStep_Coffe.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "ThemeEvent_Coffe_ResultStep_Coffe.atlas.txt",
+      "textureFileNames": [
+        "ThemeEvent_Coffe_ResultStep_Coffe.png"
+      ],
+      "dataFileNames": [],
+      "isComplete": true
+    },
+    {
       "resourceCode": "ThemeRonnie_EventLobby_1",
       "resourceGroup": "ThemeRonnie_EventLobby_1",
       "resourceCategory": "其余/活动大厅",
@@ -23502,6 +23606,22 @@
       "isComplete": true
     },
     {
+      "resourceCode": "Highlight_Coffe",
+      "resourceGroup": "Highlight_Coffe",
+      "resourceCategory": "其余/活动高光",
+      "folderName": "其余/活动高光/highlight_coffe",
+      "baseFileName": "Highlight_Coffe",
+      "label": "Highlight_Coffe",
+      "skeletonFileName": "Highlight_Coffe.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "Highlight_Coffe.atlas.txt",
+      "textureFileNames": [
+        "Highlight_Coffe.png"
+      ],
+      "dataFileNames": [],
+      "isComplete": true
+    },
+    {
       "resourceCode": "Highlight_DaemunTig",
       "resourceGroup": "Highlight_DaemunTig",
       "resourceCategory": "其余/活动高光",
@@ -26863,6 +26983,22 @@
       "isComplete": true
     },
     {
+      "resourceCode": "MyHomeLobby_Altar_Coffe",
+      "resourceGroup": "MyHomeLobby_Altar_Coffe",
+      "resourceCategory": "其余/祭坛",
+      "folderName": "其余/祭坛/myhomelobby_altar_coffe",
+      "baseFileName": "MyHomeLobby_Altar_Coffe",
+      "label": "MyHomeLobby_Altar_Coffe",
+      "skeletonFileName": "MyHomeLobby_Altar_Coffe.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "MyHomeLobby_Altar_Coffe.atlas.txt",
+      "textureFileNames": [
+        "MyHomeLobby_Altar_Coffe.png"
+      ],
+      "dataFileNames": [],
+      "isComplete": true
+    },
+    {
       "resourceCode": "MyHomeLobby_Altar_DayaPureShine",
       "resourceGroup": "MyHomeLobby_Altar_Daya",
       "resourceCategory": "其余/祭坛",
@@ -28130,6 +28266,70 @@
         "Neti_Minimi.png.meta",
         "Neti_Minimi.skel.bytes.meta"
       ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "ArtHall_SelineScript_DisplayBoard",
+      "resourceGroup": "ArtHall_SelineScript_DisplayBoard",
+      "resourceCategory": "其余/迷你游戏",
+      "folderName": "其余/迷你游戏/arthall_selinescript_displayboard",
+      "baseFileName": "ArtHall_SelineScript_DisplayBoard",
+      "label": "ArtHall_SelineScript_DisplayBoard",
+      "skeletonFileName": "ArtHall_SelineScript_DisplayBoard.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "ArtHall_SelineScript_DisplayBoard.atlas.txt",
+      "textureFileNames": [
+        "ArtHall_SelineScript_DisplayBoard.png"
+      ],
+      "dataFileNames": [],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "ArtHall_SelineScript_Lobby",
+      "resourceGroup": "ArtHall_SelineScript_Lobby",
+      "resourceCategory": "其余/迷你游戏",
+      "folderName": "其余/迷你游戏/arthall_selinescript_lobby",
+      "baseFileName": "ArtHall_SelineScript_Lobby",
+      "label": "ArtHall_SelineScript_Lobby",
+      "skeletonFileName": "ArtHall_SelineScript_Lobby.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "ArtHall_SelineScript_Lobby.atlas.txt",
+      "textureFileNames": [
+        "ArtHall_SelineScript_Lobby.png"
+      ],
+      "dataFileNames": [],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "MiniGameCoffeArm",
+      "resourceGroup": "MiniGameCoffeArm",
+      "resourceCategory": "其余/迷你游戏",
+      "folderName": "其余/迷你游戏/minigamecoffearm",
+      "baseFileName": "MiniGameCoffeArm",
+      "label": "MiniGameCoffeArm",
+      "skeletonFileName": "MiniGameCoffeArm.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "MiniGameCoffeArm.atlas.txt",
+      "textureFileNames": [
+        "MiniGameCoffeArm.png"
+      ],
+      "dataFileNames": [],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "MiniGameCoffeCoffee",
+      "resourceGroup": "MiniGameCoffeCoffee",
+      "resourceCategory": "其余/迷你游戏",
+      "folderName": "其余/迷你游戏/minigamecoffecoffee",
+      "baseFileName": "MiniGameCoffeCoffee",
+      "label": "MiniGameCoffeCoffee",
+      "skeletonFileName": "MiniGameCoffeCoffee.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "MiniGameCoffeCoffee.atlas.txt",
+      "textureFileNames": [
+        "MiniGameCoffeCoffee.png"
+      ],
+      "dataFileNames": [],
       "isComplete": true
     },
     {
@@ -31540,6 +31740,22 @@
         "Pet_MiniButter.png.meta",
         "Pet_MiniButter.skel.bytes.meta"
       ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "Pet_MiniCallamori",
+      "resourceGroup": "Pet_MiniCallamori",
+      "resourceCategory": "宠物",
+      "folderName": "宠物/pet_minicallamori",
+      "baseFileName": "Pet_MiniCallamori",
+      "label": "Pet_MiniCallamori",
+      "skeletonFileName": "Pet_MiniCallamori.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "Pet_MiniCallamori.atlas.txt",
+      "textureFileNames": [
+        "Pet_MiniCallamori.png"
+      ],
+      "dataFileNames": [],
       "isComplete": true
     },
     {
@@ -36931,6 +37147,62 @@
         "Chopi.atlas.txt.meta",
         "Chopi.png.meta",
         "Chopi.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "Coffe",
+      "resourceGroup": "Coffe",
+      "resourceCategory": "战斗模型",
+      "folderName": "战斗模型/coffe",
+      "baseFileName": "Coffe",
+      "label": "Coffe",
+      "skeletonFileName": "Coffe.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "Coffe.atlas.txt",
+      "textureFileNames": [
+        "Coffe.png"
+      ],
+      "dataFileNames": [
+        "Coffe_Atlas.asset",
+        "Coffe_Atlas.asset.meta",
+        "Coffe_Material.mat",
+        "Coffe_Material.mat.meta",
+        "Coffe_SkeletonData.asset",
+        "Coffe_SkeletonData.asset.meta",
+        "Coffe_SpineEvents.bytes",
+        "Coffe_SpineEvents.bytes.meta",
+        "Coffe.atlas.txt.meta",
+        "Coffe.png.meta",
+        "Coffe.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "CoffeSkin1",
+      "resourceGroup": "Coffe",
+      "resourceCategory": "战斗模型",
+      "folderName": "战斗模型/coffeskin1",
+      "baseFileName": "CoffeSkin1",
+      "label": "CoffeSkin1",
+      "skeletonFileName": "CoffeSkin1.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "CoffeSkin1.atlas.txt",
+      "textureFileNames": [
+        "CoffeSkin1.png"
+      ],
+      "dataFileNames": [
+        "CoffeSkin1_Atlas.asset",
+        "CoffeSkin1_Atlas.asset.meta",
+        "CoffeSkin1_Material.mat",
+        "CoffeSkin1_Material.mat.meta",
+        "CoffeSkin1_SkeletonData.asset",
+        "CoffeSkin1_SkeletonData.asset.meta",
+        "CoffeSkin1_SpineEvents.bytes",
+        "CoffeSkin1_SpineEvents.bytes.meta",
+        "CoffeSkin1.atlas.txt.meta",
+        "CoffeSkin1.png.meta",
+        "CoffeSkin1.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -48691,6 +48963,58 @@
         "Chopi.atlas.txt.meta",
         "Chopi.png.meta",
         "Chopi.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "Coffe",
+      "resourceGroup": "Coffe",
+      "resourceCategory": "正常使徒",
+      "folderName": "正常使徒/coffe",
+      "baseFileName": "Coffe",
+      "label": "Coffe",
+      "skeletonFileName": "Coffe.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "Coffe.atlas.txt",
+      "textureFileNames": [
+        "Coffe.png"
+      ],
+      "dataFileNames": [
+        "Coffe_Atlas.asset",
+        "Coffe_Atlas.asset.meta",
+        "Coffe_Material.mat",
+        "Coffe_Material.mat.meta",
+        "Coffe_Standing.asset",
+        "Coffe_Standing.asset.meta",
+        "Coffe.atlas.txt.meta",
+        "Coffe.png.meta",
+        "Coffe.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "CoffeSkin1",
+      "resourceGroup": "Coffe",
+      "resourceCategory": "正常使徒",
+      "folderName": "正常使徒/coffeskin1",
+      "baseFileName": "CoffeSkin1",
+      "label": "CoffeSkin1",
+      "skeletonFileName": "CoffeSkin1.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "CoffeSkin1.atlas.txt",
+      "textureFileNames": [
+        "CoffeSkin1.png"
+      ],
+      "dataFileNames": [
+        "CoffeSkin1_Atlas.asset",
+        "CoffeSkin1_Atlas.asset.meta",
+        "CoffeSkin1_Material.mat",
+        "CoffeSkin1_Material.mat.meta",
+        "CoffeSkin1_Standing.asset",
+        "CoffeSkin1_Standing.asset.meta",
+        "CoffeSkin1.atlas.txt.meta",
+        "CoffeSkin1.png.meta",
+        "CoffeSkin1.skel.bytes.meta"
       ],
       "isComplete": true
     },

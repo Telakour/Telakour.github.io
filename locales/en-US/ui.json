@@ -1,6 +1,6 @@
 {
-  "studio.meme.loop_sync": "Align effect loop",
-  "studio.meme.loop_sync_note": "Fit continuous deformation, sway, shake and rotation to the export cycle; rotation makes at least one turn. Turn off for free speed. Explicit schedules, keyframes and the source animation's looping behavior stay unchanged.",
+  "studio.meme.loop_sync": "Auto-adjust effect speed for looping",
+  "studio.meme.loop_sync_note": "Adjust continuous effects to match the output duration and align the ends. Short clips may rotate faster; turn off to keep your chosen speed. Explicit schedules, keyframes and source animation loop settings stay unchanged.",
   "studio.export.trim_transparent": "Trim transparent margins",
   "studio.export.trim_transparent_note": "Crop every frame to the same bounds with a small margin. Output may become rectangular; content is not stretched.",
   "studio.export.trim_transparent_disabled": "Available with transparent backgrounds only.",
@@ -634,6 +634,7 @@
   "studio.composition.active": "Composition Tracks",
   "studio.composition.trigger": "Track Editor",
   "studio.composition.trigger_short": "Tr",
+  "studio.composition.mobile_trigger": "Tracks",
   "studio.composition.track.main": "Main Track",
   "studio.composition.track.overlay": "Overlay Track",
   "studio.composition.track.link": "Link Track",

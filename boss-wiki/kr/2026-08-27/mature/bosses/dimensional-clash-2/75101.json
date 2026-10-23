@@ -4956,7 +4956,14 @@
           }
         ],
         "evidenceStatus": "已核对",
-        "runtimeReferences": {}
+        "runtimeReferences": {},
+        "skillIllustrations": [
+          {
+            "name": "护盾",
+            "description": "喵漫塔生成护盾。",
+            "iconUrl": "/boss-wiki/assets/skill-illustrations/Icon_CoreSkill_NT00_1.png"
+          }
+        ]
       },
       {
         "id": "nt00-75101-circuit",
@@ -5155,6 +5162,23 @@
           {
             "label": "破盾者限制",
             "summary": "直接破盾的使徒获得45秒“禁止接近”，期间不能再次通过直接破盾类效果破坏护盾。"
+          }
+        ],
+        "skillIllustrations": [
+          {
+            "name": "混乱喵",
+            "description": "根据受到的不同减益种类数，喵漫塔的防御降低，受到的伤害增加。",
+            "iconUrl": "/boss-wiki/assets/skill-illustrations/Icon_CoreSkill_NT00_4.png"
+          },
+          {
+            "name": "回路暴露",
+            "description": "通过破盾效果破坏护盾时，喵漫塔受到与自身最大生命值成比例的伤害。破盾的使徒会被施加“禁止接近”。",
+            "iconUrl": "/boss-wiki/assets/skill-illustrations/Icon_CoreSkill_NT00_2.png"
+          },
+          {
+            "name": "禁止接近",
+            "description": "一段时间内，无法通过破盾效果破坏护盾。",
+            "iconUrl": "/boss-wiki/assets/skill-illustrations/Icon_CoreSkill_NT00_3.png"
           }
         ]
       }

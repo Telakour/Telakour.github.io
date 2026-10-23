@@ -9,6 +9,13 @@
   var activeCanvases = new Set();
   var configPromises = new Map();
   var copyPromises = new Map();
+  // Bounded in-memory evidence for intermittent renders; no storage or network writes.
+  var diagnosticHistory = [];
+
+  function updateDiagnostic(canvas, token, fields) {
+    Object.assign(token.diagnostic, fields);
+    canvas.dataset.loadingSpineDiagnostic = JSON.stringify(token.diagnostic);
+  }
 
   function ensureTrailingSlash(value) {
     return value.endsWith("/") ? value : value + "/";
@@ -281,6 +288,27 @@
           };
         });
         initialized = true;
+        updateDiagnostic(canvas, token, {
+          status: "initialized",
+          models: models.map(function (model, index) {
+            var selection = selections[index];
+            var track = model.state.getCurrent(0);
+            var atlas = renderContext.assetManager.get(selection.atlasUrl);
+            return {
+              id: selection.id,
+              skeletonUrl: selection.skeletonUrl,
+              atlasUrl: selection.atlasUrl,
+              skin: model.skeleton.skin && model.skeleton.skin.name,
+              animation: track && track.animation && track.animation.name,
+              animationTime: track && track.trackTime,
+              textures: atlas.pages.map(function (page) {
+                var image = page.texture.getImage();
+                return { name: page.name, atlasWidth: page.width, atlasHeight: page.height,
+                  imageWidth: image.width, imageHeight: image.height };
+              }),
+            };
+          }),
+        });
       },
       update: function (_renderContext, delta) {
         if (!canvas.isConnected) {
@@ -311,6 +339,7 @@
         renderContext.renderer.end();
         if (!visualReadyNotified) {
           visualReadyNotified = true;
+          updateDiagnostic(canvas, token, { status: "ready", firstFrameAt: Date.now() });
           canvas.classList.add("is-ready");
           canvas.dispatchEvent(new CustomEvent("codex-loading-spine-ready", {
             bubbles: true,
@@ -325,7 +354,8 @@
           }
         }
       },
-      error: function () {
+      error: function (_renderContext, errors) {
+        updateDiagnostic(canvas, token, { status: "error", error: String(JSON.stringify(errors) || "Unknown asset error") });
         canvas.classList.add("is-unavailable");
       },
       dispose: function (renderContext) {
@@ -358,7 +388,11 @@
       pending: true,
       mascotRandom: createSeededRandom(mascotSeed + ":mascots"),
       copyRandom: createSeededRandom(mascotSeed + ":copy"),
+      diagnostic: { seed: mascotSeed, startedAt: mascotStartedAt, status: "loading" },
     };
+    diagnosticHistory.push(token.diagnostic);
+    if (diagnosticHistory.length > 16) diagnosticHistory.shift();
+    updateDiagnostic(canvas, token, {});
     sessions.set(canvas, token);
     activeCanvases.add(canvas);
     var assetRoot = resolveRoot(canvas.dataset.loadingRoot, defaultAssetRoot);
@@ -379,7 +413,8 @@
         );
         if (session) sessions.set(canvas, { session: session });
       })
-      .catch(function () {
+      .catch(function (error) {
+        updateDiagnostic(canvas, token, { status: "error", error: String(error && error.message || error) });
         canvas.classList.add("is-unavailable");
         sessions.delete(canvas);
         activeCanvases.delete(canvas);
@@ -409,6 +444,9 @@
 
   global.codexStartLoadingSpine = start;
   global.codexStopLoadingSpine = stop;
+  global.codexGetLoadingSpineDiagnostics = function () {
+    return JSON.parse(JSON.stringify(diagnosticHistory));
+  };
   global.codexRefreshLoadingSpines = function () { scan(document); };
 
   var observer = new MutationObserver(function (records) {

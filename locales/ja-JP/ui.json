@@ -1,6 +1,6 @@
 {
-  "studio.meme.loop_sync": "エフェクトのループを合わせる",
-  "studio.meme.loop_sync_note": "連続した変形・揺れ・振動・回転を出力の1周に合わせます。回転は最低1回転です。オフでは自由速度を使います。タイミングとキーフレーム、元の動作のループ設定は変えません。",
+  "studio.meme.loop_sync": "エフェクトのループ速度を自動調整",
+  "studio.meme.loop_sync_note": "出力の長さに合わせて連続エフェクトの速度を調整し、先頭と末尾を合わせます。短い動作では回転が速くなる場合があります。設定速度を保つにはオフにしてください。タイミング、キーフレーム、元の動作のループ設定は変えません。",
   "studio.export.trim_transparent": "透明な余白を切り取る",
   "studio.export.trim_transparent_note": "全フレームを同じ範囲で切り取り、わずかな余白を残します。引き伸ばさず、出力が長方形になる場合があります。",
   "studio.export.trim_transparent_disabled": "透明背景でのみ使用できます。",
@@ -634,6 +634,7 @@
   "studio.composition.active": "合成トラック",
   "studio.composition.trigger": "トラック編集",
   "studio.composition.trigger_short": "軌",
+  "studio.composition.mobile_trigger": "トラック",
   "studio.composition.track.main": "メイントラック",
   "studio.composition.track.overlay": "オーバーレイトラック",
   "studio.composition.track.link": "リンクトラック",

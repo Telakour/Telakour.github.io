@@ -3805,7 +3805,14 @@
           "uninterruptedDamageEvents": 30,
           "interruptible": true,
           "perEventMultiplier": 50
-        }
+        },
+        "skillIllustrations": [
+          {
+            "name": "愤怒永春",
+            "description": "黑化永春连续跺脚，对敌人造成多次伤害。跺脚结束后获得1层愤怒。\n愤怒：提高伤害和基础SP恢复量。",
+            "iconUrl": "/boss-wiki/assets/skill-illustrations/Icon_CoreSkill_YC00_1.png"
+          }
+        ]
       }
     ],
     "mechanisms": [
@@ -3838,6 +3845,18 @@
           {
             "label": "使徒限制",
             "summary": "第2次眩晕的施加者获得“行为的代价”，持续50秒；期间不能再次触发“小小反抗”。"
+          }
+        ],
+        "skillIllustrations": [
+          {
+            "name": "小小反抗",
+            "description": "愤怒永春施放期间，受到2次眩晕会被打断，并受到与自身最大生命值成比例的伤害。施加第2次眩晕的使徒会被施加“行为的代价”。",
+            "iconUrl": "/boss-wiki/assets/skill-illustrations/Icon_CoreSkill_YC00_2.png"
+          },
+          {
+            "name": "行为的代价",
+            "description": "受到“行为的代价”的使徒，在一段时间内无法在愤怒永春施放期间触发“小小反抗”。",
+            "iconUrl": "/boss-wiki/assets/skill-illustrations/Icon_CoreSkill_YC00_3.png"
           }
         ]
       }
