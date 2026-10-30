@@ -2,7 +2,7 @@
   "version": 1,
   "resourceRoot": "spine",
   "sourceDirectoryName": "spine",
-  "generatedAt": "2026-10-22T22:06:00.452Z",
+  "generatedAt": "2026-10-29T19:27:02.531Z",
   "entries": [
     {
       "resourceCode": "AliceAside",
@@ -3937,6 +3937,22 @@
       "isComplete": true
     },
     {
+      "resourceCode": "Chapter_S1_Bonus_2",
+      "resourceGroup": "Chapter_S1_Bonus_2",
+      "resourceCategory": "其余/主线章节",
+      "folderName": "其余/主线章节/chapter_s1_bonus_2",
+      "baseFileName": "Chapter_S1_Bonus_2",
+      "label": "Chapter_S1_Bonus_2",
+      "skeletonFileName": "Chapter_S1_Bonus_2.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "Chapter_S1_Bonus_2.atlas.txt",
+      "textureFileNames": [
+        "Chapter_S1_Bonus_2.png"
+      ],
+      "dataFileNames": [],
+      "isComplete": true
+    },
+    {
       "resourceCode": "Chapter_S2_1",
       "resourceGroup": "Chapter_S2_1",
       "resourceCategory": "其余/主线章节",
@@ -4532,6 +4548,22 @@
         "StoryObject.png.meta",
         "StoryObject.skel.bytes.meta"
       ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "UserAniProfileSpine25",
+      "resourceGroup": "UserAniProfileSpine25",
+      "resourceCategory": "其余/动态头像",
+      "folderName": "其余/动态头像/useraniprofilespine25",
+      "baseFileName": "UserAniProfileSpine25",
+      "label": "UserAniProfileSpine25",
+      "skeletonFileName": "UserAniProfileSpine25.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "UserAniProfileSpine25.atlas.txt",
+      "textureFileNames": [
+        "UserAniProfileSpine25.png"
+      ],
+      "dataFileNames": [],
       "isComplete": true
     },
     {
@@ -9730,6 +9762,22 @@
       "isComplete": true
     },
     {
+      "resourceCode": "FigureXL61",
+      "resourceGroup": "FigureXL61",
+      "resourceCategory": "其余/家具",
+      "folderName": "其余/家具/figurexl61_spine",
+      "baseFileName": "FigureXL61",
+      "label": "FigureXL61",
+      "skeletonFileName": "FigureXL61.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "FigureXL61.atlas.txt",
+      "textureFileNames": [
+        "FigureXL61.png"
+      ],
+      "dataFileNames": [],
+      "isComplete": true
+    },
+    {
       "resourceCode": "Garden_Pot_Big_18",
       "resourceGroup": "Garden_Pot_Big_18",
       "resourceCategory": "其余/家具",
@@ -10709,6 +10757,27 @@
         "CG_Chap10-B.png.meta",
         "CG_Chap10-B.skel.bytes.meta"
       ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "CG_Chap11-A",
+      "resourceGroup": "CG_Chap11-A",
+      "resourceCategory": "其余/活动CG",
+      "folderName": "其余/活动CG/cg_chap11-a",
+      "baseFileName": "CG_Chap11-A",
+      "label": "CG_Chap11-A",
+      "skeletonFileName": "CG_Chap11-A.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "CG_Chap11-A.atlas.txt",
+      "textureFileNames": [
+        "CG_Chap11-A_2.png",
+        "CG_Chap11-A_3.png",
+        "CG_Chap11-A_4.png",
+        "CG_Chap11-A_5.png",
+        "CG_Chap11-A_6.png",
+        "CG_Chap11-A.png"
+      ],
+      "dataFileNames": [],
       "isComplete": true
     },
     {
@@ -13439,6 +13508,22 @@
       "isComplete": true
     },
     {
+      "resourceCode": "CG_S3_Chap08-B",
+      "resourceGroup": "CG_S3_Chap08-B",
+      "resourceCategory": "其余/活动CG",
+      "folderName": "其余/活动CG/cg_s3_chap08-b",
+      "baseFileName": "CG_S3_Chap08-B",
+      "label": "CG_S3_Chap08-B",
+      "skeletonFileName": "CG_S3_Chap08-B.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "CG_S3_Chap08-B.atlas.txt",
+      "textureFileNames": [
+        "CG_S3_Chap08-B.png"
+      ],
+      "dataFileNames": [],
+      "isComplete": true
+    },
+    {
       "resourceCode": "CG_Skin01",
       "resourceGroup": "CG_",
       "resourceCategory": "其余/活动CG",
@@ -14415,6 +14500,38 @@
         "CG_2026FoolDay.atlas.txt.meta",
         "CG_2026FoolDay.png.meta",
         "CG_2026FoolDay.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "CG_Chap11-A",
+      "resourceGroup": "CG_Chap11-A",
+      "resourceCategory": "其余/活动CG/国际服",
+      "folderName": "其余/活动CG/国际服/cg_chap11-a",
+      "baseFileName": "CG_Chap11-A",
+      "label": "CG_Chap11-A",
+      "skeletonFileName": "CG_Chap11-A.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "CG_Chap11-A.atlas.txt",
+      "textureFileNames": [
+        "CG_Chap11-A.png"
+      ],
+      "dataFileNames": [
+        "CG_Chap11-A_2.png.meta",
+        "CG_Chap11-A_3.png.meta",
+        "CG_Chap11-A_Atlas.asset",
+        "CG_Chap11-A_Atlas.asset.meta",
+        "CG_Chap11-A_CG_Chap11-A_2.mat",
+        "CG_Chap11-A_CG_Chap11-A_2.mat.meta",
+        "CG_Chap11-A_CG_Chap11-A_3.mat",
+        "CG_Chap11-A_CG_Chap11-A_3.mat.meta",
+        "CG_Chap11-A_CG_Chap11-A.mat",
+        "CG_Chap11-A_CG_Chap11-A.mat.meta",
+        "CG_Chap11-A_SkeletonData.asset",
+        "CG_Chap11-A_SkeletonData.asset.meta",
+        "CG_Chap11-A.atlas.txt.meta",
+        "CG_Chap11-A.png.meta",
+        "CG_Chap11-A.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -25662,6 +25779,22 @@
       "isComplete": true
     },
     {
+      "resourceCode": "Highlight_S3_Chapter08-B_01",
+      "resourceGroup": "Highlight_S3_Chapter08-B_01",
+      "resourceCategory": "其余/活动高光",
+      "folderName": "其余/活动高光/highlight_s3_chapter08-b_01",
+      "baseFileName": "Highlight_S3_Chapter08-B_01",
+      "label": "Highlight_S3_Chapter08-B_01",
+      "skeletonFileName": "Highlight_S3_Chapter08-B_01.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "Highlight_S3_Chapter08-B_01.atlas.txt",
+      "textureFileNames": [
+        "Highlight_S3_Chapter08-B_01.png"
+      ],
+      "dataFileNames": [],
+      "isComplete": true
+    },
+    {
       "resourceCode": "Highlight_Scizor",
       "resourceGroup": "Highlight_Scizor",
       "resourceCategory": "其余/活动高光",
@@ -28103,6 +28236,22 @@
       "isComplete": true
     },
     {
+      "resourceCode": "Garden_Garden_WorldTree",
+      "resourceGroup": "Garden_Garden_WorldTree",
+      "resourceCategory": "其余/花园组件",
+      "folderName": "其余/花园组件/garden_garden_worldtree",
+      "baseFileName": "Garden_Garden_WorldTree",
+      "label": "Garden_Garden_WorldTree",
+      "skeletonFileName": "Garden_Garden_WorldTree.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "Garden_Garden_WorldTree.atlas.txt",
+      "textureFileNames": [
+        "Garden_Garden_WorldTree.png"
+      ],
+      "dataFileNames": [],
+      "isComplete": true
+    },
+    {
       "resourceCode": "Minimi",
       "resourceGroup": "Minimi",
       "resourceCategory": "其余",
@@ -30092,6 +30241,22 @@
         "SkinPassBorderline_19.png.meta",
         "SkinPassBorderline_19.skel.bytes.meta"
       ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "SkinPassBorderline_20",
+      "resourceGroup": "SkinPassBorderline_20",
+      "resourceCategory": "其余/通行证边框",
+      "folderName": "其余/通行证边框/skinpassborderline_20",
+      "baseFileName": "SkinPassBorderline_20",
+      "label": "SkinPassBorderline_20",
+      "skeletonFileName": "SkinPassBorderline_20.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "SkinPassBorderline_20.atlas.txt",
+      "textureFileNames": [
+        "SkinPassBorderline_20.png"
+      ],
+      "dataFileNames": [],
       "isComplete": true
     },
     {
@@ -36783,6 +36948,32 @@
         "ButterSkin3.atlas.txt.meta",
         "ButterSkin3.png.meta",
         "ButterSkin3.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
+      "resourceCode": "ButterSkin4",
+      "resourceGroup": "Butter",
+      "resourceCategory": "战斗模型",
+      "folderName": "战斗模型/butterskin4",
+      "baseFileName": "ButterSkin4",
+      "label": "ButterSkin4",
+      "skeletonFileName": "ButterSkin4.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "ButterSkin4.atlas.txt",
+      "textureFileNames": [
+        "ButterSkin4.png"
+      ],
+      "dataFileNames": [
+        "ButterSkin4_Atlas.asset",
+        "ButterSkin4_Atlas.asset.meta",
+        "ButterSkin4_Material.mat",
+        "ButterSkin4_Material.mat.meta",
+        "ButterSkin4_SkeletonData.asset",
+        "ButterSkin4_SkeletonData.asset.meta",
+        "ButterSkin4.atlas.txt.meta",
+        "ButterSkin4.png.meta",
+        "ButterSkin4.skel.bytes.meta"
       ],
       "isComplete": true
     },
@@ -48575,6 +48766,32 @@
       "isComplete": true
     },
     {
+      "resourceCode": "ButterSkin4",
+      "resourceGroup": "Butter",
+      "resourceCategory": "正常使徒",
+      "folderName": "正常使徒/butterskin4",
+      "baseFileName": "ButterSkin4",
+      "label": "ButterSkin4",
+      "skeletonFileName": "ButterSkin4.skel.bytes",
+      "skeletonFormat": "binary",
+      "atlasFileName": "ButterSkin4.atlas.txt",
+      "textureFileNames": [
+        "ButterSkin4.png"
+      ],
+      "dataFileNames": [
+        "ButterSkin4_Atlas.asset",
+        "ButterSkin4_Atlas.asset.meta",
+        "ButterSkin4_Material.mat",
+        "ButterSkin4_Material.mat.meta",
+        "ButterSkin4_Standing.asset",
+        "ButterSkin4_Standing.asset.meta",
+        "ButterSkin4.atlas.txt.meta",
+        "ButterSkin4.png.meta",
+        "ButterSkin4.skel.bytes.meta"
+      ],
+      "isComplete": true
+    },
+    {
       "resourceCode": "Canna",
       "resourceGroup": "Canna",
       "resourceCategory": "正常使徒",
@@ -58658,6 +58875,8 @@
     "其余/活动高光/renewa_lobby"
   ],
   "excludedFolders": [
+    "_animation-variants/kr-10.22/coffe",
+    "_animation-variants/kr-10.22/coffeskin1",
     "其余/collections/dummyposterm48_spine",
     "其余/collections/figurel10_spine",
     "其余/collections/figurel11_spine",
